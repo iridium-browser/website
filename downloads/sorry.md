@@ -1,15 +1,20 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: we are sorry!
+subtitle: ooops
 description: We are sorry! IridiumBrowser is currently not available for your platform or your operating system could not be detected.
 menu: no
 id: downloads
 ---
 
-IridiumBrowser is currently not available for your platform or your operating system could not be detected.
-     
-we currently serve the following platforms only     
+<div class="icon dl fa-warning"></div>
+
+<header>
+	<h3>We are sorry!</h3>
+	<p>IridiumBrowser is currently not available for your platform or your operating system could not be detected.</p>
+</header>
+
+we currently serve the following     
 <span style="font-size:1.1em; font-weight:bold;">
 <a href="windows.html" style="text-decoration:none;"><span class="fa fa-windows"></span> Windows 7+</a>    
 <a href="mac_os.html" style="text-decoration:none;"><span class="fa fa-apple"></span> Mac OS X 10.9+</a>      

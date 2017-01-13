@@ -21,10 +21,6 @@ id: downloads
 	sudo apt-get update
 	sudo apt-get install iridium-browser
      
-<p>system requirements<br/>
-&#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+<br/>
-&#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
-
 <span id="suse"></span>
 
 <hr>
@@ -57,6 +53,8 @@ id: downloads
 	zypper in iridium-browser
     
 <p>system requirements<br/>
+&#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+<br/>
+&#8226; openSUSE 13.1+, Leap 42.1+, Tumbleweed<br/>
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
 
 <hr>
