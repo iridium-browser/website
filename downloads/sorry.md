@@ -7,7 +7,7 @@ menu: no
 id: downloads
 ---
 
-<div class="icon dl fa-warning"></div>
+<div class="icon dl fa-frown-o"></div>
 
 <header>
 	<h3>We are sorry!</h3>
