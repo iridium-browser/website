@@ -17,9 +17,9 @@ id: downloads
 
 <p>Browse the source code with your browser<br/>
 Git web view <a href="https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/" target="_blank">https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/</a></p>
-  
+
 <hr>
-     
+
 If you are looking for a different platform please choose from the following     
 <span style="font-size:1.1em; font-weight:bold;">
 <a href="windows.html" style="text-decoration:none;"><span class="fa fa-windows"></span> Windows 7+</a>    

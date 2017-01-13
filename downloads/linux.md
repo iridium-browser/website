@@ -1,8 +1,8 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: Download IridiumBrowser for Ubuntu, Debian, Mint or OpenSUSE
-description: Download IridiumBrowser for Ubuntu, Debian, Mint or OpenSUSE
+subtitle: Download IridiumBrowser for Ubuntu, Debian, Mint, OpenSUSE
+description: Download IridiumBrowser for Ubuntu, Debian, Mint and openSUSE
 menu: no
 id: downloads
 ---

@@ -1,15 +1,15 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: Download IridiumBrowser for Mac OS
-description: Download IridiumBrowser for Mac OS
+subtitle: Download IridiumBrowser for Mac OS X
+description: Download IridiumBrowser for Mac OS X 10.9+
 menu: no
 id: downloads
 ---
  
 <div class="icon dl fa-apple"></div>
 <header>
-	<h3>Mac OS X</h3>
+	<h3>Mac OS X 10.9+</h3>
 	<p>current version 51.1</p>
 </header>
 <div class="row" style="margin-top: -1.5em;">

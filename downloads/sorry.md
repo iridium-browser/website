@@ -8,7 +8,6 @@ id: downloads
 ---
 
 <div class="icon dl fa-frown-o"></div>
-
 <header>
 	<h3>We are sorry!</h3>
 	<p>IridiumBrowser is currently not available for your platform or your operating system could not be detected.</p>
@@ -22,7 +21,7 @@ we currently serve the following
 <a href="linux.html#suse" style="text-decoration:none;"><span class="fl fl-opensuse" style="font-size:1.25em;"></span> openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed</a>     
 </span>
 	 
-<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for iOS, Android, Windows Phone or any other mobile OS!     	 
+<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for Android, iOS, Windows Phone or any other mobile OS!     	 
 
 <span style="font-size:1.1em; font-weight:bold;">
 <a href="git.html" style="text-decoration:none;"><span class="fa fa-github"></span> clone the Source Code with Git</a>      

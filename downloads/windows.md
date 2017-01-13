@@ -1,7 +1,7 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: Download IridiumBrowser for Windows 7+
+subtitle: Download IridiumBrowser for Windows
 description: Download IridiumBrowser for Windows 7+
 menu: no
 id: downloads
