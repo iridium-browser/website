@@ -1,17 +1,15 @@
 ---
 layout: pagecentered
-title: "Download"
-subtitle: ooops
+title: "Ooops"
+subtitle: We are sorry!
 description: We are sorry! IridiumBrowser is currently not available for your platform or your operating system could not be detected.
 menu: no
 id: downloads
 ---
 
-<div class="icon dl fa-frown-o"></div>
-<header>
-	<h3>We are sorry!</h3>
-	<p>IridiumBrowser is currently not available for your platform or your operating system could not be detected.</p>
-</header>
+<div class="icon dl"><span style="font-size:3em;" class="fa fa-frown-o"></span></div>
+<span style="font-size:1.25em;">Your operating system could not be detected or IridiumBrowser is not available for your platform.</span>     
+
 
 we currently serve the following     
 <span style="font-size:1.1em; font-weight:bold;">
