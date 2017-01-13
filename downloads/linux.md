@@ -56,7 +56,13 @@ id: downloads
     
 <p>system requirements<br/>
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
-     
+
+<hr>
+
+If this is not your Operating System or if you are looking for a different platform please choose from the following     
+<a href="windows.html"><span class="fa fa-windows"></span> Windows 7+</a> | 
+<a href="mac_os"><span class="fa fa-apple"></span> Mac OS X 10.9+</a> | 
+	 
 <hr>
   
 <div class="icon dl fa-github"></div>

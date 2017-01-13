@@ -10,10 +10,10 @@ id: downloads
 IridiumBrowser is currently not available for your platform or your operating system could not be detected.
      
 we currently serve the following platforms only     
-<a href="windows.html"><span class="fa fa-windows"></span> Windows 7+</a>     
-<a href="mac_os"><span class="fa fa-apple"></span> Mac OS X 10.9+</a>     
-<a href="linux.html"><span class="fl fl-ubuntu"></span> Ubuntu 14.04+ (64-bit)</a>     
-<a href="linux.html"><span class="fl fl-debian"></span> Debian 8+ (64-bit)</a>     
+<a href="windows.html"><span class="fa fa-windows"></span> Windows 7+</a> | 
+<a href="mac_os"><span class="fa fa-apple"></span> Mac OS X 10.9+</a> | 
+<a href="linux.html"><span class="fl fl-ubuntu"></span> Ubuntu 14.04+ (64-bit)</a> | 
+<a href="linux.html"><span class="fl fl-debian"></span> Debian 8+ (64-bit)</a> | 
 <a href="linux.html"><span class="fl fl-opensuse"></span> openSUSE 13+/Leap/Tumbleweed</a>     
      
 <span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for iOS, Android, Windows Phone or any other mobile OS!     

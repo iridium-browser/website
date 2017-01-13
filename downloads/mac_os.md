@@ -32,6 +32,14 @@ If you are looking for previous versions, please check out the <a href="https://
   
 <p>system requirements<br/>
 &#8226; OS X Mavericks 10.9+</p>
+	 
+<hr>
+  
+If this is not your Operating System or if you are looking for a different platform please choose from the following     
+<a href="windows.html"><span class="fa fa-windows"></span> Windows 7+</a> | 
+<a href="linux.html"><span class="fl fl-ubuntu"></span> Ubuntu 14.04+ (64-bit)</a> | 
+<a href="linux.html"><span class="fl fl-debian"></span> Debian 8+ (64-bit)</a> | 
+<a href="linux.html"><span class="fl fl-opensuse"></span> openSUSE 13+/Leap/Tumbleweed</a>     
     
 <hr>
   

@@ -22,11 +22,21 @@ id: downloads
 If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/windows/" target="_blank">Builds Archive</a><br/>
 
 <p>system requirements<br/>
-&#8226; Windows 7 or later<br/>
+&#8226; Windows 7+<br/>
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
      
 <p>Windows Installer provided by <a href="http://www.advancedinstaller.com/" target="_blank">Advanced Installer</a></p>
 	 
+<hr>
+  
+If this is not your Operating System or if you are looking for a different platform please choose from the following     
+<a href="mac_os"><span class="fa fa-apple"></span> Mac OS X 10.9+</a> | 
+<a href="linux.html"><span class="fl fl-ubuntu"></span> Ubuntu 14.04+ (64-bit)</a> | 
+<a href="linux.html"><span class="fl fl-debian"></span> Debian 8+ (64-bit)</a> | 
+<a href="linux.html"><span class="fl fl-opensuse"></span> openSUSE 13+/Leap/Tumbleweed</a>     
+	 
+<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for iOS, Android, Windows Phone or any other mobile OS!     	 
+     
 <hr>
   
 <div class="icon dl fa-github"></div>
