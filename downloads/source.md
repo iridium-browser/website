@@ -1,15 +1,21 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: we are sorry!
-description: We are sorry! IridiumBrowser is currently not available for your platform or your operating system could not be detected.
+subtitle: download the source code
+description: Download the IridiumBrowser source code
 menu: no
 id: downloads
 ---
 
-IridiumBrowser is currently not available for your platform or your operating system could not be detected.
-     
-we currently serve the following platforms only     
+<div class="icon dl fa-code"></div>
+<header>
+<h3>Source Code</h3>
+</header>
+<p>Download at <a href="https://downloads.iridiumbrowser.de/source/" target="_blank">https://downloads.iridiumbrowser.de/source/</a></p>
+
+<hr>
+
+If you are looking for a different platform please choose from the following     
 <span style="font-size:1.1em; font-weight:bold;">
 <a href="windows.html" style="text-decoration:none;"><span class="fa fa-windows"></span> Windows 7+</a>    
 <a href="mac_os.html" style="text-decoration:none;"><span class="fa fa-apple"></span> Mac OS X 10.9+</a>      
@@ -21,5 +27,4 @@ we currently serve the following platforms only
 
 <span style="font-size:1.1em; font-weight:bold;">
 <a href="git.html" style="text-decoration:none;"><span class="fa fa-github"></span> clone the Source Code with Git</a>      
-<a href="source.html" style="text-decoration:none;"><span class="fa fa-code"></span> download the Source Code</a>      
 </span>

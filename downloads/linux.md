@@ -1,15 +1,15 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: Download IridiumBrowser for Ubuntu, Debian or OpenSUSE
-description: Download IridiumBrowser for Ubuntu, Debian or OpenSUSE
+subtitle: Download IridiumBrowser for Ubuntu, Debian, Mint or OpenSUSE
+description: Download IridiumBrowser for Ubuntu, Debian, Mint or OpenSUSE
 menu: no
 id: downloads
 ---
 
 <div class="icon dl fa-linux"></div> 
 <header>
-	<h3>Repository for Ubuntu / Debian</h3>
+	<h3>Repository for Ubuntu | Debian | Mint</h3>
 	<p>current version 54.0</p>
 </header>
 
@@ -22,9 +22,11 @@ id: downloads
 	sudo apt-get install iridium-browser
      
 <p>system requirements<br/>
-&#8226; 64-bit Ubuntu 14.04+ / Debian 8+<br/>
+&#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+<br/>
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
-   
+
+<span id="suse"></span>
+
 <hr>
   
 <div class="dlinux fl-opensuse"></div>
@@ -60,27 +62,14 @@ id: downloads
 <hr>
 
 If this is not your Operating System or if you are looking for a different platform please choose from the following     
-<a href="windows.html"><span class="fa fa-windows"></span> Windows 7+</a> | 
-<a href="mac_os"><span class="fa fa-apple"></span> Mac OS X 10.9+</a> | 
+<span style="font-size:1.1em; font-weight:bold;">
+<a href="windows.html" style="text-decoration:none;"><span class="fa fa-windows"></span> Windows 7+</a>    
+<a href="mac_os.html" style="text-decoration:none;"><span class="fa fa-apple"></span> Mac OS X 10.9+</a>      
+</span>
 	 
-<hr>
-  
-<div class="icon dl fa-github"></div>
-<header>
-	<h3>Git Repository</h3>
-	<p>Clone the source code with Git</p>
-</header>
+<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for iOS, Android, Windows Phone or any other mobile OS!     	 
 
-	git clone https://git.iridiumbrowser.de/git/iridium-browser
-
-<p>Browse the source code with your browser<br/>
-Git web view <a href="https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/" target="_blank">https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/</a></p>
-  
-<hr>
-  
-<div class="icon dl fa-code"></div>
-<header>
-<h3>Source Code</h3>
-</header>
-<p>Download at <a href="https://downloads.iridiumbrowser.de/source/" target="_blank">https://downloads.iridiumbrowser.de/source/</a></p>
-
+<span style="font-size:1.1em; font-weight:bold;">
+<a href="git.html" style="text-decoration:none;"><span class="fa fa-github"></span> clone the Source Code with Git</a>      
+<a href="source.html" style="text-decoration:none;"><span class="fa fa-code"></span> download the Source Code</a>      
+</span>
