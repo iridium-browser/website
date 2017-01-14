@@ -16,7 +16,7 @@ id: downloads
 		else if (os_name == "Ubuntu") { window.location="linux.html"; }
 		else if (os_name == "Debian") { window.location="linux.html"; }
 		else if (os_name == "Linux") { window.location="linux.html"; }
-		else if (os_name == "SUSE") { window.location="linux.html"; }
+		else if (os_name == "SUSE") { window.location="linux.html#suse"; }
 		else if (os_name == "CentOS") { window.location="linux.html"; }
 		else if (os_name == "Fedora") { window.location="linux.html"; }
 		else if (os_name == "DragonFly") { window.location="linux.html"; }
