@@ -1,10 +1,10 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: Download IridiumBrowser for Windows
+subtitle: IridiumBrowser for Windows 7+
 description: Download IridiumBrowser for Windows 7+
 menu: no
-id: downloads
+id: windows
 ---
 
 <div class="icon dl fa-windows"></div>
@@ -12,11 +12,11 @@ id: downloads
 	<h3>Windows 7+</h3>
 	<p>current version 54.0</p>
 </header>
-<div class="row">
-	<div class="3u 2u(large) 1u(medium) not-small">&nbsp;</div>
-	<div class="3u 4u(large) 5u(medium) 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi" title="download 32-bit Version">32-bit Download</a></div>
-	<div class="3u 4u(large) 5u(medium) 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi" title="download 64-bit Version">64-bit Download</a></div>
-	<div class="3u 2u(large) 1u(medium) not-small">&nbsp;</div>
+<div class="container 50%">
+	<div class="row">
+		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi" title="download 32-bit Version">32-bit Download</a></div>
+		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi" title="download 64-bit Version">64-bit Download</a></div>
+	</div>
 </div>
 <br/>
 If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/windows/" target="_blank">Builds Archive</a><br/>
@@ -27,18 +27,22 @@ If you are looking for previous versions, please check out the <a href="https://
      
 <p>Windows Installer provided by <a href="http://www.advancedinstaller.com/" target="_blank">Advanced Installer</a></p>
 	 
-<hr>
-  
-If this is not your Operating System or if you are looking for a different platform please choose from the following     
-<span style="font-size:1.1em; font-weight:bold;">
-<a href="mac_os.html" style="text-decoration:none;"><span class="fa fa-apple"></span> Mac OS X 10.9+</a>      
-<a href="linux.html" style="text-decoration:none;"><span class="fl fl-ubuntu"></span> Ubuntu 14.04+ (64-bit) &#8226; <span class="fl fl-debian"></span> Debian 8+ (64-bit) &#8226; <span class="fl fl-linuxmint"></span> Mint 17+ (64-bit)</a>      
-<a href="linux.html#suse" style="text-decoration:none;"><span class="fl fl-opensuse" style="font-size:1.25em;"></span> openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed</a>     
+<hr/>
+If this is not your Operating System or if you are looking for a different platform please choose from the following	  
+<div class="container 50%">
+	<div class="row">
+		<div class="6u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OSX Download Page">Mac OSX</a></div>
+		<div class="6u 12u$(small)"><a class="button small fit icon fa-linux" href="linux.html" title="Linux Download Page"> Linux</a></div>
+	</div>
+</div>
+<br/>
+Currently IridiumBrowser is available for the following Operating Systems<br/>
+<span class="os-text">
+Windows 7+ &#8226; 
+ Mac OS X 10.9+ &#8226; 
+ Ubuntu 14.04+ (64-bit) &#8226; 
+ Debian 8+ (64-bit) &#8226; 
+ Mint 17+ (64-bit) &#8226;
+ openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed<br/>
 </span>
-	 
-<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for iOS, Android, Windows Phone or any other mobile OS!     	 
-
-<span style="font-size:1.1em; font-weight:bold;">
-<a href="git.html" style="text-decoration:none;"><span class="fa fa-github"></span> clone the Source Code with Git</a>      
-<a href="source.html" style="text-decoration:none;"><span class="fa fa-code"></span> download the Source Code</a>      
-</span>
+<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for Android, iOS, Windows Phone or any other mobile OS!

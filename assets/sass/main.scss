@@ -2801,7 +2801,7 @@
 
 /* DOWNLOADS */
 	
-	#downloads {
+	#downloads, #windows, #mac_os, #linux, #source, #sorry {
 		background-color: #ececec;
 		
 		.icon {
@@ -2813,6 +2813,14 @@
 				display: block;
 				line-height: 1.25em;
 			}
+			&.dl-sorry {
+				font-size: 10em !important;
+				color: _palette(accent1, bg) !important;
+				position: relative;
+				display: block;
+				line-height: 1em;
+				margin-bottom: .15em;
+			}
 		}
 		.dlinux {
 			font-size: 6em !important;
@@ -2820,6 +2828,11 @@
 			position: relative;
 			display: block;
 			line-height: 1.25em;
+		}
+		
+		.os-text {
+			font-size:1.1em;
+			font-weight: bold;
 		}
 		
 		h4 {

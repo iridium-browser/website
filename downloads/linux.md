@@ -1,7 +1,7 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: Download IridiumBrowser for Ubuntu, Debian, Mint, OpenSUSE
+subtitle: IridiumBrowser for Ubuntu, Debian, Mint, OpenSUSE
 description: Download IridiumBrowser for Ubuntu, Debian, Mint and openSUSE
 menu: no
 id: downloads
@@ -57,17 +57,23 @@ id: downloads
 &#8226; openSUSE 13.1+, Leap 42.1+, Tumbleweed<br/>
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
 
-<hr>
+<hr/>
 
-If this is not your Operating System or if you are looking for a different platform please choose from the following     
-<span style="font-size:1.1em; font-weight:bold;">
-<a href="windows.html" style="text-decoration:none;"><span class="fa fa-windows"></span> Windows 7+</a>    
-<a href="mac_os.html" style="text-decoration:none;"><span class="fa fa-apple"></span> Mac OS X 10.9+</a>      
+If this is not your Operating System or if you are looking for a different platform please choose from the following	  
+<div class="container 50%">
+	<div class="row">
+		<div class="6u 12u$(small)"><a class="button small fit icon fa-windows" href="windows.html" title="Windows Download Page">Windows</a></div>
+		<div class="6u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OSX Download Page">Mac OSX</a></div>
+	</div>
+</div>
+<br/>
+Currently IridiumBrowser is available for the following Operating Systems<br/>
+<span style="font-size:1.1em;font-weight:bold;">
+Windows 7+ &#8226; 
+ Mac OS X 10.9+ &#8226; 
+ Ubuntu 14.04+ (64-bit) &#8226; 
+ Debian 8+ (64-bit) &#8226; 
+ Mint 17+ (64-bit) &#8226;
+ openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed<br/>
 </span>
-	 
-<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for iOS, Android, Windows Phone or any other mobile OS!     	 
-
-<span style="font-size:1.1em; font-weight:bold;">
-<a href="git.html" style="text-decoration:none;"><span class="fa fa-github"></span> clone the Source Code with Git</a>      
-<a href="source.html" style="text-decoration:none;"><span class="fa fa-code"></span> download the Source Code</a>      
-</span>
+<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for Android, iOS, Windows Phone or any other mobile OS!
