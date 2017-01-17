@@ -4,7 +4,7 @@ title: "...Ooops..."
 subtitle: We are sorry
 description: We are sorry! IridiumBrowser is currently not available for your platform or your operating system could not be detected.
 menu: no
-id: downloads
+id: sorry
 ---
 
 <div class="icon dl-sorry fa-frown-o"></div>
@@ -16,7 +16,7 @@ id: downloads
 	<div class="row">
 		<div class="12u$ align-center"><h3>Downloads</h3></div>
 		<div class="4u 12u$(small)"><a class="button small fit icon fa-windows" href="windows.html" title="Windows Download Page">Windows</a></div>
-		<div class="4u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OSX Download Page">Mac OSX</a></div>
+		<div class="4u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OS Download Page">Mac OS</a></div>
 		<div class="4u 12u$(small)"><a class="button small fit icon fa-linux" href="linux.html" title="Linux Download Page"> Linux</a></div>
 	</div>
 </div>

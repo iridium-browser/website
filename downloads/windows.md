@@ -31,7 +31,7 @@ If you are looking for previous versions, please check out the <a href="https://
 If this is not your Operating System or if you are looking for a different platform please choose from the following	  
 <div class="container 50%">
 	<div class="row">
-		<div class="6u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OSX Download Page">Mac OSX</a></div>
+		<div class="6u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OS Download Page">Mac OS</a></div>
 		<div class="6u 12u$(small)"><a class="button small fit icon fa-linux" href="linux.html" title="Linux Download Page"> Linux</a></div>
 	</div>
 </div>

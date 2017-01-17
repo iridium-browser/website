@@ -1,10 +1,10 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: IridiumBrowser for Ubuntu, Debian, Mint, OpenSUSE
+subtitle: IridiumBrowser for Linux
 description: Download IridiumBrowser for Ubuntu, Debian, Mint and openSUSE
 menu: no
-id: downloads
+id: linux
 ---
 
 <div class="icon dl fa-linux"></div> 
@@ -63,12 +63,12 @@ If this is not your Operating System or if you are looking for a different platf
 <div class="container 50%">
 	<div class="row">
 		<div class="6u 12u$(small)"><a class="button small fit icon fa-windows" href="windows.html" title="Windows Download Page">Windows</a></div>
-		<div class="6u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OSX Download Page">Mac OSX</a></div>
+		<div class="6u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OS Download Page">Mac OS</a></div>
 	</div>
 </div>
 <br/>
 Currently IridiumBrowser is available for the following Operating Systems<br/>
-<span style="font-size:1.1em;font-weight:bold;">
+<span class="os-text">
 Windows 7+ &#8226; 
  Mac OS X 10.9+ &#8226; 
  Ubuntu 14.04+ (64-bit) &#8226; 

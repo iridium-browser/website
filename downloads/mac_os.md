@@ -1,15 +1,15 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: IridiumBrowser for Mac OSX 10.9+
+subtitle: IridiumBrowser for Mac OS X 10.9+
 description: Download IridiumBrowser for Mac OSX 10.9+
 menu: no
-id: downloads
+id: mac_os
 ---
  
 <div class="icon dl fa-apple"></div>
 <header>
-	<h3>Mac OSX 10.9+</h3>
+	<h3>Mac OS X 10.9+</h3>
 	<p>current version 51.1</p>
 </header>
 <div class="container 50%">
@@ -44,7 +44,7 @@ If this is not your Operating System or if you are looking for a different platf
 </div>
 <br/>
 Currently IridiumBrowser is available for the following Operating Systems<br/>
-<span style="font-size:1.1em;font-weight:bold;">
+<span class="os-text">
 Windows 7+ &#8226; 
  Mac OS X 10.9+ &#8226; 
  Ubuntu 14.04+ (64-bit) &#8226; 

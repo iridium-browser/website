@@ -4,7 +4,7 @@ title: "Download"
 subtitle: IridiumBrowser source code
 description: Download the IridiumBrowser source code
 menu: no
-id: downloads
+id: source
 ---
 
 <div class="icon dl fa-github"></div>
@@ -33,7 +33,7 @@ Git web view <a href="https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/" t
 	<div class="row">
 		<div class="12u$ align-center"><h3>Downloads</h3></div>
 		<div class="4u 12u$(small)"><a class="button small fit icon fa-windows" href="windows.html" title="Windows Download Page">Windows</a></div>
-		<div class="4u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OSX Download Page">Mac OSX</a></div>
+		<div class="4u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OS Download Page">Mac OS</a></div>
 		<div class="4u 12u$(small)"><a class="button small fit icon fa-linux" href="linux.html" title="Linux Download Page"> Linux</a></div>
 	</div>
 </div>
