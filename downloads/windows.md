@@ -45,4 +45,4 @@ Windows 7+ &#8226;
  Mint 17+ (64-bit) &#8226;
  openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed<br/>
 </span>
-<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for Android, iOS, Windows Phone or any other mobile OS!
+<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!
