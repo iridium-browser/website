@@ -23,8 +23,8 @@ Please try to install the extension manually or from chrome://extensions/
 
 ----
 
-##### Is IridiumBrowser available for Android or iOS? #    
-IridiumBrowser is currently not available for Android or iOS.
+##### Is IridiumBrowser available for Android, iOS or Windows Phone/Mobile? #    
+IridiumBrowser is currently <u>not</u> available for Android, iOS, Windows Phone/Mobile or any other mobile OS.
 
 ----
 
