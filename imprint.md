@@ -7,8 +7,8 @@ id: imprint
 ---
 
 #### Bug Tracker ####
-Please report any  issues and address any questions to our Bug Tracker @ GitHub     
-<a class="button small" href="https://github.com/iridium-browser/iridium-browser/issues" title="Bug Tracker">Bug Tracker</a>     
+Please report any  issues and address any questions to our ug Tracker @ GitHub      
+**[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker"){:target="_blank" .button .small}**      
 
 ----
    
