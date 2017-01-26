@@ -8,4 +8,4 @@ categories: news
 ---
 
 IridiumBrowser releases version 54.0 for **Ubuntu, Debian and Mint** and various **OpenSUSE** versions including **Leap 42.1/42.2, 13.2 and Tumbleweed**.      
-Now available in the [Download Section](/download.html "download IridiumBrowser v54.0") 
+Now available in the [Download Section](downloads/linux.html "download IridiumBrowser v54.0") 

@@ -7,4 +7,4 @@ author:	by admin
 categories: news
 ---
 
-IridiumBrowser releases version 54.0 for Windows. Now available in the [Download Section](/download.html "download version 54.0 for Windows")
+IridiumBrowser releases version 54.0 for Windows. Now available in the [Download Section](downloads/windows.html "download version 54.0 for Windows")
