@@ -12,6 +12,7 @@ id: windows
 	<h3>Windows 7+</h3>
 	<p>current version 54.0</p>
 </header>
+
 <div class="container 50%">
 	<div class="row">
 		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi" title="download 32-bit Version">32-bit Download</a></div>
