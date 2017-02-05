@@ -1,4 +1,5 @@
 RewriteEngine on
 Redirect 301 /download https://iridiumbrowser.de/downloads/
+Redirect 301 /download/ https://iridiumbrowser.de/downloads/
 Redirect 301 download.html https://iridiumbrowser.de/downloads/
 Redirect 301 downloads.html https://iridiumbrowser.de/downloads/
