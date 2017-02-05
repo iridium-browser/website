@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^download.*$ https://iridiumbrowser.de/downloads/$1 [R=301,L]
+RewriteRule ^download.html(.*)$ https://iridiumbrowser.de/downloads/$1 [R=301,L]
+RewriteRule ^downloads.html(.*)$ https://iridiumbrowser.de/downloads/$1 [R=301,L]
