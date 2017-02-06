@@ -4,4 +4,5 @@ RewriteRule ^download.html$ /downloads/ [R=301,L]
 RewriteRule ^downloads.html$ /downloads/ [R=301,L]
 RewriteRule ^download(/|$) /downloads/ [R=301,L]
 
-ErrorDocument 404 /404.html
+ErrorDocument 404 https://iridiumbrowser.de/404.html
+
