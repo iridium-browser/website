@@ -2,7 +2,7 @@
 layout: pagecentered
 title: "Imprint"
 description: Imprint | Legal Information
-menu: no
+menu: false
 id: imprint
 ---
 
