@@ -4,8 +4,9 @@ title: "...Ooops..."
 subtitle: We are sorry
 description: We are sorry! IridiumBrowser is currently not available for your platform or your operating system could not be detected.
 menu: false
-sitemap: false
 id: sorry
+sitemap:
+  exclude: 'yes'
 ---
 
 <div class="icon dl-sorry fa-frown-o"></div>

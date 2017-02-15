@@ -5,6 +5,10 @@ subtitle: IridiumBrowser for Mac OS X 10.9+
 description: Download IridiumBrowser for Mac OSX 10.9+
 menu: no
 id: mac_os
+sitemap:
+  lastmod: 2016-10-23
+  priority: 0.9
+  changefreq: 'monthly'
 ---
  
 <div class="icon dl fa-apple"></div>

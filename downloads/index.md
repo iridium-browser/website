@@ -1,10 +1,12 @@
 ---
 layout: pagecentered
 title: "Download"
-subtitle: 
+subtitle: ""
 description: Download IridiumBrowser for Windows, Mac OS, Ubuntu, Debian, Mint or OpenSUSE
 menu: 2
 id: downloads
+sitemap:
+  exclude: 'yes'
 ---
 
 <script type="text/javascript">

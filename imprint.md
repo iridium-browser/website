@@ -4,6 +4,10 @@ title: "Imprint"
 description: Imprint | Legal Information
 menu: false
 id: imprint
+sitemap:
+  lastmod: 2016-10-23
+  priority: 0.1
+  changefreq: 'monthly'
 ---
 
 #### Bug Tracker ####
