@@ -6,9 +6,7 @@ description: Download IridiumBrowser for Ubuntu, Debian, Mint and openSUSE
 menu: no
 id: linux
 sitemap:
-  lastmod: 2017-01-02
-  priority: 0.9
-  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 <div class="icon dl fa-linux"></div> 

@@ -6,9 +6,7 @@ description: Download IridiumBrowser for Windows 7+
 menu: no
 id: windows
 sitemap:
-  lastmod: 2016-11-09
-  priority: 0.9
-  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 <div class="icon dl fa-windows"></div>

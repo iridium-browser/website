@@ -6,9 +6,7 @@ description: Download the IridiumBrowser source code
 menu: no
 id: source
 sitemap:
-  lastmod: 2016-10-23
-  priority: 0.9
-  changefreq: 'monthly'
+  exclude: 'yes'
 ---
 
 <div class="icon dl fa-github"></div>
