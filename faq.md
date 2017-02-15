@@ -3,7 +3,7 @@ layout: pagecentered
 title: "FAQ"
 subtitle: "Frequently Asked Questions"
 description: "Frequently Asked Questions"
-menu: main
+menu: 3
 id: faq
 ---
 
