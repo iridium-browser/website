@@ -2,7 +2,7 @@
 layout: post
 title:  "IridiumBrowser releases version 54.0 for Linux"
 description: IridiumBrowser releases version 54.0 for Linux. Now available for Download.
-date:   2017-1-2 16:00:00 +0200
+date:   2017-01-02 16:00:00 +0200
 author:	by admin
 categories: news
 ---
