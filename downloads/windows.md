@@ -5,6 +5,8 @@ subtitle: IridiumBrowser for Windows 7+
 description: Download IridiumBrowser for Windows 7+
 menu: no
 id: windows
+sitemap:
+  exclude: 'yes'
 ---
 
 <div class="icon dl fa-windows"></div>

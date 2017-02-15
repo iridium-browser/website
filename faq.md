@@ -3,8 +3,12 @@ layout: pagecentered
 title: "FAQ"
 subtitle: "Frequently Asked Questions"
 description: "Frequently Asked Questions"
-menu: main
+menu: 3
 id: faq
+sitemap:
+  lastmod: 2016-10-23
+  priority: 0.3
+  changefreq: 'monthly'
 ---
 
 ##### What are the differences between Iridium and Chromium? #    

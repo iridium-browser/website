@@ -5,6 +5,8 @@ subtitle: IridiumBrowser source code
 description: Download the IridiumBrowser source code
 menu: no
 id: source
+sitemap:
+  exclude: 'yes'
 ---
 
 <div class="icon dl fa-github"></div>

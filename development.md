@@ -3,8 +3,12 @@ layout: pagecentered
 title: "Development"
 subtitle: "How to take part in development"
 description: "Take part in developing IridiumBrowser"
-menu: main
+menu: 1
 id: development
+sitemap:
+  lastmod: 2016-10-23
+  priority: 0.3
+  changefreq: 'monthly'
 ---
 
 <span class="fa fa-user-md " style="font-size:9em; color:#4499D4;"></span>
