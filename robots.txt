@@ -1,23 +1,9 @@
-# ===================================
-# Generator: http://pixelfolk.net/tools/robots
-# Erstellt am: 15.02.2017, 08:35
-# Webseite: https://iridiumbrowser.de
-# ===================================
-
 Sitemap: https://iridiumbrowser.de/sitemap.xml
-
-# ===================================
-# Folgende Seiten sollen nicht indexiert werden:
-# ===================================
 
 User-agent: *
 Disallow: /cgi-bin/
 Disallow: /admin/
 Disallow: /temp/
-
-# ===================================
-# Schlieﬂe folgende Spider komplett aus:
-# ===================================
 
 User-agent: WebReaper
 User-agent: WebCopier
