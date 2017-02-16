@@ -7,7 +7,7 @@ id: imprint
 sitemap:
   lastmod: 2016-10-23
   priority: 0.1
-  changefreq: 'monthly'
+  changefreq: 'weekly'
 ---
 
 #### Bug Tracker ####
