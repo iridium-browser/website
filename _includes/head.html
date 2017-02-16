@@ -6,30 +6,39 @@
         
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="{% if page.description %}{{ page.description }}">{% endif %}
+		<meta http-equiv="content-language" content="DE">
+		<meta http-equiv="Expires"	content="0">
+		<meta name="revisit-after"	content="1">
+		<meta name="Robots"			content="index, follow">
+		<meta name="Rating"			content="General">
+		<meta name="Copyright"		content="Open Source Business Alliance">
+		<meta name="Keywords"		content="IridiumBrowser, Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Secure Browser Project, Secure Browser, Privacy Browser, Chromium based, Windows, MacOS, Ubuntu, Debian, Mint, openSUSE, Linux">
+		<meta name="Title"			content="{% if page.title %}{{ site.title | escape }} | {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+		<meta name="Description" 	content="{% if page.description %}{{ page.description }}{% endif %}">
+
 		<!-- Facebook -->
 		<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 		<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-		<meta property="og:image" content="{{ "/images/Iridium-hotpic_FB.png" | prepend: site.baseurl | prepend: site.url }}">
+		<meta property="og:image" content="{{ '/images/Iridium-hotpic_FB.png' | prepend: site.baseurl | prepend: site.url }}">
 		<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 		<meta property="og:site_name" content="{{ site.title }}">
 		<!-- Twitter -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@iridiumbrowser">
+		<meta name="twitter:site" content="@IridiumBrowser">
 		<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 		<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-		<meta property="twitter:image:src" content="{{ "/images/Iridium-hotpic_TW.png" | prepend: site.baseurl | prepend: site.url }}">
+		<meta property="twitter:image:src" content="{{ '/images/Iridium-hotpic_TW.png' | prepend: site.baseurl | prepend: site.url }}">
 		<!-- GooglePlus -->
 		<meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
 		<meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-		<meta itemprop="image" content="{{ "/images/Iridium-hotpic_Goo.png" | prepend: site.baseurl | prepend: site.url }}"/>
+		<meta itemprop="image" content="{{ '/images/Iridium-hotpic_Goo.png' | prepend: site.baseurl | prepend: site.url }}"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
 
         <link href="{{ site.baseurl }}/images/app-icons/AppIcon72x72.png" rel="apple-touch-icon" />
         <link href="{{ site.baseurl }}/images/app-icons/AppIcon76x76@2x.png" sizes="152x152" rel="apple-touch-icon" />	<!-- iOS 7 iPad (retina) -->
