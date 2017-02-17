@@ -8,7 +8,7 @@ id: faq
 sitemap:
   lastmod: 2016-10-23
   priority: 0.3
-  changefreq: 'monthly'
+  changefreq: 'daily'
 ---
 
 ##### What are the differences between Iridium and Chromium? #    
