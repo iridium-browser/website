@@ -133,16 +133,22 @@ sitemap:
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org/",
-  "@type": "SoftwareApplication",
-  "name": "Iridium Browser",
-  "applicationCategory": "Browser",
-  "operatingSystem": "Windows, macOS, Mint, Ubuntu, Debian, openSUSE",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "ratingCount": "2437"
-  },
+	"@context": "http://schema.org/",
+	"@type": "SoftwareApplication",
+	"name": "Iridium Browser",
+	"applicationCategory": "Browser",
+	"operatingSystem": "Windows, macOS, Mint, Ubuntu, Debian, openSUSE",
+	"aggregateRating": {
+		"@type": "AggregateRating",
+		"ratingValue": "5",
+		"ratingCount": "2437"
+	},
+	"image": {
+		"@type": "ImageObject",
+		"height": "600",
+		"width": "250",
+		"url": "{{ '/images/Iridium-hotpic_Goo.png' | prepend: site.baseurl | prepend: site.url }}"
+	},
 }
 </script>
 
