@@ -5,16 +5,12 @@ menu: false
 sitemap:
   exclude: 'yes'
 ---
-
-
-<!DOCTYPE html>
 <!--
 	Gravity by Pixelarity
 	pixelarity.com @pixelarity
 	License: pixelarity.com/license
 -->
-<html>
-<body class="landing">
+
 <!-- HOME -->
 <section id="home">
 	<div class="logo"></div>
@@ -52,7 +48,7 @@ sitemap:
 <!-- MANIFEST -->
 <section id="manifest" class="wrapper style1 special">
 <div class="container">
-		<header class="major">
+	<header class="major">
 	{% for manifest in site.manifest %}
 		<h1 style="margin-top:1.15em;">{{ manifest.title }}</h1>
 		<p>{{ manifest.subtitle }}</p>
@@ -132,5 +128,3 @@ sitemap:
 	</div>
 </section>
 
-</body>
-</html>
