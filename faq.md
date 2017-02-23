@@ -32,4 +32,14 @@ IridiumBrowser is currently <u>not</u> available for Android, iOS, Windows Phone
 
 ----
 
+##### Why does a yellow warning bubble appear below the address bar? #
+
+This helps the development team to find issues with potential privacy problems. 
+The development marks all external URLs they find in the Chromium source code with a ‘trk:’ prefix. Additionally all ‘trk:’ URLs receive a number which makes tracing the code easy i.e. ‘git grep trk:173’.
+When a marked URL is used while browsing, a warning ‘loading traced URL’ in form of a yellow bubble below the address will be displayed, but the request will be executed.
+This must not appear every time loading a certain URL. If it does, please file a report in our bug tracker on GitHub.
+In the case trk:173, an update of the spell checker from Google is loaded. From our view no real problem since no client data is submitted.
+
+----
+
 For all general questions about the Browser, please go to [Chrome Help](https://support.google.com/chrome/?p=help){:target="_blank"}     
