@@ -6,7 +6,7 @@ description: "Frequently Asked Questions"
 menu: 3
 id: faq
 sitemap:
-  lastmod: 2016-10-23
+  lastmod: 2017-02-25
   priority: 0.3
   changefreq: 'daily'
 ---
