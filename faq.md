@@ -32,7 +32,7 @@ IridiumBrowser is currently <u>not</u> available for Android, iOS, Windows Phone
 
 ----
 
-#### Why does a yellow warning bubble appear below the address bar? #
+##### Why does a yellow warning bubble appear below the address bar? #
 
 This helps the development team to find issues with potential privacy problems. 
 The development marks all external URLs they find in the Chromium source code with a ‘trk:’ prefix. Additionally all ‘trk:’ URLs receive a number which makes tracing the code easy i.e. ‘git grep trk:173’.
