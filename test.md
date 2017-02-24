@@ -1,8 +1,8 @@
 ---
 layout: pagecentered
 title: "TESCHD"
-subtitle: "Frequently Asked Questions"
-description: "Frequently Asked Questions"
+subtitle: "testing
+description: "testing"
 menu: 3
 id: faq
 sitemap:
