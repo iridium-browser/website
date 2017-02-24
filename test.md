@@ -1,18 +1,15 @@
 ---
 layout: pagecentered
-title: "TESCHD"
-subtitle: "testing
-description: "testing"
-menu: 3
+title: "TEST"
+subtitle: "testing"
+description: "tetete"
+menu: 9
 id: faq
 sitemap:
-  lastmod: 2017-02-26
+  lastmod: 2017-02-25
   priority: 0.3
   changefreq: 'daily'
 ---
 
-##### What is going on? #    
-Jeeeeeez     
-    
-----
-
+##### What up? #    
+Jeez
