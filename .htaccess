@@ -4,4 +4,10 @@ RewriteRule ^download.html$ /downloads/ [R=301,L]
 RewriteRule ^downloads.html$ /downloads/ [R=301,L]
 RewriteRule ^download(/|$) /downloads/ [R=301,L]
 
+RewriteCond %{HTTP:X-Forwarded-Proto} !https  
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R,L] 
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* ? [F,L]
+
 ErrorDocument 404 /404.html
