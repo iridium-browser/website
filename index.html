@@ -139,7 +139,7 @@ sitemap:
 		"@type": "SoftwareApplication",
 		"name": "{{ site.title }}",
 		"url": "{{ site.url }}",
-		"description": "{{ site.description }}"
+		"description": "{{ site.description }}",
 		"applicationCategory": "Browser",
 		"operatingSystem": "Windows, macOSX, Mint, Ubuntu, Debian, openSUSE",
 		"aggregateRating": {
@@ -159,14 +159,19 @@ sitemap:
 		}
 	},
 	{ 
-		"@context" : "http://schema.org",
-		"@type" : "Product",
-		"name" : "{{ site.title }}",
+		"@context": "http://schema.org",
+		"@type": "Product",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url }}",
+		"description": "{{ site.description }}"
+
 	},
 	{
 		"@context": "http://schema.org",
 		"@type": "WebSite",
-		"url": "{{ site.url }}"
+		"name": "{{ site.title }}",
+		"url": "{{ site.url }}",
+		"description": "{{ site.description }}"
 	}
 ]
 </script>
