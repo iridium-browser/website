@@ -1,7 +1,7 @@
 ---
 layout: pagecentered
-title: "Download"
-subtitle: IridiumBrowser for Linux
+title: "Download  for Linux"
+subtitle: IridiumBrowser
 description: Download IridiumBrowser for Ubuntu, Debian, Mint and openSUSE
 menu: no
 id: linux

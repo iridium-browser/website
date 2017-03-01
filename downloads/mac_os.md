@@ -1,7 +1,7 @@
 ---
 layout: pagecentered
-title: "Download"
-subtitle: IridiumBrowser for Mac OS X 10.9+
+title: "Download for Mac OS X"
+subtitle: IridiumBrowser
 description: Download IridiumBrowser for Mac OSX 10.9+
 menu: no
 id: mac_os
