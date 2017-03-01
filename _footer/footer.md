@@ -9,6 +9,6 @@ For more development information please **[check here]({{ site.baseurl }}/develo
 **[<span class="fa fa-code"></span> download the Source Code]({{ site.baseurl }}/downloads/source.html)**     
 
 
-[IMPRINT]({{ site.baseurl }}/imprint.html "Imprint"){: .button .small .alt}     
+[IMPRINT](/imprint.html "Imprint"){: .button .small .alt}     
 
 <div class="copyright">&copy; <a href="http://osb-alliance.de/" target="_blank">Open Source Business Alliance</a></div>
