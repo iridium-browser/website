@@ -5,7 +5,7 @@ layout: default-layout
 	<section id="news" class="wrapper style1 special">
 		<div class="container">
 		<header>
-			<h3 class="post-title" itemprop="headline name"><h2>{{ page.title }}</h2></h3>
+			<h2 class="post-title" itemprop="headline name"><h2>{{ page.title }}</h2>
 			<p class="post-meta"><small><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d-%b-%Y" }}</time><span itemprop="author">{% if page.author %} • {{ page.author }} {% endif %}</span></small></p>
 		</header>
 		<div class="post-content" itemprop="description articleBody">
@@ -24,3 +24,29 @@ layout: default-layout
 		</div>
 	</section>
 </article>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "NewsArticle",
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date: "%-d-%b-%Y" }}",
+  "description": "{{ page.description }}",
+  "image": {
+    "@type": "ImageObject",
+    "height": "200",
+    "width": "200",
+    "url": "https://iridiumbrowser.de/images/Iridium-hotpic.png"
+  },
+  "author": "{{ page.author }}",
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://iridiumbrowser.de/images/Iridium-hotpic.png"
+    },
+    "name": "{{ site.title }}"
+  },
+  "articleBody": "{{ content }}"
+}
+</script>
