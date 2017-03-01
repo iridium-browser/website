@@ -133,23 +133,35 @@ sitemap:
 
 <!-- Microdata -->
 <script type="application/ld+json">
-{
-	"@context": "http://schema.org/",
-	"@type": "SoftwareApplication",
-	"name": "Iridium Browser",
-	"url": "https://iridiumbrowser.de/",
-	"applicationCategory": "Browser",
-	"operatingSystem": "Windows, macOSX, Mint, Ubuntu, Debian, openSUSE",
-	"aggregateRating": {
-		"@type": "AggregateRating",
-		"ratingValue": "5",
-		"ratingCount": "2437"
+[
+	{
+		"@context": "http://schema.org/",
+		"@type": "SoftwareApplication",
+		"name": "{{ my_page.title }}",
+		"url": "{{ site.url }}",
+		"description": "{{ my_page.description }}"
+		"applicationCategory": "Browser",
+		"operatingSystem": "Windows, macOSX, Mint, Ubuntu, Debian, openSUSE",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "5",
+			"ratingCount": "2437"
+		},
+		"image": {
+			"@type": "ImageObject",
+			"height": "600",
+			"width": "250",
+			"url": "{{ '/images/Iridium-hotpic_Goo.png' | prepend: site.baseurl | prepend: site.url }}"
+		},
+		"offers": {
+		"@type": "Offer",
+		"price": "$0"
+		}
 	},
-	"image": {
-		"@type": "ImageObject",
-		"height": "600",
-		"width": "250",
-		"url": "{{ '/images/Iridium-hotpic_Goo.png' | prepend: site.baseurl | prepend: site.url }}"
+	{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"url": "{{ site.url }}"
 	}
-}
+]
 </script>
