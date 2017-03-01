@@ -27,20 +27,21 @@ sitemap:
 		</span>
 	</section>
 	
-	<!-- BANNER -->
+<!-- BANNER -->
 	<section id="banner">
 		{% for home in site.home %}
 		{{ home.content }}
 		{% endfor %}
 	</section>
 
+<!-- FEATURES -->
 	<section id="features">
 		<div class="container">
 			<div class="row uniform">
 			{% for features in site.features %}
 		<section class="4u 12u(small) align-center">
 			<div class="icon {{ features.icon-class }}"></div>
-			<p>{{ features.content }}</p>
+			{{ features.content }}
 		</section>
 		{% endfor %}
 			</div>
@@ -56,7 +57,7 @@ sitemap:
 		<h1 style="margin-top:1.15em;">{{ manifest.title }}</h1>
 		<p>{{ manifest.subtitle }}</p>
 	</header>
-	<p>{{ manifest.content }}</p>
+	{{ manifest.content }}
 	{% endfor %}
 </div>
 </section>
@@ -74,7 +75,7 @@ sitemap:
 			<h3>{{ post.title }}</h3>
 			<p><small>{{ post.date | date: "%-d-%b-%Y" }}</small></p>
 		</header>
-		<p>{{ post.content }}</p>
+		{{ post.content }}
 		<p class="post-meta"><small>{% if post.author %} {{ post.author }}{% endif %}</small></p>
 
 		<hr>
@@ -94,8 +95,8 @@ sitemap:
 		<h1 style="margin-top:1.15em;">{{ about.title }}</h1>
 		<p>{{ about.subtitle }}</p>
 	</header>
-	<p><div class="icon {{ about.icon-class }}"></div>
-	{{ about.content }}</p>
+	<div class="icon {{ about.icon-class }}"></div>
+	{{ about.content }}
 	{% endfor %}
 
 <!-- Developer Logos -->
@@ -139,13 +140,14 @@ sitemap:
 		"@type": "SoftwareApplication",
 		"name": "{{ site.title }}",
 		"url": "{{ site.url }}",
+		"downloadUrl": "{{ site.url }}/downloads/"
 		"description": "{{ site.description }}",
 		"applicationCategory": "Browser",
 		"operatingSystem": "Windows, macOSX, Mint, Ubuntu, Debian, openSUSE",
 		"aggregateRating": {
 			"@type": "AggregateRating",
 			"ratingValue": "5",
-			"ratingCount": "2437"
+			"ratingCount": "2473"
 		},
 		"image": {
 			"@type": "ImageObject",
@@ -155,8 +157,8 @@ sitemap:
 		},
 		"offers": {
 		"@type": "Offer",
-		"price": "$0"
-		}
+		"priceCurrency": "",
+		"price": "0.00"		}
 	},
 	{ 
 		"@context": "http://schema.org",

@@ -2617,7 +2617,11 @@
 
 		.icon {
 			font-size: 5em !important;
+			line-height: 1.25em;
 			color: _palette(accent1, bg) !important;
+		}
+		.container {
+			margin-bottom: 3em;
 		}
 	}
 
