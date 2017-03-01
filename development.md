@@ -6,7 +6,7 @@ description: "Take part in developing IridiumBrowser"
 menu: 1
 id: development
 sitemap:
-  lastmod: 2016-10-23
+  lastmod: 2017-01-28
   priority: 0.3
   changefreq: 'daily'
 ---
