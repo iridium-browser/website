@@ -137,9 +137,9 @@ sitemap:
 	{
 		"@context": "http://schema.org/",
 		"@type": "SoftwareApplication",
-		"name": "{{ my_page.title }}",
+		"name": "{{ site.title }}",
 		"url": "{{ site.url }}",
-		"description": "{{ my_page.description }}"
+		"description": "{{ site.description }}"
 		"applicationCategory": "Browser",
 		"operatingSystem": "Windows, macOSX, Mint, Ubuntu, Debian, openSUSE",
 		"aggregateRating": {
@@ -157,6 +157,11 @@ sitemap:
 		"@type": "Offer",
 		"price": "$0"
 		}
+	},
+	{ 
+		"@context" : "http://schema.org",
+		"@type" : "Product",
+		"name" : "{{ site.title }}",
 	},
 	{
 		"@context": "http://schema.org",
