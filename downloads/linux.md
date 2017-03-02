@@ -7,7 +7,7 @@ menu: no
 id: linux
 sitemap:
   lastmod: 2017-01-02
-  priority: 0.9
+  priority: 0.5
   changefreq: 'weekly'
 ---
 

@@ -7,7 +7,7 @@ menu: no
 id: mac_os
 sitemap:
   lastmod: 2016-07-03
-  priority: 0.9
+  priority: 0.5
   changefreq: 'daily'
 ---
  

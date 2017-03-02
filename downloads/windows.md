@@ -7,7 +7,7 @@ menu: no
 id: windows
 sitemap:
   lastmod: 2016-01-27
-  priority: 0.9
+  priority: 0.5
   changefreq: 'weekly'
 ---
 

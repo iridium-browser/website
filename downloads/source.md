@@ -7,7 +7,7 @@ menu: no
 id: source
 sitemap:
   lastmod: 2017-01-02
-  priority: 0.7
+  priority: 0.3
   changefreq: 'daily'
 ---
 
