@@ -54,7 +54,7 @@ sitemap:
 <div class="container">
 	<header class="major">
 	{% for manifest in site.manifest %}
-		<h1 style="margin-top:1.15em;">{{ manifest.title }}</h1>
+		<h1>{{ manifest.title }}</h1>
 		<p>{{ manifest.subtitle }}</p>
 	</header>
 	{{ manifest.content }}
@@ -66,17 +66,18 @@ sitemap:
 <section id="news" class="wrapper style1 special">
 <div class="container">
 	<header class="major">
-		<h1 style="margin-top:1.15em;">Recent News</h1>
+		<h1>Recent News</h1>
+		<p>The Latest</p>
 	</header>
 	<!-- Content -->
-	<section style="padding-top: 2em;">
+	<section class="content">
 		{% for post in site.posts limit:1 %}
 		<header>
 			<h3>{{ post.title }}</h3>
 			<p><small>{{ post.date | date: "%-d-%b-%Y" }}</small></p>
 		</header>
 		{{ post.content }}
-		<p class="post-meta"><small>{% if post.author %} {{ post.author }}{% endif %}</small></p>
+		<p><small>{% if post.author %} {{ post.author }}{% endif %}</small></p>
 
 		<hr>
 		{% endfor %}
@@ -92,7 +93,7 @@ sitemap:
 <div class="container">
 	<header class="major">
 	{% for about in site.about %}
-		<h1 style="margin-top:1.15em;">{{ about.title }}</h1>
+		<h1>{{ about.title }}</h1>
 		<p>{{ about.subtitle }}</p>
 	</header>
 	<div class="icon {{ about.icon-class }}"></div>
@@ -116,7 +117,7 @@ sitemap:
 	<div class="container">
 		<header class="major">
 		{% for contribute in site.contribute %}
-			<h1 style="margin-top:1.15em;">{{ contribute.title }}</h1>
+			<h1>{{ contribute.title }}</h1>
 			<p>{{ contribute.subtitle }}</p>
 		</header>
 		<div class="row">
