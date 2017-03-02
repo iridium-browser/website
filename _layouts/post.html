@@ -5,7 +5,7 @@ layout: default-layout
 	<section id="news" class="wrapper style1 special">
 		<div class="container">
 		<header>
-			<h2 class="post-title" itemprop="headline name"><h2>{{ page.title }}</h2>
+			<h2 class="post-title" itemprop="headline name">{{ page.title }}</h2>
 			<p class="post-meta"><small><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d-%b-%Y" }}</time><span itemprop="author">{% if page.author %} • {{ page.author }} {% endif %}</span></small></p>
 		</header>
 		<div class="post-content" itemprop="description articleBody">
@@ -29,8 +29,13 @@ layout: default-layout
 {
   "@context": "http://schema.org/",
   "@type": "NewsArticle",
+  "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "{{ site.url }}"
+  },
   "headline": "{{ page.title }}",
   "datePublished": "{{ page.date | date: "%-d-%b-%Y" }}",
+  "dateModified": "{{ page.date | date: "%-d-%b-%Y" }}",
   "description": "{{ page.description }}",
   "image": {
     "@type": "ImageObject",
