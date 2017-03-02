@@ -1,19 +1,26 @@
 ---
 layout: start-layout
-description: "The IridiumBrowser is based on the Chromium code base.  All modifications enhance the privacy of the user and make sure that the latest and best secure technologies are used."
+description: The IridiumBrowser is based on the Chromium code base.  All modifications enhance the privacy of the user and make sure that the latest and best secure technologies are used.
 menu: false
 sitemap:
+<<<<<<< HEAD
   lastmod: 2017-03-01
   priority: 1.0
   changefreq: 'daily'
+=======
+  exclude: 'yes'
+>>>>>>> website-live
 ---
 
+
+<!DOCTYPE html>
 <!--
 	Gravity by Pixelarity
 	pixelarity.com @pixelarity
 	License: pixelarity.com/license
 -->
-
+<html>
+<body class="landing">
 <!-- HOME -->
 <section id="home">
 	<div class="logo"></div>
@@ -52,7 +59,7 @@ sitemap:
 <!-- MANIFEST -->
 <section id="manifest" class="wrapper style1 special">
 <div class="container">
-	<header class="major">
+		<header class="major">
 	{% for manifest in site.manifest %}
 		<h1>{{ manifest.title }}</h1>
 		<p>{{ manifest.subtitle }}</p>
@@ -133,6 +140,7 @@ sitemap:
 	</div>
 </section>
 
+<<<<<<< HEAD
 <!-- Microdata -->
 <script type="application/ld+json">
 [
@@ -178,3 +186,7 @@ sitemap:
 	}
 ]
 </script>
+=======
+</body>
+</html>
+>>>>>>> website-live

@@ -4,10 +4,6 @@ title: "Download"
 subtitle: ""
 description: Download IridiumBrowser for Windows, Mac OS, Ubuntu, Debian, Mint or OpenSUSE
 menu: 2
-sitemap:
-  lastmod: 2017-02-18
-  priority: 1.0
-  changefreq: 'daily'
 id: downloads
 ---
 
