@@ -19,4 +19,5 @@ get the fixed version from the Download section
 **INSTRUCTIONS**     
 **Windows users**; please download and install latest version from Download section.
 
-**Ubuntu/Debian users**; please...
+**Ubuntu/Debian users**; please...     
+`sudo apt-get update....?`
