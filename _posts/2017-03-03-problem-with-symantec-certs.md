@@ -7,9 +7,10 @@ author:	by admin
 categories: news
 ---
 
-Finally, we are happy to announce that the latest Windows and Ubuntu/Debian builds solve the issue with the Symantec Certificates failing to load. 
-*see Bug Tracker @ GitHub [issue #124](https://github.com/iridium-browser/tracker/issues/124 "issue #124 @ GitHub"){:target="_blank"}*     
-The trouble with SSL certificate handling was quite a challenge for us. There was no security / privacy problem for the user, but the usability with many sites was poor. 
+Finally, we are happy to announce that the latest Windows and Ubuntu/Debian builds solve the issue with the Symantec Certificates failing to load.
+(see Bug Tracker @ GitHub [issue #124](https://github.com/iridium-browser/tracker/issues/124 "issue #124 @ GitHub"){:target="_blank"})      
+<!--break-->
+The trouble with SSL certificate handling was quite a challenge. There was no security / privacy problem for the user, but the usability with many sites was poor. 
 This is solved now!     
      
 get the fixed version

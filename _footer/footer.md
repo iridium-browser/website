@@ -4,7 +4,7 @@ title: "Available Resources To Step In"
 ---
 
 Stay up to date and sign up to our **[Mailing list](http://lists.inai.de/iridium){:target="_blank"}**      
-Please report any  issues and address any questions to our **[Bug Tracker @ GitHub](https://github.com/iridium-browser/tracker/issues){:target="_blank"}**      
+Please report any issues and address any questions to our **[Bug Tracker @ GitHub](https://github.com/iridium-browser/tracker/issues){:target="_blank"}**      
 For more development information please **[check here]({{ site.baseurl }}/development.html)**     
 **[<span class="fa fa-code"></span> download the Source Code]({{ site.baseurl }}/downloads/source.html)**     
 

@@ -19,16 +19,18 @@ sitemap:
 	<br/>	
 	<ul class="alt post-list post-container">
     {% for post in site.posts %}
-      <li>
+		<li>
         <header>
-		<h3>{{ post.title | escape }}</h3>
-		<p><small class="post-meta">{{ post.date | date: "%-d %b %Y" }} {% if post.author %} • {{ post.author }} {% endif %}</small></p>
+			<h3>{{ post.title | escape }}</h3>
+			<p><small class="post-meta">{{ post.date | date: "%-d %b %Y" }} {% if post.author %} • {{ post.author }} {% endif %}</small></p>
 		</header>
 			<div class="post-box post-content" itemprop="articleBody">
-			{{ post.content | truncatewords: 50 }}
+				{{ post.content | split:'<!--break-->' | first }}
+				{% if post.content contains '<!--break-->' %}
+				<br/>
+				<a href="{{ post.url | prepend: site.baseurl }}" class="button small icon fa-plus">read more</a>
+				{% endif %}
 			</div>
-			<br/>
-			<a href="{{ post.url | prepend: site.baseurl }}" class="button small icon fa-plus">read more</a>
 		</li>
     {% endfor %}
 	</ul>
