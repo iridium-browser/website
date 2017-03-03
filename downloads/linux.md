@@ -1,12 +1,14 @@
 ---
 layout: pagecentered
-title: "Download"
-subtitle: IridiumBrowser for Linux
+title: "Download  for Linux"
+subtitle: IridiumBrowser
 description: Download IridiumBrowser for Ubuntu, Debian, Mint and openSUSE
 menu: no
 id: linux
 sitemap:
-  exclude: 'yes'
+  lastmod: 2017-01-02
+  priority: 0.5
+  changefreq: 'weekly'
 ---
 
 <div class="icon dl fa-linux"></div> 
@@ -43,7 +45,6 @@ sitemap:
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.2/ iridium
 	zypper in iridium-browser
      
-
 <h3>13.2</h3>
 
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_13.2/ iridium  

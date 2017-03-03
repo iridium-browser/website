@@ -6,12 +6,12 @@ description: "Take part in developing IridiumBrowser"
 menu: 1
 id: development
 sitemap:
-  lastmod: 2016-10-23
+  lastmod: 2017-01-28
   priority: 0.3
   changefreq: 'daily'
 ---
 
-<span class="fa fa-user-md " style="font-size:9em; color:#4499D4;"></span>
+<span class="fa fa-user-md" style="font-size:9em; color:#4499D4;"></span>
 
 
 <h2 style="color:#4499D4;">we are reorganising repos and other internal systems at present</h2>

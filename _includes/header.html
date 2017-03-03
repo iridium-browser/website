@@ -1,12 +1,12 @@
 <!-- Header -->
 <div id="header">
-	<h1 id="logo"><a href="{{ site.baseurl }}/" class="logo-header logo-header-sm"></a></h1>
+	<h1 id="logo"><a href="/" class="logo-header logo-header-sm"></a></h1>
 	<nav id="nav">
 		<ul>
-			<li><a href="{{ site.baseurl }}/">Home</a></li>
-			<li><a href="{{ site.baseurl }}/index.html#news">News</a></li>
-			<li><a href="{{ site.baseurl }}/index.html#about">About</a></li>
-			<li><a href="{{ site.baseurl }}/index.html#contribute">Contribute</a></li>
+			<li><a href="/">Home</a></li>
+			<li><a href="/index.html#news">News</a></li>
+			<li><a href="/index.html#about">About</a></li>
+			<li><a href="/index.html#contribute">Contribute</a></li>
 		{% for menu in (1..10) %}
 			{% unless my_page.menu %}
 				{% for my_page in site.pages %}

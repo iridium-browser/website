@@ -1,12 +1,14 @@
 ---
 layout: pagecentered
-title: "Download"
-subtitle: IridiumBrowser source code
+title: "Download Source Code"
+subtitle: IridiumBrowser
 description: Download the IridiumBrowser source code
 menu: no
 id: source
 sitemap:
-  exclude: 'yes'
+  lastmod: 2017-01-02
+  priority: 0.3
+  changefreq: 'daily'
 ---
 
 <div class="icon dl fa-github"></div>

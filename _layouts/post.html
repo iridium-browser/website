@@ -1,14 +1,14 @@
 ---
 layout: default-layout
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post" itemscope itemtype="http://schema.org/NewsArticle">
 	<section id="news" class="wrapper style1 special">
 		<div class="container">
 		<header>
-			<h3 class="post-title" itemprop="name headline"><h2>{{ page.title }}</h2></h3>
-			<p class="post-meta"><small><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d-%b-%Y" }}</time>{% if page.author %} • {{ page.author }} {% endif %}</small></p>
+			<h2 class="post-title" itemprop="headline name">{{ page.title }}</h2>
+			<p class="post-meta"><small><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d-%b-%Y" }}</time><span itemprop="author">{% if page.author %} • {{ page.author }} {% endif %}</span></small></p>
 		</header>
-		<div class="post-content" itemprop="articleBody">
+		<div class="post-content" itemprop="description articleBody">
 			{{ content }}
 		</div>
 
@@ -24,3 +24,34 @@ layout: default-layout
 		</div>
 	</section>
 </article>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "{{ site.url }}"
+  },
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date: "%-d-%b-%Y" }}",
+  "dateModified": "{{ page.date | date: "%-d-%b-%Y" }}",
+  "description": "{{ page.description }}",
+  "image": {
+    "@type": "ImageObject",
+    "height": "200",
+    "width": "200",
+    "url": "https://iridiumbrowser.de/images/Iridium-hotpic.png"
+  },
+  "author": "{{ page.author }}",
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://iridiumbrowser.de/images/Iridium-hotpic.png"
+    },
+    "name": "{{ site.title }}"
+  },
+  "articleBody": "{{ content }}"
+}
+</script>

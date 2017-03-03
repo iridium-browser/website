@@ -3,7 +3,7 @@ layout: start-layout
 description: "The IridiumBrowser is based on the Chromium code base.  All modifications enhance the privacy of the user and make sure that the latest and best secure technologies are used."
 menu: false
 sitemap:
-  lastmod: 2017-02-18
+  lastmod: 2017-03-01
   priority: 1.0
   changefreq: 'daily'
 ---
@@ -27,20 +27,21 @@ sitemap:
 		</span>
 	</section>
 	
-	<!-- BANNER -->
+<!-- BANNER -->
 	<section id="banner">
 		{% for home in site.home %}
 		{{ home.content }}
 		{% endfor %}
 	</section>
 
+<!-- FEATURES -->
 	<section id="features">
 		<div class="container">
 			<div class="row uniform">
 			{% for features in site.features %}
 		<section class="4u 12u(small) align-center">
 			<div class="icon {{ features.icon-class }}"></div>
-			<p>{{ features.content }}</p>
+			{{ features.content }}
 		</section>
 		{% endfor %}
 			</div>
@@ -53,10 +54,10 @@ sitemap:
 <div class="container">
 	<header class="major">
 	{% for manifest in site.manifest %}
-		<h1 style="margin-top:1.15em;">{{ manifest.title }}</h1>
+		<h1>{{ manifest.title }}</h1>
 		<p>{{ manifest.subtitle }}</p>
 	</header>
-	<p>{{ manifest.content }}</p>
+	{{ manifest.content }}
 	{% endfor %}
 </div>
 </section>
@@ -65,17 +66,18 @@ sitemap:
 <section id="news" class="wrapper style1 special">
 <div class="container">
 	<header class="major">
-		<h1 style="margin-top:1.15em;">Recent News</h1>
+		<h1>Recent News</h1>
+		<p>The Latest</p>
 	</header>
 	<!-- Content -->
-	<section style="padding-top: 2em;">
+	<section class="content">
 		{% for post in site.posts limit:1 %}
 		<header>
 			<h3>{{ post.title }}</h3>
 			<p><small>{{ post.date | date: "%-d-%b-%Y" }}</small></p>
 		</header>
-		<p>{{ post.content }}</p>
-		<p class="post-meta"><small>{% if post.author %} {{ post.author }}{% endif %}</small></p>
+		{{ post.content }}
+		<p><small>{% if post.author %} {{ post.author }}{% endif %}</small></p>
 
 		<hr>
 		{% endfor %}
@@ -91,11 +93,11 @@ sitemap:
 <div class="container">
 	<header class="major">
 	{% for about in site.about %}
-		<h1 style="margin-top:1.15em;">{{ about.title }}</h1>
+		<h1>{{ about.title }}</h1>
 		<p>{{ about.subtitle }}</p>
 	</header>
-	<p><div class="icon {{ about.icon-class }}"></div>
-	{{ about.content }}</p>
+	<div class="icon {{ about.icon-class }}"></div>
+	{{ about.content }}
 	{% endfor %}
 
 <!-- Developer Logos -->
@@ -115,7 +117,7 @@ sitemap:
 	<div class="container">
 		<header class="major">
 		{% for contribute in site.contribute %}
-			<h1 style="margin-top:1.15em;">{{ contribute.title }}</h1>
+			<h1>{{ contribute.title }}</h1>
 			<p>{{ contribute.subtitle }}</p>
 		</header>
 		<div class="row">
@@ -133,23 +135,46 @@ sitemap:
 
 <!-- Microdata -->
 <script type="application/ld+json">
-{
-	"@context": "http://schema.org/",
-	"@type": "SoftwareApplication",
-	"name": "Iridium Browser",
-	"url": "https://iridiumbrowser.de/",
-	"applicationCategory": "Browser",
-	"operatingSystem": "Windows, macOSX, Mint, Ubuntu, Debian, openSUSE",
-	"aggregateRating": {
-		"@type": "AggregateRating",
-		"ratingValue": "5",
-		"ratingCount": "2437"
+[
+	{
+		"@context": "http://schema.org/",
+		"@type": "SoftwareApplication",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url }}",
+		"downloadUrl": "{{ site.url }}/downloads/",
+		"description": "{{ site.description }}",
+		"applicationCategory": "Browser",
+		"operatingSystem": "Windows, macOSX, Mint, Ubuntu, Debian, openSUSE",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "5",
+			"ratingCount": "2473"
+		},
+		"image": {
+			"@type": "ImageObject",
+			"height": "600",
+			"width": "250",
+			"url": "{{ '/images/Iridium-hotpic_Goo.png' | prepend: site.url }}"
+		},
+		"offers": {
+		"@type": "Offer",
+		"priceCurrency": "EUR",
+		"price": "0.00"		
+		}
 	},
-	"image": {
-		"@type": "ImageObject",
-		"height": "600",
-		"width": "250",
-		"url": "{{ '/images/Iridium-hotpic_Goo.png' | prepend: site.baseurl | prepend: site.url }}"
+	{ 
+		"@context": "http://schema.org",
+		"@type": "Product",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url }}",
+		"description": "{{ site.description }}"
+	},
+	{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url }}",
+		"description": "{{ site.description }}"
 	}
-}
+]
 </script>
