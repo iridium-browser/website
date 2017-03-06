@@ -5,10 +5,10 @@ layout: default-layout
 	<section id="news" class="wrapper style1 special">
 		<div class="container">
 		<header>
-			<h2 class="post-title" itemprop="headline name">{{ page.title }}</h2>
-			<p class="post-meta"><small><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d-%b-%Y" }}</time><span itemprop="author">{% if page.author %} • {{ page.author }} {% endif %}</span></small></p>
+			<h2 class="post-title">{{ page.title }}</h2>
+			<p class="post-meta"><small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d-%b-%Y" }}</time>{% if page.author %} • {{ page.author }} {% endif %}</small></p>
 		</header>
-		<div class="post-content" itemprop="description articleBody">
+		<div class="post-content">
 			{{ content }}
 		</div>
 
@@ -34,8 +34,8 @@ layout: default-layout
          "@id": "{{ site.url }}"
   },
   "headline": "{{ page.title }}",
-  "datePublished": "{{ page.date | date: "%-d-%b-%Y" }}",
-  "dateModified": "{{ page.date | date: "%-d-%b-%Y" }}",
+  "datePublished": "{{ page.date | date_to_xmlschema" }}",
+  "dateModified": "{{ page.date | date_to_xmlschema" }}",
   "description": "{{ page.description }}",
   "image": {
     "@type": "ImageObject",
@@ -52,6 +52,6 @@ layout: default-layout
     },
     "name": "{{ site.title }}"
   },
-  "articleBody": "{{ content }}"
+  "articleBody": "{{ content | strip_html }}"
 }
 </script>
