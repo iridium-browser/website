@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 ---
-<article class="post" itemscope itemtype="http://schema.org/NewsArticle">
+<article class="post">
 	<section id="news" class="wrapper style1 special">
 		<div class="container">
 		<header>
@@ -34,8 +34,8 @@ layout: default-layout
          "@id": "{{ site.url }}"
   },
   "headline": "{{ page.title }}",
-  "datePublished": "{{ page.date | date_to_xmlschema" }}",
-  "dateModified": "{{ page.date | date_to_xmlschema" }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
   "description": "{{ page.description }}",
   "image": {
     "@type": "ImageObject",
