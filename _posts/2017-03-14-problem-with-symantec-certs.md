@@ -2,7 +2,7 @@
 layout: post
 title:  "Issue with Symantec Certs - solved!"
 description: Issue with Symantec Certs - solved! get the latest updates from the Download section.
-date:   2017-03-07 12:00:00 +0200
+date:   2017-03-14 20:05:00 +0200
 author:	by admin
 categories: news
 ---
@@ -13,10 +13,13 @@ Finally, we are happy to announce that the latest Windows and Ubuntu/Debian buil
 The trouble with SSL certificate handling was quite a challenge. There was no security / privacy problem for the user, but the usability with many sites was poor. 
 This is solved now!     
      
-get the fixed version
+get the fixed version *
       
 [DOWNLOAD](/downloads/index.html "Download"){: .button .download}     
      
 Due to these issues the next major release is delayed and we will jump straight to version 57.     
 Stay tuned and private!
+
+
+*= Windows users, please read **[instructions](../downloads/win-fix-v54.html "Instructions for Windows")** before installing.
 
