@@ -11,7 +11,7 @@ sitemap:
 ---
 
 #### Bug Tracker ####
-Please report any  issues and address any questions to our ug Tracker @ GitHub      
+Please report any  issues and address any questions to our Bug Tracker @ GitHub      
 **[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker"){:target="_blank" .button .small}**      
 
 ----
