@@ -8,8 +8,9 @@ sitemap:
   exclude: 'yes'
 ---
 
+<br/>
 <section>
-	<form method="post" action="#">
+	<form method="post" action="//formspree.io/test@souldanger.com">
 		<div class="row uniform 50%">
 			<div class="6u 12u$(4)">
 				<input type="text" name="name" id="name" value="" placeholder="Name" />
@@ -22,23 +23,12 @@ sitemap:
 					<select name="category" id="category">
 						<option value="">- Category -</option>
 						<option value="1">General Question</option>
-						<option value="1">Bug Report</option>
-						<option value="1">Warning Bubble trk: tracker</option>
-						<option value="1">Human Resources</option>
+						<option value="2">Bug Report</option>
+						<option value="3">Warning Bubble trk: tracker</option>
+						<option value="4">I'd like to join the Development Team</option>
+						<option value="5">Sponsoring</option>
 					</select>
 				</div>
-			</div>
-			<div class="4u 12u$(3)">
-				<input type="radio" id="priority-low" name="priority" checked>
-				<label for="priority-low">Low Priority</label>
-			</div>
-			<div class="4u 12u$(3)">
-				<input type="radio" id="priority-normal" name="priority">
-				<label for="priority-normal">Normal Priority</label>
-			</div>
-			<div class="4u$ 12u$(3)">
-				<input type="radio" id="priority-high" name="priority">
-				<label for="priority-high">High Priority</label>
 			</div>
 			<div class="6u 12u$(3)">
 				<input type="checkbox" id="copy" name="copy">
@@ -60,3 +50,5 @@ sitemap:
 		</div>
 	</form>
 </section>
+<br/>
+
