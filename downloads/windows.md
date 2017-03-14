@@ -24,6 +24,8 @@ sitemap:
 	</div>
 </div>
 <br/>
+<span class="fa fa-exclamation-circle"></span> **[PLEASE READ](win-fix-v54.html "Instructions for Windows")**, if you are a v54 user looking to fix the 'NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED' issue.
+
 If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/windows/" target="_blank">Builds Archive</a><br/>
 
 <p>system requirements<br/>
