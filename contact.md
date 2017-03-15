@@ -10,7 +10,7 @@ sitemap:
 
 <br/>
 <section>
-	<form method="post" action="//formspree.io/test@souldanger.com">
+	<form method="post" action="//formspree.io/a.roesler@kopano.com">
 		<div class="row uniform 50%">
 			<div class="6u 12u$(4)">
 				<input type="text" name="name" id="name" value="" placeholder="Name" />
@@ -29,14 +29,6 @@ sitemap:
 						<option value="5">Sponsoring</option>
 					</select>
 				</div>
-			</div>
-			<div class="6u 12u$(3)">
-				<input type="checkbox" id="copy" name="copy">
-				<label for="copy">Email me a copy of this message</label>
-			</div>
-			<div class="6u$ 12u$(3)">
-				<input type="checkbox" id="human" name="human" checked>
-				<label for="human">I am a human and not a robot</label>
 			</div>
 			<div class="12u$">
 				<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
