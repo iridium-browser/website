@@ -11,7 +11,7 @@ sitemap:
 ---
 
 #### Bug Tracker ####
-Please report any  issues and address any questions to our ug Tracker @ GitHub      
+Please report any  issues and address any questions to our Bug Tracker @ GitHub      
 **[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker"){:target="_blank" .button .small}**      
 
 ----
@@ -25,7 +25,7 @@ Breitscheidstr. 4
 70174 Stuttgart | Germany  
 tel +49 711 90715-390  
 fax +49 711 90715-350  
-web http://www.osb-alliance.com  
+[email](mailto:wg-iridium@osb-alliance.com "send email") | [website](http://www.osb-alliance.com "visit website"){:target="_blank"}     
 
 #### Angaben gemäß § 6 TDG und § 10 MDStV ####
 *Vertretungsberechtigter Vorstand*  
