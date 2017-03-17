@@ -4,6 +4,7 @@
 @import url("font-awesome.min.css");
 @import url("font-linux.min.css");
 @import url("font-roboto.min.css");
+@import url("bootstrap.min.css");
 
 /*
 	Gravity by Pixelarity
@@ -2943,9 +2944,12 @@
 
 /* CONTACTS */	
 	
+	#success {
+		width: 100%
+	}
 	.alert {
-		padding: 15px;
-		margin-bottom: 20px;
+		padding: 1em 1em 1em 1em;
+		margin-bottom: 2em;
 		border: 1px solid transparent;
 		border-radius: 4px;
 	}
@@ -2982,3 +2986,7 @@
 		color: #843534;
 	}
 	
+#contact-section .text-danger {
+	color: #cc3300;
+	text-align: center;
+	}
