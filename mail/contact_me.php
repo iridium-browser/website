@@ -11,7 +11,7 @@ if(empty($_POST['name'])  		||
 	
 $name = $_POST['name'];
 $email_address = $_POST['email'];
-$email_subject = $_POST['category'];
+$email_subject = $_POST['subject'];
 $message = $_POST['message'];
 	
 // Create the email and send the message
