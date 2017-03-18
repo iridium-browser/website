@@ -2991,9 +2991,12 @@
 	#response {
 		margin-bottom: 2em;
 		text-align: center;
+		font-size: 2.5em;
+		font-weight: _font(weight-bold);
+		letter-spacing: _font(letter-spacing);
 	}
 	#response .success {
-		color: #08a300;
+		color: _palette(fg-bold);
 	}
 	#response .failure {
 		color: #dc0000;
