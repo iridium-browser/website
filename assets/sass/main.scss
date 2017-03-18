@@ -2948,7 +2948,7 @@
 	}
 
 	.error[generated=true] {
-		color: #dc0000;
+		color: red;
 		padding: .35em 0 .25em .35em;
 		position: absolut;
 		top: 0;
@@ -2962,11 +2962,11 @@
 		font-weight: _font(weight-bold);
 		letter-spacing: _font(letter-spacing);
 		line-height: 2em;
+
+		.success {
+			color: _palette(fg-blue);
+		}
+		.failure {
+			color: red;
+		}
 	}
-	#response .success {
-		color: _palette(fg-blue);
-	}
-	#response .failure {
-		color: red;
-	}
-	
