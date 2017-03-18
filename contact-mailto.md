@@ -14,25 +14,25 @@ sitemap:
 	<form method="post" action="mailto:test@souldanger.com" enctype="text/plain">
 		<div class="row uniform 50%">
 			<div class="6u 12u$(4)">
-				<input type="text" name="name" id="name" value="" placeholder="Name" required="required" />
+				<input type="text" name="name" id="name" value="" placeholder="name" required="required" />
 			</div>
 			<div class="6u$ 12u$(4)">
-				<input type="email" name="email" id="email" value="" placeholder="Email" required="required" />
+				<input type="email" name="email" id="email" value="" placeholder="email" required="required" />
 			</div>
 			<div class="12u$">
 				<div class="select-wrapper">
 					<select name="category" id="category" required="required">
-						<option value="">- Category -</option>
-						<option value="1">General Question</option>
-						<option value="2">Bug Report</option>
-						<option value="3">Warning Bubble trk: tracker</option>
-						<option value="4">I'd like to join the Development Team</option>
-						<option value="5">Sponsoring</option>
+						<option value="">- choose a category</option>
+						<option value="General Question">General Question</option>
+						<option value="Bug Report">Bug Report</option>
+						<option value="Warning Bubble trk: tracker">Warning Bubble trk: tracker</option>
+						<option value="Join the Development Team">I'd like to join the Development Team</option>
+						<option value="Sponsoring">Sponsoring</option>
 					</select>
 				</div>
 			</div>
 			<div class="12u$">
-				<textarea name="message" id="message" placeholder="Enter your message" rows="6" required="required"></textarea>
+				<textarea name="message" id="message" placeholder="enter your message" rows="6" required="required"></textarea>
 			</div>
 			<div class="12u$">
 				<ul class="actions">
