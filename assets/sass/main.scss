@@ -2947,39 +2947,6 @@
 		display: none;
 	}
 
-	.help-block {
-		display: block;
-		margin-top: 5px;
-		margin-bottom: 10px;
-	}
-	.text-danger {
-		color: #cc3300;
-		text-align: left;
-	}
-
-	#success {
-		width: 100%
-	}
-	.alert {
-		padding: 1em 1em 1em 1em;
-		margin-bottom: .5em;
-		border: 1px solid transparent;
-		border-radius: _size(border-radius);
-	}
-	.alert-success {
-		color: #3c763d;
-		background-color: #dff0d8;
-		border-color: _palette(border);
-	}
-	.alert-danger {
-		color: #a94442;
-		background-color: #f2dede;
-		border-color: _palette(border);
-	}
-
-/* PHP 2 */
-
-
 	.error[generated=true] {
 		color: #dc0000;
 		padding: .35em 0 .25em .35em;
@@ -2994,6 +2961,7 @@
 		font-size: 2em;
 		font-weight: _font(weight-bold);
 		letter-spacing: _font(letter-spacing);
+		line-height: _size(element-height);
 	}
 	#response .success {
 		color: _palette(fg-blue);

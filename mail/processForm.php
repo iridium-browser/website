@@ -42,7 +42,7 @@ if($errors) {
 	foreach($errors as $error) {
 		$errortext .= "<li>".$error."</li>";
 	}
-	die("<span class='failure'>The following errors occured:<ul>". $errortext ."</ul></span>");
+	die("<span class='failure'>The following errors occured:<ul>". $errortext ."</ul></div>");
 }
 
 // Send the email
@@ -54,7 +54,7 @@ $headers = "From: $email";
 mail($to, $subject, $message, $headers);
 
 // Die with a success message
-die("<div class='success'>Success!<br/>Your message has been sent.</div>");
+die("<div class='success'>SUCCESS!<br/>...your message has been sent...</div>");
 
 // A function that checks to see if
 // an email is valid
