@@ -2959,14 +2959,22 @@
 		margin-bottom: 2em;
 		text-align: center;
 		font-size: 1.25em;
-		font-weight: _font(weight-bold);
 		letter-spacing: _font(letter-spacing);
 		line-height: 2em;
 
 		.success {
 			color: _palette(fg-blue);
+			font-weight: _font(weight-bold);
+			
+			h3 {
+				color: _palette(fg-blue);
+			}
 		}
 		.failure {
 			color: red;
+			
+			p {
+				font-weight: _font(weight-bold);
+			}
 		}
 	}

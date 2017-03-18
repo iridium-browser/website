@@ -18,21 +18,21 @@ $message = $_POST["message"];
 $errors = array();
 if(strlen($name) < 2) {
 	if(!$name) {
-		$errors[] = "You must enter a name.";
+		$errors[] = "You must enter a name";
 	} else {
-		$errors[] = "Name must be at least 2 characters.";
+		$errors[] = "Name must be at least 2 characters";
 	}
 }
 if(!$email) {
-	$errors[] = "You must enter an email.";
+	$errors[] = "You must enter an email";
 } else if(!validEmail($email)) {
-	$errors[] = "You must enter a valid email.";
+	$errors[] = "You must enter a valid email";
 }
 if(strlen($message) < 10) {
 	if(!$message) {
-		$errors[] = "You must enter a message.";
+		$errors[] = "You must enter a message";
 	} else {
-		$errors[] = "Message must be at least 10 characters.";
+		$errors[] = "Message must be at least 10 characters";
 	}
 }
 
@@ -54,7 +54,7 @@ $headers = "From: $email";
 mail($to, $subject, $message, $headers);
 
 // Die with a success message
-die("<div class='success'><h3>SUCCESS!</h3><span class='fa fa-send-o' style='font-size:5em;'></span><br/>...your message has been sent...</div>");
+die("<div class='success'><h3>SUCCESS</h3><span class='fa fa-send-o' style='font-size:5em;'></span><p>...your message has been sent...</p></div>");
 
 // A function that checks to see if
 // an email is valid
