@@ -40,9 +40,9 @@ if($errors) {
 	// Output errors and die with a failure message
 	$errortext = "";
 	foreach($errors as $error) {
-		$errortext .= "<li>".$error."</li>";
+		$errortext .= "<p>".$error."</p>";
 	}
-	die("<span class='failure'><span class='fa fa-exclamation-circle'></span> The following errors occured:<ul>". $errortext ."</ul></div>");
+	die("<div class='failure'><span class='fa fa-exclamation-circle'></span> The following errors occured:". $errortext ."</div>");
 }
 
 // Send the email
