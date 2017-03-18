@@ -22,7 +22,7 @@ $(function() {
   			email: true
   		},
   		subject: {
-  			required: true,
+  			required: true
   		},
 
   		message: {
@@ -36,7 +36,7 @@ $(function() {
   	messages: {
   		name: {
   			required: "please enter your name",
-  			minlength: jQuery.format("At least {0} characters required.")
+  			minlength: jQuery.format("At least {0} characters required")
   		},
   		email: {
   			required: "please enter your email",
@@ -47,7 +47,7 @@ $(function() {
   		},
   		message: {
   			required: "please enter a message",
-  			minlength: jQuery.format("At least {0} characters required.")
+  			minlength: jQuery.format("At least {0} characters required")
   		}
   	},
   	
