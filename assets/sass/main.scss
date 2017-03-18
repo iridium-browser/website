@@ -2943,12 +2943,14 @@
 
 /* CONTACTS */	
 	
+	.select-option {
+		display: none;
+	}
+
 	.help-block {
 		display: block;
 		margin-top: 5px;
 		margin-bottom: 10px;
-		color: red;
-		text-align: left;
 	}
 	.text-danger {
 		color: #cc3300;
