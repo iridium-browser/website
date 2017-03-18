@@ -42,7 +42,7 @@ if($errors) {
 	foreach($errors as $error) {
 		$errortext .= "<p>".$error."</p>";
 	}
-	echo "<div class='failure'><span class='fa fa-exclamation-circle'></span> The following errors occured:". $errortext ."</div>";
+	die("<div class='failure'><span class='fa fa-exclamation-circle'></span> The following errors occured:". $errortext ."</div>");
 }
 
 // Send the email
