@@ -4,7 +4,6 @@
 @import url("font-awesome.min.css");
 @import url("font-linux.min.css");
 @import url("font-roboto.min.css");
-@import url("bootstrap.min.css");
 
 /*
 	Gravity by Pixelarity
@@ -2944,49 +2943,35 @@
 
 /* CONTACTS */	
 	
+	.help-block {
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		color: red;
+		text-align: left;
+	}
+	.text-danger {
+		color: #cc3300;
+		text-align: left;
+	}
+
 	#success {
 		width: 100%
 	}
 	.alert {
 		padding: 1em 1em 1em 1em;
-		margin-bottom: 2em;
+		margin-bottom: .5em;
 		border: 1px solid transparent;
-		border-radius: 4px;
-	}
-	.alert .alert-link {
-		font-weight: bold;
-	}
-	.alert > p,
-	.alert > ul {
-		margin-bottom: 0;
-	}
-	.alert > p + p {
-		margin-top: 5px;
+		border-radius: _size(border-radius);
 	}
 	.alert-success {
 		color: #3c763d;
 		background-color: #dff0d8;
-		border-color: #d6e9c6;
-	}
-	.alert-success hr {
-		border-top-color: #c9e2b3;
-	}
-	.alert-success .alert-link {
-		color: #2b542c;
+		border-color: _palette(border);
 	}
 	.alert-danger {
 		color: #a94442;
 		background-color: #f2dede;
-		border-color: #ebccd1;
+		border-color: _palette(border);
 	}
-	.alert-danger hr {
-		border-top-color: #e4b9c0;
-	}
-	.alert-danger .alert-link {
-		color: #843534;
-	}
-	
-#contact-section .text-danger {
-	color: #cc3300;
-	text-align: center;
-	}
+

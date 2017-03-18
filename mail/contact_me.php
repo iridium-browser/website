@@ -2,6 +2,7 @@
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
+   empty($_POST['subject'])	||
    empty($_POST['message'])	||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {

@@ -9,31 +9,36 @@ sitemap:
   exclude: 'yes'
 ---
 
+<script type="text/javascript" src="mail/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="mail/contact_me.js"></script> 
+
 <br/>
 <section>
 	<form name="sentMessage" id="contactForm" novalidate>
 		<div class="row uniform 50%">
 			<div class="6u 12u$(4) form-group">
-				<input type="text" name="name" id="name" class="form-control" value="" placeholder="Name" required="required" />
+				<input type="text" name="name" id="name" value="" placeholder="name" required="required" />
+				<p class="help-block"></p>
 			</div>
 			<div class="6u$ 12u$(4) form-group">
-				<input type="email" name="email" id="email" class="form-control" value="" placeholder="Email" required="required" />
+				<input type="email" name="email" id="email" value="" placeholder="email" required="required" />
+				<p class="help-block"></p>
 			</div>
 			<div class="12u$ form-group">
 				<div class="select-wrapper">
-					<select name="category" id="category" class="form-control" required="required">
-						<option value="">- Category -</option>
-						<option value="1">General Question</option>
-						<option value="2">Bug Report</option>
-						<option value="3">Warning Bubble trk: tracker</option>
-						<option value="4">I'd like to join the Development Team</option>
-						<option value="5">Sponsoring</option>
+					<select name="category" id="category" required="required" required>
+						<option value="" disabled selected>- choose a category</option>
+						<option value="General Question">General Question</option>
+						<option value="Bug Report">Bug Report</option>
+						<option value="Warning Bubble trk: tracker">Warning Bubble trk: tracker</option>
+						<option value="I'd like to join the Development Team">I'd like to join the Development Team</option>
+						<option value="Sponsoring">Sponsoring</option>
 					</select>
 				</div>
 			</div>
 			<div class="12u$ form-group">
-				<textarea name="message" id="message" class="form-control" placeholder="Enter your message" rows="6" required="required"></textarea>
-			<p class="help-block text-danger"></p>
+				<textarea name="message" id="message" placeholder="enter your message" rows="6" required="required"></textarea>
+				<p class="help-block"></p>
 			</div>
 			<div id="success"></div>
 			<div class="12u$">
@@ -46,6 +51,3 @@ sitemap:
 	</form>
 </section>
 <br/>
-
-<script type="text/javascript" src="mail/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="mail/contact_me.js"></script> 
