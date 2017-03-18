@@ -2991,12 +2991,12 @@
 	#response {
 		margin-bottom: 2em;
 		text-align: center;
-		font-size: 2.5em;
+		font-size: 2em;
 		font-weight: _font(weight-bold);
 		letter-spacing: _font(letter-spacing);
 	}
 	#response .success {
-		color: _palette(fg-bold);
+		color: _palette(fg-blue);
 	}
 	#response .failure {
 		color: #dc0000;
