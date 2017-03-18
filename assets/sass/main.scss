@@ -2977,3 +2977,25 @@
 		border-color: _palette(border);
 	}
 
+/* PHP 2 */
+
+
+	.error[generated=true] {
+		color: #dc0000;
+		padding: .35em 0 .25em .35em;
+		position: absolut;
+		top: 0;
+		left: 0;
+	}
+	
+	#response {
+		margin-bottom: 2em;
+		text-align: center;
+	}
+	#response .success {
+		color: #08a300;
+	}
+	#response .failure {
+		color: #dc0000;
+	}
+	

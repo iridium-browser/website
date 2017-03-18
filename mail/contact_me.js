@@ -32,7 +32,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-success'>");
                     
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Your message has been sent.</strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 

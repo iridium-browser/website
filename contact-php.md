@@ -1,7 +1,7 @@
 ---
 layout: pagecentered
 title: "Contact"
-subtitle: PHP Approach
+subtitle: PHP Approach w/ Bootstrap Validation and Ajax
 description: Contact Form
 menu: false
 id: contact
@@ -25,7 +25,7 @@ sitemap:
 				<p class="help-block text-danger"></p>
 			</div>
 			<div class="12u$">
-				<div class="select-wrapper form-group">
+				<span class="select-wrapper form-group">
 					<select name="category" id="category" required="required" required>
 						<option value="" disabled selected class="select-option">- choose a category</option>
 						<option value="General Question">General Question</option>
@@ -35,7 +35,7 @@ sitemap:
 						<option value="Sponsoring">Sponsoring</option>
 					</select>
 					<p class="help-block text-danger"></p>
-				</div>
+				</span>
 			</div>
 			<div class="12u$ form-group">
 				<textarea name="message" id="message" placeholder="enter your message" rows="6" required="required"></textarea>
