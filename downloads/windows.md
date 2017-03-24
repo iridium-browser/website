@@ -6,7 +6,7 @@ description: Download IridiumBrowser for Windows 7+
 menu: no
 id: windows
 sitemap:
-  lastmod: 2016-01-27
+  lastmod: 2016-03-24
   priority: 0.5
   changefreq: 'weekly'
 ---
@@ -14,18 +14,24 @@ sitemap:
 <div class="icon dl fa-windows"></div>
 <header>
 	<h3>Windows 7+</h3>
-	<p>current version 54.0</p>
+	<p>current version 57.0</p>
 </header>
 
+<h4>Standard Version</h4>
 <div class="container 50%">
 	<div class="row">
 		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi" title="download 32-bit Version">32-bit Download</a></div>
 		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi" title="download 64-bit Version">64-bit Download</a></div>
 	</div>
 </div>
+<h4>Portable Version</h4>
+<div class="container 50%">
+	<div class="row">
+		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip" title="download Portable 32-bit Version">32-bit Download</a></div>
+		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip" title="download Portable 64-bit Version">64-bit Download</a></div>
+	</div>
+</div>
 <br/>
-<span class="fa fa-exclamation-circle"></span> **[PLEASE READ](win-fix-v54.html "Instructions for Windows")**, if you are a v54 user looking to fix the 'NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED' issue.
-
 If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/windows/" target="_blank">Builds Archive</a><br/>
 
 <p>system requirements<br/>
