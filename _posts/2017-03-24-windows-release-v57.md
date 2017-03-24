@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IridiumBrowser releases v57 for Windows!"
+title:  "IridiumBrowser releases v57 for Windows"
 description: IridiumBrowser releases v57 for Windows
 date:   2017-03-24 12:00:00 +0200
 author:	by admin
