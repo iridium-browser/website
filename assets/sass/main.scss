@@ -886,7 +886,20 @@
 				background-color: darken(_palette(accent1, bg), 5);
 			}
 		}
+		&.download1 {
+			background-color: _palette(accent1, bg-light);
+			box-shadow: inset 0 0 0 2px _palette(accent1, bg-light);
+			color: _palette(accent1, fg-bold) !important;
 
+			&:hover {
+				background-color: lighten(_palette(accent1, bg-light), 5);
+			}
+
+			&:active {
+				background-color: darken(_palette(accent1, bg-light), 5);
+			}
+		}
+ 
 		&.disabled,
 		&:disabled {
 			background-color: _palette(fg) !important;
