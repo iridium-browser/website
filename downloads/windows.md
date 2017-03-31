@@ -17,18 +17,18 @@ sitemap:
 	<p>current version 57.0</p>
 </header>
 
-<h4>Standard Version</h4>
+<h5>Standard Version</h5>
 <div class="container 50%">
 	<div class="row">
 		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi" title="download 32-bit Version">32-bit Download</a></div>
 		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi" title="download 64-bit Version">64-bit Download</a></div>
 	</div>
-</div>
-<h4>Portable Version</h4>
-<div class="container 50%">
+      
+<h5>Portable Version</h5>
+
 	<div class="row">
-		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip" title="download Portable 32-bit Version">32-bit Download</a></div>
-		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip" title="download Portable 64-bit Version">64-bit Download</a></div>
+		<div class="6u 12u$(small) align-center"><a class="button small fit download1 icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip" title="download Portable 32-bit Version">32-bit Download</a></div>
+		<div class="6u 12u$(small) align-center"><a class="button small fit download1 icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip" title="download Portable 64-bit Version">64-bit Download</a></div>
 	</div>
 </div>
 <br/>
