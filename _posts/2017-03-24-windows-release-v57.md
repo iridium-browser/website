@@ -9,10 +9,10 @@ categories: news
 
 We are happy and a little proud to announce the release of version 57.0 for Windows.     
 This release is also available as a Portable version.    
-
+<!--break-->
 To follow will be releases for the following platforms; **Mac OS X, Ubuntu / Debian, openSUSE** and for the first time **Fedora**
 
-The latest version of the Chromium code base uses way less resources than before and also includes all the latest security features against CVE's.     
+The latest version of the Chromium code base uses way less resources and also includes all the latest security features against CVE's.     
       
 [DOWNLOAD](/downloads/windows.html "Download v57 for Windows"){: .button .download}     
 
