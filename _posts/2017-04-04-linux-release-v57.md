@@ -9,7 +9,7 @@ categories: news
 
 We are happy and a little proud to announce the release of version 57.0 for Ubuntu / Debian / Mint.     
 <!--break-->
-Releases for the following platforms; **Windows, Mac OS X, openSUSE** and for the first time **Fedora** will follow soon.
+Releases for the following platforms; **Windows, Mac OS X, openSUSE** and for the first time **Fedora** to follow soon.
 
 The latest version of the Chromium code base uses less resources and also includes all the latest security features.     
       
