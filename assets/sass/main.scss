@@ -886,7 +886,20 @@
 				background-color: darken(_palette(accent1, bg), 5);
 			}
 		}
+		&.download1 {
+			background-color: _palette(accent1, bg-light);
+			box-shadow: inset 0 0 0 2px _palette(accent1, bg-light);
+			color: _palette(accent1, fg-bold) !important;
 
+			&:hover {
+				background-color: lighten(_palette(accent1, bg-light), 5);
+			}
+
+			&:active {
+				background-color: darken(_palette(accent1, bg-light), 5);
+			}
+		}
+ 
 		&.disabled,
 		&:disabled {
 			background-color: _palette(fg) !important;
@@ -2938,4 +2951,43 @@
 			}
 		}
 	
+	}
+
+
+/* CONTACTS */	
+	
+	.select-option {
+		display: none;
+	}
+
+	.error[generated=true] {
+		color: red;
+		padding: .35em 0 .25em .35em;
+		position: absolut;
+		top: 0;
+		left: 0;
+	}
+	
+	#response {
+		margin-bottom: 2em;
+		text-align: center;
+		font-size: 1.25em;
+		letter-spacing: _font(letter-spacing);
+		line-height: 2em;
+
+		.success {
+			color: _palette(fg-blue);
+			font-weight: _font(weight-bold);
+			
+			h3 {
+				color: _palette(fg-blue);
+			}
+		}
+		.failure {
+			color: red;
+			
+			p {
+				font-weight: _font(weight-bold);
+			}
+		}
 	}
