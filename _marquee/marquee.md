@@ -3,4 +3,4 @@ layout: default-layout
 title: "Marquee"
 ---
 
-**</>** Issue with Symantec Certs **solved!** check out the latest [News](/index.html#news "latest News") </> 
+</> **IridiumBrowser** releases **version 57.0 for Ubuntu / Debian / Mint** - read the latest [News](/index.html#news "latest News") </>
