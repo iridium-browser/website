@@ -23,6 +23,7 @@ sitemap:
 		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi" title="download 64-bit Version">64-bit Download</a></div>
 	</div>
 </div>
+
 <br/>
 <span class="fa fa-exclamation-circle"></span> **[PLEASE READ](win-fix-v54.html "Instructions for Windows")**, if you are a v54 user looking to fix the 'NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED' issue.
 

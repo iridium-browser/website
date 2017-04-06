@@ -6,7 +6,7 @@ description: Download IridiumBrowser for Ubuntu, Debian, Mint and openSUSE
 menu: no
 id: linux
 sitemap:
-  lastmod: 2017-01-02
+  lastmod: 2017-04-05
   priority: 0.5
   changefreq: 'weekly'
 ---
@@ -14,7 +14,7 @@ sitemap:
 <div class="icon dl fa-linux"></div> 
 <header>
 	<h3>Repository for Ubuntu | Debian | Mint</h3>
-	<p>current version 54.0</p>
+	<p>current version 57.0</p>
 </header>
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
