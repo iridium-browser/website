@@ -2,7 +2,7 @@
 layout: post
 title:  "IridiumBrowser releases v57 for Linux"
 description: IridiumBrowser releases v57 for Linux
-date:   2017-04-05 12:00:00 +0200
+date:   2017-04-06 12:00:00 +0200
 author:	by admin
 categories: news
 ---
