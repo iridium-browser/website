@@ -1,8 +1,8 @@
 ---
 layout: pagecentered
 title: "Download for Windows"
-subtitle: IridiumBrowser
-description: Download IridiumBrowser for Windows 7+
+subtitle: Iridium Browser
+description: Download Iridium Browser for Windows 7+
 menu: no
 id: windows
 sitemap:
@@ -18,6 +18,7 @@ sitemap:
 </header>
 
 <h5>Standard Version</h5>
+
 <div class="container 50%">
 	<div class="row">
 		<div class="6u 12u$(small) align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi" title="download 32-bit Version">32-bit Download</a></div>
@@ -49,13 +50,14 @@ If this is not your Operating System or if you are looking for a different platf
 	</div>
 </div>
 <br/>
-Currently IridiumBrowser is available for the following Operating Systems<br/>
+Currently Iridium Browser is available for the following Operating Systems     
 <span class="os-text">
 Windows 7+ &#8226; 
  Mac OS X 10.9+ &#8226; 
  Ubuntu 14.04+ (64-bit) &#8226; 
  Debian 8+ (64-bit) &#8226; 
  Mint 17+ (64-bit) &#8226;
- openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed<br/>
+ openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed
+ &#8226; Fedora 25<br/>
 </span>
-<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!
+<span class="fa fa-warning"></span> Iridium Browser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!

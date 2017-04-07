@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "IridiumBrowser releases v57 for Windows and Mac OS"
-description: IridiumBrowser releases v57 for Windows and Mac OS
+title:  "Iridium Browser releases v57 for Windows and Mac OS"
+description: Iridium Browser releases v57 for Windows and Mac OS
 date:   2017-04-07 10:00:00 +0200
 author:	by admin
 categories: news
@@ -12,4 +12,4 @@ The Windows build is also available as a portable version.
 Releases for **openSUSE** and **Fedora** to follow shortly.     
 <!--break-->
 
-[DOWNLOAD](/downloads/index.html "Download IridiumBrowser v57"){: .button .download}     
+[DOWNLOAD](/downloads/index.html "Download Iridium Browser v57"){: .button .download}     
