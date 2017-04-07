@@ -17,8 +17,11 @@ sitemap:
 	<p>current version 57.0</p>
 </header>
 
-<a class="button small download icon fa-download" href="https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg" title="download 64-bit Version">Download</a>
-
+<div class="container 25%">
+	<div class="row">
+		<div class="12u$ align-center"><a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg" title="download 64-bit Version">Download</a></div>
+	</div>
+</div>
 <br>
 If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/macosx/" target="_blank">Builds Archive</a><br/>
   

@@ -7,8 +7,9 @@ author:	by admin
 categories: news
 ---
 
-Following yesterday's release of version 57.0 for Ubuntu/Debain, we are now also releasing the latest builds for **Windows** and **Mac OSX**.     
+Following yesterday's release of version 57.0 for Ubuntu/Debian, we are now also releasing the latest builds for **Windows** and **Mac OSX**.     
 The Windows build is also available as a portable version.     
+Releases for openSUSE and Fedora to follow shortly.
 <!--break-->
       
 [DOWNLOAD](/downloads/index.html "Download IridiumBrowser v57"){: .button .download}     
