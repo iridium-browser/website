@@ -2871,6 +2871,15 @@
 			display: block;
 			line-height: 1.25em;
 		}
+
+		.dlfedora {
+			font-size: 4em !important;
+			color: _palette(accent1, bg) !important;
+			position: relative;
+			display: block;
+			line-height: 1.25em;
+			margin-top: 1.25em;
+		}
 		
 		.os-text {
 			font-size:1.1em;
@@ -2951,43 +2960,4 @@
 			}
 		}
 	
-	}
-
-
-/* CONTACTS */	
-	
-	.select-option {
-		display: none;
-	}
-
-	.error[generated=true] {
-		color: red;
-		padding: .35em 0 .25em .35em;
-		position: absolut;
-		top: 0;
-		left: 0;
-	}
-	
-	#response {
-		margin-bottom: 2em;
-		text-align: center;
-		font-size: 1.25em;
-		letter-spacing: _font(letter-spacing);
-		line-height: 2em;
-
-		.success {
-			color: _palette(fg-blue);
-			font-weight: _font(weight-bold);
-			
-			h3 {
-				color: _palette(fg-blue);
-			}
-		}
-		.failure {
-			color: red;
-			
-			p {
-				font-weight: _font(weight-bold);
-			}
-		}
 	}
