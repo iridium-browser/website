@@ -1,36 +1,24 @@
 ---
 layout: pagecentered
-title: "Download for Mac OS X"
+title: "Download for Mac OSX"
 subtitle: IridiumBrowser
 description: Download IridiumBrowser for Mac OSX 10.9+
 menu: no
 id: mac_os
 sitemap:
-  lastmod: 2016-07-03
+  lastmod: 2017-04-07
   priority: 0.5
-  changefreq: 'daily'
+  changefreq: 'weekly'
 ---
  
 <div class="icon dl fa-apple"></div>
 <header>
-	<h3>Mac OS X 10.9+</h3>
-	<p>current version 51.1</p>
+	<h3>Mac OSX 10.9+</h3>
+	<p>current version 57.0</p>
 </header>
-<div class="container 50%">
-	<div class="row" style="margin-top: -1.5em;">
-		<div class="6u 12u$(small) align-center">
-		<header>
-			<h4>Standard Release</h4>
-			<p>(<em>free media codecs only</em>)</p>
-		</header>
-			<a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/macosx/51.1.0/iridium_browser_51.1.0_osx_x64.dmg" title="download Standard Release">Standard Download</a></div>
-		<div class="6u 12u$(small) align-center"><header>
-			<h4>Extra Release</h4>
-			<p>(<em>incl non-free media codecs</em>)</p>
-		</header>
-			<a class="button small fit download icon fa-download" href="https://downloads.iridiumbrowser.de/macosx/51.1.0/iridium_browser_extra_51.1.0_osx_x64.dmg" title="download Extra Release">Extra Download</a></div>
-	</div>
-</div>
+
+<a class="button small download icon fa-download" href="https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg" title="download 64-bit Version">Download</a>
+
 <br>
 If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/macosx/" target="_blank">Builds Archive</a><br/>
   
