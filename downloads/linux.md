@@ -61,18 +61,17 @@ sitemap:
      
 <div class="dlfedora fl-fedora"></div>
 <header>
-	<h3>Repository for Fedora</h3>
+	<h3>Repository for Fedora 25</h3>
 	<p>current version 54.0</p>
 </header>
 
-	wget https://than.fedorapeople.org/f25/iridium-browser/iridium-browser.repo -O /etc/yum.repos.d/iridium-browser.repo
+	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_25/iridium-browser.repo
 	dnf install iridium-browser
-     
-	
+     	
 <p>system requirements<br/>
 &#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+<br/>
 &#8226; openSUSE 13.1+, Leap 42.1+, Tumbleweed<br/>
-&#8226; Fedora 21+<br/>
+&#8226; Fedora 25<br/>
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
 
 <hr/>
