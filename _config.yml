@@ -10,8 +10,10 @@ title: Iridium Browser
 email: iridium@lists.inai.de
 description: > # this means to ignore newlines until "baseurl:"
   The Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure the most secure technologies are used.
+hotpic: /images/hotpics/Iridium-hotpic.png
 hotpic-fb: /images/hotpics/Iridium-hotpic_FB.png
 hotpic-tw: /images/hotpics/Iridium-hotpic_TW.png  
+keywords: "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Secure Browser Project, Secure Browser, Privacy Browser, Chromium based, Windows, MacOS, Ubuntu, Debian, Mint, openSUSE, Fedora, Linux, Red Hat Enterprise Linux"
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://iridiumbrowser.de # the base hostname & protocol for your site

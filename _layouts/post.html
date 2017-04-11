@@ -31,7 +31,7 @@ layout: default-layout
   "@type": "NewsArticle",
   "mainEntityOfPage": {
          "@type": "WebPage",
-         "@id": "{{ site.url }}"
+         "@id": "{{ site.url | append: site.baseurl}}"
   },
   "headline": "{{ page.title }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
@@ -39,16 +39,17 @@ layout: default-layout
   "description": "{{ page.description }}",
   "image": {
     "@type": "ImageObject",
-    "height": "200",
-    "width": "200",
-    "url": "https://iridiumbrowser.de/images/Iridium-hotpic.png"
+    "height": "1200",
+    "width": "6228",
+    "contentUrl": "{% if page.hotpic-fb %}{{ page.hotpic-fb | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.hotpic-fb | prepend: site.baseurl | prepend: site.url }}{% endif %}"
+	"url": "{{ site.url | append: site.baseurl}}"
   },
   "author": "{{ page.author }}",
   "publisher": {
     "@type": "Organization",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://iridiumbrowser.de/images/Iridium-hotpic.png"
+      "url": "{{ site.hotpic-fb | prepend: site.baseurl | prepend: site.url }}"
     },
     "name": "{{ site.title }}"
   },
