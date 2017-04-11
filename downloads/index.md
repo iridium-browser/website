@@ -2,7 +2,7 @@
 layout: pagecentered
 title: "Download"
 subtitle: ""
-description: Download IridiumBrowser for Windows, Mac OS, Ubuntu, Debian, Mint or OpenSUSE
+description: Download Iridium Browser for Windows, Mac OS, Ubuntu, Debian, Mint, OpenSUSE or Fedora
 menu: 2
 sitemap:
   lastmod: 2017-02-18
