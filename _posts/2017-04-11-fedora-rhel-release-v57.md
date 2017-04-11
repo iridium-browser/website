@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Iridium Browser releases v57 for Fedora and RHEL"
-description: Iridium Browser releases v54 for Fedora
+description: Iridium Browser releases v57 for Fedora and RHEL
 date:   2017-04-11 12:00:00 +0100
 author:	by admin
 categories: news
