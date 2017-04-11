@@ -7,7 +7,7 @@ author:	by admin
 categories: news
 ---
 
-Following the releases of version 57.0 for **Windows, Mac OSX** and **Ubuntu/Debian**, we now also have up-to-date builds for **Fedora 24 & 25** and **Red Hat Enterprise Linux 7**.     
+Following the releases of version 57.0 for **Windows, Mac OSX** and **Ubuntu/Debian**, we now have up-to-date builds for **Fedora 24 & 25** as well as **Red Hat Enterprise Linux 7**.     
 <!--break-->
 Version 57 builds for openSUSE still to follow.
  
