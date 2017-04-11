@@ -3,6 +3,8 @@ layout: pagecentered
 title: "FAQ"
 subtitle: "Frequently Asked Questions"
 description: "Frequently Asked Questions"
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-faq.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-faq.png"
 menu: 3
 id: faq
 sitemap:

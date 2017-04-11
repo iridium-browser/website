@@ -3,6 +3,8 @@ layout: pagecentered
 title: "Download"
 subtitle: ""
 description: Download Iridium Browser for Windows, Mac OS, Ubuntu, Debian, Mint, OpenSUSE or Fedora
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-download.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-download.png"
 menu: 2
 sitemap:
   lastmod: 2017-02-18

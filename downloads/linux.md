@@ -1,8 +1,10 @@
 ---
 layout: pagecentered
-title: "Download  for Linux"
+title: "Download for Linux"
 subtitle: Iridium Browser
-description: Download Iridium Browser for Ubuntu, Debian, Mint and openSUSE
+description: Download Iridium Browser for Ubuntu/Debian, openSUSE, Fedora and RHEL
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: linux
 sitemap:
@@ -61,16 +63,16 @@ sitemap:
      
 <div class="dlfedora fl-fedora"></div>
 <header>
-	<h3>Repository for Fedora 24</h3>
+	<h3>Repository for Fedora</h3>
 	<p>current version 57.0</p>
 </header>
+
+<h3>Fedora 24</h3>
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_24/iridium-browser.repo
 	dnf install iridium-browser
      	
-<header>
-	<h3>Repository for Fedora 25</h3>
-</header>
+<h3>Fedora 25</h3>
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_25/iridium-browser.repo
 	dnf install iridium-browser
@@ -88,6 +90,7 @@ sitemap:
 	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo
 	yum install iridium-browser
      	
+<br/>
 <p>system requirements<br/>
 &#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+<br/>
 &#8226; openSUSE 13.1+, Leap 42.1+, Tumbleweed<br/>

@@ -3,6 +3,8 @@ layout: pagecentered
 title: "Download for Windows"
 subtitle: Iridium Browser
 description: Download Iridium Browser for Windows 7+
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-win.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-win.png"
 menu: no
 id: windows
 sitemap:
