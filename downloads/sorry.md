@@ -2,7 +2,7 @@
 layout: pagecentered
 title: "...Ooops..."
 subtitle: We are sorry
-description: We are sorry! IridiumBrowser is currently not available for your platform or your operating system could not be detected.
+description: We are sorry! Iridium Browser is currently not available for your platform or your operating system could not be detected.
 menu: false
 id: sorry
 sitemap:
@@ -10,7 +10,7 @@ sitemap:
 ---
 
 <div class="icon dl-sorry fa-frown-o"></div>
-<h3 style="color:#4499D4;">Your operating system could not be detected or IridiumBrowser is not available for your platform</h3>     
+<h3 style="color:#4499D4;">Your operating system could not be detected or Iridium Browser is not available for your platform</h3>     
      
 <hr/>
 	  
@@ -30,6 +30,7 @@ Windows 7+ &#8226;
  Ubuntu 14.04+ (64-bit) &#8226; 
  Debian 8+ (64-bit) &#8226; 
  Mint 17+ (64-bit) &#8226;
- openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed<br/>
+ openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed
+ &#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7<br/>
 </span>
 <span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!

@@ -61,17 +61,37 @@ sitemap:
      
 <div class="dlfedora fl-fedora"></div>
 <header>
+	<h3>Repository for Fedora 24</h3>
+	<p>current version 57.0</p>
+</header>
+
+	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_24/iridium-browser.repo
+	dnf install iridium-browser
+     	
+<header>
 	<h3>Repository for Fedora 25</h3>
-	<p>current version 54.0</p>
 </header>
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_25/iridium-browser.repo
 	dnf install iridium-browser
      	
+<span id="redhat"></span>     
+     
+<hr>
+     
+<div class="dlfedora fl-redhat"></div>
+<header>
+	<h3>Repository for Red Hat Enterprise Linux 7</h3>
+	<p>current version 57.0</p>
+</header>
+
+	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo
+	yum install iridium-browser
+     	
 <p>system requirements<br/>
 &#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+<br/>
 &#8226; openSUSE 13.1+, Leap 42.1+, Tumbleweed<br/>
-&#8226; Fedora 25<br/>
+&#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7<br/>
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
 
 <hr/>
@@ -92,6 +112,6 @@ Windows 7+ &#8226;
  Debian 8+ (64-bit) &#8226; 
  Mint 17+ (64-bit) &#8226;
  openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed
- &#8226; Fedora 25<br/>
+ &#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7<br/>
 </span>
 <span class="fa fa-warning"></span> Iridium Browser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!
