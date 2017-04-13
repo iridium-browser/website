@@ -1,8 +1,8 @@
 ---
 layout: pagecentered
 title: "Download Source Code"
-subtitle: IridiumBrowser
-description: Download the IridiumBrowser source code
+subtitle: Iridium Browser
+description: Download the Iridium Browser source code
 menu: no
 id: source
 sitemap:
@@ -22,7 +22,7 @@ sitemap:
 <p>Browse the source code with your browser<br/>
 Git web view <a href="https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/" target="_blank">https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/</a></p>
 
-<hr>
+---
 
 <div class="icon dl fa-code"></div>
 <header>
@@ -31,7 +31,7 @@ Git web view <a href="https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/" t
 </header>
 <p>Download at <a href="https://downloads.iridiumbrowser.de/source/" target="_blank">https://downloads.iridiumbrowser.de/source/</a></p>
 
-<hr>
+---
 
 <div class="container 75%">
 	<div class="row">
@@ -42,7 +42,7 @@ Git web view <a href="https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/" t
 	</div>
 </div>
 <br/>
-Currently IridiumBrowser is available for the following Operating Systems<br/>
+Currently Iridium Browser is available for the following Operating Systems     
 <span class="os-text">
 Windows 7+ &#8226; 
  Mac OS X 10.9+ &#8226; 
@@ -50,6 +50,5 @@ Windows 7+ &#8226;
  Debian 8+ (64-bit) &#8226; 
  Mint 17+ (64-bit) &#8226;
  openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed
- &#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7<br/>
-</span>
-<span class="fa fa-warning"></span> IridiumBrowser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!
+ &#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7</span><br/>
+<span class="fa fa-warning"></span> Iridium Browser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!

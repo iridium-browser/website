@@ -5,6 +5,8 @@ description: Iridium Browser releases v57 for Linux
 date:   2017-04-06 12:00:00 +0200
 author:	by admin
 categories: news
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 ---
 
 We are happy and a little proud to announce the release of version 57.0 for **Ubuntu / Debian / Mint**.     

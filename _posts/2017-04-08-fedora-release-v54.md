@@ -5,6 +5,8 @@ description: Iridium Browser releases v54 for Fedora
 date:   2017-04-07 10:00:00 +0100
 author:	by admin
 categories: news
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 ---
 
 For the first time ever, Iridium Browser releases a build for **Fedora**!     

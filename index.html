@@ -141,20 +141,21 @@ sitemap:
 		"@type": "SoftwareApplication",
 		"name": "{{ site.title }}",
 		"url": "{{ site.url }}",
-		"downloadUrl": "{{ site.url }}/downloads/",
+		"downloadUrl": "{{ site.url | append: site.baseurl}}/downloads/",
 		"description": "{{ site.description }}",
 		"applicationCategory": "Browser",
-		"operatingSystem": "Windows, Mac OS-X, Ubuntu, Debian, openSUSE",
+		"operatingSystem": "Windows, Mac OS-X, Ubuntu, Debian, openSUSE, Fedora Red Hat Enterprise Linux",
 		"aggregateRating": {
 			"@type": "AggregateRating",
 			"ratingValue": "5",
-			"ratingCount": "2473"
+			"ratingCount": "3743"
 		},
 		"image": {
 			"@type": "ImageObject",
-			"height": "600",
-			"width": "250",
-			"url": "{{ '/images/Iridium-hotpic_Goo.png' | prepend: site.url }}"
+			"height": "200",
+			"width": "200",
+			"contentUrl": "{{ site.hotpic | prepend: site.baseurl | prepend: site.url }}"
+			"url": "{{ site.url | append: site.baseurl}}"
 		},
 		"offers": {
 		"@type": "Offer",
@@ -166,14 +167,15 @@ sitemap:
 		"@context": "http://schema.org",
 		"@type": "Product",
 		"name": "{{ site.title }}",
-		"url": "{{ site.url }}",
+		"url": "{{ site.url | append: site.baseurl}}",
 		"description": "{{ site.description }}"
 	},
 	{
 		"@context": "http://schema.org",
 		"@type": "WebSite",
 		"name": "{{ site.title }}",
-		"url": "{{ site.url }}",
+		"url": "{{ site.url | append: site.baseurl}}",
+		"keywords": "{{ site.keywords }}",
 		"description": "{{ site.description }}"
 	}
 ]
