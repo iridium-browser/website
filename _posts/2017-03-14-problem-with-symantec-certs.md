@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Issue with Symantec Certs - solved!"
-description: Issue with Symantec Certs - solved! get the latest updates from the Download section.
+description: Issue with Symantec Certs - solved! get the latest updates in the Download section.
 date:   2017-03-14 20:05:00 +0200
 author:	by admin
 categories: news
