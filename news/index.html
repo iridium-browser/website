@@ -1,0 +1,61 @@
+---
+layout: default-layout
+title: "News"
+subtitle: "All the News"
+description: "All the Iridium Browser News about the latest builds, releases, solved problems and much more."
+menu: false
+sitemap:
+  lastmod: 2017-01-02
+  priority: 0.3
+  changefreq: 'daily'
+---
+
+<section id="news" class="wrapper style1 special">
+<div class="container">	
+	<header class="major">
+		<h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} | {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p></p>
+	</header>
+	<br/>	
+	<ul class="alt post-container">
+    {% for post in paginator.posts %}
+		<li>
+			<header>
+				<h3>{{ post.title | escape }}</h3>
+				<p><small>{{ post.date | date: "%-d %B %Y" }}</small>	</p>
+			</header>
+			<div class="post-box">
+				{{ post.content | split:'<!--break-->' | first }}
+				{% if post.content contains '<!--break-->' %}
+				<br/>
+				<a href="{{ post.url | prepend: site.baseurl }}" class="button small icon fa-plus">read more</a>
+				{% endif %}
+			</div>
+		</li>
+    {% endfor %}
+	</ul>
+	<hr/>
+{% if paginator.total_pages > 1 %}
+	<div class="row pagination">
+		<div class="3u align-left">{% if paginator.previous_page %}
+			<a class="button small special" title="previous post" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10094;</a>{% endif %}&nbsp;</div>
+
+		<div class="6u align-center">{% for page in (1..paginator.total_pages) %}
+			{% if page == paginator.page %}
+				<span class="button small special">{{ page }}</span>
+			{% elsif page == 1 %}
+				<a class="button small special" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+			{% else %}
+				<a class="button small special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+			{% endif %}
+			{% endfor %}</div>
+
+		<div class="3u$ align-right">{% if paginator.next_page %} &nbsp;
+			<a class="button small special" title="next post" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10095;</a>{% endif %}</div>
+	</div>
+{% endif %}
+	
+	
+	
+</div>
+</section>

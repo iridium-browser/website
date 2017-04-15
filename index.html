@@ -77,13 +77,11 @@ sitemap:
 			<p><small>{{ post.date | date: "%-d-%b-%Y" }}</small></p>
 		</header>
 		{{ post.content }}
-		<p><small>{% if post.author %} {{ post.author }}{% endif %}</small></p>
-
 		<hr>
 		{% endfor %}
 		
 		<p>looking for previous posts?</p>
-		<a class="button small" href="news-archive.html" title="check out the News Archive">NEWS ARCHIVE</a>
+		<a class="button icon fa-file-text" href="{{ site.url | append: site.baseurl}}/news/" title="read all the News">News Index</a>
 	</section>
 </div>
 </section>

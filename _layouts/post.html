@@ -4,23 +4,23 @@ layout: default-layout
 <article class="post">
 	<section id="news" class="wrapper style1 special">
 		<div class="container">
-		<header>
-			<h2 class="post-title">{{ page.title }}</h2>
-			<p class="post-meta"><small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d-%b-%Y" }}</time>{% if page.author %} • {{ page.author }} {% endif %}</small></p>
+		<header class="major">
+			<h1>News Post</h1>
+			<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
 		</header>
-		<div class="post-content">
+		<h3>{{ page.title }}</h3>
+		
 			{{ content }}
-		</div>
-
+		
+		<p>{% if page.author %} {{ page.author }} {% endif %}</p>
 		<hr>
 		<div class="row">
 			<div class="3u align-left">{% if page.previous.url %}
-			<a class="button small special" title="previous post" href="{{page.previous.url}}">&#10094;</a>{% endif %}&nbsp;</div>
-
-			<div class="6u align-center"><a class="button small" href="../../../../news-archive.html" title="News Archive">News Archive</a></div>
-
+				<a class="button small special" title="previous post" href="{{page.previous.url}}">&#10094;</a>{% endif %}&nbsp;</div>
+			<div class="6u align-center">
+				<a class="button small icon fa-file-text" href="{{ site.url | append: site.baseurl}}/news/" title="read all the News">News Index</a></div>
 			<div class="3u$ align-right">{% if page.next.url %} &nbsp;
-			<a class="button small special" title="next post" href="{{page.next.url}}">&#10095;</a>{% endif %}</div>
+				<a class="button small special" title="next post" href="{{page.next.url}}">&#10095;</a>{% endif %}</div>
 		</div>
 	</section>
 </article>
