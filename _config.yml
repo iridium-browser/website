@@ -31,8 +31,7 @@ collections:
   - contribute
   - footer
 
-gems:
-  - jekyll-paginate
+gems: [jekyll-paginate]
   
 # Build settings
 markdown: kramdown
