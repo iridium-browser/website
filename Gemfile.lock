@@ -6,7 +6,7 @@ GEM
     colorator (1.1.0)
     ffi (1.9.18-x64-mingw32)
     forwardable-extended (2.6.0)
-    jekyll (3.4.1)
+    jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -47,7 +47,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (= 3.4.1)
+  jekyll (= 3.4.3)
   jekyll-paginate (~> 1.1)
   tzinfo-data
 
