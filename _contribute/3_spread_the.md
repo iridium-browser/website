@@ -1,5 +1,6 @@
 ---
 layout: start-layout
+style: style2
 title: ""
 icon-class: square fa-bullhorn
 heading: Spread the Word

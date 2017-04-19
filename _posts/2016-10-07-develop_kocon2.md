@@ -1,5 +1,6 @@
 ---
 layout: post
+style: style2
 title:  "Iridium Development Team met!"
 description: Our Development Team has met at Kopano Conference...
 date:   2016-10-07 16:16:16 +0200

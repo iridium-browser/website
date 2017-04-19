@@ -1,5 +1,6 @@
 ---
 layout: default-layout
+style: style2
 title: "Ease Of Use"
 icon-class: fa-check-circle
 ---

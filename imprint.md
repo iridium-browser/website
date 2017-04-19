@@ -1,5 +1,6 @@
 ---
 layout: pagecentered
+style: style1
 title: "Imprint"
 description: Imprint | Legal Information
 menu: false

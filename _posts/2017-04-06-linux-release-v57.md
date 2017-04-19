@@ -1,5 +1,6 @@
 ---
 layout: post
+style: style2
 title:  "New from the Lab - version 57 for Linux"
 description: Iridium Browser releases version 57.0 for Ubuntu / Debian / Mint.
 date:   2017-04-06 12:00:00 +0200

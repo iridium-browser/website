@@ -1,5 +1,6 @@
 ---
 layout: post
+style: style2
 title:  "Version 54.0 for Windows now available"
 description: Iridium Browser releases version 54.0 for Windows. Now available for Download.
 date:   2016-11-09 09:16:16 +0200

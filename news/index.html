@@ -1,16 +1,17 @@
 ---
 layout: default-layout
+style: style2
 title: "News"
 subtitle: "All the News"
 description: "All the Iridium Browser News about the latest builds, releases, solved problems and much more."
 menu: false
 sitemap:
-  lastmod: 2017-01-02
+  lastmod: 2017-04-18
   priority: 0.3
   changefreq: 'daily'
 ---
 
-<section id="news" class="wrapper style1 special">
+<section id="news" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
 <div class="container">	
 	<header class="major">
 		<h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
@@ -28,7 +29,7 @@ sitemap:
 				{{ post.content | split:'<!--break-->' | first }}
 				{% if post.content contains '<!--break-->' %}
 				<br/>
-				<a href="{{ post.url | prepend: site.baseurl }}" class="button small icon fa-plus">read more</a>
+				<a href="{{ post.url | prepend: site.baseurl }}" class="button alt small icon fa-plus">read more</a>
 				{% endif %}
 			</div>
 		</li>

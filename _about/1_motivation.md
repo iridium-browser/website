@@ -1,5 +1,6 @@
 ---
 layout: start-layout
+style: style1
 title: "About"
 subtitle: About the Project
 id: about

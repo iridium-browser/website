@@ -1,5 +1,6 @@
 ---
 layout: post
+style: style2
 title:  "For the first time - Iridium Browser for Fedora"
 description: For the first time ever, Iridium Browser releases a build for Fedora
 date:   2017-04-08 10:00:00 +0100

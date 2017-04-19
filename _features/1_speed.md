@@ -1,5 +1,6 @@
 ---
 layout: default-layout
+style: style2
 title: "Speed"
 icon-class: fa-tachometer
 ---

@@ -560,7 +560,7 @@
 			padding-left: 0;
 
 			li {
-				border-top: solid 1px _palette(border2);
+				border-top: solid 1px (_palette(border2-bg), 20);
 				padding: 2em 0 .1em 0;
 
 				&:first-child {
@@ -1059,6 +1059,14 @@
 		&.style1 {
 			& + & {
 				border-top: 1px solid _palette(border);
+			}
+		}
+		&.style2 {
+			background-color: _palette(bg-dark);
+			
+			& + & {
+				border-top: 1px solid _palette(border);
+				
 			}
 		}
 	}
@@ -2627,7 +2635,6 @@
 /* FEATURES */	
 
 	#features {
-		background-color: #ececec;
 		padding-top: 4em;
 		padding-bottom: 1em;
 
@@ -2653,7 +2660,6 @@
 /* NEWS */	
 
 	#news {
-		background-color: #ececec;
 		padding-bottom: 3em;
 		
 		h1 {
@@ -2718,8 +2724,6 @@
 /* CONTRIBUTE */	
 	
 	#contribute {
-		background-color: #ececec;
-
 		h1 {
 			margin-top: 1.15em;
 		}
@@ -2781,8 +2785,6 @@
 /* DOWNLOADS */
 	
 	#downloads, #windows, #mac_os, #linux, #source, #sorry {
-		background-color: #ececec;
-		
 		.icon {
 		
 			&.dl {

@@ -2,11 +2,11 @@
 layout: default-layout
 ---
 <article class="post">
-	<section id="news" class="wrapper style1 special">
+	<section id="news" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
 		<div class="container">
 		<header class="major">
 			<h1>News Post</h1>
-			<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
+			<p><small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></small></p>
 		</header>
 		<h3>{{ page.title }}</h3>
 		

@@ -1,5 +1,6 @@
 ---
 layout: post
+style: style2
 title:  "Version 57 for Windows and Mac OSX now available"
 description: Iridium Browser releases version 57.0 for Windows and Mac OSX
 date:   2017-04-07 10:00:00 +0200
