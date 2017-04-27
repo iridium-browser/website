@@ -17,7 +17,7 @@ sitemap:
 <div class="icon dl fa-linux"></div> 
 <header>
 ### Repository for Ubuntu | Debian | Mint #
-current version 57.0
+current version 58.0.3029.81
 </header>
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
@@ -65,7 +65,7 @@ current version 54.0
 <div class="dlfedora fl-fedora"></div>
 <header>
 ### Repository for Fedora #
-current version 57.0
+current version 58.0.3029.81
 </header>
 
 ### Fedora 24 #
@@ -85,7 +85,7 @@ current version 57.0
 <div class="dlfedora fl-redhat"></div>
 <header>
 ### Repository for Red Hat Enterprise Linux 7 #
-current version 57.0
+current version 58.0.3029.81
 </header>
 
 	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo

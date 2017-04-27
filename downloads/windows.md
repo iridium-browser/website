@@ -8,7 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-win.png"
 menu: no
 id: windows
 sitemap:
-  lastmod: 2016-04-07
+  lastmod: 2017-04-27
   priority: 0.5
   changefreq: 'weekly'
 ---
@@ -17,7 +17,7 @@ sitemap:
 <div class="icon dl fa-windows"></div>
 <header>
 ### Windows 7+ #
-current version 57.0
+current version 58.0.3029.81
 </header>
 
 <div class="container 50%">
