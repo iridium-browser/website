@@ -1,5 +1,6 @@
 ---
 layout: start-layout
+style: style1
 title: "Manifest"
 subtitle: "important Notice"
 id: manifest

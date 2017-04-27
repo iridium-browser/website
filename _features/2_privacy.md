@@ -1,5 +1,6 @@
 ---
 layout: default-layout
+style: style2
 title: "Privacy"
 icon-class: fa-lock
 ---

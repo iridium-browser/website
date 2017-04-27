@@ -35,19 +35,26 @@ In the case trk:173, an update of the spell checker from Google is loaded. From 
 
 ----
 
-##### Why do some Audio / Video players not work in IridiumBrowser? #    
-Iridium Browser does not include all audio and video codecs or extensions such as Chrome.    
-This has many reasons, for instance some codecs or extensions are proprietary and do not disclose their source code and sometimes there are legal issues as well. If you have any issues with audio or video, please try to install the codec or extension manually or from chrome://extensions/
+##### How to update Iridium Browser? #    
+Iridium Browser does not download and install updates automatically. Updates can only be applied manually by downloading and installing the latest build. This will not affect saved bookmarks.   
+Use ````chrome://help```` to check on your build version. Latest versions can always be found in the [Download](/downloads/) Section.   
+It is recommended to sign up to the mailing list in order to get all information about the latest releases.   
 
 ----
 
-##### Why can't the extension verify IridiumBrowser? #    
-Please try to install the extension manually or from chrome://extensions/
+##### Why do some Audio / Video players not work in Iridium Browser? #    
+Iridium Browser does not include all audio and video codecs or extensions such as Chrome.    
+This has many reasons, for instance some codecs or extensions are proprietary and do not disclose their source code and sometimes there are legal issues as well. If you have any issues with audio or video, please try to install the codec or extension manually or from ```chrome://extensions/```
+
+----
+
+##### Why can't the extension verify Iridium Browser? #    
+Please try to install the extension manually or from ```chrome://extensions/```
 
 ----
 
 ##### Is Iridium Browser available for Android, iOS or Windows Phone/Mobile? #    
-IridiumBrowser is currently <u>not</u> available for Android, iOS, Windows Phone/Mobile or any other mobile OS.
+Iridium Browser is currently <u>not</u> available for Android, iOS, Windows Phone/Mobile or any other mobile OS.
 
 ----
 

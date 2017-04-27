@@ -13,10 +13,11 @@ sitemap:
   changefreq: 'weekly'
 ---
 
+{::options parse_block_html="true" /}
 <div class="icon dl fa-linux"></div> 
 <header>
-	<h3>Repository for Ubuntu | Debian | Mint</h3>
-	<p>current version 57.0</p>
+### Repository for Ubuntu | Debian | Mint #
+current version 57.0
 </header>
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
@@ -33,8 +34,8 @@ sitemap:
   
 <div class="dlinux fl-opensuse"></div>
 <header>
-	<h3>Repositories for openSUSE</h3>
-	<p>current version 54.0</p>
+### Repositories for openSUSE #
+current version 54.0
 </header>
 
 ### Leap 42.1 #
@@ -63,8 +64,8 @@ sitemap:
      
 <div class="dlfedora fl-fedora"></div>
 <header>
-	<h3>Repository for Fedora</h3>
-	<p>current version 57.0</p>
+### Repository for Fedora #
+current version 57.0
 </header>
 
 ### Fedora 24 #
@@ -83,30 +84,33 @@ sitemap:
      
 <div class="dlfedora fl-redhat"></div>
 <header>
-	<h3>Repository for Red Hat Enterprise Linux 7</h3>
-	<p>current version 57.0</p>
+### Repository for Red Hat Enterprise Linux 7 #
+current version 57.0
 </header>
 
 	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo
 	yum install iridium-browser
      	
-<br/>
-<p>system requirements<br/>
-&#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+<br/>
-&#8226; openSUSE 13.1+, Leap 42.1+, Tumbleweed<br/>
-&#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7<br/>
-&#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
+\\
+system requirements   
+&#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+   
+&#8226; openSUSE 13.1+, Leap 42.1+, Tumbleweed   
+&#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7   
+&#8226; An Intel Pentium 4 processor or later that's SSE2 capable
 
 ---
 
 If this is not your Operating System or if you are looking for a different platform please choose from the following	  
 <div class="container 50%">
-	<div class="row">
-		<div class="6u 12u$(small)"><a class="button small fit icon fa-windows" href="windows.html" title="Windows Download Page">Windows</a></div>
-		<div class="6u 12u$(small)"><a class="button small fit icon fa-apple" href="mac_os.html" title="Mac OS Download Page">Mac OS</a></div>
-	</div>
+<div class="row">
+<div class="6u 12u$(small)">
+[Windows](windows.html "Windows Download Page"){:.button .small .fit .icon .fa-windows}
 </div>
-<br/>
+<div class="6u 12u$(small)">
+[Mac OS](mac_os.html "Mac OS Download Page"){:.button .small .fit .icon .fa-apple}
+</div>
+</div></div>
+\\
 Currently Iridium Browser is available for the following Operating Systems     
 <span class="os-text">
 Windows 7+ &#8226; 
@@ -115,5 +119,5 @@ Windows 7+ &#8226;
  Debian 8+ (64-bit) &#8226; 
  Mint 17+ (64-bit) &#8226;
  openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed
- &#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7</span><br/>
+ &#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7</span>      
 <span class="fa fa-warning"></span> Iridium Browser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!

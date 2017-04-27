@@ -1,5 +1,6 @@
 ---
 layout: start-layout
+style: style2
 title: "Contribute"
 subtitle: "Help to make people's privacy not an option but normal"
 id: contribute

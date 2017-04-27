@@ -1,21 +1,16 @@
 ---
 layout: default-layout
 ---
-<article class="post">
 
-<!--
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
--->
-<section id="main">
-  <div class="post-content">
+<section class="wrapper {{ page.style }}" id="{{ page.id }}">
     <div class="container">
-      <header class="major">
-	    <h1>{{ page.title }}</h1>
-      </header>
-      {{ content }}
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+			<p>{{ page.subtitle }}</p>
+		</header>
+
+		<div class="post-content">
+			{{ content }}
+		</div>
     </div>
-  </div>
 </section>
-</article>

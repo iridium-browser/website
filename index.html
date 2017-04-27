@@ -35,7 +35,7 @@ sitemap:
 	</section>
 
 <!-- FEATURES -->
-	<section id="features">
+	<section id="features" class="wrapper {% for features in site.features limit:1 %}{{ features.style }}{% endfor %} special">
 		<div class="container">
 			<div class="row uniform">
 			{% for features in site.features %}
@@ -50,7 +50,7 @@ sitemap:
 </section>
 
 <!-- MANIFEST -->
-<section id="manifest" class="wrapper style1 special">
+<section id="manifest" class="wrapper {% for manifest in site.manifest %}{{ manifest.style }}{% endfor %} special">
 <div class="container">
 	<header class="major">
 	{% for manifest in site.manifest %}
@@ -63,7 +63,7 @@ sitemap:
 </section>
 
 <!-- NEWS -->
-<section id="news" class="wrapper style1 special">
+<section id="news" class="wrapper {% for post in site.posts limit:1 %}{{ post.style }}{% endfor %} special">
 <div class="container">
 	<header class="major">
 		<h1>Recent News</h1>
@@ -77,19 +77,17 @@ sitemap:
 			<p><small>{{ post.date | date: "%-d-%b-%Y" }}</small></p>
 		</header>
 		{{ post.content }}
-		<p><small>{% if post.author %} {{ post.author }}{% endif %}</small></p>
-
 		<hr>
 		{% endfor %}
 		
 		<p>looking for previous posts?</p>
-		<a class="button small" href="news-archive.html" title="check out the News Archive">NEWS ARCHIVE</a>
+		<a class="button icon fa-file-text" href="{{ site.url | append: site.baseurl}}/news/" title="read all the News">News Index</a>
 	</section>
 </div>
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="wrapper style1 special">
+<section id="about" class="wrapper {% for about in site.about limit:1 %}{{ about.style }}{% endfor %} special">
 <div class="container">
 	<header class="major">
 	{% for about in site.about %}
@@ -113,7 +111,7 @@ sitemap:
 </section>
 
 <!-- CONTRIBUTE -->
-<section id="contribute" class="wrapper style1 special">
+<section id="contribute" class="wrapper {% for contribute in site.contribute limit:1 %}{{ contribute.style }}{% endfor %} special">
 	<div class="container">
 		<header class="major">
 		{% for contribute in site.contribute %}

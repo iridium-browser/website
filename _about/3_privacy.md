@@ -1,5 +1,6 @@
 ---
 layout: start-layout
+style: style1
 title: ""
 icon-class: round fa-lock
 ---

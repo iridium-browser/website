@@ -560,12 +560,15 @@
 			padding-left: 0;
 
 			li {
-				border-top: solid 1px _palette(border2);
-				padding: 2.5em 0;
+				border-top: solid 1px (_palette(border2-bg), 20);
+				padding: 2em 0 .1em 0;
 
 				&:first-child {
 					border-top: 0;
 					padding-top: 0;
+				}
+				&:nth-child(2n + 2) {
+					background: lighten(_palette(border2-bg), 20);
 				}
 			}
 		}
@@ -1056,6 +1059,14 @@
 		&.style1 {
 			& + & {
 				border-top: 1px solid _palette(border);
+			}
+		}
+		&.style2 {
+			background-color: _palette(bg-dark);
+			
+			& + & {
+				border-top: 1px solid _palette(border);
+				
 			}
 		}
 	}
@@ -2624,7 +2635,6 @@
 /* FEATURES */	
 
 	#features {
-		background-color: #ececec;
 		padding-top: 4em;
 		padding-bottom: 1em;
 
@@ -2647,87 +2657,20 @@
 	}
 
 
-/* NEWS + NEWS ARCHIVE */	
+/* NEWS */	
 
 	#news {
-		background-color: #ececec;
 		padding-bottom: 3em;
 		
 		h1 {
 			margin-top: 1.15em;
 		}
-		
 		.content {
 			padding-top: 2em;
 		}
-	}
-
-	#news-archive {
-		background-color: #ececec;
-	
-		a {
-			text-decoration: none;
-
-			&:hover {
-				color: _palette(accent1, bg);
-				text-decoration: none;
-			}
+		.icon {
+			font-size: .8em;
 		}
-		.post-container {
-			margin: 0 auto;
-			width: 60%;
-		}
-		.post-box {
-			margin: 0 auto;
-			text-decoration: none;	
-			overflow: hidden;
-			position: relative; 
-			line-height: 1.2em;
-			max-height: 1.2em; 
-			text-align: center;
-			margin-right: -1em;
-			padding-right: 1em;
-		}
-		.post-box:before {
-			content: '...';
-			position: absolute;
-			right: 1em;
-			bottom: 0;
-			background-color: #ececec;
-		}
-		.post-box:after {
-			content: '';
-			position: absolute;
-			right: 0;
-			width: 2em;
-			height: 1em;
-			margin-top: 0.2em;
-			background-color: #ececec;
-		}
-		
-		@include breakpoint(xlarge) {
-			.post-container {
-				width: 60%;
-			}
-		}
-		@include breakpoint(large) {
-			.post-container {
-				width: 70%;
-			}
-		}
-		@include breakpoint(medium) {
-			.post-container {
-				width: 75%;
-			}
-		}
-		@include breakpoint(small) {
-			.post-container {
-				width: 100%;
-			}
-			.post-box {
-				max-height: 2.4em; 
-			}
-		}		
 	}
 
 
@@ -2781,8 +2724,6 @@
 /* CONTRIBUTE */	
 	
 	#contribute {
-		background-color: #ececec;
-
 		h1 {
 			margin-top: 1.15em;
 		}
@@ -2844,8 +2785,6 @@
 /* DOWNLOADS */
 	
 	#downloads, #windows, #mac_os, #linux, #source, #sorry {
-		background-color: #ececec;
-		
 		.icon {
 		
 			&.dl {
@@ -2960,4 +2899,7 @@
 			}
 		}
 	
+	}
+	.sorry {
+		color: _palette(fg-blue);
 	}
