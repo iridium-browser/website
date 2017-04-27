@@ -29,7 +29,9 @@ current version 58.0.3029.81
 [64-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi "download Standard 64-bit Version"){:.button .small .fit .download .icon .fa-download}
 </div>
 </div>
+
 ##### Portable Version #
+
 <div class="row">
 <div class="6u 12u$(small) align-center">
 [32-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip "download Portable 32-bit Version"){:.button .small .fit .download1 .icon .fa-download}
