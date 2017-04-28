@@ -17,7 +17,7 @@ sitemap:
 <div class="icon dl fa-windows"></div>
 <header>
 ### Windows 7+ #
-current version 58.0.3029.81
+current version 58.0
 </header>
 
 <div class="container 50%">
