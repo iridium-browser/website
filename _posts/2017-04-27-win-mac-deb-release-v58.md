@@ -10,6 +10,8 @@ hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 ---
 
-Up-to-date **version 58.0.3029.81** builds for **Windows, Mac OSX, Ubuntu/Debian, openSUSE** and **Fedora** as well as **Red Hat Enterprise Linux** now available!     
-<!--break-->     
+Up-to-date **version 58.0** builds for **Windows, Mac OSX, Ubuntu/Debian, openSUSE, Fedora & Red Hat Enterprise Linux** now available!     
+<!--break-->
+This release is based on chromuim version 58.0.3029.81 and is in line with latest Chrome release.     
+          
 [DOWNLOAD](/downloads/index.html "Download Iridium Browser"){: .button .download}     
