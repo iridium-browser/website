@@ -8,7 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: linux
 sitemap:
-  lastmod: 2017-04-07
+  lastmod: 2017-04-27
   priority: 0.5
   changefreq: 'weekly'
 ---
@@ -35,7 +35,7 @@ current version 58.0.3029.81
 <div class="dlinux fl-opensuse"></div>
 <header>
 ### Repositories for openSUSE #
-current version 54.0
+current version 58.0.3029.81
 </header>
 
 ### Leap 42.1 #
