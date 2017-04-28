@@ -8,7 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-win.png"
 menu: no
 id: windows
 sitemap:
-  lastmod: 2016-04-07
+  lastmod: 2017-04-27
   priority: 0.5
   changefreq: 'weekly'
 ---
@@ -17,7 +17,7 @@ sitemap:
 <div class="icon dl fa-windows"></div>
 <header>
 ### Windows 7+ #
-current version 57.0
+current version 58.0.3029.81
 </header>
 
 <div class="container 50%">
@@ -29,7 +29,9 @@ current version 57.0
 [64-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi "download Standard 64-bit Version"){:.button .small .fit .download .icon .fa-download}
 </div>
 </div>
+
 ##### Portable Version #
+
 <div class="row">
 <div class="6u 12u$(small) align-center">
 [32-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip "download Portable 32-bit Version"){:.button .small .fit .download1 .icon .fa-download}

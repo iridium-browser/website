@@ -8,7 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-osx.png"
 menu: no
 id: mac_os
 sitemap:
-  lastmod: 2017-04-07
+  lastmod: 2017-04-27
   priority: 0.5
   changefreq: 'weekly'
 ---
@@ -17,7 +17,7 @@ sitemap:
 <div class="icon dl fa-apple"></div>
 <header>
 ### Mac OSX 10.9+ #
-current version 57.0
+current version 58.0.3029.81
 </header>
 
 <div class="container 25%">
