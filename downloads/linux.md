@@ -48,11 +48,6 @@ current version 58.0
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.2/ iridium
 	zypper in iridium-browser
      
-### 13.2 #
-
-	zypper ar https://downloads.iridiumbrowser.de/openSUSE_13.2/ iridium  
-	zypper in iridium-browser
-
 ### Tumbleweed #
 
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Tumbleweed/ iridium  
