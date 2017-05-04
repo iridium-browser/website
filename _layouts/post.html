@@ -1,26 +1,28 @@
 ---
 layout: default-layout
 ---
+
 <article class="post">
 	<section id="news" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
 		<div class="container">
-		<header class="major">
-			<h1>News Post</h1>
-			<p><small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></small></p>
-		</header>
-		<h3>{{ page.title }}</h3>
-		
-			{{ content }}
-		
-		<p>{% if page.author %} {{ page.author }} {% endif %}</p>
-		<hr>
-		<div class="row">
-			<div class="3u align-left">{% if page.previous.url %}
-				<a class="button small special" title="previous post" href="{{page.previous.url}}">&#10094;</a>{% endif %}&nbsp;</div>
-			<div class="6u align-center">
-				<a class="button small icon fa-file-text" href="{{ site.url | append: site.baseurl}}/news/" title="read all the News">News</a></div>
-			<div class="3u$ align-right">{% if page.next.url %} &nbsp;
-				<a class="button small special" title="next post" href="{{page.next.url}}">&#10095;</a>{% endif %}</div>
+			<header class="major">
+				<h2>News Post</h2>
+				<p><small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></small></p>
+			</header>
+			<h3>{{ page.title }}</h3>
+			
+				{{ content }}
+			
+			<p>{% if page.author %} {{ page.author }} {% endif %}</p>
+			<hr>
+			<div class="row">
+				<div class="3u align-left">{% if page.previous.url %}
+					<a class="button small special" title="previous post" href="{{page.previous.url}}">&#10094;</a>{% endif %}&nbsp;</div>
+				<div class="6u align-center">
+					<a class="button small icon fa-file-text" href="{{ site.url | append: site.baseurl}}/news/" title="read all the News">News</a></div>
+				<div class="3u$ align-right">{% if page.next.url %} &nbsp;
+					<a class="button small special" title="next post" href="{{page.next.url}}">&#10095;</a>{% endif %}</div>
+			</div>
 		</div>
 	</section>
 </article>
@@ -41,7 +43,7 @@ layout: default-layout
     "@type": "ImageObject",
     "height": "1200",
     "width": "6228",
-    "contentUrl": "{% if page.hotpic-fb %}{{ page.hotpic-fb | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.hotpic-fb | prepend: site.baseurl | prepend: site.url }}{% endif %}"
+    "contentUrl": "{% if page.hotpic-fb %}{{ page.hotpic-fb | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.hotpic-fb | prepend: site.baseurl | prepend: site.url }}{% endif %}",
 	"url": "{{ site.url | append: site.baseurl}}"
   },
   "author": "{{ page.author }}",
