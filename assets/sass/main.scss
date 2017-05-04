@@ -115,33 +115,28 @@
 			font-size: 2.5em;
 		}
 	}
-	h1 {
+	h1, h2 {
 		font-size: 2.5em;
 		line-height: 1.5em;
 	}
 
-	h2 {
+	h3 {
 		font-size: 2em;
 		line-height: 1.5em;
 	}
 
-	h3 {
+	h4 {
 		font-size: 1.75em;
 		line-height: 1.5em;
 	}
 
-	h4 {
+	h5 {
 		font-size: 1.15em;
 		line-height: 1.5em;
 	}
 
-	h5 {
-		font-size: 0.85em;
-		line-height: 1.5em;
-	}
-
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.85em;
 		line-height: 1.5em;
 	}
 
@@ -1607,8 +1602,8 @@
 			#banner {
 				@include padding(2em, 3em, (1em, 0, 0, 0));
 			
-			h1 {
-				color: #ffffff;
+			h1, h2 {
+				color: _palette(accent1, fg-bold);
 				}
 			}
 	}
@@ -1621,25 +1616,25 @@
 				@include padding(0, 3em, (.5em, 0, 0, 0));
 			
 			h1 {
-				color: #ffffff;
+				color: _palette(accent1, fg-bold);
 				}
 			}
 
 
 		/* Basic */
-			h1 {
+			h1,h2 {
 				font-size: 2em;
 			}
 
-			h2 {
+			h3 {
 				font-size: 1.5em;
 			}
 
-			h3 {
+			h4 {
 				font-size: 1.25em;
 			}
 
-			h4 {
+			h5 {
 				font-size: 1em;
 			}
 
@@ -1725,7 +1720,7 @@
 				@include padding(1.75em, 3em, (1em, 0, 0, 0));
 
 				h1 {
-					color: #ffffff;
+					color: _palette(accent1, fg-bold);
 				}
 
 				h2 {
@@ -1793,7 +1788,7 @@
 				@include padding(1.5em, 2em, (.75em, 0, 0, 0));
 
 				h1 {
-					color: #ffffff;
+					color: _palette(accent1, fg-bold);
 				}
 
 				h2 {
@@ -1937,15 +1932,15 @@
 			html, body {
 				overflow-x: hidden;
 			}
-			h1 {
+			h1, h2 {
 				font-size: 1.5em;
 			}
 
-			h2 {
+			h3 {
 				font-size: 1.25em;
 			}
 
-			h3 {
+			h4 {
 				font-size: 1em;
 			}
 
@@ -2006,7 +2001,7 @@
 				background-attachment: scroll;
 
 				h1 {
-					color: #ffffff;
+					color: _palette(accent1, fg-bold);
 				}
 
 				h2 {
@@ -2651,7 +2646,7 @@
 /* MANIFEST */	
 
 	#manifest {
-		h1 {
+		h2 {
 			margin-top: 1.15em;
 		}
 	}
@@ -2662,7 +2657,7 @@
 	#news {
 		padding-bottom: 3em;
 		
-		h1 {
+		h2 {
 			margin-top: 1.15em;
 		}
 		.content {
@@ -2680,7 +2675,7 @@
 		padding-top: 4em;
 		padding-bottom: 1em;
 		
-		h1 {
+		h2 {
 			margin-top: 1.15em;
 		}
 
@@ -2724,7 +2719,7 @@
 /* CONTRIBUTE */	
 	
 	#contribute {
-		h1 {
+		h2 {
 			margin-top: 1.15em;
 		}
 		
@@ -2785,6 +2780,7 @@
 /* DOWNLOADS */
 	
 	#downloads, #windows, #mac_os, #linux, #source, #sorry {
+
 		.icon {
 		
 			&.dl {
@@ -2818,11 +2814,6 @@
 			display: block;
 			line-height: 1.25em;
 			margin-top: 1.25em;
-		}
-		
-		.os-text {
-			font-size:1.1em;
-			font-weight: bold;
 		}
 		
 		h4 {
@@ -2900,6 +2891,12 @@
 		}
 	
 	}
+
+	.os-text {
+		font-size:1.1em;
+		font-weight: bold;
+	}
+
 	.sorry {
 		color: _palette(fg-blue);
 	}

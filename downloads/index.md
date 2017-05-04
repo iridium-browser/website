@@ -1,5 +1,5 @@
 ---
-layout: pagecentered
+layout: downloads
 title: "Download"
 subtitle: ""
 description: Download Iridium Browser for Windows, Mac OS, Ubuntu, Debian, Mint, OpenSUSE, Fedora and Red Hat Enterprise Linux

@@ -3,9 +3,9 @@
         <div class="container">
             <section class="special">
 			{% for footer in site.footer %}
-		  <h3>{{ footer.title }}</h3>
-			</header>
-			<p>{{ footer.content }}</p>
+		  <h4>{{ footer.title }}</h4>
+
+			{{ footer.content }}
 			{% endfor %}
             </section>
         </div>

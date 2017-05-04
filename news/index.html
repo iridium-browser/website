@@ -14,8 +14,8 @@ sitemap:
 <section id="news" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
 <div class="container">	
 	<header class="major">
-		<h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
-		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} | {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p></p>
+		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
+		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} | {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p>
 	</header>
 	<br/>	
 	<ul class="alt post-container">
@@ -23,7 +23,7 @@ sitemap:
 		<li>
 			<header>
 				<h3>{{ post.title | escape }}</h3>
-				<p><small>{{ post.date | date: "%-d %B %Y" }}</small>	</p>
+				<p><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
 			</header>
 			<div class="post-box">
 				{{ post.content | split:'<!--break-->' | first }}
