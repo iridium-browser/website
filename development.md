@@ -7,8 +7,8 @@ menu: 1
 id: development
 sitemap:
   lastmod: 2017-01-28
-  priority: 0.3
-  changefreq: 'daily'
+  priority: 0.5
+  changefreq: 'weekly'
 ---
 
 <span class="fa fa-user-md" style="font-size:9em; color:#4499D4;"></span>

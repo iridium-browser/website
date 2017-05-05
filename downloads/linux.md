@@ -8,9 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: linux
 sitemap:
-  lastmod: 2017-04-27
-  priority: 0.5
-  changefreq: 'weekly'
+  exclude: 'yes'
 ---
 
 {::options parse_block_html="true" /}

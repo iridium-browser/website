@@ -2,12 +2,12 @@
 layout: downloads
 title: "Download"
 subtitle: ""
-description: Download Iridium Browser for Windows, Mac OS, Ubuntu, Debian, Mint, OpenSUSE, Fedora and Red Hat Enterprise Linux
+description: Download Iridium Browser for Windows, Mac OSX, Ubuntu, Debian, Mint, OpenSUSE, Fedora and Red Hat Enterprise Linux
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-download.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-download.png"
 menu: 2
 sitemap:
-  lastmod: 2017-05-01
+  lastmod: 2017-05-05
   priority: 1.0
   changefreq: 'daily'
 id: downloads

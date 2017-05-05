@@ -8,9 +8,9 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-faq.png"
 menu: 3
 id: faq
 sitemap:
-  lastmod: 2017-02-25
-  priority: 0.3
-  changefreq: 'daily'
+  lastmod: 2017-05-05
+  priority: 0.5
+  changefreq: 'weekly'
 ---
 
 <br/>
