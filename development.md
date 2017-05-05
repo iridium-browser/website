@@ -13,7 +13,7 @@ sitemap:
 
 <span class="fa fa-user-md" style="font-size:9em; color:#4499D4;"></span>
 
-### we are reorganising repos and other internal systems at present #
+#### we are reorganising repos and other internal systems at present #
 {:.sorry}
 	  
 ...with the intention to make access easier and handling more transparent...

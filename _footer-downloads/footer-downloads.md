@@ -4,7 +4,6 @@ title: ""
 ---
 
 {::options parse_block_html="true" /}
-
 <div class="row">
 <div class="4u 12u$(small)">
 [Windows](windows.html "Windows Download Page"){:.button .small .fit .icon .fa-windows}
@@ -18,13 +17,14 @@ title: ""
 </div>
 \\
 Currently Iridium Browser is available for the following Operating Systems    
-<span class="os-text">
-Windows 7+ &#8226;
- Mac OS X 10.9+ &#8226; 
- Ubuntu 14.04+ (64-bit) &#8226; 
- Debian 8+ (64-bit) &#8226; 
- Mint 17+ (64-bit) &#8226;
- openSUSE Leap 42.1+ &#8226; Tumbleweed &#8226;
- Fedora 24+ &#8226; Red Hat Enterprise Linux 7+     
-</span>      
+**Windows 7+ &#8226; 
+Mac OSX 10.9+ &#8226; 
+Ubuntu 14.04+ (64-bit) &#8226; 
+Debian 8+ (64-bit) &#8226; 
+Mint 17+ (64-bit) &#8226; 
+openSUSE Leap 42.1+ &#8226; 
+Tumbleweed &#8226; 
+Fedora 24+ &#8226; 
+Red Hat Enterprise Linux 7+**
+
 <span class="fa fa-warning"></span> Iridium Browser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!
