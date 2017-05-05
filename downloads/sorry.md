@@ -3,7 +3,7 @@ layout: downloads
 title: "...Ooops..."
 subtitle: ""
 description: We are sorry! Iridium Browser is currently not available for your platform or your operating system could not be detected.
-menu: false
+menu: no
 id: sorry
 sitemap:
   exclude: 'yes'

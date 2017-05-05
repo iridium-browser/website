@@ -7,7 +7,7 @@ hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-download.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-download.png"
 menu: 2
 sitemap:
-  lastmod: 2017-02-18
+  lastmod: 2017-05-01
   priority: 1.0
   changefreq: 'daily'
 id: downloads

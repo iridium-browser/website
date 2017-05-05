@@ -8,6 +8,7 @@ author:	by admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+menu: no
 ---
 
 Iridium Browser releases **version 54.0** for **Windows**.  

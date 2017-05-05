@@ -8,6 +8,7 @@ author:	by admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+menu: no
 ---
 
 We now have up-to-date version 57 builds for **Fedora 24 & 25** as well as **Red Hat Enterprise Linux 7**.     

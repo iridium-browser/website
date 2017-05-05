@@ -8,6 +8,7 @@ author:	by admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+menu: no
 ---
 
 OSB-Alliance Pressemitteilung zu Iridium Browser - [OSBA Website](http://osb-alliance.de/news/pressemitteilungen/vorlieben-hobbys-krankheiten-geschaefte "OSBA Pressemitteilung"){:target="_blank"}
