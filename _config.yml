@@ -30,6 +30,7 @@ collections:
   - logos
   - contribute
   - footer
+  - footer-downloads
 
 gems: [jekyll-paginate]
   

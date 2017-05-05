@@ -53,10 +53,10 @@ sitemap:
 <section id="manifest" class="wrapper {% for manifest in site.manifest %}{{ manifest.style }}{% endfor %} special">
 <div class="container">
 	<header class="major">
-	{% for manifest in site.manifest %}
-		<h1>{{ manifest.title }}</h1>
-		<p>{{ manifest.subtitle }}</p>
+		<h2>{% for manifest in site.manifest %} {{ manifest.title }} {% endfor %}</h2>
+		<p>{% for manifest in site.manifest %} {{ manifest.subtitle }} {% endfor %}</p>
 	</header>
+	{% for manifest in site.manifest %}
 	{{ manifest.content }}
 	{% endfor %}
 </div>
@@ -66,7 +66,7 @@ sitemap:
 <section id="news" class="wrapper {% for post in site.posts limit:1 %}{{ post.style }}{% endfor %} special">
 <div class="container">
 	<header class="major">
-		<h1>Recent News</h1>
+		<h2>Recent News</h2>
 		<p>The Latest</p>
 	</header>
 	<!-- Content -->
@@ -76,6 +76,7 @@ sitemap:
 			<h3>{{ post.title }}</h3>
 			<p><small>{{ post.date | date: "%-d-%b-%Y" }}</small></p>
 		</header>
+		
 		{{ post.content }}
 		<hr>
 		{% endfor %}
@@ -90,10 +91,10 @@ sitemap:
 <section id="about" class="wrapper {% for about in site.about limit:1 %}{{ about.style }}{% endfor %} special">
 <div class="container">
 	<header class="major">
-	{% for about in site.about %}
-		<h1>{{ about.title }}</h1>
-		<p>{{ about.subtitle }}</p>
+		<h2>{% for about in site.about %} {{ about.title }} {% endfor %}</h2>
+		<p>{% for about in site.about %} {{ about.subtitle }} {% endfor %}</p>
 	</header>
+	{% for about in site.about %}
 	<div class="icon {{ about.icon-class }}"></div>
 	{{ about.content }}
 	{% endfor %}
@@ -114,10 +115,11 @@ sitemap:
 <section id="contribute" class="wrapper {% for contribute in site.contribute limit:1 %}{{ contribute.style }}{% endfor %} special">
 	<div class="container">
 		<header class="major">
-		{% for contribute in site.contribute %}
-			<h1>{{ contribute.title }}</h1>
-			<p>{{ contribute.subtitle }}</p>
+
+			<h2>{% for contribute in site.contribute %} {{ contribute.title }} {% endfor %}</h2>
+			<p>{% for contribute in site.contribute %} {{ contribute.subtitle }} {% endfor %}</p>
 		</header>
+		{% for contribute in site.contribute %}
 		<div class="row">
 			<div class="2u 2u(xlarge) 3u(large) 12u$(small)">
 				<div class="icon {{ contribute.icon-class }}"></div>
@@ -152,7 +154,7 @@ sitemap:
 			"@type": "ImageObject",
 			"height": "200",
 			"width": "200",
-			"contentUrl": "{{ site.hotpic | prepend: site.baseurl | prepend: site.url }}"
+			"contentUrl": "{{ site.hotpic | prepend: site.baseurl | prepend: site.url }}",
 			"url": "{{ site.url | append: site.baseurl}}"
 		},
 		"offers": {

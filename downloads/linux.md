@@ -1,7 +1,7 @@
 ---
-layout: pagecentered
+layout: downloads
 title: "Download for Linux"
-subtitle: Iridium Browser
+subtitle: ""
 description: Download Iridium Browser for Ubuntu/Debian, openSUSE, Fedora and RHEL
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
@@ -89,30 +89,10 @@ current version 58.0
 \\
 system requirements   
 &#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+   
-&#8226; openSUSE 13.1+, Leap 42.1+, Tumbleweed   
-&#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7   
+&#8226; openSUSE Leap 42.1+, Tumbleweed   
+&#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7+   
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable
 
 ---
 
-If this is not your Operating System or if you are looking for a different platform please choose from the following	  
-<div class="container 50%">
-<div class="row">
-<div class="6u 12u$(small)">
-[Windows](windows.html "Windows Download Page"){:.button .small .fit .icon .fa-windows}
-</div>
-<div class="6u 12u$(small)">
-[Mac OS](mac_os.html "Mac OS Download Page"){:.button .small .fit .icon .fa-apple}
-</div>
-</div></div>
-\\
-Currently Iridium Browser is available for the following Operating Systems     
-<span class="os-text">
-Windows 7+ &#8226; 
- Mac OS X 10.9+ &#8226; 
- Ubuntu 14.04+ (64-bit) &#8226; 
- Debian 8+ (64-bit) &#8226; 
- Mint 17+ (64-bit) &#8226;
- openSUSE 13.1+ &#8226; Leap 42.1+ &#8226; Tumbleweed
- &#8226; Fedora 24+ &#8226; Red Hat Enterprise Linux 7</span>      
-<span class="fa fa-warning"></span> Iridium Browser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!
+If this is not your Operating System or if you are looking for a different platform please choose from the following
