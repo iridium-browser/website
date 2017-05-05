@@ -12,7 +12,7 @@ sitemap:
 {::options parse_block_html="true" /}
 <div class="icon dl-sorry fa-frown-o"></div>
 #### Your operating system could not be detected or Iridium Browser is not available for your platform #
-{:.sorry}
+{:.fg-blue}
 
 ---
 

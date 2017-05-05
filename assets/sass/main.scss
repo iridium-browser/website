@@ -212,7 +212,12 @@
 	.align-right {
 		text-align: right;
 	}
-
+	
+	.fg-blue {
+		color: _palette(fg-blue);
+	}
+	
+	
 /* Section/Article */
 
 	section, header, article {
@@ -2892,11 +2897,3 @@
 	
 	}
 
-	.os-text {
-		font-size:1.1em;
-		font-weight: bold;
-	}
-
-	.sorry {
-		color: _palette(fg-blue);
-	}
