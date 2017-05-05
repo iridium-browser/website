@@ -2894,6 +2894,11 @@
 				display: none;
 			}
 		}
-	
 	}
-
+	#footer-downloads {
+		margin-top: -2em;
+		
+		@include breakpoint(small) {
+			margin-top: 0;
+		}
+	}
