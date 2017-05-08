@@ -16,7 +16,8 @@ hotpic-tw: /images/hotpics/Iridium-hotpic_TW.png
 keywords: "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Secure Browser Project, Secure Browser, Privacy Browser, Chromium based, Windows, MacOS, Ubuntu, Debian, Mint, openSUSE, Fedora, Linux, Red Hat Enterprise Linux"
   
 baseurl: "" # the subpath of your site, e.g. /blog
-url: //iridiumbrowser.de # the base hostname & protocol for your site
+url: https://iridiumbrowser.de # the base hostname & protocol for your site
+domain: iridiumbrowser.de
 
 paginate: 7
 paginate_path: "/news/page:num/"
