@@ -1289,26 +1289,8 @@
 		line-height: 1.75;
 		text-align: center;
 		
-		h1 {
-			color: _palette(accent1, fg-bold);
-		}
 		h2 {
 			color: _palette(accent1, fg-bold);
-			font-size: 2.5em;
-			line-height: 1.4em;
-			margin-bottom: (_size(element-margin) * 0.35);
-			padding: 0;
-
-			&:after {
-				background-color: _palette(bg);
-				background-color: rgba(255,255,255,0.75);
-				content: '';
-				display: block;
-				height: 1px;
-				margin: (_size(element-margin) * 0.35) auto 0;
-				position: relative;
-				width: 3em;
-			}
 		}
 
 		p {
@@ -1607,7 +1589,7 @@
 			#banner {
 				@include padding(2em, 3em, (1em, 0, 0, 0));
 			
-			h1, h2 {
+			h2 {
 				color: _palette(accent1, fg-bold);
 				}
 			}
@@ -1620,7 +1602,7 @@
 			#banner {
 				@include padding(0, 3em, (.5em, 0, 0, 0));
 			
-			h1 {
+			h2 {
 				color: _palette(accent1, fg-bold);
 				}
 			}
@@ -1724,12 +1706,8 @@
 			#banner {
 				@include padding(1.75em, 3em, (1em, 0, 0, 0));
 
-				h1 {
-					color: _palette(accent1, fg-bold);
-				}
-
 				h2 {
-					font-size: 2em;
+					color: _palette(accent1, fg-bold);
 				}
 
 				p {
@@ -1792,12 +1770,8 @@
 			#banner {
 				@include padding(1.5em, 2em, (.75em, 0, 0, 0));
 
-				h1 {
-					color: _palette(accent1, fg-bold);
-				}
-
 				h2 {
-					font-size: 2em;
+					color: _palette(accent1, fg-bold);
 				}
 
 				p {
@@ -2005,12 +1979,8 @@
 				@include padding(1em, 1em, (.5em, 0, 0, 0));
 				background-attachment: scroll;
 
-				h1 {
-					color: _palette(accent1, fg-bold);
-				}
-
 				h2 {
-					font-size: 1.5em;
+					color: _palette(accent1, fg-bold);
 				}
 
 				br {
