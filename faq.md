@@ -35,6 +35,14 @@ In the case trk:173, an update of the spell checker from Google is loaded. From 
 
 ----
 
+##### Why is Qwant the default search engine? #    
+Iridium is an independent project, not connected to, supported or financed by any search engine.    
+The decision for Qwant as default search engine was made about two years ago, when we were looking for a European search engine taking care of privacy and delivering good search results presented in a modern interface. 
+At the time Qwant (*[see Qwant Privacy Policy](https://about.qwant.com/legal/privacy/ "see Qwant Privacy Policy"){:target="_blank"}*) and DuckDuckGo *([see DuckDuckGo Privacy Policy](https://duckduckgo.com/privacy "see DuckDuckGo Privacy Policy"){:target="_blank"})* were on our radar, but Qwant simply impressed us more.     
+However, you are free to use any search engine with Iridium Browser.
+
+----
+
 ##### How to update Iridium Browser? #    
 Iridium Browser does not download and install updates automatically. Updates can only be applied manually by downloading and installing the latest build. This will not affect saved bookmarks.   
 Use ````chrome://help```` to check on your build version. Latest versions can always be found in the [Download](/downloads/) Section.   
