@@ -3,8 +3,7 @@ layout: start-layout
 title: "Home"
 ---
 
-A Browser securing your privacy. That's it.
-===================================
+## A Browser securing your privacy. That's it. #
       
 [Download](downloads/){: .button .big .download}     
 	 

@@ -8,7 +8,7 @@ Please report any issues and address any questions to our **[Bug Tracker @ GitHu
 For more development information please **[check here]({{ site.url | append: site.baseurl }}/development.html)**     
 **[<span class="fa fa-code"></span> download the Source Code]({{ site.url | append: site.baseurl }}/downloads/source.html)**     
 
-
-[IMPRINT]({{ site.url | append: site.baseurl }}/imprint.html "Imprint"){: .button .small .alt}     
+[RSS feed]({{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }} "add RSS feed"){: .button .small .alt .icon .fa-rss} 
+[Imprint]({{ '/imprint.html' | prepend: site.baseurl | prepend: site.url }} "Imprint"){: .button .small .alt}     
 
 <div class="copyright">&copy; <a href="http://osb-alliance.de/" target="_blank">Open Source Business Alliance</a></div>
