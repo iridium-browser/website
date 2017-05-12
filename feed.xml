@@ -8,10 +8,18 @@ sitemap:
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.domain | append: site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.atom" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <link>{{ site.url | append: site.baseurl }}/</link>
+    <atom:link href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />  
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+	<language>en</language>
+	<image>
+		<title>Iridium Browser</title>
+		<width>144</width>
+		<height>144</height>
+		<link>{{ site.baseurl | prepend: site.url }}/</link>
+		<url>{{ "/images/hotpics/Iridium-hotpic.png" | prepend: site.baseurl | prepend: site.url }}</url>
+	</image>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:10 %}
       <item>
