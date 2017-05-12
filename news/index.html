@@ -2,8 +2,8 @@
 layout: default-layout
 style: style2
 title: "News"
-subtitle: "All the News"
-description: "All the Iridium Browser News about the latest builds, releases, solved problems and much more."
+subtitle: "Page"
+description: "All the Iridium Browser News about the latest builds, releases, bug fixes and much more."
 menu: no
 sitemap:
   lastmod: 2017-05-05
@@ -15,9 +15,9 @@ sitemap:
 <div class="container">	
 	<header class="major">
 		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
-		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} | {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p>
+		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p>
 	</header>
-	<br/>	
+	<br>
 	<ul class="alt post-container">
     {% for post in paginator.posts %}
 		<li>
@@ -35,7 +35,9 @@ sitemap:
 		</li>
     {% endfor %}
 	</ul>
+
 	<hr/>
+
 {% if paginator.total_pages > 1 %}
 	<div class="row pagination">
 		<div class="3u align-left">{% if paginator.previous_page %}
@@ -55,8 +57,6 @@ sitemap:
 			<a class="button small special" title="next post" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10095;</a>{% endif %}</div>
 	</div>
 {% endif %}
-	
-	
 	
 </div>
 </section>
