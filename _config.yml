@@ -36,3 +36,6 @@ gems: [jekyll-paginate]
   
 # Build settings
 markdown: kramdown
+
+kramdown:
+  auto_ids: false

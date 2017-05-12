@@ -2,12 +2,13 @@
 layout: post
 style: style2
 title:  "Version 57 for Fedora and RHEL"
-description: We now have up-to-date v57.0 builds for Fedora 24 & 25 as well as Red Hat Enterprise Linux 7
+description: We now have up-to-date v57.0 builds for Fedora 24 and 25 as well as Red Hat Enterprise Linux 7
 date:   2017-04-11 12:00:00 +0100
 author:	by admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+menu: no
 ---
 
 We now have up-to-date version 57 builds for **Fedora 24 & 25** as well as **Red Hat Enterprise Linux 7**.     

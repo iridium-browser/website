@@ -8,9 +8,9 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-faq.png"
 menu: 3
 id: faq
 sitemap:
-  lastmod: 2017-02-25
-  priority: 0.3
-  changefreq: 'daily'
+  lastmod: 2017-05-05
+  priority: 0.5
+  changefreq: 'weekly'
 ---
 
 <br/>
@@ -32,6 +32,14 @@ The development marks all external URLs they find in the Chromium source code wi
 When a marked URL is used while browsing, a warning ‘loading traced URL’ in form of a yellow bubble below the address will be displayed, but the request will be executed.
 This must not appear every time loading a certain URL. If it does, please file a report in our bug tracker on GitHub.
 In the case trk:173, an update of the spell checker from Google is loaded. From our view no real problem since no client data is submitted.
+
+----
+
+##### Why is Qwant the default search engine? #    
+Iridium is an independent project, not connected to, supported or financed by any search engine.    
+The decision for Qwant as default search engine was made about two years ago, when we were looking for a European search engine taking care of privacy and delivering good search results presented in a modern interface. 
+At the time Qwant (*[see Qwant Privacy Policy](https://about.qwant.com/legal/privacy/ "see Qwant Privacy Policy"){:target="_blank"}*) and DuckDuckGo *([see DuckDuckGo Privacy Policy](https://duckduckgo.com/privacy "see DuckDuckGo Privacy Policy"){:target="_blank"})* were on our radar, but Qwant simply impressed us more.     
+However, you are free to use any search engine with Iridium Browser.
 
 ----
 

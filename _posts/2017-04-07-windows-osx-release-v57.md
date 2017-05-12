@@ -8,6 +8,7 @@ author:	by admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+menu: no
 ---
 
 Following yesterday's release of version 57.0 for Ubuntu/Debian, we are now releasing the latest builds for **Windows** and **Mac OSX**.     

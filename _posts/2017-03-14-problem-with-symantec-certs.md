@@ -8,6 +8,7 @@ author:	by admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+menu: no
 ---
 
 Finally, we are happy to announce that the latest Windows and Ubuntu/Debian builds solve the issue with the Symantec Certificates failing to load.

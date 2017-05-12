@@ -42,6 +42,7 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2017.1)
       tzinfo (>= 1.0.0)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -50,6 +51,7 @@ DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-paginate (~> 1.1)
   tzinfo-data
+  wdm (>= 0.1.0)
 
 RUBY VERSION
    ruby 2.3.3p222

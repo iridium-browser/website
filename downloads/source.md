@@ -6,9 +6,7 @@ description: Download the Iridium Browser source code
 menu: no
 id: source
 sitemap:
-  lastmod: 2017-01-02
-  priority: 0.3
-  changefreq: 'daily'
+  exclude: 'yes'
 ---
 
 {::options parse_block_html="true" /}

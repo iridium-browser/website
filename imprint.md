@@ -3,7 +3,7 @@ layout: pagecentered
 style: style1
 title: "Imprint"
 description: Imprint | Legal Information
-menu: false
+menu: no
 id: imprint
 sitemap:
   lastmod: 2016-10-23

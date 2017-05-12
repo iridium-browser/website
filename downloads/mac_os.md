@@ -8,9 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-osx.png"
 menu: no
 id: mac_os
 sitemap:
-  lastmod: 2017-04-27
-  priority: 0.5
-  changefreq: 'weekly'
+  exclude: 'yes'
 ---
 
 {::options parse_block_html="true" /}

@@ -8,6 +8,7 @@ author:	by admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+menu: no
 ---
 
 Up-to-date **version 58.0** builds for **Windows, Mac OSX, Ubuntu/Debian, openSUSE, Fedora & Red Hat Enterprise Linux** now available!     
