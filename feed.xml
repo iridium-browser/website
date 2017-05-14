@@ -1,5 +1,6 @@
 ---
 layout: null
+menu: false
 sitemap:
   exclude: 'yes'
 ---
