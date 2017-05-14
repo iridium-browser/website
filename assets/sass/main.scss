@@ -1,10 +1,10 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import url("font-awesome.min.css");
-@import url("font-linux.min.css");
-@import url("font-roboto.min.css");
- 
+@import url('font-awesome.min.css');
+@import url('font-linux.min.css');
+@import url('font-roboto.min.css');
+
 /*
 	Gravity by Pixelarity
 	pixelarity.com @pixelarity
@@ -560,7 +560,7 @@
 			padding-left: 0;
 
 			li {
-				border-top: solid 1px (_palette(border2-bg), 20);
+				border-top: solid 1px _palette(border2-bg);
 				padding: 2em 0 .1em 0;
 
 				&:first-child {
@@ -2771,15 +2771,15 @@
 		.icon {
 		
 			&.dl {
-				font-size: 5em !important;
-				color: _palette(accent1, bg) !important;
+				font-size: 5em !important ;
+				color: _palette(accent1, bg) !important ;
 				position: relative;
 				display: block;
 				line-height: 1.25em;
 			}
 			&.dl-sorry {
-				font-size: 10em !important;
-				color: _palette(accent1, bg) !important;
+				font-size: 10em !important ;
+				color: _palette(accent1, bg) !important ;
 				position: relative;
 				display: block;
 				line-height: 1em;
@@ -2787,16 +2787,16 @@
 			}
 		}
 		.dlinux {
-			font-size: 6em !important;
-			color: _palette(accent1, bg) !important;
+			font-size: 6em !important ;
+			color: _palette(accent1, bg) !important ;
 			position: relative;
 			display: block;
 			line-height: 1.25em;
 		}
 
 		.dlfedora {
-			font-size: 4em !important;
-			color: _palette(accent1, bg) !important;
+			font-size: 4em !important ;
+			color: _palette(accent1, bg) !important ;
 			position: relative;
 			display: block;
 			line-height: 1.25em;
