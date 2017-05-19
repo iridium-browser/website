@@ -2,7 +2,7 @@
 layout: pagecentered
 style: style1
 title: "Imprint"
-description: Imprint | Legal Information
+description: "Imprint with legal information, terms of use, data protection, transfer of use, applicable law as well as contact information"
 menu: no
 id: imprint
 sitemap:
