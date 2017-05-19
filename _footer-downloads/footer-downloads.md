@@ -9,7 +9,7 @@ title: ""
 [Windows](windows.html "Windows Download Page"){:.button .small .fit .icon .fa-windows}
 </div>
 <div class="4u 12u$(small)">
-[Mac OS](mac_os.html "Mac OS Download Page"){:.button .small .fit .icon .fa-apple}
+[Mac OSX](macosx.html "Mac OS Download Page"){:.button .small .fit .icon .fa-apple}
 </div>
 <div class="4u 12u$(small)">
 [Linux](linux.html "Linux Download Page"){:.button .small .fit .icon .fa-linux}

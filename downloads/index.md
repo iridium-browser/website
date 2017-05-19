@@ -18,7 +18,7 @@ id: downloads
 	var result = parser.getResult();
 	var os_name = result.os.name;
 		if (os_name == "Windows") { window.location="windows.html"; }
-		else if (os_name == "Mac OS") { window.location="mac_os.html"; } 
+		else if (os_name == "Mac OS") { window.location="macosx.html"; } 
 		else if (os_name == "Ubuntu") { window.location="linux.html"; }
 		else if (os_name == "Debian") { window.location="linux.html"; }
 		else if (os_name == "Linux") { window.location="linux.html"; }
