@@ -13,7 +13,8 @@ sitemap:
 
 #### Bug Tracker ####
 Please report any  issues and address any questions to our Bug Tracker @ GitHub      
-**[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker"){:target="_blank" .button .small}**      
+    
+[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker @ GitHub"){:target="_blank" .button .small}      
 
 ----
    

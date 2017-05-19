@@ -15,4 +15,4 @@ Up-to-date **version 58.0** builds for **Windows, Mac OSX, Ubuntu/Debian, openSU
 <!--break-->
 This release is based on chromuim version 58.0.3029.81 and is in line with latest Chrome release.     
           
-[DOWNLOAD](/downloads/index.html "Download Iridium Browser"){: .button .download}     
+[DOWNLOAD](/downloads/index.html "download Iridium Browser"){: .button .download}     
