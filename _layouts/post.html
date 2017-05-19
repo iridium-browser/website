@@ -7,10 +7,14 @@ layout: default-layout
 		<div class="container">
 			<header class="major">
 				<h2>News Post</h2>
-				<p><small><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></small></p>
+
 			</header>
-			<h3>{{ page.title }}</h3>
 			
+			<header>
+				<h3>{{ page.title }}</h3>
+				<p><span class="icon fa-calendar-o"></span> <small>{{ page.date | date: "%-d %B %Y" }}</small></p>
+			</header>
+
 				{{ content }}
 			
 			<p>{% if page.author %} {{ page.author }} {% endif %}</p>
