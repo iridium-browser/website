@@ -3,7 +3,7 @@ RewriteEngine On
 RewriteRule ^download.html$ /downloads/ [R=301,L]
 RewriteRule ^downloads.html$ /downloads/ [R=301,L]
 RewriteRule ^download(/|$) /downloads/ [R=301,L]
-RewriteRule ^mac_os.html$ /macosx.html [R=301,L]
+RewriteRule ^/downloads/mac_os.html$ /downloads/macosx.html [R=301,L]
 
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
