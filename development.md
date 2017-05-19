@@ -2,7 +2,7 @@
 layout: pagecentered
 title: "Development"
 subtitle: "How to take part in development"
-description: "Take part in developing IridiumBrowser"
+description: "Take part in developing Iridium Browser"
 menu: 1
 id: development
 sitemap:
