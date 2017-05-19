@@ -6,7 +6,7 @@ description: Download Iridium Browser for Mac OSX 10.9+
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-osx.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-osx.png"
 menu: no
-id: mac_os
+id: macosx
 sitemap:
   exclude: 'yes'
 ---
