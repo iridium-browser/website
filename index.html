@@ -141,7 +141,7 @@ sitemap:
 		"@type": "SoftwareApplication",
 		"name": "{{ site.title }}",
 		"url": "{{ site.url }}",
-		"downloadUrl": "{{ site.url | append: site.baseurl}}/downloads/",
+		"downloadUrl": "{{ '/downloads/' | prepend: site.baseurl | prepend: site.url }}",
 		"description": "{{ site.description }}",
 		"applicationCategory": "Browser",
 		"operatingSystem": "Windows, Mac OS-X, Ubuntu, Debian, openSUSE, Fedora Red Hat Enterprise Linux",
@@ -162,13 +162,6 @@ sitemap:
 		"priceCurrency": "EUR",
 		"price": "0.00"		
 		}
-	},
-	{ 
-		"@context": "http://schema.org",
-		"@type": "Product",
-		"name": "{{ site.title }}",
-		"url": "{{ site.url | append: site.baseurl}}",
-		"description": "{{ site.description }}"
 	},
 	{
 		"@context": "http://schema.org",
