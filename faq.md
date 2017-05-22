@@ -20,7 +20,7 @@ Please refer to our [Wiki on GitHub](https://github.com/iridium-browser/tracker/
     
 ----
 
-##### Why synching and signing in to Iridium or Google does not work? #    
+##### Why syncing and signing in to Iridium or Google does not work? #    
 While not directly intentional it kind of defeats the purpose of Iridium if you are signed into Google and report everything to them. From a technical point of view, signing in to Google requires a Google API key, client ID and client secret and Iridium does not ship with one - thus it does not work.
 If you insist to use Google sign-in, check [Chromium API-Keys](http://www.chromium.org/developers/how-tos/api-keys "Chromium Developer How-To's"){:target="_blank"} and follow the instructions for ```Providing Keys at Runtime```.     
 
