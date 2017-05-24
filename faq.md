@@ -62,7 +62,7 @@ Please try to install the extension manually or from ```chrome://extensions/```
 ----
 
 ##### Is Iridium Browser available for Android, iOS or Windows Phone/Mobile? #    
-Iridium Browser is currently <u>not</u> available for Android, iOS, Windows Phone/Mobile or any other mobile OS.
+Iridium Browser is currently not available for Android, iOS, Windows Phone/Mobile or any other mobile OS.
 
 ----
 
