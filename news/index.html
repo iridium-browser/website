@@ -31,7 +31,7 @@ sitemap:
 				{{ post.content | split:'<!--break-->' | first }}
 				{% if post.content contains '<!--break-->' %}
 				<br/>
-				<a href="{{ post.url | prepend: site.baseurl }}" class="button alt small icon fa-plus">read more</a>
+				<a href="{{ post.url | prepend: site.baseurl }}" class="button alt small icon fa-plus" title="read full News Post">read more</a>
 				{% endif %}
 			</div>
 		</li>
