@@ -27,4 +27,4 @@ Tumbleweed &#8226;
 Fedora 24+ &#8226; 
 Red Hat Enterprise Linux 7+**
 
-<span class="fa fa-warning"></span> Iridium Browser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!
+<span class="fa fa-warning"></span> Iridium Browser is **not** available for Android, iOS, Windows Mobile or any other mobile OS!
