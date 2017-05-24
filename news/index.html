@@ -4,14 +4,16 @@ style: style2
 title: "News"
 subtitle: "Page"
 description: "All the Iridium Browser News about the latest builds, releases, bug fixes and much more."
-menu: no
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+menu: false
 sitemap:
-  lastmod: 2017-05-05
+  lastmod: 2017-05-14 18:30:00 +0200
   priority: 0.6
   changefreq: 'daily'
 ---
 
-<section id="news" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
+<section id="news-main" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
 <div class="container">	
 	<header class="major">
 		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
@@ -23,7 +25,7 @@ sitemap:
 		<li>
 			<header>
 				<h3>{{ post.title | escape }}</h3>
-				<p><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+				<p><span class="icon fa-calendar-o"></span> <small>{{ post.date | date: "%-d %B %Y" }}</small></p>
 			</header>
 			<div class="post-box">
 				{{ post.content | split:'<!--break-->' | first }}

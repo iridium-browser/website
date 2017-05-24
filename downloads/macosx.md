@@ -6,7 +6,7 @@ description: Download Iridium Browser for Mac OSX 10.9+
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-osx.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-osx.png"
 menu: no
-id: mac_os
+id: macosx
 sitemap:
   exclude: 'yes'
 ---
@@ -21,11 +21,11 @@ current version 58.0
 <div class="container 25%">
 <div class="row">
 <div class="12u$ align-center">
-[Mac OS Download](https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg "download Mac OS Version"){:.button .small .fit .download .icon .fa-download}
+[Mac OSX Download](https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg "download Mac OSX Version"){:.button .small .fit .download .icon .fa-download}
 </div>
 </div></div>
 \\
-If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/macosx/" target="_blank">Builds Archive</a><br/>
+If you are looking for previous versions, please check out the [Builds Archive](https://downloads.iridiumbrowser.de/macosx/ "go to Builds Archive"){:target="_blank"}<br/>
 \\
 system requirements  
 &#8226; OSX Mavericks 10.9+

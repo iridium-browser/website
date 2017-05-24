@@ -39,7 +39,7 @@ current version 58.0
 </div>
 </div></div>
 \\
-If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/windows/" target="_blank">Builds Archive</a><br/>
+If you are looking for previous versions, please check out the [Builds Archive](https://downloads.iridiumbrowser.de/windows/ "go to Builds Archive"){:target="_blank"}<br/>
 \\
 system requirements   
 &#8226; Windows 7+   

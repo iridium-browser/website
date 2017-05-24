@@ -2,7 +2,7 @@
 layout: pagecentered
 title: "FAQ"
 subtitle: "Frequently Asked Questions"
-description: "Frequently Asked Questions"
+description: "Frequently Asked Questions | learn more about Iridium Browser and it's features such as updating the browser, synching bookmarks, search engines, extensions/addons, etc."
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-faq.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-faq.png"
 menu: 3
@@ -16,13 +16,13 @@ sitemap:
 <br/>
 
 ##### What are the differences between Iridium and Chromium? #    
-Please refer to our [Wiki on GitHub](https://github.com/iridium-browser/tracker/wiki/Differences-between-Iridium-and-Chromium){:target="_blank"}     
+Please refer to our [Wiki on GitHub](https://github.com/iridium-browser/tracker/wiki/Differences-between-Iridium-and-Chromium "Differences between Iridium and Chromium"){:target="_blank"}     
     
 ----
 
-##### Why synching and signing in to Iridium or Google does not work? #    
+##### Why syncing and signing in to Iridium or Google does not work? #    
 While not directly intentional it kind of defeats the purpose of Iridium if you are signed into Google and report everything to them. From a technical point of view, signing in to Google requires a Google API key, client ID and client secret and Iridium does not ship with one - thus it does not work.
-If you insist to use Google sign-in, check [Chromium API-Keys](http://www.chromium.org/developers/how-tos/api-keys){:target="_blank"} and follow the instructions for ```Providing Keys at Runtime```.     
+If you insist to use Google sign-in, check [Chromium API-Keys](http://www.chromium.org/developers/how-tos/api-keys "Chromium Developer How-To's"){:target="_blank"} and follow the instructions for ```Providing Keys at Runtime```.     
 
 ----
 
@@ -45,7 +45,7 @@ However, you are free to use any search engine with Iridium Browser.
 
 ##### How to update Iridium Browser? #    
 Iridium Browser does not download and install updates automatically. Updates can only be applied manually by downloading and installing the latest build. This will not affect saved bookmarks.   
-Use ````chrome://help```` to check on your build version. Latest versions can always be found in the [Download](/downloads/) Section.   
+Use ````chrome://help```` to check on your build version. Latest versions can always be found in the [Download](/downloads/ "download Iridium Browser / check for Updates") Section.   
 It is recommended to sign up to the mailing list in order to get all information about the latest releases.   
 
 ----
@@ -62,8 +62,8 @@ Please try to install the extension manually or from ```chrome://extensions/```
 ----
 
 ##### Is Iridium Browser available for Android, iOS or Windows Phone/Mobile? #    
-Iridium Browser is currently <u>not</u> available for Android, iOS, Windows Phone/Mobile or any other mobile OS.
+Iridium Browser is currently not available for Android, iOS, Windows Phone/Mobile or any other mobile OS.
 
 ----
 
-For all general questions about the Browser, please go to [Chrome Help](https://support.google.com/chrome/?p=help){:target="_blank"}     
+For all general questions about the Browser, please go to [Chrome Help](https://support.google.com/chrome/?p=help "go to Chrome Help"){:target="_blank"}     

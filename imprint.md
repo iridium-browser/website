@@ -2,7 +2,7 @@
 layout: pagecentered
 style: style1
 title: "Imprint"
-description: Imprint | Legal Information
+description: "Imprint with legal information, terms of use, data protection, transfer of use, applicable law as well as contact information"
 menu: no
 id: imprint
 sitemap:
@@ -13,7 +13,8 @@ sitemap:
 
 #### Bug Tracker ####
 Please report any  issues and address any questions to our Bug Tracker @ GitHub      
-**[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker"){:target="_blank" .button .small}**      
+    
+[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker @ GitHub"){:target="_blank" .button .small}      
 
 ----
    

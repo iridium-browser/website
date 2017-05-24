@@ -1,10 +1,10 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import url("font-awesome.min.css");
-@import url("font-linux.min.css");
-@import url("font-roboto.min.css");
- 
+@import url('font-awesome.min.css');
+@import url('font-linux.min.css');
+@import url('font-roboto.min.css');
+
 /*
 	Gravity by Pixelarity
 	pixelarity.com @pixelarity
@@ -560,7 +560,7 @@
 			padding-left: 0;
 
 			li {
-				border-top: solid 1px (_palette(border2-bg), 20);
+				border-top: solid 1px _palette(border2-bg);
 				padding: 2em 0 .1em 0;
 
 				&:first-child {
@@ -2569,6 +2569,18 @@
 		margin-top: 3em;
 		margin-bottom: 1em;
 			
+		a {
+			color: _palette(fg-blue);
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+			&:active {
+				color: _palette(accent1, bg);
+			}
+		}
+
 		@include breakpoint(large) {
 			margin-top: 2.5em;
 			margin-bottom: .75em;
@@ -2582,19 +2594,19 @@
 			margin-bottom: 0;
 		}
 	}
-	.marquee span {
+	.marquee div {
 		font-size: 1.25em;
 		color: _palette(fg-blue);
 		line-height: 1em;
 		display: inline-block;
 		padding-left: 100%;  /* show the marquee just outside the paragraph */
-		animation: marquee 20s linear infinite;
+		animation: marquee 18s linear infinite;
 		
 		@include breakpoint(small) {
 			font-size: .95em;
 		}
 	}
-	.marquee span:hover {
+	.marquee div:hover {
 		animation-play-state: paused;
 	}
 	@keyframes marquee {
@@ -2638,6 +2650,12 @@
 		.content {
 			padding-top: 2em;
 		}
+		.icon {
+			font-size: .8em;
+		}
+	}
+
+	#news-main {
 		.icon {
 			font-size: .8em;
 		}
@@ -2754,20 +2772,20 @@
 
 /* DOWNLOADS */
 	
-	#downloads, #windows, #mac_os, #linux, #source, #sorry {
+	#downloads, #windows, #macosx, #linux, #source, #sorry {
 
 		.icon {
 		
 			&.dl {
-				font-size: 5em !important;
-				color: _palette(accent1, bg) !important;
+				font-size: 5em !important ;
+				color: _palette(accent1, bg) !important ;
 				position: relative;
 				display: block;
 				line-height: 1.25em;
 			}
 			&.dl-sorry {
-				font-size: 10em !important;
-				color: _palette(accent1, bg) !important;
+				font-size: 10em !important ;
+				color: _palette(accent1, bg) !important ;
 				position: relative;
 				display: block;
 				line-height: 1em;
@@ -2775,16 +2793,16 @@
 			}
 		}
 		.dlinux {
-			font-size: 6em !important;
-			color: _palette(accent1, bg) !important;
+			font-size: 6em !important ;
+			color: _palette(accent1, bg) !important ;
 			position: relative;
 			display: block;
 			line-height: 1.25em;
 		}
 
 		.dlfedora {
-			font-size: 4em !important;
-			color: _palette(accent1, bg) !important;
+			font-size: 4em !important ;
+			color: _palette(accent1, bg) !important ;
 			position: relative;
 			display: block;
 			line-height: 1.25em;

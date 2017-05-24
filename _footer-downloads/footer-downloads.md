@@ -9,7 +9,7 @@ title: ""
 [Windows](windows.html "Windows Download Page"){:.button .small .fit .icon .fa-windows}
 </div>
 <div class="4u 12u$(small)">
-[Mac OS](mac_os.html "Mac OS Download Page"){:.button .small .fit .icon .fa-apple}
+[Mac OSX](macosx.html "Mac OSX Download Page"){:.button .small .fit .icon .fa-apple}
 </div>
 <div class="4u 12u$(small)">
 [Linux](linux.html "Linux Download Page"){:.button .small .fit .icon .fa-linux}
@@ -27,4 +27,4 @@ Tumbleweed &#8226;
 Fedora 24+ &#8226; 
 Red Hat Enterprise Linux 7+**
 
-<span class="fa fa-warning"></span> Iridium Browser is <u>not</u> available for Android, iOS, Windows Mobile or any other mobile OS!
+<span class="fa fa-warning"></span> Iridium Browser is **not** available for Android, iOS, Windows Mobile or any other mobile OS!

@@ -3,7 +3,7 @@ layout: start-layout
 description: "The Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure the most secure technologies are used."
 menu: no
 sitemap:
-  lastmod: 2017-03-06
+  lastmod: 2017-05-19
   priority: 1.0
   changefreq: 'daily'
 ---
@@ -20,11 +20,11 @@ sitemap:
 
 	<!-- MARQUEE -->
 	<section id="marquee" class="marquee">
-		<span>
+		<div>
 		{% for marquee in site.marquee %}
 		{{ marquee.content }}
 		{% endfor %}
-		</span>
+		</div>
 	</section>
 	
 <!-- BANNER -->
@@ -74,7 +74,7 @@ sitemap:
 		{% for post in site.posts limit:1 %}
 		<header>
 			<h3>{{ post.title }}</h3>
-			<p><small>{{ post.date | date: "%-d-%b-%Y" }}</small></p>
+			<p><span class="icon fa-calendar-o"></span> <small>{{ post.date | date: "%-d %B %Y" }}</small></p>
 		</header>
 		
 		{{ post.content }}
@@ -82,7 +82,7 @@ sitemap:
 		{% endfor %}
 		
 		<p>looking for previous posts?</p>
-		<a class="button icon fa-file-text" href="{{ site.url | append: site.baseurl}}/news/" title="read all the News">News</a>
+		<a class="button icon fa-file-text" href="/news/" title="read all the News">News</a>
 	</section>
 </div>
 </section>
@@ -141,7 +141,7 @@ sitemap:
 		"@type": "SoftwareApplication",
 		"name": "{{ site.title }}",
 		"url": "{{ site.url }}",
-		"downloadUrl": "{{ site.url | append: site.baseurl}}/downloads/",
+		"downloadUrl": "{{ '/downloads/' | prepend: site.baseurl | prepend: site.url }}",
 		"description": "{{ site.description }}",
 		"applicationCategory": "Browser",
 		"operatingSystem": "Windows, Mac OS-X, Ubuntu, Debian, openSUSE, Fedora Red Hat Enterprise Linux",
@@ -162,13 +162,6 @@ sitemap:
 		"priceCurrency": "EUR",
 		"price": "0.00"		
 		}
-	},
-	{ 
-		"@context": "http://schema.org",
-		"@type": "Product",
-		"name": "{{ site.title }}",
-		"url": "{{ site.url | append: site.baseurl}}",
-		"description": "{{ site.description }}"
 	},
 	{
 		"@context": "http://schema.org",

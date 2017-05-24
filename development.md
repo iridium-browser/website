@@ -2,7 +2,7 @@
 layout: pagecentered
 title: "Development"
 subtitle: "How to take part in development"
-description: "Take part in developing IridiumBrowser"
+description: "Take part in developing Iridium Browser - get all development information and learn how to develop Iridium Browser"
 menu: 1
 id: development
 sitemap:
@@ -11,7 +11,8 @@ sitemap:
   changefreq: 'weekly'
 ---
 
-<span class="fa fa-user-md" style="font-size:9em; color:#4499D4;"></span>
+<span class="fa fa-user-md fa-5x fg-blue"></span>
+{:.fa-2x}
 
 ### we are reorganising repos and other internal systems at present #
 {:.fg-blue}
