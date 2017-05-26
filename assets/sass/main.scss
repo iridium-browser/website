@@ -97,7 +97,58 @@
 		margin: 0 0 _size(element-margin) 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: _palette(fg);
+		font-family: _font(family-michroma);
+		font-size: 1.55em;
+		line-height: 1em;
+			
+		span {
+			color: _palette(fg);
+			font-size: 1em;
+			text-shadow:
+				-0.03em -0.03em 0 _palette(fg),
+				0.03em -0.03em 0 _palette(fg),
+				-0.03em 0.03em 0 _palette(fg),
+				0.03em 0.03em 0 _palette(fg);
+			padding-left: 80px;
+			
+			/* XLarge */
+			@include breakpoint(xlarge) {
+				padding-left: 66px;
+			}
+			/* Large */
+			@include breakpoint(large) {
+				padding-left: 50px;
+			}
+
+			span {
+				color: _palette(fg-blue);
+				font-size: 1em;
+				text-shadow:
+					-0.03em -0.03em 0 _palette(bg),
+					0.03em -0.03em 0 _palette(bg),
+					-0.03em 0.03em 0 _palette(bg),
+					0.03em 0.03em 0 _palette(bg);
+				padding-left: 0;
+			}
+		}
+	
+		a {
+			color: _palette(fg);
+			font-size: 1em;
+			text-decoration: none;
+			
+			&:hover {
+				color: _palette(fg);
+				text-decoration: none;
+			}
+		}
+	}
+	
+	
+	
+	h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 		letter-spacing: _font(letter-spacing);
@@ -115,7 +166,7 @@
 			font-size: 2.5em;
 		}
 	}
-	h1, h2 {
+	h2 {
 		font-size: 2.5em;
 		line-height: 1.5em;
 	}
@@ -1081,7 +1132,7 @@
 		background-color: _palette(bg-header);
 		border-bottom: solid 1px _palette(border);
 		box-shadow: 0px 0.0375em 0.125em 0px rgba(0,0,0,0.05);
-		color: #fff;
+		color: _palette(fg-bold);
 		cursor: default;
 		height: 4.5em;
 		letter-spacing: _font(letter-spacing);
@@ -1093,9 +1144,10 @@
 		z-index: 100000;
 
 		h1 {
-			color: _palette(fg-bold);
+			color: _palette(fg);
+			font-family: _font(family-michroma);
 			height: inherit;
-			left: .25em;
+			left: 1em;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
@@ -1103,7 +1155,13 @@
 			top: 0;
 
 			a {
-				font-size: 2em;
+				color: _palette(fg);
+				text-decoration: none;
+				
+				&:hover {
+					color: _palette(fg);
+					text-decoration: none;
+				}
 			}
 		}
 
@@ -1177,7 +1235,7 @@
 			text-align: center;
 
 			h1 {
-				font-size: 3em;
+				font-size: 1em;
 				left: 0;
 				letter-spacing: _font(letter-spacing);
 				line-height: 1.5em;
@@ -1549,6 +1607,10 @@
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
+			
+			h1 {
+				font-size: 1.5em;
+			}
 
 		/* Carousel */
 
@@ -1609,7 +1671,11 @@
 
 
 		/* Basic */
-			h1,h2 {
+			h1 {
+				font-size: 1.25em;
+			}
+			
+			h2 {
 				font-size: 2em;
 			}
 
@@ -1680,7 +1746,7 @@
 
 				h1 {
 					a {
-						font-size: 2em;
+						font-size: 1em;
 					}
 				}
 
@@ -1828,10 +1894,10 @@
 						width: 44px;
 					}
 				}
-
+					
+		
 				.title {
 					color: _palette(fg-bold);
-					font-weight: _font(weight-bold);
 					left: 0;
 					letter-spacing: _font(letter-spacing);
 					line-height: inherit;
@@ -1840,6 +1906,29 @@
 					text-transform: uppercase;
 					top: 0;
 					width: 100%;
+					
+					span {
+						color: _palette(fg);
+						font-family: _font(family-michroma);
+						font-size: .85em;
+						text-shadow:
+							-0.03em -0.03em 0 _palette(fg),
+							0.03em -0.03em 0 _palette(fg),
+							-0.03em 0.03em 0 _palette(fg),
+							0.03em 0.03em 0 _palette(fg);
+						padding-left: 40px;
+
+						span {
+							color: _palette(fg-blue);
+							font-size: 1em;
+							text-shadow:
+								-0.03em -0.03em 0 _palette(bg),
+								0.03em -0.03em 0 _palette(bg),
+								-0.03em 0.03em 0 _palette(bg),
+								0.03em 0.03em 0 _palette(bg);
+							padding-left: 0;
+						}
+					}
 
 					a {
 						color: inherit;
@@ -1911,7 +2000,7 @@
 			html, body {
 				overflow-x: hidden;
 			}
-			h1, h2 {
+			h2 {
 				font-size: 1.5em;
 			}
 
@@ -2118,67 +2207,59 @@
 					}
 				}
 			}
-
 	}
-	
-	
-/* IRIDIUM LOGO HEADER */
-	.logo-header {
-		width: 475px;
+
+
+/* IRIDIUM ICON HEADER */
+	.icon-header {
+		width: 65px;
 		height: 76px;
-		background-size: 475px 54px; 
-		background-image: url(../../images/logos/iridium-header_686x78.png);
+		background-size: 65px 54px; 
+		background-image: url(../../images/logos/iridium-icon_121x100.png);
 		background-position: center center;	
 		background-repeat: no-repeat;
 		display: block;
-		margin: 0 auto;
+		margin: 0;
 		outline: none;
 	}
 	/* XLarge */
 	@include breakpoint(xlarge) {
-		.logo-header {
-			width: 387px;
+		.icon-header {
+			width: 53px;
 			height: 64px;
-			background-size: 387px 44px; 
+			background-size: 53px 44px; 
 		}
 	}
 	/* Large */
 	@include breakpoint(large) {
-		.logo-header {
-			width: 299px;
+		.icon-header {
+			width: 41px;
 			height: 54px;
-			background-size: 299px 34px; 
+			background-size: 41px 34px; 
 		}
 	}
 	/* Medium */
 	@include breakpoint(medium) {
-		.logo-header {
-			display: none;
-		}
-		.logo-header-sm {
-			width: 233px;
+		.icon-header {
+			width: 32px;
 			height: 44px;
-			background-size: 229px 26px;
-			background-image: url(../../images/logos/iridium-header-sm_457x52.png);
-			background-position: center center;	
-			background-repeat: no-repeat;
-			display: block;
-			margin: 0 auto;
-			outline: none;
+			background-size: 32px 26px;
+			margin: 0 34%;
 		}
 	}
 	/* Small */
 	@include breakpoint(small) {
-		.logo-header-sm {
+		.icon-header {
+
 		}	
 	}
 	/* XSmall */
 	@include breakpoint(xsmall) {
-		.logo-header-sm {
-			margin: 0 10px 0 0;
-			float: right;
+		.icon-header {
+			margin: 0 18.5%;
 		}	
 	}
+
 	
 /* IRIDIUM LOGO-LARGE */
 	.logo {
