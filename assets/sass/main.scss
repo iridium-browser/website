@@ -100,8 +100,8 @@
 	h1 {
 		color: _palette(fg);
 		font-family: _font(family-michroma);
-		font-size: 1.75em;
-		line-height: 1.75em;
+		font-size: 1.55em;
+		line-height: 1em;
 			
 		span {
 			color: _palette(fg);
@@ -111,15 +111,15 @@
 				0.03em -0.03em 0 _palette(fg),
 				-0.03em 0.03em 0 _palette(fg),
 				0.03em 0.03em 0 _palette(fg);
-			padding-left: 78px;
+			padding-left: 80px;
 			
 			/* XLarge */
 			@include breakpoint(xlarge) {
-				padding-left: 64px;
+				padding-left: 66px;
 			}
 			/* Large */
 			@include breakpoint(large) {
-				padding-left: 48px;
+				padding-left: 50px;
 			}
 
 			span {
@@ -130,7 +130,7 @@
 					0.03em -0.03em 0 _palette(bg),
 					-0.03em 0.03em 0 _palette(bg),
 					0.03em 0.03em 0 _palette(bg);
-				padding-left: 0.1em;
+				padding-left: 0;
 			}
 		}
 	
@@ -1147,7 +1147,7 @@
 			color: _palette(fg);
 			font-family: _font(family-michroma);
 			height: inherit;
-			left: .75em;
+			left: 1em;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
@@ -1910,13 +1910,13 @@
 					span {
 						color: _palette(fg);
 						font-family: _font(family-michroma);
-						font-size: 1.05em;
+						font-size: .85em;
 						text-shadow:
 							-0.03em -0.03em 0 _palette(fg),
 							0.03em -0.03em 0 _palette(fg),
 							-0.03em 0.03em 0 _palette(fg),
 							0.03em 0.03em 0 _palette(fg);
-						padding-left: 36px;
+						padding-left: 40px;
 
 						span {
 							color: _palette(fg-blue);
@@ -1926,7 +1926,7 @@
 								0.03em -0.03em 0 _palette(bg),
 								-0.03em 0.03em 0 _palette(bg),
 								0.03em 0.03em 0 _palette(bg);
-							padding-left: 0.1em;
+							padding-left: 0;
 						}
 					}
 
@@ -2147,44 +2147,6 @@
 				font-size: 12pt;
 			}
 
-		/* Off-Canvas Navigation */
-
-			#titleBar {
-				.title {
-				
-					span {
-						color: _palette(fg);
-						font-family: _font(family-michroma);
-						font-size: .85em;
-						text-shadow:
-							-0.03em -0.03em 0 _palette(fg),
-							0.03em -0.03em 0 _palette(fg),
-							-0.03em 0.03em 0 _palette(fg),
-							0.03em 0.03em 0 _palette(fg);
-						padding-left: 36px;
-
-						span {
-							color: _palette(fg-blue);
-							font-size: 1em;
-							text-shadow:
-								-0.03em -0.03em 0 _palette(bg),
-								0.03em -0.03em 0 _palette(bg),
-								-0.03em 0.03em 0 _palette(bg),
-								0.03em 0.03em 0 _palette(bg);
-							padding-left: 0.1em;
-						}
-					}
-
-					a {
-						color: inherit;
-						text-decoration: none;
-					}
-				}
-			}
-			
-			
-			
-			
 		/* List */
 
 			ul {
