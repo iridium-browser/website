@@ -1907,18 +1907,12 @@
 					text-transform: uppercase;
 					top: 0;
 					width: 100%;
-						text-shadow:
-							-0.05em -0.05em 0 _palette(fg),
-							0.05em -0.05em 0 _palette(fg),
-							-0.05em 0.05em 0 _palette(fg),
-							0.05em 0.05em 0 _palette(fg);
-
-
 					
 					span {
 						color: _palette(fg);
 						font-family: _font(family-michroma);
 						font-size: 1.05em;
+						font-weight: 900;
 						text-shadow:
 							-0.05em -0.05em 0 _palette(fg),
 							0.05em -0.05em 0 _palette(fg),
