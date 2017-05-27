@@ -1913,15 +1913,13 @@
 						color: _palette(fg);
 						font-family: _font(family-michroma);
 						font-size: 1.05em;
-						-webkit-text-stroke: .06em _palette(fg);
-
+						-webkit-text-stroke: .07em _palette(fg);
 						padding-left: 36px;
 
 						span {
 							color: _palette(fg-blue);
 							font-size: 1em;
 							-webkit-text-stroke: .015em _palette(fg-blue);
-
 							padding-left: 0.1em;
 						}
 					}
