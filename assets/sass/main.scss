@@ -107,11 +107,7 @@
 		span {
 			color: _palette(fg);
 			font-size: 1em;
-			text-shadow:
-				-0.05em -0.05em 0 _palette(fg),
-				0.05em -0.05em 0 _palette(fg),
-				-0.05em 0.05em 0 _palette(fg),
-				0.05em 0.05em 0 _palette(fg);
+			-webkit-text-stroke: .05em _palette(fg);
 			padding-left: 78px;
 			
 			/* XLarge */
@@ -125,14 +121,9 @@
 
 			span {
 				color: _palette(fg-blue);
-				font-size: 1em;
-				padding-left: 0.1em;
-				text-shadow:
-					-0.0095em -0.0095em 0 _palette(fg-blue),
-					0.0095em -0.0095em 0 _palette(fg-blue),
-					-0.0095em 0.0095em 0 _palette(fg-blue),
-					0.0095em 0.0095em 0 _palette(fg-blue);
-				padding-left: 0.1em;
+				font-size: 1.025em;
+				-webkit-text-stroke: .015em _palette(fg-blue);
+				padding-left: 0.15em;
 			}
 		}
 	
@@ -1912,22 +1903,13 @@
 						color: _palette(fg);
 						font-family: _font(family-michroma);
 						font-size: 1.05em;
-						font-weight: 900;
-						text-shadow:
-							-0.05em -0.05em 0 _palette(fg),
-							0.05em -0.05em 0 _palette(fg),
-							-0.05em 0.05em 0 _palette(fg),
-							0.05em 0.05em 0 _palette(fg);
+						-webkit-text-stroke: .05em _palette(fg);
 						padding-left: 36px;
 
 						span {
 							color: _palette(fg-blue);
 							font-size: 1em;
-							text-shadow:
-								-0.03em -0.03em 0 _palette(bg),
-								0.03em -0.03em 0 _palette(bg),
-								-0.03em 0.03em 0 _palette(bg),
-								0.03em 0.03em 0 _palette(bg);
+							-webkit-text-stroke: .015em _palette(fg-blue);
 							padding-left: 0.1em;
 						}
 					}
