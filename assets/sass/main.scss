@@ -1349,7 +1349,44 @@
 		.button {
 			color: _palette(accent2, fg-bold) !important;
 		}
+		
+		.button-round {
+			@include vendor('appearance', 'none');
+			@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px _palette(border);
+			color: _palette(accent1, fg-bold) !important;
+			border-radius: 50%;
+			border: 0;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 1.5em;
+			height: 2.5em;
+			width: 2.5em;
+			line-height: 2.5em;
+			overflow: hidden;
+			text-align: center;
+			text-decoration: none;
+			white-space: nowrap;
+			margin: .5em;
 
+			&:hover {
+				background-color: _palette(border-bg);
+				color: _palette(accent1, fg-bold) !important;
+			}
+			&:active {
+				background-color: _palette(border2-bg);
+				
+			}
+			
+			@include breakpoint(medium) {
+				font-size: 1.25em;
+			}
+			@include breakpoint(small) {
+				font-size: 1.15em;
+			}
+		}
+		
 		.icon {
 			color: _palette(accent2, fg-bold);
 		}
