@@ -2,7 +2,7 @@
 layout: post
 style: style2
 title:  "Next Release - Version 60.0"
-description: Up-to-date v58.0 builds for Windows, Mac OSX, Ubuntu/Debian, openSUSE and Fedora as well as Red Hat Enterprise Linux now available!
+description: The next planned release will be based on Chromium 60.0. Version 59 had no crucial security related fixes as such.
 date:   2017-07-07 18:00:00 +0200
 author:	by admin
 categories: news
@@ -11,10 +11,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
 ---
 
-Apologies for the silence!
-We have been incredibly busy with our day jobs and therefore have not been able to work on version 59 as planned.
-Chromium 59 was release in early June and if we would start patching and building now, it would almost take us till August and this is when Chromium will release version 60.
-
-Therefore we have decided to skip on v59 and focus on **version 60.0** which we hope to release **in August**.
+The next planned release will be based on Chromium 60.0. Version 59 had no crucial security related fixes as such. 
+Therefore we've decided to skip this version and instead assure that we deliver **version 60.0** in timely manner **in August**.
 
 Stand-by and stay private!
