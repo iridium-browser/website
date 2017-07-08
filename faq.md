@@ -61,6 +61,11 @@ Please try to install the extension manually or from ```chrome://extensions/```
 
 ----
 
+##### How is the Iridium Browser Source Code licensed? #  
+As the Iridium Browser is based on Chromium the same license applies. Chromium consists of many parts and each carries its own license. By entering ```chrome://credits/``` into the address bar of the Iridium Browser all components are listed and their license can be viewed.
+
+----
+
 ##### Is Iridium Browser available for Android, iOS or Windows Phone/Mobile? #    
 Iridium Browser is currently not available for Android, iOS, Windows Phone/Mobile or any other mobile OS.
 

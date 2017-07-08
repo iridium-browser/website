@@ -47,9 +47,27 @@ id: downloads
 	{ 
 		"@context": "http://schema.org",
 		"@type": "Product",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"bestRating": "100",
+			"ratingCount": "421",
+			"ratingValue": "87"
+		},
 		"name": "{{ site.title }}",
 		"url": "{{ site.url | append: site.baseurl}}",
-		"description": "{{ site.description }}"
+		"description": "{{ site.description }}",
+		"image": {
+			"@type": "ImageObject",
+			"height": "200",
+			"width": "200",
+			"contentUrl": "{{ site.hotpic | prepend: site.baseurl | prepend: site.url }}",
+			"url": "{{ site.url | append: site.baseurl}}"
+		},
+		"offers": {
+			"@type": "Offer",
+			"priceCurrency": "EUR",
+			"price": "0.00"		
+		}
 	}
 ]
 </script>

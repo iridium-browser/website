@@ -136,6 +136,14 @@ sitemap:
 <!-- Microdata -->
 <script type="application/ld+json">
 [
+		{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url | append: site.baseurl}}",
+		"keywords": "{{ site.keywords }}",
+		"description": "{{ site.description }}"
+	},
 	{
 		"@context": "http://schema.org/",
 		"@type": "SoftwareApplication",
@@ -163,13 +171,30 @@ sitemap:
 		"price": "0.00"		
 		}
 	},
-	{
+	{ 
 		"@context": "http://schema.org",
-		"@type": "WebSite",
+		"@type": "Product",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"bestRating": "100",
+			"ratingCount": "421",
+			"ratingValue": "87"
+		},
 		"name": "{{ site.title }}",
 		"url": "{{ site.url | append: site.baseurl}}",
-		"keywords": "{{ site.keywords }}",
-		"description": "{{ site.description }}"
+		"description": "{{ site.description }}",
+		"image": {
+			"@type": "ImageObject",
+			"height": "200",
+			"width": "200",
+			"contentUrl": "{{ site.hotpic | prepend: site.baseurl | prepend: site.url }}",
+			"url": "{{ site.url | append: site.baseurl}}"
+		},
+		"offers": {
+			"@type": "Offer",
+			"priceCurrency": "EUR",
+			"price": "0.00"		
+		}
 	}
 ]
 </script>

@@ -11,4 +11,6 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
 ---
 
-OSB-Alliance Pressemitteilung zu Iridium Browser - [OSBA Website](http://osb-alliance.de/news/pressemitteilungen/vorlieben-hobbys-krankheiten-geschaefte "OSBA Pressemitteilung"){:target="_blank"}
+OSB-Alliance Pressemitteilung zu Iridium Browser - [OSBA Website](http://osb-alliance.de/news/pressemitteilungen/vorlieben-hobbys-krankheiten-geschaefte "OSBA Pressemitteilung"){:target="_blank"}   
+<!--break-->
+     

@@ -1081,7 +1081,7 @@
 		background-color: _palette(bg-header);
 		border-bottom: solid 1px _palette(border);
 		box-shadow: 0px 0.0375em 0.125em 0px rgba(0,0,0,0.05);
-		color: #fff;
+		color: _palette(fg-bold);
 		cursor: default;
 		height: 4.5em;
 		letter-spacing: _font(letter-spacing);
@@ -1177,7 +1177,7 @@
 			text-align: center;
 
 			h1 {
-				font-size: 3em;
+				font-size: 1em;
 				left: 0;
 				letter-spacing: _font(letter-spacing);
 				line-height: 1.5em;
@@ -1349,7 +1349,44 @@
 		.button {
 			color: _palette(accent2, fg-bold) !important;
 		}
+		
+		.button-round {
+			@include vendor('appearance', 'none');
+			@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px _palette(border);
+			color: _palette(accent1, fg-bold) !important;
+			border-radius: 50%;
+			border: 0;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 1.5em;
+			height: 2.5em;
+			width: 2.5em;
+			line-height: 2.5em;
+			overflow: hidden;
+			text-align: center;
+			text-decoration: none;
+			white-space: nowrap;
+			margin: .5em;
 
+			&:hover {
+				background-color: _palette(border-bg);
+				color: _palette(accent1, fg-bold) !important;
+			}
+			&:active {
+				background-color: _palette(border2-bg);
+				
+			}
+			
+			@include breakpoint(medium) {
+				font-size: 1.25em;
+			}
+			@include breakpoint(small) {
+				font-size: 1.15em;
+			}
+		}
+		
 		.icon {
 			color: _palette(accent2, fg-bold);
 		}
@@ -1549,7 +1586,7 @@
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
-
+			
 		/* Carousel */
 
 			.carousel-wrapper {
@@ -1609,7 +1646,7 @@
 
 
 		/* Basic */
-			h1,h2 {
+			h1, h2 {
 				font-size: 2em;
 			}
 
@@ -1828,7 +1865,7 @@
 						width: 44px;
 					}
 				}
-
+					
 				.title {
 					color: _palette(fg-bold);
 					font-weight: _font(weight-bold);
@@ -1911,7 +1948,7 @@
 			html, body {
 				overflow-x: hidden;
 			}
-			h1, h2 {
+			h2 {
 				font-size: 1.5em;
 			}
 
@@ -2118,11 +2155,10 @@
 					}
 				}
 			}
-
 	}
+
 	
-	
-/* IRIDIUM LOGO HEADER */
+	/* IRIDIUM LOGO HEADER */
 	.logo-header {
 		width: 475px;
 		height: 76px;
@@ -2179,7 +2215,8 @@
 			float: right;
 		}	
 	}
-	
+
+
 /* IRIDIUM LOGO-LARGE */
 	.logo {
 		width: 561px;

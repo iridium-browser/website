@@ -12,4 +12,6 @@ menu: no
 ---
 
 Iridium Browser releases version 54.0 for **Ubuntu, Debian, Mint** and various **OpenSUSE** versions including **Leap 42.1/42.2, 13.2 and Tumbleweed**.      
-Now available for download.
+Now available for download.   
+<!--break-->
+     
