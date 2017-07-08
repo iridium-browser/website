@@ -3,7 +3,7 @@ layout: post
 style: style2
 title:  "Next Release - Version 60.0"
 description: The next planned release will be based on Chromium 60.0. Version 59 had no crucial security related fixes as such.
-date:   2017-07-07 18:00:00 +0200
+date:   2017-07-08 12:00:00 +0200
 author:	by admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
