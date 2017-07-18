@@ -11,7 +11,8 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
 ---
 
-The next planned release will be based on Chromium 60.0. Version 59 had no crucial security related fixes as such. 
+The next planned release will be based on Chromium 60.0. Version 59 had no crucial security related fixes as such.    
+<!--break-->
 Therefore we've decided to skip this version and instead assure that we deliver **version 60.0** in timely manner **in August**.
 
 Stand-by and stay private!
