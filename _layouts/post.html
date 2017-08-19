@@ -23,7 +23,7 @@ layout: default-layout
 				<div class="3u align-left">{% if page.previous.url %}
 					<a class="button small special" title="previous News Post" href="{{page.previous.url}}">&#10094;</a>{% endif %}&nbsp;</div>
 				<div class="6u align-center">
-					<a class="button small icon fa-file-text" href="{{ '/news/' | prepend: site.baseurl }}" title="News Index">News</a></div>
+					<a class="button small icon fa-file-text" href="{{ '/news/' | | relative_url }}" title="News Index">News</a></div>
 				<div class="3u$ align-right">{% if page.next.url %}
 					<a class="button small special" title="next News Post" href="{{page.next.url}}">&#10095;</a>{% endif %}</div>
 			</div>
@@ -47,7 +47,7 @@ layout: default-layout
     "@type": "ImageObject",
     "height": "1200",
     "width": "6228",
-    "contentUrl": "{% if page.hotpic-fb %}{{ page.hotpic-fb | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.hotpic-fb | prepend: site.baseurl | prepend: site.url }}{% endif %}",
+    "contentUrl": "{% if page.hotpic-fb %}{{ page.hotpic-fb | absolute_url }}{% else %}{{ site.hotpic-fb | absolute_url }}{% endif %}",
 	"url": "{{ site.url | append: site.baseurl}}"
   },
   "author": "{{ page.author }}",
@@ -55,7 +55,7 @@ layout: default-layout
     "@type": "Organization",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.hotpic-fb | prepend: site.baseurl | prepend: site.url }}"
+      "url": "{{ site.hotpic-fb | absolute_url }}"
     },
     "name": "{{ site.title }}"
   },
