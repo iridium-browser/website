@@ -103,7 +103,7 @@ sitemap:
 	<div class="row uniform">
 	{% for logos in site.logos %}
 	<section class="3u 4u(xlarge) 6u(medium) special">
-		<a href="{{ logos.link }}" title="{{ logos.title }}" target="{{ logos.target }}" class="{{ logos.logo-class }}"></a>
+		<a href="{{ logos.link }}" title="{{ logos.title }}" target="{{ logos.target }}" class="{{ logos.logo-class }}" rel="noreferrer"></a>
 		<div class="logo-text">{{ logos.content }}</div>
 	</section>
 	{% endfor %}
