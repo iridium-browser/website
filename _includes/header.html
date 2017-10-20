@@ -8,7 +8,7 @@
 			<li><a href="/index.html#about">About</a></li>
 			<li><a href="/index.html#contribute">Contribute</a></li>
 {% for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}
-			<li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+			<li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
 {% endif %}{% endfor %}{% endfor %}
 		</ul>
 	</nav>

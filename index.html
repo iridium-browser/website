@@ -103,7 +103,7 @@ sitemap:
 	<div class="row uniform">
 	{% for logos in site.logos %}
 	<section class="3u 4u(xlarge) 6u(medium) special">
-		<a href="{{ logos.link }}" title="{{ logos.title }}" target="{{ logos.target }}" class="{{ logos.logo-class }}"></a>
+		<a href="{{ logos.link }}" title="{{ logos.title }}" target="{{ logos.target }}" class="{{ logos.logo-class }}" rel="noreferrer"></a>
 		<div class="logo-text">{{ logos.content }}</div>
 	</section>
 	{% endfor %}
@@ -140,7 +140,7 @@ sitemap:
 		"@context": "http://schema.org",
 		"@type": "WebSite",
 		"name": "{{ site.title }}",
-		"url": "{{ site.url | append: site.baseurl}}",
+		"url": "{{ site.url | append: site.baseurl }}",
 		"keywords": "{{ site.keywords }}",
 		"description": "{{ site.description }}"
 	},
@@ -149,7 +149,7 @@ sitemap:
 		"@type": "SoftwareApplication",
 		"name": "{{ site.title }}",
 		"url": "{{ site.url }}",
-		"downloadUrl": "{{ '/downloads/' | prepend: site.baseurl | prepend: site.url }}",
+		"downloadUrl": "{{ '/downloads/' | absolute_url }}",
 		"description": "{{ site.description }}",
 		"applicationCategory": "Browser",
 		"operatingSystem": "Windows, Mac OS-X, Ubuntu, Debian, openSUSE, Fedora Red Hat Enterprise Linux",
@@ -162,7 +162,7 @@ sitemap:
 			"@type": "ImageObject",
 			"height": "200",
 			"width": "200",
-			"contentUrl": "{{ site.hotpic | prepend: site.baseurl | prepend: site.url }}",
+			"contentUrl": "{{ site.hotpic | absolute_url }}",
 			"url": "{{ site.url | append: site.baseurl}}"
 		},
 		"offers": {
@@ -187,7 +187,7 @@ sitemap:
 			"@type": "ImageObject",
 			"height": "200",
 			"width": "200",
-			"contentUrl": "{{ site.hotpic | prepend: site.baseurl | prepend: site.url }}",
+			"contentUrl": "{{ site.hotpic | absolute_url }}",
 			"url": "{{ site.url | append: site.baseurl}}"
 		},
 		"offers": {

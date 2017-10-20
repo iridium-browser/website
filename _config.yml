@@ -32,7 +32,7 @@ collections:
   - footer
   - footer-downloads
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
   
 # Build settings
 markdown: kramdown

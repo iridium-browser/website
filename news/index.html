@@ -53,7 +53,7 @@ sitemap:
 			{% else %}
 				<a class="button small special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
 			{% endif %}
-			{% endfor %}</div>
+		{% endfor %}</div>
 
 		<div class="3u$ align-right">{% if paginator.next_page %} &nbsp;
 			<a class="button small special" title="next post" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10095;</a>{% endif %}</div>
