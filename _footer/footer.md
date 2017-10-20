@@ -11,7 +11,7 @@ For more development information please **[check here]({{ '/development.html' | 
 [<span class="button-round fa fa-github"></span>](https://github.com/iridium-browser "Iridium Browser @ GitHub"){:target="_blank" rel="noreferrer"}
 [<span class="button-round fa fa-facebook"></span>](https://www.facebook.com/iridiumbrowser/ "Iridium Browser on Facebook"){:target="_blank" rel="noreferrer"}
 [<span class="button-round fa fa-twitter"></span>](https://twitter.com/iridiumbrowser/ "Iridium Browser on Twitter"){:target="_blank" rel="noreferrer"}
-[<span class="button-round fa fa-google-plus"></span>](https://plus.google.com/116764845211725632871 "Iridium Browser on Google+"){:target="_blank" rel="noreferrer"}     
+[<span class="button-round fa fa-google-plus"></span>](https://plus.google.com/+IridiumBrowser "Iridium Browser on Google+"){:target="_blank" rel="noreferrer"}     
 
 [RSS feed]({{ '/feed.xml' | relative_url }} "add RSS feed"){: .button .small .alt .icon .fa-rss} 
 [Imprint]({{ '/imprint.html' | relative_url }} "Imprint"){: .button .small .alt}     
