@@ -15,7 +15,8 @@ sitemap:
 <div class="icon dl fa-apple"></div>
 <header>
 ### Mac OSX 10.9+ #
-current version 58.0
+current version 2017-10      
+<small>(based on chromium v61)</small>
 </header>
 
 <div class="container 25%">

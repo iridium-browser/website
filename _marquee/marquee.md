@@ -3,4 +3,4 @@ layout: default-layout
 title: "Marquee"
 ---
 
-[</> **Next Release will be based on** Chromium version 61 **scheduled for release in October** - read the latest **NEWS** </>](/index.html#news "read the latest News")
+[</> **Now available** Version 61 **for Windows and Mac OSX** - go to **Download section** </>](/downloads/ "download v61 for Windows or Mac OSX")
