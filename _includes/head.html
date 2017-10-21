@@ -29,17 +29,17 @@
 		<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 		<meta name="twitter:image" content="{% if page.hotpic-tw %}{{ page.hotpic-tw | absolute_url }}{% else %}{{ site.hotpic-tw | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 		<!-- iPhone/Pad Icons -->
-		<link rel="apple-touch-icon" href="images/app-icons/AppIcon120x120.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="images/app-icons/AppIcon152x152.png"> <!-- iPad -->
-		<link rel="apple-touch-icon" sizes="167x167" href="images/app-icons/AppIcon167x167.png"> <!-- iPad Pro -->
-		<link rel="apple-touch-icon" sizes="180x180" href="images/app-icons/AppIcon180x180.png"> <!-- iPhone -->
+		<link rel="apple-touch-icon" href="{{ '/images/app-icons/AppIcon120x120.png' | relative_url }}">
+		<link rel="apple-touch-icon" sizes="152x152" href="{{ '/images/app-icons/AppIcon152x152.png' | relative_url }}"> <!-- iPad -->
+		<link rel="apple-touch-icon" sizes="167x167" href="{{ '/images/app-icons/AppIcon167x167.png' | relative_url }}"> <!-- iPad Pro -->
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/app-icons/AppIcon180x180.png' | relative_url }}"> <!-- iPhone -->
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="/assets/css/fonts.min.css" />
-        <link rel="stylesheet" href="/assets/css/main.css" />
-        <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 8]><script src="{{ '/assets/js/ie/html5shiv.js' | relative_url }} /assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ '/assets/css/fonts.min.css' | relative_url }}" />
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="{{ '/assets/css/ie8.css' | relative_url }}" /><![endif]-->
 		
-		<script src="/assets/js/jquery.min.js"></script>
-		<script src="/assets/js/ua-parser.min.js"></script>
+		<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+		<script src="{{ '/assets/js/ua-parser.min.js' | relative_url }}"></script>
     </head>
