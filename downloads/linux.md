@@ -33,20 +33,26 @@ current version 58.0
 <div class="dlinux fl-opensuse"></div>
 <header>
 ### Repositories for openSUSE #
-current version 58.0
+current version 2017-10      
+<small>(based on chromium v61)</small>
 </header>
-
-### Leap 42.1 #
-	
-	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.1/ iridium
-	zypper in iridium-browser
-     
 ### Leap 42.2 #
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.2/ iridium
 	zypper in iridium-browser
      
+<header>
+### Leap 42.1 #
+current version 58.0
+</header>
+	
+	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.1/ iridium
+	zypper in iridium-browser
+
+<header>
 ### Tumbleweed #
+current version 58.0
+</header>
 
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Tumbleweed/ iridium  
 	zypper in iridium-browser
