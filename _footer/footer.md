@@ -3,17 +3,18 @@ layout: default-layout
 title: "Available Resources To Step In"
 ---
 
-Stay up to date and sign up to our **[Mailing list](http://lists.inai.de/iridium "sign up to the Mailing List"){:target="_blank" rel="noreferrer"}**      
-Please report any issues and address any questions to our **[Bug Tracker @ GitHub](https://github.com/iridium-browser/tracker/issues "Bug Tracker @ GitHub"){:target="_blank" rel="noreferrer"}**      
-For more development information please **[check here]({{ '/development.html' | relative_url }} "more development information")**     
-**[<span class="fa fa-code"></span> download the Source Code]({{ '/downloads/source.html' | relative_url }} "download the Source Code")**     
-
-[<span class="button-round fa fa-github"></span>](https://github.com/iridium-browser "Iridium Browser @ GitHub"){:target="_blank" rel="noreferrer"}
-[<span class="button-round fa fa-facebook"></span>](https://www.facebook.com/iridiumbrowser/ "Iridium Browser on Facebook"){:target="_blank" rel="noreferrer"}
-[<span class="button-round fa fa-twitter"></span>](https://twitter.com/iridiumbrowser/ "Iridium Browser on Twitter"){:target="_blank" rel="noreferrer"}
-[<span class="button-round fa fa-google-plus"></span>](https://plus.google.com/116764845211725632871 "Iridium Browser on Google+"){:target="_blank" rel="noreferrer"}     
-
-[RSS feed]({{ '/feed.xml' | relative_url }} "add RSS feed"){: .button .small .alt .icon .fa-rss} 
-[Imprint]({{ '/imprint.html' | relative_url }} "Imprint"){: .button .small .alt}     
-
+Stay up to date and sign up to our <strong><a href="http://lists.inai.de/iridium" title="sign up to the Mailing List" target="_blank" rel="noreferrer">Mailing List</a></strong>
+<br/>
+Please report any issues and address any questions to our <strong><a href="https://github.com/iridium-browser/tracker/issues" title="report issues to Bug Tracker @ GitHub" target="_blank" rel="noreferrer">Bug Tracker @ GitHub</a></strong>
+<br/>
+For more development information please <strong><a href="{{ '/development.html' | relative_url }}" title="more development information">check here</a></strong>
+<br/><br/>
+<a href="https://github.com/iridium-browser" title="Iridium Browser on GitHub" target="_blank" rel="noreferrer"><span class="button-round fa fa-github"></span></a>
+<a href="https://www.facebook.com/iridiumbrowser/" title="Iridium Browser on Facebook" target="_blank" rel="noreferrer"><span class="button-round fa fa-facebook"></span></a>
+<a href="https://twitter.com/iridiumbrowser/" title="Iridium Browser on Twitter" target="_blank" rel="noreferrer"><span class="button-round fa fa-twitter"></span></a>
+<a href="https://plus.google.com/+IridiumBrowser" title="Iridium Browser on Google+" target="_blank" rel="noreferrer"><span class="button-round fa fa-google-plus"></span></a>
+<br/><br/>
+<a href="{{ '/feed.xml' | absolute_url }}" title="add RSS feed" class="button small alt icon fa-rss" target="_blank">RSS feed</a>
+<a href="{{ '/imprint.html' | absolute_url }}" title="go to Imprint" class="button small alt">Imprint</a>
+<br/>
 <div class="copyright">&copy; <a href="http://osb-alliance.de/" target="_blank" rel="noreferrer">Open Source Business Alliance</a></div>
