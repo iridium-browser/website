@@ -19,8 +19,8 @@ Currently Iridium Browser is available for the following Operating Systems
 **[Windows 7+](windows.html "Windows 7+") &#8226;
 [macOS 10.9+](macosx.html "macOS 10.9+") &#8226;
 [Ubuntu 14.04+ | Debian 8+ | Mint 17+ (all 64-bit)](linux.html "Ubuntu 14.04+ | Debian 8+ | Mint 17+ (all 64-bit)") &#8226;
-[openSUSE Leap 42.1+ | Tumbleweed](linux.html#suse "openSUSE Leap 42.1+ | Tumbleweed") &#8226;
-[Fedora 24+](linux.html#fedora "Fedora 24+") &#8226;
+[openSUSE Leap 42.2+ | Tumbleweed](linux.html#suse "openSUSE Leap 42.3+ | Tumbleweed") &#8226;
+[Fedora 25+](linux.html#fedora "Fedora 25+") &#8226;
 [Red Hat Enterprise Linux 7+](linux.html#redhat "Red Hat Enterprise Linux 7+")**
 
 <span class="fa fa-warning"></span> Iridium Browser is **not** available for Android, iOS, Windows Mobile or any other mobile OS!
