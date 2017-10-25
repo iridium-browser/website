@@ -28,7 +28,7 @@ current version 2017-10
 [64-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi "download Standard 64-bit Version"){:.button .small .fit .download .icon .fa-download}
 </div>
 </div>
-##### Portable Version #
+##### Portable Version * #
 <div class="row">
 <div class="6u 12u$(small) align-center">
 [32-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip "download Portable 32-bit Version"){:.button .small .fit .download1 .icon .fa-download}
@@ -36,6 +36,8 @@ current version 2017-10
 <div class="6u 12u$(small) align-center">
 [64-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip "download Portable 64-bit Version"){:.button .small .fit .download1 .icon .fa-download}
 </div>
+**Please note!**        
+Running Iridium portable version works out of the box. As a recommendation we recommend to create a shortcut using the “--user-data-dir=/IridiumUserData” configuration option to store the user data to the preferred location (like a USB stick, etc.)
 </div></div>
 \\
 If you are looking for previous versions, please check out the [Builds Archive](https://downloads.iridiumbrowser.de/windows/ "go to Builds Archive"){:target="_blank"}<br/>
