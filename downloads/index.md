@@ -2,7 +2,7 @@
 layout: downloads
 title: "Download"
 subtitle: ""
-description: Download Iridium Browser for Windows, Mac OSX, Ubuntu, Debian, Mint, OpenSUSE, Fedora and Red Hat Enterprise Linux
+description: Download Iridium Browser for Windows, macOS, Ubuntu, Debian, Mint, OpenSUSE, Fedora and Red Hat Enterprise Linux
 hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-download.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-download.png' | absolute_url }}"
 menu: 2
@@ -44,7 +44,7 @@ else { window.location="{{ '/downloads/sorry.html' | relative_url }}"; }
 		"downloadUrl": "{{ '/downloads/' | absolute_url }}",
 		"description": "{{ site.description }}",
 		"applicationCategory": "Browser",
-		"operatingSystem": "Windows, Mac OSX, Ubuntu, Debian, openSUSE, Fedora, Red Hat Enterprise Linux",
+		"operatingSystem": "Windows, macOS, Ubuntu, Debian, openSUSE, Fedora, Red Hat Enterprise Linux",
 		"aggregateRating": {
 			"@type": "AggregateRating",
 			"bestRating": "100",

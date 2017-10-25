@@ -1,8 +1,8 @@
 ---
 layout: downloads
-title: "Download for Mac OSX"
+title: "Download for macOS"
 subtitle: ""
-description: Download Iridium Browser for Mac OSX 10.9+
+description: Download Iridium Browser for macOS
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-osx.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-osx.png"
 menu: no
@@ -14,7 +14,7 @@ sitemap:
 {::options parse_block_html="true" /}
 <div class="icon dl fa-apple"></div>
 <header>
-### Mac OSX 10.9+ #
+### macOS #
 current version 2017-10      
 <small>(based on chromium v61)</small>
 </header>
@@ -22,14 +22,14 @@ current version 2017-10
 <div class="container 25%">
 <div class="row">
 <div class="12u$ align-center">
-[Mac OSX Download](https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg "download Mac OSX Version"){:.button .small .fit .download .icon .fa-download}
+[macOS  Download](https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg "download macOS Version"){:.button .small .fit .download .icon .fa-download}
 </div>
 </div></div>
 \\
 If you are looking for previous versions, please check out the [Builds Archive](https://downloads.iridiumbrowser.de/macosx/ "go to Builds Archive"){:target="_blank"}<br/>
 \\
 system requirements  
-&#8226; OSX Mavericks 10.9+
+&#8226;  macOS >= 10.9.x
 	 
 ---
 
