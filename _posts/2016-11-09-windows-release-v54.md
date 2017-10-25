@@ -14,4 +14,5 @@ menu: no
 Iridium Browser releases **version 54.0** for **Windows**.  
 Now available in the Download Section.   
 <!--break-->
+[DOWNLOAD](/downloads/index.html "Download Iridium Browser v57"){: .button .download}     
      

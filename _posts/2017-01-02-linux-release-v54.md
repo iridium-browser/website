@@ -11,7 +11,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
 ---
 
-Iridium Browser releases version 54.0 for **Ubuntu, Debian, Mint** and various **OpenSUSE** versions including **Leap 42.1/42.2, 13.2 and Tumbleweed**.      
+Iridium Browser releases version 54.0 for **Ubuntu, Debian, Mint** and various **openSUSE** versions including **Leap 42.1/42.2, 13.2 and Tumbleweed**.      
 Now available for download.   
 <!--break-->
      

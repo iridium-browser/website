@@ -18,7 +18,7 @@ var parser = new UAParser();
 var result = parser.getResult();
 var os_name = result.os.name;
 if (os_name == "Windows") { window.location="{{ '/downloads/windows.html' | relative_url }}"; }
-else if (os_name == "Mac OS") { window.location="{{ '/downloads/macosx.html' | relative_url }}"; } 
+else if (os_name == "Mac OS") { window.location="{{ '/downloads/macos.html' | relative_url }}"; } 
 else if (os_name == "Ubuntu") { window.location="{{ '/downloads/linux.html' | relative_url }}"; }
 else if (os_name == "Debian") { window.location="{{ '/downloads/linux.html' | relative_url }}"; }
 else if (os_name == "Linux") { window.location="{{ '/downloads/linux.html' | relative_url }}"; }
