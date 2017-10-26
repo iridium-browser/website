@@ -1,6 +1,6 @@
 ---
 layout: downloads
-title: "Download for macOS"
+title: "Download for mac OS"
 subtitle: ""
 description: Download Iridium Browser for macOS
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-macOS.png"
@@ -29,7 +29,7 @@ current version 2017-10
 If you are looking for previous versions, please check out the [Builds Archive](https://downloads.iridiumbrowser.de/macosx/ "go to Builds Archive"){:target="_blank"}<br/>
 \\
 system requirements  
-&#8226;  macOS 10.9+
+&#8226;  macOS Mavericks 10.9 or later
 	 
 ---
 
