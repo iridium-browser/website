@@ -6,6 +6,9 @@ RewriteRule ^download(/|$) /downloads/ [R=301,L]
 RewriteRule ^downloads/mac_os.html$ /downloads/macos.html [R=301,L]
 RewriteRule ^downloads/macosx.html$ /downloads/macos.html [R=301,L]
 
+RewriteRule ^index(\\.html)? https://iridiumbrowser.de/ [R=301,C]
+RewriteRule ^$ index.html [L]
+
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
 
