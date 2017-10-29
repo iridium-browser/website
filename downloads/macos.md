@@ -29,7 +29,7 @@ current version 2017-10
 If you are looking for previous versions, please check out the [Builds Archive](https://downloads.iridiumbrowser.de/macosx/ "go to Builds Archive"){:target="_blank"}<br/>
 \\
 system requirements  
-&#8226;  macOS Mavericks 10.9 or later
+&#8226;  macOS Mavericks 10.9+
 	 
 ---
 
