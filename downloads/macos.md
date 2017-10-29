@@ -22,7 +22,7 @@ current version 2017-10
 <div class="container 25%">
 <div class="row">
 <div class="12u$ align-center">
-[macOS  Download](https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg "download macOS Version"){:.button .small .fit .download .icon .fa-download}
+[mac OS  Download](https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg "download for macOS"){:.button .small .fit .download .icon .fa-download}
 </div>
 </div></div>
 \\
