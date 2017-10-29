@@ -88,10 +88,10 @@ current version 2017-10
      	
 \\
 system requirements   
-&#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+   
-&#8226; openSUSE Leap 42.2+, Tumbleweed     
-&#8226; Fedora 25+       
-&#8226; Red Hat Enterprise Linux 7+, CentOS 7+     
+&#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+    
+&#8226; openSUSE Leap 42.2+, Tumbleweed    
+&#8226; Fedora 25+    
+&#8226; Red Hat Enterprise Linux 7+, CentOS 7+    
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable
 
 ---
