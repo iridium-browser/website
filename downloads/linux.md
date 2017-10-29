@@ -33,8 +33,7 @@ current version 58.0
 <div class="dlinux fl-opensuse"></div>
 <header>
 ### Repositories for openSUSE #
-current version 2017-10      
-<small>(based on chromium v61)</small>
+current version 2017.10
 </header>
 ### Leap 42.2 #
 	
@@ -58,8 +57,7 @@ current version 2017-10
 <div class="dlfedora fl-fedora"></div>
 <header>
 ### Repository for Fedora #
-current version 2017-10      
-<small>(based on chromium v61)</small>
+current version 2017.10
 </header>
 
 ### Fedora 25 #
@@ -79,8 +77,7 @@ current version 2017-10
 <div class="dlfedora fl-redhat"></div>
 <header>
 ### Repository for Red Hat Enterprise Linux 7 #
-current version 2017-10      
-<small>(based on chromium v61)</small>
+current version 2017.10
 </header>
 
 	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo
