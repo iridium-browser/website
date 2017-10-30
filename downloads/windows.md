@@ -15,7 +15,8 @@ sitemap:
 <div class="icon dl fa-windows"></div>
 <header>
 ### Windows 7+ #
-current version 2017.10
+current version 2017-10      
+<small>(based on chromium v61)</small>
 </header>
 
 <div class="container 50%">
@@ -42,7 +43,7 @@ Running Iridium portable version works out of the box. As a recommendation we re
 If you are looking for previous versions, please check out the [Builds Archive](https://downloads.iridiumbrowser.de/windows/ "go to Builds Archive"){:target="_blank"}<br/>
 \\
 system requirements   
-&#8226; Windows 7+
+&#8226; Windows 7+     
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable
      
 Windows Installer provided by [Advanced Installer](http://www.advancedinstaller.com/ "Advanced Installer"){:target="_blank"}
