@@ -4,4 +4,4 @@ title: "Marquee"
 ---
 
 
-[</> **Version 2017.10** now available for **Windows, macOS, openSUSE Leap/Tumbleweed, Fedora, RHEL/CentOS** - read the latest **NEWS** </>](/#news "read the latest News")
+[</> **Now available** Version 2017.10 **for Windows, macOS, openSUSE Leap 42.2, 42.3, Tumbleweed, Fedora 25 + 26 as well as RHEL/Centos 7** - go to **Download section** </>](/downloads/ "download 2017.10 for Windows,Mac OSX, openSUSE, Fedora and RHEL/Centos")
