@@ -17,7 +17,8 @@ sitemap:
 <div class="icon dl fa-linux"></div> 
 <header>
 ### Repository for Ubuntu | Debian | Mint #
-current version 58.0
+current version 2017-10      
+<small>(based on chromium 61.0.3163.100)</small>
 </header>
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
