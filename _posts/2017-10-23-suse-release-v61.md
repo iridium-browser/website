@@ -13,8 +13,8 @@ menu: no
 
 Iridium Browser **version 2017.10** builds now also available for  **openSUSE Leap 42.2, 42.3 and Tumbleweed**!
 <!--break-->
-Also available are latest builds for **Windows** and **macOS**.
+Also available are latest builds for **Windows** and **macOS**.     
 
-Releases for **Debian/Ubuntu** and **Fedora** to follow shortly.
-
-[DOWNLOAD](/downloads/index.html "download Iridium Browser"){: .button .download}
+Releases for **Debian/Ubuntu** and **Fedora** to follow shortly.    
+          
+[DOWNLOAD](/downloads/index.html "download Iridium Browser"){: .button .download}     

@@ -899,7 +899,7 @@
 				background-color: darken(_palette(accent1, bg-light), 5);
 			}
 		}
-
+ 
 		&.disabled,
 		&:disabled {
 			background-color: _palette(fg) !important;
@@ -2159,7 +2159,7 @@
 	.logo-header {
 		width: 475px;
 		height: 76px;
-		background-size: 475px 54px;
+		background-size: 475px 54px; 
 		background-image: url(../../images/logos/iridium-header-large.svg);
 		background-position: center center;	
 		background-repeat: no-repeat;
@@ -2172,7 +2172,7 @@
 		.logo-header {
 			width: 387px;
 			height: 64px;
-			background-size: 387px 44px;
+			background-size: 387px 44px; 
 		}
 	}
 	/* Large */
@@ -2180,7 +2180,7 @@
 		.logo-header {
 			width: 299px;
 			height: 54px;
-			background-size: 299px 34px;
+			background-size: 299px 34px; 
 		}
 	}
 	/* Medium */
@@ -2218,7 +2218,7 @@
 	.logo {
 		width: 561px;
 		height: 350px;
-		background-size: cover;
+		background-size: cover; 
 		background-image: url(../../images/logos/iridium-logo_561x350.png);
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -2254,7 +2254,7 @@
 	.logo-small {
 		width: 582px;
 		height: 127px;
-		background-size: 582px 127px;
+		background-size: 582px 127px; 
 		background-image: url(../../images/logos/iridium-small_582x127.png);
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -2267,7 +2267,7 @@
 		.logo-small {
 			width: 582px;
 			height: 127px;
-			background-size: 582px 127px;
+			background-size: 582px 127px; 
 		}
 	}
 	/* Large */
@@ -2275,7 +2275,7 @@
 		.logo-small {
 			width: 500px;
 			height: 109px;
-			background-size: 500px 109px;
+			background-size: 500px 109px; 
 		}
 	}
 	/* Medium */
@@ -2300,7 +2300,7 @@
 	.iridium-icon {
 		width: 366px;
 		height: 300px;
-		background-size: cover;
+		background-size: cover; 
 		background-image: url(../../images/logos/iridium-icon.svg);
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -2342,7 +2342,7 @@
 		height: 81px;
 		background-size: 200px 81px;
 		background-image:  url(../../images/logos/logo-osba_250x101.png);
-		background-position: center center;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
@@ -2353,7 +2353,7 @@
 		height: 81px;
 		background-size: 200px 38px;
 		background-image: url(../../images/logos/logo-netitwork_250x48.png);
-		background-position: center center;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
@@ -2364,7 +2364,7 @@
 		height: 81px;
 		background-size: 200px 47px;
 		background-image: url(../../images/logos/logo-kopano_250x59.png);
-		background-position: center center;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
@@ -2375,7 +2375,7 @@
 		height: 81px;
 		background-size: 150px 41px;
 		background-image: url(../../images/logos/logo-zarafa_250x69.png);
-		background-position: center center;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
@@ -2386,7 +2386,7 @@
 		height: 81px;
 		background-size: 200px 47px;
 		background-image: url(../../images/logos/logo-nh_250x59.png);
-		background-position: center center;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
@@ -2397,7 +2397,7 @@
 		height: 81px;
 		background-size: 200px 26px;
 		background-image: url(../../images/logos/logo-struktur_250x33.png);
-		background-position: center center;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
@@ -2408,7 +2408,7 @@
 		height: 81px;
 		background-size: 200px 54px;
 		background-image: url(../../images/logos/logo-bytemine_250x68.png);
-		background-position: center center;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
@@ -2419,7 +2419,7 @@
 		height: 81px;
 		background-size: 125px 51px;
 		background-image: url(../../images/logos/logo-dg-i_250x101.png);
-		background-position: center center;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
@@ -2430,7 +2430,7 @@
 		height: 81px;
 		background-size: 200px 41px;
 		background-image: url(../../images/logos/logo-iridium_supporter_250x51.png);
-		background-position: center center;
+		background-position: center center; 
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;

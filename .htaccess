@@ -9,7 +9,7 @@ RewriteRule ^downloads/macosx.html$ /downloads/macos.html [R=301,L]
 RewriteRule ^index(\\.html)? https://iridiumbrowser.de/ [R=301,C]
 RewriteRule ^$ index.html [L]
 
-RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
 
 ErrorDocument 404 /404.html
