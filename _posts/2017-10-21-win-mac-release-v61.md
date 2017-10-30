@@ -11,8 +11,8 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-download.png"
 menu: no
 ---
 
-Iridium Browser **version 2017.10** builds for **Windows** and **macOS** now available!     
+Iridium Browser **version 2017.10** builds for **Windows** and **macOS** now available!
 <!--break-->
-Releases for Linux platforms incl. **Debian/Ubuntu, openSUSE** and **Fedora** to follow soon. 
-          
-[DOWNLOAD](/downloads/index.html "download Iridium Browser"){: .button .download}     
+Releases for Linux platforms incl. **Debian/Ubuntu, openSUSE** and **Fedora** to follow soon.
+
+[DOWNLOAD](/downloads/index.html "download Iridium Browser"){: .button .download}

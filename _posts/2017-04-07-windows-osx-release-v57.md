@@ -11,9 +11,9 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
 ---
 
-Following yesterday's release of version 57.0 for Ubuntu/Debian, we are now releasing the latest builds for **Windows** and **macOS**.     
-The Windows build is also available as a portable version.     
+Following yesterday's release of version 57.0 for Ubuntu/Debian, we are now releasing the latest builds for **Windows** and **macOS**.
+The Windows build is also available as a portable version.
 <!--break-->
-Releases for **openSUSE** and **Fedora** to follow shortly.     
+Releases for **openSUSE** and **Fedora** to follow shortly.
 
-[DOWNLOAD](/downloads/index.html "Download Iridium Browser v57"){: .button .download}     
+[DOWNLOAD](/downloads/index.html "Download Iridium Browser v57"){: .button .download}

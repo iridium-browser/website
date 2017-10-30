@@ -12,7 +12,7 @@ sitemap:
 ---
 
 {::options parse_block_html="true" /}
-<div class="icon dl fa-linux"></div> 
+<div class="icon dl fa-linux"></div>
 <header>
 ### Repository for Ubuntu | Debian | Mint #
 current version 58.0
@@ -25,11 +25,11 @@ current version 58.0
 	EOF
 	sudo apt-get update
 	sudo apt-get install iridium-browser
-     
+
 {: #suse }
-     
+
 ---
-  
+
 <div class="dlinux fl-opensuse"></div>
 <header>
 ### Repositories for openSUSE #
@@ -39,7 +39,7 @@ current version 2017.10
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.2/ iridium
 	zypper in iridium-browser
-     
+
 ### Leap 42.3 #
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.3/ iridium
@@ -47,13 +47,13 @@ current version 2017.10
 
 ### Tumbleweed #
 
-	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Tumbleweed/ iridium  
+	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Tumbleweed/ iridium
 	zypper in iridium-browser
-     
-{: #fedora }     
-	 
+
+{: #fedora }
+	
 ---
-     
+
 <div class="dlfedora fl-fedora"></div>
 <header>
 ### Repository for Fedora #
@@ -70,10 +70,10 @@ current version 2017.10
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_26/iridium-browser.repo
 	dnf install iridium-browser
      	
-{: #redhat }          
-     
+{: #redhat }
+
 ---
-     
+
 <div class="dlfedora fl-redhat"></div>
 <header>
 ### Repository for Red Hat Enterprise Linux | Cent OS #
@@ -84,11 +84,11 @@ current version 2017.10
 	yum install iridium-browser
      	
 \\
-system requirements   
-&#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+    
-&#8226; openSUSE Leap 42.2+, Tumbleweed    
-&#8226; Fedora 25+    
-&#8226; Red Hat Enterprise Linux 7+, CentOS 7+    
+system requirements
+&#8226; 64-bit Ubuntu 14.04+, Debian 8+, Mint 17+
+&#8226; openSUSE Leap 42.2+, Tumbleweed
+&#8226; Fedora 25+
+&#8226; Red Hat Enterprise Linux 7+, CentOS 7+
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable
 
 ---

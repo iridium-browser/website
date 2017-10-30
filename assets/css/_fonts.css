@@ -2,10 +2,10 @@
 @font-face {
 	font-family: Roboto;
 	src: url('../fonts/roboto/Regular/roboto-regular-webfont.eot');
-	src: url('../fonts/roboto/Regular/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'), 
-	url('../fonts/roboto/Regular/roboto-regular-webfont.woff') format('woff'), 
-	url('../fonts/roboto/Regular/roboto-regular-webfont.woff2') format('woff2'), 
-	url('../fonts/roboto/Regular/roboto-regular-webfont.ttf') format('truetype'), 
+	src: url('../fonts/roboto/Regular/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto/Regular/roboto-regular-webfont.woff') format('woff'),
+	url('../fonts/roboto/Regular/roboto-regular-webfont.woff2') format('woff2'),
+	url('../fonts/roboto/Regular/roboto-regular-webfont.ttf') format('truetype'),
 	url('../fonts/roboto/Regular/roboto-regular-webfont.svg#Roboto') format('svg');
 	font-weight: 400;
 	font-style: normal
@@ -13,10 +13,10 @@
 @font-face {
 	font-family: Roboto;
 	src: url('../fonts/roboto/Medium/roboto-medium-webfont.eot');
-	src: url('../fonts/roboto/Medium/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'), 
-	url('../fonts/roboto/Medium/roboto-medium-webfont.woff') format('woff'), 
-	url('../fonts/roboto/Medium/roboto-medium-webfont.woff2') format('woff2'), 
-	url('../fonts/roboto/Medium/roboto-medium-webfont.ttf') format('truetype'), 
+	src: url('../fonts/roboto/Medium/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto/Medium/roboto-medium-webfont.woff') format('woff'),
+	url('../fonts/roboto/Medium/roboto-medium-webfont.woff2') format('woff2'),
+	url('../fonts/roboto/Medium/roboto-medium-webfont.ttf') format('truetype'),
 	url('../fonts/roboto/Medium/roboto-medium-webfont.svg#Roboto') format('svg');
 	font-weight: 500;
 	font-style: normal
@@ -24,10 +24,10 @@
 @font-face {
 	font-family: Roboto;
 	src: url('../fonts/roboto/Bold/roboto-bold-webfont.eot');
-	src: url('../fonts/roboto/Bold/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), 
-	url('../fonts/roboto/Bold/roboto-bold-webfont.woff') format('woff'), 
-	url('../fonts/roboto/Bold/roboto-bold-webfont.woff2') format('woff2'), 
-	url('../fonts/roboto/Bold/roboto-bold-webfont.ttf') format('truetype'), 
+	src: url('../fonts/roboto/Bold/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto/Bold/roboto-bold-webfont.woff') format('woff'),
+	url('../fonts/roboto/Bold/roboto-bold-webfont.woff2') format('woff2'),
+	url('../fonts/roboto/Bold/roboto-bold-webfont.ttf') format('truetype'),
 	url('../fonts/roboto/Bold/roboto-bold-webfont.svg#Roboto') format('svg');
 	font-weight: 700;
 	font-style: normal
@@ -35,10 +35,10 @@
 @font-face {
 	font-family: Roboto;
 	src: url('../fonts/roboto/Black/roboto-black-webfont.eot');
-	src: url('../fonts/roboto/Black/roboto-black-webfont.eot?#iefix') format('embedded-opentype'), 
-	url('../fonts/roboto/Black/roboto-black-webfont.woff') format('woff'), 
-	url('../fonts/roboto/Black/roboto-black-webfont.woff2') format('woff2'), 
-	url('../fonts/roboto/Black/roboto-black-webfont.ttf') format('truetype'), 
+	src: url('../fonts/roboto/Black/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto/Black/roboto-black-webfont.woff') format('woff'),
+	url('../fonts/roboto/Black/roboto-black-webfont.woff2') format('woff2'),
+	url('../fonts/roboto/Black/roboto-black-webfont.ttf') format('truetype'),
 	url('../fonts/roboto/Black/roboto-black-webfont.svg#Roboto') format('svg');
 	font-weight: 800;
 	font-style: normal
@@ -48,10 +48,10 @@
 @font-face {
 	font-family: font-linux;
 	src: url('../fonts/font-linux.eot');
-	src: url('../fonts/font-linux.eot?#iefix') format('embedded-opentype'), 
-	url('../fonts/font-linux.woff') format('woff'), 
-	url('../fonts/font-linux.woff2') format('woff2'), 
-	url('../fonts/font-linux.ttf') format('truetype'), 
+	src: url('../fonts/font-linux.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/font-linux.woff') format('woff'),
+	url('../fonts/font-linux.woff2') format('woff2'),
+	url('../fonts/font-linux.ttf') format('truetype'),
 	url('../fonts/font-linux.svg#font-linux') format('svg');
 	font-weight: normal;
 	font-style: normal

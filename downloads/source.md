@@ -18,7 +18,7 @@ clone the source code with Git
 
 	git clone https://git.iridiumbrowser.de/git/iridium-browser
 
-Browse the source code with your browser  
+Browse the source code with your browser
 Git web view
 [https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/](https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/ "Git web view"){:target="_blank"}
 
