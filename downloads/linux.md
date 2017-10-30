@@ -8,7 +8,9 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: linux
 sitemap:
-  exclude: 'yes'
+  lastmod: 2017-10-30
+  priority: 0.8
+  changefreq: 'daily'
 ---
 
 {::options parse_block_html="true" /}
@@ -34,7 +36,7 @@ current version 58.0
 <header>
 ### Repositories for openSUSE #
 current version 2017-10      
-<small>(based on chromium v61)</small>
+<small>(based on chromium 61.0.3163.100)</small>
 </header>
 ### Leap 42.2 #
 	
@@ -59,7 +61,7 @@ current version 2017-10
 <header>
 ### Repository for Fedora #
 current version 2017-10      
-<small>(based on chromium v61)</small>
+<small>(based on chromium 61.0.3163.100)</small>
 </header>
 
 ### Fedora 25 #
@@ -80,7 +82,7 @@ current version 2017-10
 <header>
 ### Repository for Red Hat Enterprise Linux | Cent OS #
 current version 2017-10      
-<small>(based on chromium v61)</small>
+<small>(based on chromium 61.0.3163.100)</small>
 </header>
 
 	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo

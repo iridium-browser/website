@@ -8,7 +8,9 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-win.png"
 menu: no
 id: windows
 sitemap:
-  exclude: 'yes'
+  lastmod: 2017-10-30
+  priority: 0.8
+  changefreq: 'daily'
 ---
 
 {::options parse_block_html="true" /}
@@ -16,7 +18,7 @@ sitemap:
 <header>
 ### Windows 7+ #
 current version 2017-10      
-<small>(based on chromium v61)</small>
+<small>(based on chromium 61.0.3163.100)</small>
 </header>
 
 <div class="container 50%">
@@ -37,7 +39,9 @@ current version 2017-10
 [64-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip "download Portable 64-bit Version"){:.button .small .fit .download1 .icon .fa-download}
 </div>
 **Please note!**        
-Running Iridium portable version works out of the box. As a recommendation we recommend to create a shortcut using the “--user-data-dir=/IridiumUserData” configuration option to store the user data to the preferred location (like a USB stick, etc.)
+<strong>* </strong>= Running Iridium portable version works out of the box. As a recommendation we recommend to create a shortcut using the      
+<code>--user-data-dir=/IridiumUserData</code>       
+configuration option to store the user data to the preferred location (like a USB stick, etc.)
 </div></div>
 \\
 If you are looking for previous versions, please check out the [Builds Archive](https://downloads.iridiumbrowser.de/windows/ "go to Builds Archive"){:target="_blank"}<br/>
