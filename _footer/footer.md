@@ -9,7 +9,7 @@ Please report any issues and address any questions to our <strong><a href="https
 <br/>
 For more development information please <strong><a href="/development.html" title="more development information">check here</a></strong>
 <br/>
-<span class="fa fa-code"></span> download the <strong><a href="/downloads/source.html" title="download the Source Code">Source Code</a></strong>
+<span class="fa fa-code"></span> download the <strong><a href="/downloads/source.html" title="download the SOURCE CODE">SOURCE CODE</a></strong>
 <br/><br/>
 <a href="https://github.com/iridium-browser" title="Iridium Browser on GitHub" target="_blank" rel="noreferrer"><span class="button-round fa fa-github"></span></a>
 <a href="https://www.facebook.com/iridiumbrowser/" title="Iridium Browser on Facebook" target="_blank" rel="noreferrer"><span class="button-round fa fa-facebook"></span></a>
