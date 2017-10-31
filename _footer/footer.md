@@ -3,7 +3,6 @@ layout: default-layout
 title: "Available Resources To Step In"
 ---
 
-{::options parse_block_html="true" /}
 Stay up to date and sign up to our <strong><a href="http://lists.inai.de/iridium" title="sign up to the Mailing List" target="_blank" rel="noreferrer">Mailing List</a></strong>
 <br/>
 Please report any issues and address any questions to our <strong><a href="https://github.com/iridium-browser/tracker/issues" title="report issues to Bug Tracker @ GitHub" target="_blank" rel="noreferrer">Bug Tracker @ GitHub</a></strong>
