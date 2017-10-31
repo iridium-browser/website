@@ -17,7 +17,7 @@ sitemap:
 <div class="icon dl fa-windows"></div>
 <header>
 ### Windows 7+ #
-current version 2017-10      
+current version 2017.10      
 <small>(based on chromium 61.0.3163.100)</small>
 </header>
 
@@ -39,7 +39,7 @@ current version 2017-10
 [64-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip "download Portable 64-bit Version"){:.button .small .fit .download1 .icon .fa-download}
 </div>
 **Please note!**        
-<strong>* </strong>= Running Iridium portable version works out of the box. As a recommendation we recommend to create a shortcut using the      
+<strong>* </strong>= Running Iridium portable version works out of the box. We recommend to create a shortcut using the      
 <code>--user-data-dir=/IridiumUserData</code>       
 configuration option to store the user data to the preferred location (like a USB stick, etc.)
 </div></div>

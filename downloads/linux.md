@@ -17,7 +17,7 @@ sitemap:
 <div class="icon dl fa-linux"></div> 
 <header>
 ### Repository for Ubuntu | Debian | Mint #
-current version 2017-10      
+current version 2017.10      
 <small>(based on chromium 61.0.3163.100)</small>
 </header>
 
@@ -36,7 +36,7 @@ current version 2017-10
 <div class="dlinux fl-opensuse"></div>
 <header>
 ### Repositories for openSUSE #
-current version 2017-10      
+current version 2017.10      
 <small>(based on chromium 61.0.3163.100)</small>
 </header>
 ### Leap 42.2 #
@@ -61,7 +61,7 @@ current version 2017-10
 <div class="dlfedora fl-fedora"></div>
 <header>
 ### Repository for Fedora #
-current version 2017-10      
+current version 2017.10      
 <small>(based on chromium 61.0.3163.100)</small>
 </header>
 
@@ -82,7 +82,7 @@ current version 2017-10
 <div class="dlfedora fl-redhat"></div>
 <header>
 ### Repository for Red Hat Enterprise Linux | Cent OS #
-current version 2017-10      
+current version 2017.10      
 <small>(based on chromium 61.0.3163.100)</small>
 </header>
 
