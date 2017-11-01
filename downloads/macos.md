@@ -8,14 +8,17 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-macOS.png"
 menu: no
 id: macosx
 sitemap:
-  exclude: 'yes'
+  lastmod: 2017-10-30
+  priority: 0.8
+  changefreq: 'daily'
 ---
 
 {::options parse_block_html="true" /}
 <div class="icon dl fa-apple"></div>
 <header>
 ### mac OS #
-current version 2017.10
+current version 2017.10      
+<small>(based on chromium 61.0.3163.100)</small>
 </header>
 
 <div class="container 25%">
