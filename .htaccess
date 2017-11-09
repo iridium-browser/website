@@ -38,9 +38,12 @@ Header always set X-Content-Type-Options "nosniff"
 <FilesMatch ".(js|css|xml|gz|html)$">
   Header append Vary: Accept-Encoding
 </FilesMatch>
+
 </IfModule>
 
 <IfModule mod_deflate.c>
+<IfModule mod_filter.c>
+
   # compress text, html, javascript, css, xml:
   AddOutputFilterByType DEFLATE application/javascript
   AddOutputFilterByType DEFLATE application/json
@@ -73,4 +76,8 @@ Header always set X-Content-Type-Options "nosniff"
   AddOutputFilterByType DEFLATE text/javascript
   AddOutputFilterByType DEFLATE text/plain
   AddOutputFilterByType DEFLATE text/xml
+  
+  SetEnvIfNoCase Request_URI \
+  \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+</IfModule>  
 </IfModule>
