@@ -1,6 +1,6 @@
 ---
 layout: post
-style: style2
+style: style1
 title:  "New Version Numbering"
 description: We have changed the version numbers and future builds will have the format YYYY.MM
 date:   2017-10-29 19:19:11 +0200

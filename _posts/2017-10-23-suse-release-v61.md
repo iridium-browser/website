@@ -1,6 +1,6 @@
 ---
 layout: post
-style: style2
+style: style1
 title:  "Version 2017.10 now available for openSUSE"
 description: Iridium Browser version 2017.10 builds for Windows, macOS, openSUSE Leap 42.2, 42.3 and Tumbleweed now available! Releases for Debian/Ubuntu and Fedora to follow.
 date:   2017-10-23 11:11:11 +0200
