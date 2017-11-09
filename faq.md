@@ -3,8 +3,8 @@ layout: pagecentered
 title: "FAQ"
 subtitle: "Frequently Asked Questions"
 description: "Frequently Asked Questions | learn more about Iridium Browser and it's features such as updating the browser, synching bookmarks, search engines, extensions/addons, etc."
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-faq.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-faq.png"
+hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-faq.png' | absolute_url }}"
+hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-faq.png' | absolute_url }}"
 menu: 3
 id: faq
 sitemap:
