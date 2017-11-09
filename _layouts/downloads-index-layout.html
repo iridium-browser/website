@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	{% include head.html %}
+
+	<script src="{{ '/assets/js/parser-inline.js' | relative_url }}"></script>
+
+<body>
+
+    <div class="page-content special">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
