@@ -8,7 +8,7 @@ hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-download.png' | absolute_url }
 menu: 2
 sitemap:
   lastmod: 2017-10-30
-  priority: 1.0
+  priority: 0.5
   changefreq: 'daily'
 id: downloads
 ---

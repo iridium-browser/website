@@ -3,8 +3,8 @@ layout: downloads
 title: "Download for Windows"
 subtitle: ""
 description: Download Iridium Browser for Windows 7+
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-win.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-win.png"
+hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-dl-win.png' | absolute_url }}"
+hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-dl-win.png' | absolute_url }}"
 menu: no
 id: windows
 sitemap:

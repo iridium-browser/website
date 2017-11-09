@@ -3,8 +3,8 @@ layout: downloads
 title: "Download for mac OS"
 subtitle: ""
 description: Download Iridium Browser for macOS
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-macOS.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-macOS.png"
+hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-dl-macOS.png' | absolute_url }}"
+hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-dl-macOS.png' | absolute_url }}"
 menu: no
 id: macosx
 sitemap:
