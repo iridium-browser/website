@@ -966,7 +966,7 @@
 
 		.nav {
 			@include vendor('transition', 'opacity 0.2s ease-in-out');
-			background: rgba(24,24,24,0.75);
+			background: rgba(0,0,0,0.45);
 			height: 100%;
 			opacity: 0;
 			position: absolute;
@@ -1278,7 +1278,7 @@
 
 	#banner {
 		@include padding(2em, 3em, (1em, 0, 0, 0));
-		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../../images/banner.jpg")'));
+		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.35), rgba(0,0,0,0.35))', 'url("../../images/banner.jpg")'));
 		background-attachment: scroll, fixed;
 		background-position: center center;
 		background-size: cover;
