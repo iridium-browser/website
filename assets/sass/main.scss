@@ -966,7 +966,6 @@
 
 		.nav {
 			@include vendor('transition', 'opacity 0.2s ease-in-out');
-			background: url('images/overlay.png');
 			background: rgba(24,24,24,0.75);
 			height: 100%;
 			opacity: 0;
@@ -1279,8 +1278,8 @@
 
 	#banner {
 		@include padding(2em, 3em, (1em, 0, 0, 0));
+		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../../images/banner.jpg")'));
 		background-attachment: scroll, fixed;
-		background-image: url('images/overlay.png'), url('../../images/banner.jpg');
 		background-position: center center;
 		background-size: cover;
 		line-height: 1.75;
