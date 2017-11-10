@@ -12,7 +12,7 @@ sitemap:
   changefreq: 'daily'
 style: style1
 id: about
-permalink: /about/index.html
+permalink: /about/
 ATTENTION: Content is in a collection see '_about'
 ---
 

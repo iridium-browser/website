@@ -12,7 +12,7 @@ sitemap:
   changefreq: 'daily'
 style: style2
 id: manifest
-permalink: /manifest/index.html
+permalink: /manifest/
 ATTENTION: Content is in a collection see '_manifest'
 ---
 

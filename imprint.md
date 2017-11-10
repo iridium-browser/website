@@ -10,7 +10,7 @@ sitemap:
   changefreq: 'weekly'
 style: style1
 id: imprint
-permalink: /imprint/index.html
+permalink: /imprint/
 ---
 
 #### Bug Tracker ####

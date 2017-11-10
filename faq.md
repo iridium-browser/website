@@ -12,7 +12,7 @@ sitemap:
   changefreq: 'weekly'
 style: style2
 id: faq
-permalink: /faq/index.html
+permalink: /faq/
 ---
 
 ##### What are the differences between Iridium and Chromium? #    
