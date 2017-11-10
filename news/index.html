@@ -2,8 +2,8 @@
 layout: default-layout
 style: style1
 title: "News"
-subtitle: "Page"
-description: "All the Iridium Browser News about the latest builds, releases, bug fixes and much more."
+subtitle: "recent proclamations"
+description: "All Iridium Browser News about the latest builds, releases, bug fixes and much more."
 hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-news.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-news.png' | absolute_url }}"
 menu: no
@@ -17,23 +17,29 @@ sitemap:
 <section id="news" class="wrapper {% for post in site.posts limit:1 %}{{ post.style }}{% endfor %} special">
 <div class="container">
 	<header class="major">
-		<h2>Recent News</h2>
-		<p>The Latest</p>
+		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
+		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %}</p>
 	</header>
-	<!-- Content -->
-	<section class="content">
-		{% for post in site.posts limit:1 %}
-		<header>
-			<h3>{{ post.title }}</h3>
-			<p><span class="icon fa-calendar-o"></span> <small>{{ post.date | date: "%-d %B %Y" }}</small></p>
-		</header>
-		
-		{{ post.content }}
-		<hr>
-		{% endfor %}
-		
-		<p>looking for previous posts?</p>
-		<a class="button icon fa-file-text" href="/news/archive/" title="read all the News">News Archive</a>
-	</section>
+	<br>
+	<ul class="alt post-container">
+    {% for post in site.posts limit:4 %}
+		<li>
+			<header>
+				<h3>{{ post.title | escape }}</h3>
+				<p><span class="icon fa-calendar-o"></span> <small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+			</header>
+			<div class="post-box">
+				{{ post.content | split:'<!--break-->' | first }}
+				{% if post.content contains '<!--break-->' %}
+				<br/>
+				<a href="{{ post.url | prepend: site.baseurl }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
+				{% endif %}
+			</div>
+		</li>
+    {% endfor %}
+	</ul>
+	<hr/>
+	<p>looking for previous posts?</p>
+	<a class="button icon fa-file-text" href="/news/archive/" title="read all the News">News Archive</a>
 </div>
 </section>

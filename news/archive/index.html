@@ -41,7 +41,7 @@ sitemap:
 {% if paginator.total_pages > 1 %}
 	<div class="row pagination">
 		<div class="3u align-left">{% if paginator.previous_page %}
-			<a class="button small special" title="previous post" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10094;</a>{% endif %}&nbsp;</div>
+			<a class="button small special" title="previous page" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10094;</a>{% endif %}&nbsp;</div>
 
 		<div class="6u align-center">{% for page in (1..paginator.total_pages) %}
 			{% if page == paginator.page %}
@@ -54,7 +54,7 @@ sitemap:
 		{% endfor %}</div>
 
 		<div class="3u$ align-right">{% if paginator.next_page %} &nbsp;
-			<a class="button small special" title="next post" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10095;</a>{% endif %}</div>
+			<a class="button small special" title="next page" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10095;</a>{% endif %}</div>
 	</div>
 {% endif %}
 	
