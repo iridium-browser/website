@@ -23,7 +23,7 @@ id: downloads
 		"downloadUrl": "{{ '/downloads/' | absolute_url }}",
 		"description": "{{ site.description }}",
 		"applicationCategory": "Browser",
-		"operatingSystem": "Windows, macOS, Ubuntu, Debian, openSUSE, Fedora, Red Hat Enterprise Linux",
+		"operatingSystem": "Windows, macOS, Ubuntu, Debian, openSUSE, Fedora, Red Hat Enterprise Linux, CentOS",
 		"aggregateRating": {
 			"@type": "AggregateRating",
 			"bestRating": "100",
