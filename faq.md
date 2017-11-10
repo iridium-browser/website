@@ -5,15 +5,15 @@ subtitle: "Frequently Asked Questions"
 description: "Frequently Asked Questions | learn more about Iridium Browser and it's features such as updating the browser, synching bookmarks, search engines, extensions/addons, etc."
 hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-faq.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-faq.png' | absolute_url }}"
-menu: 3
-id: faq
+menu: 6
 sitemap:
-  lastmod: 2017-05-05
+  lastmod: 2017-11-10
   priority: 0.5
   changefreq: 'weekly'
+style: style2
+id: faq
+permalink: /faq/index.html
 ---
-
-<br/>
 
 ##### What are the differences between Iridium and Chromium? #    
 Please refer to our [Wiki on GitHub](https://github.com/iridium-browser/tracker/wiki/Differences-between-Iridium-and-Chromium "Differences between Iridium and Chromium"){:target="_blank"}     

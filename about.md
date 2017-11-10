@@ -5,13 +5,14 @@ subtitle: "About the Project"
 description: "With Iridium the whole process is entirely transparent. The public Git repository allows a direct view on all changes made. The complete source code is therefore available."
 hotpic-fb: "{{ '/images/hotpics/Iridium-hotpic_FB.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-hotpic_TW.png' | absolute_url }}"
-menu: no
+menu: 3
 sitemap:
   lastmod: 2017-11-09
   priority: 0.5
   changefreq: 'daily'
 style: style1
 id: about
+permalink: /about/index.html
 ATTENTION: Content is in a collection see '_about'
 ---
 

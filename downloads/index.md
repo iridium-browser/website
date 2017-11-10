@@ -5,11 +5,12 @@ subtitle: ""
 description: Download Iridium Browser for Windows, macOS, Ubuntu, Debian, Mint, OpenSUSE, Fedora, Red Hat Enterprise Linux 7 CentOS
 hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-download.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-download.png' | absolute_url }}"
-menu: 2
+menu: 5
 sitemap:
   lastmod: 2017-10-30
   priority: 0.5
   changefreq: 'daily'
+style: 1
 id: downloads
 ---
 

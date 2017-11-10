@@ -1,20 +1,20 @@
 ---
 layout: default-layout
-style: style1
 title: "News"
 subtitle: "recent proclamations"
 description: "All Iridium Browser News about the latest builds, releases, bug fixes and much more."
 hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-news.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-news.png' | absolute_url }}"
-menu: no
+menu: 1
 sitemap:
-  lastmod: 2017-10-30 18:30:00 +0200
+  lastmod: 2017-11-10 18:30:00 +0200
   priority: 0.7
   changefreq: 'daily'
+style: 1
+id: news
 ---
 
-<!-- NEWS -->
-<section id="news" class="wrapper {% for post in site.posts limit:1 %}{{ post.style }}{% endfor %} special">
+<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
 <div class="container">
 	<header class="major">
 		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
@@ -38,7 +38,7 @@ sitemap:
 		</li>
     {% endfor %}
 	</ul>
-	<hr/>
+	<br/>
 	<p>looking for previous posts?</p>
 	<a class="button icon fa-file-text" href="/news/archive/" title="read all the News">News Archive</a>
 </div>

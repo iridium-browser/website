@@ -5,13 +5,14 @@ subtitle: "Help to make people's privacy not an option but normal"
 description: "Help to make people's privacy not an option but normal! As you can imagine, developing, provision of infrastructure, and testing is very intense work..."
 hotpic-fb: "{{ '/images/hotpics/Iridium-hotpic_FB.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-hotpic_TW.png' | absolute_url }}"
-menu: no
+menu: 4
 sitemap:
   lastmod: 2017-11-09
   priority: 0.6
   changefreq: 'daily'
 style: style2
 id: contribute
+permalink: /contribute/index.html
 ATTENTION: Content is in a collection see '_contribute'
 ---
 
