@@ -567,6 +567,9 @@
 				&:nth-child(2n + 2) {
 					background: lighten(_palette(border2-bg), 20);
 				}
+				&:last-child {
+					border-bottom: solid 1px _palette(border2-bg);
+				}
 			}
 		}
 
@@ -2634,7 +2637,7 @@
 	
 /* MANIFEST */	
 
-	#manifest {
+	#manifest-index {
 		h2 {
 			margin-top: 1.15em;
 		}
@@ -2643,17 +2646,20 @@
 
 /* NEWS */	
 
-	#news {
+	#news, #news-index {
 		padding-bottom: 3em;
 		
+		.icon {
+			font-size: .8em;
+			top: -0.15em;
+		}
+	}
+	#news-index {
 		h2 {
 			margin-top: 1.15em;
 		}
 		.content {
 			padding-top: 2em;
-		}
-		.icon {
-			font-size: .8em;
 		}
 	}
 
@@ -2666,14 +2672,7 @@
 
 /* ABOUT */	
 
-	#about {
-		padding-top: 4em;
-		padding-bottom: 1em;
-		
-		h2 {
-			margin-top: 1.15em;
-		}
-
+	#about, #about-index {
 		.icon {
 			font-size: 2em !important;
 			color: _palette(accent1, bg) !important;
@@ -2709,16 +2708,21 @@
 			}
 		}
 	}
+	#about-index {
+		padding-top: 4em;
+		padding-bottom: 1em;
+		
+		h2 {
+			margin-top: 1.15em;
+		}
+	}
 
 
 /* CONTRIBUTE */	
 	
-	#contribute {
+	#contribute, #contribute-index {
 		header {
 			text-align: center;
-		}
-		h2 {
-			margin-top: 1.15em;
 		}
 		
 		.icon-container {
@@ -2773,7 +2777,13 @@
 			}
 		}
 	}
+	#contribute-index {
+		h2 {
+			margin-top: 1.15em;
+		}
 
+	}
+	
 
 /* DOWNLOADS */
 	

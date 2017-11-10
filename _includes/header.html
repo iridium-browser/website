@@ -4,10 +4,6 @@
 	<nav id="nav">
 		<ul>
 			<li><a href="{{ '/' | relative_url }}">Home</a></li>
-			<li><a href="{{ '/#news' | relative_url }}">News</a></li>
-			<li><a href="{{ '/#manifest' | relative_url }}">Manifest</a></li>
-			<li><a href="{{ '/#about' | relative_url }}">About</a></li>
-			<li><a href="{{ '/#contribute' | relative_url }}">Contribute</a></li>
 {% for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}
 			<li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
 {% endif %}{% endfor %}{% endfor %}
