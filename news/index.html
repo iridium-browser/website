@@ -32,7 +32,7 @@ id: news
 				{{ post.content | split:'<!--break-->' | first }}
 				{% if post.content contains '<!--break-->' %}
 				<br/>
-				<a href="{{ post.url | absolute_url }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
+				<a href="{{ post.url | relative_url }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
 				<br/>
 				{% endif %}
 			</div>

@@ -24,7 +24,6 @@ sitemap:
 			<div class="row 50%">
 				<div class="2u 12u$(medium)"><p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%d-%b-%Y" }}</small></p></div>
 				<div class="8u 12u$(medium)"><p><strong>{{ post.title | escape }}</strong></p></div>
-				<div class="2u 12u$(medium)"><p><a href="{{ post.url | prepend: site.baseurl }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p></div>
 			</div>
 		</li>
     {% endfor %}
