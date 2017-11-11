@@ -3,8 +3,11 @@ RewriteEngine On
 RewriteRule ^download.html$ /downloads/ [R=301,L]
 RewriteRule ^downloads.html$ /downloads/ [R=301,L]
 RewriteRule ^download(/|$) /downloads/ [R=301,L]
-RewriteRule ^downloads/mac_os.html$ /downloads/macos.html [R=301,L]
-RewriteRule ^downloads/macosx.html$ /downloads/macos.html [R=301,L]
+RewriteRule ^downloads/windows.html$ /downloads/windows/ [R=301,L]
+RewriteRule ^downloads/mac_os.html$ /downloads/macOS/ [R=301,L]
+RewriteRule ^downloads/macosx.html$ /downloads/macOS/ [R=301,L]
+RewriteRule ^downloads/linux.html$ /downloads/linux/ [R=301,L]
+RewriteRule ^downloads/source.html$ /downloads/source/ [R=301,L]
 RewriteRule ^faq.html$ /faq/ [R=301,L]
 RewriteRule ^imprint.html$ /imprint/ [R=301,L]
 
