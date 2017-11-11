@@ -11,7 +11,7 @@ sitemap:
   exclude: 'yes'
 ---
 
-<section id="news-main" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
+<section id="news-archive" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
 <div class="container">	
 	<header class="major">
 		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
@@ -21,16 +21,10 @@ sitemap:
 	<ul class="alt post-container">
     {% for post in paginator.posts %}
 		<li>
-			<header>
-				<h3>{{ post.title | escape }}</h3>
-				<p><span class="icon fa-calendar-o"></span> <small>{{ post.date | date: "%-d %B %Y" }}</small></p>
-			</header>
-			<div class="post-box">
-				{{ post.content | split:'<!--break-->' | first }}
-				{% if post.content contains '<!--break-->' %}
-				<br/>
-				<a href="{{ post.url | prepend: site.baseurl }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
-				{% endif %}
+			<div class="row 50%">
+				<div class="2u 12u$(medium)"><p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%d-%b-%Y" }}</small></p></div>
+				<div class="8u 12u$(medium)"><p><strong>{{ post.title | escape }}</strong></p></div>
+				<div class="2u 12u$(medium)"><p><a href="{{ post.url | prepend: site.baseurl }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p></div>
 			</div>
 		</li>
     {% endfor %}

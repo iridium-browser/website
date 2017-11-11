@@ -22,17 +22,18 @@ id: news
 	</header>
 	<br>
 	<ul class="alt post-container">
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:5 %}
 		<li>
 			<header>
 				<h3>{{ post.title | escape }}</h3>
-				<p><span class="icon fa-calendar-o"></span> <small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+				<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
 			</header>
 			<div class="post-box">
 				{{ post.content | split:'<!--break-->' | first }}
 				{% if post.content contains '<!--break-->' %}
 				<br/>
-				<a href="{{ post.url | prepend: site.baseurl }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
+				<a href="{{ post.url | absolute_url }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
+				<br/>
 				{% endif %}
 			</div>
 		</li>

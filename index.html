@@ -61,7 +61,7 @@ sitemap:
 		{% for post in site.posts limit:1 %}
 		<header>
 			<h3>{{ post.title }}</h3>
-			<p><span class="icon fa-calendar-o"></span> <small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+			<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
 		</header>
 		
 		{{ post.content }}
