@@ -1,6 +1,5 @@
 ---
 layout: post
-style: style2
 title:  "Issue with Symantec Certs - solved!"
 description: Issue with Symantec Certs - solved! get the latest updates in the Download section.
 date:   2017-03-14 20:05:00 +0200
@@ -9,7 +8,7 @@ categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
-permalink: /news/:year/:month/:day/:title
+style: style1
 ---
 
 Finally, we are happy to announce that the latest Windows and Ubuntu/Debian builds solve the issue with the Symantec Certificates failing to load.
