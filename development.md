@@ -7,7 +7,6 @@ menu: no
 id: development
 sitemap:
   exclude: 'yes'
-permalink: /development/
 ---
 
 <span class="fa fa-user-md fa-5x fg-blue"></span>

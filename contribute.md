@@ -12,7 +12,6 @@ sitemap:
   changefreq: 'daily'
 style: style2
 id: contribute
-permalink: /contribute/
 ATTENTION: Content is in a collection see '_contribute'
 ---
 
