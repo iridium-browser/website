@@ -17,7 +17,7 @@ RewriteRule ^$ index.html [L]
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
 
-ErrorDocument 404 /404.html
+ErrorDocument 404 /error/
 
 Header append Vary User-Agent
 
