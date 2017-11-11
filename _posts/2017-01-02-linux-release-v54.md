@@ -9,6 +9,7 @@ categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
+permalink: /news/:year/:month/:day/:title
 ---
 
 Iridium Browser releases version 54.0 for **Ubuntu, Debian, Mint** and various **openSUSE** versions including **Leap 42.1/42.2, 13.2 and Tumbleweed**.      

@@ -9,6 +9,7 @@ categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
+permalink: /news/:year/:month/:day/:title
 ---
 
 The next planned release will be based on Chromium 61.0. Version 59 and 60 had no crucial security related fixes as such.    

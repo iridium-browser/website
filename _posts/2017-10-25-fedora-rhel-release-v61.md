@@ -9,6 +9,7 @@ categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-download.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-download.png"
 menu: no
+permalink: /news/:year/:month/:day/:title
 ---
 
 Iridium Browser **version 2017.10** builds now also available for  **Fedora 25/26 and Red Hat Enterprise Linux / CentOS 7**!     

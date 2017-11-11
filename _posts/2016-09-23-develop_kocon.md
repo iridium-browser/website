@@ -9,6 +9,7 @@ categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
+permalink: /news/:year/:month/:day/:title
 ---
 
 The Iridium Browser Development Team will meet at the [Kopano Conference](https://kopano.com/conference/){:target="_blank"} in Vaals (NL) on 6 & 7 October - feel free to join!   

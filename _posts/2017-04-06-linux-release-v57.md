@@ -9,6 +9,7 @@ categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
+permalink: /news/:year/:month/:day/:title
 ---
 
 We are happy and a little proud to announce the release of version 57.0 for **Ubuntu / Debian / Mint**.     
