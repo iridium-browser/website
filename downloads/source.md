@@ -9,7 +9,7 @@ sitemap:
   lastmod: 2017-10-30
   priority: 0.8
   changefreq: 'daily'
-permalink: /downloads/source/
+permalink: /downloads/source
 ---
 
 {::options parse_block_html="true" /}

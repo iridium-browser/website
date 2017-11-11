@@ -7,7 +7,7 @@ menu: no
 id: sorry
 sitemap:
   exclude: 'yes'
-permalink: /downloads/sorry/
+permalink: /downloads/sorry
 ---
 
 {::options parse_block_html="true" /}

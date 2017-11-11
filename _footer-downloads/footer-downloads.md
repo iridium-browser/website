@@ -6,13 +6,13 @@ title: ""
 {::options parse_block_html="true" /}
 <div class="row">
 <div class="4u 12u$(small)">
-[Windows](/downloads/windows/ "Windows Download Page"){:.button .small .fit .icon .fa-windows}
+[Windows](/downloads/windows "Windows Download Page"){:.button .small .fit .icon .fa-windows}
 </div>
 <div class="4u 12u$(small)">
-[mac OS](/downloads/macOS/ "macOS Download Page"){:.button .small .fit .icon .fa-apple}
+[mac OS](/downloads/macOS "macOS Download Page"){:.button .small .fit .icon .fa-apple}
 </div>
 <div class="4u 12u$(small)">
-[Linux](/downloads/linux/ "Linux Download Page"){:.button .small .fit .icon .fa-linux}
+[Linux](/downloads/linux "Linux Download Page"){:.button .small .fit .icon .fa-linux}
 </div>
 </div>
 Currently Iridium Browser is available for the following Operating Systems    

@@ -11,7 +11,7 @@ sitemap:
   lastmod: 2017-10-30
   priority: 0.8
   changefreq: 'daily'
-permalink: /downloads/windows/
+permalink: /downloads/windows
 ---
 
 {::options parse_block_html="true" /}
