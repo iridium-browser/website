@@ -18,6 +18,8 @@ keywords: "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Se
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://iridiumbrowser.de # the base hostname & protocol for your site
 
+permalink: "/news/:year/:month/:day/:title"
+
 paginate: 10
 paginate_path: "/news/archive/page:num/"
 
