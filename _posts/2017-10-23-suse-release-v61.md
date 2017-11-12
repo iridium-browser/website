@@ -17,4 +17,4 @@ Also available are latest builds for **Windows** and **macOS**.
 
 Releases for **Debian/Ubuntu**, **Fedora** and **RHEL/CentOS** to follow shortly.    
           
-[DOWNLOAD](/downloads/index.html "download Iridium Browser"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     

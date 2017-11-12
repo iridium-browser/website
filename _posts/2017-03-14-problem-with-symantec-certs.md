@@ -19,7 +19,7 @@ This is solved now!
      
 get the fixed version
       
-[DOWNLOAD](/downloads/index.html "Download"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "Download"){: .button .download}     
      
 Due to these issues the next major release is delayed and we will jump straight to version 57.     
 Stay tuned and private!

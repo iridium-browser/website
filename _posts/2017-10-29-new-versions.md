@@ -17,4 +17,4 @@ Latest builds are available for **Windows, macOS, openSUSE, Fedora, RHEL/CentOS*
 
 Stay tuned for the **Ubuntu/Debain** release.               
 
-[DOWNLOAD](/downloads/index.html "download Iridium Browser"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     

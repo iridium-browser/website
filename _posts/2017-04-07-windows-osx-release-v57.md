@@ -16,4 +16,4 @@ The Windows build is also available as a portable version.
 <!--break-->
 Releases for **openSUSE** and **Fedora** to follow shortly.     
 
-[DOWNLOAD](/downloads/index.html "Download Iridium Browser v57"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "Download Iridium Browser v57"){: .button .download}     

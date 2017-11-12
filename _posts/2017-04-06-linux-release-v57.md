@@ -17,4 +17,4 @@ Releases for the following platforms; **Windows, macOS, openSUSE** and for the f
 
 The latest version of the Chromium code base uses less resources and also includes all the latest security features.     
       
-[DOWNLOAD](/downloads/linux.html "Download v57 for Linux"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/linux.html' | relative_url }} "Download v57 for Linux"){: .button .download}     
