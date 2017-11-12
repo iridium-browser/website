@@ -18,18 +18,19 @@ sitemap:
 		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p>
 	</header>
 	<br>
+
 	<ul class="alt post-container">
     {% for post in paginator.posts %}
 		<li>
-			<div class="row 50%">
-				<div class="2u 12u$(medium)"><p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%d-%b-%Y" }}</small></p></div>
-				<div class="8u 12u$(medium)"><p><strong>{{ post.title | escape }}</strong></p></div>
-				<div class="2u 12u$(medium)"><p><a href="{{ post.url | relative_url }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p></div>
-			</div>
+			<a href="{{ post.url | relative_url }}" title="read more about '{{ post.title }}'" class="row">
+				<div class="2u 12u$(medium)"><small><span class="icon fa-calendar-o"></span>{{ post.date | date: "%d-%b-%Y" }}</small></div>
+				<div class="8u 12u$(medium)"><p>{{ post.title | escape }}</p></div>
+				<div class="2u 12u$(medium)"><small><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</small></div>
+			</a>
 		</li>
     {% endfor %}
 	</ul>
-
+	
 	<br/>
 
 {% if paginator.total_pages > 1 %}

@@ -558,7 +558,7 @@
 
 			li {
 				border-top: solid 1px _palette(border2-bg);
-				padding: 2.25em .5em .1em .5em;
+				padding: 1.5em .5em .1em .5em;
 
 				&:nth-child(2n + 1) {
 					background: lighten(_palette(border2-bg), 20);
@@ -2658,6 +2658,10 @@
 		}
 	}
 	#news-archive {
+		p {
+			font-size: 1.25em;
+			font-weight: bold;
+		}
 		.icon {
 			top: -0.075em;
 		}
