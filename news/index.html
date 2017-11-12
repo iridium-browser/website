@@ -22,10 +22,25 @@ id: news
 		</header>
 		<br>
 		<ul class="alt">
-		{% for post in site.posts limit:5 %}
+		{% for post in site.posts limit:1 %}
+			<li>
+			<br>
+				<header>
+					<h3>{{ post.title }}</h3>
+					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+				</header>
+			
+				{{ post.content }}
+
+			<p><small><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</small></p>
+			<br>
+			</li>		
+		{% endfor %}
+	
+		{% for post in site.posts limit:4 offset:1 %}
 			<li>
 				<header>
-					<h3>{{ post.title | escape }}</h3>
+					<h4>{{ post.title | escape }}</h4>
 					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
 				</header>
 				<div class="post-box">
