@@ -558,7 +558,7 @@
 
 			li {
 				border-top: solid 1px _palette(border2-bg);
-				padding: 1.5em .5em .1em .5em;
+				padding: 1.5em .5em 1.5em .5em;
 
 				&:nth-child(2n + 1) {
 					background: lighten(_palette(border2-bg), 20);
@@ -2642,6 +2642,13 @@
 
 /* NEWS */	
 
+	#news, #news-index, #news-archive {
+		.icon {
+			font-size: .8em;
+			margin-right: .7em;
+			top: -0.125em;
+		}
+	}
 	#news-index {
 		h2 {
 			margin-top: 1.15em;
@@ -2650,15 +2657,18 @@
 			padding-top: 2em;
 		}
 	}
-	#news, #news-index, #news-archive {
-		.icon {
-			font-size: .8em;
-			margin-right: .7em;
-			top: -0.125em;
+	#news {
+		li {
+			padding: 2.5em .5em .1em .5em;
 		}
 	}
 	#news-archive {
-		p {
+		.c1, .c3 {
+			font-size: .9em;
+			font-weight: medium;
+			color: _palette(fg-light);
+		}
+		.c2 {
 			font-size: 1.25em;
 			font-weight: bold;
 		}

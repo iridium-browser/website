@@ -9,9 +9,11 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
 menu: no
 sitemap:
   exclude: 'yes'
+style: 1
+id: news-archive
 ---
 
-<section id="news-archive" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
+<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
 <div class="container">	
 	<header class="major">
 		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
@@ -19,19 +21,16 @@ sitemap:
 	</header>
 	<br>
 
-	<ul class="alt post-container">
+	<ul class="alt">
     {% for post in paginator.posts %}
 		<li>
-			<a href="{{ post.url | relative_url }}" title="read more about '{{ post.title }}'" class="row">
-				<div class="2u 12u$(medium)"><small><span class="icon fa-calendar-o"></span>{{ post.date | date: "%d-%b-%Y" }}</small></div>
-				<div class="8u 12u$(medium)"><p>{{ post.title | escape }}</p></div>
-				<div class="2u 12u$(medium)"><small><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</small></div>
-			</a>
+			<div class="row">
+				<div class="2u 12u$(medium) c1"><span class="icon fa-calendar-o"></span>{{ post.date | date: "%d-%b-%Y" }}</div>
+				<div class="8u 12u$(medium) c2"><a href="{{ post.url | relative_url }}" title="read more about '{{ post.title }}'">{{ post.title | escape }}</a></div>
+				<div class="2u 12u$(medium) c3"><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</div>
 		</li>
     {% endfor %}
 	</ul>
-	
-	<br/>
 
 {% if paginator.total_pages > 1 %}
 	<div class="row pagination">

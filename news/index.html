@@ -7,7 +7,7 @@ hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-news.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-news.png' | absolute_url }}"
 menu: 1
 sitemap:
-  lastmod: 2017-11-10 18:30:00 +0200
+  lastmod: 2017-11-12 18:30:00 +0200
   priority: 0.7
   changefreq: 'daily'
 style: 1
@@ -15,32 +15,30 @@ id: news
 ---
 
 <section class="wrapper {{ page.style }} special" id="{{ page.id }}">
-<div class="container">
-	<header class="major">
-		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
-		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %}</p>
-	</header>
-	<br>
-	<ul class="alt post-container">
-    {% for post in site.posts limit:5 %}
-		<li>
-			<header>
-				<h3>{{ post.title | escape }}</h3>
-				<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
-			</header>
-			<div class="post-box">
-				{{ post.content | split:'<!--break-->' | first }}
-				{% if post.content contains '<!--break-->' %}
-				<br/>
-				<a href="{{ post.url | relative_url }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
-				<br/>
-				{% endif %}
-			</div>
-		</li>
-    {% endfor %}
-	</ul>
-	<br/>
-	<p>looking for previous posts?</p>
-	<a class="button icon fa-file-text" href="/news/archive/" title="read all the News">News Archive</a>
-</div>
+	<div class="container">
+		<header class="major">
+			<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
+			<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %}</p>
+		</header>
+		<br>
+		<ul class="alt">
+		{% for post in site.posts limit:5 %}
+			<li>
+				<header>
+					<h3>{{ post.title | escape }}</h3>
+					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+				</header>
+				<div class="post-box">
+					{{ post.content | split:'<!--break-->' | first }}
+					{% if post.content contains '<!--break-->' %}
+					<p><a href="{{ post.url | relative_url }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
+					{% endif %}
+				</div>
+			</li>
+		{% endfor %}
+		</ul>
+
+		<p>looking for previous posts?</p>
+		<a class="button icon fa-file-text" href="/news/archive/" title="read all the News">News Archive</a>
+	</div>
 </section>
