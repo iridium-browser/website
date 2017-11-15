@@ -25,9 +25,10 @@ id: news-archive
     {% for post in paginator.posts %}
 		<li>
 			<div class="row">
-				<div class="2u 12u$(medium) c1"><span class="icon fa-calendar-o"></span>{{ post.date | date: "%d-%b-%Y" }}</div>
+				<div class="2u 12u$(medium) c1"><span class="icon fa-calendar-o"><small></span>{{ post.date | date: "%d-%b-%Y" }}</small></div>
 				<div class="8u 12u$(medium) c2"><a href="{{ post.url | relative_url }}" title="read more about '{{ post.title }}'">{{ post.title | escape }}</a></div>
-				<div class="2u 12u$(medium) c3"><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</div>
+				<div class="2u 12u$(medium) c3"><span class="fa fa-user-o fa-fw"></span> <small>{% if post.author %}{{ post.author }}{% endif %}</small></div>
+			</div>
 		</li>
     {% endfor %}
 	</ul>

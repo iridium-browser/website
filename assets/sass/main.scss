@@ -72,7 +72,7 @@
 		text-decoration: underline;
 
 		&:hover {
-			color: _palette(accent1, bg);
+			color: _palette(fg-blue);
 			text-decoration: none;
 		}
 		&:active {
@@ -559,9 +559,50 @@
 			li {
 				border-top: solid 1px _palette(border2-bg);
 				padding: 1.5em .5em 1.5em .5em;
+				
+				a {
+					color: _palette(fg);
+					text-decoration: none;
+					
+					&:hover {
+						color: _palette(accent1, bg);
+						text-decoration: none;
+					}
+					&:active {
+						color: _palette(accent1, bg);
+						text-decoration: none;
+					}
+				}
 
-				&:nth-child(2n + 1) {
-					background: lighten(_palette(border2-bg), 20);
+				&:first-child {
+					background: lighten(_palette(fg), 10);
+					color: darken(_palette(bg), 12);
+					
+					strong {
+						color: darken(_palette(bg), 7);
+					}
+					h3, h4, strong {
+						color: _palette(bg);
+					}
+					.icon, small {
+						color: darken(_palette(bg), 25);
+					}
+					a {
+						color: _palette(bg);
+						text-decoration: none;
+
+						&:hover {
+							color: _palette(accent1, bg);
+							text-decoration: none;
+						}
+						&:active {
+							color: _palette(accent1, bg);
+							text-decoration: none;
+						}
+					}
+				}
+				&:nth-child(2n + 3) {
+					background: lighten(_palette(border2-bg), 15);
 				}
 				&:last-child {
 					border-bottom: solid 1px _palette(border2-bg);
@@ -824,7 +865,7 @@
 		&:hover {
 			background-color: _palette(accent2, bg);
 			box-shadow: inset 0 0 0 2px _palette(accent2, bg);
-			color: _palette(accent1, fg-bold) !important;
+			color: _palette(fg-blue) !important;
 		}
 
 		&:active {
@@ -857,18 +898,25 @@
 			box-shadow: inset 0 0 0 2px _palette(border);
 			color: _palette(fg-bold) !important;
 
-			&:hover {
-				background-color: _palette(border-bg);
-			}
-
-			&:active {
-				background-color: _palette(border2-bg);
-			}
-
 			&.icon {
 				&:before {
 					color: _palette(fg-light);
 				}
+			}
+
+			&:hover {
+				background-color: darken(_palette(border-bg), 15);
+				color: _palette(fg-blue) !important;
+
+				&.icon {
+					&:before {
+						color: _palette(fg-blue);
+					}
+				}
+			}
+
+			&:active {
+				background-color: darken(_palette(border-bg), 15);
 			}
 		}
 
@@ -878,11 +926,11 @@
 			color: _palette(accent1, fg-bold) !important;
 
 			&:hover {
-				background-color: lighten(_palette(accent1, bg), 5);
+				background-color: lighten(_palette(accent1, bg), 10);
 			}
 
 			&:active {
-				background-color: darken(_palette(accent1, bg), 5);
+				background-color: darken(_palette(accent1, bg), 10);
 			}
 		}
 		&.download1 {
@@ -898,6 +946,56 @@
 				background-color: darken(_palette(accent1, bg-light), 5);
 			}
 		}
+		
+		&.read-more {
+			background-color: _palette(fg);
+			box-shadow: inset 0 0 0 2px darken(_palette(fg), 1);
+			color: _palette(bg) !important;
+
+			
+			&:hover {
+				background-color: lighten(_palette(bg), 1);
+				color: _palette(fg-blue) !important;
+
+				&.icon {
+					&:before {
+						color: _palette(fg-blue) !important;
+					}
+				}
+			}
+
+			&:active {
+				background-color: darken(_palette(bg), 15);
+			}
+		}
+
+		&.footer {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px _palette(border);
+			color: _palette(accent1, fg-bold) !important;
+
+			&.icon {
+				&:before {
+					color: _palette(fg-light);
+				}
+			}
+
+			&:hover {
+				background-color: _palette(border-bg);
+				color: _palette(fg-blue) !important;
+
+				&.icon {
+					&:before {
+						color: _palette(fg-blue);
+					}
+				}
+			}
+
+			&:active {
+				background-color: _palette(border2-bg);
+			}
+		}
+
  
 		&.disabled,
 		&:disabled {
@@ -1337,14 +1435,10 @@
 			text-decoration: none;
 
 			&:active, &:hover {
-				color: _palette(accent2, fg-bold);
+				color: _palette(fg-blue);
 			}
 		}
 
-		.button {
-			color: _palette(accent2, fg-bold) !important;
-		}
-		
 		.button-round {
 			@include vendor('appearance', 'none');
 			@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
@@ -1367,7 +1461,7 @@
 
 			&:hover {
 				background-color: _palette(border-bg);
-				color: _palette(accent1, fg-bold) !important;
+				color: _palette(fg-blue) !important;
 			}
 			&:active {
 				background-color: _palette(border2-bg);
@@ -2661,12 +2755,15 @@
 		li {
 			padding: 2.5em .5em .1em .5em;
 		}
+		.button {
+			&.big {
+				font-size: 1em;
+			}
+		}
 	}
 	#news-archive {
 		.c1, .c3 {
-			font-size: .9em;
 			font-weight: medium;
-			color: _palette(fg-light);
 		}
 		.c2 {
 			font-size: 1.25em;

@@ -51,28 +51,25 @@ sitemap:
 
 <!-- NEWS -->
 <section id="news-index" class="wrapper {% for post in site.posts limit:1 %}{{ post.style }}{% endfor %} special">
-<div class="container 75%">
+<div class="container">
 	<header class="major">
 		<h2>Recent News</h2>
-		<p>from the lab</p>
+		<p>the very latest</p>
 	</header>
-	<!-- Content -->
 	<ul class="alt">
-		<li>
-	<section class="content">
-		{% for post in site.posts limit:1 %}
-			<header>
-				<h3>{{ post.title }}</h3>
-				<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
-			</header>
-			
-			{{ post.content }}
+		<li class="content">
+			{% for post in site.posts limit:1 %}
+				<header>
+					<h3>{{ post.title }}</h3>
+					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+				</header>
+				{{ post.content | split:'<!--break-->' | first }}
+				{% if post.content contains '<!--break-->' %}
+				<p><br><a href="{{ '/news/' | relative_url }}" class="button big read-more icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
+				{% endif %}
 			{% endfor %}
 		</li>
 	</ul>
-		<p>read the latest news</p>
-		<a class="button icon fa-file-text" href="{{ '/news/' | relative_url }}" title="read the latest News">News</a>
-	</section>
 </div>
 </section>
 

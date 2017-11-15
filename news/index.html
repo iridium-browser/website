@@ -36,7 +36,7 @@ id: news
 			<br>
 			</li>		
 		{% endfor %}
-	
+
 		{% for post in site.posts limit:4 offset:1 %}
 			<li>
 				<header>
@@ -46,7 +46,7 @@ id: news
 				<div class="post-box">
 					{{ post.content | split:'<!--break-->' | first }}
 					{% if post.content contains '<!--break-->' %}
-					<p><a href="{{ post.url | relative_url }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
+					<p><a href="{{ post.url | relative_url }}" class="button read-more small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
 					{% endif %}
 				</div>
 			</li>
@@ -54,6 +54,6 @@ id: news
 		</ul>
 
 		<p>looking for previous posts?</p>
-		<a class="button icon fa-file-text" href="{{ '/news/archive/' | relative_url }}" title="read all the News">News Archive</a>
+		<a class="button big icon fa-archive" href="{{ '/news/archive/' | relative_url }}" title="read all the News">News Archive</a>
 	</div>
 </section>

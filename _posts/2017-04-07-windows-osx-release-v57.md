@@ -3,7 +3,7 @@ layout: post
 title:  "Version 57 for Windows and macOS now available"
 description: Iridium Browser releases version 57.0 for Windows and Mac OSX
 date:   2017-04-07 10:00:00 +0200
-author:	by admin
+author:	admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"

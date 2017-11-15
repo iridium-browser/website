@@ -3,7 +3,7 @@ layout: post
 title:  "Issue with Symantec Certs - solved!"
 description: Issue with Symantec Certs - solved! get the latest updates in the Download section.
 date:   2017-03-14 20:05:00 +0200
-author:	by admin
+author:	admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
