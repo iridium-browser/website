@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New from the Lab - version 57 for Linux"
+title:  "New from the lab - version 57 for Linux"
 description: Iridium Browser releases version 57.0 for Ubuntu / Debian / Mint.
 date:   2017-04-06 12:00:00 +0200
 author:	admin
@@ -17,4 +17,4 @@ Releases for the following platforms; **Windows, macOS, openSUSE** and for the f
 
 The latest version of the Chromium code base uses less resources and also includes all the latest security features.     
       
-[DOWNLOAD]({{ '/downloads/linux.html' | relative_url }} "Download v57 for Linux"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/linux' | relative_url }} "download v57 for Linux"){: .button .download}     

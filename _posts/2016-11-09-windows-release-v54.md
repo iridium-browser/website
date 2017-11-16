@@ -12,7 +12,7 @@ style: style1
 ---
 
 Iridium Browser releases **version 54.0** for **Windows**.  
-Now available in the Download Section.   
+Now available in the download section.   
 <!--break-->    
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "Download Iridium Browser v57"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser v57"){: .button .download}     
      

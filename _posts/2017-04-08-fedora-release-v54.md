@@ -18,4 +18,4 @@ Work on version 57.0 for Fedora has already started and will be released in due 
     
 Also available is **v57.0** for **Windows, macOS** and **Ubuntu/Debian** 
  
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "Download Iridium Browser"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Version 57 for Windows and macOS now available"
-description: Iridium Browser releases version 57.0 for Windows and Mac OSX
+description: Iridium Browser releases version 57.0 for Windows and macOS
 date:   2017-04-07 10:00:00 +0200
 author:	admin
 categories: news
@@ -16,4 +16,4 @@ The Windows build is also available as a portable version.
 <!--break-->
 Releases for **openSUSE** and **Fedora** to follow shortly.     
 
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "Download Iridium Browser v57"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser v57"){: .button .download}     
