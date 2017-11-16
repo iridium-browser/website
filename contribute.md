@@ -2,7 +2,7 @@
 layout: default-layout
 title: "Contribute"
 subtitle: "Help to make people's privacy not an option but normal"
-description: "Help to make people's privacy not an option but normal! As you can imagine, developing, provision of infrastructure, and testing is very intense work..."
+description: "Help to make people's privacy not an option but normal! As you can imagine, developing, provisioning of infrastructure, and testing is very intense work..."
 hotpic-fb: "{{ '/images/hotpics/Iridium-hotpic_FB.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-hotpic_TW.png' | absolute_url }}"
 menu: 4
