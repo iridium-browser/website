@@ -37,4 +37,4 @@ Download at [https://downloads.iridiumbrowser.de/source/](https://downloads.irid
 
 ---
 
-#### Downloads #
+#### Available Downloads #

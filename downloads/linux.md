@@ -105,4 +105,4 @@ system requirements
 
 ---
 
-If this is not your Operating System or if you are looking for a different platform please choose from the following
+If this is not your operating system or if you are looking for a different platform please choose from the following
