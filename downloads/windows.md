@@ -19,40 +19,40 @@ permalink: /downloads/windows
 <header>
 ### Windows 7+ #
 current version 2017.10      
-<small>(based on chromium 61.0.3163.100)</small>
+<small>(based on Chromium 61.0.3163.100)</small>
 </header>
 
 <div class="container 50%">
 ##### Standard Version #
 <div class="row">
-<div class="6u 12u$(small) align-center">[32-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi "download Standard 32-bit Version"){:.button .small .fit .download .icon .fa-download}
+<div class="6u 12u$(small) align-center">[32-bit download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi "download Standard 32-bit version"){:.button .small .fit .download .icon .fa-download}
 </div>
 <div class="6u 12u$(small) align-center">
-[64-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi "download Standard 64-bit Version"){:.button .small .fit .download .icon .fa-download}
+[64-bit download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi "download Standard 64-bit version"){:.button .small .fit .download .icon .fa-download}
 </div>
 </div>
 ##### Portable Version * #
 <div class="row">
 <div class="6u 12u$(small) align-center">
-[32-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip "download Portable 32-bit Version"){:.button .small .fit .download1 .icon .fa-download}
+[32-bit download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip "download Portable 32-bit version"){:.button .small .fit .download1 .icon .fa-download}
 </div>
 <div class="6u 12u$(small) align-center">
-[64-bit Download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip "download Portable 64-bit Version"){:.button .small .fit .download1 .icon .fa-download}
+[64-bit download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip "download Portable 64-bit version"){:.button .small .fit .download1 .icon .fa-download}
 </div>
 **Please note!**        
-<strong>* </strong>= Running Iridium portable version works out of the box. We recommend to create a shortcut using the      
+<strong>* </strong>= Running the Iridium portable version works out of the box. We recommend to create a shortcut using the      
 <code>--user-data-dir=/IridiumUserData</code>       
-configuration option to store the user data to the preferred location (like a USB stick, etc.)
+configuration option to store the user data to a preferred location (like a USB stick, etc.)
 </div></div>
 \\
-If you are looking for previous versions, please check out the [builds archive](https://downloads.iridiumbrowser.de/windows/ "go to builds archive"){:target="_blank"}<br/>
+If you are looking for previous versions, please check out the [build archive](https://downloads.iridiumbrowser.de/windows/ "go to build archive"){:target="_blank"}<br/>
 \\
-system requirements   
+System requirements:   
 &#8226; Windows 7+     
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable
      
-Windows Installer provided by [Advanced Installer](http://www.advancedinstaller.com/ "Advanced Installer"){:target="_blank"}
+The Windows Installer is produced by [Advanced Installer](http://www.advancedinstaller.com/ "Advanced Installer"){:target="_blank"}
 
 ---
 
-If this is not your operating system or if you are looking for a different platform please choose from the following
+If this is not your operating system or if you are looking for a different platform, please choose from the following:

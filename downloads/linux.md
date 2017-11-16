@@ -2,7 +2,7 @@
 layout: downloads
 title: "Download for Linux"
 subtitle: ""
-description: Download Iridium Browser for Ubuntu/Debian, openSUSE, Fedora and RHEL
+description: Download Iridium Browser for Ubuntu/Debian, openSUSE, Fedora and RHEL/CentOS
 hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-dl-linux.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-dl-linux.png' | absolute_url }}"
 menu: no
@@ -19,7 +19,7 @@ permalink: /downloads/linux
 <header>
 ### Repository for Ubuntu | Debian | Mint #
 current version 2017.10      
-<small>(based on chromium 61.0.3163.100)</small>
+<small>(based on Chromium 61.0.3163.100)</small>
 </header>
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
@@ -38,7 +38,7 @@ current version 2017.10
 <header>
 ### Repositories for openSUSE #
 current version 2017.10      
-<small>(based on chromium 61.0.3163.100)</small>
+<small>(based on Chromium 61.0.3163.100)</small>
 </header>
 ### Leap 42.2 #
 	
@@ -63,7 +63,7 @@ current version 2017.10
 <header>
 ### Repository for Fedora #
 current version 2017.10      
-<small>(based on chromium 61.0.3163.100)</small>
+<small>(based on Chromium 61.0.3163.100)</small>
 </header>
 
 ### Fedora 25 #
@@ -89,14 +89,14 @@ current version 2017.10
 <header>
 ### Repository for Red Hat Enterprise Linux | Cent OS #
 current version 2017.10      
-<small>(based on chromium 61.0.3163.100)</small>
+<small>(based on Chromium 61.0.3163.100)</small>
 </header>
 
 	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo
 	yum install iridium-browser
      	
 \\
-system requirements   
+System requirements:   
 &#8226; Ubuntu 14.04+, Debian 8+, Mint 17+ (all 64-bit)    
 &#8226; openSUSE Leap 42.2+, Tumbleweed    
 &#8226; Fedora 25+    
@@ -105,4 +105,4 @@ system requirements
 
 ---
 
-If this is not your operating system or if you are looking for a different platform please choose from the following
+If this is not your operating system or if you are looking for a different platform, please choose from the following:
