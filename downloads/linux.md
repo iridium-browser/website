@@ -76,6 +76,11 @@ current version 2017.10
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_26/iridium-browser.repo
 	dnf install iridium-browser
      	
+### Fedora 27 #
+
+	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_26/iridium-browser.repo
+	dnf install iridium-browser
+     	
 {: #redhat }          
      
 ---

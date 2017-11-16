@@ -2768,6 +2768,8 @@
 		.c2 {
 			font-size: 1.25em;
 			font-weight: bold;
+			letter-spacing: _font(letter-spacing);
+			text-transform: uppercase;
 		}
 		.icon {
 			top: -0.075em;
