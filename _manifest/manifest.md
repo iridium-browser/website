@@ -1,8 +1,8 @@
 ---
 layout: start-layout
-style: style1
+style: style2
 title: "Manifest"
-subtitle: "important Notice"
+subtitle: "important notice"
 id: manifest
 ---
 
@@ -10,7 +10,7 @@ Before Iridium Browser, we had to decide if we wanted to have cutting edge techn
 So we decided to use the power of free software and build a browser that can do both. We analysed the code of Chromium and stripped out the functionality which exposes data to others in a way we don‘t like.    
 See most important changes [here](https://github.com/iridium-browser/tracker/wiki/Differences-between-Iridium-and-Chromium "Differences between Iridium and Chromium"){:target="_blank"} 
      
-Our ambition is to get builds for Debian, Ubuntu, openSUSE, fedora, Windows and macOS a couple of days after a new release of Chromium.
+Our ambition is to get builds for Debian, Ubuntu, openSUSE, Fedora, RHEL/CentOS, Windows and macOS a couple of days after a new release of Chromium.
 To achieve this, we need help from individuals and organisations, who have the same intention.
 Currently there are weeks between a new release of Iridium and Chromium.     
 Please take this into consideration for your personal usage of the browser as you might be at risk when surfing unknown and potentially dangerous websites!     

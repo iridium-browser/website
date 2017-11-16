@@ -72,7 +72,7 @@
 		text-decoration: underline;
 
 		&:hover {
-			color: _palette(accent1, bg);
+			color: _palette(fg-blue);
 			text-decoration: none;
 		}
 		&:active {
@@ -558,14 +558,54 @@
 
 			li {
 				border-top: solid 1px _palette(border2-bg);
-				padding: 2em 0 .1em 0;
+				padding: 1.5em .5em 1.5em .5em;
+				
+				a {
+					color: _palette(fg);
+					text-decoration: none;
+					
+					&:hover {
+						color: _palette(accent1, bg);
+						text-decoration: none;
+					}
+					&:active {
+						color: _palette(accent1, bg);
+						text-decoration: none;
+					}
+				}
 
 				&:first-child {
-					border-top: 0;
-					padding-top: 0;
+					background: lighten(_palette(fg), 10);
+					color: darken(_palette(bg), 12);
+					
+					strong {
+						color: darken(_palette(bg), 7);
+					}
+					h3, h4, strong {
+						color: _palette(bg);
+					}
+					.icon, small {
+						color: darken(_palette(bg), 25);
+					}
+					a {
+						color: _palette(bg);
+						text-decoration: none;
+
+						&:hover {
+							color: _palette(accent1, bg);
+							text-decoration: none;
+						}
+						&:active {
+							color: _palette(accent1, bg);
+							text-decoration: none;
+						}
+					}
 				}
-				&:nth-child(2n + 2) {
-					background: lighten(_palette(border2-bg), 20);
+				&:nth-child(2n + 3) {
+					background: lighten(_palette(border2-bg), 15);
+				}
+				&:last-child {
+					border-bottom: solid 1px _palette(border2-bg);
 				}
 			}
 		}
@@ -825,7 +865,7 @@
 		&:hover {
 			background-color: _palette(accent2, bg);
 			box-shadow: inset 0 0 0 2px _palette(accent2, bg);
-			color: _palette(accent1, fg-bold) !important;
+			color: _palette(fg-blue) !important;
 		}
 
 		&:active {
@@ -858,18 +898,25 @@
 			box-shadow: inset 0 0 0 2px _palette(border);
 			color: _palette(fg-bold) !important;
 
-			&:hover {
-				background-color: _palette(border-bg);
-			}
-
-			&:active {
-				background-color: _palette(border2-bg);
-			}
-
 			&.icon {
 				&:before {
 					color: _palette(fg-light);
 				}
+			}
+
+			&:hover {
+				background-color: darken(_palette(border-bg), 15);
+				color: _palette(fg-blue) !important;
+
+				&.icon {
+					&:before {
+						color: _palette(fg-blue);
+					}
+				}
+			}
+
+			&:active {
+				background-color: darken(_palette(border-bg), 15);
 			}
 		}
 
@@ -879,11 +926,11 @@
 			color: _palette(accent1, fg-bold) !important;
 
 			&:hover {
-				background-color: lighten(_palette(accent1, bg), 5);
+				background-color: lighten(_palette(accent1, bg), 10);
 			}
 
 			&:active {
-				background-color: darken(_palette(accent1, bg), 5);
+				background-color: darken(_palette(accent1, bg), 10);
 			}
 		}
 		&.download1 {
@@ -899,6 +946,56 @@
 				background-color: darken(_palette(accent1, bg-light), 5);
 			}
 		}
+		
+		&.read-more {
+			background-color: _palette(fg);
+			box-shadow: inset 0 0 0 2px darken(_palette(fg), 1);
+			color: _palette(bg) !important;
+
+			
+			&:hover {
+				background-color: lighten(_palette(bg), 1);
+				color: _palette(fg-blue) !important;
+
+				&.icon {
+					&:before {
+						color: _palette(fg-blue) !important;
+					}
+				}
+			}
+
+			&:active {
+				background-color: darken(_palette(bg), 15);
+			}
+		}
+
+		&.footer {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px _palette(border);
+			color: _palette(accent1, fg-bold) !important;
+
+			&.icon {
+				&:before {
+					color: _palette(fg-light);
+				}
+			}
+
+			&:hover {
+				background-color: _palette(border-bg);
+				color: _palette(fg-blue) !important;
+
+				&.icon {
+					&:before {
+						color: _palette(fg-blue);
+					}
+				}
+			}
+
+			&:active {
+				background-color: _palette(border2-bg);
+			}
+		}
+
  
 		&.disabled,
 		&:disabled {
@@ -966,8 +1063,7 @@
 
 		.nav {
 			@include vendor('transition', 'opacity 0.2s ease-in-out');
-			background: url('images/overlay.png');
-			background: rgba(24,24,24,0.75);
+			background: rgba(0,0,0,0.45);
 			height: 100%;
 			opacity: 0;
 			position: absolute;
@@ -1279,8 +1375,8 @@
 
 	#banner {
 		@include padding(2em, 3em, (1em, 0, 0, 0));
+		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.35), rgba(0,0,0,0.35))', 'url("../../images/banner.jpg")'));
 		background-attachment: scroll, fixed;
-		background-image: url('images/overlay.png'), url('../../images/banner.jpg');
 		background-position: center center;
 		background-size: cover;
 		line-height: 1.75;
@@ -1339,14 +1435,10 @@
 			text-decoration: none;
 
 			&:active, &:hover {
-				color: _palette(accent2, fg-bold);
+				color: _palette(fg-blue);
 			}
 		}
 
-		.button {
-			color: _palette(accent2, fg-bold) !important;
-		}
-		
 		.button-round {
 			@include vendor('appearance', 'none');
 			@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
@@ -1369,7 +1461,7 @@
 
 			&:hover {
 				background-color: _palette(border-bg);
-				color: _palette(accent1, fg-bold) !important;
+				color: _palette(fg-blue) !important;
 			}
 			&:active {
 				background-color: _palette(border2-bg);
@@ -2635,7 +2727,7 @@
 	
 /* MANIFEST */	
 
-	#manifest {
+	#manifest-index {
 		h2 {
 			margin-top: 1.15em;
 		}
@@ -2644,37 +2736,50 @@
 
 /* NEWS */	
 
-	#news {
-		padding-bottom: 3em;
-		
+	#news, #news-index, #news-archive {
+		.icon {
+			font-size: .8em;
+			margin-right: .7em;
+			top: -0.125em;
+		}
+	}
+	#news-index {
 		h2 {
 			margin-top: 1.15em;
 		}
 		.content {
 			padding-top: 2em;
 		}
-		.icon {
-			font-size: .8em;
+	}
+	#news {
+		li {
+			padding: 2.5em .5em .1em .5em;
+		}
+		.button {
+			&.big {
+				font-size: 1em;
+			}
 		}
 	}
-
-	#news-main {
+	#news-archive {
+		.c1, .c3 {
+			font-weight: medium;
+		}
+		.c2 {
+			font-size: 1.25em;
+			font-weight: bold;
+			letter-spacing: _font(letter-spacing);
+			text-transform: uppercase;
+		}
 		.icon {
-			font-size: .8em;
+			top: -0.075em;
 		}
 	}
 
 
 /* ABOUT */	
 
-	#about {
-		padding-top: 4em;
-		padding-bottom: 1em;
-		
-		h2 {
-			margin-top: 1.15em;
-		}
-
+	#about, #about-index {
 		.icon {
 			font-size: 2em !important;
 			color: _palette(accent1, bg) !important;
@@ -2710,13 +2815,21 @@
 			}
 		}
 	}
+	#about-index {
+		padding-top: 4em;
+		padding-bottom: 1em;
+		
+		h2 {
+			margin-top: 1.15em;
+		}
+	}
 
 
 /* CONTRIBUTE */	
 	
-	#contribute {
-		h2 {
-			margin-top: 1.15em;
+	#contribute, #contribute-index {
+		header {
+			text-align: center;
 		}
 		
 		.icon-container {
@@ -2771,7 +2884,13 @@
 			}
 		}
 	}
+	#contribute-index {
+		h2 {
+			margin-top: 1.15em;
+		}
 
+	}
+	
 
 /* DOWNLOADS */
 	

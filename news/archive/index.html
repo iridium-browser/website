@@ -1,0 +1,57 @@
+---
+layout: default-layout
+style: style1
+title: "News Archive"
+subtitle: "Page"
+description: "Iridium Browser news archive with all news posts ever made - about the builds, releases, bug fixes and much more."
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+menu: no
+sitemap:
+  exclude: 'yes'
+style: 1
+id: news-archive
+---
+
+<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+<div class="container">	
+	<header class="major">
+		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
+		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p>
+	</header>
+	<br>
+
+	<ul class="alt">
+    {% for post in paginator.posts %}
+		<li>
+			<div class="row">
+				<div class="2u 12u$(medium) c1"><span class="icon fa-calendar-o"><small></span>{{ post.date | date: "%d-%b-%Y" }}</small></div>
+				<div class="8u 12u$(medium) c2"><a href="{{ post.url | relative_url }}" title="read more about '{{ post.title }}'">{{ post.title | escape }}</a></div>
+				<div class="2u 12u$(medium) c3"><span class="fa fa-user-o fa-fw"></span> <small>{% if post.author %}{{ post.author }}{% endif %}</small></div>
+			</div>
+		</li>
+    {% endfor %}
+	</ul>
+
+{% if paginator.total_pages > 1 %}
+	<div class="row pagination">
+		<div class="3u align-left">{% if paginator.previous_page %}
+			<a class="button small special" title="previous page" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10094;</a>{% endif %}&nbsp;</div>
+
+		<div class="6u align-center">{% for page in (1..paginator.total_pages) %}
+			{% if page == paginator.page %}
+				<span class="button small special">{{ page }}</span>
+			{% elsif page == 1 %}
+				<a class="button small special" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+			{% else %}
+				<a class="button small special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+			{% endif %}
+		{% endfor %}</div>
+
+		<div class="3u$ align-right">{% if paginator.next_page %} &nbsp;
+			<a class="button small special" title="next page" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10095;</a>{% endif %}</div>
+	</div>
+{% endif %}
+	
+</div>
+</section>

@@ -2,10 +2,10 @@
         <meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-		<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
-		<link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
-		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}" />
+        <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+		<link rel="canonical" hreflang="en" href="{{ page.url | replace:'index.html','' | relative_url }}" />
+		<link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | relative_url }}" />
+		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}" />
 
         <title>{% if page.title %}{{ site.title | escape }} | {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
         
@@ -16,10 +16,10 @@
 		<meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
 
 		<!-- Facebook -->
-		<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+		<meta property="og:url" content="{{ page.url | replace:'index.html','' | relative_url }}">
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-		<meta property="og:image" content="{% if page.hotpic-fb %}{{ page.hotpic-fb | absolute_url }}{% else %}{{ site.hotpic-fb | absolute_url }}{% endif %}">
+		<meta property="og:image" content="{% if page.hotpic-fb %}{{ page.hotpic-fb | relative_url }}{% else %}{{ site.hotpic-fb | absolute_url }}{% endif %}">
 		<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 		<meta property="og:site_name" content="{{ site.title }}">
 		<!-- Twitter -->
@@ -27,7 +27,7 @@
 		<meta name="twitter:site" content="@IridiumBrowser">
 		<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 		<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-		<meta name="twitter:image" content="{% if page.hotpic-tw %}{{ page.hotpic-tw | absolute_url }}{% else %}{{ site.hotpic-tw | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+		<meta name="twitter:image" content="{% if page.hotpic-tw %}{{ page.hotpic-tw | relative_url }}{% else %}{{ site.hotpic-tw | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 		<!-- iPhone/Pad Icons -->
 		<link rel="apple-touch-icon" href="{{ '/images/app-icons/AppIcon120x120.png' | relative_url }}">
 		<link rel="apple-touch-icon" sizes="152x152" href="{{ '/images/app-icons/AppIcon152x152.png' | relative_url }}"> <!-- iPad -->
@@ -35,11 +35,8 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/app-icons/AppIcon180x180.png' | relative_url }}"> <!-- iPhone -->
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="{{ '/assets/js/ie/html5shiv.js' | relative_url }} /assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="{{ '/assets/css/fonts.min.css' | relative_url }}" />
-        <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-        <!--[if lte IE 8]><link rel="stylesheet" href="{{ '/assets/css/ie8.css' | relative_url }}" /><![endif]-->
-		
-		<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
-		<script src="{{ '/assets/js/combined.min.js' | relative_url }}"></script>
+        <!--[if lte IE 8]><script src="{{ '/assets/js/ie/html5shiv.js' | relative_url }}"></script><![endif]-->
+		<link rel="stylesheet" href="{{ '/assets/css/fonts.min.css' | relative_url }}">
+		<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+	    <!--[if lte IE 8]><link rel="stylesheet" href="{{ '/assets/css/ie8.css' | relative_url }}" /><![endif]-->
     </head>

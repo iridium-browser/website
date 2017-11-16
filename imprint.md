@@ -4,15 +4,16 @@ style: style1
 title: "Imprint"
 description: "Imprint with legal information, terms of use, data protection, transfer of use, applicable law as well as contact information"
 menu: no
-id: imprint
 sitemap:
-  lastmod: 2016-10-23
+  lastmod: 2017-11-10
   priority: 0.1
   changefreq: 'weekly'
+style: style1
+id: imprint
 ---
 
 #### Bug Tracker ####
-Please report any  issues and address any questions to our Bug Tracker @ GitHub      
+Please report any issues, and address any questions to our bug tracker at GitHub.      
     
 [Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker @ GitHub"){:target="_blank" .button .small}      
 
@@ -25,22 +26,22 @@ Betreiber der Webseite
 Open Source Business Alliance e.V.   
 Breitscheidstr. 4  
 70174 Stuttgart | Germany  
-tel +49 711 90715-390  
-fax +49 711 90715-350  
-[email](mailto:wg-iridium@osb-alliance.com "send email") | [website](http://www.osb-alliance.com "visit website"){:target="_blank"}     
+Tel. +49 711 90715-390  
+Fax +49 711 90715-350  
+[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](http://www.osb-alliance.com "visit website"){:target="_blank"}     
 
-#### Angaben gemäß § 6 TDG und § 10 MDStV ####
+#### Angaben gemäß § 6 TDG und § 10 MDStV ####
 *Vertretungsberechtigter Vorstand*  
 Peter Ganten (Vorsitzender)
 
 *Zuständiges Gericht*  
 Eingetragen im Vereinsregister    
 Registergericht: Amtsgericht Stuttgart, Registernummer: VR7217  
-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE240931660  
+Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE240931660  
 
 #### Rechtliche Informationen ####
 *Haftungshinweis*  
-Die Informationen, die Sie auf dieser Website vorfinden, wurden aus internen und externen Quellen nach bestem Wissen und Gewissen mit professioneller Sorgfalt zusammengestellt. Der Herausgeber und die Redaktion sind bemüht, dieses Informationsangebot stetig zu erweitern und zu aktualisieren. Es wird jedoch keine Garantie - weder ausdrücklich noch stillschweigend - für die Vollständigkeit, Richtigkeit oder Aktualität der Informationen auf dieser Website übernommen.
+Die Informationen, die Sie auf dieser Website vorfinden, wurden aus internen und externen Quellen nach bestem Wissen und Gewissen mit professioneller Sorgfalt zusammengestellt. Der Herausgeber und die Redaktion sind bemüht, dieses Informationsangebot stetig zu erweitern und zu aktualisieren. Es wird jedoch keine Garantie — weder ausdrücklich noch stillschweigend — für die Vollständigkeit, Richtigkeit oder Aktualität der Informationen auf dieser Website übernommen.
 
 *Keine Abmahnung ohne vorherigen Kontakt!*  
 Sollten Inhalt oder Aufmachung dieser Website Rechte Dritter oder gesetzliche Bestimmungen verletzen, bitten wir um Benachrichtigung ohne Ausstellung einer Kostennote.  

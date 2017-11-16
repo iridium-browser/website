@@ -1,64 +1,59 @@
 ---
 layout: default-layout
-style: style2
 title: "News"
-subtitle: "Page"
-description: "All the Iridium Browser News about the latest builds, releases, bug fixes and much more."
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
-menu: false
+subtitle: "the latest"
+description: "All Iridium Browser news about the latest builds, releases, bug fixes and much more."
+hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-news.png' | absolute_url }}"
+hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-news.png' | absolute_url }}"
+menu: 1
 sitemap:
-  lastmod: 2017-10-30 18:30:00 +0200
-  priority: 0.6
+  lastmod: 2017-11-12 18:30:00 +0200
+  priority: 0.7
   changefreq: 'daily'
+style: 1
+id: news
 ---
 
-<section id="news-main" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
-<div class="container">	
-	<header class="major">
-		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
-		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p>
-	</header>
-	<br>
-	<ul class="alt post-container">
-    {% for post in paginator.posts %}
-		<li>
-			<header>
-				<h3>{{ post.title | escape }}</h3>
-				<p><span class="icon fa-calendar-o"></span> <small>{{ post.date | date: "%-d %B %Y" }}</small></p>
-			</header>
-			<div class="post-box">
-				{{ post.content | split:'<!--break-->' | first }}
-				{% if post.content contains '<!--break-->' %}
-				<br/>
-				<a href="{{ post.url | prepend: site.baseurl }}" class="button alt small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
-				{% endif %}
-			</div>
-		</li>
-    {% endfor %}
-	</ul>
+<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+	<div class="container">
+		<header class="major">
+			<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
+			<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %}</p>
+		</header>
+		<br>
+		<ul class="alt">
+		{% for post in site.posts limit:1 %}
+			<li>
+			<br>
+				<header>
+					<h3>{{ post.title }}</h3>
+					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+				</header>
+			
+				{{ post.content }}
 
-	<hr/>
+			<p><small><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</small></p>
+			<br>
+			</li>		
+		{% endfor %}
 
-{% if paginator.total_pages > 1 %}
-	<div class="row pagination">
-		<div class="3u align-left">{% if paginator.previous_page %}
-			<a class="button small special" title="previous post" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10094;</a>{% endif %}&nbsp;</div>
+		{% for post in site.posts limit:4 offset:1 %}
+			<li>
+				<header>
+					<h4>{{ post.title | escape }}</h4>
+					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+				</header>
+				<div class="post-box">
+					{{ post.content | split:'<!--break-->' | first }}
+					{% if post.content contains '<!--break-->' %}
+					<p><a href="{{ post.url | relative_url }}" class="button read-more small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
+					{% endif %}
+				</div>
+			</li>
+		{% endfor %}
+		</ul>
 
-		<div class="6u align-center">{% for page in (1..paginator.total_pages) %}
-			{% if page == paginator.page %}
-				<span class="button small special">{{ page }}</span>
-			{% elsif page == 1 %}
-				<a class="button small special" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-			{% else %}
-				<a class="button small special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-			{% endif %}
-		{% endfor %}</div>
-
-		<div class="3u$ align-right">{% if paginator.next_page %} &nbsp;
-			<a class="button small special" title="next post" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10095;</a>{% endif %}</div>
+		<p>read all the news posted</p>
+		<a class="button big icon fa-archive" href="{{ '/news/archive/' | relative_url }}" title="go to news archive">news archive</a>
 	</div>
-{% endif %}
-	
-</div>
 </section>

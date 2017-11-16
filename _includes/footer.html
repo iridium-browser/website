@@ -1,17 +1,19 @@
-    <!-- Footer -->
+<!-- Footer -->
 	<div id="footer">
         <div class="container">
             <section class="special">
 			{% for footer in site.footer %}
-		  <h3>{{ footer.title }}</h3>
+				<h3>{{ footer.title }}</h3>
 
 			{{ footer.content }}
 			{% endfor %}
+
             </section>
         </div>
 	</div>
 
-<!-- Scripts -->
-<!--[if lte IE 8]><script src="{{ '/assets/js/respond.min.js' | relative_url }}"></script><![endif]-->
-
-<noscript>Your browser does not support JavaScript!</noscript>
+	<!-- Scripts -->
+	<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/combined.min.js' | relative_url }}"></script>
+	<!--[if lte IE 8]><script async src="{{ '/assets/js/respond.min.js' | relative_url }}"></script><![endif]-->
+	<noscript>Your browser does not support JavaScript!</noscript>
