@@ -61,7 +61,7 @@ current version 2017.10
      
 <div class="dlfedora fl-fedora"></div>
 <header>
-### Repository for Fedora #
+### Repositories for Fedora #
 current version 2017.10      
 <small>(based on Chromium 61.0.3163.100)</small>
 </header>
@@ -78,7 +78,7 @@ current version 2017.10
      	
 ### Fedora 27 #
 
-	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_26/iridium-browser.repo
+	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_27/iridium-browser.repo
 	dnf install iridium-browser
      	
 {: #redhat }          
@@ -87,7 +87,7 @@ current version 2017.10
      
 <div class="dlfedora fl-redhat"></div>
 <header>
-### Repository for Red Hat Enterprise Linux | Cent OS #
+### Repository for Red Hat Enterprise Linux | CentOS #
 current version 2017.10      
 <small>(based on Chromium 61.0.3163.100)</small>
 </header>
