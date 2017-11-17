@@ -6,7 +6,7 @@ description: Download Iridium Browser for macOS
 hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-dl-macOS.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-dl-macOS.png' | absolute_url }}"
 menu: no
-id: macosx
+id: macos
 sitemap:
   lastmod: 2017-10-30
   priority: 0.8
