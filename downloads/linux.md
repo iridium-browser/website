@@ -87,7 +87,7 @@ current version 2017.10
      
 <div class="dlfedora fl-redhat"></div>
 <header>
-### Repository for Red Hat Enterprise Linux | Cent OS #
+### Repository for Red Hat Enterprise Linux | CentOS #
 current version 2017.10      
 <small>(based on Chromium 61.0.3163.100)</small>
 </header>
