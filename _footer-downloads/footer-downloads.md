@@ -23,4 +23,4 @@ Currently, Iridium Browser is available for the following operating systems:
 [Fedora 25+]({{ '/downloads/linux' | relative_url }} "Fedora 25+") &#8226;
 [Red Hat Enterprise Linux 7+, CentOS 7+]({{ '/downloads/linux' | relative_url }} "Red Hat Enterprise Linux 7+ | CentOS 7+")**
 
-<span class="fa fa-warning"></span> Iridium Browser is **not** available for Android, iOS, Windows Mobile or any other mobile operating systems!
+<span class="fa fa-warning"></span> Iridium Browser is **not** available for Android, iOS, Windows Mobile or any other mobile operating system!
