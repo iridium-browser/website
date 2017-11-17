@@ -37,7 +37,7 @@ Header set Content-Security-Policy "script-src 'self' https://iridiumbrowser.de/
 Header always set X-FRAME-OPTIONS "DENY"
 Header always set X-XSS-Protection "1; mode=block"
 Header always set X-Content-Type-Options "nosniff"
-<FilesMatch ".(js|css|xml|gz|html)$">
+<FilesMatch "\.(js|css|xml|gz|html)$">
   Header append Vary: Accept-Encoding
 </FilesMatch>
 </IfModule>
