@@ -65,13 +65,13 @@ sitemap:
 				</header>
 				{{ post.content | split:'<!--break-->' | first }}
 				{% if post.content contains '<!--break-->' %}
-				<a href="{{ '/news/' | relative_url }}" class="button big read-more icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
+				<a href="{{ '/news/' | relative_url }}" class="button read-more icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
 				{% endif %}
 			{% endfor %}
 		</li>
 	</ul>
 	<p>read all the latest news</p>
-	<a class="button big icon fa-book" href="{{ '/news/' | relative_url }}" title="read all the latest news">news</a>
+	<a class="button big special icon fa-book" href="{{ '/news/' | relative_url }}" title="read all the latest news">news</a>
 
 </div>
 </section>

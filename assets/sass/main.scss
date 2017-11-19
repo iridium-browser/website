@@ -2814,6 +2814,11 @@
 	#news, #news-index, #news-archive {
 		padding-bottom: 3.75em;
 
+		.button {
+			&.big {
+				font-size: 1em;
+			}
+		}
 		.icon {
 			font-size: .8em;
 			margin-right: .7em;
@@ -2831,11 +2836,6 @@
 	#news {
 		li {
 			padding: 2.5em .5em .1em .5em;
-		}
-		.button {
-			&.big {
-				font-size: 1em;
-			}
 		}
 	}
 	#news-archive {

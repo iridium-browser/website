@@ -20,11 +20,11 @@ layout: default-layout
 			<hr>
 			<div class="row">
 				<div class="3u align-left">{% if page.previous.url %}
-					<a class="button small special" title="previous News Post" href="{{page.previous.url}}">&#10094;</a>{% endif %}&nbsp;</div>
+					<a class="button small special" title="previous: '{{page.previous.title}}'" href="{{page.previous.url}}">&#10094;</a>{% endif %}&nbsp;</div>
 				<div class="6u align-center">
-					<a class="button small icon fa-file-text" href="{{ '/news/archive/' | relative_url }}" title="News Archive Index">News Archive</a></div>
+					<a class="button small special icon fa-file-text" href="{{ '/news/archive/' | relative_url }}" title="News Archive Index">News Archive</a></div>
 				<div class="3u$ align-right">{% if page.next.url %}
-					<a class="button small special" title="next News Post" href="{{page.next.url}}">&#10095;</a>{% endif %}</div>
+					<a class="button small special" title="next: '{{page.next.title}}'" href="{{page.next.url}}">&#10095;</a>{% endif %}</div>
 			</div>
 		</div>
 	</section>
