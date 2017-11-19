@@ -2801,6 +2801,8 @@
 /* MANIFEST */	
 
 	#manifest-index {
+		padding-bottom: 3em;
+		
 		h2 {
 			margin-top: 1.15em;
 		}
@@ -2810,6 +2812,8 @@
 /* NEWS */	
 
 	#news, #news-index, #news-archive {
+		padding-bottom: 3.75em;
+
 		.icon {
 			font-size: .8em;
 			margin-right: .7em;
@@ -2853,6 +2857,8 @@
 /* ABOUT */	
 
 	#about, #about-index {
+		padding-bottom: 4.5em;
+
 		.icon {
 			font-size: 2em !important;
 			color: _palette(accent1, bg) !important;
@@ -2890,7 +2896,6 @@
 	}
 	#about-index {
 		padding-top: 4em;
-		padding-bottom: 1em;
 		
 		h2 {
 			margin-top: 1.15em;
