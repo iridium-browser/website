@@ -103,15 +103,6 @@ sitemap:
 
 <!-- Developer Logos -->
 	<div class="row uniform">
-	{% for logos in site.logos %}
-	<section class="3u 4u(xlarge) 6u(medium) special">
-		<a href="{{ logos.link }}" title="{{ logos.title }}" target="{{ logos.target }}" class="{{ logos.logo-class }}" rel="noreferrer"></a>
-		<div class="logo-text">{{ logos.content }}</div>
-	</section>
-	{% endfor %}
-	</div>
-
-	<div class="row uniform">
 	{% for about-logos in site.data.about-logos %}
 	<section class="3u 4u(xlarge) 6u(medium) special">
 		<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" target="{{ about-logos.target }}" class="{{ about-logos.logo-class }}" rel="noreferrer"></a>
@@ -119,12 +110,6 @@ sitemap:
 	</section>
 	{% endfor %}
 	</div>
-	
-	
-	
-	
-	{% for aboutus in site.data.aboutus %}{{ aboutus.content[page.lang] }}{% endfor %}
-	
 </div>
 </section>
 
