@@ -28,10 +28,10 @@ ATTENTION: Content is in a collection see '_about'
 
 <!-- Developer Logos -->
 	<div class="row uniform">
-	{% for logos in site.logos %}
+	{% for about-logos in site.data.about-logos %}
 	<section class="3u 4u(xlarge) 6u(medium) special">
-		<a href="{{ logos.link }}" title="{{ logos.title }}" target="{{ logos.target }}" class="{{ logos.logo-class }}" rel="noreferrer"></a>
-		<div class="logo-text">{{ logos.content }}</div>
+		<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" target="{{ about-logos.target }}" class="{{ about-logos.logo-class }}" rel="noreferrer"></a>
+		<div class="logo-text">{{ about-logos.title }}</div>
 	</section>
 	{% endfor %}
 	</div>
