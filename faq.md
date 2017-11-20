@@ -2,7 +2,7 @@
 layout: pagecentered
 title: "FAQ"
 subtitle: "Frequently Asked Questions"
-description: "Frequently Asked Questions: Learn more about Iridium Browser and it's features such as updating the browser, synching bookmarks, default search engine, audio/video player, extensions and add ons, etc."
+description: "Frequently Asked Questions: Learn more about Iridium Browser and its features such as updating the browser, synching bookmarks, default search engine, audio/video player, extensions and add ons, etc."
 hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-faq.png' | absolute_url }}"
 hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-faq.png' | absolute_url }}"
 menu: 6
