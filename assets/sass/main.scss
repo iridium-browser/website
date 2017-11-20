@@ -557,6 +557,27 @@
 			padding-left: 0;
 
 			li {
+				border-top: solid 1px _palette(border);
+				padding: 0.5em 0;
+
+				&:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+				&:nth-child(2n + 3) {
+					background: lighten(_palette(border2-bg), 15);
+				}
+				&:last-child {
+					border-bottom: solid 1px _palette(border2-bg);
+				}
+			}
+		}
+		
+		&.news, &.news-archive {
+			list-style: none;
+			padding-left: 0;
+
+			li {
 				border-top: solid 1px _palette(border2-bg);
 				padding: 1.5em .5em 1.5em .5em;
 				
@@ -574,15 +595,24 @@
 					}
 				}
 
+				&:nth-child(2n + 1) {
+					background: lighten(_palette(border2-bg), 15);
+				}
+				&:last-child {
+					border-bottom: solid 1px _palette(border2-bg);
+				}
+			}
+		}
+		
+		&.news {
+			li {
 				&:first-child {
 					background: lighten(_palette(fg), 10);
 					color: darken(_palette(bg), 12);
 					
-					strong {
-						color: darken(_palette(bg), 7);
-					}
 					h3, h4, strong {
 						color: _palette(bg);
+						padding-top: 2em;
 					}
 					.icon, small {
 						color: darken(_palette(bg), 25);
@@ -600,12 +630,21 @@
 							text-decoration: none;
 						}
 					}
+					.author {
+						font-size: .9em;
+						font-style: normal;
+						vertical-align: top;
+						margin: 0 0 _size(element-margin) 0;
+						padding-bottom: 3.5em;
+					}
+					.button {
+						&.read-more {
+							margin: 3em 0 1.75em 0;
+						}
+					}
 				}
 				&:nth-child(2n + 3) {
 					background: lighten(_palette(border2-bg), 15);
-				}
-				&:last-child {
-					border-bottom: solid 1px _palette(border2-bg);
 				}
 			}
 		}
@@ -863,14 +902,11 @@
 		white-space: nowrap;
 
 		&:hover {
-			background-color: _palette(accent2, bg);
-			box-shadow: inset 0 0 0 2px _palette(accent2, bg);
-			color: _palette(fg-blue) !important;
+			background-color: lighten(_palette(accent2, bg), 5);
 		}
 
 		&:active {
-			background-color: lighten(_palette(accent2, bg), 15);
-			box-shadow: inset 0 0 0 2px lighten(_palette(accent2, bg), 15);
+			background-color: darken(_palette(accent2, bg), 5);
 		}
 
 		&.icon {
@@ -954,7 +990,8 @@
 
 			
 			&:hover {
-				background-color: lighten(_palette(bg), 1);
+				background-color: darken(_palette(fg), 10);
+				box-shadow: inset 0 0 0 2px _palette(fg-blue);
 				color: _palette(fg-blue) !important;
 
 				&.icon {
@@ -963,9 +1000,8 @@
 					}
 				}
 			}
-
 			&:active {
-				background-color: darken(_palette(bg), 15);
+				background-color: darken(_palette(fg), 5);
 			}
 		}
 
@@ -2695,7 +2731,7 @@
 		line-height: 1em;
 		display: inline-block;
 		padding-left: 100%;  /* show the marquee just outside the paragraph */
-		animation: marquee 18s linear infinite;
+		animation: marquee 12s linear infinite;
 		
 		@include breakpoint(small) {
 			font-size: .95em;
@@ -2728,6 +2764,8 @@
 /* MANIFEST */	
 
 	#manifest-index {
+		padding-bottom: 3em;
+		
 		h2 {
 			margin-top: 1.15em;
 		}
@@ -2737,6 +2775,13 @@
 /* NEWS */	
 
 	#news, #news-index, #news-archive {
+		padding-bottom: 3.75em;
+
+		.button {
+			&.big {
+				font-size: 1em;
+			}
+		}
 		.icon {
 			font-size: .8em;
 			margin-right: .7em;
@@ -2754,11 +2799,6 @@
 	#news {
 		li {
 			padding: 2.5em .5em .1em .5em;
-		}
-		.button {
-			&.big {
-				font-size: 1em;
-			}
 		}
 	}
 	#news-archive {
@@ -2780,6 +2820,8 @@
 /* ABOUT */	
 
 	#about, #about-index {
+		padding-bottom: 4.5em;
+
 		.icon {
 			font-size: 2em !important;
 			color: _palette(accent1, bg) !important;
@@ -2817,7 +2859,6 @@
 	}
 	#about-index {
 		padding-top: 4em;
-		padding-bottom: 1em;
 		
 		h2 {
 			margin-top: 1.15em;
@@ -2894,7 +2935,7 @@
 
 /* DOWNLOADS */
 	
-	#downloads, #windows, #macosx, #linux, #source, #sorry {
+	#downloads, #windows, #macos, #linux, #source, #sorry {
 
 		.icon {
 		

@@ -20,11 +20,9 @@ id: news
 			<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
 			<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %}</p>
 		</header>
-		<br>
-		<ul class="alt">
+		<ul class="news">
 		{% for post in site.posts limit:1 %}
 			<li>
-			<br>
 				<header>
 					<h3>{{ post.title }}</h3>
 					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
@@ -32,8 +30,7 @@ id: news
 			
 				{{ post.content }}
 
-			<p><small><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</small></p>
-			<br>
+			<div class="author"><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</div>
 			</li>		
 		{% endfor %}
 
@@ -53,7 +50,7 @@ id: news
 		{% endfor %}
 		</ul>
 
-		<p>read all the news posted</p>
-		<a class="button big icon fa-archive" href="{{ '/news/archive/' | relative_url }}" title="go to news archive">news archive</a>
+		<p>Read previous news posts</p>
+		<a class="button big special icon fa-archive" href="{{ '/news/archive/' | relative_url }}" title="go to news archive">news archive</a>
 	</div>
 </section>

@@ -1,0 +1,39 @@
+- title: "Open Source Business Alliance"
+  logo-class: logo-osba
+  link: http://osb-alliance.de/
+  target: _blank
+  
+- title: "netITwork"
+  logo-class: logo-netitwork
+  link: https://netitwork.net/
+  target: _blank
+
+- title: "Kopano"
+  logo-class: logo-kopano
+  link: https://kopano.com/
+  target: _blank
+
+- title: "Zarafa"
+  logo-class: logo-zarafa
+  link: https://www.zarafa.com/
+  target: _blank
+
+- title: "Neuberger & Hughes"
+  logo-class: logo-nh
+  link: http://www.n-h.com/
+  target: _blank
+
+- title: "Bytemine"
+  logo-class: logo-bytemine
+  link: https://www.bytemine.net
+  target: _blank
+
+- title: "Struktur"
+  logo-class: logo-struktur
+  link: http://www.struktur.de/
+  target: _blank
+
+- title: "Dembach Goo Informatik"
+  logo-class: logo-dgi
+  link: https://www.dg-i.net/
+  target: _blank

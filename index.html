@@ -56,7 +56,7 @@ sitemap:
 		<h2>Recent News</h2>
 		<p>the very latest</p>
 	</header>
-	<ul class="alt">
+	<ul class="news">
 		<li class="content">
 			{% for post in site.posts limit:1 %}
 				<header>
@@ -65,11 +65,14 @@ sitemap:
 				</header>
 				{{ post.content | split:'<!--break-->' | first }}
 				{% if post.content contains '<!--break-->' %}
-				<p><br><a href="{{ '/news/' | relative_url }}" class="button big read-more icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
+				<a href="{{ '/news/' | relative_url }}" class="button read-more icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
 				{% endif %}
 			{% endfor %}
 		</li>
 	</ul>
+	<p>Read all the latest news</p>
+	<a class="button big special icon fa-book" href="{{ '/news/' | relative_url }}" title="read all the latest news">news</a>
+
 </div>
 </section>
 
@@ -100,10 +103,10 @@ sitemap:
 
 <!-- Developer Logos -->
 	<div class="row uniform">
-	{% for logos in site.logos %}
+	{% for about-logos in site.data.about-logos %}
 	<section class="3u 4u(xlarge) 6u(medium) special">
-		<a href="{{ logos.link }}" title="{{ logos.title }}" target="{{ logos.target }}" class="{{ logos.logo-class }}" rel="noreferrer"></a>
-		<div class="logo-text">{{ logos.content }}</div>
+		<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" target="{{ about-logos.target }}" class="{{ about-logos.logo-class }}" rel="noreferrer"></a>
+		<div class="logo-text">{{ about-logos.title }}</div>
 	</section>
 	{% endfor %}
 	</div>
