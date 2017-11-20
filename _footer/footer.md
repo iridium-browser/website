@@ -3,13 +3,11 @@ layout: default-layout
 title: "Available Resources To Step In"
 ---
 
-Stay up to date and sign up to our <strong><a href="http://lists.inai.de/iridium" title="sign up to the mailing list" target="_blank" rel="noreferrer">mailing list</a></strong>.
-<br/>
 Please report any issues and address any questions to our <strong><a href="https://github.com/iridium-browser/tracker/issues" title="report issues to bug tracker@GitHub" target="_blank" rel="noreferrer">bug tracker at github</a></strong>.
 <br/>
 Connect with the team and chat with us. Create an account in our <strong><a href="https://chat.osb-alliance.de/signup_user_complete/?id=zcw9hio95tf15bttox3jdcsmuc" title="chat with the team on mattermost" target="_blank" rel="noreferrer">Mattermost</a></strong>.
 <br/>
-<span class="fa fa-code"></span> Download the <strong><a href="/downloads/source" title="download the source code">source code</a></strong>.
+Download the <strong><a href="/downloads/source" title="download the source code">source code</a></strong>.
 <br/><br/>
 Stay up to date and follow us
 <br/>
