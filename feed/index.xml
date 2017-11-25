@@ -11,7 +11,7 @@ sitemap:
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url | append: site.baseurl }}/</link>
-    <atom:link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />  
+    <atom:link href="{{ '/feed/' | absolute_url }}" rel="self" type="application/rss+xml" />  
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 	<language>en</language>
