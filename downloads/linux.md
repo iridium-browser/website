@@ -3,8 +3,8 @@ layout: downloads
 title: "Download for Linux"
 subtitle: ""
 description: Download Iridium Browser for Ubuntu/Debian, openSUSE, Fedora and RHEL/CentOS
-hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-dl-linux.png' | absolute_url }}"
-hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-dl-linux.png' | absolute_url }}"
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: linux
 sitemap:

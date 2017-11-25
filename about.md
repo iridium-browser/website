@@ -3,8 +3,8 @@ layout: default-layout
 title: "About"
 subtitle: "About the Project"
 description: "With Iridium, the whole process is entirely transparent. The public Git repository allows a direct view on all changes made. The complete source code is therefore available."
-hotpic-fb: "{{ '/images/hotpics/Iridium-hotpic_FB.png' | absolute_url }}"
-hotpic-tw: "{{ '/images/hotpics/Iridium-hotpic_TW.png' | absolute_url }}"
+hotpic-fb: "/images/hotpics/Iridium-hotpic_FB.png"
+hotpic-tw: "/images/hotpics/Iridium-hotpic_TW.png"
 menu: 3
 sitemap:
   lastmod: 2017-11-09
