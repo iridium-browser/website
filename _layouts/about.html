@@ -1,0 +1,26 @@
+---
+layout: default-layout
+---
+
+<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+<div class="container">
+	<header class="major">
+		<h2>{% for about in page.about %} {{ page.title }} {% endfor %}</h2>
+		<p>{% for about in page.about %} {{ page.subtitle }} {% endfor %}</p>
+	</header>
+	{% for about in site.about %}
+	<div class="icon {{ about.icon-class }}"></div>
+	{{ about.content }}
+	{% endfor %}
+
+<!-- Developer Logos -->
+	<div class="row uniform">
+	{% for about-logos in site.data.about-logos %}
+	<section class="3u 4u(xlarge) 6u(medium) special">
+		<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" target="{{ about-logos.target }}" class="{{ about-logos.logo-class }}" rel="noreferrer"></a>
+		<div class="logo-text">{{ about-logos.title }}</div>
+	</section>
+	{% endfor %}
+	</div>
+</div>
+</section>

@@ -1,5 +1,5 @@
 ---
-layout: start-layout
+layout: pagecentered
 style: style2
 title: "Manifest"
 subtitle: "important notice"
