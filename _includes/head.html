@@ -5,7 +5,7 @@
         <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
 		<link rel="canonical" hreflang="en" href="{{ page.url | replace:'index.html','' | relative_url }}" />
 		<link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | relative_url }}" />
-		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed/' | absolute_url }}" />
+		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}" />
 
         <title>{% if page.title %}{{ site.title | escape }} | {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
         

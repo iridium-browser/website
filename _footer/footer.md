@@ -16,7 +16,7 @@ Stay up to date and follow us
 <a href="https://twitter.com/iridiumbrowser/" title="Iridium Browser on Twitter" target="_blank" rel="noreferrer"><span class="button-round fa fa-twitter"></span></a>
 <a href="https://plus.google.com/+IridiumBrowser" title="Iridium Browser on Google+" target="_blank" rel="noreferrer"><span class="button-round fa fa-google-plus"></span></a>
 <br/><br/>
-<a href="/feed/" title="add RSS feed" class="button small footer icon fa-rss" target="_blank">RSS feed</a>
+<a href="/feed.xml" title="add RSS feed" class="button small footer icon fa-rss" target="_blank">RSS feed</a>
 <a href="/imprint" title="go to imprint" class="button small footer icon fa-legal">Imprint</a>
 <br/>
 <div class="copyright">&copy; <a href="http://osb-alliance.de/" target="_blank" rel="noreferrer">Open Source Business Alliance</a></div>
