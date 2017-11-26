@@ -555,20 +555,17 @@
 		&.alt {
 			list-style: none;
 			padding-left: 0;
-
+			margin-top: 3em;
+			
 			li {
 				border-top: solid 1px _palette(border);
-				padding: 0.5em 0;
+				padding: 2.5em 1em .5em 1em;
 
-				&:first-child {
-					border-top: 0;
-					padding-top: 0;
-				}
-				&:nth-child(2n + 3) {
+				&:nth-child(2n + 1) {
 					background: lighten(_palette(border2-bg), 15);
 				}
 				&:last-child {
-					border-bottom: solid 1px _palette(border2-bg);
+					border-bottom: solid 1px _palette(border);
 				}
 			}
 		}
@@ -2989,5 +2986,14 @@
 		
 		@include breakpoint(small) {
 			margin-top: 0;
+		}
+	}
+
+	
+/* FAQ */
+
+	#faq {
+		h3 {
+			font-size: 1.15em;
 		}
 	}
