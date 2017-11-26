@@ -4,7 +4,12 @@ title: "Download Source Code"
 subtitle: ""
 description: Download the Iridium Browser source code
 menu: no
-id: source
+id: source-code
+structured-data:
+  os0: source code
+  os1: source code
+  value: 5
+  count: 1021
 sitemap:
   lastmod: 2017-10-30
   priority: 0.8

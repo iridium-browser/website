@@ -7,6 +7,11 @@ hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-win.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-win.png"
 menu: no
 id: windows
+structured-data:
+  os0: Windows
+  os1: Windows
+  value: 4
+  count: 25768
 sitemap:
   lastmod: 2017-10-30
   priority: 0.8

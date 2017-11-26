@@ -7,6 +7,17 @@ hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: linux
+structured-data:
+  os0: Linux
+  os1: Ubuntu
+  os2: Debian
+  os3: Mint
+  os4: openSUSE
+  os5: Fedora
+  os6: Red Hat Enterprise Linux
+  os7: CentOS
+  value: 5
+  count: 14867
 sitemap:
   lastmod: 2017-10-30
   priority: 0.8
