@@ -16,7 +16,7 @@
 		<meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
 
 		<!-- Facebook -->
-		<meta property="og:url" content="{{ page.url | replace:'index.html','' | relative_url }}">
+		<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 		<meta property="og:image" content="{% if page.hotpic-fb %}{{ page.hotpic-fb | absolute_url }}{% else %}{{ site.hotpic-fb | absolute_url }}{% endif %}">
