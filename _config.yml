@@ -26,6 +26,7 @@ paginate_path: "/news/archive/page:num/"
 collections:
   - home
   - marquee
+  - faq
   - features
   - manifest
   - about
