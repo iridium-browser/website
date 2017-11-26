@@ -2,6 +2,19 @@
 layout: start-layout
 description: "Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure the most secure technologies are used."
 menu: no
+structured-data:
+  os1: Windows
+  os2: macOS
+  os3: Ubuntu
+  os4: Debian
+  os5: Mint
+  os6: openSUSE
+  os7: Fedora
+  os8: Red Hat Enterprise Linux
+  os9: CentOS
+  os10: source code
+  value: 5
+  count: 44876
 sitemap:
   lastmod: 2017-10-30
   priority: 1.0
@@ -134,69 +147,3 @@ sitemap:
 		{% endfor %}
 	</div>
 </section>
-
-<!-- Microdata -->
-<script type="application/ld+json">
-[
-		{
-		"@context": "http://schema.org",
-		"@type": "WebSite",
-		"name": "{{ site.title }}",
-		"url": "{{ site.url | append: site.baseurl }}",
-		"keywords": "{{ site.keywords }}",
-		"description": "{{ site.description }}"
-	},
-	{
-		"@context": "http://schema.org/",
-		"@type": "SoftwareApplication",
-		"name": "{{ site.title }}",
-		"url": "{{ site.url }}",
-		"downloadUrl": "{{ '/downloads/' | absolute_url }}",
-		"description": "{{ site.description }}",
-		"applicationCategory": "Browser",
-		"operatingSystem": "Windows, Mac OS-X, Ubuntu, Debian, openSUSE, Fedora Red Hat Enterprise Linux",
-		"aggregateRating": {
-			"@type": "AggregateRating",
-			"ratingValue": "5",
-			"ratingCount": "3743"
-		},
-		"image": {
-			"@type": "ImageObject",
-			"height": "200",
-			"width": "200",
-			"contentUrl": "{{ site.hotpic | absolute_url }}",
-			"url": "{{ site.url | append: site.baseurl}}"
-		},
-		"offers": {
-		"@type": "Offer",
-		"priceCurrency": "EUR",
-		"price": "0.00"		
-		}
-	},
-	{ 
-		"@context": "http://schema.org",
-		"@type": "Product",
-		"aggregateRating": {
-			"@type": "AggregateRating",
-			"bestRating": "100",
-			"ratingCount": "421",
-			"ratingValue": "87"
-		},
-		"name": "{{ site.title }}",
-		"url": "{{ site.url | append: site.baseurl}}",
-		"description": "{{ site.description }}",
-		"image": {
-			"@type": "ImageObject",
-			"height": "200",
-			"width": "200",
-			"contentUrl": "{{ site.hotpic | absolute_url }}",
-			"url": "{{ site.url | append: site.baseurl}}"
-		},
-		"offers": {
-			"@type": "Offer",
-			"priceCurrency": "EUR",
-			"price": "0.00"		
-		}
-	}
-]
-</script>
