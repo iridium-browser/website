@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-hotpic_TW.png"
 menu: 4
 id: contribute
 style: style2
+structured-data: "yes"
 sitemap:
   lastmod: 2017-11-09
   priority: 0.6

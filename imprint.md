@@ -4,12 +4,13 @@ style: style1
 title: "Imprint"
 description: "Imprint with legal information, terms of use, data protection, transfer of use, applicable law as well as contact information"
 menu: no
+id: imprint
+style: style1
+structured-data: "yes"
 sitemap:
   lastmod: 2017-11-10
   priority: 0.1
   changefreq: 'weekly'
-style: style1
-id: imprint
 ---
 
 #### Bug Tracker ####

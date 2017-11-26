@@ -5,6 +5,7 @@ subtitle: "How to take part in development"
 description: "Take part in developing Iridium Browser — get all development information and learn how to develop Iridium Browser"
 menu: no
 id: development
+structured-data: "yes"
 sitemap:
   exclude: 'yes'
 ---

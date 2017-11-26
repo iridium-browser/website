@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-manifest.png"
 menu: 2
 id: manifest
 style: style2
+structured-data: "yes"
 sitemap:
   lastmod: 2017-11-09
   priority: 0.6
