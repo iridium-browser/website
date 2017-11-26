@@ -903,10 +903,12 @@
 
 		&:hover {
 			background-color: lighten(_palette(accent2, bg), 5);
+			color: _palette(fg-blue) !important;
 		}
 
 		&:active {
 			background-color: darken(_palette(accent2, bg), 5);
+			color: _palette(fg-blue) !important;
 		}
 
 		&.icon {
