@@ -51,17 +51,17 @@ current version 2017.10
 current version 2017.10      
 <small>(based on Chromium 61.0.3163.100)</small>
 </header>
-### Leap 42.2 #
+#### Leap 42.2 #
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.2/ iridium
 	zypper in iridium-browser
      
-### Leap 42.3 #
+#### Leap 42.3 #
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.3/ iridium
 	zypper in iridium-browser
 
-### Tumbleweed #
+#### Tumbleweed #
 
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Tumbleweed/ iridium  
 	zypper in iridium-browser
@@ -77,17 +77,17 @@ current version 2017.10
 <small>(based on Chromium 61.0.3163.100)</small>
 </header>
 
-### Fedora 25 #
+#### Fedora 25 #
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_25/iridium-browser.repo
 	dnf install iridium-browser
      	
-### Fedora 26 #
+#### Fedora 26 #
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_26/iridium-browser.repo
 	dnf install iridium-browser
      	
-### Fedora 27 #
+#### Fedora 27 #
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_27/iridium-browser.repo
 	dnf install iridium-browser
