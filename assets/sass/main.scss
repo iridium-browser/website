@@ -559,13 +559,14 @@
 			
 			li {
 				border-top: solid 1px _palette(border);
-				padding: 2.5em 1em .5em 1em;
+				padding: 2.5em 1em 1em 1em;
 
 				&:nth-child(2n + 1) {
-					background: lighten(_palette(border2-bg), 15);
+					background: lighten(_palette(border2-bg), 20);
 				}
-				&:last-child {
-					border-bottom: solid 1px _palette(border);
+				&:nth-last-child(2) {
+					background: _palette(bg-dark) !important;
+					padding-bottom: 0;
 				}
 			}
 		}
