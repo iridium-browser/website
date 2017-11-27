@@ -1,5 +1,5 @@
 ---
-layout: default-layout
+layout: post-layout
 ---
 
 <article class="post">
@@ -29,35 +29,3 @@ layout: default-layout
 		</div>
 	</section>
 </article>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-         "@type": "WebPage",
-         "@id": "{{ site.url | append: site.baseurl}}"
-  },
-  "headline": "{{ page.title }}",
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.date | date_to_xmlschema }}",
-  "description": "{{ page.description }}",
-  "image": {
-    "@type": "ImageObject",
-    "height": "1200",
-    "width": "6228",
-    "contentUrl": "{% if page.hotpic-fb %}{{ page.hotpic-fb | absolute_url }}{% else %}{{ site.hotpic-fb | absolute_url }}{% endif %}",
-	"url": "{{ site.url | append: site.baseurl}}"
-  },
-  "author": "{{ page.author }}",
-  "publisher": {
-    "@type": "Organization",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.hotpic-fb | absolute_url }}"
-    },
-    "name": "{{ site.title }}"
-  },
-  "articleBody": "{{ content | strip_html }}"
-}
-</script>
