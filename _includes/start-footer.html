@@ -1,4 +1,4 @@
-<!-- Footer -->
+<!-- Start Footer -->
 	<div id="footer">
         <div class="container">
             <section class="special">
@@ -33,7 +33,7 @@
 			"@context": "http://schema.org/",
 			"@type": "SoftwareApplication",
 			"name": "{{ site.title }}",
-			"url": "{{ site.url }}",
+			"url": "{{ site.url | append: site.baseurl }}",
 			"downloadUrl": "{{ '/downloads/' | absolute_url }}",
 			"description": "{{ site.description }}",
 			"applicationCategory": "Browser",
@@ -50,7 +50,7 @@
 				"height": "200",
 				"width": "200",
 				"contentUrl": "{{ site.hotpic | absolute_url }}",
-				"url": "{{ site.url | append: site.baseurl}}"
+				"url": "{{ site.url | append: site.baseurl }}"
 			},
 			"offers": {
 			"@type": "Offer",
@@ -68,14 +68,14 @@
 				"ratingCount": "{{ page.structured-data.count }}"
 			},
 			"name": "{{ site.title }}",
-			"url": "{{ site.url | append: site.baseurl}}",
+			"url": "{{ site.url | append: site.baseurl }}",
 			"description": "{{ site.description }}",
 			"image": {
 				"@type": "ImageObject",
 				"height": "200",
 				"width": "200",
 				"contentUrl": "{{ site.hotpic | absolute_url }}",
-				"url": "{{ site.url | append: site.baseurl}}"
+				"url": "{{ site.url | append: site.baseurl }}"
 			},
 			"offers": {
 				"@type": "Offer",

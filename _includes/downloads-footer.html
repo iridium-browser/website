@@ -1,4 +1,4 @@
-<!-- Footer -->
+<!-- Downloads Footer -->
 	<div id="footer">
         <div class="container">
             <section class="special">
@@ -25,7 +25,7 @@
 			"@context": "http://schema.org",
 			"@type": "WebPage",
 			"name": "{{ page.title }}",
-			"url": "{{ page.url | prepend: site.baseurl | prepend: site.eurl }}",
+			"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
 			"description": "{{ page.description }}"
 		},
 		{
@@ -33,7 +33,7 @@
 			"@type": "SoftwareApplication",
 			"name": "{{ site.title }}",
 			"url": "{{ site.url }}",
-			"downloadUrl": "{{ page.url | prepend: site.baseurl | prepend: site.eurl }}",
+			"downloadUrl": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
 			"description": "{{ site.description }}",
 			"applicationCategory": "Browser",
 			"operatingSystem": [ "{{ page.structured-data.os1 }}"{% if page.structured-data.os2 %}, "{{ page.structured-data.os2 }}",{% else %}{% endif %} {% if page.structured-data.os3 %}"{{ page.structured-data.os3 }}",{% else %}{% endif %} {% if page.structured-data.os4 %}"{{ page.structured-data.os4 }}",{% else %}{% endif %} {% if page.structured-data.os5 %}"{{ page.structured-data.os5 }}",{% else %}{% endif %} {% if page.structured-data.os6 %}"{{ page.structured-data.os6 }}",{% else %}{% endif %} {% if page.structured-data.os7 %}"{{ page.structured-data.os7 }}"{% else %}{% endif %}
