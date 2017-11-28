@@ -12,7 +12,7 @@ layout: default-layout
 		{% for faq in site.faq %}
 			<li>
 				<h3>{{ faq.title }}</h3>
-				{{ faq.content | strip_html | strip_newlines }}
+				{{ faq.content }}
 			</li>		
 		{% endfor %}
 		<ul/>

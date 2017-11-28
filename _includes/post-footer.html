@@ -55,7 +55,7 @@
 			},
 			"name": "{{ site.title }}"
 		  },
-		  "articleBody": "{{ content | strip_html }}"
+		  "articleBody": "{{ content | strip_html | strip_newlines }}"
 		},
 		{
 		 "@context": "http://schema.org",

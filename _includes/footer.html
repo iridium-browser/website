@@ -44,7 +44,7 @@
 					}
 				},
 			{% endfor %}
-		  {% for faq in site.faq limit: 1 last %}
+		  {% for faq in site.faq limit:1 offset:9 %}
 				{
 					"@type": "Question",
 					"text": "{{ faq.title }}",
