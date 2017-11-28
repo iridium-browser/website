@@ -28,6 +28,37 @@
 			"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
 			"description": "{{ page.description }}"
 		},
+	{% if page.structured-data == "faq" %}
+		{
+		  "@context": "http://schema.org",
+		  "@graph": [
+		  {% for faq in site.faq limit: 9 %}
+				{
+					"@type": "Question",
+					"text": "{{ faq.title }}",
+					"dateCreated": "{{ faq.date }}",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "{{ faq.content | strip_html }}",
+						"dateCreated": "{{ faq.date }}"
+					}
+				},
+			{% endfor %}
+		  {% for faq in site.faq limit: 1 last %}
+				{
+					"@type": "Question",
+					"text": "{{ faq.title }}",
+					"dateCreated": "{{ faq.date }}",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "{{ faq.content | strip_html }}",
+						"dateCreated": "{{ faq.date }}"
+					}
+				}
+			{% endfor %}
+			]
+		},
+	{% endif %}
 		{
 		 "@context": "http://schema.org",
 		 "@type": "BreadcrumbList",
