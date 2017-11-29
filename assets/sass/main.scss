@@ -571,12 +571,31 @@
 			}
 		}
 		
+		&.faq {
+			list-style: none;
+			padding-left: 0;
+			margin-top: 3em;
+			
+			li {
+				background: _palette(bg);
+				padding: 2.5em 1em 1em 1em;
+
+				&:nth-child(2n + 1) {
+					background: lighten(_palette(border2-bg), 20);
+				}
+				&:nth-last-child(2) {
+					background: _palette(bg-dark) !important;
+					padding-bottom: 0;
+				}
+			}
+		}
+
 		&.news, &.news-archive {
 			list-style: none;
 			padding-left: 0;
 
 			li {
-				border-top: solid 1px _palette(border2-bg);
+				background: darken(_palette(bg), 5);
 				padding: 1.5em .5em 1.5em .5em;
 				
 				a {
@@ -594,10 +613,7 @@
 				}
 
 				&:nth-child(2n + 1) {
-					background: lighten(_palette(border2-bg), 15);
-				}
-				&:last-child {
-					border-bottom: solid 1px _palette(border2-bg);
+					background: darken(_palette(bg), 15);
 				}
 			}
 		}
@@ -642,7 +658,7 @@
 					}
 				}
 				&:nth-child(2n + 3) {
-					background: lighten(_palette(border2-bg), 15);
+					background: darken(_palette(bg), 15);
 				}
 			}
 		}
@@ -2751,6 +2767,9 @@
 		padding-top: 4em;
 		padding-bottom: 1em;
 
+		h3 {
+			font-size: 1.75em;
+		}
 		.icon {
 			font-size: 5em !important;
 			line-height: 1.25em;
@@ -2770,7 +2789,6 @@
 			margin-top: 1.15em;
 		}
 	}
-
 
 /* NEWS */	
 
@@ -2822,6 +2840,9 @@
 	#about, #about-index {
 		padding-bottom: 4.5em;
 
+		h3 {
+			font-size: 1.75em;
+		}
 		.icon {
 			font-size: 2em !important;
 			color: _palette(accent1, bg) !important;
@@ -2872,12 +2893,16 @@
 		header {
 			text-align: center;
 		}
-		
+		h3 {
+			font-size: 1.75em;
+			color: _palette(accent1, bg) !important;
+			margin: 0;
+
+		}
 		.icon-container {
 			position: relative;
 			display: block;
 		}
-		
 		.icon {
 			color: _palette(fg-bold);
 			margin: 0;
@@ -2913,10 +2938,6 @@
 				}
 			}
 		}
-		h4 {
-			color: _palette(accent1, bg) !important;
-			margin: 0;
-		}
 		.content {
 			text-align: left;
 			
@@ -2935,7 +2956,7 @@
 
 /* DOWNLOADS */
 	
-	#downloads, #windows, #macos, #linux, #source-code, #sorry {
+	#downloads, #windows, #macos, #linux, #source-code, #os-not-detected {
 
 		.icon {
 		
@@ -2946,7 +2967,7 @@
 				display: block;
 				line-height: 1.25em;
 			}
-			&.dl-sorry {
+			&.dl-os-not-detected {
 				font-size: 10em !important ;
 				color: _palette(accent1, bg) !important ;
 				position: relative;
@@ -2982,6 +3003,12 @@
 		}
 		
 	}
+	#os-not-detected {
+		h3 {
+			font-size: 1.75em;
+		}
+	}
+	
 	#footer-downloads {
 		margin-top: -2em;
 		
@@ -2989,7 +3016,7 @@
 			margin-top: 0;
 		}
 	}
-
+	
 	
 /* FAQ */
 
