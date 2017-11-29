@@ -13,7 +13,7 @@ sitemap:
   changefreq: 'weekly'
 ---
 
-#### Bug Tracker ####
+### Bug Tracker ###
 Please report any issues, and address any questions to our bug tracker at GitHub.      
     
 [Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker @ GitHub"){:target="_blank" .button .small}      
@@ -31,7 +31,7 @@ Tel. +49 711 90715-390
 Fax +49 711 90715-350  
 [E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](http://www.osb-alliance.com "visit website"){:target="_blank"}     
 
-#### Angaben gemäß § 6 TDG und § 10 MDStV ####
+#### Angaben gemäß § 6 TDG und § 10 MDStV #
 *Vertretungsberechtigter Vorstand*  
 Peter Ganten (Vorsitzender)
 
@@ -40,7 +40,7 @@ Eingetragen im Vereinsregister
 Registergericht: Amtsgericht Stuttgart, Registernummer: VR7217  
 Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE240931660  
 
-#### Rechtliche Informationen ####
+#### Rechtliche Informationen #
 *Haftungshinweis*  
 Die Informationen, die Sie auf dieser Website vorfinden, wurden aus internen und externen Quellen nach bestem Wissen und Gewissen mit professioneller Sorgfalt zusammengestellt. Der Herausgeber und die Redaktion sind bemüht, dieses Informationsangebot stetig zu erweitern und zu aktualisieren. Es wird jedoch keine Garantie — weder ausdrücklich noch stillschweigend — für die Vollständigkeit, Richtigkeit oder Aktualität der Informationen auf dieser Website übernommen.
 
@@ -57,7 +57,7 @@ Sämtliche auf dieser Website veröffentlichten Texte, Dokumente und Darstellung
 *Webseiten dritter Anbieter / Links*  
 Diese Website enthält auch Links oder Verweise auf Websites Dritter. Diese Links zu den Websites Dritter stellen keine Zustimmung zu deren Inhalten durch den Herausgeber dar. Es wird keine Verantwortung für die Verfügbarkeit oder den Inhalt solcher Websites übernommen und keine Haftung für Schäden oder Verletzungen, die aus der Nutzung - gleich welcher Art - solcher Inhalte entstehen. Links zu anderen Websites werden den Nutzern dieser Website lediglich als Annehmlichkeit zur Verfügung gestellt. Das Herstellen einer Verbindung zu diesen Websites geschieht auf eigene Gefahr des Benutzers.
 
-#### Datenschutz ####
+#### Datenschutz #
 Keinesfalls werden die Daten zur persönlichen Identifizierung eines Besuchers verwendet (soweit dies technisch überhaupt möglich wäre) oder in Zusammenhang mit den Daten über den Träger eines Pseudonyms gebracht.
 
 *Anwendbares Recht*  
