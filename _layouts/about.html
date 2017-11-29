@@ -5,8 +5,8 @@ layout: default-layout
 <section class="wrapper {{ page.style }} special" id="{{ page.id }}">
 <div class="container">
 	<header class="major">
-		<h2>{% for about in page.about %} {{ page.title }} {% endfor %}</h2>
-		<p>{% for about in page.about %} {{ page.subtitle }} {% endfor %}</p>
+		<h2>{% for about in site.about %} {{ about.title }} {% endfor %}</h2>
+		<p>{% for about in site.about %} {{ about.subtitle }} {% endfor %}</p>
 	</header>
 	{% for about in site.about %}
 	<div class="icon {{ about.icon-class }}"></div>
