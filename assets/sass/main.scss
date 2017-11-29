@@ -581,7 +581,7 @@
 				padding: 2.5em 1em 1em 1em;
 
 				&:nth-child(2n + 1) {
-					background: lighten(_palette(border2-bg), 20);
+					background: darken(_palette(bg-dark), 10);
 				}
 				&:nth-last-child(2) {
 					background: _palette(bg-dark) !important;
@@ -613,7 +613,7 @@
 				}
 
 				&:nth-child(2n + 1) {
-					background: darken(_palette(bg), 15);
+					background: darken(_palette(bg), 10);
 				}
 			}
 		}
@@ -658,7 +658,7 @@
 					}
 				}
 				&:nth-child(2n + 3) {
-					background: darken(_palette(bg), 15);
+					background: darken(_palette(bg), 10);
 				}
 			}
 		}
@@ -2768,7 +2768,11 @@
 		padding-bottom: 1em;
 
 		h3 {
-			font-size: 1.75em;
+			font-size: 1.5em;
+		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
 		}
 		.icon {
 			font-size: 5em !important;
@@ -2841,7 +2845,11 @@
 		padding-bottom: 4.5em;
 
 		h3 {
-			font-size: 1.75em;
+			font-size: 1.5em;
+		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
 		}
 		.icon {
 			font-size: 2em !important;
@@ -2894,10 +2902,11 @@
 			text-align: center;
 		}
 		h3 {
-			font-size: 1.75em;
-			color: _palette(accent1, bg) !important;
-			margin: 0;
-
+			font-size: 1.5em;
+		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
 		}
 		.icon-container {
 			position: relative;
@@ -2959,7 +2968,6 @@
 	#downloads, #windows, #macos, #linux, #source-code, #os-not-detected {
 
 		.icon {
-		
 			&.dl {
 				font-size: 5em !important ;
 				color: _palette(accent1, bg) !important ;
@@ -3005,7 +3013,11 @@
 	}
 	#os-not-detected {
 		h3 {
-			font-size: 1.75em;
+			font-size: 1.5em;
+		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
 		}
 	}
 	
@@ -3022,6 +3034,10 @@
 
 	#faq {
 		h3 {
-			font-size: 1.15em;
+			font-size: 1.5em;
+		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
 		}
 	}
