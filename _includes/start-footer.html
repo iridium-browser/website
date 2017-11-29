@@ -11,33 +11,38 @@
             </section>
         </div>
 	</div>
-
 	<!-- Scripts -->
 	<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
 	<script src="{{ '/assets/js/combined.min.js' | relative_url }}"></script>
 	<!--[if lte IE 8]><script async src="{{ '/assets/js/respond.min.js' | relative_url }}"></script><![endif]-->
 	<noscript>Your browser does not support JavaScript!</noscript>
-	
 	<!-- Microdata -->
 	<script type="application/ld+json">
 	[
-			{
-			"@context": "http://schema.org",
-			"@type": "WebSite",
-			"name": "{{ site.title }}",
-			"url": "{{ site.url | append: site.baseurl }}",
-			"keywords": "{{ site.keywords }}",
-			"description": "{{ site.description }}"
+		{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url | append: site.baseurl }}",
+		"keywords": "{{ site.keywords }}",
+		"description": "{{ site.description }}"
 		},
 		{
-			"@context": "http://schema.org/",
-			"@type": "SoftwareApplication",
-			"name": "{{ site.title }}",
-			"url": "{{ site.url | append: site.baseurl }}",
-			"downloadUrl": "{{ '/downloads/' | absolute_url }}",
-			"description": "{{ site.description }}",
-			"applicationCategory": "Browser",
-			"operatingSystem": [ "{{ page.structured-data.os1 }}", "{{ page.structured-data.os2 }}", "{{ page.structured-data.os3 }}", "{{ page.structured-data.os4 }}", "{{ page.structured-data.os5 }}", "{{ page.structured-data.os6 }}", "{{ page.structured-data.os7 }}", "{{ page.structured-data.os8 }}", "{{ page.structured-data.os9 }}", "{{ page.structured-data.os10 }}"
+		"@context": "http://schema.org",
+		"@type": "WebPage",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url | append: site.baseurl }}",
+		"description": "{{ site.description }}"
+		},
+		{
+		"@context": "http://schema.org/",
+		"@type": "SoftwareApplication",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url | append: site.baseurl }}",
+		"downloadUrl": "{{ '/downloads/' | absolute_url }}",
+		"description": "{{ site.description }}",
+		"applicationCategory": "Browser",
+		"operatingSystem": [ "{{ page.structured-data.os1 }}", "{{ page.structured-data.os2 }}", "{{ page.structured-data.os3 }}", "{{ page.structured-data.os4 }}", "{{ page.structured-data.os5 }}", "{{ page.structured-data.os6 }}", "{{ page.structured-data.os7 }}", "{{ page.structured-data.os8 }}", "{{ page.structured-data.os9 }}", "{{ page.structured-data.os10 }}"
 			], 
 			"aggregateRating": {
 				"@type": "AggregateRating",
@@ -53,19 +58,20 @@
 				"url": "{{ site.url | append: site.baseurl }}"
 			},
 			"offers": {
-			"@type": "Offer",
-			"priceCurrency": "EUR",
-			"price": "0.00"		
+				"@type": "Offer",
+				"description": "free",
+				"priceCurrency": "EUR",
+				"price": "0.00"		
 			}
 		},
 		{ 
-			"@context": "http://schema.org",
-			"@type": "Product",
-			"aggregateRating": {
-				"@type": "AggregateRating",
-				"ratingValue": "{{ page.structured-data.value }}",
-				"bestRating" : "5",
-				"ratingCount": "{{ page.structured-data.count }}"
+		"@context": "http://schema.org",
+		"@type": "Product",
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "{{ page.structured-data.value }}",
+			"bestRating" : "5",
+			"ratingCount": "{{ page.structured-data.count }}"
 			},
 			"name": "{{ site.title }}",
 			"url": "{{ site.url | append: site.baseurl }}",
@@ -79,9 +85,31 @@
 			},
 			"offers": {
 				"@type": "Offer",
+				"description": "free",
 				"priceCurrency": "EUR",
 				"price": "0.00"		
 			}
+		},
+		{
+		"@context": "http://schema.org",
+		"@type": "WebPage",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url | append: site.baseurl }}",
+		"description": "{{ site.description }}"
+		},
+		{
+		"@context": "http://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+			"@type": "ListItem",
+			"position": 1,
+			"item": {
+				"@id": "{{ site.url | append: site.baseurl }}",
+				"name": "home"
+				}
+			}
+			]
 		}
 	]
 	</script>
