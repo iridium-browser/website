@@ -24,7 +24,7 @@ paginate: 15
 paginate_path: "/news/archive/page:num/"
 
 collections:
-  - home
+  - banner
   - marquee
   - faq
   - features
