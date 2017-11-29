@@ -15,4 +15,4 @@ else if (os_name == "Mint") { window.location="linux"; }
 else if (os_name == "RedHat") { window.location="linux"; }
 else if (os_name == "Slackware") { window.location="linux"; }
 else if (os_name == "VectorLinux") { window.location="linux"; }
-else { window.location="/downloads/sorry"; }
+else { window.location="/downloads/os-not-detected"; }
