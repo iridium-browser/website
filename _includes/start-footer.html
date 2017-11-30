@@ -28,13 +28,6 @@
 		"description": "{{ site.description }}"
 		},
 		{
-		"@context": "http://schema.org",
-		"@type": "WebPage",
-		"name": "{{ site.title }}",
-		"url": "{{ site.url | append: site.baseurl }}",
-		"description": "{{ site.description }}"
-		},
-		{
 		"@context": "http://schema.org/",
 		"@type": "SoftwareApplication",
 		"name": "{{ site.title }}",
@@ -89,6 +82,20 @@
 				"priceCurrency": "EUR",
 				"price": "0.00"		
 			}
+		},
+		{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url | append: site.baseurl }}",
+		"logo": "{{ site.hotpic | absolute_url }}",
+		"alternateName": "IB",
+		"sameAs": [
+			"https://github.com/iridium-browser",
+			"https://www.facebook.com/iridiumbrowser/",
+			"https://twitter.com/iridiumbrowser",
+			"https://plus.google.com/+IridiumBrowser"
+			] 
 		},
 		{
 		"@context": "http://schema.org",

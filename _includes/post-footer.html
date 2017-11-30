@@ -20,13 +20,6 @@
 	<script type="application/ld+json">
 	[
 		{
-		"@context": "http://schema.org",
-		"@type": "WebPage",
-		"name": "{{ page.title }}",
-		"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-		"description": "{{ page.description }}"
-		},
-		{
 		"@context": "http://schema.org/",
 		"@type": "NewsArticle",
 		"mainEntityOfPage": {
@@ -54,6 +47,13 @@
 				"name": "{{ site.title }}"
 				},
 				"articleBody": "{{ content | strip_html | strip_newlines }}"
+		},
+		{
+		"@context": "http://schema.org",
+		"@type": "WebPage",
+		"name": "{{ page.title }}",
+		"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+		"description": "{{ page.description }}"
 		},
 		{
 		"@context": "http://schema.org",

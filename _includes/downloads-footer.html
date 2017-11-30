@@ -21,13 +21,6 @@
 	<script type="application/ld+json">
 	[
 		{
-		"@context": "http://schema.org",
-		"@type": "WebPage",
-		"name": "{{ page.title }}",
-		"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-		"description": "{{ page.description }}"
-		},
-		{
 		"@context": "http://schema.org/",
 		"@type": "SoftwareApplication",
 		"name": "{{ site.title }}",
@@ -56,6 +49,13 @@
 				"priceCurrency": "EUR",
 				"price": "0.00"		
 			}
+		},
+		{
+		"@context": "http://schema.org",
+		"@type": "WebPage",
+		"name": "{{ page.title }}",
+		"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+		"description": "{{ page.description }}"
 		},
 		{
 		"@context": "http://schema.org",
