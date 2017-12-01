@@ -8,7 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: debian
 structured-data:
-  os0: Linux
+  os0: debian based systems
   os1: Ubuntu
   os2: Debian
   os3: Mint
@@ -29,6 +29,7 @@ permalink: /downloads/debian
 current version 2017.10      
 <small>(based on Chromium 61.0.3163.100)</small>
 </header>
+<div class="container 75%">
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
 	cat <<EOF | sudo tee /etc/apt/sources.list.d/iridium-browser.list
@@ -38,6 +39,7 @@ current version 2017.10
 	sudo apt-get update
 	sudo apt-get install iridium-browser
      
+</div>
 \\
 System requirements:   
 &#8226; Debian 8+, Mint 17+, Ubuntu 14.04+ (all 64-bit)    

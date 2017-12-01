@@ -8,7 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: rhel
 structured-data:
-  os0: Linux
+  os0: Red Hat Enterprise Linux | CentOS
   os1: Red Hat Enterprise Linux
   os2: CentOS
   value: 5
@@ -27,10 +27,12 @@ permalink: /downloads/rhel
 current version 2017.10      
 <small>(based on Chromium 61.0.3163.100)</small>
 </header>
+<div class="container 75%">
 
 	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo
 	yum install iridium-browser
-     	
+     
+</div>
 \\
 System requirements:   
 &#8226; Red Hat Enterprise Linux 7+, CentOS 7+    

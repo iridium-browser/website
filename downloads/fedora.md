@@ -8,7 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: fedora
 structured-data:
-  os0: Linux
+  os0: Fedora
   os1: Fedora
   value: 5
   count: 478
@@ -26,7 +26,7 @@ permalink: /downloads/fedora
 current version 2017.10      
 <small>(based on Chromium 61.0.3163.100)</small>
 </header>
-
+<div class="container 75%">
 #### Fedora 25 #
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_25/iridium-browser.repo
@@ -41,7 +41,8 @@ current version 2017.10
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_27/iridium-browser.repo
 	dnf install iridium-browser
-     	
+     
+</div>	 
 \\
 System requirements:   
 &#8226; Fedora 25+    

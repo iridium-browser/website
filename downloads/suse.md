@@ -8,7 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 menu: no
 id: suse
 structured-data:
-  os0: Linux
+  os0: openSUSE
   os1: openSUSE
   value: 4
   count: 867
@@ -26,6 +26,7 @@ permalink: /downloads/suse
 current version 2017.11      
 <small>(based on Chromium 62.0.3202.94)</small>
 </header>
+<div class="container 75%">
 #### Leap 42.2 #
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.2/ iridium
@@ -41,6 +42,7 @@ current version 2017.11
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Tumbleweed/ iridium  
 	zypper in iridium-browser
      
+</div>
 \\
 System requirements:   
 &#8226; openSUSE Leap 42.2+, Tumbleweed    
