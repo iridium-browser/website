@@ -3,8 +3,8 @@ layout: downloads
 title: "Download for debian based systems"
 subtitle: ""
 description: Download Iridium Browser for all debian based systems.
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-debian.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-debian.png"
 menu: no
 id: debian
 structured-data:

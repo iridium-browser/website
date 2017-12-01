@@ -3,8 +3,8 @@ layout: downloads
 title: "Download for openSUSE"
 subtitle: ""
 description: Download Iridium Browser for Ubuntu/Debian, openSUSE, Fedora and RHEL/CentOS
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-suse.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-suse.png"
 menu: no
 id: suse
 structured-data:

@@ -3,8 +3,8 @@ layout: downloads
 title: "Download for Fedora"
 subtitle: ""
 description: Download Iridium Browser for Fedora.
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-fedora.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-fedora.png"
 menu: no
 id: fedora
 structured-data:

@@ -3,8 +3,8 @@ layout: downloads
 title: "Download for RHEL and CentOS"
 subtitle: ""
 description: Download Iridium Browser for Red Hat Enterprise Linux and CentOS.
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-rhel.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-rhel.png"
 menu: no
 id: rhel
 structured-data:
