@@ -6,6 +6,7 @@ description: Download Iridium Browser for Windows, macOS, Ubuntu, Debian, Mint, 
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-download.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-download.png"
 menu: 5
+submenu: "yes"
 id: downloads
 style: 1
 structured-data:

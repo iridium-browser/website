@@ -1389,6 +1389,15 @@
 				line-height: 2.75em;
 				text-decoration: none;
 				text-transform: uppercase;
+
+				&:hover {
+					color: _palette(fg-blue);
+					text-decoration: none;
+				}
+				&:active {
+					color: _palette(accent1, bg);
+					text-decoration: none;
+				}
 			}
 
 			&:first-child {
@@ -1397,7 +1406,7 @@
 		}
 
 		&.level-0 {
-			margin: 1.5em 0 0 0;
+			margin: 0.775em 0 0 0;
 
 			&:before {
 				@include vendor('transform', 'rotate(45deg)');
@@ -1421,7 +1430,7 @@
 	body.landing {
 		.dropotron {
 			&.level-0 {
-				margin: 0;
+				margin: 0.75em 0 0 0;
 
 				&:before {
 					left: 50%;
