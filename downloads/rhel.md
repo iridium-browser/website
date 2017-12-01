@@ -1,0 +1,41 @@
+---
+layout: downloads
+title: "Download for RHEL and CentOS"
+subtitle: ""
+description: Download Iridium Browser for Red Hat Enterprise Linux and CentOS.
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
+menu: no
+id: rhel
+structured-data:
+  os0: Linux
+  os1: Red Hat Enterprise Linux
+  os2: CentOS
+  value: 5
+  count: 147
+sitemap:
+  lastmod: 2017-12-01
+  priority: 0.8
+  changefreq: 'daily'
+permalink: /downloads/rhel
+---
+
+{::options parse_block_html="true" /}
+<div class="dlinux fl-redhat"></div>
+<header>
+### Repository for RHEL | CentOS #
+current version 2017.10      
+<small>(based on Chromium 61.0.3163.100)</small>
+</header>
+
+	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo
+	yum install iridium-browser
+     	
+\\
+System requirements:   
+&#8226; Red Hat Enterprise Linux 7+, CentOS 7+    
+&#8226; An Intel Pentium 4 processor or later that's SSE2 capable
+
+---
+
+If this is not your operating system or if you are looking for a different platform, please choose from the following:

@@ -28,7 +28,7 @@ current version 2017.10
 </header>
 
 <div class="container 50%">
-##### Standard Version #
+#### Standard Version #
 <div class="row">
 <div class="6u 12u$(small) align-center">[32-bit download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi "download Standard 32-bit version"){:.button .small .fit .download .icon .fa-download}
 </div>
@@ -36,7 +36,7 @@ current version 2017.10
 [64-bit download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi "download Standard 64-bit version"){:.button .small .fit .download .icon .fa-download}
 </div>
 </div>
-##### Portable Version * #
+#### Portable Version * #
 <div class="row">
 <div class="6u 12u$(small) align-center">
 [32-bit download](https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip "download Portable 32-bit version"){:.button .small .fit .download1 .icon .fa-download}

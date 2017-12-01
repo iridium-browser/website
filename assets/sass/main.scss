@@ -930,7 +930,12 @@
 				margin: 0 0.5em 0 -0.25em;
 			}
 		}
-
+		&.dlinux {
+			&:before {
+				margin: 0 0.5em 0 -0.25em;
+			}
+		}
+		
 		&.fit {
 			display: block;
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
@@ -2969,8 +2974,21 @@
 
 /* DOWNLOADS */
 	
-	#downloads, #windows, #macos, #linux, #source-code, #os-not-detected {
+	#downloads, #windows, #macos, #linux, #debian, #suse, #fedora, #rhel, #source-code, #os-not-detected {
 
+		h3 {
+			color: _palette(fg-blue) !important;
+		}
+		h4 {
+			font-size: 1.15em;
+			margin-top: 1.5em;
+		}
+		.post-content {
+			margin: 0;
+			padding: 0;
+		}
+	}
+	#downloads, #windows, #macos, #debian, #suse, #fedora, #rhel, #source-code, #os-not-detected {
 		.icon {
 			&.dl {
 				font-size: 5em !important ;
@@ -2989,31 +3007,13 @@
 			}
 		}
 		.dlinux {
-			font-size: 6em !important ;
+			font-family: font-linux;
+			font-size: 5em !important ;
 			color: _palette(accent1, bg) !important ;
 			position: relative;
 			display: block;
 			line-height: 1.25em;
 		}
-
-		.dlfedora {
-			font-size: 4em !important ;
-			color: _palette(accent1, bg) !important ;
-			position: relative;
-			display: block;
-			line-height: 1.25em;
-			margin-top: 1.25em;
-		}
-		
-		h4 {
-			margin-top: 1.5em;
-		}
-
-		.post-content {
-			margin: 0;
-			padding: 0;
-		}
-		
 	}
 	#os-not-detected {
 		h3 {
