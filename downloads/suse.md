@@ -23,8 +23,8 @@ permalink: /downloads/suse
 <div class="dlinux fl-opensuse"></div>
 <header>
 ### Repositories for openSUSE #
-current version 2017.10      
-<small>(based on Chromium 61.0.3163.100)</small>
+current version 2017.11      
+<small>(based on Chromium 62.0.3202.94)</small>
 </header>
 #### Leap 42.2 #
 	
