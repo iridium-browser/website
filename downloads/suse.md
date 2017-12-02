@@ -2,7 +2,7 @@
 layout: downloads
 title: "Download for openSUSE"
 subtitle: ""
-description: Download Iridium Browser for Ubuntu/Debian, openSUSE, Fedora and RHEL/CentOS
+description: Download Iridium Browser for openSUSE Leap 42.2, 42.3 and Tumbleweed.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-suse.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-suse.png"
 menu: no
