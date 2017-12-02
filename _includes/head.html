@@ -18,14 +18,14 @@
 		<!-- Facebook -->
 		<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+		<meta property="og:title" content="{% if page.title %}{{ site.title | escape }} | {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 		<meta property="og:image" content="{% if page.hotpic-fb %}{{ page.hotpic-fb | absolute_url }}{% else %}{{ site.hotpic-fb | absolute_url }}{% endif %}">
 		<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 		<meta property="og:site_name" content="{{ site.title }}">
 		<!-- Twitter -->
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@IridiumBrowser">
-		<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+		<meta name="twitter:title" content="{% if page.title %}{{ site.title | escape }} | {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 		<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 		<meta name="twitter:image" content="{% if page.hotpic-tw %}{{ page.hotpic-tw | absolute_url }}{% else %}{{ site.hotpic-tw | absolute_url }}{% endif %}">
 		<!-- iPhone/Pad Icons -->
