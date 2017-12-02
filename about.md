@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-subtitle: "about the project"
+subtitle: "About the Project"
 description: "With Iridium, the whole process is entirely transparent. The public Git repository allows a direct view on all changes made. The complete source code is therefore available."
 hotpic-fb: "/images/hotpics/Iridium-hotpic_FB.png"
 hotpic-tw: "/images/hotpics/Iridium-hotpic_TW.png"
