@@ -18,6 +18,7 @@ permalink: /downloads/source
 ---
 
 {::options parse_block_html="true" /}
+<div class="container 50%">
 <div class="icon dl fa-github"></div>
 <header>
 ### Git Repository #
@@ -39,6 +40,8 @@ Download the source code
 </header>
 
 Download at [https://downloads.iridiumbrowser.de/source/](https://downloads.iridiumbrowser.de/source/ "download source code"){:target="_blank"}
+
+</div>
 
 ---
 
