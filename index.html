@@ -77,7 +77,13 @@ sitemap:
 					<h3>{{ post.title }}</h3>
 					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
 				</header>
-				{{ post.content }}
+				<div class="post-box">
+				{{ post.content | split:'<!--break-->' | first }}
+				{% if post.content contains '<!--break-->' %}
+				<br/>
+				<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
+				{% endif %}
+			</div>
 			{% endfor %}
 		</li>
 	</ul>
