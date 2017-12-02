@@ -3,10 +3,15 @@ layout: downloads
 title: "Download for macOS"
 subtitle: ""
 description: Download Iridium Browser for macOS
-hotpic-fb: "{{ '/images/hotpics/Iridium-fb_hotpic-dl-macOS.png' | absolute_url }}"
-hotpic-tw: "{{ '/images/hotpics/Iridium-tw_hotpic-dl-macOS.png' | absolute_url }}"
+hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-macOS.png"
+hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-macOS.png"
 menu: no
 id: macos
+structured-data: 
+  os0: macOS
+  os1: macOS
+  value: 4
+  count: 7655
 sitemap:
   lastmod: 2017-10-30
   priority: 0.8

@@ -1,0 +1,15 @@
+---
+layout: default-layout
+---
+
+<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+<div class="container">
+	<header class="major">
+		<h2>{% for manifest in site.manifest %} {{ manifest.title }} {% endfor %}</h2>
+		<p>{% for manifest in site.manifest %} {{ manifest.subtitle }} {% endfor %}</p>
+	</header>
+	{% for manifest in site.manifest %}
+	{{ manifest.content }}
+	{% endfor %}
+</div>
+</section>

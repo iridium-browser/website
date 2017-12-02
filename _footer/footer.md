@@ -5,7 +5,7 @@ title: "Available Resources To Step In"
 
 Please report any issues and address any questions to our <strong><a href="https://github.com/iridium-browser/tracker/issues" title="report issues to bug tracker@GitHub" target="_blank" rel="noreferrer">bug tracker at github</a></strong>.
 <br/>
-Connect with the team and chat with us. Create an account on our <strong><a href="https://chat.osb-alliance.de/signup_user_complete/?id=zcw9hio95tf15bttox3jdcsmuc" title="chat with the team on mattermost" target="_blank" rel="noreferrer">Mattermost</a> platform</strong>.
+Connect with the team and chat with us. Create an account on our <strong><a href="https://chat.osb-alliance.de/signup_user_complete/?id=zcw9hio95tf15bttox3jdcsmuc" title="chat with the team on mattermost" target="_blank" rel="noreferrer">Mattermost</a></strong> platform.
 <br/>
 Download the <strong><a href="/downloads/source" title="download the source code">source code</a></strong>.
 <br/><br/>

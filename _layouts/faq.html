@@ -1,0 +1,20 @@
+---
+layout: default-layout
+---
+
+<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+	<div class="container">
+		<header class="major">
+			<h2>{{ page.title }}</h2>
+			<p>{{ page.subtitle }}</p>
+		</header>
+		<ul class="faq">
+		{% for faq in site.faq %}
+			<li>
+				<h3>{{ faq.title }}</h3>
+				{{ faq.content }}
+			</li>		
+		{% endfor %}
+		<ul/>
+	</div>
+</section>

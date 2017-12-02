@@ -555,30 +555,47 @@
 		&.alt {
 			list-style: none;
 			padding-left: 0;
-
+			margin-top: 3em;
+			
 			li {
 				border-top: solid 1px _palette(border);
-				padding: 0.5em 0;
+				padding: 2.5em 1em 1em 1em;
 
-				&:first-child {
-					border-top: 0;
-					padding-top: 0;
+				&:nth-child(2n + 1) {
+					background: lighten(_palette(border2-bg), 20);
 				}
-				&:nth-child(2n + 3) {
-					background: lighten(_palette(border2-bg), 15);
-				}
-				&:last-child {
-					border-bottom: solid 1px _palette(border2-bg);
+				&:nth-last-child(2) {
+					background: _palette(bg-dark) !important;
+					padding-bottom: 0;
 				}
 			}
 		}
 		
+		&.faq {
+			list-style: none;
+			padding-left: 0;
+			margin-top: 3em;
+			
+			li {
+				background: _palette(bg);
+				padding: 2.5em 1em 1em 1em;
+
+				&:nth-child(2n + 1) {
+					background: darken(_palette(bg-dark), 10);
+				}
+				&:nth-last-child(2) {
+					background: _palette(bg-dark) !important;
+					padding-bottom: 0;
+				}
+			}
+		}
+
 		&.news, &.news-archive {
 			list-style: none;
 			padding-left: 0;
 
 			li {
-				border-top: solid 1px _palette(border2-bg);
+				background: darken(_palette(bg), 5);
 				padding: 1.5em .5em 1.5em .5em;
 				
 				a {
@@ -596,10 +613,7 @@
 				}
 
 				&:nth-child(2n + 1) {
-					background: lighten(_palette(border2-bg), 15);
-				}
-				&:last-child {
-					border-bottom: solid 1px _palette(border2-bg);
+					background: darken(_palette(bg), 10);
 				}
 			}
 		}
@@ -644,7 +658,7 @@
 					}
 				}
 				&:nth-child(2n + 3) {
-					background: lighten(_palette(border2-bg), 15);
+					background: darken(_palette(bg), 10);
 				}
 			}
 		}
@@ -903,10 +917,12 @@
 
 		&:hover {
 			background-color: lighten(_palette(accent2, bg), 5);
+			color: _palette(fg-blue) !important;
 		}
 
 		&:active {
 			background-color: darken(_palette(accent2, bg), 5);
+			color: _palette(fg-blue) !important;
 		}
 
 		&.icon {
@@ -914,7 +930,12 @@
 				margin: 0 0.5em 0 -0.25em;
 			}
 		}
-
+		&.dlinux {
+			&:before {
+				margin: 0 0.5em 0 -0.25em;
+			}
+		}
+		
 		&.fit {
 			display: block;
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
@@ -1221,7 +1242,7 @@
 		width: 100%;
 		z-index: 100000;
 
-		h1 {
+		h1, #logo {
 			color: _palette(fg-bold);
 			height: inherit;
 			left: .25em;
@@ -1234,6 +1255,10 @@
 			a {
 				font-size: 2em;
 			}
+		}
+		h1 {
+			z-index: -100;
+			color: _palette(bg)
 		}
 
 		p {
@@ -1288,7 +1313,7 @@
 		.container {
 			position: relative;
 						
-			h1 {
+			#logo, h1 {
 				left: 0;
 			}
 
@@ -1364,6 +1389,15 @@
 				line-height: 2.75em;
 				text-decoration: none;
 				text-transform: uppercase;
+
+				&:hover {
+					color: _palette(fg-blue);
+					text-decoration: none;
+				}
+				&:active {
+					color: _palette(accent1, bg);
+					text-decoration: none;
+				}
 			}
 
 			&:first-child {
@@ -1372,7 +1406,7 @@
 		}
 
 		&.level-0 {
-			margin: 1.5em 0 0 0;
+			margin: 0.775em 0 0 0;
 
 			&:before {
 				@include vendor('transform', 'rotate(45deg)');
@@ -1386,7 +1420,7 @@
 				display: block;
 				height: 1em;
 				position: absolute;
-				right: 2em;
+				right: 2.5em;
 				top: -0.5em;
 				width: 1em;
 			}
@@ -1396,12 +1430,7 @@
 	body.landing {
 		.dropotron {
 			&.level-0 {
-				margin: 0;
-
-				&:before {
-					left: 50%;
-					margin-left: -0.5em;
-				}
+				margin: 0.75em 0 0 -3em;
 			}
 		}
 	}
@@ -1840,7 +1869,7 @@
 				height: 3.85em;
 				line-height: 3.85em;
 
-				h1 {
+				#logo, h1 {
 					a {
 						font-size: 2em;
 					}
@@ -2751,6 +2780,13 @@
 		padding-top: 4em;
 		padding-bottom: 1em;
 
+		h3 {
+			font-size: 1.5em;
+		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
+		}
 		.icon {
 			font-size: 5em !important;
 			line-height: 1.25em;
@@ -2770,7 +2806,6 @@
 			margin-top: 1.15em;
 		}
 	}
-
 
 /* NEWS */	
 
@@ -2822,6 +2857,13 @@
 	#about, #about-index {
 		padding-bottom: 4.5em;
 
+		h3 {
+			font-size: 1.5em;
+		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
+		}
 		.icon {
 			font-size: 2em !important;
 			color: _palette(accent1, bg) !important;
@@ -2872,12 +2914,17 @@
 		header {
 			text-align: center;
 		}
+		h3 {
+			font-size: 1.5em;
 		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
+		}
 		.icon-container {
 			position: relative;
 			display: block;
 		}
-		
 		.icon {
 			color: _palette(fg-bold);
 			margin: 0;
@@ -2913,10 +2960,6 @@
 				}
 			}
 		}
-		h4 {
-			color: _palette(accent1, bg) !important;
-			margin: 0;
-		}
 		.content {
 			text-align: left;
 			
@@ -2935,10 +2978,26 @@
 
 /* DOWNLOADS */
 	
-	#downloads, #windows, #macos, #linux, #source, #sorry {
+	#downloads, #windows, #macos, #linux, #debian, #suse, #fedora, #rhel, #source-code, #os-not-detected {
 
+		h3 {
+			color: _palette(fg-blue) !important;
+		}
+		h4 {
+			font-size: 1.15em;
+			margin-top: 1.5em;
+		}
+		.post-content {
+			margin: 0;
+			padding: 0;
+		}
+		code {
+			align: left;
+			text-align: left;
+		}
+	}
+	#downloads, #windows, #macos, #debian, #suse, #fedora, #rhel, #source-code, #os-not-detected {
 		.icon {
-		
 			&.dl {
 				font-size: 5em !important ;
 				color: _palette(accent1, bg) !important ;
@@ -2946,7 +3005,7 @@
 				display: block;
 				line-height: 1.25em;
 			}
-			&.dl-sorry {
+			&.dl-os-not-detected {
 				font-size: 10em !important ;
 				color: _palette(accent1, bg) !important ;
 				position: relative;
@@ -2956,36 +3015,41 @@
 			}
 		}
 		.dlinux {
-			font-size: 6em !important ;
+			font-family: font-linux;
+			font-size: 5em !important ;
 			color: _palette(accent1, bg) !important ;
 			position: relative;
 			display: block;
 			line-height: 1.25em;
 		}
-
-		.dlfedora {
-			font-size: 4em !important ;
-			color: _palette(accent1, bg) !important ;
-			position: relative;
-			display: block;
-			line-height: 1.25em;
-			margin-top: 1.25em;
-		}
-		
-		h4 {
-			margin-top: 1.5em;
-		}
-
-		.post-content {
-			margin: 0;
-			padding: 0;
-		}
-		
 	}
+	#os-not-detected {
+		h3 {
+			font-size: 1.5em;
+		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
+		}
+	}
+	
 	#footer-downloads {
 		margin-top: -2em;
 		
 		@include breakpoint(small) {
 			margin-top: 0;
+		}
+	}
+	
+	
+/* FAQ */
+
+	#faq {
+		h3 {
+			font-size: 1.5em;
+		
+			@include breakpoint(small) {
+			font-size: 1.25em;
+			}
 		}
 	}
