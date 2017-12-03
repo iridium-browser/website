@@ -24,7 +24,7 @@ permalink: /downloads/windows
 {::options parse_block_html="true" /}
 <div class="icon dl fa-windows"></div>
 <header>
-### Windows 7+ #
+### Windows #
 current version 2017.10      
 <small>(based on Chromium 61.0.3163.100)</small>
 </header>
