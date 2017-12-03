@@ -5,8 +5,9 @@ subtitle: ""
 description: Download Iridium Browser for Windows 7 or higher. This Windows build is available in 32-bit or 64-bit version, as well as portable.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-win.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-win.png"
-menu: no
 id: windows
+style: 1
+menu: no
 structured-data:
   os0: Windows
   os1: Windows

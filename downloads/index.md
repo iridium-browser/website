@@ -5,10 +5,29 @@ subtitle: ""
 description: Download Iridium Browser for Windows 7 or higher, macOS Mavericks 10.9 or higher, Debian based systems, OpenSUSE 42.2, 42.3 and Tumbleweed, Fedora 25,26 and 27, Red Hat Enterprise Linux 7 / CentOS 7 or higher.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-download.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-download.png"
-menu: 5
-submenu: "yes"
 id: downloads
 style: 1
+menu: 5
+submenu: "downloads"
+submenu-details:
+  - name: "Windows"
+    title: "Download for Windows"
+    link: "/downloads/windows"
+  - name: "macOS"
+    title: "Download for macOS"
+    link: "/downloads/macOS"
+  - name: "Debian based"
+    title: "Download for Debian based systems"
+    link: "/downloads/debian"
+  - name: "openSUSE"
+    title: "Download for openSUSE"
+    link: "/downloads/suse"
+  - name: "Fedora"
+    title: "Download for Fedora"
+    link: "/downloads/fedora"
+  - name: "RHEL / CentOS"
+    title: "Download for RHEL / CentOS"
+    link: "/downloads/rhel"
 structured-data:
   os1: Windows
   os2: macOS

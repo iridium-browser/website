@@ -1,21 +1,18 @@
 <!-- Header -->
 <div id="header">
-	<div id="logo"><a href="{{ '/' | relative_url }}" class="logo-header logo-header-sm"></a></div>
+	<div id="logo"><a href="{{ '/' | relative_url }}" class="logo-header logo-header-sm" title="Home"></a></div>
 	<h1>{{ site.title }}</h1>
 	<nav id="nav">
 		<ul>
-			<li><a href="{{ '/' | relative_url }}" title="home">home</a></li>
+			<li><a href="{{ '/' | relative_url }}" title="Home">home</a></li>
 {% for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}
 			<li>
 				<a href="{{ my_page.url | replace:'.html','' | relative_url }}" title="{{ my_page.title }}">{{ my_page.title }}</a>
-				{% if my_page.submenu == "yes" %}
+				{% if my_page.submenu == "downloads" %}
 				<ul>
-					<li><a href="{{ '/downloads/windows' | relative_url }}" title="Download for Windows">Windows</a></li>
-					<li><a href="{{ '/downloads/macOS' | relative_url }}" title="Download for macOS">macOS</a></li>
-					<li><a href="{{ '/downloads/debian' | relative_url }}" title="Download for Debian based systems">Debian based</a></li>
-					<li><a href="{{ '/downloads/suse' | relative_url }}" title="Download for openSUSE">openSUSE</a></li>
-					<li><a href="{{ '/downloads/fedora' | relative_url }}" title="Download for Fedora">Fedora</a></li>
-					<li><a href="{{ '/downloads/rhel' | relative_url }}" title="Download for RHEL / CentOS">RHEL / CentOS</a></li>
+				{% for submenu-details in my_page.submenu-details %}
+					<li><a href="{{ submenu-details.link | relative_url }}" title="{{ submenu-details.title }}">{{ submenu-details.name }}</a></li>
+				{% endfor %}
 				</ul>{% endif %}
 			</li>{% endif %}{% endfor %}{% endfor %}
 		</ul>
