@@ -4,7 +4,7 @@
 			{% for subfooter-downloads in site.footer-downloads %}
 			<div class="row">{% for button in subfooter-downloads.button %}
 				<div class="4u 12u$(small)">
-					<a href="{{ button.link | prepend: site.baseurl | prepend: site.url }}" title="{{ button.title }}" class="button small fit {{ button.icon }}">{{ button.name }}</a>
+					<a href="{{ button.link | prepend: site.baseurl }}" title="{{ button.title }}" class="button small fit {{ button.icon }}">{{ button.name }}</a>
 				</div>{% endfor %}
 			</div>
 			<br/>
