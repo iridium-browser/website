@@ -11,8 +11,8 @@ menu: no
 structured-data:
   os0: Windows
   os1: Windows
-  value: 4,85
-  count: 25778
+  value: 4,9
+  count: 737
 sitemap:
   lastmod: 2017-10-30
   priority: 0.8

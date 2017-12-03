@@ -5,13 +5,14 @@ subtitle: ""
 description: Download Iridium Browser for Fedora 25, 26 and 27. Install package from repository using the command line.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-fedora.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-fedora.png"
-menu: no
 id: fedora
+style: 1
+menu: no
 structured-data:
   os0: Fedora
   os1: Fedora
-  value: 5
-  count: 478
+  value: 4,9
+  count: 17
 sitemap:
   lastmod: 2017-12-01
   priority: 0.8

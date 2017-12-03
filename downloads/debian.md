@@ -5,16 +5,17 @@ subtitle: ""
 description: Download Iridium Browser for all Debian based systems. Install package from repository using the command line.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-debian.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-debian.png"
-menu: no
 id: debian
+style: 1
+menu: no
 structured-data:
-  os0: debian based systems
-  os1: Ubuntu
-  os2: Debian
-  os3: Mint
-  os4: debian-based
+  os0: Debian based systems
+  os1: Debian
+  os2: Mint
+  os3: Ubuntu
+  os4: Debian-based
   value: 5
-  count: 1670
+  count: 247
 sitemap:
   lastmod: 2017-12-01
   priority: 0.8

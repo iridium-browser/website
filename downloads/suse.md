@@ -5,13 +5,14 @@ subtitle: ""
 description: Download Iridium Browser for openSUSE Leap 42.2, 42.3 and Tumbleweed. Install package from repository using the command line.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-suse.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-suse.png"
-menu: no
 id: suse
+style: 1
+menu: no
 structured-data:
   os0: openSUSE
   os1: openSUSE
-  value: 4
-  count: 867
+  value: 5
+  count: 54
 sitemap:
   lastmod: 2017-12-01
   priority: 0.8

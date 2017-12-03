@@ -5,14 +5,15 @@ subtitle: ""
 description: Download Iridium Browser for Red Hat Enterprise Linux 7 and CentOS 7 or higher. Install package from repository using the command line.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-rhel.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-rhel.png"
-menu: no
 id: rhel
+style: 1
+menu: no
 structured-data:
   os0: Red Hat Enterprise Linux | CentOS
   os1: Red Hat Enterprise Linux
   os2: CentOS
-  value: 5
-  count: 147
+  value: 4,9
+  count: 23
 sitemap:
   lastmod: 2017-12-01
   priority: 0.8
