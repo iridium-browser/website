@@ -916,13 +916,14 @@
 		white-space: nowrap;
 
 		&:hover {
-			background-color: lighten(_palette(accent2, bg), 5);
-			color: _palette(fg-blue) !important;
+			background-color: lighten(_palette(accent2, bg), 15);
+			box-shadow: inset 0 0 0 2px lighten(_palette(accent2, bg), 15);
+			color: lighten(_palette(fg-blue), 10) !important;
 		}
 
 		&:active {
-			background-color: darken(_palette(accent2, bg), 5);
-			color: _palette(fg-blue) !important;
+			background-color: lighten(_palette(accent2, bg), 7);
+			color: lighten(_palette(fg-blue), 10) !important;
 		}
 
 		&.icon {
@@ -1006,18 +1007,17 @@
 		
 		&.read-more {
 			background-color: _palette(fg);
-			box-shadow: inset 0 0 0 2px darken(_palette(fg), 1);
+			box-shadow: inset 0 0 0 2px _palette(fg);
 			color: _palette(bg) !important;
 
-			
 			&:hover {
-				background-color: darken(_palette(fg), 10);
-				box-shadow: inset 0 0 0 2px _palette(fg-blue);
-				color: _palette(fg-blue) !important;
+				background-color: darken(_palette(fg), 15);
+				box-shadow: inset 0 0 0 2px darken(_palette(fg), 15);
+				color: lighten(_palette(fg-blue), 10) !important;
 
 				&.icon {
 					&:before {
-						color: _palette(fg-blue) !important;
+						color: lighten(_palette(fg-blue), 10) !important;
 					}
 				}
 			}
@@ -3014,18 +3014,24 @@
 			text-align: left;
 		}
 	}
+	#linux {
+		h3 {
+			color: _palette(fg) !important;
+			margin: 2.5em 0;
+		}
+	}
 	#downloads, #windows, #macos, #debian, #suse, #fedora, #rhel, #source-code, #os-not-detected {
 		.icon {
 			&.dl {
 				font-size: 5em !important ;
-				color: _palette(accent1, bg) !important ;
+				color: _palette(accent1, bg) !important;
 				position: relative;
 				display: block;
 				line-height: 1.25em;
 			}
 			&.dl-os-not-detected {
-				font-size: 10em !important ;
-				color: _palette(accent1, bg) !important ;
+				font-size: 10em !important;
+				color: _palette(accent1, bg) !important;
 				position: relative;
 				display: block;
 				line-height: 1em;
@@ -3035,7 +3041,7 @@
 		.dlinux {
 			font-family: font-linux;
 			font-size: 5em !important ;
-			color: _palette(accent1, bg) !important ;
+			color: _palette(accent1, bg) !important;
 			position: relative;
 			display: block;
 			line-height: 1.25em;
