@@ -21,9 +21,7 @@ structured-data:
   value: 5
   count: 341
 sitemap:
-  lastmod: 2017-12-01
-  priority: 0.8
-  changefreq: 'daily'
+  exclude: 'yes'
 permalink: /downloads/linux
 ---
 
