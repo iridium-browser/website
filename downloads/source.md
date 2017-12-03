@@ -2,7 +2,7 @@
 layout: downloads
 title: "Download Source Code"
 subtitle: ""
-description: Download the Iridium Browser source code
+description: Download the Iridium Browser source code from our git repository using the command line or simply download the tar.gz file.
 menu: no
 id: source-code
 structured-data:
@@ -11,7 +11,7 @@ structured-data:
   value: 5
   count: 1021
 sitemap:
-  lastmod: 2017-10-30
+  lastmod: 2017-12-01
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/source

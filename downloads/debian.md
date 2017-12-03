@@ -2,7 +2,7 @@
 layout: downloads
 title: "Download for debian based systems"
 subtitle: ""
-description: Download Iridium Browser for all debian based systems.
+description: Download Iridium Browser for all Debian based systems. Install package from repository using the command line.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-debian.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-debian.png"
 menu: no
