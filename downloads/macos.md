@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-macOS.png"
 id: macos
 style: 1
 menu: no
+link: /downloads/macOS
 structured-data: 
   os0: macOS
   os1: macOS

@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-win.png"
 id: windows
 style: 1
 menu: no
+link: /windows
 structured-data:
   os0: Windows
   os1: Windows

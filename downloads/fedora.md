@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-fedora.png"
 id: fedora
 style: 1
 menu: no
+link: /downloads/fedora
 structured-data:
   os0: Fedora
   os1: Fedora

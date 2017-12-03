@@ -6,6 +6,7 @@ description: "With Iridium, the whole process is entirely transparent. The publi
 hotpic-fb: "/images/hotpics/Iridium-hotpic_FB.png"
 hotpic-tw: "/images/hotpics/Iridium-hotpic_TW.png"
 menu: 3
+link: /about
 id: about
 style: style1
 structured-data: "yes"

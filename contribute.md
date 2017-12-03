@@ -6,6 +6,7 @@ description: "Help making people's privacy not an option, but normal! As you can
 hotpic-fb: "/images/hotpics/Iridium-hotpic_FB.png"
 hotpic-tw: "/images/hotpics/Iridium-hotpic_TW.png"
 menu: 4
+link: /contribute
 id: contribute
 style: style2
 structured-data: "yes"

@@ -1283,11 +1283,25 @@
 					display: inline-block;
 					margin-left: 1.75em;
 					padding-left: 0;
+					font-size: 1.1em;
+					font-weight: weight-medium;
 
 					a {
 						@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
 						text-decoration: none;
-					}	
+					}
+					&:hover {
+						color: _palette(fg-blue);
+						text-decoration: none;
+					}
+					&:active {
+						color: _palette(fg-blue);
+						text-decoration: none;
+					}
+					.active {
+						color: _palette(fg-blue);
+						text-decoration: none;
+					}
 
 					&:first-child {
 						margin-left: 0;
@@ -1395,7 +1409,11 @@
 					text-decoration: none;
 				}
 				&:active {
-					color: _palette(accent1, bg);
+					color: _palette(fg-blue);
+					text-decoration: none;
+				}
+				.active {
+					color: _palette(fg-blue);
 					text-decoration: none;
 				}
 			}

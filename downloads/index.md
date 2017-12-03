@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-download.png"
 id: downloads
 style: 1
 menu: 5
+link: /downloads/
 submenu: "downloads"
 submenu-details:
   - name: "Windows"

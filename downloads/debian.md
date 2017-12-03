@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-debian.png"
 id: debian
 style: 1
 menu: no
+link: /downloads/debian
 structured-data:
   os0: Debian based systems
   os1: Debian

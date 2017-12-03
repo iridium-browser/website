@@ -6,6 +6,7 @@ description: "Frequently Asked Questions: Learn more about Iridium Browser and i
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-faq.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-faq.png"
 menu: 6
+link: /faq
 id: faq
 style: style2
 structured-data: "faq"

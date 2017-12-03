@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-suse.png"
 id: suse
 style: 1
 menu: no
+link: /downloads/suse
 structured-data:
   os0: openSUSE
   os1: openSUSE

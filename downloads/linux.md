@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 id: linux
 style: 1
 menu: no
+link: /downloads/linux
 structured-data:
   os0: Linux
   os1: Ubuntu

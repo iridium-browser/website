@@ -8,6 +8,7 @@ hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-rhel.png"
 id: rhel
 style: 1
 menu: no
+link: /downloads/rhel
 structured-data:
   os0: Red Hat Enterprise Linux | CentOS
   os1: Red Hat Enterprise Linux

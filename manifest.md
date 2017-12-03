@@ -6,6 +6,7 @@ description: "Before Iridium Browser, we had to decide if we wanted to have cutt
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-manifest.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-manifest.png"
 menu: 2
+link: /manifest
 id: manifest
 style: style2
 structured-data: "yes"
