@@ -18,11 +18,11 @@ The latest version 2017.11, is based on Chromium 62.0.3202.94.
 New builds for macOS, Debian based systems, Fedora, Red Hat Enterprise Linux and CentOS will all be released this week!     
 <!--break-->       
 
-[DOWNLOAD]({{ '/downloads/windows' | relative_url }} "download Iridium Browser for Windows"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     
 	  
 Stand by for the new release for your platform!   
       
-*Download instructions:    
-Simply download and install the latest build.     
+*Installation:    
+Windows users simply download and install the latest build.     
+Linux users to install using command line as provided on the download page.     
 Existing users, **do not** uninstall any previous versions beforehand - this would delete all your stored data i.e. bookmarks, history, etc!*
-	  
