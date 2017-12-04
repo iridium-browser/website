@@ -5,19 +5,19 @@ subtitle: "Stay up to date and follow us"
 step-in:
  - text: Please report any issues and address any questions to our
    link: https://github.com/iridium-browser/tracker/issues
-   name: bug tracker at github
+   name: bug tracker at GitHub
    title: report issues to bug tracker@GitHub
  - text: Connect with the team and chat with us. Create an account on our
    link: https://chat.osb-alliance.de/signup_user_complete/?id=zcw9hio95tf15bttox3jdcsmuc
    name: Mattermost
-   title: chat with the team on mattermost
+   title: chat with the team on Mattermost
  - text: Download the
    link: /downloads/source
    name: source code
    title: download the source code
 soc-media:
  - link: https://github.com/iridium-browser
-   title: Iridium Browser on github
+   title: Iridium Browser on GitHub
    icon: fa-github
  - link: https://www.facebook.com/iridiumbrowser
    title: Iridium Browser on Facebook
