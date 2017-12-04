@@ -12,7 +12,7 @@ link: /windows
 structured-data:
   os0: Windows
   os1: Windows
-  value: 4,9
+  value: 4.9
   count: 737
 sitemap:
   lastmod: 2017-12-04

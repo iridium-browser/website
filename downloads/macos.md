@@ -12,7 +12,7 @@ link: /downloads/macOS
 structured-data: 
   os0: macOS
   os1: macOS
-  value: 4,8
+  value: 4.8
   count: 577
 sitemap:
   lastmod: 2017-10-30

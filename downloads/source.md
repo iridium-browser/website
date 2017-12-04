@@ -40,7 +40,12 @@ Git web view
 Download the source code
 </header>
 
-Download at [https://downloads.iridiumbrowser.de/source/](https://downloads.iridiumbrowser.de/source/ "download source code"){:target="_blank"}
+<div class="container 25%">
+<div class="row">
+<div class="12u$ align-center">
+[Download source code](https://downloads.iridiumbrowser.de/source/ "download source code"){:.button .small .fit .download .icon .fa-download}
+</div>
+</div></div>
 
 </div>
 
