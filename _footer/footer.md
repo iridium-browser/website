@@ -6,7 +6,7 @@ step-in:
  - text: Please report any issues and address any questions to our
    link: https://github.com/iridium-browser/tracker/issues
    name: bug tracker at GitHub
-   title: report issues to bug tracker@GitHub
+   title: report issues to bug tracker at GitHub
  - text: Connect with the team and chat with us. Create an account on our
    link: https://chat.osb-alliance.de/signup_user_complete/?id=zcw9hio95tf15bttox3jdcsmuc
    name: Mattermost
