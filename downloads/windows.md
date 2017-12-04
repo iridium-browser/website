@@ -15,7 +15,7 @@ structured-data:
   value: 4,9
   count: 737
 sitemap:
-  lastmod: 2017-10-30
+  lastmod: 2017-12-04
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/windows
@@ -25,8 +25,8 @@ permalink: /downloads/windows
 <div class="icon dl fa-windows"></div>
 <header>
 ### Windows #
-current version 2017.10      
-<small>(based on Chromium 61.0.3163.100)</small>
+current version 2017.11     
+<small>(based on Chromium 62.0.3202.94)</small>
 </header>
 
 <div class="container 50%">
