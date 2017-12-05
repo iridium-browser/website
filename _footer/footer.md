@@ -29,7 +29,7 @@ soc-media:
    title: Iridium Browser on Google+
    icon: fa-google-plus
 button: 
- - link: /feed.xml
+ - link: /feed
    name: RSS feed
    title: add RSS feed
    icon: fa-rss
