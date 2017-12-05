@@ -2,7 +2,7 @@
 layout: post
 title:  "Version 2017.11 for Fedora released"
 description: "The current version 2017.11 is now also available for Fedora 25, 26 & 27! Lastest builds have also been released for Windows and openSUSE Leap 42.2, 42.3 & Tumbleweed."
-date:   2017-12-05 07:00:00 +0200
+date:   2017-12-05 07:00:00 +0100
 author:	admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-fedora.png"

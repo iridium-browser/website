@@ -2,7 +2,7 @@
 layout: post
 title:  "XX"
 description: XX
-date:   2017-12-XX 22:00:00 +0200
+date:   2017-12-XX 22:00:00 +0100
 author:	admin
 categories: news
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
