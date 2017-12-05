@@ -15,7 +15,7 @@ The current **version 2017.11** is now available for **Fedora 25, 26 & 27**!
      
 Lastest builds have also been released for **Windows** and **openSUSE Leap 42.2, 42.3 & Tumbleweed**.    
 <!--break-->
-A new build for macOS will be released tomorrow, followed by Red Hat Enterprise Linux as well as CentOS later this week.     
+New builds for macOS, Red Hat Enterprise Linux as well as CentOS will be released later this week.     
 Users of Debian based platforms will be served in due course.     
      
 [DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser "){: .button .download}     
