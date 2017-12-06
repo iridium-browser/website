@@ -18,7 +18,7 @@ Lastest builds have also been released for **Windows** and **openSUSE Leap 42.2,
 New builds for macOS, Red Hat Enterprise Linux as well as CentOS will be released later this week.     
 Users of Debian based platforms will be served in due course.     
      
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser "){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     
 	  
 The current version 2017.11, is based on Chromium 62.0.3202.94.     
       
