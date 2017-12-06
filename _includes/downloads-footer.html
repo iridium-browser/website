@@ -38,10 +38,11 @@
 		"applicationCategory": "Browser",
 		"operatingSystem": [ "{{ page.structured-data.os1 }}"{% if page.structured-data.os2 %}, "{{ page.structured-data.os2 }}",{% else %}{% endif %} {% if page.structured-data.os3 %}"{{ page.structured-data.os3 }}",{% else %}{% endif %} {% if page.structured-data.os4 %}"{{ page.structured-data.os4 }}",{% else %}{% endif %} {% if page.structured-data.os5 %}"{{ page.structured-data.os5 }}",{% else %}{% endif %} {% if page.structured-data.os6 %}"{{ page.structured-data.os6 }}",{% else %}{% endif %} {% if page.structured-data.os7 %}"{{ page.structured-data.os7 }}"{% else %}{% endif %}
 			], 
-		"aggregateRating": {
+		"AggregateRating": {
 			"@type": "AggregateRating",
 			"ratingValue": "{{ page.structured-data.value }}",
 			"bestRating" : "5",
+			"worstRating": "1",
 			"ratingCount": "{{ page.structured-data.count }}"
 			},
 			"image": {

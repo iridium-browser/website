@@ -13,7 +13,7 @@ structured-data:
   os0: Red Hat Enterprise Linux | CentOS
   os1: Red Hat Enterprise Linux
   os2: CentOS
-  value: 4,9
+  value: 4.9
   count: 23
 sitemap:
   lastmod: 2017-12-01
