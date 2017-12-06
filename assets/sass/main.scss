@@ -623,7 +623,7 @@
 				&:first-child {
 					background: lighten(_palette(fg), 10);
 					color: darken(_palette(bg), 12);
-					
+
 					h3, h4, strong {
 						color: _palette(bg);
 						padding-top: 2em;
@@ -642,6 +642,16 @@
 						&:active {
 							color: _palette(accent1, bg);
 							text-decoration: none;
+						}
+					}
+					p {
+						padding: 0 3em 0 3em;
+						
+						@include breakpoint(medium) {
+							padding: 0 1em 0 1em;
+						}
+						@include breakpoint(small) {
+							padding: 0 .15em 0 .15em;
 						}
 					}
 					.author {
