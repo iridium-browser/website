@@ -7,8 +7,9 @@ RewriteRule ^download(/|$) /downloads/ [R=301,L]
 RewriteRule ^index(\\.html)? https://iridiumbrowser.de/ [R=301,C]
 RewriteRule ^$ index.html [L]
 
-RewriteRule ^(.*).html$ https://iridiumbrowser.de/$1 [R=301,L]
-RewriteRule ^(.*).xml$  https://iridiumbrowser.de/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
 
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
