@@ -35,22 +35,24 @@ sitemap:
 			<div class="author"><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</div>
 			</li>		
 		{% endfor %}
-
-		{% for post in site.posts limit:4 offset:1 %}
-			<li>
+		</ul>
+		
+		<div class="row uniform">
+		{% for post in site.posts limit:6 offset:1 %}
+			<div class="4u 12u(small) post-preview">
 				<header>
 					<h4>{{ post.title | escape }}</h4>
 					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
 				</header>
 				<div class="post-box">
 					{{ post.content | split:'<!--break-->' | first }}
+				</div>
 					{% if post.content contains '<!--break-->' %}
 					<p><a href="{{ post.url | relative_url }}" class="button read-more small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
 					{% endif %}
-				</div>
-			</li>
+			</div>
 		{% endfor %}
-		</ul>
+		</div>
 
 		<p>Read previous news posts</p>
 		<a class="button big special icon fa-archive" href="{{ '/news/archive/' | relative_url }}" title="go to news archive">news archive</a>
