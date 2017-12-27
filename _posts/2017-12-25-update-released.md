@@ -13,8 +13,8 @@ style: style1
 
 The developers fixed several bugs in the latest Windows and macOS builds.   
 Issues solved:    
-**crashes when switching to incognito mode in Windows   
-crashes when starting guest session in Windows   
+**crashes when switching to incognito mode in Windows,   
+crashes when starting guest session in Windows,   
 size in macOS reduced from 600MB to 200MB**   
 <!--break-->
 Go and get it!    
