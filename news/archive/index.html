@@ -21,17 +21,22 @@ id: news-archive
 	</header>
 	<br>
 
-	<ul class="news-archive">
-    {% for post in paginator.posts %}
-		<li>
-			<div class="row">
-				<div class="2u 12u$(medium) c1"><span class="icon fa-calendar-o"><small></span>{{ post.date | date: "%d-%b-%Y" }}</small></div>
-				<div class="8u 12u$(medium) c2"><a href="{{ post.url | relative_url }}" title="read more about '{{ post.title }}'">{{ post.title | escape }}</a></div>
-				<div class="2u 12u$(medium) c3"><span class="fa fa-user-o fa-fw"></span> <small>{% if post.author %}{{ post.author }}{% endif %}</small></div>
+	<div class="row uniform">
+	{% for post in paginator.posts %}
+		<div class="4u 12u(small) post-preview">
+			<header>
+				<h4>{{ post.title | escape }}</h4>
+				<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+			</header>
+			<div class="post-box">
+				{{ post.content | split:'<!--break-->' | first | strip_html }}
 			</div>
-		</li>
-    {% endfor %}
-	</ul>
+				{% if post.content contains '<!--break-->' %}
+				<p><a href="{{ post.url | relative_url }}" class="button read-more small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
+				{% endif %}
+		</div>
+	{% endfor %}
+	</div>
 
 {% if paginator.total_pages > 1 %}
 	<div class="row pagination">
