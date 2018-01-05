@@ -32,11 +32,11 @@ current version 2017.11
 <div class="container 25%">
 <div class="row">
 <div class="12u$ align-center">
-[macOS  Download](https://downloads.iridiumbrowser.de/macosx/iridium_browser_osx_latest.dmg "download for macOS"){:.button .small .fit .download .icon .fa-download}
+[macOS  Download](https://downloads.iridiumbrowser.de/macos/iridium_browser_macos_latest.dmg "download for macOS"){:.button .small .fit .download .icon .fa-download}
 </div>
 </div></div>
 \\
-If you are looking for previous versions, please check out the [build archive](https://downloads.iridiumbrowser.de/macosx/ "go to build archive"){:target="_blank"}<br/>
+If you are looking for previous versions, please check out the [build archive](https://downloads.iridiumbrowser.de/macos/ "go to build archive"){:target="_blank"}<br/>
 \\
 System requirements:  
 &#8226;  macOS Mavericks 10.9+
