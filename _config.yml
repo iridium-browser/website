@@ -37,6 +37,10 @@ collections:
 plugins: [jekyll-paginate]
   
 # Build settings
+sass:
+    sass_dir: /assets/_sass
+    style: compressed
+
 markdown: kramdown
 
 kramdown:
