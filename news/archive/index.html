@@ -19,21 +19,21 @@ id: news-archive
 		<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
 		<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p>
 	</header>
-	<br>
-
 	<div class="row uniform">
 	{% for post in paginator.posts %}
-		<div class="4u 12u(small) post-preview">
-			<header>
-				<h4>{{ post.title | escape }}</h4>
-				<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
-			</header>
-			<div class="post-box">
-				{{ post.content | split:'<!--break-->' | first | strip_html }}
+		<div class="4u 6u(medium) 12u(small) teaser-card">
+		<a href="{{ post.url | absolute_url }}" title="read more about '{{ post.title }}'">
+			<div class="teaser-container">
+				<header>
+					<div class="teaser-heading">{{ post.title | truncate: 58 }}</div>
+					<div class="teaser-date">{% if post.show-date == "no" %} {% else %}
+					<span class="icon fa-calendar"></span>{{ post.date | date: "%-d %B %Y" }}{% endif %}</div>
+				</header>
+				<div class="teaser-content">
+					<p>{{ post.content | strip_html | truncate: 300 }}</p>
+				</div>
 			</div>
-				{% if post.content contains '<!--break-->' %}
-				<p><a href="{{ post.url | relative_url }}" class="button read-more small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
-				{% endif %}
+		</a>
 		</div>
 	{% endfor %}
 	</div>

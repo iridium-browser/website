@@ -2844,7 +2844,6 @@
 /* NEWS */
 
 	#news, #news-index, #news-archive {
-		padding-bottom: 3.75em;
 
 		.button {
 			&.big {
@@ -2870,40 +2869,130 @@
 				padding-left: 1.25em;
 			}
 		}
-		.post-preview {
-			background: darken(_palette(bg), 5);
-			padding: 1.5em;
-		
-			&:nth-child(2n + 1) {
-				background: darken(_palette(bg), 10);
-			}
-			h4 {
-				height: 5em;
-			}
-			.post-box {
-				height: 16em;
-			}
 
-			@include breakpoint(medium) {
-				h4 {
-					height: 4.5em;
+		.first-post {
+			display: block;
+			position: relative;
+		}
+		h4 {
+			margin-bottom: 2em;
+		}
+		.row {
+			margin: 2em 0 3.5em 0;
+		}
+		.button {
+			margin: .5em 0 1em 0;
+		}
+		small {
+			font-size: .85em;
+		}
+
+		.teaser-card {
+			height: 21.75em;
+			display: block;
+			padding: 1.5em;
+			text-align: left;
+
+			a {
+				color: _palette(fg);
+				text-decoration: none;
+
+				&:hover {
+					color: _palette(fg-blue);
+					text-decoration: none;
 				}
-				.post-box {
-					height: 20em;
+				&:active {
+					color: _palette(accent1, bg);
+					text-decoration: none;
+				}
+			}
+	
+			.teaser-container {
+				display: block;
+				position: relative;
+				height: 18em;
+			
+				.teaser-heading {
+					display: block;
+					min-height: 1.5em;
+					max-height: 3em;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					font-size: 1.25em;
+					font-weight: _font(weight-bold);
+					line-height: 1.5em;
+					margin: 0 0 (_size(element-margin) * 0.25) 0;
+				}
+				.teaser-date {
+					display: block;
+					font-size: .8em;
+					margin-bottom: .5em;
+				}
+				.teaser-content {
+					display: block;
+					position: relative;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					text-align: justify;
+					margin-bottom: .75em;
+				}
+			}
+			@include breakpoint(large) {
+				height: 27em;
+					
+				.teaser-container {
+					height: 24em;
+				}
+			}
+			@include breakpoint(medium) {
+				height: 26em;
+					
+				.teaser-container {
+					height: 24em;
 				}
 			}
 			@include breakpoint(small) {
-				padding: 1.5em .5em;
-			
-				h4 {
-					height: auto;
-				}
-				.post-box {
+				height: auto;
+				padding: 1.5em .5em 0 .5em;
+					
+				.teaser-container {
 					height: auto;
 				}
 			}
 		}
 	}
+
+	#news, #news-archive {
+		header {
+			&.major {
+				&:after {
+					background: _palette(fg-bold);
+				}
+			}
+		}
+		.teaser-card {
+			background: darken(_palette(bg), 5);
+		
+			&:nth-child(2n + 1) {
+				background: darken(_palette(bg), 15);
+			}
+			
+		}
+		@include breakpoint(medium) {
+			.teaser-card {
+				&:nth-child(3n + 1) {
+					background: darken(_palette(bg), 5);
+				}
+				&:nth-child(3n + 2) {
+					background: darken(_palette(bg), 2.5);
+				}
+				&:nth-child(3n + 3) {
+					background: darken(_palette(bg), 7.5);
+				}
+			}
+		}
+	}
+	
 	#news-index {
 		h2 {
 			margin-top: 1.15em;

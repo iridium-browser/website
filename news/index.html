@@ -22,39 +22,46 @@ sitemap:
 			<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
 			<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %}</p>
 		</header>
-		<ul class="news">
-		{% for post in site.posts limit:1 %}
-			<li>
+
+		<section id="content">
+			<div class="first-post">
+			{% for post in site.posts limit:1 %}
 				<header>
-					<h3>{{ post.title }}</h3>
-					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
+					<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+					<p><small><span class="icon fa-calendar"></span>{{ post.date | date: "%-d %B %Y" }}</small></p>
 				</header>
-			
 				{{ post.content }}
-
-			<div class="author"><span class="fa fa-user-o fa-fw"></span> {% if post.author %}{{ post.author }}{% endif %}</div>
-			</li>		
-		{% endfor %}
-		</ul>
-		
-		<div class="row uniform">
-		{% for post in site.posts limit:6 offset:1 %}
-			<div class="4u 12u(small) post-preview">
-				<header>
-					<h4>{{ post.title | escape }}</h4>
-					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
-				</header>
-				<div class="post-box">
-					{{ post.content | split:'<!--break-->' | first | strip_html }}
-				</div>
-					{% if post.content contains '<!--break-->' %}
-					<p><a href="{{ post.url | relative_url }}" class="button read-more small icon fa-plus" title="read more about '{{ post.title }}'">read more</a></p>
-					{% endif %}
+			{% endfor %}
 			</div>
-		{% endfor %}
-		</div>
+		</section>
+		<hr/>
+		<section>
+			<header>
+				<h4>More news</h4>
+			</header>
+			<div class="row uniform">
+				{% for post in site.posts limit:6 offset:1 %}
+				<div class="4u 6u(medium) 12u(small) teaser-card">
+					<a href="{{ post.url | absolute_url }}" title="read more about '{{ post.title }}'">
+						<div class="teaser-container">
+							<header>
+								<div class="teaser-heading">{{ post.title | truncate: 58 }}</div>
+								<div class="teaser-date"><span class="icon fa-calendar"></span>{{ post.date | date: "%-d %B %Y" }}</div>
+							</header>
+							<div class="teaser-content">
+								<p>{{ post.content | strip_html | truncate: 300 }}</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
 
-		<p>Read previous news posts</p>
-		<a class="button big special icon fa-archive" href="{{ '/news/archive/' | relative_url }}" title="go to news archive">news archive</a>
+			<div class="align-center">
+				<p>Read previous news posts</p>
+				<a class="button big special icon fa-archive" href="{{ '/news/archive/' | relative_url }}" title="go to news archive">news archive</a>
+			</div>
+		</section>
+
 	</div>
 </section>

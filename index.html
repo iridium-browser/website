@@ -71,25 +71,22 @@ sitemap:
 		<h2>Recent News</h2>
 		<p>the very latest</p>
 	</header>
-	<ul class="news">
-		<li class="content">
-			{% for post in site.posts limit:1 %}
-				<header>
-					<h3>{{ post.title }}</h3>
-					<p><span class="icon fa-calendar-o"></span><small>{{ post.date | date: "%-d %B %Y" }}</small></p>
-				</header>
-				<div class="post-box">
-				{{ post.content | split:'<!--break-->' | first }}
-				{% if post.content contains '<!--break-->' %}
-				<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more small icon fa-plus" title="read more about '{{ post.title }}'">read more</a>
-				{% endif %}
-			</div>
-			{% endfor %}
-		</li>
-	</ul>
+	
+
+		<div class="first-post">
+		{% for post in site.posts limit:1 %}
+			<header>
+				<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+				<p><small><span class="icon fa-calendar"></span>{{ post.date | date: "%-d %B %Y" }}</small></p>
+			</header>
+			{{ post.content }}
+		{% endfor %}
+		</div>
+
+	<hr/>
 	<p>Read all the latest news</p>
 	<a class="button big special icon fa-book" href="{{ '/news/' | relative_url }}" title="read all the latest news">news</a>
-
+	
 </div>
 </section>
 
