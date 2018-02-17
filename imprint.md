@@ -24,7 +24,7 @@ Please report any issues, and address any questions to our bug tracker at GitHub
 Betreiber der Webseite
 ----------------------
 
-[](https://www.osb-alliance.com "OSBA Website"){:target="_blank" .logo-osba rel="noreferrer"}
+[ ](https://osb-alliance.de "OSBA Website"){:.logo-osba target="_blank" rel="noreferrer"}
 
 Open Source Business Alliance e.V.   
 Breitscheidstr. 4  
