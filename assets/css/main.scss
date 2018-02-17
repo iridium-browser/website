@@ -2888,7 +2888,7 @@
 		}
 
 		.teaser-card {
-			height: 21.75em;
+			height: 22em;
 			display: block;
 			padding: 1.5em;
 			text-align: left;
@@ -2914,10 +2914,12 @@
 			
 				.teaser-heading {
 					display: block;
+					position: relative;
 					min-height: 1.5em;
-					max-height: 3em;
+					max-height: 4.5em;
 					overflow: hidden;
 					text-overflow: ellipsis;
+					text-transform: uppercase;
 					font-size: 1.25em;
 					font-weight: _font(weight-bold);
 					line-height: 1.5em;
@@ -2938,14 +2940,14 @@
 				}
 			}
 			@include breakpoint(large) {
-				height: 27em;
+				height: 27.5em;
 					
 				.teaser-container {
 					height: 24em;
 				}
 			}
 			@include breakpoint(medium) {
-				height: 26em;
+				height: 26.5em;
 					
 				.teaser-container {
 					height: 24em;
