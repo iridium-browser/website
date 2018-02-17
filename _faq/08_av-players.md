@@ -1,7 +1,7 @@
 ---
 layout: faq
 title: "Why do some audio / video players not work in Iridium Browser?"
-date: 2017-11-06 16:00:00 +0100
+date: 2018-02-01 14:00:00 +0100
 ---
 
 Iridium Browser does not include all audio and video codecs or extensions such as Chrome.    
