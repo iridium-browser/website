@@ -11,7 +11,7 @@ id: faq
 style: style2
 structured-data: "faq"
 sitemap:
-  lastmod: 2017-11-10
+  lastmod: 2018-02-20
   priority: 0.5
   changefreq: 'weekly'
 ATTENTION: Content is in a collection see '_faq'
