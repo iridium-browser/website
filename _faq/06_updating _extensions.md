@@ -1,6 +1,6 @@
 ---
 layout: faq
-title: "Why do extensions not update automatically and why does the extension panel not work?"
+title: "Why extensions do not update automatically and why does the extension panel not work?"
 date: 2018-02-01 10:00:00 +0100
 ---
 
