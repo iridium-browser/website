@@ -13,6 +13,6 @@ style: style1
 
 Our developers fixed a problem in the build environment which caused the RHEL/CentOS releases not to be signed.   
       
-Signed build now available in the download section.    
+Signed builds are now available in the download section.    
      
 [DOWNLOAD]({{ '/downloads/rhel' | relative_url }} "download Iridium Browser for RHEL/CentOS"){: .button .download}     

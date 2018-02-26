@@ -11,8 +11,8 @@ menu: no
 style: style1
 ---
 
-We have updated our 'frequently asked questions' page and with some new entries;   
-**Why extensions do not update automatically and why does the extensions panel not fully work?**   
+We have updated our "Frequently Asked Questions" page and with some new entries;   
+**Why do extensions not update automatically and why does the extensions panel not fully work?**   
 **Is Iridium Browser open source?**   
       
 Check out the updated [FAQ]({{ '/faq' | relative_url }} "Iridium Browser - frequently asked questions").
