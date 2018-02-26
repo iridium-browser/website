@@ -39,6 +39,6 @@ button:
    icon: fa-legal
 organization:
   name: Open Source Business Alliance
-  link: http://osb-alliance.de
+  link: https://osb-alliance.de
 ---
 

@@ -20,7 +20,7 @@ url: https://iridiumbrowser.de # the base hostname & protocol for your site
 
 permalink: "/news/:year/:month/:day/:title"
 
-paginate: 15
+paginate: 18
 paginate_path: "/news/archive/page:num/"
 
 collections:
@@ -37,6 +37,10 @@ collections:
 plugins: [jekyll-paginate]
   
 # Build settings
+sass:
+    sass_dir: /assets/_sass
+    style: compressed
+
 markdown: kramdown
 
 kramdown:

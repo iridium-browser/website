@@ -8,7 +8,7 @@ id: imprint
 style: style1
 structured-data: "yes"
 sitemap:
-  lastmod: 2017-11-10
+  lastmod: 2018-02-20
   priority: 0.1
   changefreq: 'weekly'
 ---
@@ -16,7 +16,7 @@ sitemap:
 ### Bug Tracker ###
 Please report any issues, and address any questions to our bug tracker at GitHub.      
     
-[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker at GitHub"){:target="_blank" .button .small}      
+[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker at GitHub"){:target="_blank" .button .small rel="noreferrer"}     
 
 ----
    
@@ -24,12 +24,14 @@ Please report any issues, and address any questions to our bug tracker at GitHub
 Betreiber der Webseite
 ----------------------
 
+[ ](https://osb-alliance.de "OSBA Website"){:.logo-osba target="_blank" rel="noreferrer"}
+
 Open Source Business Alliance e.V.   
 Breitscheidstr. 4  
 70174 Stuttgart | Germany  
 Tel. +49 711 90715-390  
 Fax +49 711 90715-350  
-[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](http://www.osb-alliance.com "visit website"){:target="_blank"}     
+[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website"){:target="_blank" rel="noreferrer"}     
 
 #### Angaben gemäß § 6 TDG und § 10 MDStV #
 *Vertretungsberechtigter Vorstand*  

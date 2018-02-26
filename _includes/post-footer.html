@@ -12,16 +12,16 @@
 				<a href="{{ soc-media.link }}" title="{{ soc-media.title }}" target="_blank" rel="noreferrer"><span class="button-round fa {{ soc-media.icon }}"></span></a>
 				{% endfor %}<br/><br/>
 				<p>{% for button in footer.button %}
-				<a href="{{ button.link | prepend: site.baseurl | prepend: site.url }}" title="{{ button.title }}" class="button small footer icon {{ button.icon }}" target="_blank">{{ button.name }}</a>
+				<a href="{{ button.link | relative_url }}" title="{{ button.title }}" class="button small footer icon {{ button.icon }}" target="_blank">{{ button.name }}</a>
 				{% endfor %}</p>
-				<div class="copyright">&copy; <a href="{{ footer.organization.link }}" title="{{ footer.organization.name }}" target="_blank" rel="noreferrer">{{ footer.organization.name }}</a></div>
+				<div class="copyright">&copy; <a href="{{ footer.organization.link }}" title="{{ footer.organization.name }}" target="_blank">{{ footer.organization.name }}</a></div>
 			{% endfor %}
             </section>
         </div>
 	</div>
 	<!-- Scripts -->
-	<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
-	<script src="{{ '/assets/js/combined.min.js' | relative_url }}"></script>
+	<script defer src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+	<script defer src="{{ '/assets/js/combined.min.js' | relative_url }}"></script>
 	<!--[if lte IE 8]><script async src="{{ '/assets/js/respond.min.js' | relative_url }}"></script><![endif]-->
 	<noscript>Your browser does not support JavaScript!</noscript>
 	<!-- Microdata -->
