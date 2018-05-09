@@ -46,7 +46,3 @@ current version 2017.10
 System requirements:   
 &#8226; Debian 8+, Mint 17+, Ubuntu 14.04+ (all 64-bit)    
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable
-
----
-
-If this is not your operating system or if you are looking for a different platform, please choose from the following:

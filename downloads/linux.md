@@ -41,7 +41,3 @@ permalink: /downloads/linux
 [RHEL]({{ '/downloads/rhel' | relative_url }} "Linux download page"){:.button .big .read-more .fit .dlinux .fl-redhat}
 </div>
 </div></div>
-
----
-
-If you are looking for a different platform, please choose from the following:

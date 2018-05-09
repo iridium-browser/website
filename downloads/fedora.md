@@ -49,7 +49,3 @@ current version 2018.4
 System requirements:   
 &#8226; Fedora 25+    
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable
-
----
-
-If this is not your operating system or if you are looking for a different platform, please choose from the following:
