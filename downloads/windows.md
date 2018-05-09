@@ -13,9 +13,9 @@ structured-data:
   os0: Windows
   os1: Windows
   value: 4.9
-  count: 737
+  count: 1044
 sitemap:
-  lastmod: 2017-12-25
+  lastmod: 2018-05-10
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/windows
@@ -25,8 +25,8 @@ permalink: /downloads/windows
 <div class="icon dl fa-windows"></div>
 <header>
 ### Windows #
-current version 2017.11-1     
-<small>(based on Chromium 62.0.3202.94)</small>
+current version 2018.4    
+<small>(based on Chromium 66.0.3359.130)</small>
 </header>
 
 <div class="container 50%">

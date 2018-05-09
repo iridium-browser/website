@@ -12,10 +12,10 @@ link: /downloads/macOS
 structured-data: 
   os0: macOS
   os1: macOS
-  value: 4.8
-  count: 577
+  value: 4.9
+  count: 967
 sitemap:
-  lastmod: 2017-12-06
+  lastmod: 2018-05-10
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/macOS
@@ -25,8 +25,8 @@ permalink: /downloads/macOS
 <div class="icon dl fa-apple"></div>
 <header>
 ### macOS #
-current version 2017.11     
-<small>(based on Chromium 62.0.3202.94)</small>
+current version 2017.4    
+<small>(based on Chromium 66.0.3359.130)</small>
 </header>
 
 <div class="container 25%">
