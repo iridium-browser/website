@@ -13,9 +13,9 @@ structured-data:
   os0: openSUSE
   os1: openSUSE
   value: 5
-  count: 54
+  count: 91
 sitemap:
-  lastmod: 2017-12-01
+  lastmod: 2018-05-11
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/suse
@@ -25,27 +25,22 @@ permalink: /downloads/suse
 <div class="dlinux fl-opensuse"></div>
 <header>
 ### Repositories for openSUSE #
-current version 2017.11      
-<small>(based on Chromium 62.0.3202.94)</small>
+current version 2018.4      
+<small>(based on Chromium 66.0.3359.130)</small>
 </header>
 <div class="container 75%">
-#### Leap 42.2 #
+#### Leap 15.0 #
 	
-	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.2/ iridium
+	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_15.0/ iridium
 	zypper in iridium-browser
      
 #### Leap 42.3 #
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.3/ iridium
 	zypper in iridium-browser
-
-#### Tumbleweed #
-
-	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Tumbleweed/ iridium  
-	zypper in iridium-browser
      
 </div>
 \\
 System requirements:   
-&#8226; openSUSE Leap 42.2+, Tumbleweed    
+&#8226; openSUSE Leap 42.3+    
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable

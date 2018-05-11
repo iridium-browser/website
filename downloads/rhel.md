@@ -16,7 +16,7 @@ structured-data:
   value: 4.9
   count: 44
 sitemap:
-  lastmod: 2018-05-10
+  lastmod: 2018-05-11
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/rhel
