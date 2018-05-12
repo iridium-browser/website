@@ -23,7 +23,10 @@ AddCharset application/font-woff2 .woff2
 AddCharset application/x-font-woff2 .woff2
 
 AddType application/pdf .pdf
+AddType application/x-apple-diskimage .dmg .smi .img
 AddType application/x-font-woff2 .woff2
+AddType application/x-msdownload .exe .dll .ocx .com .bat .msi .mso
+AddType application/zip .zip .zipx
 AddType image/jpeg .jpeg .jpg .jpe .JPG
 AddType image/png .png
 AddType image/svg+xml .svg .svgz
@@ -31,6 +34,7 @@ AddType image/vnd.microsoft.icon .ico
 AddType text/html .html .htm
 AddType text/css .css
 AddType text/xml .xml
+
 
 <IfModule mod_headers.c>
 Header set Content-Security-Policy "script-src 'self' https://iridiumbrowser.de/; base-uri 'self';"
