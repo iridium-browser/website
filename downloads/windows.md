@@ -26,5 +26,5 @@ chromium:			66.0.3359.130
 link-32bit:			https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi
 link-64bit:			https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi
 link-32bit-port:	https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip
-link-32bit-port:	https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip
+link-64bit-port:	https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip
 ---
