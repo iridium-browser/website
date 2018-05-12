@@ -1,5 +1,5 @@
 ---
-layout: downloads
+layout: downloads2
 title: "...Ooops..."
 subtitle: ""
 description: Iridium Browser is currently not available for your platform or your operating system could not be detected!
@@ -14,7 +14,3 @@ permalink: /downloads/os-not-detected
 <div class="icon dl-os-not-detected fa-frown-o"></div>
 ### Your operating system could not be detected or Iridium Browser is not available for your platform #
 {:.fg-blue}
-
----
-
-#### Available Downloads #

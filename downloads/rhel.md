@@ -14,9 +14,9 @@ structured-data:
   os1: Red Hat Enterprise Linux
   os2: CentOS
   value: 4.9
-  count: 23
+  count: 44
 sitemap:
-  lastmod: 2017-01-09
+  lastmod: 2018-05-11
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/rhel
@@ -26,8 +26,8 @@ permalink: /downloads/rhel
 <div class="dlinux fl-redhat"></div>
 <header>
 ### Repository for RHEL | CentOS #
-current version 2017.11-1     
-<small>(based on Chromium 62.0.3202.94)</small>
+current version 2018.4     
+<small>(based on Chromium 66.0.3359.130)</small>
 </header>
 <div class="container 75%">
 
@@ -39,7 +39,3 @@ current version 2017.11-1
 System requirements:   
 &#8226; Red Hat Enterprise Linux 7+, CentOS 7+    
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable
-
----
-
-If this is not your operating system or if you are looking for a different platform, please choose from the following:

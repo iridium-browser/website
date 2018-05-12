@@ -1,46 +1,27 @@
 ---
-layout: downloads
+layout: dl-macos
 title: "Download for macOS"
 subtitle: ""
 description: Download Iridium Browser for macOS Mavericks 10.9 or higher. Iridium Browser is currently not available for iOS or any other mobile OS.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-macOS.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-macOS.png"
 id: macos
-style: 1
+style: style1
 menu: no
 link: /downloads/macOS
 structured-data: 
   os0: macOS
   os1: macOS
-  value: 4.8
-  count: 577
+  value: 4.9
+  count: 967
 sitemap:
-  lastmod: 2017-12-06
+  lastmod: 2018-05-11
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/macOS
+
+OS: macOS
+version:			2018.4
+chromium:			66.0.3359.130
+dl-link:			https://downloads.iridiumbrowser.de/macos/iridium_browser_macos_latest.dmg
 ---
-
-{::options parse_block_html="true" /}
-<div class="icon dl fa-apple"></div>
-<header>
-### macOS #
-current version 2017.11     
-<small>(based on Chromium 62.0.3202.94)</small>
-</header>
-
-<div class="container 25%">
-<div class="row">
-<div class="12u$ align-center">
-[macOS  Download](https://downloads.iridiumbrowser.de/macos/iridium_browser_macos_latest.dmg "download for macOS"){:.button .small .fit .download .icon .fa-download}
-</div>
-</div></div>
-\\
-If you are looking for previous versions, please check out the [build archive](https://downloads.iridiumbrowser.de/macos/ "go to build archive"){:target="_blank"}<br/>
-\\
-System requirements:  
-&#8226;  macOS Mavericks 10.9+
-	 
----
-
-If this is not your operating system or if you are looking for a different platform, please choose from the following:

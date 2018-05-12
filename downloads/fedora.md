@@ -13,9 +13,9 @@ structured-data:
   os0: Fedora
   os1: Fedora
   value: 4.9
-  count: 17
+  count: 35
 sitemap:
-  lastmod: 2017-12-05
+  lastmod: 2018-05-11
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/fedora
@@ -25,8 +25,8 @@ permalink: /downloads/fedora
 <div class="dlinux fl-fedora-inverse"></div>
 <header>
 ### Repositories for Fedora #
-current version 2017.11     
-<small>(based on Chromium 62.0.3202.94)</small>
+current version 2018.4     
+<small>(based on Chromium 66.0.3359.130)</small>
 </header>
 <div class="container 75%">
 #### Fedora 25 #
@@ -49,7 +49,3 @@ current version 2017.11
 System requirements:   
 &#8226; Fedora 25+    
 &#8226; An Intel Pentium 4 processor or later that's SSE2 capable
-
----
-
-If this is not your operating system or if you are looking for a different platform, please choose from the following:

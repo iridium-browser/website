@@ -1,0 +1,48 @@
+---
+layout: downloads-layout
+---
+
+<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+    <div class="container">
+		<header class="major">
+			<h2>{{ page.title }}</h2>
+		</header>
+
+
+		<div class="icon dl fa-windows"></div>
+		<header>
+			<h3>{{ page.OS }}</h3>
+			<p>current version {{ page.version }}</br>
+			<small>(based on Chromium {{ page.chromium }})</small></p>
+		</header>
+
+		<div class="container 50%">
+			<h4>Standard Version</h4>
+			<div class="row">
+				<div class="6u 12u$(small) align-center">
+					<a href="{{ page.link-32bit }}" download="IridiumBrowser-{{ page.version }}-x86.msi" title="download 32-bit version" class="button small fit download icon fa-download">32-bit download</a>
+				</div>
+				<div class="6u 12u$(small) align-center">
+					<a href="{{ page.link-64bit }}" download="IridiumBrowser-{{ page.version }}-x64.msi" title="download 64-bit version" class="button small fit download icon fa-download">64-bit download</a>
+				</div>
+			</div>
+			<h4>Portable Version *</h4>
+			<div class="row">
+				<div class="6u 12u$(small) align-center">
+					<a href="{{ page.link-32bit-port }}" download="IridiumBrowser-{{ page.version }}-portable-x86.zip" title="download portable 32-bit version" class="button small fit download1 icon fa-download">32-bit download</a>			
+				</div>
+				<div class="6u 12u$(small) align-center">
+					<a href="{{ page.link-64bit-port }}" download="IridiumBrowser-{{ page.version }}-portable-x64.zip" title="download portable 64-bit version" class="button small fit download1 icon fa-download">64-bit download</a>
+				</div>
+				<p><strong>Please note!</strong><br/>
+				<strong>* </strong>= Running the Iridium portable version works out of the box. We recommend to create a shortcut using the<br/>
+				<code>--user-data-dir=/IridiumUserData</code><br/>
+				configuration option to store the user data to a preferred location (like a USB stick, etc.)</p>
+			</div></div>
+		<p>If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/windows/" title="go to build archive" target="_blank">build archive</a></p>
+		<p>System requirements:<br/>
+		&#8226; Windows 7+<br/>
+		&#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
+		<p>The Windows Installer is produced by <a href="http://www.advancedinstaller.com/" title="Advanced Installer" target="_blank">Advanced Installer</a></p>
+    </div>
+</section>
