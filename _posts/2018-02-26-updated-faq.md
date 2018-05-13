@@ -11,7 +11,7 @@ menu: no
 style: style1
 ---
 
-We have updated our "Frequently Asked Questions" page and with some new entries;   
+We have updated our "Frequently Asked Questions" page with some new entries;   
 **Why do extensions not update automatically and why does the extensions panel not fully work?**   
 **Is Iridium Browser open source?**   
       
