@@ -2,7 +2,7 @@
 layout: downloads
 title: "Downloads for Linux"
 subtitle: ""
-description: Download Iridium Browser for Linux; Debian based systems, openSUSE Leap 42.2, 42.3 and Tumbleweed, Fedora 25 or higher and Red Hat Enterprise Linux 7 / CentOS 7 or higher.
+description: Download Iridium Browser for Linux; Debian based systems, openSUSE Leap 42.3 and 15.0, Fedora 27 or higher and Red Hat Enterprise Linux 7 / CentOS 7 or higher.
 hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
 hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 id: linux
