@@ -8,7 +8,7 @@ id: imprint
 style: style1
 structured-data: "yes"
 sitemap:
-  lastmod: 2018-02-20
+  lastmod: 2018-05-20
   priority: 0.1
   changefreq: 'weekly'
 ---
