@@ -33,6 +33,10 @@ button:
    name: RSS feed
    title: add RSS feed
    icon: fa-rss
+ - link: /data-protection
+   name: data protection
+   title: go to data protection
+   icon: fa-shield
  - link: /imprint
    name: imprint
    title: go to imprint
