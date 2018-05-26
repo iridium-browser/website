@@ -21,6 +21,9 @@ Please report any issues, and address any questions to our bug tracker at GitHub
 ----
    
    
+Datenschutzerklärung
+----------------------
+
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:     
      
 [ ](https://osb-alliance.de "OSBA Website"){:.logo-osba target="_blank" rel="noreferrer"}
