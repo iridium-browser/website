@@ -12,7 +12,7 @@
 				<a href="{{ soc-media.link }}" title="{{ soc-media.title }}" target="_blank" rel="noreferrer"><span class="button-round fa {{ soc-media.icon }}"></span></a>
 				{% endfor %}<br/><br/>
 				<p>{% for button in footer.button %}
-				<a href="{{ button.link | relative_url }}" title="{{ button.title }}" class="button small footer icon {{ button.icon }}" target="_blank">{{ button.name }}</a>
+				<a href="{{ button.link | relative_url }}" title="{{ button.title }}" class="button small footer icon {{ button.icon }}"{% if button.blank == 'yes' %} target="_blank"{% endif %}>{{ button.name }}</a>
 				{% endfor %}</p>
 				<div class="copyright">&copy; <a href="{{ footer.organization.link }}" title="{{ footer.organization.name }}" target="_blank">{{ footer.organization.name }}</a></div>
 			{% endfor %}

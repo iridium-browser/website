@@ -30,14 +30,17 @@ soc-media:
    icon: fa-google-plus
 button: 
  - link: /feed.xml
+   blank: "yes"
    name: RSS feed
    title: add RSS feed
    icon: fa-rss
  - link: /data-protection
+   blank: 
    name: data protection
    title: go to data protection
    icon: fa-shield
  - link: /imprint
+   blank: 
    name: imprint
    title: go to imprint
    icon: fa-legal
