@@ -18,7 +18,7 @@ structured-data:
   value: 5
   count: 247
 sitemap:
-  lastmod: 2017-12-01
+  lastmod: 2018-05-30
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/debian
@@ -28,8 +28,8 @@ permalink: /downloads/debian
 <div class="dlinux fl-debian"></div>
 <header>
 ### Repository for debian based systems #
-current version 2017.10      
-<small>(based on Chromium 61.0.3163.100)</small>
+current version 2018.5      
+<small>(based on Chromium 67.0.3396.40)</small>
 </header>
 <div class="container 75%">
 

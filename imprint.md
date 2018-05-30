@@ -8,7 +8,7 @@ id: imprint
 style: style1
 structured-data: "yes"
 sitemap:
-  lastmod: 2018-02-20
+  lastmod: 2018-05-20
   priority: 0.1
   changefreq: 'weekly'
 ---
@@ -58,9 +58,3 @@ Sämtliche auf dieser Website veröffentlichten Texte, Dokumente und Darstellung
 
 *Webseiten dritter Anbieter / Links*  
 Diese Website enthält auch Links oder Verweise auf Websites Dritter. Diese Links zu den Websites Dritter stellen keine Zustimmung zu deren Inhalten durch den Herausgeber dar. Es wird keine Verantwortung für die Verfügbarkeit oder den Inhalt solcher Websites übernommen und keine Haftung für Schäden oder Verletzungen, die aus der Nutzung - gleich welcher Art - solcher Inhalte entstehen. Links zu anderen Websites werden den Nutzern dieser Website lediglich als Annehmlichkeit zur Verfügung gestellt. Das Herstellen einer Verbindung zu diesen Websites geschieht auf eigene Gefahr des Benutzers.
-
-#### Datenschutz #
-Keinesfalls werden die Daten zur persönlichen Identifizierung eines Besuchers verwendet (soweit dies technisch überhaupt möglich wäre) oder in Zusammenhang mit den Daten über den Träger eines Pseudonyms gebracht.
-
-*Anwendbares Recht*  
-Jegliche in Verbindung mit der Website oder deren Benutzung auftretenden Rechtsansprüche oder Prozesse unterliegen der Auslegung der Gesetze der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Gerichtsstand ist, wenn der Nutzer Kaufmann im Sinne des Handelsgesetzbuches ist, Stuttgart.
