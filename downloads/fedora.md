@@ -13,9 +13,9 @@ structured-data:
   os0: Fedora
   os1: Fedora
   value: 4.9
-  count: 35
+  count: 42
 sitemap:
-  lastmod: 2018-05-13
+  lastmod: 2018-06-04
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/fedora
@@ -25,8 +25,8 @@ permalink: /downloads/fedora
 <div class="dlinux fl-fedora-inverse"></div>
 <header>
 ### Repositories for Fedora #
-current version 2018.4     
-<small>(based on Chromium 66.0.3359.130)</small>
+current version 2018.5     
+<small>(based on Chromium 67.0.3396.40)</small>
 </header>
 <div class="container 75%">
 #### Fedora 27 #
