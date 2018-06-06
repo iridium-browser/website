@@ -14,9 +14,9 @@ structured-data:
   os1: Red Hat Enterprise Linux
   os2: CentOS
   value: 4.9
-  count: 44
+  count: 47
 sitemap:
-  lastmod: 2018-05-11
+  lastmod: 2018-06-04
   priority: 0.8
   changefreq: 'daily'
 permalink: /downloads/rhel
@@ -26,8 +26,8 @@ permalink: /downloads/rhel
 <div class="dlinux fl-redhat"></div>
 <header>
 ### Repository for RHEL | CentOS #
-current version 2018.4     
-<small>(based on Chromium 66.0.3359.130)</small>
+current version 2018.5     
+<small>(based on Chromium 67.0.3396.40)</small>
 </header>
 <div class="container 75%">
 
