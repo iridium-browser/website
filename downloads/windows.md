@@ -21,8 +21,8 @@ sitemap:
 permalink: /downloads/windows
 
 OS: Windows
-version:			2018.4
-chromium:			66.0.3359.130
+version:			2018.5
+chromium:			67.0.3396.40
 link-32bit:			https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi
 link-64bit:			https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi
 link-32bit-port:	https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip
