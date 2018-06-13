@@ -21,7 +21,7 @@ sitemap:
 permalink: /downloads/macOS
 
 OS: macOS
-version:			2018.4
-chromium:			66.0.3359.130
+version:			2018.5
+chromium:			67.0.3396.40
 dl-link:			https://downloads.iridiumbrowser.de/macos/iridium_browser_macos_latest.dmg
 ---
