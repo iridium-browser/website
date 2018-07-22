@@ -24,16 +24,8 @@ future: true
 paginate: 18
 paginate_path: "/news/archive/page:num/"
 
-collections:
-  - banner
-  - marquee
-  - faq
-  - features
-  - manifest
-  - about
-  - contribute
-  - footer
-  - footer-downloads
+collections: [about, banner, contribute, faq, features, footer, footer-downloads, manifest, marquee]
+collections_dir: collections
 
 plugins: [jekyll-paginate]
   
