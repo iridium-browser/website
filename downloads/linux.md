@@ -1,28 +1,28 @@
 ---
-layout: downloads
-title: "Downloads for Linux"
-subtitle: ""
-description: Download Iridium Browser for Linux; Debian based systems, openSUSE Leap 42.3 and 15.0, Fedora 27 or higher and Red Hat Enterprise Linux 7 / CentOS 7 or higher.
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
-id: linux
-style: 1
-menu: no
-link: /downloads/linux
+layout:			downloads
+title:			"Downloads for Linux"
+subtitle:		""
+description:	Download Iridium Browser for Linux; Debian based systems, openSUSE Leap 42.3 and 15.0, Fedora 27 or higher and Red Hat Enterprise Linux 7 / CentOS 7 or higher.
+hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
+hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
+id:				linux
+style:			1
+menu:			no
+link:			/downloads/linux
 structured-data:
-  os0: Linux
-  os1: Ubuntu
-  os2: Debian
-  os3: Mint
-  os4: openSUSE
-  os5: Fedora
-  os6: Red Hat Enterprise Linux
-  os7: CentOS
-  value: 5
-  count: 498
+  os0:			Linux
+  os1:			Ubuntu
+  os2:			Debian
+  os3:			Mint
+  os4:			openSUSE
+  os5:			Fedora
+  os6:			Red Hat Enterprise Linux
+  os7:			CentOS
+  value:		5
+  count:		498
 sitemap:
-  exclude: 'yes'
-permalink: /downloads/linux
+  exclude:		'yes'
+permalink:		/downloads/linux
 ---
 
 {::options parse_block_html="true" /}

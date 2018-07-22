@@ -1,21 +1,21 @@
 ---
-layout: downloads
-title: "Download Source Code"
-subtitle: ""
-description: Download the Iridium Browser source code from our git repository using the command line or simply download the tar.gz file.
-id: source-code
-style: 1
-menu: no
+layout:			downloads
+title:			"Download Source Code"
+subtitle:		""
+description:	Download the Iridium Browser source code from our git repository using the command line or simply download the tar.gz file.
+id:				source-code
+style:			1
+menu:			no
 structured-data:
-  os0: source code
-  os1: source code
-  value: 5
-  count: 1021
+  os0:			source code
+  os1:			source code
+  value:		5
+  count:		1021
 sitemap:
-  lastmod: 2017-12-01
-  priority: 0.8
-  changefreq: 'daily'
-permalink: /downloads/source
+  lastmod:		2017-12-01
+  priority:		0.8
+  changefreq:	'daily'
+permalink:		/downloads/source
 ---
 
 {::options parse_block_html="true" /}

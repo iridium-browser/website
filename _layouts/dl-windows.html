@@ -7,15 +7,12 @@ layout: downloads-layout
 		<header class="major">
 			<h2>{{ page.title }}</h2>
 		</header>
-
-
 		<div class="icon dl fa-windows"></div>
 		<header>
 			<h3>{{ page.OS }}</h3>
 			<p>current version {{ page.version }}</br>
 			<small>(based on Chromium {{ page.chromium }})</small></p>
 		</header>
-
 		<div class="container 50%">
 			<h4>Standard Version</h4>
 			<div class="row">
@@ -41,8 +38,9 @@ layout: downloads-layout
 			</div></div>
 		<p>If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/windows/" title="go to build archive" target="_blank">build archive</a></p>
 		<p>System requirements:<br/>
-		&#8226; Windows 7+<br/>
-		&#8226; An Intel Pentium 4 processor or later that's SSE2 capable</p>
+		{% for sys-rqrmnts in page.sys-rqrmnts %}
+			&#8226; {{ sys-rqrmnts }}<br/>
+		{% endfor %}</p>
 		<p>The Windows Installer is produced by <a href="http://www.advancedinstaller.com/" title="Advanced Installer" target="_blank">Advanced Installer</a></p>
     </div>
 </section>
