@@ -1,0 +1,53 @@
+---
+---
+{
+	"manifest_version": 2,
+	"name": "{{ site.title }}",
+	"short_name": "{{ site.title }}",
+	"start_url": "\/index.html",
+	"scope": "\/",
+	"theme_color": "#ececec",
+	"background_color": "#ececec",
+	"description": "Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure the most secure technologies are used.",
+	"display": "standalone",
+	"prefer_related_applications": false,
+	"offline_enabled": true,
+	"icons": [
+		{
+		"src": "images\/app-icons\/android_36x36.png",
+		"sizes": "36x36",
+		"type": "image\/png",
+		"density": 0.75
+		}, {
+		"src": "images\/app-icons\/android_48x48.png",
+		"sizes": "48x48",
+		"type": "image\/png",
+		"density": 1.0
+		}, {
+		"src": "images\/app-icons\/android_72x72.png",
+		"sizes": "72x72",
+		"type": "image\/png",
+		"density": 1.5
+		}, {
+		"src": "images\/app-icons\/android_96x96.png",
+		"sizes": "96x96",
+		"type": "image\/png",
+		"density": 2.0
+		}, {
+		"src": "images\/app-icons\/android_144x144.png",
+		"sizes": "144x144",
+		"type": "image\/png",
+		"density": 3.0
+		}, {
+		"src": "images\/app-icons\/android_192x192.png",
+		"sizes": "192x192",
+		"type": "image\/png",
+		"density": 4.0
+		}, {
+		"src": "images\/app-icons\/android_512x512.png",
+		"sizes": "512x512",
+		"type": "image\/png",
+		"density": 4.0
+		}
+	]
+}

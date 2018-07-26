@@ -35,7 +35,6 @@ AddType text/html .html .htm
 AddType text/css .css
 AddType text/xml .xml
 
-
 <IfModule mod_headers.c>
 Header set Content-Security-Policy "script-src 'self' https://iridiumbrowser.de/; base-uri 'self';"
 Header always set X-FRAME-OPTIONS "DENY"
