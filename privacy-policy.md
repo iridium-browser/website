@@ -1,8 +1,8 @@
 ---
 layout: pagecentered
 style: style1
-title: "data protection"
-description: "Data protection according to General Data Protection Regulation (GDPR)"
+title: "privacy policy"
+description: "Privacy policy according to General Data Protection Regulation (GDPR)"
 menu: no
 id: imprint
 style: style1

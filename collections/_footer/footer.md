@@ -34,10 +34,10 @@ button:
    name: RSS feed
    title: add RSS feed
    icon: fa-rss
- - link: /data-protection
+ - link: /privacy-policy
    blank: 
-   name: data protection
-   title: go to data protection
+   name: privacy policy
+   title: go to privacy policy
    icon: fa-shield
  - link: /imprint
    blank: 
