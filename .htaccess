@@ -21,7 +21,6 @@ Header append Vary User-Agent
 AddDefaultCharset UTF-8
 AddCharset application/font-woff2 .woff2
 AddCharset application/x-font-woff2 .woff2
-
 AddType application/pdf .pdf
 AddType application/x-apple-diskimage .dmg .smi .img
 AddType application/x-font-woff2 .woff2
@@ -36,13 +35,22 @@ AddType text/css .css
 AddType text/xml .xml
 
 <IfModule mod_headers.c>
-Header set Content-Security-Policy "script-src 'self' https://iridiumbrowser.de/; base-uri 'self';"
-Header always set X-FRAME-OPTIONS "DENY"
-Header always set X-XSS-Protection "1; mode=block"
-Header always set X-Content-Type-Options "nosniff"
-<FilesMatch "\.(js|css|xml|gz|html)$">
-  Header append Vary: Accept-Encoding
-</FilesMatch>
+  Header set Content-Security-Policy "script-src 'self' https://iridiumbrowser.de/; base-uri 'self';"
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set X-Robots-Tag "none"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-Download-Options "noopen"
+  Header set X-Permitted-Cross-Domain-Policies "none"
+  SetEnv modHeadersAvailable true
+  Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains; env=HTTPS"
+  Header set Connection keep-alive
+  <FilesMatch "\.(js|css|xml|gz|html)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+  <FilesMatch "\.(eot|svg|ttf|woff|woff2)$">
+    Header set Cache-Control "max-age=2628000"
+  </FilesMatch>
 </IfModule>
 
 <IfModule mod_deflate.c>
