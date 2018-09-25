@@ -2410,10 +2410,10 @@ sitemap:
 
 /* IRIDIUM LOGO-LARGE */
 	.logo {
-		width: 561px;
-		height: 350px;
+		width: 560px;
+		height: 338px;
 		background-size: cover; 
-		background-image: url(../../images/logos/iridium-logo_561x350.png);
+		background-image: url(../../images/logos/iridium-logo_large.svg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		display:block;
@@ -2422,19 +2422,19 @@ sitemap:
 	
 		/* XLarge */
 		@include breakpoint(xlarge) {
-			width: 561px;
-			height: 350px;
+			width: 560px;
+			height: 338px;
 		}
 		/* Large */
 		@include breakpoint(large) {
 			width: 480px;
-			height: 300px;
+			height: 290px;
 			margin: 3.5em auto 2.5em auto;
 		}
 		/* Medium */
 		@include breakpoint(medium) {
 			width: 400px;
-			height: 250px;
+			height: 241px;
 			margin: 2.5em auto 2em auto;
 		}
 		/* Small */
@@ -2446,10 +2446,10 @@ sitemap:
 
 /* IRIDIUM LOGO-SMALL */
 	.logo-small {
-		width: 582px;
-		height: 127px;
-		background-size: 582px 127px; 
-		background-image: url(../../images/logos/iridium-small_582x127.png);
+		width: 580px;
+		height: 128px;
+		background-size: 580px 128px; 
+		background-image: url(../../images/logos/iridium-logo_small.svg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		display:block;
@@ -2459,33 +2459,33 @@ sitemap:
 	/* XLarge */
 	@include breakpoint(xlarge) {
 		.logo-small {
-			width: 582px;
-			height: 127px;
-			background-size: 582px 127px; 
+			width: 580px;
+			height: 128px;
+			background-size: 580px 128px; 
 		}
 	}
 	/* Large */
 	@include breakpoint(large) {
 		.logo-small {
 			width: 500px;
-			height: 109px;
-			background-size: 500px 109px; 
+			height: 110px;
+			background-size: 500px 110px; 
 		}
 	}
 	/* Medium */
 	@include breakpoint(medium) {
 		.logo-small {
 			width: 416px;
-			height: 91px;
-			background-size: 416px 91px;
+			height: 92px;
+			background-size: 416px 92px;
 		}
 	}
 	/* Small */
 	@include breakpoint(small) {
 		.logo-small {
 			width: 250px;
-			height: 30px;
-			background-size: 250px 30px;
+			height: 55px;
+			background-size: 250px 55px;
 		}	
 	}
 
