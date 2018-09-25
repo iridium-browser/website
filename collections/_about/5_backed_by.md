@@ -2,7 +2,7 @@
 layout: start-layout
 style: style1
 title: ""
-icon-class:
+icon-class: 
 ---
 
 ### Backed by Serious People #
