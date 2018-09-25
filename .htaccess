@@ -36,10 +36,10 @@ AddType text/xml .xml
 
 <IfModule mod_headers.c>
   Header set Content-Security-Policy "script-src 'self' https://iridiumbrowser.de/; base-uri 'self';"
-  Header set X-Content-Type-Options "nosniff"
-  Header set X-XSS-Protection "1; mode=block"
-  Header set X-Robots-Tag "none"
+  Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
   Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set X-Content-Type-Options "nosniff"
   Header set X-Download-Options "noopen"
   Header set X-Permitted-Cross-Domain-Policies "none"
   SetEnv modHeadersAvailable true
