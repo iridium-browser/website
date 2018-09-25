@@ -1,8 +1,11 @@
 ---
-layout: pagecentered
+layout: legal
 style: style1
 title: "Imprint"
 description: "Imprint with legal information, terms of use, data protection, transfer of use, applicable law as well as contact information"
+tracker-title:		"Bug Tracker"
+tracker-content:	"Please report any issues, and address any questions to our bug tracker at GitHub."
+tracker-link:		"https://github.com/iridium-browser/tracker/issues"
 menu: no
 id: imprint
 style: style1
@@ -12,17 +15,8 @@ sitemap:
   priority: 0.1
   changefreq: 'weekly'
 ---
-
-### Bug Tracker ###
-Please report any issues, and address any questions to our bug tracker at GitHub.      
-    
-[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker at GitHub"){:target="_blank" .button .small rel="noreferrer"}     
-
-----
    
-   
-Betreiber der Webseite
-----------------------
+### Betreiber der Webseite #
 
 [ ](https://osb-alliance.de "OSBA Website"){:.logo-osba target="_blank" rel="noreferrer"}
 

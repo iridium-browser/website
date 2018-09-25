@@ -1,8 +1,11 @@
 ---
-layout: pagecentered
+layout: legal
 style: style1
 title: "privacy policy"
 description: "Privacy policy according to General Data Protection Regulation (GDPR)"
+tracker-title:		"Bug Tracker"
+tracker-content:	"Please report any issues, and address any questions to our bug tracker at GitHub."
+tracker-link:		"https://github.com/iridium-browser/tracker/issues"
 menu: no
 id: imprint
 style: style1
@@ -13,16 +16,7 @@ sitemap:
   changefreq: 'weekly'
 ---
 
-### Bug Tracker ###
-Please report any issues, and address any questions to our bug tracker at GitHub.      
-    
-[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker at GitHub"){:target="_blank" .button .small rel="noreferrer"}     
-
-----
-   
-   
-Datenschutzerklärung
-----------------------
+### Datenschutzerklärung #
 
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:     
      
