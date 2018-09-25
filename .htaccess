@@ -21,8 +21,15 @@ Header append Vary User-Agent
 AddDefaultCharset UTF-8
 AddCharset application/font-woff2 .woff2
 AddCharset application/x-font-woff2 .woff2
+
+AddType font/truetype .ttf
+AddType font/opentype .otf
+AddType application/font-woff .woff
+AddType application/font-woff2 .woff2
+AddType application/javascript .js
 AddType application/pdf .pdf
 AddType application/x-apple-diskimage .dmg .smi .img
+AddType application/x-font-woff .woff
 AddType application/x-font-woff2 .woff2
 AddType application/x-msdownload .exe .dll .ocx .com .bat .msi .mso
 AddType application/zip .zip .zipx
