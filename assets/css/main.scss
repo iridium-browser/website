@@ -2538,8 +2538,8 @@ sitemap:
 		background-image:  url(../../images/logos/logo-osba_200x80.png);
 		background-position: center center; 
 		background-repeat: no-repeat;
-		display:block;
-		margin: 0 auto;
+		display: block;
+		margin: 0;
 	}
 	/* NetItWork */
 	.logo-netitwork {
@@ -2806,13 +2806,9 @@ sitemap:
 	.marquee div:hover {
 		animation-play-state: paused;
 	}
-	span {
-		float: left;
-		width: 50%;
-	}
 	@keyframes marquee {
-		0% { left: 0; }
-		100% { left: -100%; }
+		0%   { transform: translate(0, 0); }
+		100% { transform: translate(-100%, 0); }
 	}
 	
 /* FEATURES */	
