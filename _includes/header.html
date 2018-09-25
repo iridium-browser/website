@@ -12,8 +12,7 @@
 					for submenu-details in my_page.submenu-details %}
 						<li><a href="{{ submenu-details.link | relative_url }}" title="{{ submenu-details.title }}"{% if submenu-details.link == page.url %} class="active"{% endif %}>{{ submenu-details.name }}</a></li>{% 
 					endfor %}
-					</ul>{% endif %}
-				</li>{% endif %}{% endfor %}{% endfor %}
+					</ul>{% endif %}</li>{% endif %}{% endfor %}{% endfor %}
 			</ul>
 		</nav>
 	</div>
