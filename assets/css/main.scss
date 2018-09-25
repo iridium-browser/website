@@ -2524,6 +2524,18 @@ sitemap:
 		}	
 	}
 
+/* OSBA - LEGAL */
+	.logo-osba-legal {
+		width: 200px;
+		height: 81px;
+		background-size: 200px 80px;
+		background-image:  url(../../images/logos/logo-osba_200x80.png);
+		background-position: center center; 
+		background-repeat: no-repeat;
+		display: block;
+		margin: 0;
+	}
+
 
 /* DEVELOPER LOGOS */
 	/* Text */
@@ -2539,7 +2551,7 @@ sitemap:
 		background-position: center center; 
 		background-repeat: no-repeat;
 		display: block;
-		margin: 0;
+		margin: 0 auto;
 	}
 	/* NetItWork */
 	.logo-netitwork {
