@@ -14,7 +14,7 @@
 				<p>{% for button in footer.button %}
 				<a href="{{ button.link | relative_url }}" title="{{ button.title }}" class="button small footer icon {{ button.icon }}"{% if button.blank == 'yes' %} target="_blank"{% endif %}>{{ button.name }}</a>
 				{% endfor %}</p>
-				<div class="copyright">&copy; <a href="{{ footer.organization.link }}" title="{{ footer.organization.name }}" target="_blank">{{ footer.organization.name }}</a></div>
+				<div class="copyright">&copy; <a href="{{ footer.organization.link }}" title="{{ footer.organization.name }}" target="_blank" rel="noreferrer">{{ footer.organization.name }}</a></div>
 			{% endfor %}
             </section>
         </div>
