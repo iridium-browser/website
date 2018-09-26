@@ -36,12 +36,10 @@ button:
    blank: 
    name: privacy policy
    title: go to privacy policy
-   icon: fa-shield
  - link: /imprint
    blank: 
    name: imprint
    title: go to imprint
-   icon: fa-legal
 organization:
   name: Open Source Business Alliance
   link: https://osb-alliance.de
