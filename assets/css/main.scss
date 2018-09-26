@@ -1022,6 +1022,19 @@ sitemap:
 				background-color: darken(_palette(accent1, bg-light), 5);
 			}
 		}
+		&.download2 {
+			background-color: darken(_palette(accent1, bg), 5);
+			box-shadow: inset 0 0 0 2px darken(_palette(accent1, bg), 5);
+			color: _palette(accent1, fg-bold) !important;
+
+			&:hover {
+				background-color: lighten(_palette(accent1, bg), 5);
+			}
+
+			&:active {
+				background-color: darken(_palette(accent1, bg), 10);
+			}
+		}
 		
 		&.read-more {
 			background-color: _palette(fg);
@@ -2869,7 +2882,7 @@ sitemap:
 		.icon {
 			font-size: .8em;
 			margin-right: .7em;
-			top: -0.125em;
+			top: -0.175em;
 		}
 		.row {
 			padding-left: 2em;
@@ -2901,6 +2914,7 @@ sitemap:
 		}
 		small {
 			font-size: .85em;
+			color: darken(_palette(fg-light), 10);
 		}
 
 		.teaser-card {
