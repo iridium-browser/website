@@ -28,12 +28,10 @@ soc-media:
  - link: https://plus.google.com/+IridiumBrowser
    title: Iridium Browser on Google+
    icon: fa-google-plus
-button: 
  - link: /feed.xml
-   blank: "yes"
-   name: RSS feed
    title: add RSS feed
    icon: fa-rss
+button: 
  - link: /privacy-policy
    blank: 
    name: privacy policy

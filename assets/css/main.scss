@@ -1051,7 +1051,7 @@ sitemap:
 
 			&.icon {
 				&:before {
-					color: _palette(fg-light);
+					color: lighten(_palette(fg-light), 15);
 				}
 			}
 
@@ -1521,7 +1521,7 @@ sitemap:
 	#footer {
 		@include padding(3em, 0);
 		background-color: _palette(accent2, bg);
-		color: _palette(fg-light);
+		color: lighten(_palette(fg-light), 15);
 
 		h1, h2, h3, h4, h5, h6 {
 			color: _palette(accent2, fg-bold);
@@ -1533,7 +1533,7 @@ sitemap:
 
 		a:not(.button) {
 			@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
-			color: _palette(fg-light);
+			color: lighten(_palette(fg-light), 15);
 			text-decoration: none;
 
 			&:active, &:hover {
@@ -1583,7 +1583,7 @@ sitemap:
 		}
 
 		.copyright {
-			color: _palette(accent2, border);
+			color: lighten(_palette(fg-light), 15);
 			font-size: 0.85em;
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 			padding: 0;
