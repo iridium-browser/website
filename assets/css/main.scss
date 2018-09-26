@@ -2886,7 +2886,7 @@ sitemap:
 		}
 		.row {
 			padding-left: 2em;
-			margin-bottom: 3.5em;
+			margin: 2em 0 3.5em -1.25em;
 
 			@include breakpoint(xlarge) {
 				padding-left: 2em;
@@ -2905,9 +2905,6 @@ sitemap:
 		}
 		h4 {
 			margin-bottom: 2em;
-		}
-		.row {
-			margin: 2em 0 3.5em 0;
 		}
 		.button {
 			margin: .5em 0 1em 0;
