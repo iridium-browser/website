@@ -37,6 +37,7 @@ AddType image/jpeg .jpeg .jpg .jpe .JPG
 AddType image/png .png
 AddType image/svg+xml .svg .svgz
 AddType image/vnd.microsoft.icon .ico
+AddType image/x-icon .ico
 AddType text/html .html .htm
 AddType text/css .css
 AddType text/xml .xml
