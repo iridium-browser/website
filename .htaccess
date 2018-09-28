@@ -65,11 +65,12 @@ AddType text/xml .xml
   ExpiresActive On
   ExpiresDefault "access plus 600 seconds"
 
-  ExpiresByType image/jpg						"access plus 1 month"
-  ExpiresByType image/jpeg						"access plus 1 month"
-  ExpiresByType image/png						"access plus 1 month"
-  ExpiresByType image/svg+xml					"access plus 1 month"
-  ExpiresByType image/x-icon					"access plus 1 month"
+  ExpiresByType image/icon						"access plus 2 month"
+  ExpiresByType image/jpg						"access plus 2 month"
+  ExpiresByType image/jpeg						"access plus 2 month"
+  ExpiresByType image/png						"access plus 2 month"
+  ExpiresByType image/svg+xml					"access plus 2 month"
+  ExpiresByType image/x-icon					"access plus 2 month"
   ExpiresByType font/eot						"access plus 1 year"
   ExpiresByType font/opentype					"access plus 1 year"
   ExpiresByType font/otf						"access plus 1 year"
@@ -78,11 +79,16 @@ AddType text/xml .xml
   ExpiresByType font/woff2						"access plus 1 year"
   ExpiresByType application/font-woff			"access plus 1 year"
   ExpiresByType application/font-woff2			"access plus 1 year"
+  ExpiresByType application/ico					"access plus 1 year"
+  ExpiresByType application/javascript			"access plus 2 month"
   ExpiresByType application/x-font-woff			"access plus 1 year"
   ExpiresByType application/x-font-woff2		"access plus 1 year"
+  ExpiresByType application/x-ico				"access plus 1 year"
+  ExpiresByType application/x-javascript 		"access plus 2 month"
   ExpiresByType application/vnd.ms-fontobject	"access plus 1 year"
+  ExpiresByType text/javascript					"access plus 2 month"
 </IfModule>
-<FilesMatch "\.(css|htm|html|js|json)$">
+<FilesMatch "\.(css|htm|html|json)$">
 	<IfModule mod_expires.c>
 		ExpiresActive Off
 	</IfModule>
