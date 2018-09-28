@@ -14,7 +14,8 @@ hotpic: /images/hotpics/Iridium-hotpic.png
 hotpic-fb: /images/hotpics/Iridium-hotpic_FB.png
 hotpic-tw: /images/hotpics/Iridium-hotpic_TW.png  
 keywords: "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Secure Browser Project, Secure Browser, Privacy Browser, Chromium based, Windows, macOS, Ubuntu, Debian, Mint, openSUSE, Fedora, Linux, Red Hat Enterprise Linux, CentOS"
-  
+
+# Build settings  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://iridiumbrowser.de # the base hostname & protocol for your site
 
@@ -29,7 +30,6 @@ collections_dir: collections
 
 plugins: [jekyll-paginate]
   
-# Build settings
 sass:
     sass_dir: /assets/_sass
     style: compressed
