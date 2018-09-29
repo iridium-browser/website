@@ -46,7 +46,7 @@ AddType text/css .css
 AddType text/xml .xml
 
 <IfModule mod_headers.c>
-  Header set Content-Security-Policy "script-src 'self' https://test.iridiumbrowser.de/; base-uri 'self';"
+  Header set Content-Security-Policy "script-src 'self' https://iridiumbrowser.de/; base-uri 'self';"
   Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set X-XSS-Protection "1; mode=block"
