@@ -13,11 +13,11 @@
 	"offline_enabled": true,
 	"icons": [
 		{
-		"src": "images/app-icons/android_16x16.png",
+		"src": "images/app-icons/favicon_16x16.png",
 		"sizes": "16x16",
 		"type": "image/png"
 		}, {
-		"src": "images/app-icons/android_36x36.png",
+		"src": "images/app-icons/favicon_36x36.png",
 		"sizes": "36x36",
 		"type": "image/png"
 		}, {
