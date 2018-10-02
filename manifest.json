@@ -3,7 +3,7 @@
 {
 	"manifest_version": 2,
 	"name": "{{ site.title }}",
-	"short_name": "{{ site.title }}",
+	"short_name": "{{ app.title }}",
 	"start_url": "/",
 	"theme_color": "#ececec",
 	"background_color": "#ececec",
