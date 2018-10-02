@@ -33,11 +33,9 @@ soc-media:
    icon: fa-rss
 button: 
  - link: /privacy-policy
-   blank: 
    name: privacy policy
    title: go to privacy policy
  - link: /imprint
-   blank: 
    name: imprint
    title: go to imprint
 organization:

@@ -17,7 +17,7 @@ layout: default-layout
 	<div class="row uniform">
 	{% for about-logos in site.data.about-logos %}
 	<section class="3u 4u(xlarge) 6u(medium) special">
-		<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" target="{{ about-logos.target }}" class="{{ about-logos.logo-class }}" rel="noreferrer"></a>
+		<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" class="{{ about-logos.logo-class }}"></a>
 		<div class="logo-text">{{ about-logos.title }}</div>
 	</section>
 	{% endfor %}

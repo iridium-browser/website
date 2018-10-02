@@ -11,6 +11,6 @@ menu: no
 style: style1
 ---
 
-OSB-Alliance Pressemitteilung zu Iridium Browser - [OSBA Website](http://osb-alliance.de/news/pressemitteilungen/vorlieben-hobbys-krankheiten-geschaefte "OSBA Pressemitteilung"){:target="_blank"}   
+OSB-Alliance Pressemitteilung zu Iridium Browser - [OSBA Website](http://osb-alliance.de/news/pressemitteilungen/vorlieben-hobbys-krankheiten-geschaefte "OSBA Pressemitteilung")   
 <!--break-->
      
