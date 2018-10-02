@@ -13,7 +13,7 @@ structured-data:
   os0:			openSUSE
   os1:			openSUSE
   value:		5
-  count:		91
+  count:		118
 sitemap:
   lastmod:		2018-05-11
   priority:		0.8

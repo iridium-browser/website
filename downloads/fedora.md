@@ -13,7 +13,7 @@ structured-data:
   os0:			Fedora
   os1:			Fedora
   value:		4.9
-  count:		42
+  count:		77
 sitemap:
   lastmod:		2018-06-04
   priority:		0.8

@@ -13,7 +13,7 @@ structured-data:
   os0: 			Windows
   os1: 			Windows
   value: 		4.9
-  count: 		1044
+  count: 		3724
 sitemap:
   lastmod:		2018-05-11
   priority:		0.8

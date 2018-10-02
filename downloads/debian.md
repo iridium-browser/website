@@ -16,7 +16,7 @@ structured-data:
   os3:			Ubuntu
   os4:			Debian-based
   value:		5
-  count:		247
+  count:		312
 sitemap:
   lastmod:		2018-05-30
   priority:		0.8

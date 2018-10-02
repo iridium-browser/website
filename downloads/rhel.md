@@ -14,7 +14,7 @@ structured-data:
   os1:			Red Hat Enterprise Linux
   os2:			CentOS
   value:		4.9
-  count:		47
+  count:		104
 sitemap:
   lastmod:		2018-06-04
   priority:		0.8

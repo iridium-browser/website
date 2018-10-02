@@ -13,7 +13,7 @@ structured-data:
   os0:			macOS
   os1:			macOS
   value:		4.9
-  count:		967
+  count:		1231
 sitemap:
   lastmod:		2018-05-11
   priority:		0.8

@@ -19,7 +19,7 @@ structured-data:
   os6:			Red Hat Enterprise Linux
   os7:			CentOS
   value:		5
-  count:		498
+  count:		611
 sitemap:
   exclude:		'yes'
 permalink:		/downloads/linux
