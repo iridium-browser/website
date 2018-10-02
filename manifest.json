@@ -7,7 +7,7 @@
 	"start_url": "/",
 	"theme_color": "#ececec",
 	"background_color": "#ececec",
-	"description": "{{ site.description }}",
+	"description": "{{site.description | strip_newlines}}",
 	"display": "standalone",
 	"prefer_related_applications": false,
 	"offline_enabled": true,
@@ -20,7 +20,8 @@
 		"src": "images/app-icons/favicon_36x36.png",
 		"sizes": "36x36",
 		"type": "image/png"
-		}, {
+		},
+		{
 		"src": "images/app-icons/android_48x48.png",
 		"sizes": "48x48",
 		"type": "image/png"
