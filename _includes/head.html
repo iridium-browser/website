@@ -1,4 +1,4 @@
-	<head>
+<head>
         <meta charset="utf-8" />
 		<link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
 		<link rel="shortcut icon" href="{{ '/favicon.png' | relative_url }}" type="image/x-icon">
@@ -14,7 +14,6 @@
 		<meta name="keywords" content="{{ site.keywords }}">
 		<meta name="title" content="{% if page.title %}{{ site.title | escape }} | {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 		<meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
-
 		<!-- Facebook -->
 		<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
 		<meta property="og:type" content="website">
@@ -39,12 +38,12 @@
 			<link rel="apple-touch-icon" sizes="1024x1024" href="{{ '/images/app-icons/ios_1024x1024.png' | relative_url }}"> 		<!-- iTunes -->
 		<!-- Android -->
 		<meta name="mobile-web-app-capable" content="yes" />
-			<link href="{{ '/images/app-icons/android_48x48.png' | relative_url }}" sizes="48x48" rel="icon" />						<!-- Android -->
-			<link href="{{ '/images/app-icons/android_72x72.png' | relative_url }}" sizes="72x72" rel="icon" />						<!-- Android -->
-			<link href="{{ '/images/app-icons/android_96x96.png' | relative_url }}" sizes="96x96" rel="icon" />						<!-- Android -->
-			<link href="{{ '/images/app-icons/android_144x144.png' | relative_url }}" sizes="144x144" rel="icon" />					<!-- Android -->
-			<link href="{{ '/images/app-icons/android_192x192.png' | relative_url }}" sizes="192x192" rel="icon" />					<!-- Android -->
-			<link href="{{ '/images/app-icons/android_512x512.png' | relative_url }}" sizes="512x512" rel="icon" />					<!-- Android -->
+			<link href="{{ '/images/app-icons/android_48x48.png' | relative_url }}" sizes="48x48" rel="icon" />					<!-- Android -->
+			<link href="{{ '/images/app-icons/android_72x72.png' | relative_url }}" sizes="72x72" rel="icon" />					<!-- Android -->
+			<link href="{{ '/images/app-icons/android_96x96.png' | relative_url }}" sizes="96x96" rel="icon" />					<!-- Android -->
+			<link href="{{ '/images/app-icons/android_144x144.png' | relative_url }}" sizes="144x144" rel="icon" />				<!-- Android -->
+			<link href="{{ '/images/app-icons/android_192x192.png' | relative_url }}" sizes="192x192" rel="icon" />				<!-- Android -->
+			<link href="{{ '/images/app-icons/android_512x512.png' | relative_url }}" sizes="512x512" rel="icon" />				<!-- Android -->
 		<!-- Windows -->
 		<meta name="msapplication-config" content="ieconfig.xml" />
 		<meta name="application-name" content="{{ site.title }}" />
