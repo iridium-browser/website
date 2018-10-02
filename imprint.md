@@ -18,7 +18,7 @@ sitemap:
    
 ### Betreiber der Webseite #
 
-[ ](https://osb-alliance.de "OSBA Website"){:.logo-osba-legal target="_blank" rel="noreferrer"}
+[ ](https://osb-alliance.de "OSBA Website"){:.logo-osba-legal}
 Open Source Business Alliance e.V.   
 Breitscheidstr. 4  
 70174 Stuttgart | Germany  
