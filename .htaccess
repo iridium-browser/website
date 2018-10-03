@@ -84,11 +84,11 @@ AddType text/xml .xml
   ExpiresByType application/font-woff2			"access plus 1 year"
   ExpiresByType application/ico					"access plus 1 year"
   ExpiresByType application/javascript			"access plus 2 month"
+  ExpiresByType application/vnd.ms-fontobject	"access plus 1 year"
   ExpiresByType application/x-font-woff			"access plus 1 year"
   ExpiresByType application/x-font-woff2		"access plus 1 year"
   ExpiresByType application/x-ico				"access plus 1 year"
   ExpiresByType application/x-javascript 		"access plus 2 month"
-  ExpiresByType application/vnd.ms-fontobject	"access plus 1 year"
   ExpiresByType text/javascript					"access plus 2 month"
 </IfModule>
 <FilesMatch "\.(css|htm|html|json)$">
