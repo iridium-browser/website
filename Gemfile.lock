@@ -71,7 +71,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 3.8.4)
-  jekyll-paginate (~> 1.1)
+  jekyll-paginate
   jekyll-pwa-plugin
   jekyll-target-blank
   tzinfo-data
