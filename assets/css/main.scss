@@ -2598,6 +2598,17 @@ sitemap:
 		display:block;
 		margin: 0 auto;
 	}
+	/* Bytemine */
+	.logo-bytemine {
+		width: 200px;
+		height: 81px;
+		background-size: 183px 50px;
+		background-image: url(../../images/logos/logo-bytemine.svg);
+		background-position: center center; 
+		background-repeat: no-repeat;
+		display:block;
+		margin: 0 auto;
+	}
 	/* Struktur */
 	.logo-struktur {
 		width: 200px;
@@ -2608,23 +2619,12 @@ sitemap:
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
-}
-	/* Bytemine */
-	.logo-bytemine {
-		width: 200px;
-		height: 81px;
-		background-size: 200px 55px;
-		background-image: url(../../images/logos/logo-bytemine.svg);
-		background-position: center center; 
-		background-repeat: no-repeat;
-		display:block;
-		margin: 0 auto;
 	}
 	/* DG-i */
 	.logo-dgi {
 		width: 200px;
 		height: 81px;
-		background-size: 96px 46px;
+		background-size: 73px 35px;
 		background-image: url(../../images/logos/logo-dg-i.svg);
 		background-position: center center; 
 		background-repeat: no-repeat;
@@ -2645,127 +2645,127 @@ sitemap:
 
 	/* Small */
 	@include breakpoint(small) {
-	/* Text */
-	.logo-text {
-		font-size: 8pt;
+		/* Text */
+		.logo-text {
+			font-size: 8pt;
+		}
+		/* OSBA */
+		.logo-osba {
+			width: 150px;
+			height: 61px;
+			background-size: 150px 60px;
+		}
+		/* NetItWork */
+		.logo-netitwork {
+			width: 150px;
+			height: 61px;
+			background-size: 150px 29px;
+		}
+		/* Kopano */
+		.logo-kopano {
+			width: 150px;
+			height: 61px;
+			background-size: 141px 33px;
+		}
+		/* Zarafa */
+		.logo-zarafa {
+			width: 125px;
+			height: 61px;
+			background-size: 118px 33px;
+		}
+		/* Neuberger &amp; Hughes */	
+		.logo-nh {	
+			width: 150px;
+			height: 61px;
+			background-size: 150px 35px;
+		}
+		/* Bytemine */
+		.logo-bytemine {
+			width: 150px;
+			height: 61px;
+			background-size: 128px 35px;
+		}
+		/* Struktur */
+		.logo-struktur {
+			width: 150px;
+			height: 61px;
+			background-size: 150px 20px;
+		}
+		/* DG-i */
+		.logo-dgi {
+			width: 150px;
+			height: 61px;
+			background-size: 52px 25px;
+		}
+		/* SUPPORTER */
+		.logo-supporter {
+			width: 200px;
+			height: 81px;
+			background-size: 150px 30px;
+		}
 	}
-	/* OSBA */
-	.logo-osba {
-		width: 150px;
-		height: 61px;
-		background-size: 150px 60px;
-	}
-	/* NetItWork */
-	.logo-netitwork {
-		width: 150px;
-		height: 61px;
-		background-size: 150px 29px;
-	}
-	/* Kopano */
-	.logo-kopano {
-		width: 150px;
-		height: 61px;
-		background-size: 141px 33px;
-	}
-	/* Zarafa */
-	.logo-zarafa {
-		width: 125px;
-		height: 61px;
-		background-size: 100px 28px;
-	}
-	/* Neuberger &amp; Hughes */	
-	.logo-nh {	
-		width: 150px;
-		height: 61px;
-		background-size: 150px 35px;
-	}
-	/* Struktur */
-	.logo-struktur {
-		width: 150px;
-		height: 61px;
-		background-size: 150px 20px;
-	}
-	/* Bytemine */
-	.logo-bytemine {
-		width: 150px;
-		height: 61px;
-		background-size: 150px 41px;
-	}
-	/* DG-i */
-	.logo-dgi {
-		width: 150px;
-		height: 61px;
-		background-size: 70px 30px;
-	}
-	/* SUPPORTER */
-	.logo-supporter {
-		width: 200px;
-		height: 81px;
-		background-size: 150px 30px;
-	}
-}
 
 	/* XSmall */
 	@include breakpoint(xsmall) {
-	/* Text */
-	.logo-text {
-		font-size: 7pt;
+		/* Text */
+		.logo-text {
+			font-size: 7pt;
+		}
+		/* OSBA */
+		.logo-osba {
+			width: 125px;
+			height: 50px;
+			background-size: 110px 44px;
+		}
+		/* NetItWork */
+		.logo-netitwork {
+			width: 125px;
+			height: 51px;
+			background-size: 125px 24px;
+		}
+		/* Kopano */
+		.logo-kopano {
+			width: 125px;
+			height: 51px;
+			background-size: 116px 27px;
+		}
+		/* Zarafa */
+		.logo-zarafa {
+			width: 125px;
+			height: 51px;
+			background-size: 89px 25px;
+		}
+		/* Neuberger &amp; Hughes */	
+		.logo-nh {	
+			width: 125px;
+			height: 51px;
+			background-size: 125px 29px;
+		}
+		/* Bytemine */
+		.logo-bytemine {
+			width: 125px;
+			height: 51px;
+			background-size: 96px 27px;
+		}
+		/* Struktur */
+		.logo-struktur {
+			width: 125px;
+			height: 51px;
+			background-size: 125px 17px;
+		}
+		/* DG-i */
+		.logo-dgi {
+			width: 125px;
+			height: 51px;
+			background-size: 42px 20px;
+		}
+		/* SUPPORTER */
+		.logo-supporter {
+			width: 125px;
+			height: 51px;
+			background-size: 123px 25px;
+		}
 	}
-	/* OSBA */
-	.logo-osba {
-		width: 125px;
-		height: 50px;
-		background-size: 125px 50px;
-	}
-	/* NetItWork */
-	.logo-netitwork {
-		width: 125px;
-		height: 51px;
-		background-size: 125px 24px;
-	}
-	/* Kopano */
-	.logo-kopano {
-		width: 125px;
-		height: 51px;
-		background-size: 120px 28px;
-	}
-	/* Zarafa */
-	.logo-zarafa {
-		width: 125px;
-		height: 51px;
-		background-size: 75px 21px;
-	}
-	/* Neuberger &amp; Hughes */	
-	.logo-nh {	
-		width: 125px;
-		height: 51px;
-		background-size: 125px 29px;
-	}
-	/* Struktur */
-	.logo-struktur {
-		width: 125px;
-		height: 51px;
-		background-size: 125px 17px;
-	}
-	/* Bytemine */
-	.logo-bytemine {
-		width: 125px;
-		height: 51px;
-		background-size: 125px 35px;
-	}
-	/* DG-i */
-	.logo-dgi {
-		width: 125px;
-		height: 51px;
-		background-size: 55px 23px;
-	}
-	/* SUPPORTER */
-	.logo-supporter {
-		width: 125px;
-		height: 51px;
-		background-size: 123px 25px;
-	}
-}
 
 
 /* MARQUEE */
