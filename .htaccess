@@ -30,6 +30,7 @@ AddType font/opentype .otf
 AddType application/font-woff .woff
 AddType application/font-woff2 .woff2
 AddType application/javascript .js
+AddType application/json .json
 AddType application/pdf .pdf
 AddType application/x-apple-diskimage .dmg .smi .img
 AddType application/x-font-woff .woff
