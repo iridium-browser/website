@@ -38,7 +38,7 @@ pwa:
   precache_recent_posts_num: 100 # Optional
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
-    - "/**/*.{js,css,htc,xml}"
+    - "/**/*.{css,htc,js,json,xml}"
     - "/**/*.{ico,jpg,jpeg,png,svg}"
     - "/**/*.html"
   precache_glob_ignores: # Optional
