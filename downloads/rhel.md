@@ -25,7 +25,7 @@ icon-class:			dlinux fl-redhat
 OS: 				Repository for RHEL & CentOS
 version:			2018.5
 chromium:			67.0.3396.40
-sys-rqrmnts:
+sys-reqs:
 - Red Hat Enterprise Linux 7+, CentOS 7+
 - An Intel Pentium 4 processor or later that's SSE2 capable
 ---

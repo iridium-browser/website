@@ -24,6 +24,6 @@ OS: 				macOS
 version:			2018.5
 chromium:			67.0.3396.40
 dl-link:			https://downloads.iridiumbrowser.de/macos/iridium_browser_macos_latest.dmg
-sys-rqrmnts:
+sys-reqs:
 - macOS Mavericks 10.9+
 ---

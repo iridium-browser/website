@@ -6,13 +6,13 @@
 <body>
 
 	{% include header.html %}
-	
-    <div class="page-content special">
-        {{ content }}
-    </div>
+
+	{{ content }}
 
     {% include footer.html %}
-
+    {% if page.structured-data == "yes" or "faq" %}{% unless page.structured-data == "no" %}
+    {% include jsonld-default.html %}
+	{% endunless %}{% endif %}
 </body>
 
 </html>
