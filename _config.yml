@@ -29,7 +29,7 @@ paginate_path: "/news/archive/page:num/"
 collections: [about, banner, contribute, faq, features, footer, footer-downloads, manifest, marquee]
 collections_dir: collections
 
-plugins: [jekyll-paginate, jekyll-pwa-plugin, jekyll-target-blank]
+plugins: [jekyll-paginate]
 
 pwa:
   sw_src_filepath: service-worker.js # Optional
