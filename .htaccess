@@ -4,7 +4,7 @@ RewriteRule ^download.html$ /downloads/ [R=301,L]
 RewriteRule ^downloads.html$ /downloads/ [R=301,L]
 RewriteRule ^download(/|$) /downloads/ [R=301,L]
 
-RewriteRule ^index(\\.html)? https://iridiumbrowser.de/ [R=301,C]
+RewriteRule ^index(\\.html)? https://test.iridiumbrowser.de/ [R=301,C]
 RewriteRule ^$ index.html [L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -47,7 +47,7 @@ AddType text/css .css
 AddType text/xml .xml
 
 <IfModule mod_headers.c>
-  Header set Content-Security-Policy "default-src https://iridiumbrowser.de/ 'self'; base-uri 'self'; script-src 'self' 'unsafe-inline'; worker-src https://iridiumbrowser.de/service-worker.js https://iridiumbrowser.de/sw-register.js; connect-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline';"
+  Header set Content-Security-Policy "default-src https://test.iridiumbrowser.de/ 'self'; base-uri 'self'; script-src 'self' 'unsafe-inline'; worker-src https://test.iridiumbrowser.de/service-worker.js https://test.iridiumbrowser.de/sw-register.js; connect-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline';"
   Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set X-XSS-Protection "1; mode=block"
