@@ -21,6 +21,7 @@ gem "jekyll", "3.8.4"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"
+  gem "jekyll-pwa-plugin"
 
 end
 
