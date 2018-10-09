@@ -25,9 +25,6 @@ soc-media:
  - link: https://twitter.com/iridiumbrowser
    title: Iridium Browser on Twitter
    icon: fa-twitter
- - link: https://plus.google.com/+IridiumBrowser
-   title: Iridium Browser on Google+
-   icon: fa-google-plus
  - link: /feed.xml
    title: add RSS feed
    icon: fa-rss
@@ -42,4 +39,3 @@ organization:
   name: Open Source Business Alliance
   link: https://osb-alliance.de
 ---
-
