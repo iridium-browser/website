@@ -1303,7 +1303,7 @@ sitemap:
 					margin-left: 1.75em;
 					padding-left: 0;
 					font-size: 1.1em;
-					font-weight: weight-bold;
+					font-weight: _font(weight-bold);
 
 					a {
 						@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
@@ -3024,7 +3024,7 @@ sitemap:
 	}
 	#news-archive {
 		.c1, .c3 {
-			font-weight: medium;
+			font-weight: _font(weight-bold);
 		}
 		.c2 {
 			font-size: 1.25em;
@@ -3178,7 +3178,6 @@ sitemap:
 			padding: 0;
 		}
 		code {
-			align: left;
 			text-align: left;
 		}
 	}
