@@ -11,6 +11,6 @@ menu: no
 style: style1
 ---
 
-Iridium Browser development team to meet at the [Kopano Conference](https://kopano.com/conference/) in Vaals (NL) on 6 & 7 October - feel free to join!   
+Iridium Browser development team to meet at the [Kopano Conference](https://kopano.com/conference/){:target="blank" rel="noopener noreferrer"} in Vaals (NL) on 6 & 7 October - feel free to join!   
 <!--break-->
      

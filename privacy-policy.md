@@ -20,13 +20,13 @@ sitemap:
 
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:     
      
-[ ](https://osb-alliance.de "OSBA Website"){:.logo-osba-legal}
+[ ](https://osb-alliance.de "OSBA Website"){:target="blank" rel="noopener noreferrer" .logo-osba-legal}
 Open Source Business Alliance e.V.   
 Breitscheidstr. 4  
 70174 Stuttgart | Germany  
 Tel. +49 711 90715-390  
 Fax +49 711 90715-350  
-[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website"){:target="_blank" rel="noreferrer"}     
+[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website")[ ](https://osb-alliance.de "OSBA Website"){:target="blank" rel="noopener noreferrer"}     
 
 *Ihre Betroffenenrechte*    
 Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:    

@@ -18,13 +18,13 @@ sitemap:
    
 ### Betreiber der Webseite #
 
-[ ](https://osb-alliance.de "OSBA Website"){:.logo-osba-legal}
+[ ](https://osb-alliance.de "OSBA Website"){:target="blank" rel="noopener noreferrer" .logo-osba-legal}
 Open Source Business Alliance e.V.   
 Breitscheidstr. 4  
 70174 Stuttgart | Germany  
 Tel. +49 711 90715-390  
 Fax +49 711 90715-350  
-[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website"){:target="_blank" rel="noreferrer"}     
+[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website"){:target="blank" rel="noopener noreferrer"}     
 
 #### Angaben gemäß § 6 TDG und § 10 MDStV #
 *Vertretungsberechtigter Vorstand*  

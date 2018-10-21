@@ -5,11 +5,11 @@
 		for footer in site.footer %}
 			<h3>{{ footer.title }}</h3>{% 
 			for step-in in footer.step-in %}{{ 
-			step-in.text }} <strong><a href="{{ step-in.link }}" title="{{ step-in.title }}">{{ step-in.name }}</a></strong>.<br/>{% 
+			step-in.text }} <strong><a href="{{ step-in.link }}" title="{{ step-in.title }}" target="blank" rel="noopener noreferrer">{{ step-in.name }}</a></strong>.<br/>{% 
 			endfor %}<br/>
 			<h6>{{ footer.subtitle }}</h6>{% 
 			for soc-media in footer.soc-media %}
-			<a href="{{ soc-media.link }}" title="{{ soc-media.title }}"><span class="button-round fa {{ soc-media.icon }}"></span></a>{% 
+			<a href="{{ soc-media.link }}" title="{{ soc-media.title }}" target="blank" rel="noopener noreferrer"><span class="button-round fa {{ soc-media.icon }}"></span></a>{% 
 			endfor %}<br/><br/><p>{% 
 			for button in footer.button %}
 			<a href="{{ button.link | relative_url }}" title="{{ button.title }}" class="button small footer">{{ button.name }}</a>{% 
