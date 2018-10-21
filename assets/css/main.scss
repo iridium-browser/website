@@ -1303,7 +1303,7 @@ sitemap:
 					margin-left: 1.75em;
 					padding-left: 0;
 					font-size: 1.1em;
-					font-weight: _font(weight-bold);
+					font-weight: _font(weight);
 
 					a {
 						@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
