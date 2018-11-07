@@ -16,7 +16,7 @@ sitemap:
   changefreq: 'weekly'
 ---
 
-### Datenschutzerklärung #
+#### Datenschutzerklärung #
 
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:     
      

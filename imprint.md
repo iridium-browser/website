@@ -16,7 +16,7 @@ sitemap:
   changefreq: 'weekly'
 ---
    
-### Betreiber der Webseite #
+#### Betreiber der Webseite #
 
 [ ](https://osb-alliance.de "OSBA Website"){:target="blank" rel="noopener noreferrer" .logo-osba-legal}
 Open Source Business Alliance e.V.   
@@ -26,7 +26,7 @@ Tel. +49 711 90715-390
 Fax +49 711 90715-350  
 [E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website")     
 
-#### Angaben gemäß § 6 TDG und § 10 MDStV #
+##### Angaben gemäß § 6 TDG und § 10 MDStV #
 *Vertretungsberechtigter Vorstand*  
 Peter Ganten (Vorsitzender)
 
@@ -35,7 +35,7 @@ Eingetragen im Vereinsregister
 Registergericht: Amtsgericht Stuttgart, Registernummer: VR7217  
 Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE240931660  
 
-#### Rechtliche Informationen #
+##### Rechtliche Informationen #
 *Haftungshinweis*  
 Die Informationen, die Sie auf dieser Website vorfinden, wurden aus internen und externen Quellen nach bestem Wissen und Gewissen mit professioneller Sorgfalt zusammengestellt. Der Herausgeber und die Redaktion sind bemüht, dieses Informationsangebot stetig zu erweitern und zu aktualisieren. Es wird jedoch keine Garantie — weder ausdrücklich noch stillschweigend — für die Vollständigkeit, Richtigkeit oder Aktualität der Informationen auf dieser Website übernommen.
 
