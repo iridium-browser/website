@@ -8,7 +8,7 @@ id: manifest
 
 Before Iridium Browser, we had to decide if we wanted to have cutting edge technologies like sandboxed processes, WebRTC, WebUSB … , or if we wanted to use a browser that respects our privacy.
 So we decided to use the power of free software and build a browser that can do both. We analysed the code of Chromium and stripped out the functionality which exposes data to others in a way we don‘t like.    
-See most important changes in our [wiki on GitHub](https://github.com/iridium-browser/tracker/wiki/Differences-between-Iridium-and-Chromium "Differences between Iridium and Chromium"){:target="blank" rel="noopener noreferrer"}   
+See most important changes in our [wiki on GitHub](https://github.com/iridium-browser/tracker/wiki/Differences-between-Iridium-and-Chromium "Differences between Iridium and Chromium")   
      
 Our ambition is to get builds for Debian, Ubuntu, openSUSE, Fedora, RHEL/CentOS, Windows and macOS a couple of days after a new release of Chromium.
 To achieve this, we need help from individuals and organisations, who have the same intention.
