@@ -1,37 +1,36 @@
 ---
-layout: downloads
-title: "Download for debian based systems"
-subtitle: ""
-description: Download Iridium Browser for all Debian based systems. Install package from repository using the command line.
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-dl-debian.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-dl-debian.png"
-id: debian
-style: 1
-menu: no
-link: /downloads/debian
+layout:			dl-repo
+title:			"Download for debian based systems"
+subtitle:		""
+description:	Download Iridium Browser for all Debian based systems. Install package from repository using the command line.
+hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-dl-debian.png"
+hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-dl-debian.png"
+id:				debian
+style:			1
+menu:			no
+link:			/downloads/debian
 structured-data:
-  os0: Debian based systems
-  os1: Debian
-  os2: Mint
-  os3: Ubuntu
-  os4: Debian-based
-  value: 5
-  count: 247
+  os0:			Debian based systems
+  os1:			Debian
+  os2:			Mint
+  os3:			Ubuntu
+  os4:			Debian-based
+  value:		5
+  count:		312
 sitemap:
-  lastmod: 2018-05-30
-  priority: 0.8
-  changefreq: 'daily'
-permalink: /downloads/debian
----
+  lastmod:		2018-05-30
+  priority:		0.8
+  changefreq:	'daily'
+permalink:		/downloads/debian
 
-{::options parse_block_html="true" /}
-<div class="dlinux fl-debian"></div>
-<header>
-### Repository for debian based systems #
-current version 2018.5      
-<small>(based on Chromium 67.0.3396.40)</small>
-</header>
-<div class="container 75%">
+icon-class:			dlinux fl-debian
+OS: 				Repository for Debian based systems
+version:			2018.5
+chromium:			67.0.3396.40
+sys-reqs:
+- Debian 8+, Mint 17+, Ubuntu 14.04+ (all 64-bit)
+- An Intel Pentium 4 processor or later that's SSE2 capable
+---
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
 	cat <<EOF | sudo tee /etc/apt/sources.list.d/iridium-browser.list
@@ -40,9 +39,3 @@ current version 2018.5
 	EOF
 	sudo apt-get update
 	sudo apt-get install iridium-browser
-     
-</div>
-\\
-System requirements:   
-&#8226; Debian 8+, Mint 17+, Ubuntu 14.04+ (all 64-bit)    
-&#8226; An Intel Pentium 4 processor or later that's SSE2 capable

@@ -14,6 +14,6 @@ sitemap:
   lastmod: 2018-02-20
   priority: 0.5
   changefreq: 'weekly'
-ATTENTION: Content is in a collection see '_faq'
+ATTENTION: Content is in a collection see 'collections/_faq'
 ---
 

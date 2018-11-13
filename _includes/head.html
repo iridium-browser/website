@@ -1,6 +1,7 @@
 <head>
         <meta charset="utf-8" />
-		<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="shortcut icon" href="{{ '/favicon.png' | relative_url }}" type="image/x-icon">
         <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
 		<link rel="alternate" hreflang="en-de" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
@@ -13,7 +14,6 @@
 		<meta name="keywords" content="{{ site.keywords }}">
 		<meta name="title" content="{% if page.title %}{{ site.title | escape }} | {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 		<meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
-
 		<!-- Facebook -->
 		<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
 		<meta property="og:type" content="website">
@@ -27,11 +27,32 @@
 		<meta name="twitter:title" content="{% if page.title %}{{ site.title | escape }} | {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 		<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 		<meta name="twitter:image" content="{% if page.hotpic-tw %}{{ page.hotpic-tw | absolute_url }}{% else %}{{ site.hotpic-tw | absolute_url }}{% endif %}">
-		<!-- iPhone/Pad Icons -->
-		<link rel="apple-touch-icon" href="{{ '/images/app-icons/AppIcon120x120.png' | relative_url }}">
-		<link rel="apple-touch-icon" sizes="152x152" href="{{ '/images/app-icons/AppIcon152x152.png' | relative_url }}"> <!-- iPad -->
-		<link rel="apple-touch-icon" sizes="167x167" href="{{ '/images/app-icons/AppIcon167x167.png' | relative_url }}"> <!-- iPad Pro -->
-		<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/app-icons/AppIcon180x180.png' | relative_url }}"> <!-- iPhone -->
+		<!-- Apple -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
+			<link rel="apple-touch-icon" href="{{ '/images/app-icons/ios_120x120.png' | relative_url }}">							<!-- iOS -->
+			<link rel="apple-touch-icon" sizes="76x76" href="{{ '/images/app-icons/ios_76x76.png' | relative_url }}">				<!-- iOS -->
+			<link rel="apple-touch-icon" sizes="152x152" href="{{ '/images/app-icons/ios_152x152.png' | relative_url }}">			<!-- iOS -->
+			<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/app-icons/ios_180x180.png' | relative_url }}"> 			<!-- iOS -->
+			<link rel="apple-touch-icon" sizes="1024x1024" href="{{ '/images/app-icons/ios_1024x1024.png' | relative_url }}"> 		<!-- iTunes -->
+		<!-- Android -->
+		<meta name="mobile-web-app-capable" content="yes" />
+			<link href="{{ '/images/app-icons/android_48x48.png' | relative_url }}" sizes="48x48" rel="icon" />					<!-- Android -->
+			<link href="{{ '/images/app-icons/android_72x72.png' | relative_url }}" sizes="72x72" rel="icon" />					<!-- Android -->
+			<link href="{{ '/images/app-icons/android_96x96.png' | relative_url }}" sizes="96x96" rel="icon" />					<!-- Android -->
+			<link href="{{ '/images/app-icons/android_144x144.png' | relative_url }}" sizes="144x144" rel="icon" />				<!-- Android -->
+			<link href="{{ '/images/app-icons/android_192x192.png' | relative_url }}" sizes="192x192" rel="icon" />				<!-- Android -->
+			<link href="{{ '/images/app-icons/android_512x512.png' | relative_url }}" sizes="512x512" rel="icon" />				<!-- Android -->
+		<!-- Windows -->
+		<meta name="msapplication-config" content="ieconfig.xml" />
+		<meta name="application-name" content="{{ site.title }}" />
+		<meta name="theme-color" content="#ececec" />
+		<meta name="msapplication-TileColor" content="#ececec" />
+		<meta name="msapplication-square70x70logo" content="{{ '/images/app-icons/win-small_70x70.png' | relative_url }}" />		<!-- Windows -->
+		<meta name="msapplication-square150x150logo" content="{{ '/images/app-icons/win-medium_150x150.png' | relative_url }}" />	<!-- Windows -->
+		<meta name="msapplication-square310x310logo" content="{{ '/images/app-icons/win-large_310x310.png' | relative_url }}" />	<!-- Windows -->
+		<meta name="msapplication-wide310x150logo" content="{{ '/images/app-icons/win-wide_310x150.png' | relative_url }}" />		<!-- Windows -->
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="{{ '/assets/js/ie/html5shiv.js' | relative_url }}"></script><![endif]-->

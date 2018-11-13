@@ -1,93 +1,27 @@
 <!-- Footer -->
-	<div id="footer">
-        <div class="container">
-            <section class="special">
-			{% for footer in site.footer %}
-				<h3>{{ footer.title }}</h3>
-				{% for step-in in footer.step-in %}
-				{{ step-in.text }} <strong><a href="{{ step-in.link }}" title="{{ step-in.title }}" target="_blank" rel="noreferrer">{{ step-in.name }}</a></strong>.<br/>
-				{% endfor %}<br/>
-				<h6>{{ footer.subtitle }}</h6>
-				{% for soc-media in footer.soc-media %}
-				<a href="{{ soc-media.link }}" title="{{ soc-media.title }}" target="_blank" rel="noreferrer"><span class="button-round fa {{ soc-media.icon }}"></span></a>
-				{% endfor %}<br/><br/>
-				<p>{% for button in footer.button %}
-				<a href="{{ button.link | relative_url }}" title="{{ button.title }}" class="button small footer icon {{ button.icon }}"{% if button.blank == 'yes' %} target="_blank"{% endif %}>{{ button.name }}</a>
-				{% endfor %}</p>
-				<div class="copyright">&copy; <a href="{{ footer.organization.link }}" title="{{ footer.organization.name }}" target="_blank">{{ footer.organization.name }}</a></div>
-			{% endfor %}
-            </section>
-        </div>
+<div id="footer">
+	<div class="container">
+		<section class="special">{% 
+		for footer in site.footer %}
+			<h3>{{ footer.title }}</h3>{% 
+			for step-in in footer.step-in %}{{ 
+			step-in.text }} <strong><a href="{{ step-in.link }}" title="{{ step-in.title }}">{{ step-in.name }}</a></strong>.<br/>{% 
+			endfor %}<br/>
+			<h6>{{ footer.subtitle }}</h6>{% 
+			for soc-media in footer.soc-media %}
+			<a href="{{ soc-media.link }}" title="{{ soc-media.title }}"><span class="button-round fa {{ soc-media.icon }}"></span></a>{% 
+			endfor %}<br/><br/><p>{% 
+			for button in footer.button %}
+			<a href="{{ button.link | relative_url }}" title="{{ button.title }}" class="button small footer">{{ button.name }}</a>{% 
+			endfor %}</p>
+			<div class="copyright">&copy; <a href="{{ footer.organization.link }}" title="{{ footer.organization.name }}">{{ footer.organization.name }}</a>
+			</div>{% 
+			endfor %}
+		</section>
 	</div>
-	<!-- Scripts -->
-	<script defer src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
-	<script defer src="{{ '/assets/js/combined.min.js' | relative_url }}"></script>
-	<!--[if lte IE 8]><script async src="{{ '/assets/js/respond.min.js' | relative_url }}"></script><![endif]-->
-	<noscript>Your browser does not support JavaScript!</noscript>
-	{% if page.structured-data %}
-	<!-- Microdata -->
-	<script type="application/ld+json">
-	[
-		{
-		"@context": "http://schema.org",
-		"@type": "WebPage",
-		"name": "{{ page.title }}",
-		"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-		"description": "{{ page.description }}"
-		},
-	{% if page.structured-data == "faq" %}
-		{
-		"@context": "http://schema.org",
-		"@graph": [
-		{% for faq in site.faq limit: 9 %}
-			{
-			"@type": "Question",
-			"text": "{{ faq.title }}",
-			"dateCreated": "{{ faq.date }}",
-			"acceptedAnswer": {
-				"@type": "Answer",
-				"text": "{{ faq.content | strip_html }}",
-				"dateCreated": "{{ faq.date }}"
-				}
-			},
-			{% endfor %}
-		  {% for faq in site.faq limit:1 offset:9 %}
-			{
-			"@type": "Question",
-			"text": "{{ faq.title }}",
-			"dateCreated": "{{ faq.date }}",
-			"acceptedAnswer": {
-				"@type": "Answer",
-				"text": "{{ faq.content | strip_html }}",
-				"dateCreated": "{{ faq.date }}"
-				}
-			}
-			{% endfor %}
-			]
-		},
-	{% endif %}
-		{
-		"@context": "http://schema.org",
-		"@type": "BreadcrumbList",
-		"itemListElement": [
-			{
-			"@type": "ListItem",
-			"position": 1,
-			"item": {
-				"@id": "{{ site.url | append: site.baseurl }}",
-				"name": "Home"
-				}
-			},
-			{
-			"@type": "ListItem",
-			"position": 2,
-			"item": {
-				"@id": "{{ page.url | absolute_url }}",
-				"name": "{{ page.title }}"
-				}
-			}
-			]
-		}
-	]
-	</script>
-	{% endif %}
+</div>
+<!-- Scripts -->
+<script defer src="{{ '/assets/js/jquery-1.12.3.min.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/combined-v1.0.min.js' | relative_url }}"></script>
+<!--[if lte IE 8]><script async src="{{ '/assets/js/respond.min.js' | relative_url }}"></script><![endif]-->
+<noscript>Your browser does not support JavaScript!</noscript>

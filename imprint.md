@@ -1,8 +1,11 @@
 ---
-layout: pagecentered
+layout: legal
 style: style1
 title: "Imprint"
 description: "Imprint with legal information, terms of use, data protection, transfer of use, applicable law as well as contact information"
+tracker-title:		"Bug Tracker"
+tracker-content:	"Please report any issues, and address any questions to our bug tracker at GitHub."
+tracker-link:		"https://github.com/iridium-browser/tracker/issues"
 menu: no
 id: imprint
 style: style1
@@ -12,28 +15,18 @@ sitemap:
   priority: 0.1
   changefreq: 'weekly'
 ---
-
-### Bug Tracker ###
-Please report any issues, and address any questions to our bug tracker at GitHub.      
-    
-[Bug Tracker](https://github.com/iridium-browser/tracker/issues "Bug Tracker at GitHub"){:target="_blank" .button .small rel="noreferrer"}     
-
-----
    
-   
-Betreiber der Webseite
-----------------------
+#### Betreiber der Webseite #
 
-[ ](https://osb-alliance.de "OSBA Website"){:.logo-osba target="_blank" rel="noreferrer"}
-
+[ ](https://osb-alliance.de "OSBA Website"){:target="blank" rel="noopener noreferrer" .logo-osba-legal}
 Open Source Business Alliance e.V.   
 Breitscheidstr. 4  
 70174 Stuttgart | Germany  
 Tel. +49 711 90715-390  
 Fax +49 711 90715-350  
-[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website"){:target="_blank" rel="noreferrer"}     
+[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website")     
 
-#### Angaben gemäß § 6 TDG und § 10 MDStV #
+##### Angaben gemäß § 6 TDG und § 10 MDStV #
 *Vertretungsberechtigter Vorstand*  
 Peter Ganten (Vorsitzender)
 
@@ -42,7 +35,7 @@ Eingetragen im Vereinsregister
 Registergericht: Amtsgericht Stuttgart, Registernummer: VR7217  
 Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE240931660  
 
-#### Rechtliche Informationen #
+##### Rechtliche Informationen #
 *Haftungshinweis*  
 Die Informationen, die Sie auf dieser Website vorfinden, wurden aus internen und externen Quellen nach bestem Wissen und Gewissen mit professioneller Sorgfalt zusammengestellt. Der Herausgeber und die Redaktion sind bemüht, dieses Informationsangebot stetig zu erweitern und zu aktualisieren. Es wird jedoch keine Garantie — weder ausdrücklich noch stillschweigend — für die Vollständigkeit, Richtigkeit oder Aktualität der Informationen auf dieser Website übernommen.
 

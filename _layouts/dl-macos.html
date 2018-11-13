@@ -7,15 +7,12 @@ layout: downloads-layout
 		<header class="major">
 			<h2>{{ page.title }}</h2>
 		</header>
-
-
 		<div class="icon dl fa-apple"></div>
 		<header>
 			<h3>{{ page.OS }}</h3>
 			<p>current version {{ page.version }}</br>
 			<small>(based on Chromium {{ page.chromium }})</small></p>
 		</header>
-		
 		<div class="container 25%">
 			<div class="row">
 				<div class="12u$ align-center">
@@ -24,8 +21,10 @@ layout: downloads-layout
 			</div>
 		</div>
 		<br/>
-		<p>If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/macos/" title="go to build archive" target="_blank">build archive</a></p>
+		<p>If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/macos/" title="go to build archive">build archive</a></p>
 		<p>System requirements:<br/>
-		&#8226; macOS Mavericks 10.9+</p>
+		{% for sys-reqs in page.sys-reqs %}
+			&#8226; {{ sys-reqs }}<br/>
+		{% endfor %}</p>
     </div>
 </section>

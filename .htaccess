@@ -1,10 +1,12 @@
+---
+---
 Options +FollowSymLinks
 RewriteEngine On
 RewriteRule ^download.html$ /downloads/ [R=301,L]
 RewriteRule ^downloads.html$ /downloads/ [R=301,L]
 RewriteRule ^download(/|$) /downloads/ [R=301,L]
 
-RewriteRule ^index(\\.html)? https://iridiumbrowser.de/ [R=301,C]
+RewriteRule ^index(\\.html)? {{ site.url }} [R=301,C]
 RewriteRule ^$ index.html [L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -14,7 +16,10 @@ RewriteRule ^(.*)$ $1.html
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
 
-ErrorDocument 404 /404.html
+ErrorDocument 401 /error/401.html
+ErrorDocument 403 /error/403.html
+ErrorDocument 404 /error/404.html
+ErrorDocument 500 /error/500.html
 
 Header append Vary User-Agent
 
@@ -22,8 +27,15 @@ AddDefaultCharset UTF-8
 AddCharset application/font-woff2 .woff2
 AddCharset application/x-font-woff2 .woff2
 
+AddType font/truetype .ttf
+AddType font/opentype .otf
+AddType application/font-woff .woff
+AddType application/font-woff2 .woff2
+AddType application/javascript .js
+AddType application/json .json
 AddType application/pdf .pdf
 AddType application/x-apple-diskimage .dmg .smi .img
+AddType application/x-font-woff .woff
 AddType application/x-font-woff2 .woff2
 AddType application/x-msdownload .exe .dll .ocx .com .bat .msi .mso
 AddType application/zip .zip .zipx
@@ -31,20 +43,72 @@ AddType image/jpeg .jpeg .jpg .jpe .JPG
 AddType image/png .png
 AddType image/svg+xml .svg .svgz
 AddType image/vnd.microsoft.icon .ico
+AddType image/x-icon .ico
 AddType text/html .html .htm
 AddType text/css .css
 AddType text/xml .xml
 
-
 <IfModule mod_headers.c>
-Header set Content-Security-Policy "script-src 'self' https://iridiumbrowser.de/; base-uri 'self';"
-Header always set X-FRAME-OPTIONS "DENY"
-Header always set X-XSS-Protection "1; mode=block"
-Header always set X-Content-Type-Options "nosniff"
-<FilesMatch "\.(js|css|xml|gz|html)$">
-  Header append Vary: Accept-Encoding
-</FilesMatch>
+  Header set Content-Security-Policy "default-src {{ site.url }} 'self'; base-uri 'self'; script-src 'self' 'unsafe-inline'; worker-src {{ site.url }}/service-worker.js {{ site.url }}/sw-register.js; connect-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline';"
+  Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Download-Options "noopen"
+  Header set X-Permitted-Cross-Domain-Policies "none"
+  SetEnv modHeadersAvailable true
+  Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains; env=HTTPS"
+  Header set Connection keep-alive
+  <FilesMatch "\.(js|css|xml|gz|html)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+  <FilesMatch "\.(eot|svg|ttf|woff|woff2)$">
+    Header set Cache-Control "max-age=2628000"
+  </FilesMatch>
 </IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 600 seconds"
+
+  ExpiresByType image/icon						"access plus 2 month"
+  ExpiresByType image/jpg						"access plus 2 month"
+  ExpiresByType image/jpeg						"access plus 2 month"
+  ExpiresByType image/png						"access plus 2 month"
+  ExpiresByType image/svg+xml					"access plus 2 month"
+  ExpiresByType image/x-icon					"access plus 2 month"
+  ExpiresByType font/eot						"access plus 1 year"
+  ExpiresByType font/opentype					"access plus 1 year"
+  ExpiresByType font/otf						"access plus 1 year"
+  ExpiresByType font/truetype					"access plus 1 year"
+  ExpiresByType font/woff						"access plus 1 year"
+  ExpiresByType font/woff2						"access plus 1 year"
+  ExpiresByType application/font-woff			"access plus 1 year"
+  ExpiresByType application/font-woff2			"access plus 1 year"
+  ExpiresByType application/ico					"access plus 1 year"
+  ExpiresByType application/javascript			"access plus 2 month"
+  ExpiresByType application/vnd.ms-fontobject	"access plus 1 year"
+  ExpiresByType application/x-font-woff			"access plus 1 year"
+  ExpiresByType application/x-font-woff2		"access plus 1 year"
+  ExpiresByType application/x-ico				"access plus 1 year"
+  ExpiresByType application/x-javascript 		"access plus 2 month"
+  ExpiresByType text/javascript					"access plus 2 month"
+</IfModule>
+<FilesMatch "\.(css|htm|html|json)$">
+	<IfModule mod_expires.c>
+		ExpiresActive Off
+	</IfModule>
+	<IfModule mod_headers.c>
+		FileETag None
+		Header unset ETag
+		Header unset Pragma
+		Header unset Cache-Control
+		Header unset Last-Modified
+		Header set Pragma "no-cache"
+		Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+		Header set Expires "Mon, 10 Apr 1972 00:00:00 GMT"
+	</IfModule>
+</FilesMatch>
 
 <IfModule mod_deflate.c>
   # compress text, html, javascript, css, xml:

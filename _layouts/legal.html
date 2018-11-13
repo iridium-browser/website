@@ -1,0 +1,19 @@
+---
+layout: default-layout
+---
+
+<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+    <div class="container">
+		<header class="major">
+			<h2>{{ page.title }}</h2>
+			<p>{{ page.subtitle }}</p>
+		</header>
+		<h3>{{ page.tracker-title }}</h3>
+		<p>{{ page.tracker-content }}</p>
+		<p><a href="{{ page.tracker-link }}" title="{{ page.tracker-title }} at GitHub" class="button small">{{ page.tracker-title }}</a></p>
+	</div>
+	<div class="container 75% align-left">
+		<hr/>
+		{{ content }}
+    </div>
+</section>

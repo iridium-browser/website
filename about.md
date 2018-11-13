@@ -14,6 +14,6 @@ sitemap:
   lastmod: 2017-11-09
   priority: 0.5
   changefreq: 'daily'
-ATTENTION: Content is in a collection see '_about'
+ATTENTION: Content is in a collection see 'collections/_about'
 ---
 

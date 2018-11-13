@@ -7,6 +7,7 @@
 
 # Site settings
 title: Iridium Browser
+app-title: Iridium
 email: wg-iridium@osb-alliance.com
 description: > # this means to ignore newlines until "baseurl:"
   Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure the most secure technologies are used.
@@ -14,9 +15,10 @@ hotpic: /images/hotpics/Iridium-hotpic.png
 hotpic-fb: /images/hotpics/Iridium-hotpic_FB.png
 hotpic-tw: /images/hotpics/Iridium-hotpic_TW.png  
 keywords: "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Secure Browser Project, Secure Browser, Privacy Browser, Chromium based, Windows, macOS, Ubuntu, Debian, Mint, openSUSE, Fedora, Linux, Red Hat Enterprise Linux, CentOS"
-  
+
+# Build settings  
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://iridiumbrowser.de # the base hostname & protocol for your site
+url: https://test.iridiumbrowser.de # the base hostname & protocol for your site
 
 permalink: "/news/:year/:month/:day/:title"
 future: true
@@ -24,20 +26,23 @@ future: true
 paginate: 18
 paginate_path: "/news/archive/page:num/"
 
-collections:
-  - banner
-  - marquee
-  - faq
-  - features
-  - manifest
-  - about
-  - contribute
-  - footer
-  - footer-downloads
+collections: [about, banner, contribute, faq, features, footer, footer-downloads, manifest, marquee]
+collections_dir: collections
 
-plugins: [jekyll-paginate]
-  
-# Build settings
+pwa:
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 100 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "/**/*.{css,htc,js,json,xml}"
+    - "/**/*.{ico,jpg,jpeg,png,svg}"
+    - "/**/*.html"
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"
+
 sass:
     sass_dir: /assets/_sass
     style: compressed

@@ -7,13 +7,13 @@
 
 	{% include header.html %}
 	
-    <div class="page-content special">
-        {{ content }}
-    </div>
+	{{ content }}
 
-	{% include downloads-prefooter.html %}
+	{% include footer_pre-downloads.html %}
 	
-    {% include downloads-footer.html %}
+    {% include footer.html %}
+	
+    {% include jsonld-downloads.html %}
 
 </body>
 
