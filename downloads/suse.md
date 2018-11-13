@@ -13,17 +13,17 @@ structured-data:
   os0:			openSUSE
   os1:			openSUSE
   value:		5
-  count:		118
+  count:		155
 sitemap:
-  lastmod:		2018-05-11
+  lastmod:		2018-11-13
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/suse
 
 icon-class:			dlinux fl-opensuse
 OS: 				Repositories for openSUSE
-version:			2018.4
-chromium:			66.0.3359.130
+version:			2018.11.70.1
+chromium:			70.0.3538.77
 sys-reqs:
 - openSUSE Leap 42.3+
 - An Intel Pentium 4 processor or later that's SSE2 capable

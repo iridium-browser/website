@@ -13,16 +13,16 @@ structured-data:
   os0: 			Windows
   os1: 			Windows
   value: 		4.9
-  count: 		3724
+  count: 		3946
 sitemap:
-  lastmod:		2018-05-11
+  lastmod:		2018-11-13
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/windows
 
 OS: 				Windows
-version:			2018.5
-chromium:			67.0.3396.40
+version:			2018.11.70.1
+chromium:			70.0.3538.77
 link-32bit:			https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi
 link-64bit:			https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi
 link-32bit-port:	https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip

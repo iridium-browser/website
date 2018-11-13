@@ -13,16 +13,16 @@ structured-data:
   os0:			macOS
   os1:			macOS
   value:		4.9
-  count:		1231
+  count:		1464
 sitemap:
-  lastmod:		2018-05-11
+  lastmod:		2018-11-13
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/macOS
 
 OS: 				macOS
-version:			2018.5
-chromium:			67.0.3396.40
+version:			2018.11.70.1
+chromium:			70.0.3538.77
 dl-link:			https://downloads.iridiumbrowser.de/macos/iridium_browser_macos_latest.dmg
 sys-reqs:
 - macOS Mavericks 10.9+
