@@ -15,7 +15,7 @@ structured-data:
   value:		4.9
   count:		1464
 sitemap:
-  lastmod:		2018-11-13
+  lastmod:		2018-11-13 18:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/macOS
