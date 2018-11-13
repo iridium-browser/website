@@ -25,7 +25,7 @@ OS: 				Repositories for Fedora
 version:			2018.5
 chromium:			67.0.3396.40
 sys-reqs:
-- Fedora 27+
+- Fedora 24+
 - An Intel Pentium 4 processor or later that's SSE2 capable
 ---
 
