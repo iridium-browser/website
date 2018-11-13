@@ -1,8 +1,8 @@
 ---
 layout:			dl-repo
-title:			"Download for debian based systems"
+title:			"Download for Debian-based systems"
 subtitle:		""
-description:	Download Iridium Browser for all Debian based systems. Install package from repository using the command line.
+description:	Download Iridium Browser for all Debian-based systems. Install package from repository using the command line.
 hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-dl-debian.png"
 hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-dl-debian.png"
 id:				debian
@@ -10,7 +10,7 @@ style:			1
 menu:			no
 link:			/downloads/debian
 structured-data:
-  os0:			Debian based systems
+  os0:			Debian-based systems
   os1:			Debian
   os2:			Mint
   os3:			Ubuntu
@@ -24,12 +24,11 @@ sitemap:
 permalink:		/downloads/debian
 
 icon-class:			dlinux fl-debian
-OS: 				Repository for Debian based systems
+OS: 				Repository for Debian-based systems
 version:			2018.5
 chromium:			67.0.3396.40
 sys-reqs:
-- Debian 8+, Mint 17+, Ubuntu 14.04+ (all 64-bit)
-- An Intel Pentium 4 processor or later that's SSE2 capable
+- Debian 8+, Mint 17+, Ubuntu 14.04+ (all x86_64)
 ---
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -

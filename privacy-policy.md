@@ -47,8 +47,8 @@ Wir verarbeiten Ihre personenbezogenen Daten nur zu den in dieser Datenschutzerk
 - die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist,
 - die Verarbeitung zur Wahrung berechtigter Interessen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe Ihrer Daten haben.
    
-*SSL-Verschlüsselung*    
-Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.    
+*TLS-Verschlüsselung*    
+Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. TLS).    
     
 *Änderung unserer Datenschutzbestimmungen*    
 Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.
