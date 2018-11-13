@@ -38,3 +38,8 @@ sys-reqs:
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_42.3/ iridium
 	zypper in iridium-browser
+     
+#### Tumbleweed #
+	
+	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Tumbleweed/ iridium
+	zypper in iridium-browser
