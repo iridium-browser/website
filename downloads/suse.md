@@ -26,7 +26,6 @@ version:			2018.11.70.1
 chromium:			70.0.3538.77
 sys-reqs:
 - openSUSE Leap 42.3+
-- An Intel Pentium 4 processor or later that's SSE2 capable
 ---
 
 #### Leap 15.0 #

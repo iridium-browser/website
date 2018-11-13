@@ -27,7 +27,6 @@ version:			2018.5
 chromium:			67.0.3396.40
 sys-reqs:
 - Red Hat Enterprise Linux 7+, CentOS 7+
-- An Intel Pentium 4 processor or later that's SSE2 capable
 ---
 
 	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo

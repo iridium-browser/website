@@ -29,7 +29,6 @@ version:			2018.5
 chromium:			67.0.3396.40
 sys-reqs:
 - Debian 8+, Mint 17+, Ubuntu 14.04+ (all 64-bit)
-- An Intel Pentium 4 processor or later that's SSE2 capable
 ---
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
