@@ -29,5 +29,5 @@ link-32bit-port:	https://downloads.iridiumbrowser.de/windows/iridiumbrowser-late
 link-64bit-port:	https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip
 sys-reqs:
 - Windows 7+
-- An Intel Pentium 4 processor or later that's SSE2 capable
+- A processor capable of SSE2
 ---
