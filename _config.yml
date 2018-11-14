@@ -1,13 +1,7 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Iridium Browser - website
 
 # Site settings
 title: Iridium Browser
-app-title: Iridium
 email: wg-iridium@osb-alliance.com
 description: > # this means to ignore newlines until "baseurl:"
   Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure the most secure technologies are used.
