@@ -23,7 +23,7 @@ permalink:		/downloads/fedora
 icon-class:			dlinux fl-fedora-inverse
 OS: 				Repositories for Fedora
 version:			2018.11.71.1
-chromium:			70.0.3538.77
+chromium:			71.0.3578.30
 sys-reqs:
 - Fedora 28+
 ---

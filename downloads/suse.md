@@ -22,8 +22,8 @@ permalink:		/downloads/suse
 
 icon-class:			dlinux fl-opensuse
 OS: 				Repositories for openSUSE
-version:			2018.11.71-1 / 2018.11.71-5.1 / 2018.11.71-4.1
-chromium:			70.0.3538.77
+version:			2018.11.71
+chromium:			71.0.3578.30
 sys-reqs:
 - openSUSE Leap 42.3+
 ---
