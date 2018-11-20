@@ -2,7 +2,7 @@
 layout:			dl-repo
 title:			"Download for openSUSE"
 subtitle:		""
-description:	Download Iridium Browser for openSUSE Leap 42.2, 42.3 and Tumbleweed. Install package from repository using the command line.
+description:	Download Iridium Browser for openSUSE Leap 15.0, 42.3 and Tumbleweed. Install package from repository using the command line.
 hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-dl-suse.png"
 hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-dl-suse.png"
 id:				suse
@@ -22,8 +22,8 @@ permalink:		/downloads/suse
 
 icon-class:			dlinux fl-opensuse
 OS: 				Repositories for openSUSE
-version:			2018.11.70.1
-chromium:			70.0.3538.77
+version:			2018.11.71
+chromium:			71.0.3578.30
 sys-reqs:
 - openSUSE Leap 42.3+
 ---
