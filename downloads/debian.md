@@ -16,19 +16,19 @@ structured-data:
   os3:			Ubuntu
   os4:			Debian-based
   value:		5
-  count:		312
+  count:		401
 sitemap:
-  lastmod:		2018-05-30
+  lastmod:		2018-11-20
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/debian
 
 icon-class:			dlinux fl-debian
 OS: 				Repository for Debian-based systems
-version:			2018.5
-chromium:			67.0.3396.40
+version:			2018.11.71.1
+chromium:			71.0.3578.30
 sys-reqs:
-- Debian 8+, Mint 17+, Ubuntu 14.04+ (all x86_64)
+- Ubuntu 16.04+ (x86_64)
 ---
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
