@@ -32,7 +32,7 @@ sys-reqs:
 - A processor capable of SSE2
 ---
 
-##### * = Please note #
+__* = Please note__    
 Running the Iridium portable version works out of the box. We recommend to create a shortcut using the    
 ```--user-data-dir=/IridiumUserData```    
 configuration option to store the user data to a preferred location (like a USB stick, etc.)    

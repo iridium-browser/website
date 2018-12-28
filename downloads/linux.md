@@ -30,16 +30,16 @@ permalink:		/downloads/linux
 <div class="container w-50">
 <div class="row">
 <div class="col-6 col-12-small">
-[Debian]({{ '/downloads/debian' | relative_url }} "Debian-based OS download page"){:.button .large .read-more .fit .dlinux .fl-debian}
+[Debian]({{ '/downloads/debian' | relative_url }} "Debian-based OS download page"){:.button .large .dark .fit .dlinux .fl-debian}
 </div>
 <div class="col-6 col-12-small">
-[openSUSE]({{ '/downloads/suse' | relative_url }} "Windows download page"){:.button .large .read-more .fit .dlinux .fl-opensuse}
+[openSUSE]({{ '/downloads/suse' | relative_url }} "Windows download page"){:.button .large .dark .fit .dlinux .fl-opensuse}
 </div>
 <div class="col-6 col-12-small">
-[Fedora]({{ '/downloads/fedora' | relative_url }} "macOS download page"){:.button .large .read-more .fit .dlinux .fl-fedora-inverse}
+[Fedora]({{ '/downloads/fedora' | relative_url }} "macOS download page"){:.button .large .dark .fit .dlinux .fl-fedora-inverse}
 </div>
 <div class="col-6 col-12-small">
-[RHEL]({{ '/downloads/rhel' | relative_url }} "Linux download page"){:.button .large .read-more .fit .dlinux .fl-redhat}
+[RHEL]({{ '/downloads/rhel' | relative_url }} "Linux download page"){:.button .large .dark .fit .dlinux .fl-redhat}
 </div>
 </div>
 </div>
