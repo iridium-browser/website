@@ -3471,6 +3471,11 @@ sitemap:
 			margin-top: 4.5em;
 		}
 	}
+	#macos {
+		h3 {
+			text-transform: none;
+		}
+	}
 	#linux {
 		h3 {
 			color: _palette(fg) !important;
@@ -3540,6 +3545,7 @@ sitemap:
 			line-height: 1.25em;
 		}
 	}
+
 	#os-not-detected {
 		h3 {
 			font-size: 1.5em;
