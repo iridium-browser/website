@@ -47,7 +47,7 @@ Sie können sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde wenden
 Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter: [www.bfdi.bund.de](https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html "website besuchen"){:class="external"}.    
      
 **Verschlüsselung**    
-Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z.B. TSL, SSL) über HTTPS.    
+Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z.B. TSL) über HTTPS.    
 
 **Änderung unserer Datenschutzbestimmungen**    
 Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.    
@@ -87,7 +87,7 @@ You can contact a supervisory authority with a complaint at any time, e.g. the s
 You’ll find a list of supervisory authorities (for the non-public area) with their respective addresses at: [www.bfdi.bund.de](https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html "visit website"){:class="external"}.
 
 **Encryption**    
-To protect the security of your data during transmission, we use state-of-the-art encryption methods (such as TSL, SSL) via HTTPS.
+To protect the security of your data during transmission, we use state-of-the-art encryption methods (such as TSL) via HTTPS.
 
 **Revision of our privacy policy**    
 We reserve the right to amend this privacy policy so that it always complies with current legal requirements or to implement changes to our services in the privacy policy, e.g. when introducing new services. Your next visit will be subject to the new privacy policy.
