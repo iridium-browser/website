@@ -8,7 +8,7 @@ hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-dl-macOS.png"
 id:				macos
 style:			style1
 menu:			no
-link:			/downloads/macos
+link:			/downloads/macOS
 structured-data: 
   os0:			macOS
   os1:			macOS
@@ -18,7 +18,7 @@ sitemap:
   lastmod:		2018-11-13 18:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
-permalink:		/downloads/macos
+permalink:		/downloads/macOS.html
 
 OS: 				macOS
 version:			2018.11-1
