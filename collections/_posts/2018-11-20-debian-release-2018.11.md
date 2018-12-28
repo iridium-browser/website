@@ -7,8 +7,8 @@ author:			admin
 categories:		news
 hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-download.png"
 hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-download.png"
-menu: no
-style: style1
+menu: 			no
+style: 			style1
 ---
 
 The latest **version 2018.11.71** based on Chromium 71.0.3578.30 is available for **Debian-based systems** now!   
@@ -16,4 +16,4 @@ Furthermore version **2018.11.71** is also available for **Fedora** and **openSU
      
 Current version for **Windows** and **macOS** is **2018.11.70** based on Chromium 70.0.3538.77 and is also available for download.
         
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     
+[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}

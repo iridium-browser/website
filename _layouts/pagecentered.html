@@ -1,5 +1,5 @@
 ---
-layout: default-layout
+layout: layout_default
 ---
 
 <section class="wrapper {{ page.style }} special" id="{{ page.id }}">
@@ -8,9 +8,6 @@ layout: default-layout
 			<h2>{{ page.title }}</h2>
 			<p>{{ page.subtitle }}</p>
 		</header>
-
-		<div class="post-content">
-			{{ content }}
-		</div>
+		{{ content | strip_newlines }}
     </div>
 </section>

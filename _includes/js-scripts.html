@@ -1,0 +1,8 @@
+<!-- Scripts -->
+	<script defer src="{{ '/assets/js/jquery-3.3.1.min.js' | relative_url }}"></script>
+	<script defer src="{{ '/assets/js/combined-v1.1.min.js' | relative_url }}"></script>
+	<script defer src="{{ '/assets/js/main-v1.1.min.js' | relative_url }}"></script>{% 
+	if page.path contains 'downloads/index' %}
+	<script defer src="{{ '/assets/js/parser-forwarding.min.js' | relative_url }}" ></script>{% 
+	endif %}
+	<noscript>Your browser does not support JavaScript!</noscript>

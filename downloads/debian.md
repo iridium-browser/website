@@ -1,5 +1,5 @@
 ---
-layout:			dl-repo
+layout:			downloads-repo
 title:			"Download for Debian-based systems"
 subtitle:		""
 description:	Download Iridium Browser for all Debian-based systems. Install package from repository using the command line.

@@ -1,15 +1,15 @@
 ---
-layout: default-layout
+layout: layout_default
 ---
-
-<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
-<div class="container">
-	<header class="major">
-		<h2>{% for manifest in site.manifest %} {{ manifest.title }} {% endfor %}</h2>
-		<p>{% for manifest in site.manifest %} {{ manifest.subtitle }} {% endfor %}</p>
-	</header>
-	{% for manifest in site.manifest %}
-	{{ manifest.content }}
-	{% endfor %}
-</div>
-</section>
+<!-- Manifest -->
+	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+		<div class="container">
+			<header class="major">{% for manifest in site.manifest limit:1 %}
+				<h2>{{ manifest.title }}</h2>
+				<p>{{ manifest.subtitle }}</p>{% endfor %}
+			</header>{% 
+			for manifest in site.manifest %}
+			{{ manifest.content | strip_newlines }}{% 
+			endfor %}
+		</div>
+	</section>

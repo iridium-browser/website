@@ -1,16 +1,13 @@
 ---
-layout: default-layout
+layout: layout_default
 ---
-
-<section class="wrapper {{ page.style }}" id="{{ page.id }}">
-    <div class="container">
-		<header class="major">
-			<h2>{{ page.title }}</h2>
-			<p>{{ page.subtitle }}</p>
-		</header>
-
-		<div class="post-content">
-			{{ content }}
+<!-- Page -->
+	<section class="wrapper {{ page.style }}" id="{{ page.id }}">
+		<div class="container">
+			<header class="major">
+				<h2>{{ page.title }}</h2>
+				<p>{{ page.subtitle }}</p>
+			</header>
+			{{ content  | strip_newlines }}
 		</div>
-    </div>
-</section>
+	</section>

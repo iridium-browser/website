@@ -19,7 +19,7 @@ structured-data:
   os6:			Red Hat Enterprise Linux
   os7:			CentOS
   value:		5
-  count:		611
+  count:		1433
 sitemap:
   exclude:		'yes'
 permalink:		/downloads/linux
@@ -27,17 +27,19 @@ permalink:		/downloads/linux
 
 {::options parse_block_html="true" /}
 <h3>please choose your platform</h3>
-<div class="container 50%"><div class="row">
-<div class="6u 12u$(small)">
-[Debian]({{ '/downloads/debian' | relative_url }} "Debian-based OS download page"){:.button .big .read-more .fit .dlinux .fl-debian}
+<div class="container w-50">
+<div class="row">
+<div class="col-6 col-12-small">
+[Debian]({{ '/downloads/debian' | relative_url }} "Debian-based OS download page"){:.button .large .read-more .fit .dlinux .fl-debian}
 </div>
-<div class="6u$ 12u$(small)">
-[openSUSE]({{ '/downloads/suse' | relative_url }} "Windows download page"){:.button .big .read-more .fit .dlinux .fl-opensuse}
+<div class="col-6 col-12-small">
+[openSUSE]({{ '/downloads/suse' | relative_url }} "Windows download page"){:.button .large .read-more .fit .dlinux .fl-opensuse}
 </div>
-<div class="6u 12u$(small)">
-[Fedora]({{ '/downloads/fedora' | relative_url }} "macOS download page"){:.button .big .read-more .fit .dlinux .fl-fedora-inverse}
+<div class="col-6 col-12-small">
+[Fedora]({{ '/downloads/fedora' | relative_url }} "macOS download page"){:.button .large .read-more .fit .dlinux .fl-fedora-inverse}
 </div>
-<div class="6u$ 12u$(small)">
-[RHEL]({{ '/downloads/rhel' | relative_url }} "Linux download page"){:.button .big .read-more .fit .dlinux .fl-redhat}
+<div class="col-6 col-12-small">
+[RHEL]({{ '/downloads/rhel' | relative_url }} "Linux download page"){:.button .large .read-more .fit .dlinux .fl-redhat}
 </div>
-</div></div>
+</div>
+</div>

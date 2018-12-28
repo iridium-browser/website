@@ -1,5 +1,5 @@
 ---
-layout:			downloads-index-layout
+layout:			layout_downloads
 title:			"Download"
 subtitle:		""
 description:	Download Iridium Browser for Windows 7 or higher, macOS Mavericks 10.9 or higher, Debian-based systems, openSUSE 42.3 and 15.0, Fedora 27 and 28, Red Hat Enterprise Linux 7 / CentOS 7 or higher.
@@ -43,7 +43,7 @@ structured-data:
   value:		4.9
   count:		5566
 sitemap:
-  lastmod:		2017-12-05
+  lastmod:		2018-12-27 16:00:00 +0100
   priority:		0.5
   changefreq:	'daily'
 ---

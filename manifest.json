@@ -1,26 +1,19 @@
 ---
+sitemap:
+  exclude: 'yes'
 ---
 {
 	"manifest_version": 2,
 	"name": "{{ site.title }}",
 	"short_name": "{{ site.title }}",
-	"start_url": "/",
-	"theme_color": "#ececec",
-	"background_color": "#ececec",
+	"start_url": "{{ '/' | relative_url }}",
+	"theme_color": "#{{ site.app-color }}",
+	"background_color": "#{{ site.app-color }}",
 	"description": "{{site.description | strip_newlines}}",
 	"display": "standalone",
 	"prefer_related_applications": false,
 	"offline_enabled": true,
 	"icons": [
-		{
-		"src": "images/app-icons/favicon_16x16.png",
-		"sizes": "16x16",
-		"type": "image/png"
-		}, {
-		"src": "images/app-icons/favicon_36x36.png",
-		"sizes": "36x36",
-		"type": "image/png"
-		},
 		{
 		"src": "images/app-icons/android_48x48.png",
 		"sizes": "48x48",
@@ -41,7 +34,8 @@
 		"src": "images/app-icons/android_192x192.png",
 		"sizes": "192x192",
 		"type": "image/png"
-		}, {
+		},
+		{
 		"src": "images/app-icons/android_512x512.png",
 		"sizes": "512x512",
 		"type": "image/png"
@@ -59,12 +53,12 @@
 		"sizes": "152x152",
 		"type": "image/png"
 		}, {
-		"src": "images/app-icons/ios_180x180.png",
-		"sizes": "180x180",
+		"src": "images/app-icons/ios_167x167.png",
+		"sizes": "167x167",
 		"type": "image/png"
 		}, {
-		"src": "images/app-icons/ios_1024x1024.png",
-		"sizes": "1024x1024",
+		"src": "images/app-icons/ios_180x180.png",
+		"sizes": "180x180",
 		"type": "image/png"
 		},
 		{

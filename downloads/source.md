@@ -19,7 +19,7 @@ permalink:		/downloads/source
 ---
 
 {::options parse_block_html="true" /}
-<div class="container 50%">
+<div class="container w-50">
 <div class="icon dl fa-github"></div>
 <header>
 ### Git Repository #
@@ -28,27 +28,21 @@ Clone the source code with Git:
 
 	git clone https://git.iridiumbrowser.de/git/iridium-browser
 
-Browse the source code:  
-Git web view
-[https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/](https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/ "Git web view"){:target="_blank"}
+Browse the source code:<br/>
+Git web view  [https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/](https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/ "Git web view"){:target="_blank"}
 
 ---
 
+</div>
 <div class="icon dl fa-code"></div>
 <header>
 ### Source Code #
 Download the source code
 </header>
-
-<div class="container 25%">
+<div class="container w-25">
 <div class="row">
-<div class="12u$ align-center">
+<div class="col-12 align-center">
 [Download source code](https://downloads.iridiumbrowser.de/source/ "download source code"){:.button .small .fit .download .icon .fa-download}
 </div>
-</div></div>
-
 </div>
-
----
-
-#### Available Downloads #
+</div>

@@ -1,67 +1,74 @@
----
-layout: default-layout
-title: "News"
-subtitle: "the latest"
-description: "All Iridium Browser news about the latest builds, releases, bug fixes and much more."
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
-menu: 1
-link: /news/
-id: news
-style: style1
-structured-data: "yes"
+---	
+layout:			layout_default
+title: 			"News"
+subtitle: 		"the latest"
+description: 	"All Iridium Browser news about the latest builds, releases, bug fixes and much more."
+hotpic-fb: 		"/images/hotpics/Iridium-fb_hotpic-news.png"
+hotpic-tw: 		"/images/hotpics/Iridium-tw_hotpic-news.png"
+menu:			1
+link:			/news/
+id:				news
+style:			style1
+structured-data:	"yes"
 sitemap:
-  lastmod: 2017-12-25 12:00:00 +0200
-  priority: 0.7
-  changefreq: 'daily'
+  lastmod:		2018-12-27 16:00:00 +0100
+  priority:		0.7
+  changefreq:	'daily'
 ---
-
-<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
-	<div class="container">
-		<header class="major">
-			<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
-			<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %}</p>
-		</header>
-
-		<section id="content">
-			<div class="first-post">
-			{% for post in site.posts limit:1 %}
-				<header>
-					<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-					<p><small><span class="icon fa-calendar"></span>{{ post.date | date: "%-d %B %Y" }}</small></p>
-				</header>
-				{{ post.content }}
-			{% endfor %}
-			</div>
-		</section>
-		<hr/>
-		<section>
-			<header>
-				<h4>More news</h4>
-			</header>
-			<div class="row uniform">
-				{% for post in site.posts limit:6 offset:1 %}
-				<div class="4u 6u(medium) 12u(small) teaser-card">
-					<a href="{{ post.url | absolute_url }}" title="read more about '{{ post.title }}'">
-						<div class="teaser-container">
-							<header>
-								<div class="teaser-heading">{{ post.title | truncate: 58 }}</div>
-								<div class="teaser-date"><span class="icon fa-calendar"></span>{{ post.date | date: "%-d %B %Y" }}</div>
-							</header>
-							<div class="teaser-content">
-								<p>{{ post.content | strip_html | truncate: 300 }}</p>
-							</div>
-						</div>
-					</a>
+<!-- News -->
+	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+		<div class="container">{% if page.title %}
+			<header class="major">
+				<h2>{{ page.title }}</h2>
+				<p>{{ page.subtitle }}</p>
+			</header>{% endif %}
+			<section id="content">
+				<div class="first-post">{% 
+				for post in site.posts limit:1 %}
+					<header>
+						<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+						<ul class="post-details">
+							<li>
+								<span class="icon fa-calendar"></span><small>{{ post.date | date_to_long_string }}</small>
+							</li>
+							<li>
+								<span class="icon fa-user-o"></span><small>{{ post.author }}</small>
+							</li>
+						</ul>
+					</header>
+					{{ post.content | strip_newlines }} 
+					{% 
+					endfor %}
 				</div>
-				{% endfor %}
-			</div>
-
-			<div class="align-center">
-				<p>Read previous news posts</p>
-				<a class="button big special icon fa-archive" href="{{ '/news/archive/' | relative_url }}" title="go to news archive">news archive</a>
-			</div>
-		</section>
-
-	</div>
-</section>
+			</section>
+			<hr/>
+			<section>
+				<header>
+					<h4>More news</h4>
+				</header>
+				<div class="row gtr-uniform">{% 
+					for post in site.posts limit:6 offset:1 %}
+					<div class="col-4 col-6-medium col-12-small teaser-card">
+						<a href="{{ post.url | absolute_url }}" title="read more about '{{ post.title }}'">
+							<div class="teaser-container">
+								<header>
+									<div class="teaser-heading">{{ post.title | truncate: 58 }}</div>
+									<div class="teaser-date">
+										<span class="icon fa-calendar"></span>{{ post.date | date: "%-d %B %Y" }}
+									</div>
+								</header>
+								<div class="teaser-content">
+									<p>{{ post.content | strip_html | strip_newlines | truncate: 180 }}</p>
+								</div>
+							</div>
+						</a>
+					</div>{% 
+					endfor %}
+				</div>
+				<div class="align-center">
+					<p>Read previous news posts</p>
+					<a class="button special icon fa-archive" href="{{ '/news/archive/' | relative_url }}" title="go to news archive">news archive</a>
+				</div>
+			</section>
+		</div>
+	</section>

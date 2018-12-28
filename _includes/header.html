@@ -5,13 +5,16 @@
 		<nav id="nav">
 			<ul>
 				<li><a href="{{ '/' | relative_url }}" title="Home"{% if page.link == "yes" %} class="active"{% endif %}>Home</a></li>{%
-			for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}
-				<li><a href="{{ my_page.url | replace:'.html','' | relative_url }}" title="{{ my_page.title }}"{% if page.url contains my_page.link %} class="active"{% endif %}>{{ my_page.title }}</a>{%
-					if my_page.submenu == "downloads" %}
-					<ul>{% for submenu-details in my_page.submenu-details %}
+				for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}
+				<li><a href="{{ my_page.url | replace:'.html','' | relative_url }}" title="{{ my_page.title }}"{% if page.url contains my_page.link %} class="active"{% endif %}>{{ my_page.title }}</a>{% 
+				if my_page.submenu == "downloads" %}
+					<ul>{% 
+					for submenu-details in my_page.submenu-details %}
 						<li><a href="{{ submenu-details.link | relative_url }}" title="{{ submenu-details.title }}"{% if submenu-details.link == page.url %} class="active"{% endif %}>{{ submenu-details.name }}</a></li>{% 
 					endfor %}
-					</ul>{% endif %}</li>{% endif %}{% endfor %}{% endfor %}
+					</ul>
+				{% endif %}</li>{% 
+				endif %}{% endfor %}{% endfor %}
 			</ul>
 		</nav>
 	</div>

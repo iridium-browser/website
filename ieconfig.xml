@@ -1,12 +1,16 @@
+---
+sitemap:
+  exclude: 'yes'
+---
 <?xml version="1.0" encoding="utf-8"?>
 <browserconfig>
 	<msapplication>
 		<tile>
-		<square70x70logo src="images/app-icons/win-small_70x70.png"/>
-        <square150x150logo src="images/app-icons/win-medium_150x150.png"/>
-		<square310x310logo src="images/app-icons/win-large_310x310.png"/>
-        <wide310x150logo src="images/app-icons/win-wide_310x150.png"/>
-		<TileColor>#ececec</TileColor>
+			<square70x70logo src="images/app-icons/win-small_70x70.png"/>
+			<square150x150logo src="images/app-icons/win-medium_150x150.png"/>
+			<square310x310logo src="images/app-icons/win-large_310x310.png"/>
+			<wide310x150logo src="images/app-icons/win-wide_310x150.png"/>
+			<TileColor>#{{ site.app-color }}</TileColor>
 		</tile>
 	</msapplication>
 </browserconfig>

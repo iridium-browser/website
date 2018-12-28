@@ -1,0 +1,8 @@
+Script Order - combined @ https://www.filesmerge.com/merge-javascript-files
+
+jquery.dropotron.min.js
+jquery.poptrox.min.js
+browser.min.js
+breakpoints.min.js
+ua-parser.min.js
+util.js

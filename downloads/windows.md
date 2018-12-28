@@ -1,5 +1,5 @@
 ---
-layout: 		dl-windows
+layout: 		downloads-windows
 title: 			"Download for Windows"
 subtitle: 		""
 description:	Download Iridium Browser for Windows 7 or higher. This Windows build is available in 32-bit or 64-bit version, as well as portable.
@@ -31,3 +31,8 @@ sys-reqs:
 - Windows 7+
 - A processor capable of SSE2
 ---
+
+##### Please note! #
+__*__ = Running the Iridium portable version works out of the box. We recommend to create a shortcut using the    
+```--user-data-dir=/IridiumUserData```    
+configuration option to store the user data to a preferred location (like a USB stick, etc.)    

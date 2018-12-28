@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+	<body>
+{% include header.html %}
+{{ content }}{% 
+unless page.path contains 'downloads/index' %}
+{% include footer_pre-downloads.html %}
+{% include footer.html %}{% 
+else %} {% 
+endunless %}
+{% include js-scripts.html %}{% 
+unless page.path contains 'os-not-detected' %}{% 
+unless page.path contains 'downloads/index' %}
+	<script type="application/ld+json">
+{% include struct-data-downloads.json %}
+	</script>{% 
+else %}
+	<script type="application/ld+json">
+{% include struct-data-downloads-index.json %}
+	</script>{% 
+endunless %}{% 
+else %} {% 
+endunless %}
+	</body>
+</html>

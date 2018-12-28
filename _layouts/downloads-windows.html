@@ -1,0 +1,52 @@
+---
+layout: layout_downloads
+---
+<!-- Windows  -->
+	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+		<div class="container">
+			<header class="major">
+				<h2>{{ page.title }}</h2>
+			</header>
+			<div class="icon dl fa-windows"></div>
+			<header>
+				<h3>{{ page.OS }}</h3>
+				<p>current version {{ page.version }}<br/>
+				<small>(based on Chromium {{ page.chromium }})</small></p>
+			</header>
+			<div class="container w-50">
+				<div class="row gtr-uniform gtr-100">
+					<div class="col-12">
+						<h4>Standard Version</h4>
+					</div>
+					<div class="col-6 col-12-small">
+						<a href="{{ page.link-32bit }}" download="IridiumBrowser-{{ page.version }}-x86.msi" title="download 32-bit version" class="button small fit download icon fa-download">32-bit download</a>
+					</div>
+					<div class="col-6 col-12-small">
+						<a href="{{ page.link-64bit }}" download="IridiumBrowser-{{ page.version }}-x64.msi" title="download 64-bit version" class="button small fit download icon fa-download">64-bit download</a>
+					</div>
+				</div>
+				<div class="row portable gtr-uniform gtr-100">
+					<div class="col-12">
+						<h4>Portable Version *</h4>
+					</div>
+					<div class="col-6 col-12-small">
+						<a href="{{ page.link-32bit-port }}" download="IridiumBrowser-{{ page.version }}-portable-x86.zip" title="download portable 32-bit version" class="button small fit download1 icon fa-download">32-bit download</a>			
+					</div>
+					<div class="col-6 col-12-small">
+						<a href="{{ page.link-64bit-port }}" download="IridiumBrowser-{{ page.version }}-portable-x64.zip" title="download portable 64-bit version" class="button small fit download1 icon fa-download">64-bit download</a>
+					</div>
+				</div>
+			</div>
+			<div class="box w-75">
+	{{ content }}
+			</div>
+			<div class="container bottom-note">
+				<p>If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/windows/" title="go to build archive">build archive</a></p>
+				<p>System requirements:<br/>{% 
+				for sys-reqs in page.sys-reqs %}
+					&#8226; {{ sys-reqs }}<br/>{% 
+				endfor %}</p>
+				<p>The Windows Installer is produced by <a href="http://www.advancedinstaller.com/" title="Advanced Installer">Advanced Installer</a></p>
+			</div>
+		</div>
+	</section>

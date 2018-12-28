@@ -1,5 +1,5 @@
 ---
-layout:			dl-repo
+layout:			downloads-repo
 title:			"Download for Fedora"
 subtitle:		""
 description:	Download Iridium Browser for Fedora 28 and 29. Install package from repository using the command line.
