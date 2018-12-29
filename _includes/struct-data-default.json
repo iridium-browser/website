@@ -46,7 +46,7 @@
 			"position": 1,
 			"item": {
 				"@id": "{{ site.url | append: site.baseurl }}",
-				"name": "Home"
+				"name": "home"
 				}
 			},
 			{

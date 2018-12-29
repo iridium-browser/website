@@ -10,7 +10,7 @@ unless page.path contains 'downloads/index' %}
 else %} {% 
 endunless %}
 {% include js-scripts.html %}{% 
-unless page.path contains 'os-not-detected' %}{% 
+unless page.structured-data == 'no' %}{% 
 unless page.path contains 'downloads/index' %}
 	<script type="application/ld+json">
 {% include struct-data-downloads.json %}
@@ -20,7 +20,7 @@ else %}
 {% include struct-data-downloads-index.json %}
 	</script>{% 
 endunless %}{% 
-else %} {% 
+else %}{% 
 endunless %}
 	</body>
 </html>

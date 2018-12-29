@@ -1,4 +1,5 @@
 	[
+{% unless page.path contains 'os-not-detected' %}
 		{
 		"@context": "http://schema.org/",
 		"@type": "SoftwareApplication",
@@ -29,11 +30,11 @@
 				"priceCurrency": "EUR",
 				"price": "0.00"		
 			}
-		},
+		}, {% endunless %}
 		{
 		"@context": "http://schema.org",
 		"@type": "WebPage",
-		"name": "{{ page.title }}",
+		"name": "{% unless page.path contains 'os-not-detected' %}{{ page.title }}{% else %}{{ page.structured-data.title }}{% endunless %}",
 		"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
 		"description": "{{ page.description }}"
 		},
@@ -46,7 +47,7 @@
 			"position": 1,
 			"item": {
 				"@id": "{{ site.url | append: site.baseurl }}",
-				"name": "Home"
+				"name": "home"
 				}
 			},
 			{
@@ -62,7 +63,7 @@
 			"position": 3,
 			"item": {
 				"@id": "{{ page.url | absolute_url }}",
-				"name": "{{ page.structured-data.os0 }}"
+				"name": "{% unless page.path contains 'os-not-detected' %}{{ page.title }}{% else %}{{ page.structured-data.title }}{% endunless %}"
 				}
 			}
 			]

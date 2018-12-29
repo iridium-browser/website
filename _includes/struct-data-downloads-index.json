@@ -83,7 +83,7 @@
 			"item":
 				{
 				"@id": "{{ site.url | append: site.baseurl }}",
-				"name": "Home"
+				"name": "home"
 				}
 			},
 			{
@@ -91,7 +91,7 @@
 			"position": 2,
 			"item":
 				{
-				"@id": "{{ page.url | absolute_url }}",
+				"@id": "{{ '/downloads/' | absolute_url }}",
 				"name": "Download"
 				}
 			}
