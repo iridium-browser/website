@@ -1136,6 +1136,7 @@ sitemap:
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
+		font-family: _font(family);
 		font-weight: _font(weight-bold);
 		height: 3.5em;
 		letter-spacing: _font(letter-spacing);
@@ -1220,9 +1221,9 @@ sitemap:
 				background-color: lighten(_palette(accent1, bg), 10);
 				box-shadow: inset 0 0 0 2px lighten(_palette(accent1, bg), 10);
 			}
-
 			&:active {
 				background-color: darken(_palette(accent1, bg), 10);
+				box-shadow: inset 0 0 0 2px darken(_palette(accent1, bg), 10);
 			}
 		}
 		&.download-portable {
@@ -1234,9 +1235,9 @@ sitemap:
 				background-color: lighten(_palette(accent1, bg-light), 5);
 				box-shadow: inset 0 0 0 2px lighten(_palette(accent1, bg-light), 5);
 			}
-
 			&:active {
 				background-color: darken(_palette(accent1, bg-light), 5);
+				box-shadow: inset 0 0 0 2px darken(_palette(accent1, bg-light), 5);
 			}
 		}
 
@@ -1282,7 +1283,6 @@ sitemap:
 					}
 				}
 			}
- 
 			&:active {
 				background-color: _palette(border2-bg);
 			}
