@@ -1,7 +1,7 @@
 // set names for both precache & runtime cache
 workbox.core.setCacheNameDetails({
     prefix: 'iridium',
-    suffix: 'v0.01',
+    suffix: 'v0.02',
     precache: 'precache',
     runtime: 'runtime-cache'
 });
