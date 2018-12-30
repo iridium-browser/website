@@ -81,7 +81,7 @@ sitemap:
 			</div>
 			<hr/>
 			<p>Read all the latest news</p>
-			<a class="button large special icon fa-file-text" href="{{ '/news/' | relative_url }}" title="read all the latest news">news</a>
+			<a class="button special icon fa-file-text" href="{{ '/news/' | relative_url }}" title="read all the latest news">news</a>
 		</div>
 	</section>
 <!-- MANIFEST -->
@@ -113,18 +113,17 @@ sitemap:
 				<h3>{{ about.heading }}</h3>
 				{{ about.content | strip_newlines }}{% 
 			endfor %}
-		<!-- Developer Logos -->
-			<div class="row uniform">{% 
+			<!-- Developer Logos -->
+			<div class="row gtr-uniform gtr-100">{% 
 			for about-logos in site.data.about-logos %}
-			<div class="col-3 col-4-xlarge col-6-medium special">
-				<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" class="{{ about-logos.logo-class }}"></a>
-				<div class="logo-text">{{ about-logos.title }}</div>
-			</div>{% 
+				<div class="col-3 col-4-xlarge col-6-medium special">
+					<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" class="{{ about-logos.logo-class }}"></a>
+					<p class="logo-text">{{ about-logos.title }}</p>
+				</div>{% 
 			endfor %}
 			</div>
 		</div>
 	</section>
-
 <!-- CONTRIBUTE -->
 	<section id="contribute-index" class="wrapper {% for contribute in site.contribute limit:1 %}{{ contribute.style }}{% endfor %} special">
 		<div class="container">

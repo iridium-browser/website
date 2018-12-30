@@ -17,12 +17,12 @@ layout: layout_default
 				{{ about.content | strip_newlines }}{% 
 			endfor %}
 		<!-- Developer Logos -->
-			<div class="row gtr-uniform">{% 
+			<div class="row gtr-uniform gtr-100">{% 
 			for about-logos in site.data.about-logos %}
-			<div class="col-3 col-4-xlarge col-6-medium special">
-				<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" class="{{ about-logos.logo-class }}"></a>
-				<div class="logo-text">{{ about-logos.title }}</div>
-			</div>{% 
+				<div class="col-3 col-4-xlarge col-6-medium special">
+					<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" class="{{ about-logos.logo-class }}"></a>
+					<p class="logo-text">{{ about-logos.title }}</p>
+				</div>{% 
 			endfor %}
 			</div>
 		</div>

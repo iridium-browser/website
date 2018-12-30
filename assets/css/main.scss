@@ -3335,8 +3335,10 @@ sitemap:
 /* ABOUT */	
 
 	#about, #about-index {
-
-
+		.row {
+			margin-bottom: 1.25em;
+		}
+		
 		h3 {
 			font-size: 1.5em;
 		
@@ -3352,7 +3354,6 @@ sitemap:
 
 			&.round {
 				@include vendor('background-image', 'radial-gradient(at 50% 50%, transparent 50%, rgba(0,0,0,0.0625) 65%)');
-				
 				background-color: _palette(border-bg);
 				color: _palette(fg-blue);
 				border-radius: 2em;
@@ -3366,7 +3367,6 @@ sitemap:
 				position: relative;
 				
 				&:before {
-					
 					display: inline-block;
 					font-size: 1em;
 				}
@@ -3593,7 +3593,6 @@ sitemap:
 /* FAQ */
 
 	#faq {
-
 		h3 {
 			font-size: 1.15em;
 			
