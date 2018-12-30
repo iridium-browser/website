@@ -8,7 +8,7 @@ hotpic-tw:			"/images/hotpics/Iridium-tw_hotpic-faq.png"
 menu:				6
 link:				/faq
 id:					faq
-style:				style2
+style:				style1
 permalink:			/faq
 structured-data:	"faq"
 sitemap:

@@ -727,7 +727,7 @@ sitemap:
 				}
 				.faq-content {
 					border-radius: 0 0 _size(border-radius) _size(border-radius);
-					background-color: _palette(bg);
+					background-color: _palette(bg-dark);
 					padding: 1.25em 1.25em .5em 1.25em;
 				}
 				&:nth-last-child(1) {
@@ -2662,6 +2662,9 @@ sitemap:
 
 /* IRIDIUM LOGO-LARGE */
 	.logo {
+		@include vendor('transition', ('transform 0.75s ease', 'opacity 0.75s ease'));
+
+		opacity: 1;
 		width: 560px;
 		height: 338px;
 		background-size: cover;
@@ -3059,95 +3062,91 @@ sitemap:
 		}
 	}
 
-/* MARQUEE */
+/* HOME */
 
-	.marquee {
-		width: 96%;
-		margin: 0 auto;
-		white-space: nowrap;
-		overflow: hidden;
-		box-sizing: border-box;
-		margin-top: 3em;
-		margin-bottom: 1em;
-			
-		a {
-			color: _palette(fg-blue);
-			text-decoration: none;
-
-			&:hover {
-				text-decoration: underline;
-			}
-			&:active {
-				color: _palette(accent1, bg);
-			}
-		}
-
-		@include breakpoint('<=large') {
-			margin-top: 2.5em;
-			margin-bottom: .75em;
-		}
-		@include breakpoint(medium) {
-			margin-top: 1.65em;
-			margin-bottom: 0;
-		}
-		@include breakpoint('<=small') {
-			margin-top: 1.15em;
-			margin-bottom: 0;
-		}
-	}
-	.marquee div {
-		font-size: 1.25em;
-		color: _palette(fg-blue);
-		line-height: 1em;
-		display: inline-block;
-		padding-left: 100%;  /* show the marquee just outside the paragraph */
-		animation: marquee 15s linear infinite;
+	#home {
 		
-		@include breakpoint('<=small') {
-			font-size: .95em;
-		}
-	}
-	.marquee div:hover {
-		animation-play-state: paused;
-	}
-	@keyframes marquee {
-		0%   { transform: translate(0, 0); }
-		100% { transform: translate(-100%, 0); }
-	}
-	
-/* FEATURES */	
+	/* MARQUEE */
 
-	#features {
-		padding-top: 2.5em;
-		padding-bottom: 1em;
+		.marquee {
+			width: 96%;
+			margin: 0 auto;
+			white-space: nowrap;
+			overflow: hidden;
+			box-sizing: border-box;
+			margin-top: 3em;
+			margin-bottom: 1em;
+				
+			a {
+				color: _palette(fg-blue);
+				text-decoration: none;
 
-		h3 {
-			font-size: 1.5em;
-		
+				&:hover {
+					text-decoration: underline;
+				}
+				&:active {
+					color: _palette(accent1, bg);
+				}
+			}
+
+			@include breakpoint('<=large') {
+				margin-top: 2.5em;
+				margin-bottom: .75em;
+			}
+			@include breakpoint(medium) {
+				margin-top: 1.65em;
+				margin-bottom: 0;
+			}
 			@include breakpoint('<=small') {
-			font-size: 1.25em;
+				margin-top: 1.15em;
+				margin-bottom: 0;
 			}
 		}
-		.icon {
-			font-size: 5em !important;
-			line-height: 1.25em;
-			color: _palette(accent1, bg) !important;
+		.marquee div {
+			font-size: 1.25em;
+			color: _palette(fg-blue);
+			line-height: 1em;
+			display: inline-block;
+			padding-left: 100%;  /* show the marquee just outside the paragraph */
+			animation: marquee 15s linear infinite;
+			
+			@include breakpoint('<=small') {
+				font-size: .95em;
+			}
 		}
-		.container {
-			margin-bottom: 3em;
+		.marquee div:hover {
+			animation-play-state: paused;
 		}
-	}
-	
-/* MANIFEST */	
-
-	#manifest-index {
-		padding-bottom: 3em;
+		@keyframes marquee {
+			0%   { transform: translate(0, 0); }
+			100% { transform: translate(-100%, 0); }
+		}
 		
-		h2 {
-			margin-top: 1.15em;
+	/* FEATURES */	
+
+		#features {
+			padding-top: 2.5em;
+			padding-bottom: 1em;
+
+			h3 {
+				font-size: 1.5em;
+			
+				@include breakpoint('<=small') {
+				font-size: 1.25em;
+				}
+			}
+			.icon {
+				font-size: 5em !important;
+				line-height: 1.25em;
+				color: _palette(accent1, bg) !important;
+			}
+			.container {
+				margin-bottom: 3em;
+			}
 		}
 	}
 
+	
 /* NEWS */
 
 	#news-post {
@@ -3289,9 +3288,6 @@ sitemap:
 	}
 
 	#news-index {
-		h2 {
-			margin-top: 1.15em;
-		}
 		.content {
 			padding-top: 2em;
 		}
@@ -3327,12 +3323,19 @@ sitemap:
 			}
 		}
 	}
+
 	
+/* MANIFEST */	
+
+	#manifest-index {
+		padding-bottom: 2em;
+	}
+
 
 /* ABOUT */	
 
 	#about, #about-index {
-		padding-bottom: 4.5em;
+
 
 		h3 {
 			font-size: 1.5em;
@@ -3379,13 +3382,6 @@ sitemap:
 			&:first-child {
 			margin-top: 0;
 			}
-		}
-	}
-	#about-index {
-		padding-top: 4em;
-		
-		h2 {
-			margin-top: 1.15em;
 		}
 	}
 
@@ -3450,12 +3446,6 @@ sitemap:
 				text-align: center;
 			}
 		}
-	}
-	#contribute-index {
-		h2 {
-			margin-top: 1.15em;
-		}
-
 	}
 	
 
@@ -3618,9 +3608,3 @@ sitemap:
 			}
 		}
 	}
-	
-/* LEGAL */
-
-	#legal {
-	}
-	
