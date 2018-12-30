@@ -9,7 +9,7 @@ menu:				4
 link:				/contribute
 id:					contribute
 style:				style2
-permalink:			/contribute.html
+permalink:			/contribute
 structured-data:	"yes"
 sitemap:
   lastmod:			2018-12-27 16:00:00 +0100

@@ -9,7 +9,7 @@ menu:				6
 link:				/faq
 id:					faq
 style:				style2
-permalink:			/faq.html
+permalink:			/faq
 structured-data:	"faq"
 sitemap:
   lastmod:			2018-12-27 16:00:00 +0100

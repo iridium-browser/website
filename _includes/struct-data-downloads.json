@@ -1,5 +1,4 @@
 	[
-{% unless page.path contains 'os-not-detected' %}
 		{
 		"@context": "http://schema.org/",
 		"@type": "SoftwareApplication",
@@ -30,11 +29,11 @@
 				"priceCurrency": "EUR",
 				"price": "0.00"		
 			}
-		}, {% endunless %}
+		}, 
 		{
 		"@context": "http://schema.org",
 		"@type": "WebPage",
-		"name": "{% unless page.path contains 'os-not-detected' %}{{ page.title }}{% else %}{{ page.structured-data.title }}{% endunless %}",
+		"name": "{{ page.title }}",
 		"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
 		"description": "{{ page.description }}"
 		},
@@ -63,7 +62,7 @@
 			"position": 3,
 			"item": {
 				"@id": "{{ page.url | absolute_url }}",
-				"name": "{% unless page.path contains 'os-not-detected' %}{{ page.title }}{% else %}{{ page.structured-data.title }}{% endunless %}"
+				"name": "{{ page.title }}"
 				}
 			}
 			]

@@ -9,7 +9,7 @@ menu:				3
 link:				/about
 id:					about
 style:				style1
-permalink:			/about.html
+permalink:			/about
 structured-data:	"yes"
 sitemap:
   lastmod:			2018-12-27 16:00:00 +0100

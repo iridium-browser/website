@@ -8,7 +8,7 @@ tracker-link:		"https://github.com/iridium-browser/tracker/issues"
 menu:				no
 id: 				imprint
 style:				style1
-permalink:			/privacy-policy.html
+permalink:			/privacy-policy
 structured-data:	"yes"
 sitemap:
   lastmod:			2018-12-27 16:00:00 +0100

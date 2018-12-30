@@ -1,4 +1,6 @@
 ---
+sitemap:
+  exclude: 'yes'
 ---
 Options +FollowSymLinks
 RewriteEngine On
