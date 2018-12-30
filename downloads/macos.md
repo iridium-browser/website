@@ -18,7 +18,7 @@ sitemap:
   lastmod:		2018-11-13 18:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
-permalink:		/downloads/macOS.html
+permalink:		/downloads/macOS
 
 OS: 				macOS
 version:			2018.11-1

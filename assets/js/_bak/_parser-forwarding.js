@@ -1,4 +1,6 @@
 ---
+sitemap:
+  exclude: "yes"
 ---
 var parser = new UAParser();
 var result = parser.getResult();
