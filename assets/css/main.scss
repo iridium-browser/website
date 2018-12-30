@@ -708,20 +708,40 @@ sitemap:
 			margin-top: 3em;
 			
 			li {
-				background: _palette(bg);
-				padding: 2.5em 2em .5em 2em;
-
-				&:nth-child(2n + 1) {
-					background: darken(_palette(bg-dark), 10);
+				padding-left: 0;
+				margin-bottom: 2.5em;
+				
+				h3 {
+					border-radius: _size(border-radius) _size(border-radius) 0 0;
+					background: _palette(fg);
+					color: _palette(bg);
+					font-size: 1.15em;
+					padding: 1em 1.25em 1em 1.25em;
+					margin: 0;
+			
+					&.icon {
+						&:before {
+							margin-right: .5em;
+						}
+					}
+				}
+				.faq-content {
+					border-radius: 0 0 _size(border-radius) _size(border-radius);
+					background-color: _palette(bg);
+					padding: 1.25em 1.25em .5em 1.25em;
 				}
 				&:nth-last-child(1) {
-					background: _palette(bg-dark) !important;
-					padding-bottom: 0;
-					text-align: center;
+					.faq-content {
+						background-color: transparent;
+						padding-bottom: 0;
+						text-align: center;
+					}
 				}
 
 				@include breakpoint('<=small') {
-					padding: 1.75em 1.25em .0125em 1.25em;
+					h3 {
+						font-size: 1.075em;
+					}
 				}
 			}
 		}
@@ -3448,7 +3468,7 @@ sitemap:
 		}
 		h4 {
 			font-size: 1.15em;
-			margin-top: 1.5em;
+			
 		}
 		.post-content {
 			margin: 0;
@@ -3480,7 +3500,7 @@ sitemap:
 	#downloads, #windows, #macos, #debian, #suse, #fedora, #rhel, #source-code, #os-not-detected, #footer {
 		.container, .row, .box {
 			&.bottom-note {
-				margin-top: 2em;
+				margin-top: 4.5em;
 			}
 			.w-25 {
 				width: 25%;
@@ -3583,6 +3603,7 @@ sitemap:
 /* FAQ */
 
 	#faq {
+
 		h3 {
 			font-size: 1.15em;
 			

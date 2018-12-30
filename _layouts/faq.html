@@ -11,7 +11,9 @@ layout: layout_default
 			<ul class="faq">{% for faq in site.faq %}
 				<li>{% unless faq.title == "" %}
 					<h3 class="icon fa-question-circle">{{ faq.title }}</h3>{% else %}{% endunless %}
-					{{ faq.content | strip_newlines }}
+					<div class="faq-content">
+						{{ faq.content | strip_newlines }}
+					</div>
 				</li>{% 
 			endfor %}
 			</ul>
