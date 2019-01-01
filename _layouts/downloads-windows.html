@@ -19,10 +19,10 @@ layout: layout_downloads
 						<h4>Standard Version</h4>
 					</div>
 					<div class="col-6 col-12-small">
-						<button type="submit" onclick="window.open('{{ page.link-32bit }}')" title="download 32-bit version" class="button small fit download icon fa-download">32-bit download</button>
+						<button type="submit" onclick="window.open('{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end-32 }}')" title="download 32-bit version" class="button small fit download icon fa-download">32-bit download</button>
 					</div>
 					<div class="col-6 col-12-small">
-						<button type="submit" onclick="window.open('{{ page.link-64bit }}')" title="download 64-bit version" class="button small fit download icon fa-download">64-bit download</button>
+						<button type="submit" onclick="window.open('{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end-64 }}')" title="download 64-bit version" class="button small fit download icon fa-download">64-bit download</button>
 					</div>
 				</div>
 				<div class="row portable gtr-uniform gtr-100">
@@ -30,10 +30,10 @@ layout: layout_downloads
 						<h4>Portable Version *</h4>
 					</div>
 					<div class="col-6 col-12-small">
-						<button type="submit" onclick="window.open('{{ page.link-32bit-port }}')" title="download portable 32-bit version" class="button small fit download-portable icon fa-download">32-bit download</button>
+						<button type="submit" onclick="window.open('{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end-32port }}')" title="download portable 32-bit version" class="button small fit download-portable icon fa-download">32-bit download</button>
 					</div>
 					<div class="col-6 col-12-small">
-						<button type="submit" onclick="window.open('{{ page.link-64bit-port }}')" title="download portable 64-bit version" class="button small fit download-portable icon fa-download">64-bit download</button>
+						<button type="submit" onclick="window.open('{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end-64port }}')" title="download portable 64-bit version" class="button small fit download-portable icon fa-download">64-bit download</button>
 					</div>
 				</div>
 			</div>

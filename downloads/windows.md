@@ -21,12 +21,16 @@ sitemap:
 permalink:		/downloads/windows
 
 OS: 				Windows
-version:			2018.11.70-1
+version:			2018.11.70.1
 chromium:			70.0.3538.77
-link-32bit:			https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.msi
-link-64bit:			https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.msi
-link-32bit-port:	https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x86.zip
-link-64bit-port:	https://downloads.iridiumbrowser.de/windows/iridiumbrowser-latest-x64.zip
+dl-url:				https://downloads.iridiumbrowser.de/windows/
+dl-folder:			2018.11.70-1
+dl-file:			/iridiumbrowser-
+dl-end-32:			-x86.msi
+dl-end-64:			-x64.msi
+dl-end-32port:		-x86.zip
+dl-end-64port:		-x64.zip
+
 sys-reqs:
 - Windows 7+
 - A processor capable of SSE2
