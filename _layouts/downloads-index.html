@@ -1,0 +1,26 @@
+---
+layout: layout_downloads
+---
+<!-- Downloads  Index -->
+	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+		<div class="container">
+			<header class="major">
+				<h2>{{ page.title }}</h2>
+				{% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+			</header>{% 
+			for downloads-prefooter in site.footer-downloads %}
+			<div class="container w-75 downloads">
+				<div class="row gtr-uniform gtr-200">{% for button in downloads-prefooter.button %}
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="{{ button.link | prepend: site.baseurl }}" title="{{ button.title }}" class="button large fit {{ button.icon }}">{{ button.name }}</a>
+					</div>{% endfor %}
+				</div>
+			</div>	
+				<div>{{ downloads-prefooter.os-heading }}</div>
+				<ul class="vert-list">{% for os in downloads-prefooter.os %}
+					<li>{{ os.name }}</li>{% endfor %}
+				</ul>
+				<p><span class="{{ downloads-prefooter.note-icon }}"></span> {{ downloads-prefooter.note }}</p>{% 
+			endfor %}
+		</div>
+	</section>

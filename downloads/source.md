@@ -4,7 +4,7 @@ title:			"Download Source Code"
 subtitle:		""
 description:	Download the Iridium Browser source code from our git repository using the command line or simply download the tar.gz file.
 id:				source-code
-style:			1
+style:			style1
 menu:			no
 structured-data:
   os0:			source code

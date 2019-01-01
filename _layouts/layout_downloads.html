@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 	{% include head.html %}
-	<body>
-{% include header.html %}
+	<body>{% 
+unless page.path contains 'downloads/go' %}
+{% include header.html %}{% 
+else %} {% 
+endunless %}
 {{ content }}{% 
-unless page.path contains 'downloads/index' %}
+unless page.path contains 'downloads/go' %}{% 
+	unless page.path contains 'downloads/index' %}
 {% include footer_pre-downloads.html %}
+	else %} {% 
+	endunless %}
 {% include footer.html %}{% 
 else %} {% 
 endunless %}
 {% include js-scripts.html %}{% 
-unless page.structured-data == 'no' %}{% 
-unless page.path contains 'downloads/index' %}
+unless page.structured-data == 'no' or page.path contains 'downloads/go' or page.path contains 'downloads/index' %}
 	<script type="application/ld+json">
 {% include struct-data-downloads.json %}
-	</script>{% 
-else %}
+	</script>{%
+else %}{% 	
+endunless %}{% 
+if page.path contains 'downloads/index' %}
 	<script type="application/ld+json">
 {% include struct-data-downloads-index.json %}
 	</script>{% 
-endunless %}{% 
-else %}{% 
-endunless %}
+endif %}
 	</body>
 </html>

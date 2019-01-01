@@ -6,7 +6,7 @@ description:	Download Iridium Browser for Fedora 28 and 29. Install package from
 hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-dl-fedora.png"
 hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-dl-fedora.png"
 id:				fedora
-style:			1
+style:			style1
 menu:			no
 link:			/downloads/fedora
 structured-data:

@@ -6,7 +6,7 @@ description:	Download Iridium Browser for Linux; Debian-based systems, openSUSE 
 hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-dl-linux.png"
 hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-dl-linux.png"
 id:				linux
-style:			1
+style:			style1
 menu:			no
 link:			/downloads/linux
 structured-data:
@@ -28,7 +28,7 @@ permalink:		/downloads/linux
 {::options parse_block_html="true" /}
 <h3>please choose your platform</h3>
 <div class="container w-50">
-<div class="row">
+<div class="row gtr-uniform gtr-100">
 <div class="col-6 col-12-small">
 [Debian]({{ '/downloads/debian' | relative_url }} "Debian-based OS download page"){:.button .large .dark .fit .dlinux .fl-debian}
 </div>

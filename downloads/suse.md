@@ -6,7 +6,7 @@ description:	Download Iridium Browser for openSUSE Leap 15.0, 42.3 and Tumblewee
 hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-dl-suse.png"
 hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-dl-suse.png"
 id:				suse
-style:			1
+style:			style1
 menu:			no
 link:			/downloads/suse
 structured-data:
