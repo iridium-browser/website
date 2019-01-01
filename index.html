@@ -40,7 +40,9 @@ sitemap:
 		</section>{% endif %}{% endfor %}
 	<!-- Banner -->
 		<section id="banner">{% 
-			for banner in site.banner %}
+		for banner in site.banner %}
+			<h2>{{ banner.title }}</h2>
+			<a href="{{ banner.button-url | relative_url }}" title="download Iridium Browser" class="button large download">download</a>
 			{{ banner.content | strip_newlines }}
 		{% endfor %}</section>
 	<!-- Features -->
