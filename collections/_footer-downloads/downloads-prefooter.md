@@ -6,7 +6,7 @@ title2:		"If this is not your operating system, or if you are looking for a diff
 os-heading:	"Currently, Iridium Browser is available for the following operating systems:"
 os:
  - name:	Windows 7+
- - name:	macOS 10.9+
+ - name:	macOS X 10.10+
  - name:	Debian 8+, Mint 17+, Ubuntu 16.04+ (all 64-bit)
  - name:	openSUSE Leap 42.3 and 15.0, Tumbleweed
  - name:	Fedora 28+
