@@ -12,8 +12,8 @@ keywords:   "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, 
 app-color:  "ececec"
 
 # Build settings  
-baseurl:    
-url:        https://iridiumbrowser.de
+baseurl:    /iridium
+url:        https://souldanger.com
 
 plugins: [jekyll-pwa-plugin, jekyll-target-blank]
 
