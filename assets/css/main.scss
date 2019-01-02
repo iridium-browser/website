@@ -750,7 +750,7 @@ sitemap:
 			color: _palette(fg-light);
 			letter-spacing: _font(letter-spacing);
 			position: relative;
-			margin: (_size(element-margin) * -0.4) 0 (_size(element-margin) * .4) 0;
+			margin: (_size(element-margin) * -0.4) 0 (_size(element-margin) * .4) -1.65em;
 
 			li {
 				display: inline-block;
