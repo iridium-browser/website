@@ -9,14 +9,7 @@ layout: layout_post
 			</header>
 			<header>
 				<h3>{{ page.title }}</h3>
-				<ul class="post-details">
-					<li>
-						<span class="icon fa-calendar"></span><small>{{ page.date | date_to_long_string }}</small>
-					</li>
-					<li>
-						<span class="icon fa-user-o"></span><small>{{ page.author }}</small>
-					</li>
-				</ul>
+				<p class="date icon fa-calendar">{{ page.date | date_to_long_string }}</p>
 			</header>
 			{{ content | strip_newlines}}
 			<hr/>

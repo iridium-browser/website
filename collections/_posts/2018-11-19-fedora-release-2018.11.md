@@ -17,4 +17,4 @@ The build version **2018.11.71** is also available for **openSUSE Leap 15.0**, *
 **Version 2018.11.70** is available for **Windows** and **macOS**, both based on Chromium 70.0.3538.77.   
 Builds for **Debian-based systems, Red Hat Enterprise Linux/CentOS** to follow soon.    
     
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     
+[]({{ '/downloads/go' | relative_url }} "download Iridium Browser"){: .button .download-post}

@@ -27,14 +27,7 @@ sitemap:
 				for post in site.posts limit:1 %}
 					<header>
 						<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-						<ul class="post-details">
-							<li>
-								<span class="icon fa-calendar"></span><small>{{ post.date | date_to_long_string }}</small>
-							</li>
-							<li>
-								<span class="icon fa-user-o"></span><small>{{ post.author }}</small>
-							</li>
-						</ul>
+						<p class="date icon fa-calendar">{{ post.date | date_to_long_string }}</p>
 					</header>
 					{{ post.content | strip_newlines }} 
 					{% 
@@ -54,11 +47,11 @@ sitemap:
 								<header>
 									<div class="teaser-heading">{{ post.title | truncate: 58 }}</div>
 									<div class="teaser-date">
-										<span class="icon fa-calendar"></span>{{ post.date | date: "%-d %B %Y" }}
+										<div class="date icon fa-calendar">{{ post.date | date_to_long_string }}</div>
 									</div>
 								</header>
 								<div class="teaser-content">
-									<p>{{ post.content | strip_html | strip_newlines | truncate: 180 }}</p>
+									<p>{{ post.content | strip_html | truncate: 180 }}</p>
 								</div>
 							</div>
 						</a>

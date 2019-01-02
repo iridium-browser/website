@@ -69,16 +69,9 @@ sitemap:
 			for post in site.posts limit:1 %}
 				<header>
 					<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-					<ul class="post-details">
-						<li>
-							<span class="icon fa-calendar"></span><small>{{ post.date | date_to_long_string }}</small>
-						</li>
-						<li>
-							<span class="icon fa-user-o"></span><small>{{ post.author }}</small>
-						</li>
-					</ul>
+					<p class="date icon fa-calendar">{{ post.date | date_to_long_string }}</p>
 				</header>
-				{{ post.content | strip_newlines }}{% 
+				{{ post.content | strip_newlines }} {% 
 			endfor %}
 			</div>
 			<hr/>

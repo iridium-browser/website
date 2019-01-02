@@ -13,7 +13,6 @@ style: style1
 
 Following yesterday's release of version 57.0 for Ubuntu/Debian, we are now releasing the latest builds for **Windows** and **macOS**.     
 The Windows build is also available as a portable version.     
-<!--break-->
 Releases for **openSUSE** and **Fedora** to follow shortly.     
 
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser v57"){: .button .download}     
+[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}

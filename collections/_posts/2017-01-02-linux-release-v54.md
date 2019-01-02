@@ -11,7 +11,7 @@ menu: no
 style: style1
 ---
 
-Iridium Browser releases version 54.0 for **Ubuntu, Debian, Mint** and various **openSUSE** versions including **Leap 42.1/42.2, 13.2 and Tumbleweed**.      
+Iridium Browser releases version 54.0 for **Ubuntu, Debian, Mint** and various **openSUSE** versions including **Leap 42.1/42.2, 13.2 and Tumbleweed**.    
 Now available for download.   
-<!--break-->
-     
+
+[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}

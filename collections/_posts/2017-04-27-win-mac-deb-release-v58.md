@@ -12,7 +12,6 @@ style: style1
 ---
 
 Up-to-date **version 58.0** builds for **Windows, macOS, Ubuntu/Debian, openSUSE, Fedora & Red Hat Enterprise Linux** now available!     
-<!--break-->
 This release is based on chromuim version 58.0.3029.81 and is in line with latest Chrome release.     
           
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     
+[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
