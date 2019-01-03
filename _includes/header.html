@@ -6,7 +6,7 @@
 			<ul>
 				<li><a href="{{ '/' | relative_url }}" title="Home"{% if page.link == "yes" %} class="active"{% endif %}>Home</a></li>{%
 				for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}
-				<li><a href="{% if my_page.submenu == "downloads" %}{{ '/downloads/go' | relative_url }}{% else %}{{ my_page.url | replace:'.html','' | relative_url }}{% endif %}" title="{{ my_page.title }}"{% if page.url contains my_page.link %} class="active"{% endif %}>{{ my_page.title }}</a>{% 
+				<li><a href="{% if my_page.submenu == "downloads" %}#{% else %}{{ my_page.url | replace:'.html','' | relative_url }}{% endif %}" title="{{ my_page.title }}"{% if page.url contains my_page.link %} class="active"{% endif %}>{{ my_page.title }}</a>{% 
 				if my_page.submenu == "downloads" %}
 					<ul>{% 
 					for submenu-details in my_page.submenu-details %}
