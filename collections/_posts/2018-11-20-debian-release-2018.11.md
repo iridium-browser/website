@@ -16,4 +16,4 @@ Furthermore version **2018.11.71** is also available for **Fedora** and **openSU
 
 Current version for **Windows** and **macOS** is **2018.11.70** based on Chromium 70.0.3538.77 and is also available for download.
         
-[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
+<button type="submit" onclick="uaParser()" title="download Iridium Browser" class="button download">download</button>
