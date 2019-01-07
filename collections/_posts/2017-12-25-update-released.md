@@ -19,4 +19,4 @@ size in macOS reduced from 600MB to 200MB**
     
 Go and get it!    
      
-[]({{ '/downloads/go' | relative_url }} "download Iridium Browser"){: .button .download-post}
+[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
