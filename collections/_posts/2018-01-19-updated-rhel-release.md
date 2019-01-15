@@ -15,4 +15,4 @@ Our developers fixed a problem in the build environment which caused the RHEL/Ce
       
 Signed builds are now available in the download section.    
      
-[DOWNLOAD]({{ '/downloads/rhel' | relative_url }} "download Iridium Browser for RHEL/CentOS"){: .button .download}     
+[]({{ '/downloads/rhel' | relative_url }} "download Iridium Browser for RHEL/CentOS"){: .button .download-post}

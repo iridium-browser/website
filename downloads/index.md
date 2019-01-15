@@ -1,12 +1,11 @@
 ---
-layout:			downloads-index-layout
-title:			"Download"
-subtitle:		""
-description:	Download Iridium Browser for Windows 7 or higher, macOS Mavericks 10.9 or higher, Debian-based systems, openSUSE 42.3 and 15.0, Fedora 27 and 28, Red Hat Enterprise Linux 7 / CentOS 7 or higher.
+layout:			downloads-index
+title:			"Downloads"
+description:	Download Iridium Browser for Windows 7 or higher, macOS X Yosemite 10.10 or higher, Debian-based systems, openSUSE 42.3 and 15.0, Fedora 27 and 28, Red Hat Enterprise Linux 7 / CentOS 7 or higher.
 hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-download.png"
 hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-download.png"
 id:				downloads
-style:			1
+style:			style1
 menu:			5
 link:			/downloads/
 submenu:		"downloads"
@@ -43,8 +42,9 @@ structured-data:
   value:		4.9
   count:		5566
 sitemap:
-  lastmod:		2017-12-05
+  lastmod:		2018-12-27 16:00:00 +0100
   priority:		0.5
   changefreq:	'daily'
 ---
 
+Satan

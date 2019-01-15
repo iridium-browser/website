@@ -1,15 +1,22 @@
-    <!-- PreFooter Downloads -->
-	<div class="container" id="footer-downloads">
-	<hr/>
-	<p class="align-center">If this is not your operating system, or if you are looking for a different platform, please choose from the following:</p></div>
-    <div class="container 75%">
-        <section class="special">{% for subfooter-downloads in site.footer-downloads %}
-			<div class="row">{% for button in subfooter-downloads.button %}
-				<div class="4u 12u$(small)">
+<!-- PreFooter Downloads -->
+    <div id="footer-downloads" class="container align-center">
+		<hr/>{% 
+		for downloads-prefooter in site.footer-downloads %}{% if page.id == "os-not-detected" or page.id == "source-code" %}
+		<h4>{{ downloads-prefooter.title }}</h4>{% 
+		else %}
+		<p>{{ downloads-prefooter.title2 }}</p>{% 
+		endif %}
+        <div class="container w-75">
+			<div class="row gtr-uniform gtr-100">{% for button in downloads-prefooter.button %}
+				<div class="col-4 col-12-small">
 					<a href="{{ button.link | prepend: site.baseurl }}" title="{{ button.title }}" class="button small fit {{ button.icon }}">{{ button.name }}</a>
 				</div>{% endfor %}
 			</div>
-			<br/>
-			{{ subfooter-downloads.content }}{% endfor %}
-        </section>
+        </div>
+		<div>{{ downloads-prefooter.os-heading }}</div>
+		<ul class="vert-list">{% for os in downloads-prefooter.os %}
+			<li>{{ os.name }}</li>{% endfor %}
+		</ul>
+		<p><span class="{{ downloads-prefooter.note-icon }}"></span> {{ downloads-prefooter.note }}</p>{% 
+		endfor %}
 	</div>

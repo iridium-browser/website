@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+	<body class="landing">
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+{% include js-scripts.html %}
+<!-- Structured Data -->
+	<script type="application/ld+json">
+{% include struct-data-start.json %}
+	</script>
+	</body>
+</html>

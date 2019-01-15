@@ -12,9 +12,8 @@ style: style1
 ---
 
 Iridium Browser **version 2017.10** builds now also available for **Fedora 25/26** and **Red Hat Enterprise Linux / CentOS 7**!     
-<!--break-->
 Latest builds for **Windows, macOS** and **openSUSE** are also available.     
 
 Releases for **Debian/Ubuntu** to follow in due course.    
           
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     
+[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}

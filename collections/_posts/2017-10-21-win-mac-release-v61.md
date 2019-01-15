@@ -12,7 +12,6 @@ style: style1
 ---
 
 Iridium Browser **version 2017.10** builds for **Windows** and **macOS** now available!     
-<!--break-->
 Releases for Linux platforms incl. **Debian/Ubuntu, openSUSE**, **Fedora** and **RHEL/CentOS**to follow soon. 
           
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     
+[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}

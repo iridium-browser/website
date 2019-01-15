@@ -12,8 +12,7 @@ style: style1
 ---
 
 We now have up-to-date version 57 builds for **Fedora 24 & 25** as well as **Red Hat Enterprise Linux 7**.     
-<!--break-->
 Also available; v57.0 releases for **Windows, macOS** and **Ubuntu/Debian**.      
 Version 57 builds for openSUSE still to follow.
  
-[DOWNLOAD]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download}     
+[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}

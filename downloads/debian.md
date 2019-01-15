@@ -1,12 +1,11 @@
 ---
-layout:			dl-repo
+layout:			downloads-repo
 title:			"Download for Debian-based systems"
-subtitle:		""
 description:	Download Iridium Browser for all Debian-based systems. Install package from repository using the command line.
 hotpic-fb:		"/images/hotpics/Iridium-fb_hotpic-dl-debian.png"
 hotpic-tw:		"/images/hotpics/Iridium-tw_hotpic-dl-debian.png"
 id:				debian
-style:			1
+style:			style1
 menu:			no
 link:			/downloads/debian
 structured-data:

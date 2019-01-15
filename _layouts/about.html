@@ -1,26 +1,29 @@
 ---
-layout: default-layout
+layout: layout_default
 ---
-
-<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
-<div class="container">
-	<header class="major">
-		<h2>{% for about in site.about %} {{ about.title }} {% endfor %}</h2>
-		<p>{% for about in site.about %} {{ about.subtitle }} {% endfor %}</p>
-	</header>
-	{% for about in site.about %}
-	<div class="icon {{ about.icon-class }}"></div>
-	{{ about.content }}
-	{% endfor %}
-
-<!-- Developer Logos -->
-	<div class="row uniform">
-	{% for about-logos in site.data.about-logos %}
-	<section class="3u 4u(xlarge) 6u(medium) special">
-		<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" class="{{ about-logos.logo-class }}"></a>
-		<div class="logo-text">{{ about-logos.title }}</div>
+<!-- About -->
+	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+		<div class="container">
+			<header class="major">{% 
+			for about in site.about limit:1 %}
+				<h2>{{ about.title }}</h2>
+				<p>{{ about.subtitle }}</p>{% 
+			endfor %}
+			</header>{% 
+			for about in site.about %}
+			<div class="icon {{ about.icon-class }}"></div>
+			{% if about.heading contains 'Backed by Serious People' %} <hr/>{% endif %}
+				<h3>{{ about.heading }}</h3>
+				{{ about.content | strip_newlines }}{% 
+			endfor %}
+		<!-- Developer Logos -->
+			<div class="row gtr-uniform gtr-100">{% 
+			for about-logos in site.data.about-logos %}
+				<div class="col-3 col-4-xlarge col-6-medium special">
+					<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" class="{{ about-logos.logo-class }}"></a>
+					<p class="logo-text">{{ about-logos.title }}</p>
+				</div>{% 
+			endfor %}
+			</div>
+		</div>
 	</section>
-	{% endfor %}
-	</div>
-</div>
-</section>

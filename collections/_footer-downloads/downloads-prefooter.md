@@ -1,39 +1,43 @@
 ---
-layout: downloads-layout
-title: ""
+layout:		layout_downloads
+title:		"Available Downloads"
+title2:		"If this is not your operating system, or if you are looking for a different platform, please choose from the following:"
+
+os-heading:	"Currently, Iridium Browser is available for the following operating systems:"
+os:
+ - name:	Windows 7+
+ - name:	macOS X 10.10+
+ - name:	Debian 8+, Mint 17+, Ubuntu 16.04+ (all 64-bit)
+ - name:	openSUSE Leap 42.3 and 15.0, Tumbleweed
+ - name:	Fedora 28+
+ - name:	Red Hat Enterprise Linux 7+ / CentOS 7+
+
 button: 
- - name: Windows
-   title: Windows download page
-   link: /downloads/windows
-   icon: icon fa-windows
- - name: macOS
-   title: macOS download page
-   link: /downloads/macOS
-   icon: icon fa-apple
- - name: Debian
-   title: Debian download page
-   link: /downloads/debian
-   icon: dlinux fl-debian
- - name: openSUSE
-   title: openSUSE download page
-   link: /downloads/suse
-   icon: dlinux fl-opensuse
- - name: Fedora
-   title: Fedora download page
-   link: /downloads/fedora
-   icon: dlinux fl-fedora-inverse
- - name: RHEL
-   title: Red Hat Enterprise Linux download page
-   link: /downloads/rhel
-   icon: dlinux fl-redhat
+ - name:	Windows
+   title:	Windows download page
+   link:	/downloads/windows
+   icon:	icon fa-windows
+ - name:	macOS
+   title:	macOS download page
+   link:	/downloads/macOS
+   icon:	icon fa-apple
+ - name:	Debian
+   title:	Debian download page
+   link:	/downloads/debian
+   icon:	dlinux fl-debian
+ - name:	openSUSE
+   title:	openSUSE download page
+   link:	/downloads/suse
+   icon:	dlinux fl-opensuse
+ - name:	Fedora
+   title:	Fedora download page
+   link:	/downloads/fedora
+   icon:	dlinux fl-fedora-inverse
+ - name:	RHEL
+   title:	Red Hat Enterprise Linux download page
+   link:	/downloads/rhel
+   icon:	dlinux fl-redhat
+
+note-icon:	fa fa-warning fa-fw
+note:		"Iridium Browser is <strong>not</strong> available for Android, iOS, Windows Mobile or any other mobile operating system!"
 ---
-
-Currently, Iridium Browser is available for the following operating systems:    
-**Windows 7+ &#8226;
-macOS 10.9+ &#8226;
-Debian 8+, Mint 17+, Ubuntu 14.04+ (all 64-bit) &#8226;
-openSUSE Leap 42.3 and 15.0, Tumbleweed &#8226;
-Fedora 28+ &#8226;
-Red Hat Enterprise Linux 7+ / CentOS 7+**
-
-<span class="fa fa-warning"></span> Iridium Browser is **not** available for Android, iOS, Windows Mobile or any other mobile operating system!

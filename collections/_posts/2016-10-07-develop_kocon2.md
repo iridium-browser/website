@@ -11,6 +11,4 @@ menu: no
 style: style1
 ---
 
-Our development team has met at [Kopano Conference](https://kopano.com/conference/) and will focus on **Ubuntu** build and faster releases.   
-<!--break-->
-     
+Our development team has met at [Kopano Conference](https://kopano.com/conference/) and will focus on **Ubuntu** build and faster releases.

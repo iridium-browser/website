@@ -1,0 +1,34 @@
+---
+layout: layout_downloads
+---
+<!-- macOS  -->
+	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
+		<div class="container">
+			<header class="major">
+				<h2>{{ page.title }}</h2>
+			</header>
+			<div class="icon dl fa-apple"></div>
+			<header>
+				<h3>{{ page.OS }}</h3>
+				<p>current version {{ page.version }}<br/>
+				<small>(based on Chromium {{ page.chromium }})</small></p>
+			</header>
+			<div class="container w-25">
+				<div class="row gtr-uniform gtr-100">
+					<div class="col-12">
+						<h4></h4>
+					</div>
+					<div class="col-12">
+						<button type="submit" onclick="window.open('{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end }}')" title="download for macOS" class="button small fit download icon fa-download">macOS download</button>
+					</div>
+				</div>
+			</div>
+			<div class="container bottom-note">
+				<p>If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/macos/" title="go to build archive">build archive</a></p>
+				<p>System requirements:<br/>{% 
+				for sys-reqs in page.sys-reqs %}
+					&#8226; {{ sys-reqs }}<br/>{% 
+				endfor %}</p>
+			</div>
+		</div>
+	</section>

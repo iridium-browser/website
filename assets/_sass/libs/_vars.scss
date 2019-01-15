@@ -5,7 +5,7 @@
 
 // Duration.
 	$duration: (
-		transition:			0.2s,
+		transition:			0.35s,
 		navPanel:			0.5s
 	);
 
@@ -21,12 +21,10 @@
 	$font: (
 		family:				('Roboto', Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
-		family-michroma:	('Michroma', sans-serif),
 		letter-spacing:		0.11em,
 		alt-letter-spacing:	0.075em,
 		weight:				400,
-		weight-bold:		700,
-		weight-extrabold:	800
+		weight-bold:		700
 	);
 
 // Palette.
@@ -45,7 +43,7 @@
 
 		accent1: (
 			bg:				#4499D4,
-			bg-light:		mix(#4499D4, #ffffff, 70%),
+			bg-light:		mix(#4499D4, #ffffff, 78%),
 			fg-bold:		#ffffff,
 			fg:				mix(#4499D4, #ffffff, 25%),
 			fg-light:		mix(#4499D4, #ffffff, 40%),

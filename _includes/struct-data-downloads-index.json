@@ -1,0 +1,100 @@
+	[
+		{
+		"@context": "http://schema.org",
+		"@type": "WebPage",
+		"name": "{{ page.title }}",
+		"url": "{{ page.url | prepend: site.baseurl | prepend: site.eurl }}",
+		"description": "{{ page.description }}"
+		},
+		{
+		"@context": "http://schema.org/",
+		"@type": "SoftwareApplication",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url }}",
+		"downloadUrl": "{{ page.url | prepend: site.baseurl | prepend: site.eurl }}",
+		"description": "{{ site.description | strip_newlines }}",
+		"applicationCategory": "Browser",
+		"operatingSystem": [ "{{ page.structured-data.os1 }}", "{{ page.structured-data.os2 }}", "{{ page.structured-data.os3 }}", "{{ page.structured-data.os4 }}", "{{ page.structured-data.os5 }}",  "{{ page.structured-data.os6 }}", "{{ page.structured-data.os7 }}", "{{ page.structured-data.os8 }}", "{{ page.structured-data.os9 }}", "{{ page.structured-data.os10 }}" ], 
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "{{ page.structured-data.value }}",
+			"bestRating" : "5",
+			"ratingCount": "{{ page.structured-data.count }}"
+			},
+			"image": {
+				"@type": "ImageObject",
+				"height": "200",
+				"width": "200",
+				"contentUrl": "{{ site.hotpic | absolute_url }}",
+				"url": "{{ site.url | append: site.baseurl }}"
+			},
+			"offers": {
+				"@type": "Offer",
+				"description": "free",
+				"priceCurrency": "EUR",
+				"price": "0.00"		
+			}
+		},
+		{ 
+		"@context": "http://schema.org",
+		"@type": "Product",
+		"name": "{{ site.title }}",
+			"image": {
+				"@type": "ImageObject",
+				"height": "200",
+				"width": "200",
+				"contentUrl": "{{ site.hotpic | absolute_url }}",
+				"url": "{{ site.url | append: site.baseurl }}"
+			},
+			"url": "{{ site.url | append: site.baseurl }}",
+			"description": "{{ site.description | strip_newlines }}",
+			"brand": {
+				"@type": "Thing",
+				"name": "{{ site.title }}"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "{{ page.structured-data.value }}",
+				"bestRating" : "5",
+				"worstRating": "1",
+				"ratingCount": "{{ page.structured-data.count }}"
+			},
+			"offers": {
+				"@type": "Offer",
+				"priceCurrency": "EUR",
+				"price": "0.00",
+				"priceValidUntil": "2025-12-31",
+				"url": "{{ site.url | append: site.baseurl }}",
+				"itemCondition": "http://schema.org/NewCondition",
+				"availability": "http://schema.org/InStock",
+				"seller": {
+					"@type": "Organization",
+					"name": "{{ site.title }}"
+				}
+			}
+		},
+		{
+		"@context": "http://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+			"@type": "ListItem",
+			"position": 1,
+			"item":
+				{
+				"@id": "{{ site.url | append: site.baseurl }}",
+				"name": "home"
+				}
+			},
+			{
+			"@type": "ListItem",
+			"position": 2,
+			"item":
+				{
+				"@id": "{{ '/downloads/' | absolute_url }}",
+				"name": "Download"
+				}
+			}
+			]
+		}
+	]

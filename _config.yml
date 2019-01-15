@@ -1,28 +1,33 @@
 # Iridium Browser - website
 
 # Site settings
-title: Iridium Browser
-email: wg-iridium@osb-alliance.com
+title:      Iridium Browser
+email:      wg-iridium@osb-alliance.com
 description: > # this means to ignore newlines until "baseurl:"
   Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure the most secure technologies are used.
-hotpic: /images/hotpics/Iridium-hotpic.png
-hotpic-fb: /images/hotpics/Iridium-hotpic_FB.png
-hotpic-tw: /images/hotpics/Iridium-hotpic_TW.png  
-keywords: "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Secure Browser Project, Secure Browser, Privacy Browser, Chromium based, Windows, macOS, Ubuntu, Debian, Mint, openSUSE, Fedora, Linux, Red Hat Enterprise Linux, CentOS"
+hotpic:     /images/hotpics/Iridium-hotpic.png
+hotpic-fb:  /images/hotpics/Iridium-hotpic_FB.png
+hotpic-tw:  /images/hotpics/Iridium-hotpic_TW.png  
+keywords:   "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Secure Browser Project, Secure Browser, Privacy Browser, Chromium based, Windows, macOS, Ubuntu, Debian, Mint, openSUSE, Fedora, Linux, Red Hat Enterprise Linux, CentOS"
+app-color:  "ececec"
 
 # Build settings  
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://iridiumbrowser.de # the base hostname & protocol for your site
+baseurl:    
+url:        https://iridiumbrowser.de
 
+plugins: [jekyll-pwa-plugin, jekyll-target-blank]
+
+# _posts settings
 permalink: "/news/:year/:month/:day/:title"
 future: true
 
 paginate: 18
 paginate_path: "/news/archive/page:num/"
 
-collections: [about, banner, contribute, faq, features, footer, footer-downloads, manifest, marquee]
+collections: [about, banner, contribute, faq, features, footer, footer-downloads, manifest, marquee, posts]
 collections_dir: collections
 
+# progressive web app
 pwa:
   sw_src_filepath: service-worker.js # Optional
   sw_dest_filename: service-worker.js # Optional
@@ -38,10 +43,22 @@ pwa:
     - "fonts/**/*"
 
 sass:
-    sass_dir: /assets/_sass
-    style: compressed
+  sass_dir: /assets/_sass
+  style: compressed
 
 markdown: kramdown
 
 kramdown:
   auto_ids: false
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,15 +1,42 @@
-Sitemap: https://iridiumbrowser.de/sitemap.xml
+---
+sitemap:
+  exclude: 'yes'
+---
 
-User-agent: *
-Disallow: /cgi-bin/
-Disallow: /admin/
+Sitemap: {{ '/sitemap.xml' | absolute_url }}   
+
+User-agent: *   
+Disallow: /cgi-bin/   
+Disallow: /admin/   
 Disallow: /temp/
+Disallow: /usr/   
+Disallow: /401.html   
+Disallow: /403.html   
+Disallow: /404.html   
+Disallow: /500.html   
+Disallow: /downloads/go.html   
+Disallow: /news/archive/page2/   
+Disallow: /news/archive/page3/   
 
-User-agent: WebReaper
-User-agent: WebCopier
-User-agent: Offline Explorer
-User-agent: HTTrack
-User-agent: Microsoft.URL.Control
+# bad robots
+User-agent: CopyRightCheck
 User-agent: EmailCollector
+User-agent: EmailSiphon
+User-agent: EmailWolf
+User-agent: HTTrack	
+User-agent: Microsoft.URL.Control
+User-agent: NetAnts
+User-agent: Offline Explorer
 User-agent: penthesilea
+User-agent: SpankBot
+User-agent: stress-agent
+User-agent: URL_Spider_Pro
+User-agent: WebBandit
+User-agent: WebCopier
+User-agent: WebCopier
+User-agent: WebmasterWorldForumBot
+User-agent: WebReaper
+User-agent: WebSauger
+User-agent: WebStripper
+User-agent: WWW-Collector-E
 Disallow: /
