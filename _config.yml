@@ -15,8 +15,6 @@ app-color:  "ececec"
 baseurl:    
 url:        https://iridiumbrowser.de
 
-plugins: [jekyll-pwa-plugin, jekyll-target-blank]
-
 # _posts settings
 permalink: "/news/:year/:month/:day/:title"
 future: true
@@ -35,7 +33,7 @@ pwa:
   precache_recent_posts_num: 100 # Optional
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
-    - "/**/*.{css,htc,js,json,xml}"
+    - "/**/*.{css,js,json,xml}"
     - "/**/*.{ico,jpg,jpeg,png,svg}"
     - "/**/*.html"
   precache_glob_ignores: # Optional
