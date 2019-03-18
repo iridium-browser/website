@@ -18,7 +18,7 @@ structured-data:
   value: 4.9
   count: 1076
 sitemap:
-  lastmod: 2018-12-27 16:00:00 +0100
+  lastmod: 2019-03-18 16:00:00 +0100
   priority: 1.0
   changefreq: 'daily'
 ---
@@ -42,7 +42,7 @@ sitemap:
 		<section id="banner">{% 
 		for banner in site.banner %}
 			<h2>{{ banner.title }}</h2>
-			<button type="submit" onclick="uaParser()" title="download Iridium Browser" class="button large download">download</button>
+			<a id="download-parser" class="button large download">download</a>
 			{{ banner.content | strip_newlines }}
 		{% endfor %}</section>
 	<!-- Features -->
@@ -76,7 +76,7 @@ sitemap:
 			</div>
 			<hr/>
 			<p>Read all the latest news</p>
-			<a class="button special icon fa-file-text" href="{{ '/news/' | relative_url }}" title="read all the latest news">news</a>
+			<a href="{{ '/news/' | relative_url }}" title="read all the latest news" class="button special icon fa-file-text">news</a>
 		</div>
 	</section>
 <!-- MANIFEST -->

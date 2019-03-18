@@ -19,7 +19,9 @@ layout: layout_downloads
 						<h4></h4>
 					</div>
 					<div class="col-12">
-						<button type="submit" onclick="window.open('{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end }}')" title="download for macOS" class="button small fit download icon fa-download">macOS download</button>
+						<form method="get" file-action="{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end }}">
+							<input type="submit" value="macOS download" title="download for macOS" class="button small fit download icon fa-download">
+						</form>
 					</div>
 				</div>
 			</div>
