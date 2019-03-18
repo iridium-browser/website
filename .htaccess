@@ -51,7 +51,7 @@ AddType text/css .css
 AddType text/xml .xml
 
 <IfModule mod_headers.c>
-  Header set Content-Security-Policy "default-src {{ site.url | append: site.baseurl }} 'self'; base-uri 'self'; script-src 'self' 'unsafe-inline'; worker-src {{ '/service-worker.js' | absolute_url }} {{ '/sw-register.js' | absolute_url }}; connect-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline';"
+  Header set Content-Security-Policy "default-src {{ '/' | absolute_url }} 'self'; base-uri 'self'; script-src 'self'; worker-src 'self'; img-src 'self'; style-src 'unsafe-inline' 'self'; connect-src 'self'; object-src 'none';
   Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set X-XSS-Protection "1; mode=block"
