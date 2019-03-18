@@ -30,7 +30,7 @@ Open Source Business Alliance e.V.
 Breitscheidstr. 4  
 70174 Stuttgart  
 Tel. +49 711 90715-390  
-[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website")[ ](https://osb-alliance.de "OSBA Website")     
+[E-Mail](mailto:{{ site.email | encode_email }} "send e-mail") | [Website](https://www.osb-alliance.com "visit website")[ ](https://osb-alliance.de "OSBA Website")     
 {:.align-center}
 
 **Angaben gemäß § 6 TDG und § 10 MDStV**    
@@ -74,7 +74,7 @@ Open Source Business Alliance e.V.
 Breitscheidstr. 4  
 70174 Stuttgart  
 Tel. +49 711 90715-390  
-[E-Mail](mailto:wg-iridium@osb-alliance.com "send e-mail") | [Website](https://www.osb-alliance.com "visit website")[ ](https://osb-alliance.de "OSBA Website")     
+[E-Mail](mailto:{{ site.email | encode_email }} "send e-mail") | [Website](https://www.osb-alliance.com "visit website")[ ](https://osb-alliance.de "OSBA Website")     
 {:.align-center}
 
 **Information in accordance with &sect;6 TDG and &sect;10 MDStV**    
