@@ -59,9 +59,9 @@ AddType text/xml .xml
   Header set X-Permitted-Cross-Domain-Policies "none"
   Header set Referrer-Policy "no-referrer"
   Header always set Feature-Policy "microphone 'none'; payment 'none'; sync-xhr 'self' {{ '/' | absolute_url }}"
-  SetEnv modHeadersAvailable true
   Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains; env=HTTPS"
   Header set Connection keep-alive
+  SetEnv modHeadersAvailable true
   <FilesMatch "\.(js|css|xml|gz|html)$">
     Header append Vary: Accept-Encoding
   </FilesMatch>
