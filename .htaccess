@@ -52,7 +52,6 @@ AddType text/xml .xml
 
 <IfModule mod_headers.c>
   Header set Content-Security-Policy "default-src 'self'; base-uri 'self'; script-src 'self'; worker-src 'self'; img-src 'self'; style-src 'unsafe-inline' 'self'; connect-src 'self'; object-src 'none';
-  Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set X-XSS-Protection "1; mode=block"
   Header set X-Content-Type-Options "nosniff"
