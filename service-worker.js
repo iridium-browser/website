@@ -7,32 +7,36 @@ workbox.core.setCacheNameDetails({
 });
 
 // let Service Worker take control of pages ASAP
-workbox.skipWaiting();
-workbox.clientsClaim();
+workbox.core.skipWaiting();
+workbox.core.clientsClaim();
 
 // let Workbox handle our precache list
 workbox.precaching.precacheAndRoute(self.__precacheManifest);
 
 // use `networkFirst` strategy for `*.html`, like all my posts
 workbox.routing.registerRoute(
-    /\.html$/,
-    workbox.strategies.networkFirst()
+	/\.html$/,
+	new workbox.strategies.NetworkFirst({
+		plugins: [
+		  new workbox.broadcastUpdate.Plugin('api-updates')
+		]
+	})
 );
 
 // use `networkFirst` strategy for css and js
 workbox.routing.registerRoute(
-    /\.(?:js|css)$/,
-    workbox.strategies.networkFirst()
+    /\.(?:js|json|css)$/,
+    new workbox.strategies.NetworkFirst()
 );
 
 // use `cacheFirst` strategy for images
 workbox.routing.registerRoute(
     /\.(?:ico|png|gif|jpg|jpeg|svg)$/,
-    workbox.strategies.cacheFirst()
+    new workbox.strategies.CacheFirst()
 );
 
 // use `cacheFirst` strategy for fonts
 workbox.routing.registerRoute(
     /\.(?:eot|svg|ttf|woff|woff2)$/,
-    workbox.strategies.cacheFirst()
+    new workbox.strategies.CacheFirst()
 );
