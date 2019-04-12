@@ -21,7 +21,7 @@ gem "jekyll", "3.8.5"
 group :jekyll_plugins do
   gem "jekyll-email-protect"
   gem "jekyll-paginate"
-  gem "jekyll-pwa-workbox"
+  gem "jekyll-pwa-workbox", "~> 0.0.4"
   gem "jekyll-target-blank"
   gem "sassc"
 end
