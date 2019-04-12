@@ -2789,6 +2789,13 @@ sitemap:
 	/* Text */
 	.logo-text {
 		font-size: 10pt;
+
+		@include breakpoint('<=small') {
+			font-size: 8pt;
+		}
+		@include breakpoint('<=xsmall') {
+			font-size: 7pt;
+		}
 	}
 	/* OSBA */
 	.logo-osba {
@@ -2800,6 +2807,17 @@ sitemap:
 		background-repeat: no-repeat;
 		display: block;
 		margin: 0 auto;
+
+		@include breakpoint('<=small') {
+			width: 150px;
+			height: 61px;
+			background-size: 150px 60px;
+		}
+		@include breakpoint('<=xsmall') {
+			width: 125px;
+			height: 50px;
+			background-size: 110px 44px;
+		}
 	}
 	/* NetItWork */
 	.logo-netitwork {
@@ -2811,6 +2829,18 @@ sitemap:
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
+		
+		@include breakpoint('<=small') {
+			width: 150px;
+			height: 61px;
+			background-size: 150px 29px;
+		}
+
+		@include breakpoint('<=xsmall') {
+			width: 125px;
+			height: 51px;
+			background-size: 125px 24px;
+		}
 	}
 	/* Kopano */
 	.logo-kopano {
@@ -2822,6 +2852,17 @@ sitemap:
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
+
+		@include breakpoint('<=small') {
+			width: 150px;
+			height: 61px;
+			background-size: 141px 33px;
+		}
+		@include breakpoint('<=xsmall') {
+			width: 125px;
+			height: 51px;
+			background-size: 116px 27px;
+		}
 	}
 	/* Zarafa */
 	.logo-zarafa {
@@ -2833,8 +2874,19 @@ sitemap:
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
+
+		@include breakpoint('<=small') {
+			width: 125px;
+			height: 61px;
+			background-size: 118px 33px;
+		}
+		@include breakpoint('<=xsmall') {
+			width: 125px;
+			height: 51px;
+			background-size: 89px 25px;
+		}
 	}
-	/* Neuberger &amp; Hughes */	
+	/* Neuberger & Hughes */	
 	.logo-nh {	
 		width: 200px;
 		height: 81px;
@@ -2844,6 +2896,17 @@ sitemap:
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
+
+		@include breakpoint('<=small') {
+			width: 150px;
+			height: 61px;
+			background-size: 150px 35px;
+		}
+		@include breakpoint('<=xsmall') {
+			width: 125px;
+			height: 51px;
+			background-size: 125px 29px;
+		}
 	}
 	/* Bytemine */
 	.logo-bytemine {
@@ -2855,6 +2918,17 @@ sitemap:
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
+
+		@include breakpoint('<=small') {
+			width: 150px;
+			height: 61px;
+			background-size: 128px 35px;
+		}
+		@include breakpoint('<=xsmall') {
+			width: 125px;
+			height: 51px;
+			background-size: 96px 27px;
+		}
 	}
 	/* Struktur */
 	.logo-struktur {
@@ -2866,6 +2940,17 @@ sitemap:
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
+
+		@include breakpoint('<=small') {
+			width: 150px;
+			height: 61px;
+			background-size: 150px 20px;
+		}
+		@include breakpoint('<=xsmall') {
+			width: 125px;
+			height: 51px;
+			background-size: 125px 17px;
+		}
 	}
 	/* DG-i */
 	.logo-dgi {
@@ -2877,6 +2962,17 @@ sitemap:
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
+
+		@include breakpoint('<=small') {
+			width: 150px;
+			height: 61px;
+			background-size: 52px 25px;
+		}
+		@include breakpoint('<=xsmall') {
+			width: 125px;
+			height: 51px;
+			background-size: 42px 20px;
+		}
 	}
 	/* SUPPORTER */
 	.logo-supporter {
@@ -2888,132 +2984,42 @@ sitemap:
 		background-repeat: no-repeat;
 		display:block;
 		margin: 0 auto;
-	}
 
-	/* Small */
-	@include breakpoint('<=small') {
-		/* Text */
-		.logo-text {
-			font-size: 8pt;
-		}
-		/* OSBA */
-		.logo-osba {
-			width: 150px;
-			height: 61px;
-			background-size: 150px 60px;
-		}
-		/* NetItWork */
-		.logo-netitwork {
-			width: 150px;
-			height: 61px;
-			background-size: 150px 29px;
-		}
-		/* Kopano */
-		.logo-kopano {
-			width: 150px;
-			height: 61px;
-			background-size: 141px 33px;
-		}
-		/* Zarafa */
-		.logo-zarafa {
-			width: 125px;
-			height: 61px;
-			background-size: 118px 33px;
-		}
-		/* Neuberger &amp; Hughes */	
-		.logo-nh {	
-			width: 150px;
-			height: 61px;
-			background-size: 150px 35px;
-		}
-		/* Bytemine */
-		.logo-bytemine {
-			width: 150px;
-			height: 61px;
-			background-size: 128px 35px;
-		}
-		/* Struktur */
-		.logo-struktur {
-			width: 150px;
-			height: 61px;
-			background-size: 150px 20px;
-		}
-		/* DG-i */
-		.logo-dgi {
-			width: 150px;
-			height: 61px;
-			background-size: 52px 25px;
-		}
-		/* SUPPORTER */
-		.logo-supporter {
+		@include breakpoint('<=small') {
 			width: 200px;
 			height: 81px;
 			background-size: 150px 30px;
 		}
-	}
-
-	/* XSmall */
-	@include breakpoint('<=xsmall') {
-		/* Text */
-		.logo-text {
-			font-size: 7pt;
-		}
-		/* OSBA */
-		.logo-osba {
-			width: 125px;
-			height: 50px;
-			background-size: 110px 44px;
-		}
-		/* NetItWork */
-		.logo-netitwork {
-			width: 125px;
-			height: 51px;
-			background-size: 125px 24px;
-		}
-		/* Kopano */
-		.logo-kopano {
-			width: 125px;
-			height: 51px;
-			background-size: 116px 27px;
-		}
-		/* Zarafa */
-		.logo-zarafa {
-			width: 125px;
-			height: 51px;
-			background-size: 89px 25px;
-		}
-		/* Neuberger &amp; Hughes */	
-		.logo-nh {	
-			width: 125px;
-			height: 51px;
-			background-size: 125px 29px;
-		}
-		/* Bytemine */
-		.logo-bytemine {
-			width: 125px;
-			height: 51px;
-			background-size: 96px 27px;
-		}
-		/* Struktur */
-		.logo-struktur {
-			width: 125px;
-			height: 51px;
-			background-size: 125px 17px;
-		}
-		/* DG-i */
-		.logo-dgi {
-			width: 125px;
-			height: 51px;
-			background-size: 42px 20px;
-		}
-		/* SUPPORTER */
-		.logo-supporter {
+		@include breakpoint('<=xsmall') {
 			width: 125px;
 			height: 51px;
 			background-size: 123px 25px;
 		}
 	}
 
+/* DEVELOPER LOGOS */
+	/* Intevation */
+	.donor-logo-intevation {
+		width: 200px;
+		height: 81px;
+		background-size: 156px 70px;
+		background-image:  url(../../images/logos/donor-logo-intevation.svg);
+		background-position: center center; 
+		background-repeat: no-repeat;
+		display: block;
+		margin: 0 auto;
+
+		@include breakpoint('<=small') {
+			width: 150px;
+			height: 61px;
+			background-size: 112px 50px;
+		}
+		@include breakpoint('<=xsmall') {
+			width: 125px;
+			height: 51px;
+			background-size: 90px 40px;
+		}
+	}
 
 /* GENERAL */
 
