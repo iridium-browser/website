@@ -3076,7 +3076,7 @@ sitemap:
 			overflow: hidden;
 			box-sizing: border-box;
 			margin-top: 3em;
-			margin-bottom: 1em;
+			margin-bottom: 3em;
 			
 			a {
 				color: _palette(fg-blue);
@@ -3092,15 +3092,15 @@ sitemap:
 
 			@include breakpoint('<=large') {
 				margin-top: 2.5em;
-				margin-bottom: .75em;
+				margin-bottom: 2.5em;
 			}
 			@include breakpoint('<=medium') {
 				margin-top: 1.65em;
-				margin-bottom: 0;
+				margin-bottom: 1.65em;
 			}
 			@include breakpoint('<=small') {
-				margin-top: 1.15em;
-				margin-bottom: 0;
+				margin-top: .75em;
+				margin-bottom: .75em;
 			}
 		}
 		.marquee div {
