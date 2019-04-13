@@ -3077,7 +3077,7 @@ sitemap:
 			box-sizing: border-box;
 			margin-top: 3em;
 			margin-bottom: 1em;
-				
+			
 			a {
 				color: _palette(fg-blue);
 				text-decoration: none;
@@ -3094,7 +3094,7 @@ sitemap:
 				margin-top: 2.5em;
 				margin-bottom: .75em;
 			}
-			@include breakpoint(medium) {
+			@include breakpoint('<=medium') {
 				margin-top: 1.65em;
 				margin-bottom: 0;
 			}
@@ -3111,18 +3111,20 @@ sitemap:
 			padding-left: 100%;  /* show the marquee just outside the paragraph */
 			animation: marquee 15s linear infinite;
 			
+			&:hover {
+				animation-play-state: paused;
+			}
+
 			@include breakpoint('<=small') {
 				font-size: .95em;
 			}
-		}
-		.marquee div:hover {
-			animation-play-state: paused;
-		}
+		}	
 		@keyframes marquee {
-			0%   { transform: translate(0, 0); }
-			100% { transform: translate(-100%, 0); }
+			0%   { transform: translate(0); }
+			100% { transform: translate(-100%); }
 		}
-		
+
+
 	/* FEATURES */	
 
 		#features {
