@@ -39,6 +39,8 @@ pwa:
   precache_glob_ignores: # Optional
     - sw-register.js
     - "fonts/**/*"
+    - "/images/app-icons/**/*"
+    - "/images/hotpics/**/*"
 
 sass:
   sass_dir: /assets/_sass
