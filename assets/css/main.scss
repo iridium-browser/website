@@ -3068,61 +3068,69 @@ sitemap:
 		}
 		
 	/* MARQUEE */
+	
+	#marquee {
+		max-width: 96%;
+		overflow: hidden;
+		white-space: nowrap;
+		margin: 3em auto;
 
-		.marquee {
-			width: 96%;
-			margin: 0 auto;
-			white-space: nowrap;
-			overflow: hidden;
-			box-sizing: border-box;
-			margin-top: 3em;
-			margin-bottom: 3em;
+		.marquee-wrapper #div {
+			font-size: 1.25em;
+			color: _palette(fg-blue);
+			line-height: 1.25em;
+			
+			.icon {
+				font-size: 1em;
+				padding: 0 .75em;
+			}
 			
 			a {
 				color: _palette(fg-blue);
 				text-decoration: none;
-
-				&:hover {
-					text-decoration: underline;
-				}
-				&:active {
-					color: _palette(accent1, bg);
-				}
 			}
-
-			@include breakpoint('<=large') {
-				margin-top: 2.5em;
-				margin-bottom: 2.5em;
-			}
-			@include breakpoint('<=medium') {
-				margin-top: 1.65em;
-				margin-bottom: 1.65em;
-			}
-			@include breakpoint('<=small') {
-				margin-top: .75em;
-				margin-bottom: .75em;
-			}
-		}
-		.marquee div {
-			font-size: 1.25em;
-			color: _palette(fg-blue);
-			line-height: 1em;
-			display: inline-block;
-			padding-left: 100%;  /* show the marquee just outside the paragraph */
-			animation: marquee 15s linear infinite;
-			
-			&:hover {
-				animation-play-state: paused;
-			}
-
 			@include breakpoint('<=small') {
 				font-size: .95em;
 			}
-		}	
-		@keyframes marquee {
-			0%   { transform: translate(0); }
-			100% { transform: translate(-100%); }
 		}
+		.marquee-wrapper:hover #div {
+			animation-play-state: paused;
+			text-decoration: none;
+			border-bottom: 1px dotted _palette(fg-blue);
+		}
+		#div:nth-child(1) {
+			display: inline-block;
+			animation: marquee 20s linear infinite;
+		}
+		#div:nth-child(2) {
+			display: inline-block;
+			animation: marquee2 20s linear infinite;
+			animation-delay: 10s;
+		}
+
+		@include breakpoint('<=large') {
+			margin-top: 2.5em;
+			margin-bottom: 2.5em;
+		}
+		@include breakpoint('<=medium') {
+			margin-top: 1.65em;
+			margin-bottom: 1.65em;
+		}
+		@include breakpoint('<=small') {
+			margin-top: .75em;
+			margin-bottom: .75em;
+		}
+
+	}
+	@keyframes marquee {
+		from	{ transform: translateX(100%); }
+		to		{ transform: translateX(-100%); }
+	}
+	@keyframes marquee2 {
+		from	{ transform: translateX(0%); }
+		to		{ transform: translateX(-200%); }
+	}
+
 
 
 	/* FEATURES */	

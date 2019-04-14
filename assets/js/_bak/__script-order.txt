@@ -9,7 +9,7 @@ plugins-v1.0.min.js
 - ua-parser.min.js
 - util.js
 
-app-v1.1.min.js
+app-v1.11.min.js
 - ua-parser-forward.js
 - main.js
 - pwa-plugin.js

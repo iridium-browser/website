@@ -148,4 +148,7 @@
 
 		});
 
+		// Marquee.
+		$('#marquee').width($('#div1').width());
+		
 })(jQuery);

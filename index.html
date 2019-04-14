@@ -33,8 +33,15 @@ sitemap:
 	<div id="home">
 		<div class="logo"></div>{% for marquee in site.marquee %}{% if marquee.show == "yes" %}
 	<!-- Marquee -->
-		<section id="marquee" class="marquee">
-			<div>{{ marquee.content | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+		<section id="marquee">
+			<div class="marquee-wrapper">
+				<div id="div">
+					{{ marquee.content | markdownify | remove: '<p>' | remove: '</p>' }}
+				</div>
+				<div id="div">
+					{{ marquee.content | markdownify | remove: '<p>' | remove: '</p>' }}
+				</div>
+			</div>
 		</section>{% endif %}{% endfor %}
 	<!-- Banner -->
 		<section id="banner">{% 
