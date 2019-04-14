@@ -12,19 +12,19 @@ structured-data:
   os0:			SUSE
   os1:			SUSE
   value:		5
-  count:		155
+  count:		171
 sitemap:
-  lastmod:		2018-11-13 18:00:00 +0100
+  lastmod:		2019-04-15 10:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/suse
 
 icon-class:			dlinux fl-opensuse
 OS: 				Repositories for SUSE
-version:			2018.11.71
-chromium:			71.0.3578.30
+version:			2019.04.73
+chromium:			73.0.3683.103
 sys-reqs:
-- openSUSE Leap 42.3+
+- SUSE Leap 42.3+
 ---
 
 #### Leap 15.0 #

@@ -14,7 +14,7 @@ structured-data:
   value:		4.9
   count:		144
 sitemap:
-  lastmod:		2019-04-15
+  lastmod:		2019-04-15 10:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/fedora
