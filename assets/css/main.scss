@@ -3075,7 +3075,7 @@ sitemap:
 		white-space: nowrap;
 		margin: 3em auto;
 
-		.marquee-wrapper #div {
+		.marquee-wrapper #content {
 			font-size: 1.25em;
 			color: _palette(fg-blue);
 			line-height: 1.25em;
@@ -3107,17 +3107,17 @@ sitemap:
 				font-size: .95em;
 			}
 		}
-		.marquee-wrapper:hover #div {
+		.marquee-wrapper:hover #content {
 			animation-play-state: paused;
 			text-decoration: none;
 			border-bottom: 1px dotted _palette(fg-blue);
 		}
-		#div:nth-child(1) {
+		#content:nth-child(1) {
 			display: inline-block;
 			animation: marquee 20s linear infinite;
 			padding-right: .5em;
 		}
-		#div:nth-child(2) {
+		#content:nth-child(2) {
 			display: inline-block;
 			animation: marquee2 20s linear infinite;
 			animation-delay: -10s;
