@@ -14,7 +14,7 @@ submenu-details:
     title:		"Download for Windows"
     link:		"/downloads/windows"
   - name:		"macOS"
-    title:		"Download for macOS"
+    title:		"Download for macos"
     link:		"/downloads/macos"
   - name:		"Debian-based"
     title:		"Download for Debian-based systems"
