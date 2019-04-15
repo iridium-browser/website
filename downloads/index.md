@@ -15,7 +15,7 @@ submenu-details:
     link:		"/downloads/windows"
   - name:		"macOS"
     title:		"Download for macOS"
-    link:		"/downloads/macOS"
+    link:		"/downloads/macos"
   - name:		"Debian-based"
     title:		"Download for Debian-based systems"
     link:		"/downloads/debian"
@@ -40,9 +40,9 @@ structured-data:
   os9:			CentOS
   os10:			source code
   value:		4.9
-  count:		5566
+  count:		5669
 sitemap:
-  lastmod:		2018-12-27 16:00:00 +0100
+  lastmod:		2019-04-15 10:00:00 +0100
   priority:		0.5
   changefreq:	'daily'
 ---
