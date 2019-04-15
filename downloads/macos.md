@@ -14,14 +14,14 @@ structured-data:
   value:		4.9
   count:		1464
 sitemap:
-  lastmod:		2018-11-13 18:00:00 +0100
+  lastmod:		2019-04-15 10:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
-permalink:		/downloads/macOS
+permalink:		/downloads/macos
 
 OS: 				macOS
-version:			2018.11-1
-chromium:			70.0.3538.77
+version:			2019.04-0
+chromium:			73.0.3683.103
 dl-url:				https://downloads.iridiumbrowser.de/macos/
 dl-folder:			
 dl-file:			/iridium-browser_

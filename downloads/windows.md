@@ -14,16 +14,16 @@ structured-data:
   value: 		4.9
   count: 		3946
 sitemap:
-  lastmod:		2018-11-13 18:00:00 +0100
+  lastmod:		2019-04-15 10:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/windows
 
 OS: 				Windows
-version:			2018.11.70.1
-chromium:			70.0.3538.77
+version:			2019.04.73.0
+chromium:			73.0.3683.103
 dl-url:				https://downloads.iridiumbrowser.de/windows/
-dl-folder:			2018.11.70-1
+dl-folder:			2019.04.73
 dl-file:			/iridiumbrowser-
 dl-end-32:			-x86.msi
 dl-end-64:			-x64.msi

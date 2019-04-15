@@ -7,8 +7,8 @@ os-heading:	"Currently, Iridium Browser is available for the following operating
 os:
  - name:	Windows 7+
  - name:	macOS X 10.10+
- - name:	Debian 8+, Mint 17+, Ubuntu 16.04+ (all 64-bit)
- - name:	openSUSE Leap 42.3 and 15.0, Tumbleweed
+ - name:	Debian 10+, Mint 17+, Ubuntu 16.04+ (all 64-bit)
+ - name:	SUSE Leap 15.0 and Tumbleweed
  - name:	Fedora 28+
  - name:	Red Hat Enterprise Linux 7+ / CentOS 7+
 
@@ -19,14 +19,14 @@ button:
    icon:	icon fa-windows
  - name:	macOS
    title:	macOS download page
-   link:	/downloads/macOS
+   link:	/downloads/macos
    icon:	icon fa-apple
  - name:	Debian
    title:	Debian download page
    link:	/downloads/debian
    icon:	dlinux fl-debian
- - name:	openSUSE
-   title:	openSUSE download page
+ - name:	SUSE
+   title:	SUSE download page
    link:	/downloads/suse
    icon:	dlinux fl-opensuse
  - name:	Fedora

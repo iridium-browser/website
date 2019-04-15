@@ -10,7 +10,7 @@ structured-data:
   os3: Ubuntu
   os4: Debian
   os5: Mint
-  os6: openSUSE
+  os6: SUSE
   os7: Fedora
   os8: Red Hat Enterprise Linux
   os9: CentOS
@@ -18,7 +18,7 @@ structured-data:
   value: 4.9
   count: 1076
 sitemap:
-  lastmod: 2018-12-27 16:00:00 +0100
+  lastmod: 2019-03-18 16:00:00 +0100
   priority: 1.0
   changefreq: 'daily'
 ---
@@ -33,16 +33,21 @@ sitemap:
 	<div id="home">
 		<div class="logo"></div>{% for marquee in site.marquee %}{% if marquee.show == "yes" %}
 	<!-- Marquee -->
-		<section id="marquee" class="marquee">
-			<div>
-				{{ marquee.content }}
+		<section id="marquee">
+			<div class="marquee-wrapper">
+				<div id="content">
+					{{ marquee.content | markdownify | remove: '<p>' | remove: '</p>' }}
+				</div>
+				<div id="content">
+					{{ marquee.content | markdownify | remove: '<p>' | remove: '</p>' }}
+				</div>
 			</div>
 		</section>{% endif %}{% endfor %}
 	<!-- Banner -->
 		<section id="banner">{% 
 		for banner in site.banner %}
 			<h2>{{ banner.title }}</h2>
-			<button type="submit" onclick="uaParser()" title="download Iridium Browser" class="button large download">download</button>
+			<a id="download-parser" class="button large download">download</a>
 			{{ banner.content | strip_newlines }}
 		{% endfor %}</section>
 	<!-- Features -->
@@ -76,7 +81,7 @@ sitemap:
 			</div>
 			<hr/>
 			<p>Read all the latest news</p>
-			<a class="button special icon fa-file-text" href="{{ '/news/' | relative_url }}" title="read all the latest news">news</a>
+			<a href="{{ '/news/' | relative_url }}" title="read all the latest news" class="button special icon fa-file-text">news</a>
 		</div>
 	</section>
 <!-- MANIFEST -->
@@ -102,7 +107,7 @@ sitemap:
 				<p>{{ about.subtitle }}</p>{% 
 			endfor %}
 			</header>{% 
-			for about in site.about %}
+			for about in site.about limit:5 %}
 			<div class="icon {{ about.icon-class }}"></div>
 			{% if about.heading contains 'Backed by Serious People' %} <hr/>{% endif %}
 				<h3>{{ about.heading }}</h3>
@@ -114,6 +119,20 @@ sitemap:
 				<div class="col-3 col-4-xlarge col-6-medium special">
 					<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" class="{{ about-logos.logo-class }}"></a>
 					<p class="logo-text">{{ about-logos.title }}</p>
+				</div>{% 
+			endfor %}
+			</div>
+			{% for about in site.about offset:5 limit:1 %}
+			{% if about.heading contains 'Thanks to our Donors' %} <hr/>{% endif %}
+			<h3>{{ about.heading }}</h3>
+			{{ about.content | strip_newlines }}{% 
+			endfor %}
+		<!-- Donor Logos -->
+			<div class="row gtr-uniform gtr-100">{% 
+			for donor-logos in site.data.donor-logos %}
+				<div class="col-3 col-4-xlarge col-6-medium special">
+					<a href="{{ donor-logos.link }}" title="{{ donor-logos.title }}" class="{{ donor-logos.logo-class }}"></a>
+					<p class="logo-text">{{ donor-logos.title }}</p>
 				</div>{% 
 			endfor %}
 			</div>

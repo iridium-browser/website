@@ -39,4 +39,3 @@ User-agent: WebReaper
 User-agent: WebSauger
 User-agent: WebStripper
 User-agent: WWW-Collector-E
-Disallow: /

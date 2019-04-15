@@ -10,7 +10,7 @@ layout: layout_default
 				<p>{{ about.subtitle }}</p>{% 
 			endfor %}
 			</header>{% 
-			for about in site.about %}
+			for about in site.about limit:5 %}
 			<div class="icon {{ about.icon-class }}"></div>
 			{% if about.heading contains 'Backed by Serious People' %} <hr/>{% endif %}
 				<h3>{{ about.heading }}</h3>
@@ -22,6 +22,20 @@ layout: layout_default
 				<div class="col-3 col-4-xlarge col-6-medium special">
 					<a href="{{ about-logos.link }}" title="{{ about-logos.title }}" class="{{ about-logos.logo-class }}"></a>
 					<p class="logo-text">{{ about-logos.title }}</p>
+				</div>{% 
+			endfor %}
+			</div>
+			{% for about in site.about offset:5 limit:1 %}
+			{% if about.heading contains 'Thanks to our Donors' %} <hr/>{% endif %}
+			<h3>{{ about.heading }}</h3>
+			{{ about.content | strip_newlines }}{% 
+			endfor %}
+		<!-- Donor Logos -->
+			<div class="row gtr-uniform gtr-100">{% 
+			for donor-logos in site.data.donor-logos %}
+				<div class="col-3 col-4-xlarge col-6-medium special">
+					<a href="{{ donor-logos.link }}" title="{{ donor-logos.title }}" class="{{ donor-logos.logo-class }}"></a>
+					<p class="logo-text">{{ donor-logos.title }}</p>
 				</div>{% 
 			endfor %}
 			</div>

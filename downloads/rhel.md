@@ -13,17 +13,17 @@ structured-data:
   os1:			Red Hat Enterprise Linux
   os2:			CentOS
   value:		4.9
-  count:		104
+  count:		125
 sitemap:
-  lastmod:		2018-06-04
+  lastmod:		2019-04-15 10:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/rhel
 
 icon-class:			dlinux fl-redhat
 OS: 				Repository for RHEL & CentOS
-version:			2018.5
-chromium:			67.0.3396.40
+version:			2019.04.73
+chromium:			73.0.3683.103
 sys-reqs:
 - Red Hat Enterprise Linux 7+, CentOS 7+
 ---

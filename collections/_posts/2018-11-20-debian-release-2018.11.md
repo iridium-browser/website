@@ -16,4 +16,4 @@ Furthermore version **2018.11.71** is also available for **Fedora** and **openSU
 
 Current version for **Windows** and **macOS** is **2018.11.70** based on Chromium 70.0.3538.77 and is also available for download.
         
-<button type="submit" onclick="uaParser()" title="download Iridium Browser" class="button download">download</button>
+<a id="download-parser" class="button download" title="download Iridium Browser">download</a>

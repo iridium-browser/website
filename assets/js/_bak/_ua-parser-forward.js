@@ -1,7 +1,3 @@
----
-sitemap:
-  exclude: "yes"
----
 function uaParser() {
 	var parser = new UAParser();
 	var result = parser.getResult();
