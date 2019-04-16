@@ -16,11 +16,7 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest);
 // use `networkFirst` strategy for `*.html`, like all my posts
 workbox.routing.registerRoute(
 	/\.html$/,
-	new workbox.strategies.NetworkFirst({
-		plugins: [
-		  new workbox.broadcastUpdate.Plugin('api-updates')
-		]
-	})
+	new workbox.strategies.NetworkFirst()
 );
 
 // use `networkFirst` strategy for css and js
