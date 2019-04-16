@@ -3070,6 +3070,7 @@ sitemap:
 	/* MARQUEE */
 	
 	#marquee {
+		min-width: 94%;
 		max-width: 96%;
 		overflow: hidden;
 		white-space: nowrap;
@@ -3114,13 +3115,13 @@ sitemap:
 		}
 		#content:nth-child(1) {
 			display: inline-block;
-			animation: marquee 20s linear infinite;
+			animation: marquee {% for marquee in site.marquee %}{{ marquee.animation }}{% endfor %};
 			padding-right: .5em;
 		}
 		#content:nth-child(2) {
 			display: inline-block;
-			animation: marquee2 20s linear infinite;
-			animation-delay: -10s;
+			animation: marquee2 {% for marquee in site.marquee %}{{ marquee.animation }}{% endfor %};
+			animation-delay: {% for marquee in site.marquee %}{{ marquee.delay }}{% endfor %};
 			padding-right: .5em;
 		}
 
