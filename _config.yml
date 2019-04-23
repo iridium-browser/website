@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 hotpic:     /images/hotpics/Iridium-hotpic.png
 hotpic-fb:  /images/hotpics/Iridium-hotpic_FB.png
 hotpic-tw:  /images/hotpics/Iridium-hotpic_TW.png  
-keywords:   "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Secure Browser Project, Secure Browser, Privacy Browser, Chromium based, Windows, macOS, Ubuntu, Debian, Mint, openSUSE, Fedora, Linux, Red Hat Enterprise Linux, CentOS"
+keywords:   "Iridium Browser, Iridium, Browser, Privacy, Security, Open Source, Secure Browser Project, Secure Browser, Privacy Browser, Chromium based, Windows, macOS, Ubuntu, Debian, Mint, SUSE, Fedora, Linux, Red Hat Enterprise Linux, CentOS"
 app-color:  "ececec"
 
 # Build settings  
