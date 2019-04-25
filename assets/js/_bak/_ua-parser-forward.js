@@ -3,7 +3,7 @@ function uaParser() {
 	var result = parser.getResult();
 	var os_name = result.os.name;
 	if (os_name == "Windows") { window.location="{{'/downloads/windows' | relative_url}}"; }
-	else if (os_name == "Mac OS") { window.location="{{'/downloads/macOS' | relative_url}}"; } 
+	else if (os_name == "Mac OS") { window.location="{{'/downloads/macos' | relative_url}}"; } 
 	else if (os_name == "Ubuntu") { window.location="{{'/downloads/debian' | relative_url}}"; }
 	else if (os_name == "Debian") { window.location="{{'/downloads/debian' | relative_url}}"; }
 	else if (os_name == "Mint") { window.location="{{'/downloads/debian' | relative_url}}"; }
