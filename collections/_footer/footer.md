@@ -3,6 +3,10 @@ layout:		layout_default
 title:		"Available Resources To Step In"
 subtitle:	"Stay up to date and follow us"
 step-in:
+ - text:	View the 'Differences between Iridium and Chromium' in our
+   link:	https://github.com/iridium-browser/tracker/wiki/Differences-between-Iridium-and-Chromium
+   name:	wiki
+   title:	view the 'Differences between Iridium and Chromium' in our wiki
  - text:	Please report any issues and address any questions to our
    link:	https://github.com/iridium-browser/tracker/issues
    name:	bug tracker at GitHub
