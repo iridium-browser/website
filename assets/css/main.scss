@@ -3069,82 +3069,81 @@ sitemap:
 		
 	/* MARQUEE */
 	
-	#marquee {
-		min-width: 94%;
-		max-width: 96%;
-		overflow: hidden;
-		white-space: nowrap;
-		margin: 3em auto;
+		#marquee {
+			min-width: 94%;
+			max-width: 96%;
+			overflow: hidden;
+			white-space: nowrap;
+			margin: 3em auto;
 
-		.marquee-wrapper #marquee-content1, #marquee-content2 {
-			font-size: 1.25em;
-			color: _palette(fg-blue);
-			line-height: 1.25em;
-			
-			.icon {
-				font-size: 1em;
+			.marquee-wrapper #marquee-content1, #marquee-content2 {
+				font-size: 1.25em;
+				color: _palette(fg-blue);
+				line-height: 1.25em;
 				
-				&:nth-child(1) {
-					margin-right: .5em;
+				.icon {
+					font-size: 1em;
+					
+					&:nth-child(1) {
+						margin-right: .5em;
 
-					&:before {
-						margin-left: .75em;
+						&:before {
+							margin-left: .75em;
+						}
+					}
+					&:nth-child(n) {
+						margin-right: .35em;
+
+						&:before {
+							margin-left: .35em;
+						}
 					}
 				}
-				&:nth-child(n) {
-					margin-right: .35em;
-
-					&:before {
-						margin-left: .35em;
-					}
+				
+				a {
+					color: _palette(fg-blue);
+					text-decoration: none;
+				}
+				@include breakpoint('<=small') {
+					font-size: .95em;
 				}
 			}
-			
-			a {
-				color: _palette(fg-blue);
+			.marquee-wrapper:hover #marquee-content1,
+			.marquee-wrapper:hover #marquee-content2 {
+				animation-play-state: paused;
 				text-decoration: none;
+				border-bottom: 1px dotted _palette(fg-blue);
+			}
+			#marquee-content1 {
+				display: inline-block;
+				animation: marquee {% for marquee in site.marquee %}{{ marquee.animation }}{% endfor %};
+				padding-right: .5em;
+			}
+			#marquee-content2 {
+				display: inline-block;
+				animation: marquee2 {% for marquee in site.marquee %}{{ marquee.animation }}{% endfor %};
+				animation-delay: {% for marquee in site.marquee %}{{ marquee.delay }}{% endfor %};
+				padding-right: .5em;
+			}
+
+			@include breakpoint('<=large') {
+				margin: 2.5em auto;
+			}
+			@include breakpoint('<=medium') {
+				margin: 1.65em auto;
 			}
 			@include breakpoint('<=small') {
-				font-size: .95em;
+				margin: .75em auto;
 			}
 		}
-		.marquee-wrapper:hover #marquee-content1,
-		.marquee-wrapper:hover #marquee-content2 {
-			animation-play-state: paused;
-			text-decoration: none;
-			border-bottom: 1px dotted _palette(fg-blue);
+		@keyframes marquee {
+			from	{ transform: translateX(100%); }
+			to		{ transform: translateX(-100%); }
 		}
-		#marquee-content1 {
-			display: inline-block;
-			animation: marquee {% for marquee in site.marquee %}{{ marquee.animation }}{% endfor %};
-			padding-right: .5em;
+		@keyframes marquee2 {
+			from	{ transform: translateX(0%); }
+			to		{ transform: translateX(-200%); }
 		}
-		#marquee-content2 {
-			display: inline-block;
-			animation: marquee2 {% for marquee in site.marquee %}{{ marquee.animation }}{% endfor %};
-			animation-delay: {% for marquee in site.marquee %}{{ marquee.delay }}{% endfor %};
-			padding-right: .5em;
-		}
-
-		@include breakpoint('<=large') {
-			margin: 2.5em auto;
-		}
-		@include breakpoint('<=medium') {
-			margin: 1.65em auto;
-		}
-		@include breakpoint('<=small') {
-			margin: .75em auto;
-		}
-	}
-	@keyframes marquee {
-		from	{ transform: translateX(100%); }
-		to		{ transform: translateX(-100%); }
-	}
-	@keyframes marquee2 {
-		from	{ transform: translateX(0%); }
-		to		{ transform: translateX(-200%); }
-	}
-
 
 
 	/* FEATURES */	
