@@ -9,7 +9,7 @@ os:
  - name:	macOS X 10.10+
  - name:	Debian 10+, Mint 17+, Ubuntu 16.04+ (all 64-bit)
  - name:	SUSE Leap 15.0 / 42.3 and Tumbleweed
- - name:	Fedora 28+
+ - name:	Fedora 28, 29 and 30
  - name:	Red Hat Enterprise Linux 7+ / CentOS 7+
 
 button: 
