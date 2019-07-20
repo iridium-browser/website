@@ -24,7 +24,7 @@ OS: 				Repositories for SUSE
 version:			2019.04.73
 chromium:			73.0.3683.103
 sys-reqs:
-- SUSE Leap 15.0+ / Tumbleweed
+- SUSE Leap 15.0 / 42.3 and Tumbleweed
 ---
 
 #### Leap 15.0 #
