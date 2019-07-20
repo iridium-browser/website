@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.8.5"
+gem "jekyll", "3.8.6"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 
@@ -21,7 +21,7 @@ gem "jekyll", "3.8.5"
 group :jekyll_plugins do
   gem "jekyll-email-protect"
   gem "jekyll-paginate"
-  gem "jekyll-pwa-workbox", "~> 0.0.4"
+  gem "jekyll-pwa-workbox"
   gem "jekyll-target-blank"
   gem "sassc"
 end
