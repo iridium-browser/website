@@ -5,7 +5,7 @@ Iridium is a free, open, and libre browser modification of the Chromium code bas
 
 ## Development
 
-The Iridium code is currently not on GitHub. You find our repository at [https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/](https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/).
+The Iridium code is currently not on GitHub. You will find our repository at [https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/](https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/).
 
 ## Download
 
