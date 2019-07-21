@@ -1,7 +1,7 @@
 // set names for both precache & runtime cache
 workbox.core.setCacheNameDetails({
     prefix: 'iridium',
-    suffix: 'v0.04',
+    suffix: 'v0.05',
     precache: 'precache',
     runtime: 'runtime-cache'
 });
@@ -16,11 +16,7 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest);
 // use `networkFirst` strategy for `*.html`, like all my posts
 workbox.routing.registerRoute(
 	/\.html$/,
-	new workbox.strategies.NetworkFirst({
-		plugins: [
-		  new workbox.broadcastUpdate.Plugin('api-updates')
-		]
-	})
+	new workbox.strategies.NetworkFirst()
 );
 
 // use `networkFirst` strategy for css and js

@@ -2,7 +2,6 @@
 sitemap:
   exclude: 'yes'
 ---
-
 Sitemap: {{ '/sitemap.xml' | absolute_url }}   
 
 User-agent: *   
@@ -14,9 +13,10 @@ Disallow: /401.html
 Disallow: /403.html   
 Disallow: /404.html   
 Disallow: /500.html   
-Disallow: /downloads/go.html   
 Disallow: /news/archive/page2/   
 Disallow: /news/archive/page3/   
+Disallow: /legal-notice   
+Disallow: /privacy-policy   
 
 # bad robots
 User-agent: CopyRightCheck
@@ -32,7 +32,6 @@ User-agent: SpankBot
 User-agent: stress-agent
 User-agent: URL_Spider_Pro
 User-agent: WebBandit
-User-agent: WebCopier
 User-agent: WebCopier
 User-agent: WebmasterWorldForumBot
 User-agent: WebReaper

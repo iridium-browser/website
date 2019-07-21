@@ -24,10 +24,10 @@ permalink:		/downloads/debian
 
 icon-class:			dlinux fl-debian
 OS: 				Repository for Debian-based systems
-version:			2018.11.71.1
-chromium:			71.0.3578.30
+version:			2019.04.73
+chromium:			73.0.3683.103
 sys-reqs:
-- Ubuntu 16.04+ (x86_64)
+- Debian 10+, Mint 17+, Ubuntu 16.04+ (all 64-bit)
 ---
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
@@ -37,3 +37,12 @@ sys-reqs:
 	EOF
 	sudo apt-get update
 	sudo apt-get install iridium-browser
+
+
+<br/>
+<span class="fa fa-exclamation-circle"></span> **known issue**    
+on some Debian based systems you will need to 'enable namespaces in Debian kernel'    
+please use the following [fix](https://superuser.com/questions/1094597/enable-user-namespaces-in-debian-kernel#1122977 "enable namespaces in Debian kernel"):   
+
+	echo 'kernel.unprivileged_userns_clone=1' > /etc/sysctl.d/00-local-userns.conf
+	service procps restart

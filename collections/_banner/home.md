@@ -1,7 +1,6 @@
 ---
 layout:		layout_start
-title:		"A browser securing your privacy. That's it."
-button-url:	/downloads/go
+title:		A browser securing your privacy. That's it.
 ---
 
 Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure that the latest and best secure technologies are used.

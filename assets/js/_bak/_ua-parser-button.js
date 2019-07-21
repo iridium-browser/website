@@ -1,6 +1,6 @@
 /// Parser Button
 $(document).ready(function(){
-    $('#download-parser').click(function(){
+    $('#download-parser,#download-parser2').click(function(){
        uaParser();
     });
 });

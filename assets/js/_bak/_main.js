@@ -149,6 +149,6 @@
 		});
 
 		// Marquee.
-		$('#marquee').width($('#div1').width());
+		$('#marquee').width($('#marquee-content1').width());
 		
 })(jQuery);

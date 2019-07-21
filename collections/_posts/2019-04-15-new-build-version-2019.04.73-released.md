@@ -17,4 +17,4 @@ Release for Debian based systems to follow in due course.
 
 Get it now!
         
-<a id="download-parser" class="button download" title="download Iridium Browser">download</a>
+<a id="download-parser2" class="button download" title="download Iridium Browser">download</a>
