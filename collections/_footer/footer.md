@@ -11,10 +11,6 @@ step-in:
    link:	https://github.com/iridium-browser/tracker/issues
    name:	bug tracker at GitHub
    title:	report issues to bug tracker at GitHub
- - text:	Connect with the team and chat with us. Create an account on our
-   link:	https://chat.osb-alliance.de/signup_user_complete/?id=zcw9hio95tf15bttox3jdcsmuc
-   name:	Mattermost
-   title:	chat with the team on Mattermost
  - text:	Download the
    link:	/downloads/source
    name:	source code
@@ -40,6 +36,6 @@ button:
    name:	legal notice
    title:	go to legal notice / Impressum
 organization:
-  name:		Open Source Business Alliance
-  link:		https://osb-alliance.de
+  name:		NETitwork GmbH
+  link:		https://netitwork.net
 ---
