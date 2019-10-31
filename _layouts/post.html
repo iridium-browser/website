@@ -15,7 +15,7 @@ layout: layout_post
 			<hr/>
 			<table class="news-nav">
 				<tbody>
-					<tr>
+					<tr>{% if post.categories contains "news" %}
 						<td class="c1">{% if page.previous.url %}
 							<a class="button small special" title="previous: '{{page.previous.title}}'" href="{{page.previous.url}}">&#10094;</a>{% endif %}
 						</td>
@@ -25,7 +25,7 @@ layout: layout_post
 						<td class="c3">{% if page.next.url %}
 							<a class="button small special" title="next: '{{page.next.title}}'" href="{{page.next.url}}">&#10095;</a>{% endif %}
 						</td>
-					</tr>
+					{% endif %}</tr>
 				</tbody>
 			</table>
 		</div>
