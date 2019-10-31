@@ -1,7 +1,7 @@
 ---
 layout:		layout_start
 title:		Marquee
-show:		"yes"
+show:		"no"
 
 animation:	20s linear infinite
 delay:		-10s

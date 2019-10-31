@@ -25,12 +25,10 @@ sitemap:
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:     
 {:.align-center}
       
-[ ](https://osb-alliance.de "OSBA Website"){:.logo-osba-legal}
-Open Source Business Alliance e.V.   
-Breitscheidstr. 4  
-70174 Stuttgart  
-Tel. +49 711 90715-390  
-[E-Mail](mailto:{{ site.email | encode_email }} "send e-mail") | [Website](https://www.osb-alliance.com "visit website")[ ](https://osb-alliance.de "OSBA Website")     
+**{{ site.company }}**    
+{{ site.street }}   
+{{ site.zip }} {{ site.location }}   
+[E-Mail](mailto:{{ site.email | encode_email }} "e-mail") | [Website]({{ site.website }} "visit website")[ ]({{ site.website }} "Website")     
 {:.align-center}
 
 **Ihre Betroffenenrechte**    
@@ -65,12 +63,10 @@ Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail.
 Responsible party pursuant to data protection laws, in particular the EU General Data Protection Regulation (GDPR), is   
 {:.align-center}
      
-[ ](https://osb-alliance.de "OSBA Website"){:.logo-osba-legal}
-Open Source Business Alliance e.V.   
-Breitscheidstr. 4  
-70174 Stuttgart | Germany  
-Tel. +49 711 90715-390  
-[E-Mail](mailto:{{ site.email | encode_email }} "send e-mail") | [Website](https://www.osb-alliance.com "visit website")[ ](https://osb-alliance.de "OSBA Website")     
+**{{ site.company }}**    
+{{ site.street }}   
+{{ site.zip }} {{ site.location }}   
+[E-Mail](mailto:{{ site.email | encode_email }} "e-mail") | [Website]({{ site.website }} "visit website")[ ]({{ site.website }} "Website")     
 {:.align-center}
 
 **Your rights as the data subject**    
