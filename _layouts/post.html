@@ -17,16 +17,16 @@ layout: layout_post
 				<tbody>
 					<tr>{% if page.categories contains "news" %}
 						<td class="c1">{% if page.previous.url %}
-							<a class="button small special" title="previous: '{{page.previous.title}}'" href="{{page.previous.url}}">&#10094;</a>{% endif %}
+							<a class="button small icon special" title="previous: '{{page.previous.title}}'" href="{{page.previous.url}}">&#10094;</a>{% endif %}
 						</td>
 						<td class="c2">
 							<a class="button icon fa-archive special" href="{{ '/news/archive/' | relative_url }}" title="News Archive Index">News Archive</a>
 						</td>
 						<td class="c3">{% if page.next.url %}
-							<a class="button small special" title="next: '{{page.next.title}}'" href="{{page.next.url}}">&#10095;</a>{% endif %}
+							<a class="button small icon special" title="next: '{{page.next.title}}'" href="{{page.next.url}}">&#10095;</a>{% endif %}
 						</td>
 					{% endif %}</tr>
 				</tbody>
 			</table>
-		</div>
+		</div> 
 	</section>

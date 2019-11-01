@@ -1146,6 +1146,7 @@ sitemap:
 			box-shadow: inset 0 0 0 2px lighten(_palette(accent2, bg), 15);
 			color: lighten(_palette(fg-blue), 10) !important;
 		}
+
 		&:active {
 			background-color: lighten(_palette(accent2, bg), 7);
 			color: lighten(_palette(fg-blue), 10) !important;
@@ -1196,10 +1197,10 @@ sitemap:
 						color: _palette(fg-blue);
 					}
 				}
-			}
 
-			&:active {
-				background-color: darken(_palette(border-bg), 15);
+				&:active {
+					background-color: darken(_palette(border-bg), 15);
+				}
 			}
 		}
 
@@ -1292,9 +1293,10 @@ sitemap:
 			}
 		}
 
+
 		&.special {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px _palette(border3);
+			box-shadow: inset 0 0 0 2px _palette(accent1, border3);
 			color: _palette(fg-bold) !important;
 
 			&:after {
@@ -1306,12 +1308,17 @@ sitemap:
 				bottom: 0;
 				opacity: 0;
 				content: '';
-				background-color: transparentize(_palette(border), 0.85);
+				background-color: lighten(_palette(accent1, border3), 90);
 				z-index: -1;
 			}
 
 			&:hover {
-				background-color: _palette(border);
+				
+				box-shadow: inset 0 0 0 2px lighten(_palette(accent1, border3), 30);
+
+				&:active {
+					background-color: lighten(_palette(accent1, border3), 75);
+				}
 
 				&:after {
 					@include vendor('transition', ('#{_duration(button)} ease-in-out'));
@@ -1319,10 +1326,6 @@ sitemap:
 					right: 0;
 					opacity: 1;
 				}
-
-			}
-			&:active {
-				background-color: darken(_palette(border), 25);
 			}
 
 			&.icon {
@@ -1366,7 +1369,7 @@ sitemap:
 			padding-top: 0;
 		}
 	}
-
+ 
 /* Icon Grid */
 
 	.icon-grid {
