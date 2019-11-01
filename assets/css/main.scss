@@ -1297,13 +1297,32 @@ sitemap:
 			box-shadow: inset 0 0 0 2px _palette(border3);
 			color: _palette(fg-bold) !important;
 
+			&:after {
+				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+				position: absolute;
+				top: 0;
+				left: 50%;
+				right: 50%;
+				bottom: 0;
+				opacity: 0;
+				content: '';
+				background-color: transparentize(_palette(border), 0.85);
+				z-index: -1;
+			}
+
 			&:hover {
-				background-color: lighten(_palette(accent1, bg), 7.5);
-				box-shadow: inset 0 0 0 2px lighten(_palette(accent1, bg), 7.5);
-				color: _palette(accent2, fg-bold) !important;
+				background-color: _palette(border);
+
+				&:after {
+					@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+					left: 0;
+					right: 0;
+					opacity: 1;
+				}
+
 			}
 			&:active {
-				background-color: darken(_palette(accent1, bg), 7.5);
+				background-color: darken(_palette(border), 25);
 			}
 
 			&.icon {
@@ -2591,7 +2610,8 @@ sitemap:
 	}
 
 
-	/* IRIDIUM LOGO HEADER */
+
+/* IRIDIUM LOGO HEADER */
 	.logo-header {
 		width: 475px;
 		height: 76px;
@@ -2656,7 +2676,7 @@ sitemap:
 		opacity: 1;
 		width: 560px;
 		height: 338px;
-		background-size: cover;
+		background-size: contain;
 		background-image: url(../../images/logos/iridium-logo_large.svg);
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -2665,24 +2685,20 @@ sitemap:
 		outline: none;
 		pointer-events: none;
 
-		/* XLarge */
 		@include breakpoint('<=xlarge') {
 			width: 560px;
 			height: 338px;
 		}
-		/* Large */
 		@include breakpoint('<=large') {
 			width: 480px;
 			height: 290px;
 			margin: 3.5em auto 2.5em auto;
 		}
-		/* Medium */
-		@include breakpoint(medium) {
+		@include breakpoint('<=medium') {
 			width: 400px;
 			height: 241px;
 			margin: 2.5em auto 2em auto;
 		}
-		/* Small */
 		@include breakpoint('<=small') {
 			display: none;
 		}
@@ -2701,7 +2717,6 @@ sitemap:
 		margin: 0 auto;
 		outline: none;
 	}
-	/* XLarge */
 	@include breakpoint('<=xlarge') {
 		.logo-small {
 			width: 580px;
@@ -2709,7 +2724,6 @@ sitemap:
 			background-size: 580px 128px; 
 		}
 	}
-	/* Large */
 	@include breakpoint('<=large') {
 		.logo-small {
 			width: 500px;
@@ -2717,15 +2731,13 @@ sitemap:
 			background-size: 500px 110px; 
 		}
 	}
-	/* Medium */
-	@include breakpoint(medium) {
+	@include breakpoint('<=medium') {
 		.logo-small {
 			width: 416px;
 			height: 92px;
 			background-size: 416px 92px;
 		}
 	}
-	/* Small */
 	@include breakpoint('<=small') {
 		.logo-small {
 			width: 250px;
@@ -2739,7 +2751,7 @@ sitemap:
 	.iridium-icon {
 		width: 366px;
 		height: 300px;
-		background-size: cover; 
+		background-size: contain;
 		background-image: url(../../images/logos/iridium-icon.svg);
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -2747,22 +2759,18 @@ sitemap:
 		margin: 0 auto;
 		outline: none;
 
-		/* XLarge */
 		@include breakpoint('<=xlarge') {
 			width: 305px;
 			height: 250px;
 		}
-		/* Large */
 		@include breakpoint('<=large') {
 			width: 244px;
 			height: 200px;
 		}
-		/* Medium */
 		@include breakpoint(medium) {
 			width: 183px;
 			height: 150px;
 		}
-		/* Small */
 		@include breakpoint('<=small') {
 			width: 122px;
 			height: 100px;
