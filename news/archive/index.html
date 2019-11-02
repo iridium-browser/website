@@ -42,18 +42,18 @@ sitemap:
 			<tbody>
 				<tr>
 					<td class="c1">{% if paginator.previous_page %}
-						<a class="button small special" title="previous page" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10094;</a>{% endif %}
+						<a class="button prev icon" title="previous page" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"></a>{% endif %}
 					</td>
 					<td class="c2">{% for page in (1..paginator.total_pages) %}{% if page == paginator.page %}
-						<span class="button small special">{{ page }}</span>{%
+						<span class="button icon special">{{ page }}</span>{%
 						elsif page == 1 %}
-						<a class="button small special" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>{% 
+						<a class="button icon special" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>{% 
 						else %}
-						<a class="button small special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>{% 
+						<a class="button icon special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>{% 
 						endif %}{% endfor %}
 					</td>
 					<td class="c3">{% if paginator.next_page %}
-						<a class="button small special" title="next page" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#10095;</a>{% endif %}
+						<a class="button next icon" title="next page" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"></a>{% endif %}
 					</td>
 				</tr>
 			</tbody>

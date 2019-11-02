@@ -1308,12 +1308,11 @@ sitemap:
 				bottom: 0;
 				opacity: 0;
 				content: '';
-				background-color: lighten(_palette(accent1, border3), 90);
+				background-color: lighten(_palette(accent1, border3), 75);
 				z-index: -1;
 			}
 
 			&:hover {
-				
 				box-shadow: inset 0 0 0 2px lighten(_palette(accent1, border3), 30);
 
 				&:active {
@@ -1334,6 +1333,66 @@ sitemap:
 				}
 			}
 		}
+		
+		&.prev, &.next {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px _palette(accent1, border3);
+			color: _palette(fg-bold) !important;
+			margin: 0;
+			padding: 0 1em;
+
+			&:after {
+				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+				position: absolute;
+				top: 0;
+				left: 50%;
+				right: 50%;
+				bottom: 0;
+				opacity: 0;
+				content: '';
+				background-color: lighten(_palette(accent1, border3), 75);
+				z-index: -1;
+			}
+
+			&.icon {
+				&:before {
+					font-size: 1.25em !important;
+					margin: 0;
+				}
+			}
+			
+			&:hover {
+				box-shadow: inset 0 0 0 2px lighten(_palette(accent1, border3), 30);
+
+				&:active {
+					background-color: lighten(_palette(accent1, border3), 75);
+				}
+
+				&:after {
+					@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+					left: 0;
+					right: 0;
+					opacity: 1;
+				}
+			}
+		}
+		&.prev {
+			&.icon {
+				&:before {
+					content: "\f053";
+					padding-right: .175em;
+				}
+			}
+		}
+		&.next {
+			&.icon {
+				&:before {
+					content: "\f054";
+					padding-left: .175em;
+				}
+			}
+		}
+
 
 		&.primary {
 			background-color: _palette(accent1, bg);
