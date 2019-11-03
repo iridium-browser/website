@@ -1204,16 +1204,49 @@ sitemap:
 			}
 		}
 
+		&.download-large {
+			background-color: _palette(accent1, bg);
+			box-shadow: inset 0 0 0 2px _palette(accent1, bg);
+			color: _palette(accent1, fg-bold) !important;
+			font-size: 1.25em;
+			
+			&:after {
+				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+				position: absolute;
+				top: 0;
+				left: 50%;
+				right: 50%;
+				bottom: 0;
+				opacity: 0;
+				content: '';
+				background-color: transparentize(_palette(bg), 0.85);
+			}
+
+			&:hover {
+				box-shadow: inset 0 0 0 2px _palette(accent1, bg);
+
+				&:active {
+					background-color: darken(_palette(accent1, bg), 10);
+				}
+
+				&:after {
+					@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+					left: 0;
+					right: 0;
+					opacity: 1;
+				}
+			}
+		}
 		&.download {
 			background-color: _palette(accent1, bg);
 			box-shadow: inset 0 0 0 2px _palette(accent1, bg);
 			color: _palette(accent1, fg-bold) !important;
 
 			&:hover {
-				background-color: lighten(_palette(accent1, bg), 10);
+				background-color: lighten(_palette(accent1, bg), 7.5);
 			}
 			&:active {
-				background-color: darken(_palette(accent1, bg), 10);
+				background-color: darken(_palette(accent1, bg), 5);
 			}
 		}
 		&.download-portable {
@@ -1292,7 +1325,6 @@ sitemap:
 				background-color: _palette(border2-bg);
 			}
 		}
-
 
 		&.special {
 			background-color: transparent;
@@ -1392,7 +1424,6 @@ sitemap:
 				}
 			}
 		}
-
 
 		&.primary {
 			background-color: _palette(accent1, bg);
