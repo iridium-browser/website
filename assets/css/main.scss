@@ -1145,21 +1145,21 @@ sitemap:
 			background-color: lighten(_palette(accent2, bg), 15);
 			box-shadow: inset 0 0 0 2px lighten(_palette(accent2, bg), 15);
 			color: lighten(_palette(fg-blue), 10) !important;
-		}
 
-		&:active {
-			background-color: lighten(_palette(accent2, bg), 7);
-			color: lighten(_palette(fg-blue), 10) !important;
+			&:active {
+				background-color: lighten(_palette(accent2, bg), 7);
+				color: lighten(_palette(fg-blue), 10) !important;
+			}
 		}
 
 		&.icon {
 			&:before {
-				margin: 0 0.5em 0 -0.25em;
+				margin: 0 .5em 0 -0.25em;
 			}
 		}
 		&.dlinux {
 			&:before {
-				margin: 0 0.5em 0 -0.25em;
+				margin: 0 .5em 0 -0.25em;
 			}
 		}
 		
@@ -1204,40 +1204,41 @@ sitemap:
 			}
 		}
 
-		&.download-large {
+		&.download {
 			background-color: _palette(accent1, bg);
 			box-shadow: inset 0 0 0 2px _palette(accent1, bg);
 			color: _palette(accent1, fg-bold) !important;
-			font-size: 1.25em;
-			
+			margin: 0;
+
 			&:after {
 				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
 				position: absolute;
-				top: 0;
+				top: 50%;
 				left: 50%;
 				right: 50%;
-				bottom: 0;
+				bottom: 50%;
 				opacity: 0;
 				content: '';
 				background-color: transparentize(_palette(bg), 0.85);
 			}
-
 			&:hover {
 				box-shadow: inset 0 0 0 2px _palette(accent1, bg);
 
 				&:active {
 					background-color: darken(_palette(accent1, bg), 10);
 				}
-
 				&:after {
 					@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+					top: 0;
 					left: 0;
 					right: 0;
+					bottom: 0;
 					opacity: 1;
 				}
 			}
 		}
-		&.download {
+
+		&.download-standard {
 			background-color: _palette(accent1, bg);
 			box-shadow: inset 0 0 0 2px _palette(accent1, bg);
 			color: _palette(accent1, fg-bold) !important;
@@ -1259,23 +1260,6 @@ sitemap:
 			}
 			&:active {
 				background-color: darken(_palette(accent1, bg-light), 5);
-			}
-		}
-		&.download-post {
-			background-color: _palette(accent1, bg);
-			box-shadow: inset 0 0 0 2px _palette(accent1, bg);
-			color: _palette(accent1, fg-bold) !important;
-			margin: 1em 0 0 0;
-
-			&:before {
-				content: 'download';
-			}
-
-			&:hover {
-				background-color: lighten(_palette(accent1, bg), 10);
-			}
-			&:active {
-				background-color: darken(_palette(accent1, bg), 10);
 			}
 		}
 
@@ -1327,6 +1311,7 @@ sitemap:
 		}
 
 		&.special {
+			font-size: 1em;
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px _palette(accent1, border3);
 			color: _palette(fg-bold) !important;
@@ -1340,7 +1325,7 @@ sitemap:
 				bottom: 0;
 				opacity: 0;
 				content: '';
-				background-color: lighten(_palette(accent1, border3), 75);
+				background-color: _palette(border2-bg);
 				z-index: -1;
 			}
 
@@ -1348,7 +1333,7 @@ sitemap:
 				box-shadow: inset 0 0 0 2px lighten(_palette(accent1, border3), 30);
 
 				&:active {
-					background-color: lighten(_palette(accent1, border3), 75);
+					background-color: darken(_palette(border2-bg), 25);
 				}
 
 				&:after {
@@ -1358,33 +1343,15 @@ sitemap:
 					opacity: 1;
 				}
 			}
-
-			&.icon {
-				&:before {
-					font-size: 1em;
-				}
-			}
 		}
 		
 		&.prev, &.next {
+			font-size: 1em;
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px _palette(accent1, border3);
 			color: _palette(fg-bold) !important;
 			margin: 0;
 			padding: 0 1em;
-
-			&:after {
-				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
-				position: absolute;
-				top: 0;
-				left: 50%;
-				right: 50%;
-				bottom: 0;
-				opacity: 0;
-				content: '';
-				background-color: lighten(_palette(accent1, border3), 75);
-				z-index: -1;
-			}
 
 			&.icon {
 				&:before {
@@ -1392,12 +1359,19 @@ sitemap:
 					margin: 0;
 				}
 			}
-			
+			&:after {
+				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+				position: absolute;
+				opacity: 0;
+				content: '';
+				background-color: _palette(border2-bg);
+				z-index: -1;
+			}
 			&:hover {
 				box-shadow: inset 0 0 0 2px lighten(_palette(accent1, border3), 30);
 
 				&:active {
-					background-color: lighten(_palette(accent1, border3), 75);
+					background-color: darken(_palette(border2-bg), 25);
 				}
 
 				&:after {
@@ -1409,6 +1383,12 @@ sitemap:
 			}
 		}
 		&.prev {
+			&:after {
+				top: 0;
+				left: 100%;
+				right: 0;
+				bottom: 0;
+			}
 			&.icon {
 				&:before {
 					content: "\f053";
@@ -1417,6 +1397,12 @@ sitemap:
 			}
 		}
 		&.next {
+			&:after {
+				top: 0;
+				left: 0;
+				right: 100%;
+				bottom: 0;
+			}
 			&.icon {
 				&:before {
 					content: "\f054";
@@ -1916,13 +1902,35 @@ sitemap:
 			white-space: nowrap;
 			margin: .5em;
 
-			&:hover {
-				background-color: _palette(border-bg);
-				color: _palette(fg-blue) !important;
-			}
-			&:active {
+			&:after {
+				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				right: 50%;
+				bottom: 50%;
+				opacity: 0;
+				content: '';
 				background-color: _palette(border2-bg);
-				
+				border-radius: 100%;
+				z-index: 100;
+			}
+
+			&:hover {
+				color: _palette(fg-blue) !important;
+
+				&:active {
+					background-color: _palette(border2-bg);
+				}
+
+				&:after {
+					@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					opacity: 1;
+				}
 			}
 			
 			@include breakpoint(medium) {
@@ -3053,16 +3061,11 @@ sitemap:
 			margin: 2em;
 			padding-left: 0;
 		}
-		.icon {
-			font-size: .8em;
-			margin-right: .7em;
-			top: -0.175em;
-		}
 	}
 
 	#news, #news-post, #news-index, #news-archive {
 
-		.button {
+		.button1 {
 			margin: .5em 0 1em 0;
 			
 			&.large {
@@ -3105,7 +3108,7 @@ sitemap:
 				}
 			}
 		}
-		.icon {
+		.icon1 {
 			font-size: .8em;
 			margin-right: .7em;
 			top: -0.175em;
