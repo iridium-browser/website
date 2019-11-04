@@ -9,7 +9,7 @@
 				endfor %}<br/>
 				<h6>{{ footer.subtitle }}</h6>{% 
 				for soc-media in footer.soc-media %}
-				<a href="{{ soc-media.link }}" title="{{ soc-media.title }}"><span class="button-round fa {{ soc-media.icon }}"></span></a>{% endfor %}
+				<a href="{{ soc-media.link }}" title="{{ soc-media.title }}" class="button-round icon fa {{ soc-media.icon }}"></a>{% endfor %}
 				<div class="container w-75">
 					<ul class="actions small special">{% for button in footer.button %}
 						<li><a href="{{ button.link | relative_url }}" title="{{ button.title }}" class="button small footer">{{ button.name }}</a></li>{% 
