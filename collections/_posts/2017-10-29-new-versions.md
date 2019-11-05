@@ -12,9 +12,9 @@ menu: no
 ---
 
 As some of you have already noticed with the lastest release, we have changed the version numbers and future builds will have the format **YYYY.MM**, e.g. **2017.10**.      
-    
+
 Latest builds are available for **Windows, macOS, openSUSE, Fedora, RHEL/CentOS**.     
 
-Stay tuned for the **Ubuntu/Debain** release.               
+Stay tuned for the **Ubuntu/Debian** release.    
 
-[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>

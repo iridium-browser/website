@@ -16,7 +16,7 @@ Issues solved:
 **crashes when switching to incognito mode in Windows,   
 crashes when starting guest session in Windows,   
 size in macOS reduced from 600MB to 200MB**   
-    
+
 Go and get it!    
-     
-[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
+
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>

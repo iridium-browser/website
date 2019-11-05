@@ -14,11 +14,11 @@ style: style1
 The developers just released **version 2017.11** for **Red Hat Enterprise Linux** and **CentOS**!     
 Current releases are available for **Windows 7+, 32/64-bit and portable**, **macOS 10.9+**, **openSUSE Leap 42.2, 42.3 & Tumbleweed** and **Fedora 25, 26 & 27**.    
 Debian based build still to follow.    
-     
-[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}     
-	  
+
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>     
+
 The current version 2017.11, is based on Chromium 62.0.3202.94.     
-      
+
 *Installation:    
 Windows and macOS users simply download and install the latest build.     
 Linux users to install using command line as provided on the download page.     

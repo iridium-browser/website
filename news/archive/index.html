@@ -45,11 +45,11 @@ sitemap:
 						<a class="button prev icon" title="previous page" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"></a>{% endif %}
 					</td>
 					<td class="c2">{% for page in (1..paginator.total_pages) %}{% if page == paginator.page %}
-						<span class="button icon special">{{ page }}</span>{%
+						<span class="button special">{{ page }}</span>{%
 						elsif page == 1 %}
-						<a class="button icon special" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>{% 
+						<a class="button special" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>{% 
 						else %}
-						<a class="button icon special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>{% 
+						<a class="button special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>{% 
 						endif %}{% endfor %}
 					</td>
 					<td class="c3">{% if paginator.next_page %}

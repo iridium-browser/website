@@ -12,9 +12,8 @@ style: 			style1
 ---
 
 **Build version 2019.04.73** based on Chromium 73.0.3683.103 has just been released for **Windows**, **macOS**, **Fedora**, **Red Hat Enterprise Linux & CentOS** as well as **SUSE Leap & Tumbleweed**.   
+Release for Debian based systems to follow in due course.    
 
-Release for Debian based systems to follow in due course.
+Get it now!    
 
-Get it now!
-        
-<a id="download-parser2" class="button download" title="download Iridium Browser">download</a>
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>
