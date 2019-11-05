@@ -13,50 +13,50 @@ sitemap:
 ---
 <!-- News Archive -->
 	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
-	<div class="container">	
-		<header class="major">
-			<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
-			<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p>
-		</header>
-		<div class="row gtr-uniform">{% 
-		for post in paginator.posts %}
-			<div class="col-4 col-6-medium col-12-small teaser-card">
-			<a href="{{ post.url | absolute_url }}" title="read more about '{{ post.title }}'">
-				<div class="teaser-container">
-					<header>
-						<div class="teaser-heading">{{ post.title | truncate: 58 }}</div>
-						<div class="teaser-date">{% if post.show-date == "no" %} {% else %}
-							<div class="date icon fa-calendar">{{ post.date | date_to_long_string }}</div>{% endif %}
+		<div class="container">
+			<header class="major">
+				<h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
+				<p>{% if page.subtitle %}{{ page.subtitle }}{% endif %} {% if paginator.total_pages %}{{ paginator.page }}/{{ paginator.total_pages }}{% endif %}</p>
+			</header>
+			<div class="row gtr-uniform">{% 
+			for post in paginator.posts %}
+				<div class="col-4 col-6-medium col-12-small teaser-card">
+				<a href="{{ post.url | absolute_url }}" title="read more about '{{ post.title }}'">
+					<div class="teaser-container">
+						<header>
+							<div class="teaser-heading">{{ post.title | truncate: 58 }}</div>
+							<div class="teaser-date">{% if post.show-date == "no" %} {% else %}
+								<div class="date icon fa-calendar">{{ post.date | date_to_long_string }}</div>{% endif %}
+							</div>
+						</header>
+						<div class="teaser-content">
+							<p>{{ post.content | strip_html | truncate: 180 }}</p>
 						</div>
-					</header>
-					<div class="teaser-content">
-						<p>{{ post.content | strip_html | truncate: 180 }}</p>
 					</div>
-				</div>
-			</a>
-			</div>{% 
-		endfor %}
+				</a>
+				</div>{% 
+			endfor %}
+			</div>
+		{% if paginator.total_pages > 1 %}
+			<table class="news-nav">
+				<tbody>
+					<tr>
+						<td class="c1">{% if paginator.previous_page %}
+							<a class="button prev icon" title="previous page" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"></a>{% endif %}
+						</td>
+						<td class="c2">{% for page in (1..paginator.total_pages) %}{% if page == paginator.page %}
+							<span class="button special">{{ page }}</span>{%
+							elsif page == 1 %}
+							<a class="button special" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>{% 
+							else %}
+							<a class="button special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>{% 
+							endif %}{% endfor %}
+						</td>
+						<td class="c3">{% if paginator.next_page %}
+							<a class="button next icon" title="next page" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"></a>{% endif %}
+						</td>
+					</tr>
+				</tbody>
+			</table>{% endif %}
 		</div>
-	{% if paginator.total_pages > 1 %}
-		<table class="news-nav">
-			<tbody>
-				<tr>
-					<td class="c1">{% if paginator.previous_page %}
-						<a class="button prev icon" title="previous page" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"></a>{% endif %}
-					</td>
-					<td class="c2">{% for page in (1..paginator.total_pages) %}{% if page == paginator.page %}
-						<span class="button special">{{ page }}</span>{%
-						elsif page == 1 %}
-						<a class="button special" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>{% 
-						else %}
-						<a class="button special" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>{% 
-						endif %}{% endfor %}
-					</td>
-					<td class="c3">{% if paginator.next_page %}
-						<a class="button next icon" title="next page" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"></a>{% endif %}
-					</td>
-				</tr>
-			</tbody>
-		</table>{% endif %}
-	</div>
 	</section>

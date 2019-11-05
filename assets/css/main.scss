@@ -1240,89 +1240,42 @@ sitemap:
 					opacity: 1;
 				}
 			}
-		}
-
-		&.download-standard, &.download-portable {
-			&.icon {
-				&:before {
-					content: '\f019';
-				}
-			}
-		}
-		&.download-standard {
-			background-color: _palette(accent1, bg);
-			box-shadow: inset 0 0 0 2px _palette(accent1, bg);
-			color: _palette(accent1, fg-bold) !important;
-
-			&:hover {
-				background-color: lighten(_palette(accent1, bg), 7.5);
-			}
-			&:active {
-				background-color: darken(_palette(accent1, bg), 5);
-			}
-		}
-		&.download-portable {
-			background-color: _palette(accent1, bg-light);
-			box-shadow: inset 0 0 0 2px _palette(accent1, bg-light);
-			color: _palette(accent1, fg-bold) !important;
-
-			&:hover {
-				background-color: lighten(_palette(accent1, bg-light), 5);
-			}
-			&:active {
-				background-color: darken(_palette(accent1, bg-light), 5);
-			}
-		}
-
-		&.dark {
-			background-color: _palette(fg);
-			box-shadow: inset 0 0 0 2px _palette(fg);
-			color: _palette(bg) !important;
-
-			&:hover {
-				background-color: darken(_palette(fg), 15);
-				box-shadow: inset 0 0 0 2px darken(_palette(fg), 15);
-				color: lighten(_palette(fg-blue), 10) !important;
-
+			&.standard, &.portable {
 				&.icon {
 					&:before {
-						color: lighten(_palette(fg-blue), 10) !important;
+						content: '\f019';
 					}
 				}
 			}
-			&:active {
-				background-color: darken(_palette(fg), 5);
-			}
-		}
+			&.standard {
+				background-color: _palette(accent1, bg);
+				box-shadow: inset 0 0 0 2px _palette(accent1, bg);
+				color: _palette(accent1, fg-bold) !important;
 
-		&.footer {
-			background-color: transparent;
-			box-shadow: inset 0 0 0 2px _palette(border);
-			color: _palette(accent1, fg-bold) !important;
+				&:hover {
+					box-shadow: inset 0 0 0 2px _palette(accent1, bg);
 
-			&.icon {
-				&:before {
-					color: lighten(_palette(fg-light), 15);
-				}
-			}
-
-			&:hover {
-				background-color: _palette(border-bg);
-				color: _palette(fg-blue) !important;
-
-				&.icon {
-					&:before {
-						color: _palette(fg-blue) !important;
+					&:active {
+						background-color: darken(_palette(accent1, bg), 10);
 					}
 				}
 			}
- 			&:active {
-				background-color: _palette(border2-bg);
+			&.portable {
+				background-color: _palette(accent1, bg-light);
+				box-shadow: inset 0 0 0 2px _palette(accent1, bg-light);
+				color: _palette(accent1, fg-bold) !important;
+
+				&:hover {
+					box-shadow: inset 0 0 0 2px _palette(accent1, bg-light);
+
+					&:active {
+						background-color: darken(_palette(accent1, bg-light), 10);
+					}
+				}
 			}
 		}
 
 		&.special {
-			font-size: 1em;
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px _palette(accent1, border3);
 			color: _palette(fg-bold) !important;
@@ -1357,7 +1310,6 @@ sitemap:
 		}
 		
 		&.prev, &.next {
-			font-size: 1em;
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px _palette(accent1, border3);
 			color: _palette(fg-bold) !important;
@@ -1422,24 +1374,30 @@ sitemap:
 			}
 		}
 
-		&.primary {
-			background-color: _palette(accent1, bg);
+		&.footer {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px _palette(border);
 			color: _palette(accent1, fg-bold) !important;
 
-			&:hover {
-				background-color: lighten(_palette(accent1, bg), 5);
+			&.icon {
+				&:before {
+					color: lighten(_palette(fg-light), 15);
+				}
 			}
-			&:active {
-				background-color: darken(_palette(accent1, bg), 5);
-			}
-		}
 
-		&.disabled,
-		&:disabled {
-			background-color: _palette(fg) !important;
-			color: _palette(bg) !important;
-			cursor: default;
-			opacity: 0.25;
+			&:hover {
+				background-color: _palette(border-bg);
+				color: _palette(fg-blue) !important;
+
+				&.icon {
+					&:before {
+						color: _palette(fg-blue) !important;
+					}
+				}
+			}
+ 			&:active {
+				background-color: _palette(border2-bg);
+			}
 		}
 	}
 
@@ -2932,6 +2890,10 @@ sitemap:
 				width: 90%;
 			}
 		}
+		.w-100 {
+			width: 100%;
+			margin: 0 auto;
+		}
 	}
 
 /* HOME */
@@ -3031,7 +2993,7 @@ sitemap:
 				font-size: 1.5em;
 			
 				@include breakpoint('<=small') {
-				font-size: 1.25em;
+					font-size: 1.25em;
 				}
 			}
 			.icon {
