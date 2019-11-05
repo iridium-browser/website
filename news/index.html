@@ -42,7 +42,7 @@ sitemap:
 				<div class="row gtr-uniform">{% 
 					for post in site.posts limit:6 offset:1 %}
 					<div class="col-4 col-6-medium col-12-small teaser-card">
-						<a href="{{ post.url | absolute_url }}" title="read more about '{{ post.title }}'">
+						<a href="{{ post.url | relative_url }}" title="read more about '{{ post.title }}'">
 							<div class="teaser-container">
 								<header>
 									<div class="teaser-heading">{{ post.title | truncate: 58 }}</div>
