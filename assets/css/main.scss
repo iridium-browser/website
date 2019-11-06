@@ -2895,6 +2895,26 @@ sitemap:
 			margin: 0 auto;
 		}
 	}
+	
+	/* page fade-in */
+
+	#fade-in, .fade-in {
+		-webkit-animation: fade-in #{_duration(fade-in)};
+				animation: fade-in #{_duration(fade-in)};
+	}
+	@include keyframes(fade-in) {
+		0% { opacity:0; }
+		100% { opacity:1; }
+	}
+	@mixin keyframes($name) {
+		@-webkit-keyframes #{$name} {
+			@content;
+		}
+		@keyframes #{$name} {
+			@content;
+		}
+	}
+	
 
 /* HOME */
 
