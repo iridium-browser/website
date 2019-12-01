@@ -15,5 +15,5 @@ Iridium Browser **version 2017.10** builds now also available for  **openSUSE Le
 Also available are latest builds for **Windows** and **macOS**.     
 
 Releases for **Debian/Ubuntu**, **Fedora** and **RHEL/CentOS** to follow shortly.    
-          
-[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
+
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>

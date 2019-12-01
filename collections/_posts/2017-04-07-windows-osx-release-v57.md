@@ -15,4 +15,4 @@ Following yesterday's release of version 57.0 for Ubuntu/Debian, we are now rele
 The Windows build is also available as a portable version.     
 Releases for **openSUSE** and **Fedora** to follow shortly.     
 
-[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>

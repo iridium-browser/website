@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Version 2017.10 now available for Fedora and RHEL/CentOS"
-description: Iridium Browser version 2017.10 builds for Windows, macOS, openSUSE Leap 42.2/42.3/Tumbleweed, Fedora 25/26 and RHEL/CentOS 7 now available! Releases for Debian/Ubuntu to follow.
+description: "Iridium Browser version 2017.10 builds for Windows, macOS, openSUSE Leap 42.2/42.3/Tumbleweed, Fedora 25/26 and RHEL/CentOS 7 now available!"
 date:   2017-10-25 11:11:11 +0200
 author:	admin
 categories: news
@@ -14,6 +14,6 @@ style: style1
 Iridium Browser **version 2017.10** builds now also available for **Fedora 25/26** and **Red Hat Enterprise Linux / CentOS 7**!     
 Latest builds for **Windows, macOS** and **openSUSE** are also available.     
 
-Releases for **Debian/Ubuntu** to follow in due course.    
-          
-[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
+Releases for **Debian based systems** to follow in due course.    
+
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>

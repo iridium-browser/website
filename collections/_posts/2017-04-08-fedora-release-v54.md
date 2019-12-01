@@ -14,7 +14,7 @@ style: style1
 For the first time ever, Iridium Browser releases a build for **Fedora**!     
 This release is based on version 54.0 and Fedora 25 is required.     
 Work on version 57.0 for Fedora has already started and will be released in due course.      
-    
-Also available is **v57.0** for **Windows, macOS** and **Ubuntu/Debian** 
- 
-[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
+
+Also available is **v57.0** for **Windows, macOS** and **Ubuntu/Debian**    
+
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>

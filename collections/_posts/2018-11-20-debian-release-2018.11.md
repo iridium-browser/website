@@ -14,6 +14,6 @@ style: 			style1
 The latest **version 2018.11.71** based on Chromium 71.0.3578.30 is available for **Debian-based systems** now!   
 Furthermore version **2018.11.71** is also available for **Fedora** and **openSUSE**.    
 
-Current version for **Windows** and **macOS** is **2018.11.70** based on Chromium 70.0.3538.77 and is also available for download.
-        
-<a id="download-parser" class="button download" title="download Iridium Browser">download</a>
+Current version for **Windows** and **macOS** is **2018.11.70** based on Chromium 70.0.3538.77 and is also available for download.    
+
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>

@@ -15,5 +15,5 @@ We are happy and a little proud to announce the release of version 57.0 for **Ub
 Releases for the following platforms; **Windows, macOS, openSUSE** and for the first time **Fedora** to follow soon.     
 
 The latest version of the Chromium code base uses less resources and also includes all the latest security features.     
-      
-[]({{ '/downloads/' | relative_url }} "download Iridium Browser"){: .button .download-post}
+
+<a id="download-parser2" class="button download" title="download Iridium Browser"></a>
