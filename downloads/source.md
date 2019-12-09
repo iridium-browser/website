@@ -41,7 +41,7 @@ Download the source code
 <div class="container w-25">
 <div class="row">
 <div class="col-12 align-center">
-[Download source code](https://downloads.iridiumbrowser.de/source/ "download source code"){:.button .small .fit .download .icon .fa-download}
+[Download source code](https://downloads.iridiumbrowser.de/source/ "download source code"){:.button .small .fit .download .standard .icon .fa-download}
 </div>
 </div>
 </div>
