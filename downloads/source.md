@@ -11,7 +11,7 @@ structured-data:
   value:		5
   count:		1021
 sitemap:
-  lastmod:		2017-12-01
+  lastmod:		2017-12-13 12:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/source
