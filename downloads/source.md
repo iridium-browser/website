@@ -11,7 +11,7 @@ structured-data:
   value:		5
   count:		1021
 sitemap:
-  lastmod:		2017-12-01
+  lastmod:		2017-12-13 12:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/source
@@ -41,7 +41,7 @@ Download the source code
 <div class="container w-25">
 <div class="row">
 <div class="col-12 align-center">
-[Download source code](https://downloads.iridiumbrowser.de/source/ "download source code"){:.button .small .fit .download .icon .fa-download}
+[Download source code](https://downloads.iridiumbrowser.de/source/ "download source code"){:.button .small .fit .download .standard .icon .fa-download}
 </div>
 </div>
 </div>
