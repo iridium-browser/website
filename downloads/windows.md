@@ -14,7 +14,7 @@ structured-data:
   value: 		4.9
   count: 		3946
 sitemap:
-  lastmod:		2019-12-10 10:00:00 +0100
+  lastmod:		2019-12-30 10:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/windows
@@ -25,10 +25,10 @@ chromium:			78.0.3904.87
 dl-url:				https://downloads.iridiumbrowser.de/windows/
 dl-folder:			2019.11.78
 dl-file:			/iridiumbrowser-
-dl-end-32:			-x86.msi
-dl-end-64:			-x64.msi
-dl-end-32port:		-x86.zip
-dl-end-64port:		-x64.zip
+dl-end-32:			.0-x86.msi
+dl-end-64:			.0-x64.msi
+dl-end-32port:		.0-x86.zip
+dl-end-64port:		.0-x64.zip
 
 sys-reqs:
 - Windows 7+
