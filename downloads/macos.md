@@ -12,20 +12,20 @@ structured-data:
   os0:			macOS
   os1:			macOS
   value:		4.9
-  count:		1464
+  count:		2142
 sitemap:
-  lastmod:		2019-04-15 10:00:00 +0100
+  lastmod:		2019-12-31 10:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/macos
 
 OS: 				macOS
-version:			2019.04-0
-chromium:			73.0.3683.103
+version:			2019.11-0
+chromium:			78.0.3904.87
 dl-url:				https://downloads.iridiumbrowser.de/macos/
 dl-folder:			
 dl-file:			/iridium-browser_
-dl-end:				_macos_x64.dmg
+dl-end:				_macos.dmg
 
 sys-reqs:
 - macOS X Yosemite 10.10+
