@@ -14,7 +14,7 @@ structured-data:
   value: 		4.9
   count: 		3946
 sitemap:
-  lastmod:		2019-12-30 10:00:00 +0100
+  lastmod:		2019-12-31 10:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/windows
