@@ -3,7 +3,7 @@ layout:		layout_start
 title:		Marquee
 show:		"yes"
 
-animation:	30s linear infinite
-delay:		-15s
+animation:	16s linear infinite
+delay:		-8s
 ---
-[<span class="icon fa-bullhorn"></span> **Version 2019.11.78** has been released for **Windows** and **macOS**. Also available for **Fedora 30 + 31, SUSE Leap 15.1 + Tumbleweed** and **Red Hat Enterprise Linux 7 + 8** - build for Debian-based systems to follow <span class="icon fa-code"></span> read the latest news]({{ '/news/' | relative_url }} "read the latest NEWS")
+[<span class="icon fa-bullhorn"></span> **Version 2020.01.79** now available for **all platforms** - except for Debian-based systems <span class="icon fa-code"></span> read the latest news]({{ '/news/' | relative_url }} "read the latest NEWS")

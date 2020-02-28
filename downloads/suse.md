@@ -12,17 +12,17 @@ structured-data:
   os0:			SUSE
   os1:			SUSE
   value:		5
-  count:		235
+  count:		325
 sitemap:
-  lastmod:		2019-12-13 10:00:00 +0100
+  lastmod:		2020-02-28 16:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/suse
 
 icon-class:			dlinux fl-opensuse
 OS: 				Repositories for SUSE
-version:			2019.11.78
-chromium:			78.0.3904.87
+version:			2020.01.79
+chromium:			79.0.3945.130
 sys-reqs:
 - SUSE Leap 15.1 or Tumbleweed
 ---

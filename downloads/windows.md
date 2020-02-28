@@ -12,18 +12,18 @@ structured-data:
   os0: 			Windows
   os1: 			Windows
   value: 		4.9
-  count: 		3946
+  count: 		5112
 sitemap:
-  lastmod:		2019-12-31 10:00:00 +0100
+  lastmod:		2020-02-28 16:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/windows
 
 OS: 				Windows
-version:			2019.11.78
-chromium:			78.0.3904.87
+version:			2020.01.79
+chromium:			79.0.3945.130
 dl-url:				https://downloads.iridiumbrowser.de/windows/
-dl-folder:			2019.11.78
+dl-folder:			2020.01.79
 dl-file:			/iridiumbrowser-
 dl-end-32:			.0-x86.msi
 dl-end-64:			.0-x64.msi
