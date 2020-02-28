@@ -12,17 +12,17 @@ structured-data:
   os0:			Fedora
   os1:			Fedora
   value:		4.9
-  count:		199
+  count:		224
 sitemap:
-  lastmod:		2019-12-13 10:00:00 +0100
+  lastmod:		2020-02-28 16:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/fedora
 
 icon-class:			dlinux fl-fedora-inverse
 OS: 				Repositories for Fedora
-version:			2019.11.78
-chromium:			78.0.3904.87
+version:			2020.01.79
+chromium:			79.0.3945.130
 sys-reqs:
 - Fedora 30+
 ---

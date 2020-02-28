@@ -9,9 +9,9 @@ structured-data:
   os0:			source code
   os1:			source code
   value:		5
-  count:		1021
+  count:		2002
 sitemap:
-  lastmod:		2017-12-13 12:00:00 +0100
+  lastmod:		2020-02-28 16:00:00 +0100
   priority:		0.8
   changefreq:	'daily'
 permalink:		/downloads/source
@@ -25,10 +25,10 @@ permalink:		/downloads/source
 Clone the source code with Git:
 </header>
 
-	git clone https://git.iridiumbrowser.de/git/iridium-browser
+	git clone https://github.com/iridium-browser/iridium-browser
 
 Browse the source code:<br/>
-Git web view  [https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/](https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/ "Git web view"){:target="_blank"}
+Git web view  [https://github.com/iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser "Git web view"){:target="_blank"}
 
 ---
 
