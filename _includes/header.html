@@ -1,20 +1,32 @@
-<!-- Header -->
-	<div id="header">
-		<div id="logo"><a href="{{ '/' | relative_url }}" class="logo-header logo-header-sm" title="Home"></a></div>
-		<h1>{{ site.title }}</h1>
-		<nav id="nav">
-			<ul>
-				<li><a href="{{ '/' | relative_url }}" title="Home"{% if page.link == "yes" %} class="active"{% endif %}>Home</a></li>{%
-				for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}
-				<li><a href="{% if my_page.submenu == "downloads" %}#{% else %}{{ my_page.url | replace:'.html','' | relative_url }}{% endif %}" title="{{ my_page.title }}"{% if page.url contains my_page.link %} class="active"{% endif %}>{{ my_page.title }}</a>{% 
-				if my_page.submenu == "downloads" %}
-					<ul>{% 
-					for submenu-details in my_page.submenu-details %}
-						<li><a href="{{ submenu-details.link | relative_url }}" title="{{ submenu-details.title }}">{{ submenu-details.name }}</a></li>{% 
-					endfor %}
+		<!-- Header -->
+			<header id="header"{% if page.link == 'yes' %} class="alt"{% else %}{% endif %}>
+			<!-- Logo -->
+				<div class="logo">
+					<a href="{{ '/' | relative_url }}"><span class="logo-header logo-header-sm" title="Home"></span></a>
+					<h1>{{ site.title }}</h1>
+				</div>
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li{% if page.link == 'yes' %} class="current"{% endif %}><a href="{{ '/' | relative_url }}" title="Home">Home</a></li>{%
+						for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}
+						<li{% if page.url contains my_page.link %} class="current"{% endif %}><a href="{{ my_page.url | replace:'.html','' | relative_url }}" title="{{ my_page.title }}">{{ my_page.title }}</a>{% 
+						if my_page.submenu == "yes" %}
+							<ul>{% 
+							for submenu-details in my_page.submenu-details %}
+								<li><a href="{{ submenu-details.link | relative_url }}" title="{{ submenu-details.title }}"><span class="{{ submenu-details.icon-class }}"></span>{{ submenu-details.name }}</a></li>{% 
+							endfor %}
+							</ul>
+						{% endif %}</li>{% 
+						endif %}{% endfor %}{% endfor %}
+						
+						<li><a href="#" id="download-parser" class="button download-header" title="Download Iridium Browser">Download</a>
+							<ul>{% 
+							for downloads in site.downloads offset:1 %}
+								<li><a href="{{ downloads.link | relative_url }}" title="{{ downloads.label }}"><span class="{% if downloads.link contains 'source' %}icon{% else %}icon-os{% endif %} nav {{ downloads.icon-class }}"></span>{{ downloads.label }}</a></li>{% 
+							endfor %}
+							</ul>
+						</li>
 					</ul>
-				{% endif %}</li>{% 
-				endif %}{% endfor %}{% endfor %}
-			</ul>
-		</nav>
-	</div>
+				</nav>
+			</header>

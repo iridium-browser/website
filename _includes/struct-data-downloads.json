@@ -20,7 +20,7 @@
 				"@type": "ImageObject",
 				"height": "200",
 				"width": "200",
-				"contentUrl": "{{ site.hotpic | absolute_url }}",
+				"contentUrl": "{{ site.hotlogo | absolute_url }}",
 				"url": "{{ site.url | append: site.baseurl }}"
 			},
 			"offers": {

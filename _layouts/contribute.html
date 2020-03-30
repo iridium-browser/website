@@ -1,23 +1,23 @@
 ---
-layout: layout_default
+layout:				layout_default
 ---
-<!-- Contribute -->
-	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
-		<div class="container">
-			<header class="major">{% for contribute in site.contribute limit:1 %}
-				<h2>{{ contribute.title }}</h2>
-				<p>{{ contribute.subtitle }}</p>{% endfor %}
-			</header>{% 
-			for contribute in site.contribute %}
-			<div class="row">
-				<div class="col-2 col-2-xlarge col-3-large col-12-small">
-					<div class="icon {{ contribute.icon-class }}"></div>
-				</div>
-				<div class="col-10 col-10-xlarge col-9-large col-12-small content">
-					<h3>{{ contribute.heading }}</h3>
-					{{ contribute.content | strip_newlines }}
-				</div>
-			</div>{% 
+		<!-- Contribute -->
+			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
+			for contribute in site.contribute limit:1 %}
+				<header>
+					<h2>{{ contribute.title }}</h2>
+					<p>{{ contribute.subtitle }}</p>
+				</header>{% 
 			endfor %}
-		</div>
-	</section>
+				<div class="inner">{% 
+				for contribute in site.contribute offset:1 %}
+					<section class="feature {{ contribute.position }}">
+						<span class="image icon {{ contribute.icon-class }}"><img src="{{ contribute.img-src | prepend: 'assets/images/contribute/' | relative_url }}" alt="" /></span>
+						<div class="content">
+							<h3>{{ contribute.title }}</h3>
+							{{ contribute.content | strip_newlines }}
+						</div>
+					</section>{% 
+				endfor %}
+				</div>
+			</section>

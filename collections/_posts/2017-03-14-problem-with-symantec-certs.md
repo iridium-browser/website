@@ -5,20 +5,20 @@ description: Issue with Symantec certs - solved! get the latest updates in the d
 date:   2017-03-14 20:05:00 +0200
 author:	admin
 categories: news
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+hotpic: "/assets/images/hotpics/Iridium-hotpic-news.png"
 menu: no
-style: style1
+structured-data:	"news"
 ---
 
-Finally, we are happy to announce that the latest Windows and Ubuntu/Debian builds solve the issue with the Symantec certificates failing to load. 
+Finally, we are happy to announce that the latest **Windows** and **Debian-based systems** builds solve the issue with the Symantec certificates failing to load. 
 (see bug tracker @ GitHub [issue #124](https://github.com/iridium-browser/tracker/issues/124 "issue #124 @ GitHub"))    
+
 The trouble with SSL certificate handling was quite a challenge. There was no security / privacy problem for the user, but the usability with many sites was poor. 
 This is solved now!     
 
 get the fixed version    
 
-<a id="download-parser2" class="button download" title="download Iridium Browser"></a>     
+<a id="download-parser2" class="button download" title="download Iridium Browser">Download</a>     
 
 Due to these issues the next major release is delayed and we will jump straight to version 57.     
 Stay tuned and private!

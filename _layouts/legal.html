@@ -1,22 +1,15 @@
 ---
-layout: layout_default
+layout:		layout_default
 ---
-<!-- Legal  -->
-	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
-		<div class="container">
-			<header class="major">
-				<h2>{{ page.title }}</h2>{% 
-				if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
-			</header>
-			<div class="box w-75">
-				<h3>{{ page.tracker-title }}</h3>
-				<p>{{ page.tracker-content | strip_newlines }}</p>
-				<a href="{{ page.tracker-link }}" title="{{ page.tracker-title }} at GitHub" class="button dark small icon fa-github">{{ page.tracker-title }}</a>
-			</div>
-		</div>
-		<br/>
-		<br/>
-		<div class="container align-left">
-			{{ content | strip_newlines }}
-		</div>
-	</section>
+		<!-- Legal -->
+			<section id="{{ page.id }}" class="main {{ page.style }}">
+				<header>
+					<h2>{{ page.title }}</h2>
+					<p>{{ page.subtitle }}</p>
+				</header>
+				<div class="inner">
+					<div class="content">
+					{{ content }}
+					</div>
+				</div>
+			</section>

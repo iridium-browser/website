@@ -25,7 +25,15 @@ sitemap:
 	  else %}<priority>0.7</priority>{% endif %}
     </url>{%
 	endunless %}{% 
-   endfor %}
+  endfor %}
+  {% for downloads in site.downloads %}
+    <url>
+      <loc>{{ downloads.url | remove: "index.html" | absolute_url }}</loc>
+	  <lastmod>{{ downloads.sitemap.lastmod | date_to_xmlschema }}</lastmod>
+      <changefreq>{{ downloads.sitemap.changefreq }}</changefreq>
+      <priority>{{ downloads.sitemap.priority }}</priority>
+    </url>{%
+  endfor %}
   {% for post in site.posts %}{% 
 	unless post.published == false %}
     <url>

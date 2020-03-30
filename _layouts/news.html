@@ -1,0 +1,24 @@
+---
+layout:		layout_default
+---
+		<!-- News -->
+			<section id="{{ page.id }}" class="main {{ page.style }}">
+				<header>
+					<h2>{{ page.title }}</h2>
+					<p>{{ page.subtitle }}</p>
+				</header>
+				<div class="inner w-75">
+					<div class="post">{% 
+						for post in site.posts limit:3 %}
+							<article>
+								<div class="content">
+									<p class="icon fa-calendar small ">{{ post.date | date_to_long_string }}</p>
+									<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+									{{ post.content | strip_newlines }}
+								</div>
+							</article>{% 
+						endfor %}
+						<p class="align-center"><a class="button wht" href="{{ '/news/archive/' | relative_url }}" title="News Archive">News Archive</a></p>
+					</div>
+				</div>
+			</section>

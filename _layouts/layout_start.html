@@ -1,10 +1,15 @@
 <!DOCTYPE html>
+<!--
+	Iridium Browser 2020 | based on various templates by Pixelarity | License: pixelarity.com/license
+-->
 <html lang="en">
-	{% include head.html %}
-	<body class="landing fade-in">
+{% include head.html %}
+	<body class="is-preload">
+		<div id="wrapper">
 {% include header.html %}
 {{ content }}
 {% include footer.html %}
+		</div>
 {% include js-scripts.html %}
 <!-- Structured Data -->
 	<script type="application/ld+json">

@@ -1,32 +1,39 @@
 ---
-layout: layout_post
+layout:		layout_default
 ---
-<!-- Post -->
-	<section id="news-post" class="wrapper {% if page.style %}{{ page.style }}{% endif %} special">
-		<div class="container">
+	<!-- Post -->
+		<section id="news" class="main style2">
 			<header class="major">
 				<h2>News Post</h2>
 			</header>
-			<header>
-				<h3>{{ page.title }}</h3>
-				<p class="date icon fa-calendar">{{ page.date | date_to_long_string }}</p>
-			</header>
-			{{ content | strip_newlines}}
-			<hr/>
-			<table class="news-nav">
-				<tbody>
-					<tr>{% if page.categories contains "news" %}
-						<td class="c1">{% if page.previous.url %}
-							<a class="button prev icon" title="previous: '{{page.previous.title}}'" href="{{page.previous.url}}"></a>{% endif %}
-						</td>
-						<td class="c2">
-							<a class="button icon fa-archive special" href="{{ '/news/archive/' | relative_url }}" title="News Archive Index">News Archive</a>
-						</td>
-						<td class="c3">{% if page.next.url %}
-							<a class="button next icon" title="next: '{{page.next.title}}'" href="{{page.next.url}}"></a>{% endif %}
-						</td>
-					{% endif %}</tr>
-				</tbody>
-			</table>
-		</div>
-	</section>
+			<div class="inner w-75">
+				<div class="post">
+					<div>
+						<article>
+							<div class="content">
+								<p class="icon fa-calendar small ">{{ page.date | date_to_long_string }}</p>
+								<h3>{{ page.title }}</h3>
+								<p>{{ content | strip_newlines }}</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="row gtr-uniform post-nav">{% 
+				if page.categories contains "news" %}
+					<div class="col-4 col-3-small prev">{% 
+					if page.previous.url %}
+						<a class="button prev" title="previous: '{{page.previous.title}}'" href="{{ page.previous.url | relative_url }}"></a>{% 
+					endif %}
+					</div>
+					<div class="col-4 col-6-small archive align-center">
+						<a class="button wht" href="{{ '/news/archive/' | relative_url }}" title="News Archive Index">News Archive</a>
+					</div>
+					<div class="col-4 col-3-small next">{% 
+					if page.next.url %}
+						<a class="button next" title="next: '{{page.next.title}}'" href="{{ page.next.url | relative_url }}"></a>{% 
+					endif %}
+					</div>{% 
+				endif %}
+				</div>
+			</div>
+		</section>

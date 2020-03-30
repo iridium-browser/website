@@ -6,10 +6,10 @@ sitemap:
 <browserconfig>
 	<msapplication>
 		<tile>
-			<square70x70logo src="images/app-icons/win-small_70x70.png"/>
-			<square150x150logo src="images/app-icons/win-medium_150x150.png"/>
-			<square310x310logo src="images/app-icons/win-large_310x310.png"/>
-			<wide310x150logo src="images/app-icons/win-wide_310x150.png"/>
+			<square70x70logo src="assets/images/app-icons/win-small_70x70.png"/>
+			<square150x150logo src="assets/images/app-icons/win-medium_150x150.png"/>
+			<square310x310logo src="assets/images/app-icons/win-large_310x310.png"/>
+			<wide310x150logo src="assets/images/app-icons/win-wide_310x150.png"/>
 			<TileColor>#{{ site.app-color }}</TileColor>
 		</tile>
 	</msapplication>

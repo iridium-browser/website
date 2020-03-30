@@ -1,0 +1,118 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Nav Panel */
+
+	#wrapper {
+		@include vendor('transition', 'opacity #{_duration(menu)} ease');
+	}
+
+	#navPanel {
+		@include vendor('transform', 'translateX(100%)');
+		@include vendor('transition', ('transform #{_duration(menu)} ease', 'box-shadow #{_duration(menu)} ease', 'visibility #{_duration(menu)}'));
+		-webkit-overflow-scrolling: touch;
+		background: _palette(accent1, bg);
+		box-shadow: none;
+		color: _palette(accent1, fg);
+		height: 100%;
+		max-width: 80%;
+		overflow-y: auto;
+		position: fixed;
+		right: 0;
+		top: 0;
+		visibility: hidden;
+		width: 20em;
+		z-index: _misc(z-index-base) + 2;
+
+		nav {
+			padding: 3em 2em;
+		}
+
+		.link {
+			@include vendor('transition', 'color #{_duration(transition)}');
+			border-top: solid 1px _palette(accent1, border);
+			border-bottom: 0;
+			color: inherit !important;
+			display: block;
+			padding: 0.75em 0;
+			text-decoration: none;
+
+			&:first-child {
+				border-top: 0;
+			}
+
+			&.depth-0 {
+				color: _palette(accent1, fg-bold) !important;
+				font-weight: _font(weight-bold);
+			}
+
+			&:active, &:focus, &:hover {
+				color: _palette(accent1, fg-bold) !important;
+			}
+
+			.indent-1 {
+				display: inline-block;
+				width: 1.25em;
+			}
+
+			.indent-2 {
+				display: inline-block;
+				width: 2.5em;
+			}
+		}
+
+		.close {
+			@include icon;
+			@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			border: 0;
+			color: _palette(accent1, fg-light);
+			cursor: pointer;
+			display: block;
+			height: 3.25em;
+			line-height: 3.25em;
+			padding-right: 1.25em;
+			position: absolute;
+			right: 0;
+			text-align: right;
+			top: 0;
+			vertical-align: middle;
+			width: 7em;
+
+			&:before {
+				content: '\f00d';
+				font-size: 1.25em;
+			}
+
+			&:hover {
+				color: _palette(accent1, fg-bold) !important;
+			}
+
+			@include breakpoint('<=small') {
+				height: 4em;
+				line-height: 4em;
+			}
+		}
+
+		@include breakpoint('<=small') {
+			nav {
+				padding: 2.5em 1.75em;
+			}
+		}
+	}
+
+	body.is-navPanel-visible {
+		#wrapper {
+			@include vendor('pointer-events', 'none');
+			cursor: default;
+			opacity: 0.25;
+		}
+
+		#navPanel {
+			@include vendor('transform', 'translateX(0)');
+			visibility: visible;
+		}
+	}

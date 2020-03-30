@@ -1,0 +1,8 @@
+/* BEGIN Bold */
+@font-face {
+  font-family: 'Lato';
+  @include fontdef($LatoPath, $LatoVersion, "bold");
+  font-weight: 700;
+  font-style: normal;
+}
+/* END Bold */

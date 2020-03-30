@@ -1,0 +1,129 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Spotlight */
+
+	.spotlight {
+		@include vendor('display', 'flex');
+		@include vendor('align-items', 'center');
+		margin: 0 0 _size(element-margin) 0;
+
+		> * {
+			@include vendor('flex-grow', '1');
+			@include vendor('flex-shrink', '1');
+			width: 100%;
+		}
+
+		> ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			> li {
+				border-top: solid 1px _palette(border);
+				margin: _size(element-margin) 0 0 0;
+				padding: _size(element-margin) 0 0 0;
+
+				> :last-child {
+					margin-bottom: 0;
+				}
+
+				&:first-child {
+					border-top: 0;
+					margin-top: 0;
+					padding-top: 0;
+				}
+			}
+
+			&:first-child {
+				text-align: right;
+			}
+
+			&:last-child {
+				text-align: left;
+			}
+		}
+
+		> .image {
+			margin: 0 4rem;
+
+			img {
+				border-radius: _size(border-radius);
+				width: 100%;
+			}
+		}
+
+		@include breakpoint('<=medium') {
+			@include vendor('flex-wrap', 'wrap');
+
+			> ul {
+				@include vendor('order', '2');
+				width: calc(50% - 1rem);
+
+				&:first-child {
+					text-align: center;
+					margin-right: 1rem;
+				}
+
+				&:last-child {
+					text-align: center;
+					margin-left: 1rem;
+				}
+			}
+
+			> .image {
+				@include vendor('order', '1');
+				margin: 0 0 (_size(element-margin) * 1.5) 0;
+				width: 100%;
+
+				img {
+					width: 18rem;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+		}
+
+		@include breakpoint('<=small') {
+			> .image {
+				margin: 0 0 _size(element-margin) 0;
+
+				img {
+					width: 14rem;
+				}
+			}
+		}
+
+		@include breakpoint('<=xsmall') {
+			> ul {
+				width: 100%;
+
+				> li {
+					&:first-child {
+						border-top: 0;
+						margin-top: _size(element-margin);
+						padding-top: _size(element-margin);
+					}
+				}
+
+				&:first-child {
+					margin-right: 0;
+
+					> li {
+						&:first-child {
+							border-top: 0;
+							margin-top: 0;
+							padding-top: 0;
+						}
+					}
+				}
+
+				&:last-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}

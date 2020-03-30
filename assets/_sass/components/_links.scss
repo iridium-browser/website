@@ -1,0 +1,62 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Links */
+
+	ul.links {
+		list-style: none;
+		padding-left: 0;
+
+		li {
+			@include icon;
+			margin-top: 1rem;
+			position: relative;
+			padding-left: 1rem;
+
+			&:before {
+				content: '\f105';
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+			ul {
+				list-style: none;
+				margin: 1rem 0 0 0;
+				padding-left: 0;
+
+				li {
+					@include icon;
+					margin: 1rem 0 0 0;
+					position: relative;
+					padding-left: 1rem;
+				}
+			}
+		}
+		
+		&.alt {
+			list-style: none;
+			padding-left: 0;
+
+			li {
+				border: 0;
+				padding: 0.5rem 0;
+
+				&:before {
+					content: '';
+				}
+
+				&:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+			}
+		}
+	}

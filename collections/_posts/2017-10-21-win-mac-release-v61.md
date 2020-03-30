@@ -5,13 +5,12 @@ description: Iridium Browser version 2017.10 builds for Windows and macOS now av
 date:   2017-10-21 11:11:11 +0200
 author:	admin
 categories: news
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-download.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-download.png"
+hotpic: "/assets/images/hotpics/Iridium-hotpic-download.png"
 menu: no
-style: style1
+structured-data: "news"
 ---
 
 Iridium Browser **version 2017.10** builds for **Windows** and **macOS** now available!     
-Releases for Linux platforms incl. **Debian/Ubuntu, openSUSE**, **Fedora** and **RHEL/CentOS**to follow soon.    
+Releases for Linux platforms incl. **Debian-based systems, openSUSE**, **Fedora** and **Red Hat Enterprise Linux & CentOS** to follow soon.    
 
-<a id="download-parser2" class="button download" title="download Iridium Browser"></a>
+<a id="download-parser2" class="button download" title="download Iridium Browser">Download</a>

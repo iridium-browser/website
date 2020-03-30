@@ -1,0 +1,738 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Wrapper */
+
+	$padding: _size(padding, default);
+
+	.inner {
+		margin: 0 auto;
+		width: _size(inner);
+		max-width: calc(100% - #{$padding});
+		
+		&.alt {
+			width: 100%;
+			max-width: 100%;
+		}
+		
+		&.w-25 {
+			width: 25%;
+			margin: 0 auto;
+			
+				@include breakpoint('<=medium') {
+				width: 50%;
+			}
+			@include breakpoint('<=small') {
+				width: 90%;
+			}
+		}
+		&.w-50 {
+			width: 50%;
+			margin: 0 auto;
+			
+			@include breakpoint('<=medium') {
+				width: 75%;
+			}
+			@include breakpoint('<=small') {
+				width: 90%;
+			}
+		}
+		&.w-75 {
+			width: 75%;
+			margin: 0 auto;
+			
+			@include breakpoint('<=medium') {
+				width: 90%;
+			}
+			@include breakpoint('<=small') {
+				width: 90%;
+			}
+		}
+	}
+
+	@include keyframes(tab-title) {
+		0% {
+			@include vendor('transform', 'translateY(0.325rem)');
+		}
+
+		100% {
+			@include vendor('transform', 'translateY(1px)');
+		}
+	}
+
+	#wrapper {
+		> .main {
+			background-color: transparent;
+			
+		/* downloads | bg-lines_triangle.svg */
+			&.style1 {
+				background: _palette(accent2, bg) url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTgwMHB4IiBoZWlnaHQ9IjkwMHB4IiB2aWV3Qm94PSIwIDAgMTgwMCA5MDAiIHpvb21BbmRQYW49ImRpc2FibGUiPg0KDQogICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsNCgkJbGluZQ0KCQl7DQoJCQlzdHJva2U6IHJnYmEoMjU1LDI1NSwyNTUsMC4xNzUpOw0KCQkJc3Ryb2tlLXdpZHRoOiAwLjVweDsNCgkJfQ0KCQkNCgkJcG9seWdvbg0KCQl7DQoJCQlmaWxsOiByZ2JhKDI1NSwyNTUsMjU1LDAuMDMyNSk7DQoJCX0NCiAgICBdXT48L3N0eWxlPg0KCTwhLS0gTGluZXMgLS0+DQoJCTxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjkwMCIgeTI9IjkwMCIgLz4NCgkJPGxpbmUgeDE9IjEwMCIgeTE9IjAiIHgyPSI5MDAiIHkyPSI4MDAiIC8+DQoJCTxsaW5lIHgxPSIyMDAiIHkxPSIwIiB4Mj0iOTAwIiB5Mj0iNzAwIiAvPg0KCQk8bGluZSB4MT0iMzAwIiB5MT0iMCIgeDI9IjkwMCIgeTI9IjYwMCIgLz4NCgkJPGxpbmUgeDE9IjMwMCIgeTE9IjkwMCIgeDI9IjYwMCIgeTI9IjYwMCIgLz4NCgkJPGxpbmUgeDE9IjQwMCIgeTE9IjkwMCIgeDI9IjcwMCIgeTI9IjYwMCIgLz4NCgkJPGxpbmUgeDE9IjUwMCIgeTE9IjkwMCIgeDI9IjgwMCIgeTI9IjYwMCIgLz4NCgkJPGxpbmUgeDE9IjYwMCIgeTE9IjkwMCIgeDI9IjkwMCIgeTI9IjYwMCIgLz4NCgkJPGxpbmUgeDE9IjcwMCIgeTE9IjkwMCIgeDI9IjkwMCIgeTI9IjcwMCIgLz4NCgkJPGxpbmUgeDE9IjgwMCIgeTE9IjkwMCIgeDI9IjkwMCIgeTI9IjgwMCIgLz4NCg0KCQk8bGluZSB4MT0iMTgwMCIgeTE9IjAiIHgyPSI5MDAiIHkyPSI5MDAiIC8+DQoJCTxsaW5lIHgxPSIxNzAwIiB5MT0iMCIgeDI9IjkwMCIgeTI9IjgwMCIgLz4NCgkJPGxpbmUgeDE9IjE2MDAiIHkxPSIwIiB4Mj0iOTAwIiB5Mj0iNzAwIiAvPg0KCQk8bGluZSB4MT0iMTUwMCIgeTE9IjAiIHgyPSI5MDAiIHkyPSI2MDAiIC8+DQoJCTxsaW5lIHgxPSIxNTAwIiB5MT0iOTAwIiB4Mj0iMTIwMCIgeTI9IjYwMCIgLz4NCgkJPGxpbmUgeDE9IjE0MDAiIHkxPSI5MDAiIHgyPSIxMTAwIiB5Mj0iNjAwIiAvPg0KCQk8bGluZSB4MT0iMTMwMCIgeTE9IjkwMCIgeDI9IjEwMDAiIHkyPSI2MDAiIC8+DQoJCTxsaW5lIHgxPSIxMjAwIiB5MT0iOTAwIiB4Mj0iOTAwIiB5Mj0iNjAwIiAvPg0KCQk8bGluZSB4MT0iMTEwMCIgeTE9IjkwMCIgeDI9IjkwMCIgeTI9IjcwMCIgLz4NCgkJPGxpbmUgeDE9IjEwMDAiIHkxPSI5MDAiIHgyPSI5MDAiIHkyPSI4MDAiIC8+DQoNCgk8IS0tIEZpbGxzIC0tPg0KCQk8cG9seWdvbiBwb2ludHM9IjMwMCw5MDAgNjAwLDYwMCA2NTAsNjUwIDcwMCw2MDAgNzUwLDY1MCA4MDAsNjAwIDg1MCw2NTAgOTAwLDYwMCA5MDAsOTAwIDkwMCw2MDAgOTUwLDY1MCAxMDAwLDYwMCAxMDUwLDY1MCAxMTAwLDYwMCAxMTUwLDY1MCAxMjAwLDYwMCAxNTAwLDkwMCIgLz4NCgkJPHBvbHlnb24gcG9pbnRzPSIzNTAsOTUwIDY1MCw2NTAgNzAwLDcwMCA3NTAsNjUwIDgwMCw3MDAgODUwLDY1MCA5MDAsNzAwIDkwMCw5MDAgOTAwLDcwMCA5NTAsNjUwIDEwMDAsNzAwIDEwNTAsNjUwIDExMDAsNzAwIDExNTAsNjUwIDE0NTAsOTUwIiAvPg0KCQkNCgkJPHBvbHlnb24gcG9pbnRzPSI0MDAsMTAwMCA3MDAsNzAwIDc1MCw3NTAgODAwLDcwMCA4NTAsNzUwIDkwMCw3MDAgOTAwLDkwMCA5MDAsNzAwIDk1MCw3NTAgMTAwMCw3MDAgMTA1MCw3NTAgMTEwMCw3MDAgMTMwMCw5MDAiIC8+DQoJCQ0KCQk8cG9seWdvbiBwb2ludHM9IjQ1MCwxMDUwIDc1MCw3NTAgODAwLDgwMCA4NTAsNzUwIDkwMCw4MDAgOTAwLDkwMCA5MDAsODAwIDk1MCw3NTAgMTAwMCw4MDAgMTA1MCw3NTAgMTM1MCwxMDUwIiAvPg0KCQk8cG9seWdvbiBwb2ludHM9IjUwMCwxMTAwIDgwMCw4MDAgODUwLDg1MCA5MDAsODAwIDkwMCw5MDAgOTAwLDgwMCA5NTAsODUwIDEwMDAsODAwIDEzMDAsMTEwMCIgLz4NCgkJPHBvbHlnb24gcG9pbnRzPSI1NTAsMTE1MCA4NTAsODUwIDkwMCw5MDAgOTUwLDg1MCAxMjUwLDExNTAiIC8+DQoNCjwvc3ZnPg==") 
+					bottom center no-repeat;
+				
+				h2, h3, h4, h5, h6, p, strong, b, .icon, .icon-os {
+					color: _palette(bg-alt);
+				}
+				h4 {
+					&.dl {
+						text-align: center;
+					}
+				}
+
+				code {
+					background-color: _palette(bg-alt);
+					border-radius: _size(border-radius);
+					color: _palette(fg);
+					text-align: left;
+				}
+
+				a {
+					color: _palette(bg-alt);
+					border-bottom: dotted 1px _palette(bg-alt);
+
+					&:hover {
+						text-decoration: none;
+						border-bottom-color: transparent;
+						color: _palette(fg-wht) !important;
+					}
+				}
+			}
+
+		/* news */
+			&.style2 {
+				header {
+					h2, p {
+						color: _palette(bg-alt);
+					}
+				}
+				h3, p {
+					color: _palette(fg);
+				}
+			}
+
+		/* about | bg-lines_pattern.svg */
+			&.style3 {
+				background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAwcHgiIGhlaWdodD0iNTAwcHgiIHZpZXdCb3g9IjAgMCA1MDAgNTAwIiB6b29tQW5kUGFuPSJkaXNhYmxlIj4NCiAgICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWw0KCQlsaW5lIHsNCgkJCXN0cm9rZTogcmdiYSgyNTUsMjU1LDI1NSwwLjE3NSk7DQoJCQlzdHJva2Utd2lkdGg6IDAuNXB4Ow0KCQl9DQogICAgXV0+PC9zdHlsZT4NCgk8bGluZSB4MT0iLTM3NSIgeTE9IjAiIHgyPSIxMjUiIHkyPSI1MDAiIC8+DQoJPGxpbmUgeDE9Ii0yNTAiIHkxPSIwIiB4Mj0iMjUwIiB5Mj0iNTAwIiAvPg0KCTxsaW5lIHgxPSItMTI1IiB5MT0iMCIgeDI9IjM3NSIgeTI9IjUwMCIgLz4NCgk8bGluZSB4MT0iMCIgeTE9IjAiIHgyPSI1MDAiIHkyPSI1MDAiIC8+DQoJPGxpbmUgeDE9IjEyNSIgeTE9IjAiIHgyPSI2MjUiIHkyPSI1MDAiIC8+DQoJPGxpbmUgeDE9IjI1MCIgeTE9IjAiIHgyPSI3NTAiIHkyPSI1MDAiIC8+DQoJPGxpbmUgeDE9IjM3NSIgeTE9IjAiIHgyPSI4NzUiIHkyPSI1MDAiIC8+DQo8L3N2Zz4=") fixed,
+				linear-gradient(
+					45deg,
+					darken(_palette(accent1,bg), 25), 
+					darken(_palette(accent1,bg), 10),
+					lighten(_palette(accent1,bg), 5)
+				);
+				
+				a, h2, h3, li, p {
+					color: _palette(bg-alt);
+				}
+			}
+
+		/* contribute */
+			&.style4 {
+				background: radial-gradient(
+					circle, 
+					darken(_palette(accent1,bg), 5),
+					darken(_palette(accent1,bg), 20)
+				);
+				
+				h2, h3, p {
+					color: _palette(bg-alt);
+				}
+			}
+
+		/* faq */
+			&.style5 {
+				background: radial-gradient(
+					darken(_palette(accent1,bg), 20) 0%,
+					lighten(_palette(accent1, bg), 10) 55%, 
+					darken(_palette(accent1,bg), 15) 65%
+				);
+
+				header {
+					h2, p {
+						color: _palette(fg-wht);
+					}
+				}
+
+				.inner {
+					&.content {
+						h2, h3, h4, p {
+							color: _palette(fg);
+						}
+						code, pre {
+							border-color: _palette(fg) !important;
+						}
+					}
+				}
+			}
+
+		/* legal */
+			&.legal {
+				background: radial-gradient(
+					circle, 
+					darken(_palette(accent1,bg), 5), 
+					darken(_palette(accent1,bg), 20)
+				);
+				
+				header {
+					h2 {
+						color: _palette(fg-wht);
+					}
+				}
+
+				hr {
+					border-bottom: dotted 1px _palette(fg-alt); 
+					margin: 5.5rem auto;
+				}
+				
+				.inner {
+					&.content {
+						h2, h3, h4, p {
+							color: _palette(fg-alt);
+						}
+						hr {
+							#english {
+								border-bottom: dotted 1px _palette(fg-alt); 
+								margin: 4rem auto;
+							}
+						}
+					}
+				}
+			}
+
+		/* error */
+			&.error {
+				background: radial-gradient(circle, darken(_palette(accent1,bg), 5), darken(_palette(accent1,bg), 20));
+				
+				.inner {
+					.content {
+						background-color: transparent;
+					}
+				}
+				h2, h3, h4, p {
+					color: _palette(fg-alt);
+				}
+			}
+
+			&.style-light {
+				
+				h2,h3, p {
+					color: _palette(bg-alt);
+				}
+			}
+
+			> header {
+				@include padding($padding, 0);
+				text-align: center;
+				cursor: default;
+
+				> * {
+					width: _size(inner) * 0.875;
+					max-width: calc(100% - #{$padding});
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+				> :last-child {
+					margin-bottom: _size(element-margin);
+				}
+
+				&.accent1 {
+					@include color(accent1);
+
+					& + .inner {
+						padding-top: $padding;
+					}
+
+					& + .tabs {
+						> .titles {
+							background-color: _palette(accent1, bg);
+
+							&:before {
+								background-color: _palette(accent1, bg);
+							}
+
+							> .title {
+								color: _palette(accent1, fg-bold);
+
+								&.active {
+									color: _palette(accent1, bg);
+									background-color: _palette(accent1, fg-bold);
+									box-shadow: none;
+								}
+							}
+						}
+					}
+				}
+
+				&.accent2 {
+					@include color(accent2);
+
+					& + .inner {
+						padding-top: $padding;
+					}
+
+					& + .tabs {
+						> .titles {
+							&:before {
+								background-color: _palette(accent2, bg);
+							}
+
+							> .title {
+								color: _palette(accent2, fg-bold);
+
+								&.active {
+									color: _palette(accent2, bg);
+									background-color: _palette(accent2, fg-bold);
+									box-shadow: none;
+								}
+							}
+						}
+					}
+				}
+				&.accent3 {
+					@include color(accent3);
+
+					& + .inner {
+						padding-top: $padding;
+					}
+
+					& + .tabs {
+						> .titles {
+							&:before {
+								background-color: _palette(accent3, bg);
+							}
+
+							> .title {
+								color: _palette(accent3, fg-bold);
+
+								&.active {
+									color: _palette(accent3, bg);
+									background-color: _palette(accent3, fg-bold);
+									box-shadow: none;
+								}
+							}
+						}
+					}
+				}
+				&.accent4 {
+					@include color(accent1);
+					background-color: transparent;
+
+					& + .inner {
+						padding-top: $padding;
+					}
+
+					& + .tabs {
+						> .titles {
+							&:before {
+								background-color: transparent;
+							}
+
+							> .title {
+								background-color: transparent;
+								color: _palette(accent1, fg-bold);
+
+								&.active {
+									color: _palette(accent1, fg-bold);
+									background-color: transparentize(_palette(accent1,bg),0.75);
+									border-radius: _size(border-radius);
+									box-shadow: none;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			> .inner {
+				@include padding($padding, 0, ($padding * -1, 0, 0, 0));
+
+				> .image.main:last-child {
+					margin-bottom: (($padding * -1) + _size(element-margin));
+				}
+
+				> .content {
+					@include padding($padding * 0.5, $padding * 0.5);
+					background-color: _palette(bg);
+
+					> .image.main:first-child {
+						margin-top: ($padding * -0.5);
+						margin-left: ($padding * -0.5);
+						width: calc(100% + #{$padding});
+					}
+				}
+
+				&.alt {
+					padding: ($padding * 0.5) 0 !important;
+				}
+			}
+
+			> .tabs {
+				width: _size(inner) * 0.5;
+				margin: ($padding * -0.325) auto 0 auto;
+				max-width: calc(100% - #{$padding});
+
+				> .titles {
+					@include vendor('display', 'flex');
+					@include vendor('user-select', 'none');
+					list-style: none;
+					padding: 0;
+					margin: 0;
+
+					&:before {
+						content: '';
+						display: block;
+						left: 0;
+						width: 100%;
+						height: _size(element-height) * 2;
+						position: absolute;
+						z-index: 0;
+					}
+
+					> .title {
+						@include vendor('transition-property', 'color, background-color, box-shadow');
+						@include vendor('transition-duration', '#{_duration(transition)}');
+						@include vendor('flex-grow', '1');
+						@include vendor('flex-shrink', '1');
+						padding: 0;
+						width: 100%;
+						text-align: center;
+						height: _size(element-height) * 2;
+						line-height: _size(element-height) * 2;
+						font-weight: _font(weight-bold);
+						font-size: 1.35rem;
+						position: relative;
+						z-index: 1;
+
+						&.active {
+							box-shadow: 0 3px 0 0 _palette(accent1, bg);
+							@include vendor('animation', 'tab-title 0.5s ease forwards');
+						}
+					}
+				}
+
+				> .panels {
+					> .panel {
+						@include padding($padding, 0);
+						@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
+						opacity: 0;
+
+						&.active {
+							opacity: 1;
+						}
+					}
+				}
+			}
+
+			&.accent1 {
+				@include color(accent1);
+
+				> .tabs {
+					> .titles {
+						> .title {
+							&.active {
+								box-shadow: 0 3px 0 0 _palette(accent1, fg-bold);
+							}
+						}
+					}
+				}
+			}
+
+			&.accent2 {
+				@include color(accent2);
+
+				> .tabs {
+					> .titles {
+						> .title {
+							&.active {
+								box-shadow: 0 3px 0 0 _palette(accent2, fg-bold);
+							}
+						}
+					}
+				}
+			}
+
+
+			&.accent3 {
+				@include color(accent3);
+
+				> .tabs {
+					> .titles {
+						> .title {
+							&.active {
+								box-shadow: 0 3px 0 0 _palette(accent3, fg-bold);
+							}
+						}
+					}
+				}
+			}
+
+			&.alt {
+				background-color: _palette(bg-alt);
+			}
+		}
+	}
+
+	@include breakpoint('<=large') {
+
+		$padding: _size(padding, large);
+
+		.inner {
+			max-width: calc(100% - #{$padding});
+		}
+
+		#wrapper {
+			> .main {
+				> header {
+					@include padding($padding, 0);
+
+					> * {
+						max-width: calc(100% - #{$padding});
+					}
+
+					&.accent1 {
+						& + .inner {
+							padding-top: $padding;
+						}
+					}
+
+					&.accent2 {
+						& + .inner {
+							padding-top: $padding;
+						}
+					}
+
+					&.alt {
+						background-color: _palette(bg-alt);
+					}
+				}
+
+				> .inner {
+					@include padding($padding, 0, ($padding * -1, 0, 0, 0));
+
+					> .image.main:last-child {
+						margin-bottom: (($padding * -1) + _size(element-margin));
+					}
+
+					> .content {
+						@include padding($padding * 0.5, $padding * 0.5);
+
+						> .image.main:first-child {
+							margin-top: ($padding * -0.5);
+							margin-left: ($padding * -0.5);
+							width: calc(100% + #{$padding});
+						}
+					}
+
+					&.alt {
+						padding: ($padding * 0.5) 0 !important;
+					}
+				}
+
+				> .tabs {
+					margin: ($padding * -0.325) auto 0 auto;
+					max-width: calc(100% - #{$padding});
+
+					> .panels {
+						> .panel {
+							@include padding($padding, 0);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@include breakpoint('<=medium') {
+
+		$padding: _size(padding, medium);
+
+		.inner {
+			max-width: calc(100% - #{$padding});
+		}
+
+		#wrapper {
+			> .main {
+				> header {
+					@include padding($padding, 0);
+
+					> * {
+						max-width: calc(100% - #{$padding});
+					}
+
+					&.accent1 {
+						& + .inner {
+							padding-top: $padding;
+						}
+					}
+
+					&.accent2 {
+						& + .inner {
+							padding-top: $padding;
+						}
+					}
+
+					&.alt {
+						background-color: _palette(bg-alt);
+					}
+				}
+
+				> .inner {
+					@include padding($padding, 0, ($padding * -1, 0, 0, 0));
+
+					> .image.main:last-child {
+						margin-bottom: (($padding * -1) + _size(element-margin));
+					}
+
+					> .content {
+						@include padding($padding * 0.5, $padding * 0.5);
+
+						> .image.main:first-child {
+							margin-top: ($padding * -0.5);
+							margin-left: ($padding * -0.5);
+							width: calc(100% + #{$padding});
+						}
+					}
+
+					&.alt {
+						padding: ($padding * 0.5) 0 !important;
+					}
+				}
+
+				> .tabs {
+					margin: ($padding * -0.325) auto 0 auto;
+					max-width: calc(100% - #{$padding});
+
+					> .titles {
+						&:before {
+							height: _size(element-height) * 1.5;
+						}
+
+						> .title {
+							height: _size(element-height) * 1.5;
+							line-height: _size(element-height) * 1.5;
+							font-size: 1.25rem;
+						}
+					}
+
+					> .panels {
+						> .panel {
+							@include padding($padding, 0);
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+	@include breakpoint('<=small') {
+
+		$padding: _size(padding, small);
+
+		.inner {
+			max-width: calc(100% - #{$padding});
+		}
+
+		#wrapper {
+			> .main {
+				> header {
+					@include padding($padding, 0);
+
+					> * {
+						max-width: calc(100% - #{$padding});
+					}
+
+					&.accent1 {
+						& + .inner {
+							padding-top: $padding;
+						}
+					}
+
+					&.accent2 {
+						& + .inner {
+							padding-top: $padding;
+						}
+					}
+
+					&.alt {
+						background-color: _palette(bg-alt);
+					}
+				}
+
+				> .inner {
+					@include padding($padding, 0, ($padding * -1, 0, 0, 0));
+
+					> .image.main:last-child {
+						margin-bottom: (($padding * -1) + _size(element-margin));
+					}
+
+					> .content {
+						@include padding($padding * 0.5, $padding * 0.5);
+
+						> .image.main:first-child {
+							margin-top: ($padding * -0.5);
+							margin-left: ($padding * -0.5);
+							width: calc(100% + #{$padding});
+						}
+					}
+
+					&.alt {
+						padding: ($padding * 0.5) 0 !important;
+					}
+				}
+
+				> .tabs {
+					margin: ($padding * -0.3125) auto 0 auto;
+					max-width: calc(100% - #{$padding});
+
+					> .titles {
+						&:before {
+							height: _size(element-height) * 1.25;
+						}
+
+						> .title {
+							height: _size(element-height) * 1.25;
+							line-height: _size(element-height) * 1.25;
+							font-size: .875rem;
+							letter-spacing: 0;
+							width: auto;
+
+							.extra {
+								display: none;
+							}
+						}
+					}
+
+					> .panels {
+						> .panel {
+							@include padding($padding, 0);
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+	@include breakpoint('<=xsmall') {
+
+		#wrapper {
+			> .main {
+				> .tabs {
+					> .titles {
+						@include vendor('justify-content', 'center');
+
+						> .title {
+							width: auto;
+							@include vendor('flex-grow', '0');
+							@include vendor('flex-shrink', '0');
+							padding: 0 1.5rem;
+						}
+					}
+				}
+			}
+		}
+
+	}

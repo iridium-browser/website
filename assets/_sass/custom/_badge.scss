@@ -1,0 +1,124 @@
+///
+/// Shapes - souldanger.industries
+///
+
+
+
+/* Badge - 12 Star */
+
+	/* Settings */
+	$badge-background:			_palette(accent1,bg);
+	$badge-color:				_palette(bg);
+	$badge-color-hover:			_palette(fg-wht) !important;
+	$badge-font-size:			0.875rem;
+	$badge-font-size-sml:		0.725rem;
+	$badge-size:				5rem;
+	$badge-rotate:				30;
+	$badge-size-scale-sml:		0.845;
+	$badge-position-top:		5rem;
+	$badge-position-left:		5rem;
+	$badge-position-top-sml:	3rem;
+	$badge-position-left-sml:	2.25rem;
+	$badge-txt-padding: 		.325rem .125rem;
+	$badge-txt-padding-sml:		.225rem .075rem;
+	$badge-txt-margin: 			0 auto;
+
+
+	.container-badge {
+		@include vendor('display', 'flex');
+		@include vendor('flex-wrap', 'wrap');
+		@include vendor('justify-content', 'center');
+		height: $badge-size;
+		width: $badge-size;
+		display: block;
+		position: absolute;
+		top: $badge-position-top;
+		left: $badge-position-left;
+		z-index: _misc(z-index-base) + 100;
+
+		.text-badge {
+			@include vendor('transform', 'rotate(-#{($badge-rotate) * 0.5}deg)');
+			height: $badge-size;
+			width: $badge-size;
+			font-size: $badge-font-size;
+			line-height: 1.8;
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: $badge-txt-padding;
+			margin: $badge-txt-margin;
+			z-index: _misc(z-index-base) + 101;
+
+			a {
+				@include vendor('transform', 'scale(0.9)');
+				@include vendor('transition', (
+					'transform #{_duration(transition-slow)} ease-in-out',
+					'color #{_duration(transition-slow)} ease-in-out',
+				));
+				color: $badge-color;
+				display: block;
+				text-decoration: none;
+				border: 0;
+				margin: 0;
+
+				&:hover {
+					@include vendor('transform', 'scale(1.0)');
+					color: $badge-color-hover;
+				}
+			}
+			.bold {
+				letter-spacing: _font(letter-spacing);
+			}
+			.small {
+				letter-spacing: _font(letter-spacing);
+				font-size: .8rem;
+			}
+		}
+		.bg-badge {
+			height: $badge-size;
+			width: $badge-size;
+			background: $badge-background;
+			position: relative;
+
+			&:before, &:after {
+				height: $badge-size;
+				width: $badge-size;
+				background: $badge-background;
+				content:"";
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+			&:before {
+				@include vendor('transform', 'rotate(-#{($badge-rotate)}deg)');
+			}
+			&:after {
+				@include vendor('transform', 'rotate(#{($badge-rotate)}deg)');
+			}
+		}
+		@include breakpoint('<=small') {
+			top: $badge-position-top-sml;
+			left: $badge-position-left-sml;
+
+			.text-badge {
+				height: $badge-size * $badge-size-scale-sml;
+				width: $badge-size * $badge-size-scale-sml;
+				font-size: $badge-font-size-sml;
+				padding: $badge-txt-padding-sml;
+
+				.small {
+					font-size: .7rem;
+				}
+			}
+			.bg-badge {
+				height: $badge-size * $badge-size-scale-sml;
+				width: $badge-size * $badge-size-scale-sml;
+
+				&:before, &:after {
+					height: $badge-size * $badge-size-scale-sml;
+					width: $badge-size * $badge-size-scale-sml;
+				}
+			}
+		}
+	}

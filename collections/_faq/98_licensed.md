@@ -1,5 +1,4 @@
 ---
-layout: faq
 title: "How is the Iridium Browser source code licensed?"
 date: 2018-05-17 10:00:00 +0100
 ---

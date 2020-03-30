@@ -1,0 +1,5 @@
+@mixin fontdef($LatoPath, $LatoVersion, $FontType:"Regular") {
+  src:  url('#{$LatoPath}/#{$FontType}/lato-#{$FontType}.woff2') format('woff2'),
+        url('#{$LatoPath}/#{$FontType}/lato-#{$FontType}.woff') format('woff'),
+		url('#{$LatoPath}/#{$FontType}/lato-#{$FontType}.ttf') format('ttf');
+}

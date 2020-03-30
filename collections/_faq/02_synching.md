@@ -1,5 +1,4 @@
 ---
-layout: faq
 title: "Why syncing and signing in to Iridium or Google does not work?"
 date: 2017-11-02 12:00:00 +0100
 ---
