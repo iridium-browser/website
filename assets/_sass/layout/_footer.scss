@@ -1,0 +1,148 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Footer */
+
+	#footer {
+		$padding: _size(padding, default);
+
+		@include padding($padding, 0);
+		background-color: _palette(fg);
+		color: _palette(fg-light);
+
+		a {
+			color: _palette(fg-light);
+		}
+
+		> .inner {
+			@include vendor('display', 'flex');
+
+			> * {
+				@include vendor('flex-grow', '1');
+				@include vendor('flex-shrink', '1');
+				width: 55%;
+				margin: 0 1rem;
+
+				h3, h4 {
+					margin: 0 0 (_size(element-margin) * 0.75) 0;
+					color: _palette(fg-wht);
+				}
+
+				> :last-child {
+					margin-bottom: 0;
+				}
+
+				&.narrow {
+					width: 15%;
+				}
+				
+				&.alt{
+					width: 100%;
+					position: relative;
+					
+				}
+			}
+
+			> :first-child {
+				margin-left: 0;
+			}
+
+			> :last-child {
+				margin-right: 0;
+			}
+		}
+
+		.copyright {
+			color: _palette(fg-light);
+			font-size: .9rem;
+			margin-top: $padding * 0.75;
+			text-align: center;
+		}
+
+
+		@include breakpoint('<=large') {
+			$padding: _size(padding, large);
+
+			@include padding($padding, 0);
+
+			.copyright {
+				margin-top: $padding * 0.75;
+			}
+		}
+
+		@include breakpoint('<=medium') {
+			$padding: _size(padding, medium);
+
+			@include padding($padding, 0);
+			text-align: center;
+
+			> .inner {
+				@include vendor('flex-wrap', 'wrap');
+
+				ul {
+					&.links {
+						
+						li {
+							padding-left: 0;
+
+							&:before {
+								display: none;
+							}
+						}
+					}
+				}
+
+				> * {
+					width: 100%;
+					margin: 0 0 ($padding * 0.75) 0;
+
+					&.narrow {
+						width: 50%;
+					}
+				}
+			}
+
+			.copyright {
+				margin-top: $padding * 0.75;
+			}
+		}
+
+		@include breakpoint('<=small') {
+			$padding: _size(padding, small);
+
+			@include padding($padding, 0);
+
+			> .inner {
+				> * {
+					margin: 0 0 ($padding * 0.75) 0;
+				}
+			}
+
+			.copyright {
+				margin-top: $padding * 0.75;
+			}
+		}
+
+		@include breakpoint('<=xsmall') {
+			$padding: _size(padding, small);
+
+			> .inner {
+				> * {
+					border-bottom: solid 1px _palette(border);
+					padding-bottom: ($padding * 0.75);
+
+					&.narrow {
+						width: 100%;
+					}
+
+					&:last-child {
+						border-bottom: 0;
+						padding-bottom: 0;
+					}
+				}
+			}
+		}
+	}

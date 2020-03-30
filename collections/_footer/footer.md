@@ -1,16 +1,11 @@
 ---
-layout:		layout_default
 title:		"Available Resources To Step In"
 subtitle:	"Stay up to date and follow us"
 step-in:
- - text:	View the 'Differences between Iridium and Chromium' in our
-   link:	https://github.com/iridium-browser/tracker/wiki/Differences-between-Iridium-and-Chromium
-   name:	wiki
-   title:	view the 'Differences between Iridium and Chromium' in our wiki
  - text:	Please report any issues and address any questions to our
    link:	https://github.com/iridium-browser/tracker/issues
    name:	bug tracker at GitHub
-   title:	report issues to bug tracker at GitHub
+   title:	report issues to our bug tracker at GitHub
  - text:	Download the
    link:	/downloads/source
    name:	source code
@@ -28,12 +23,12 @@ soc-media:
  - link:	/feed.xml
    title:	add RSS feed
    icon:	fa-rss
-button: 
+legal: 
  - link:	/privacy-policy
-   name:	privacy policy
+   name:	Privacy Policy
    title:	go to privacy policy / Datenschutzerklärung
  - link:	/legal-notice
-   name:	legal notice
+   name:	Legal Notice
    title:	go to legal notice / Impressum
 organization:
   name:		NETitwork GmbH

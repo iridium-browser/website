@@ -1,0 +1,324 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Type */
+
+	html {
+		font-size: 14pt;
+
+		@include breakpoint('<=xlarge') {
+			font-size: 13pt;
+		}
+
+		@include breakpoint('<=large') {
+			font-size: 12pt;
+		}
+
+		@include breakpoint('<=medium') {
+			font-size: 12pt;
+		}
+
+		@include breakpoint('<=small') {
+			font-size: 12pt;
+		}
+
+		@include breakpoint('<=xxsmall') {
+			font-size: 12pt;
+		}
+	}
+
+	body {
+		background-color: _palette(bg);
+		color: _palette(fg);
+		letter-spacing: _font(letter-spacing);
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+
+	body, input, select, textarea {
+		font-family: _font(family);
+		font-weight: _font(weight);
+		font-size: 1rem;
+		line-height: 1.65;
+	}
+
+	a {
+		@include vendor('transition', (
+			'background-color #{_duration(transition)} ease-in-out',
+			'border-bottom-color #{_duration(transition)} ease-in-out',
+			'color #{_duration(transition)} ease-in-out',
+		));
+		text-decoration: none;
+		border-bottom: dotted 1px;
+
+		strong {
+			@include vendor('transition', (
+				'color #{_duration(transition)} ease-in-out',
+			));
+		}
+
+		&:hover {
+			text-decoration: none;
+			border-bottom-color: transparent;
+			color: _palette(accent1, bg) !important;
+
+			strong {
+				color: inherit;
+			}
+		}
+
+		&.large {
+			color: _palette(accent3, bg) !important;
+
+			&:hover {
+				color: _palette(accent1, fg-bold) !important;
+			}
+		}
+
+		&.major {
+			font-size: 2.25rem;
+			font-weight: _font(weight);
+			line-height: 1.3;
+			margin: 0 0 (_size(element-margin) * 0.75) 0;
+			letter-spacing: -0.025rem;
+		}
+
+		@include breakpoint('<=small') {
+			&.major {
+				font-size: 1.75rem;
+				letter-spacing: 0;
+			}
+		}
+	}
+
+	strong, b, .bold {
+		font-weight: _font(weight-bold);
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+	p {
+		margin: 0 0 _size(element-margin) 0;
+	}
+	
+	small, .small {
+		font-size: .8rem;
+	}
+
+	u {
+		text-decoration: none;
+		border-bottom: 1.5px solid;
+		padding-bottom: 0.0125rem
+	}
+
+	h1, h2, h3, h4, h5, h6, p {
+
+		&.icon {
+			&:before{
+				margin-right: .65rem;
+			}
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: _font(weight-bold);
+		line-height: 1.5;
+		letter-spacing: _font(letter-spacing-hdr);
+		margin: 0 0 (_size(element-margin) * 0.5) 0;
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+
+	h1 {
+		font-size: 3.25rem;
+		font-weight: _font(weight);
+		line-height: 1.3;
+		margin: 0 0 (_size(element-margin) * 1.5) 0;
+		letter-spacing: -0.05rem;
+		display: none;
+	}
+
+	h2 {
+		font-size: 2.25rem;
+		font-weight: _font(weight);
+		line-height: 1.3;
+		margin: 0 0 (_size(element-margin) * 0.75) 0;
+
+	}
+
+	h3 {
+		font-size: 1.35rem;
+	}
+
+	h4 {
+		font-size: 1.1rem;
+		margin: 0 0 (_size(element-margin) * 0.325) 0;
+	}
+
+	h5 {
+		font-size: 0.9rem;
+	}
+
+	h6 {
+		font-size: 0.7rem;
+	}
+
+	@include breakpoint('<=small') {
+		h1 {
+			font-size: 2.25rem;
+			letter-spacing: -0.025rem;
+
+			br {
+				display: none;
+			}
+		}
+
+		h2 {
+			font-size: 1.5rem;
+
+			br {
+				display: none;
+			}
+		}
+
+		h3 {
+			font-size: 1.25rem;
+		}
+	}
+
+	sub {
+		font-size: 0.8rem;
+		position: relative;
+		top: 0.5rem;
+	}
+
+	sup {
+		font-size: 0.8rem;
+		position: relative;
+		top: -0.5rem;
+	}
+
+	blockquote {
+		border-left: solid 4px;
+		font-style: italic;
+		margin: 0 0 _size(element-margin) 0;
+		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+	}
+
+	code {
+		border-radius: _size(border-radius);
+		border: solid 1px;
+		font-family: _font(family-fixed);
+		font-size: 0.9rem;
+		margin: 0 0.25rem;
+		padding: 0.25rem 0.65rem;
+	}
+
+	pre {
+		-webkit-overflow-scrolling: touch;
+		font-family: _font(family-fixed);
+		font-size: 0.9rem;
+		margin: 0 0 _size(element-margin) 0;
+
+		code {
+			display: block;
+			line-height: 1.75;
+			padding: 3rem 1.5rem 1rem 1.5rem;
+			overflow-x: auto;
+		}
+		/* total width */
+		code::-webkit-scrollbar {
+			background-color: _palette(bg-alt);
+			height: .6rem;
+			border-radius: _size(border-radius);
+		}
+		/* background of the scrollbar except button or resizer */
+		code::-webkit-scrollbar-track {
+			background-color: _palette(bg-alt);
+			border-radius: _size(border-radius);
+		}
+		/* scrollbar itself */
+		code::-webkit-scrollbar-thumb {
+			background-color: darken(_palette(bg-alt),20);
+			border-radius: _size(border-radius);
+			border: .15rem solid _palette(bg-alt);
+		}
+		/* set button(top and bottom of the scrollbar) */
+		code::-webkit-scrollbar-button {
+			display:none;
+		}
+	}
+
+	hr {
+		border: 0;
+		border-bottom: solid 1px;
+		margin: _size(element-margin) 0;
+
+		&.major {
+			margin: (_size(element-margin) * 1.5) 0;
+		}
+	}
+
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
+
+	@mixin color-typography($p: null) {
+		$highlight: _palette($p, highlight);
+
+		@if $p != null {
+			background-color: _palette($p, bg);
+			color: _palette($p, fg);
+		}
+
+		input, select, textarea {
+			color: _palette($p, fg-bold);
+		}
+
+		a {
+			@if $p == $highlight {
+				color: _palette($p, fg-bold);
+			}
+			@else {
+				color: _palette(accent1, bg);
+			}
+		}
+
+		strong, b {
+			color: _palette($p, fg-bold);
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			color: _palette($p, fg-bold);
+		}
+
+		blockquote {
+			border-left-color: _palette($p, border);
+		}
+
+		code {
+			background: _palette($p, border-bg);
+			border-color: _palette($p, border);
+		}
+
+		hr {
+			border-bottom-color: _palette($p, border);
+		}
+	}
+
+	@include color-typography;

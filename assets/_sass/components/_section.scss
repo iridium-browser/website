@@ -1,0 +1,40 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Section/Article */
+
+	section, article {
+		&.special {
+			text-align: center;
+		}
+	}
+
+	header {
+		h1 + p {
+			font-size: 1.5rem;
+			margin: (_size(element-margin) * -1) 0 (_size(element-margin) * 2) 0;
+		}
+
+		h2 + p {
+			font-size: 1.25rem;
+			margin: 0 0 (_size(element-margin) * 1.5) 0;
+		}
+
+		@include breakpoint('<=small') {
+			h1 + p {
+				font-size: 1.25rem;
+			}
+
+			h2 + p {
+				font-size: 1rem;
+			}
+		}
+	}
+
+	@mixin color-section($p: null) {
+	}
+
+	@include color-section;

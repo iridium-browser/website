@@ -1,19 +1,32 @@
 ---
-layout: layout_default
+layout:				layout_default
 ---
-<!-- About -->
-	<section class="wrapper {{ page.style }} special" id="{{ page.id }}">
-		<div class="container">
-			<header class="major">{% 
-			for about in site.about limit:1 %}
-				<h2>{{ about.title }}</h2>
-				<p>{{ about.subtitle }}</p>{% 
-			endfor %}
-			</header>{% 
-			for about in site.about limit:5 %}
-			<div class="icon {{ about.icon-class }}"></div>
-				<h3>{{ about.heading }}</h3>
-				{{ about.content | strip_newlines }}{% 
-			endfor %}
-		</div>
-	</section>
+		<!-- About -->
+			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
+				for about in site.about limit:1 %}
+				<header>
+					<h2>{{ about.title }}</h2>
+				</header>
+				<div class="inner">
+					<div class="row gtr-150 align-center">
+						<div class="col-12">
+							{{ about.content | strip_newlines }}
+						</div>{% 
+				endfor %}{% 
+					for about in site.about offset:1 limit:3 %}
+						<div class="col-4 col-12-small">
+							<span class="feature-icon"><span class="icon {{ about.icon-class }}"></span></span>
+							<h3>{{ about.title }}</h3>
+							{{ about.content | strip_newlines }}
+						</div>{% 
+					endfor %}{% 
+					for about in site.about offset:4 limit:1 %}
+						<div class="col-12">
+							<span class="feature-icon"><span class="icon {{ about.icon-class }}"></span></span>
+							<h3>{{ about.title }}</h3>
+							{{ about.content | strip_newlines }}
+						</div>{% 
+					endfor %}
+					</div>
+				</div>
+			</section>

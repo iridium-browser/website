@@ -1,0 +1,41 @@
+///
+/// Back to top - souldanger.industries
+///
+
+/* Back to top - button */
+
+	.back-to-top {
+		@include vendor('transition', (
+			'background-color #{_duration(transition-slow)} ease-in-out',
+			'color #{_duration(transition-slow)} ease-in-out',
+		));
+		width: 3rem;
+		height: 3rem;
+		color: _palette(bg);
+		line-height: 2.25rem;
+		text-align: center;
+		text-decoration: none;
+		border: none;
+		border-radius: 3rem;
+		display: none;
+		position: fixed;
+		bottom: 1.1rem;
+		right: 1.1rem;
+		padding: .75rem .9rem;
+		
+		&:before {
+			font-family: FontAwesome;
+			font-size: 2.1rem;
+			content: "\f0de";
+		}
+		&:hover {
+			color: _palette(accent1,bg);
+		}
+	}
+	.bg-back-to-top {
+		background-color: transparentize(_palette(bg-dark),0.35);
+
+		&:hover {
+			background-color: _palette(bg-dark);
+		}
+	}

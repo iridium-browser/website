@@ -1,25 +1,57 @@
-<!-- Footer -->
-	<div id="footer">
-		<div class="container">
-			<section class="special">{% 
+		<!-- Footer -->
+			<footer id="footer">{% 
 			for footer in site.footer %}
-				<h3>{{ footer.title }}</h3>{% 
-				for step-in in footer.step-in %}{{ 
-				step-in.text }} <strong><a href="{{ step-in.link }}" title="{{ step-in.title }}">{{ step-in.name }}</a></strong>.<br/>{% 
-				endfor %}<br/>
-				<h6>{{ footer.subtitle }}</h6>{% 
-				for soc-media in footer.soc-media %}
-				<a href="{{ soc-media.link }}" title="{{ soc-media.title }}" class="button-round icon fa {{ soc-media.icon }}"></a>{% endfor %}
-				<div class="container w-75">
-					<ul class="actions small special">{% for button in footer.button %}
-						<li><a href="{{ button.link | relative_url }}" title="{{ button.title }}" class="button small footer">{{ button.name }}</a></li>{% 
-					endfor %}
-					</ul>
+				<div class="inner">
+					<section>
+						<h4>{{ footer.title }}</h4>
+						<ul class="links alt">{% 
+						for step-in in footer.step-in %}
+							<li class="alt">{{ step-in.text }} <strong><a href="{% if step-in.link contains 'http' %}{{ step-in.link }}{% else %}{{ step-in.link | relative_url }}{% endif %}" title="{{ step-in.title }}">{{ step-in.name }}</a></strong>.</li>{% 
+						endfor %}
+						</ul>
+						<br/>
+						<ul class="icons">{% 
+						for soc-media in footer.soc-media %}
+							<li><a href="{{ soc-media.link }}" class="icon social {{ soc-media.icon }}" title="{{ soc-media.title }}"><span class="label">{{ soc-media.title }}</span></a></li>{% 
+						endfor %}
+						</ul>
+						<br/>
+						<ul class="horizontal">{% 
+						for legal in footer.legal %}
+							<li><a href="{{ legal.link | relative_url }}" title="{{ legal.title }}">{{ legal.name }}</a></li>{% 
+						endfor %}
+						</ul>
+					</section>
+					<section class="narrow">
+						<h4>Sitemap</h4>
+						<ul class="links">
+							<li><a href="{{ '/' | relative_url }}" title="Home">Home</a></li>{%
+							for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}{% unless my_page.id contains "downloads" %}
+							<li><a href="{{ my_page.url | replace:'.html','' | relative_url }}" title="{{ my_page.title }}">{{ my_page.title }}</a>{% 
+								if my_page.submenu == "yes" %}
+								<ul>{% 
+									for submenu-details in my_page.submenu-details %}
+									<li><a href="{{ submenu-details.link | relative_url }}" title="{{ submenu-details.title }}">{{ submenu-details.name }}</a></li>{% 
+									endfor %}
+								</ul>
+								{% endif %}</li>{% 
+							endunless %}{% endif %}{% endfor %}{% endfor %}
+						</ul>
+					</section>
+					<section class="narrow">
+						<h4>Downloads</h4>
+						<ul class="links">{% 
+						for downloads in site.downloads offset:1 %}{% unless downloads.page-id contains "source" %}
+							<li><a href="{{ downloads.link | relative_url }}" title="{{ downloads.label }}">{{ downloads.label }}</a></li>{% 
+						 endunless %}{% endfor %}
+						</ul>
+					</section>
 				</div>
 				<div class="copyright">
-					Iridium Browser is a software project of <a href="{{ footer.organization.link }}" title="visit {{ footer.organization.name }}" target="_blank">{{ footer.organization.name }}</a> &copy; 2020. All rights reserved.
+					<p>Iridium Browser is a software project of <a href="{{ footer.organization.link }}" title="visit {{ footer.organization.name }}" target="_blank">{{ footer.organization.name }}</a> &copy; 2020.<br/>
+					All rights reserved.</p>
 				</div>{% 
 			endfor %}
-			</section>
-		</div>
-	</div>
+			</footer>
+		<!-- Back to Top -->
+			<a href="#" title="back to top" class="back-to-top bg-back-to-top" id="back-to-top"></a>

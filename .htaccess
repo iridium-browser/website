@@ -2,21 +2,6 @@
 sitemap:
   exclude: 'yes'
 ---
-Options +FollowSymLinks
-RewriteEngine On
-RewriteRule ^download.html$ /downloads/ [R=301,L]
-RewriteRule ^downloads.html$ /downloads/ [R=301,L]
-RewriteRule ^download(/|$) /downloads/ [R=301,L]
-RewriteRule ^linux(/|$) /downloads/ [R=301,L]
-RewriteRule ^index(\\.html)? {{ site.url }} [R=301,C]
-RewriteRule ^$ index.html [L]
-
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html
-
-RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
-RewriteRule .* ? [F,L]
 
 ErrorDocument 401 {{ '401.html' | relative_url }}
 ErrorDocument 403 {{ '403.html' | relative_url }}
@@ -49,6 +34,9 @@ AddType image/x-icon .ico
 AddType text/html .html .htm
 AddType text/css .css
 AddType text/xml .xml
+AddType video/mp4 .mp4
+AddType video/ogg .ogv
+AddType video/webm .webm
 
 <IfModule mod_headers.c>
   Header set Content-Security-Policy "default-src 'self'; base-uri 'self'; script-src 'self'; worker-src 'self'; img-src data: 'self'; style-src 'unsafe-inline' 'self'; connect-src 'self'; object-src 'none';
@@ -96,6 +84,9 @@ AddType text/xml .xml
   ExpiresByType application/x-ico				"access plus 1 year"
   ExpiresByType application/x-javascript 		"access plus 2 month"
   ExpiresByType text/javascript					"access plus 2 month"
+  ExpiresByType video/mp4 						"access plus 2 month"
+  ExpiresByType video/ogg 						"access plus 2 month"
+  ExpiresByType video/webm 						"access plus 2 month"
 </IfModule>
 <FilesMatch "\.(css|htm|html|json)$">
 	<IfModule mod_expires.c>

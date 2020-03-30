@@ -1,0 +1,376 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		@include vendor('appearance', 'none');
+		@include vendor('transition', (
+			'background-color #{_duration(button)} ease-in-out, 
+			color #{_duration(button)} ease-in-out'
+		));
+		border-radius: _size(border-radius);
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: _font(weight-bold);
+		letter-spacing: _font(letter-spacing);
+		height: _size(element-height);
+		line-height: _size(element-height);
+		border-radius: _size(element-height);
+		padding: 0 1.625rem;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		font-size: 0.875rem;
+		outline: 0;
+
+		&.wht {
+			box-shadow: inset 0 0 0 3px _palette(fg-wht);
+			color: _palette(fg-wht) !important;
+			
+			&:hover {
+				background-color: transparentize(_palette(accent1, bg), 0.15) !important;
+
+				&:active {
+					background-color: _palette(accent1, bg) !important;
+				}
+			}
+		}
+
+		&.icon-right {
+			&:after {
+				content: "\f054";
+				font-family: FontAwesome;
+				padding-left: 1rem;
+			}
+		}
+
+		&.icon {
+			&:before {
+				margin-right: 0.5rem;
+			}
+		
+			&.right {
+				&:after {
+					content: '';
+					padding-left: 0;
+				}
+			}
+		}
+
+		&.fit {
+			width: 100%;
+		}
+
+		&.small {
+			font-size: 0.7rem;
+			height: _size(element-height) * 0.75;
+			line-height: _size(element-height) * 0.75;
+			border-radius: _size(element-height) * 0.75;
+			padding: 0 1.25rem;
+		}
+
+		&.large {
+			font-size: 1rem;
+			height: _size(element-height);
+			line-height: _size(element-height);
+			border-radius: _size(element-height);
+			padding: 0 2rem;
+		}
+
+		&.wide {
+			min-width: 12rem;
+		}
+
+		&.disabled,
+		&:disabled {
+			@include vendor('pointer-events', 'none');
+			opacity: 0.25;
+		}
+
+		&.download-header {
+			background-color: _palette(accent1, bg);
+			box-shadow: none;
+			color: _palette(fg-wht) !important;
+			height: _size(element-height) * 0.85 !important;
+			line-height: _size(element-height) * 0.85 !important;
+			border-radius: _size(element-height) * 0.85;
+			padding: 0 1.65rem;
+			margin: 0;
+			top: -0.65rem;
+			position: relative;
+			display: block;
+
+			&:after {
+				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+				position: absolute;
+				top: 75%;
+				left: 75%;
+				right: 75%;
+				bottom: 75%;
+				opacity: 0;
+				content: '';
+				background-color: transparentize(_palette(fg-wht), 0.85);
+				border-radius: _size(element-height) * 0.85;
+			}
+
+			&:hover {
+				background-color: _palette(accent1, bg);
+				color: _palette(fg-wht) !important;
+
+				&:active {
+					background-color: _palette(accent3, bg);
+				}
+
+				&:after {
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					opacity: 1;
+				}
+			}
+		}
+
+		&.download {
+			background-color: _palette(accent1, bg);
+			box-shadow: none;
+			color: _palette(fg-wht) !important;
+			height: _size(element-height) * 0.85 !important;
+			line-height: _size(element-height) * 0.85 !important;
+			border-radius: _size(element-height) * 0.85;
+			padding: 0 1.65rem;
+			margin: 0;
+			position: relative;
+
+			&:before {
+				content: "\f019";
+				font-family: FontAwesome;
+				margin-right: .5rem;
+			}
+
+			&:after {
+				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+				position: absolute;
+				top: 75%;
+				left: 75%;
+				right: 75%;
+				bottom: 75%;
+				opacity: 0;
+				content: '';
+				background-color: transparentize(_palette(fg-wht), 0.85);
+				border-radius: _size(element-height) * 0.85;
+			}
+
+			&:hover {
+				background-color: _palette(accent1, bg);
+				color: _palette(fg-wht) !important;
+
+				&:active {
+					background-color: _palette(accent3, bg);
+				}
+
+				&:after {
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					opacity: 1;
+				}
+			}
+		}
+
+
+		&.read-more {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 3px _palette(accent1, bg) !important;
+			color: _palette(accent1, bg) !important;
+			height: _size(element-height) * 0.85 !important;
+			line-height: _size(element-height) * 0.85 !important;
+			border-radius: _size(element-height) * 0.85;
+			padding: 0 1.65rem;
+			margin: 0;
+			position: relative;
+			z-index: 1;
+
+			&:before {
+				@include vendor('transition', ('#{_duration(button)} ease-in-out'));
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				right: 100%;
+				bottom: 0%;
+				opacity: 0;
+				content: '';
+				background-color: transparentize(_palette(accent1, bg), 0.85);
+				border-radius: _size(element-height) * 0.85;
+				z-index: -1;
+			}
+
+			&:after {
+				content: "\f105";
+				font-family: FontAwesome;
+				font-size: 1.05rem;
+				padding-left: .5rem;
+			}
+
+			&:hover {
+				background-color: transparent;
+				color: darken(_palette(accent3,bg), 15) !important;
+
+				&:active {
+					background: transparentize(_palette(accent1, fg-bold), 0.25);
+				}
+
+				&:before {
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					opacity: 1;
+				}
+			}
+		}
+
+		&.prev, &.next {
+			color: _palette(fg-wht) !important;
+			font-size: 1rem;
+			box-shadow: inset 0 0 0 3px _palette(fg-wht);
+			border-radius: _size(element-height);
+			width: _size(element-height);
+			height: _size(element-height);
+			line-height: _size(element-height);
+			border-radius: _size(element-height);
+			display: block;
+
+			&:before {
+				font-family: FontAwesome;
+				font-size: 1.75rem;
+			}
+
+			&:hover {
+				background-color: transparentize(_palette(accent1, bg), 0.15) !important;
+
+				&:active {
+					background-color: _palette(accent1, bg) !important;
+				}
+			}
+		}
+		&.prev {
+			margin: 0 0 0 auto;
+			padding: 0 0.5rem 0 0.25rem;
+
+			&:before {
+				content: "\f104";
+			}
+		}
+		&.next {
+			margin: 0 auto 0 0;
+			padding: 0 0.25rem 0 0.5rem;
+		
+			&:before {
+				content: "\f105";
+			}
+		}
+
+		&.numbers {
+			box-shadow: 0 0 0 0 transparent;
+			color: _palette(fg-wht) !important;
+			font-weight: _font(weight-bold);
+			font-size: 1.35rem;
+			padding: 0 .1rem;
+			margin-right: .65em;
+			
+			&:last-child {
+				margin-right: 0;
+			}
+
+			&:hover {
+				color: _palette(fg-wht) !important;
+				background-color: transparent !important;
+
+				&:active {
+					background-color: _palette(accent1, bg) !important;
+				}
+			}
+			&.current {
+				color: lighten(_palette(accent1,bg), 25) !important;
+				font-size: 1.5rem;
+			}
+		}
+	}
+
+
+
+	@mixin color-button($p: null) {
+		input[type="submit"],
+		input[type="reset"],
+		input[type="button"],
+		button,
+		.button {
+			background-color: transparent;
+
+			@if ($p != null) {
+				box-shadow: inset 0 0 0 3px _palette($p, fg-bold);
+				color: _palette($p, fg-bold) !important;
+
+				&:hover {
+					background-color: transparentize(_palette($p, fg-bold), 0.9);
+
+					&:active {
+						background-color: transparentize(_palette($p, fg-bold), 0.75);
+					}
+				}
+
+				&.primary {
+					background-color: _palette($p, fg-bold);
+					box-shadow: none;
+					color: _palette($p, bg) !important;
+
+					&:hover {
+						background-color: transparentize(_palette($p, fg-bold), 0.125);
+					}
+
+					&:active {
+						background-color: transparentize(_palette($p, fg-bold), 0.25);
+					}
+				}
+			}
+			@else {
+				box-shadow: inset 0 0 0 3px _palette(accent1, bg);
+				color: _palette(accent1, bg) !important;
+
+				&:hover {
+					background-color: transparentize(_palette(accent1, bg), 0.9);
+
+					&:active {
+						background-color: transparentize(_palette(accent1, bg), 0.75);
+					}
+				}
+
+				&.primary {
+					background-color: _palette(accent1, bg);
+					box-shadow: none;
+					color: _palette(accent1, fg-bold) !important;
+
+					&:hover {
+						background-color: lighten(_palette(accent1, bg), 8);
+					}
+
+					&:active {
+						background-color: darken(_palette(accent1, bg), 6);
+					}
+				}
+			}
+		}
+	}
+
+	@include color-button;

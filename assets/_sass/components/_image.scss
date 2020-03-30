@@ -1,0 +1,114 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Image */
+
+	.image {
+		border: 0;
+		display: inline-block;
+		position: relative;
+
+		img {
+			display: block;
+		}
+
+		&.left,
+		&.right {
+			max-width: 40%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.left {
+			float: left;
+			margin: 0 1.5rem 1rem 0;
+			top: 0.25rem;
+			max-width: 35%;
+		}
+
+		&.right {
+			float: right;
+			margin: 0 0 1rem 1.5rem;
+			top: 0.25rem;
+			max-width: 35%;
+		}
+
+		&.fit {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.main {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 1.5) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+
+			@include breakpoint('<=small') {
+				margin: 0 0 _size(element-margin) 0;
+			}
+		}
+
+		&.feature {
+			display: block;
+			margin: 0 0 2em 0;
+
+			img {
+				display: block;
+				width: 100%;
+			}
+		}
+
+		&.icon {
+			@include vendor('perspective', '500px');
+
+			&:before {
+				@include vendor('transition', ('transform #{_duration(transition)} ease-in-out', 'font-size #{_duration(transition)} ease-in-out'));
+				color: #fff;
+				font-size: 6em;
+				height: 1em;
+				left: 50%;
+				line-height: 1em;
+				margin: -0.5em 0 0 -0.5em;
+				position: absolute;
+				text-align: center;
+				top: 50%;
+				width: 1em;
+				z-index: 1;
+			}
+
+			&:hover {
+				&:before {
+					@include vendor('transform', 'translateZ(1em)');
+				}
+			}
+		}
+	}
+
+	a.image {
+		overflow: hidden;
+
+		img {
+			@include vendor('transition', 'transform #{_duration(transition)} ease-in-out');
+			width: 100%;
+		}
+
+		&:hover {
+			img {
+				@include vendor('transform', 'scale(1.05)');
+			}
+		}
+	}

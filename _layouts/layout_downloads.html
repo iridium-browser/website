@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 	{% include head.html %}
-	<body class="fade-in">{% 
-unless page.path contains 'downloads/go' %}
-{% include header.html %} {% 
-else %} {% endunless %}
+	<body class="is-preload fade-in">
+		<div id="wrapper">
+{% include header.html %}
 {{ content }}
-{% unless page.path contains 'downloads/go' %}{% 
-unless page.path contains 'downloads/index' %}
-{% include footer_pre-downloads.html %}{% 
-else %} {% endunless %}
-{% include footer.html %} {% 
-else %} {% endunless %}
-{% include js-scripts.html %} {% 
-unless page.structured-data == 'no' or page.path contains 'downloads/go' or page.path contains 'downloads/index' %}
+{% include footer.html %}
+		</div>
+{% include js-scripts.html %}{% 
+unless page.structured-data == 'no' or page.path contains 'downloads/index' %}
 	<script type="application/ld+json">
 {% include struct-data-downloads.json %}
 	</script>{% else %} {% 	endunless %}{% 

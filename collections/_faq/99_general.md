@@ -1,6 +1,5 @@
 ---
-layout: faq
-title:	""
+title:	"none"
 date: 2018-05-17 12:00:00 +0100
 ---
 
