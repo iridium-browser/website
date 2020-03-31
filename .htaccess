@@ -5,8 +5,7 @@ RewriteEngine On
 RewriteRule ^download.html$ /downloads/ [R=301,L]
 RewriteRule ^downloads.html$ /downloads/ [R=301,L]
 RewriteRule ^download(/|$) /downloads/ [R=301,L]
-
-RewriteRule ^opensuse.html$ suse.html [R=301,L]
+RewriteRule ^suse.html$ opensuse.html [R=301,L]
 
 RewriteRule ^index(\\.html)? {{ site.url }} [R=301,C]
 RewriteRule ^$ index.html [L]
