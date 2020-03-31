@@ -1,14 +1,14 @@
 ---
-layout:				page
+layout:				enterprise
 title:				Enterprise
-subtitle:			
+subtitle:			Unlock business capabilities to secure, orchestrate and power your workforce
 description:		""
 hotpic:				""
 menu:				5
 link:				/enterprise
 permalink:			/enterprise.html
 id:					enterprise
-style:				style5
+style:				style3
 structured-data:	"enterprise"
 sitemap:
   lastmod:			2020-03-30 12:00
