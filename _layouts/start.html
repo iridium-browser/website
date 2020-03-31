@@ -89,8 +89,9 @@ layout: layout_start
 				<header>{% 
 				for about in site.about limit:1 %}
 					<h2>{{ about.title }}</h2>{% 
-				if about.subtitle %}
-					<p>{{ about.subtitle }}</p>{% else %}{% endif %}{% 
+					if about.subtitle %}
+					<p>{{ about.subtitle }}</p>{% else %}{% 
+					endif %}{% 
 				endfor %}
 				</header>
 				<div class="inner">{% 
