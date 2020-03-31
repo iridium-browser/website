@@ -1,0 +1,35 @@
+---
+layout:				layout_default
+---
+		<!-- enterprise -->
+			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
+				for enterprise in site.enterprise limit:1 %}
+				<header>
+					<h2>{{ enterprise.title }}</h2>{% 
+					if enterprise.subtitle %}
+					<p>{{ enterprise.subtitle }}</p>{% else %}{% 
+					endif %}
+				</header>
+				<div class="inner">
+					<div class="row gtr-150 align-center">
+						<div class="col-12">
+							{{ enterprise.content | strip_newlines }}
+						</div>{% 
+				endfor %}{% 
+					for enterprise in site.enterprise offset:1 limit:3 %}
+						<div class="col-4 col-12-small">
+							<span class="feature-icon"><span class="icon {{ enterprise.icon-class }}"></span></span>
+							<h3>{{ enterprise.title }}</h3>
+							{{ enterprise.content | strip_newlines }}
+						</div>{% 
+					endfor %}{% 
+					for enterprise in site.enterprise offset:4 limit:1 %}
+						<div class="col-12">
+							<span class="feature-icon"><span class="icon {{ enterprise.icon-class }}"></span></span>
+							<h3>{{ enterprise.title }}</h3>
+							{{ enterprise.content | strip_newlines }}
+						</div>{% 
+					endfor %}
+					</div>
+				</div>
+			</section>

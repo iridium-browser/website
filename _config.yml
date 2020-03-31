@@ -59,6 +59,8 @@ collections:
     output: false
   banner:
     output: false
+  enterprise:
+    output: false
   faq:
     output: false
   footer:
