@@ -85,38 +85,33 @@ layout: layout_start
 				</div>
 			</section>
 		<!-- About -->
-			<section id="about" class="main style3">{% 
+			<section id="about" class="main style4">
+				<header>{% 
 				for about in site.about limit:1 %}
-				<header>
-					<h2>{{ about.title }}</h2>
+					<h2>{{ about.title }}</h2>{% 
+				if about.subtitle %}
+					<p>{{ about.subtitle }}</p>{% else %}{% endif %}{% 
+				endfor %}
 				</header>
-				<div class="inner">
-					<div class="row gtr-150 align-center">
-						<div class="col-12">
-							{{ about.content | strip_newlines }}
-						</div>{% 
+				<div class="inner">{% 
+				for about in site.about limit:1 %}
+					{{ about.content | strip_newlines }}{% 
 				endfor %}{% 
-					for about in site.about offset:1 limit:3 %}
-						<div class="col-4 col-12-small">
-							<span class="feature-icon about-transition"><span class="icon {{ about.icon-class }}"></span></span>
+				for about in site.about offset:1 %}
+					<section class="feature {{ about.position }} about-transition">
+						<span class="image icon {{ about.icon-class }}"><img src="{{ about.img-src | prepend: '/assets/images/about/' | relative_url }}" alt="" /></span>
+						<div class="content">
 							<h3>{{ about.title }}</h3>
 							{{ about.content | strip_newlines }}
-						</div>{% 
-					endfor %}{% 
-					for about in site.about offset:4 limit:1 %}
-						<div class="col-12">
-							<span class="feature-icon about-transition"><span class="icon {{ about.icon-class }}"></span></span>
-							<h3>{{ about.title }}</h3>
-							{{ about.content | strip_newlines }}
-						</div>{% 
-					endfor %}
-					</div>
+						</div>
+					</section>{% 
+				endfor %}
 				</div>
 			</section>
 		<!-- Link-boxes -->
 			<div class="link-boxes row inner alt">{% 
 			for link-boxes in site.link-boxes %}
-				<a href="{{ link-boxes.link | relative_url }}" class="{{ link-boxes.accent }} col-6 col-12-small">
+				<a href="{{ link-boxes.link | relative_url }}" class="{{ link-boxes.accent }} col-12">
 					<div class="content">
 						<h2>{{ link-boxes.title }}</h2>
 						{{ link-boxes.content | strip_newlines }}
@@ -124,23 +119,3 @@ layout: layout_start
 				</a>{% 
 			endfor %}
 			</div>
-		<!-- Contribute -->
-			<section id="contribute" class="main style4">
-				<header>{% 
-				for contribute in site.contribute limit:1 %}
-					<h2>{{ contribute.title }}</h2>
-					<p>{{ contribute.subtitle }}</p>{% 
-				endfor %}
-				</header>
-				<div class="inner">{% 
-				for contribute in site.contribute offset:1 %}
-					<section class="feature {{ contribute.position }} contribute-transition">
-						<span class="image icon {{ contribute.icon-class }}"><img src="{{ contribute.img-src | prepend: '/assets/images/contribute/' | relative_url }}" alt="" /></span>
-						<div class="content">
-							<h3>{{ contribute.title }}</h3>
-							{{ contribute.content | strip_newlines }}
-						</div>
-					</section>{% 
-				endfor %}
-				</div>
-			</section>

@@ -1,6 +1,6 @@
 # Iridium Browser 2020
 
-title: Iridium Browser - dev 1
+title: Iridium Browser
 
 company:    NETitwork GmbH
 street:     August-Wessels-Str. 37
@@ -58,10 +58,6 @@ collections:
   badge:
     output: false
   banner:
-    output: false
-  contribute:
-    output: false
-  differences:
     output: false
   faq:
     output: false

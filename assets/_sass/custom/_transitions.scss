@@ -93,31 +93,10 @@
 			}
 		}
 	}
-
-
-/* about - fade-in + scale */
+	
+/* about - fade + slide + scale */
 
 	.about-transition {
-		@include vendor('transition', (
-			'transform #{_duration(feature-icon)} ease',
-			'opacity #{_duration(feature-icon)} ease'
-		));
-
-		@for $i from 1 through _misc(max-feature-icon) {
-			&:nth-child(#{$i}) {
-				@include vendor('transition-delay', '#{(_duration(transition) * 0.75 * $i)}');
-			}
-		}
-
-		&.inactive {
-			@include vendor('transform', 'scale(0.9)');
-			opacity: 0;
-		}
-	}
-	
-/* contribute - fade + slide + scale */
-
-	.contribute-transition {
 		@include vendor('transition', (
 			'transform #{_duration(feature)} ease',
 			'opacity #{_duration(feature)} ease'

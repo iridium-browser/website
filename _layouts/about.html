@@ -2,31 +2,26 @@
 layout:				layout_default
 ---
 		<!-- About -->
-			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
+			<section id="{{ page.id }}" class="main {{ page.style }}">
+			<header>{% 
 				for about in site.about limit:1 %}
-				<header>
-					<h2>{{ about.title }}</h2>
+					<h2>{{ about.title }}</h2>{% 
+				if about.subtitle %}
+					<p>{{ about.subtitle }}</p>{% else %}{% endif %}{% 
+				endfor %}
 				</header>
-				<div class="inner">
-					<div class="row gtr-150 align-center">
-						<div class="col-12">
-							{{ about.content | strip_newlines }}
-						</div>{% 
+				<div class="inner">{% 
+				for about in site.about limit:1 %}
+					{{ about.content | strip_newlines }}{% 
 				endfor %}{% 
-					for about in site.about offset:1 limit:3 %}
-						<div class="col-4 col-12-small">
-							<span class="feature-icon"><span class="icon {{ about.icon-class }}"></span></span>
+				for about in site.about offset:1 %}
+					<section class="feature {{ about.position }}">
+						<span class="image icon {{ about.icon-class }}"><img src="{{ about.img-src | prepend: 'assets/images/about/' | relative_url }}" alt="" /></span>
+						<div class="content">
 							<h3>{{ about.title }}</h3>
 							{{ about.content | strip_newlines }}
-						</div>{% 
-					endfor %}{% 
-					for about in site.about offset:4 limit:1 %}
-						<div class="col-12">
-							<span class="feature-icon"><span class="icon {{ about.icon-class }}"></span></span>
-							<h3>{{ about.title }}</h3>
-							{{ about.content | strip_newlines }}
-						</div>{% 
-					endfor %}
-					</div>
+						</div>
+					</section>{% 
+				endfor %}
 				</div>
 			</section>

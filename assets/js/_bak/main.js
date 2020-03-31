@@ -32,7 +32,7 @@
         });
 
 	// Transitions.
-		var $features = $('.os-transition, .about-transition, .contribute-transition, .fade-in-scale, .slide-in-scale');
+		var $features = $('.os-transition, .about-transition, .fade-in-scale, .slide-in-scale');
 
 		if ($features.length > 0
 		&&	browser.canUse('transition'))

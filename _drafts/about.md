@@ -7,14 +7,19 @@ menu:				2
 link:				/about
 permalink:			/about.html
 id:					about
-style:				style4
+style:				style3
 submenu:			"no"
+submenu-details:
+  - name:			"Differences"
+    title:			"Differences"
+    icon-class:		icon nav fa-code
+    link:			"/differences"
 structured-data:	"yes"
 sitemap:
   lastmod:			2020-03-30 12:00
-  priority:			0.6
+  priority:			0.5
   changefreq:		'daily'
 
-ATTENTION: Content is in a collection see 'collections/_about'
+ATTENTION: Content is a collection see 'collections/_about'
 ---
 ## ABOUT #
