@@ -6,14 +6,15 @@ RewriteRule ^download.html$ /downloads/ [R=301,L]
 RewriteRule ^downloads.html$ /downloads/ [R=301,L]
 RewriteRule ^download(/|$) /downloads/ [R=301,L]
 
-RewriteRule ^downloads/suse.html /downloads/opensuse.html [R=301,L]
-
 RewriteRule ^index(\\.html)? {{ site.url }} [R=301,C]
 RewriteRule ^$ index.html [L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
+
+RewriteCond %{REQUEST_URI} ^\/downloads\/suse$
+RewriteRule .* {{ site.url }}/downloads/opensuse [R=301,L]
 
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
