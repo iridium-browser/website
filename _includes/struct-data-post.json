@@ -14,15 +14,15 @@
 				"@type": "ImageObject",
 				"height": "1200",
 				"width": "6228",
-				"contentUrl": "{% if page.hotpic-fb %}{{ page.hotpic-fb | absolute_url }}{% else %}{{ site.hotpic-fb | absolute_url }}{% endif %}",
-				"url": "{% if page.hotpic-fb %}{{ page.hotpic-fb | absolute_url }}{% else %}{{ site.hotpic-fb | absolute_url }}{% endif %}"
+				"contentUrl": "{% if page.hotpic %}{{ page.hotpic | absolute_url }}{% else %}{{ site.hotpic | absolute_url }}{% endif %}",
+				"url": "{% if page.hotpic %}{{ page.hotpic | absolute_url }}{% else %}{{ site.hotpic | absolute_url }}{% endif %}"
 			},
 			"author": "{{ page.author }}",
 			"publisher": {
 			"@type": "Organization",
 			"logo": {
 				"@type": "ImageObject",
-				"url": "{{ site.hotpic-fb | absolute_url }}"
+				"url": "{{ site.hotlogo | absolute_url }}"
 				},
 				"name": "{{ site.title }}"
 				},

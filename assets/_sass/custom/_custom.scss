@@ -1,0 +1,172 @@
+///
+/// Iridium Browser - custom
+///
+
+/* General */
+
+	// hiding 'menu' */
+	@include breakpoint('<=small') {
+		.not-small {
+			display: none;
+		}
+	}
+
+
+	/* Copy Button -> repo */
+	
+	.copy-btn {
+		color: _palette(fg) !important;
+		position: absolute;
+		display: inline-block;
+		left: .175rem;
+		top: .25rem;
+		line-height: 1.5rem;
+		font-size: .85rem;
+		opacity: 0.7;
+		padding: .175rem .85rem;
+		margin: .5rem 0 0 1rem;
+		border-radius: 3rem;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		cursor: pointer;
+
+		&:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: .85rem;
+			content: "\f090";
+			line-height: 1.5rem;
+			margin-right: .25rem;
+		}
+
+		&:hover {
+			background-color: _palette(accent1,bg) !important;
+			color: _palette(accent1,bg) !important;
+
+			&:active {
+				background-color: _palette(accent1, bg) !important;
+			}
+		}
+	}
+		
+	div.highlight:hover .copy-btn, div.highlight .copy-btn:focus {
+		opacity: .9;
+	}
+	div.highlight .copy-btn:hover {
+		opacity: 1;
+	}
+	div.highlight {
+		position: relative;
+	}
+
+
+/* Sections */
+
+	#downloads {
+
+		.row {
+			margin-top: _size(element-margin) * -0.75;
+			margin-bottom: _size(element-margin) * 0.75;
+
+			@include breakpoint('<=large') {
+				margin-top: _size(element-margin) * 0.45;
+				margin-bottom: _size(element-margin) * 2.75;
+			}
+			@include breakpoint('<=small') {
+				margin-top: _size(element-margin) * -0.575;
+				margin-bottom: _size(element-margin) * 0.95;
+			}
+		}
+	
+		a {
+			@include vendor('transition', (
+				'background-color #{_duration(transition)} ease-in-out',
+				'border-bottom-color #{_duration(transition)} ease-in-out',
+				'color #{_duration(transition)} ease-in-out',
+			));
+			color: lighten(_palette(accent3,bg), 22) !important;
+			border: 0;
+			text-decoration: none;
+
+			&:before {
+				line-height: 7.5rem;
+				color: lighten(_palette(accent3,bg), 22);
+			}
+
+			&:hover {
+				color: lighten(_palette(accent3,bg), 35);
+
+				&:before {
+					color: lighten(_palette(accent3,bg), 35);
+				}
+				> .label {
+					color: lighten(_palette(accent3,bg), 35);
+				}
+			}
+		}
+	}
+
+	#news, #news-archive {
+		@include vendor(
+			'background-image',
+			(
+				'linear-gradient(to bottom, rgba(36,106,155,0.75), rgba(68,153,212,0.45))',
+				'linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.175))',
+				'url("../../assets/images/bg-news.jpg")'
+			)
+		);
+		background-attachment: fixed, fixed, fixed;
+		background-position: center 100%, center 100%, center 100%;
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-size: cover, cover, cover;
+		overflow: hidden;
+		position: relative;
+
+		div {
+			&.icon {
+				&:before {
+					margin-right: .65rem;
+				}
+			}
+		}
+
+		p {
+			&.small {
+				padding: 0 0 1.25rem 0; 
+				margin:0;
+				line-height: 1;
+			}
+		}
+	}
+
+	#news-archive {
+		.truncate-heading {
+			display: block; // Fallback for non-webkit
+			display: -webkit-box;
+			max-width: 40rem;
+			height: 3.75rem; // Fallback for non-webkit
+			line-height: 1.5;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			padding-bottom: 1rem;
+			margin-bottom: 1rem;
+			position: relative;
+		}
+
+		.truncate-txt {
+			display: block; // Fallback for non-webkit
+			display: -webkit-box;
+			max-width: 40rem;
+			height: 4.5rem; // Fallback for non-webkit
+			line-height: 1.5;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			margin-bottom: 1.5rem;
+		}
+
+	}

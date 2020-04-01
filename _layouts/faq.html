@@ -1,21 +1,20 @@
 ---
-layout: layout_default
+layout:				layout_default
 ---
-<!-- FAQ -->
-	<section class="wrapper {{ page.style }}" id="{{ page.id }}">
-		<div class="container">
-			<header class="major special">
-				<h2>{{ page.title }}</h2>
-				<p>{{ page.subtitle }}</p>
-			</header>
-			<ul class="faq">{% for faq in site.faq %}
-				<li>{% unless faq.title == "" %}
-					<h3 class="icon fa-question-circle">{{ faq.title }}</h3>{% else %}{% endunless %}
-					<div class="faq-content">
+		<!-- FAQ -->
+			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
+				for faq in site.faq limit:1 %}
+				<header>
+					<h2>{{ faq.title }}</h2>
+					<p>{{ faq.subtitle }}</p>
+				</header>
+				<div class="inner">{%
+				endfor %}{% 
+					for faq in site.faq offset:1 %}
+					<div class="box faq">
+						{% unless faq.title == "none" %}<h3>{{ faq.title }}</h3>{% endunless %}
 						{{ faq.content | strip_newlines }}
-					</div>
-				</li>{% 
-			endfor %}
-			</ul>
-		</div>
-	</section> 
+					</div>{% 
+					endfor %}
+				</div>
+			</section>

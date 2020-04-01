@@ -1,70 +1,93 @@
 // Misc.
 	$misc: (
-		z-index-base:		10000
+		z-index-base:		10000,
+		max-feature-icon:	6,
+		feature-icon-deg:	22.5deg
 	);
 
 // Duration.
 	$duration: (
-		transition:			0.35s,
-		button:				0.75s,
-		fade-in:			1.475s,
-		navPanel:			0.5s
+		menu:				0.5s,
+		button:				0.7s,
+		fade-in:			1.75s,
+		feature:			0.5s,
+		feature-icon:		0.25s,
+		transition:			0.3s,
+		transition-banner:	2.0s,
+		transition-delay:	0.35s,
+		transition-slow:	0.5s,
+		transform:			1.0s,
+		transform-opacity:	1.5s
 	);
 
 // Size.
 	$size: (
-		border-radius:		4px,
-		element-height:		2.75em,
-		element-margin:		2em,
-		navPanel:			275px
+		border-radius:		0.5rem,
+		element-height:		2.75rem,
+		element-margin:		2rem,
+		inner:				68rem,
+		header:				(
+			default:		3.75rem,
+			medium:			3.25rem,
+			small:			44px
+		),
+		padding:			(
+			default:		6rem,
+			large:			4rem,
+			medium:			4.5rem,
+			small:			3rem
+		)
 	);
 
 // Font.
 	$font: (
-		family:				('Roboto', Helvetica, sans-serif),
+		family:				('Lato', Arial, Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
-		letter-spacing:		0.11em,
-		alt-letter-spacing:	0.075em,
+		letter-spacing:		0.0525em,
+		letter-spacing-alt:	0.025em,
+		letter-spacing-hdr:	0.0675em,
 		weight:				400,
-		weight-bold:		700
+		weight-bold:		700,
+		weight-extrabold:	900
 	);
 
 // Palette.
 	$palette: (
-		bg:					#fff,
-		bg-header:			#fff,
-		bg-dark:			#ececec,
-		fg:					#505050,
-		fg-bold:			#414141,
-		fg-light:			#878787,
-		fg-blue:			#4499D4,
-		border:				rgba(144,144,144,0.25),
+		bg-shadow:			rgba(0,0,0,0.125),
+		bg-shadow-wht:		rgba(255,255,255,0.125),
+		bg:					#fbfbfb,
+		bg-alt:				#dfdfdf,
+		bg-dark:			#515151,
+		fg:					#3b3b3b,
+		fg-bold:			#3b3b3b,
+		fg-light:			#acacac,
+		fg-wht:				#ffffff,
+		border:				#eeeeee,
 		border-bg:			rgba(144,144,144,0.075),
-		border2:			rgba(144,144,144,0.5),
-		border2-bg:			rgba(144,144,144,0.2),
 
 		accent1: (
 			bg:				#4499D4,
-			bg-light:		mix(#4499D4, #ffffff, 78%),
-			fg-bold:		#ffffff,
-			fg:				mix(#4499D4, #ffffff, 25%),
-			fg-light:		mix(#4499D4, #ffffff, 40%),
+			fg:				rgba(255,255,255,0.75),
+			fg-bold:		#fbfbfb,
+			fg-light:		rgba(255,255,255,0.5),
 			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.2),
-			border3:		rgba(0,0,0,0.75),
-			border3-bg:		rgba(0,0,0,0.5)
+			border-bg:		rgba(255,255,255,0.075)
 		),
-
 		accent2: (
-			bg:				#292929,
-			fg-bold:		#ffffff,
-			fg:				mix(#292929, #ffffff, 25%),
-			fg-light:		mix(#292929, #ffffff, 40%),
+			bg:				darken(#4499D4, 10),
+			fg:				rgba(255,255,255,0.75),
+			fg-bold:		#fbfbfb,
+			fg-light:		rgba(255,255,255,0.5),
 			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.2)
+			border-bg:		rgba(255,255,255,0.075)
+		),
+		accent3: (
+			bg:				lighten(#4499D4, 10),
+			fg:				#3b3b3b,
+			fg-bold:		#3b3b3b,
+			fg-light:		rgba(255,255,255,0.5),
+			border:			rgba(255,255,255,0.25),
+			border-bg:		rgba(255,255,255,0.075)
 		)
+
 	);

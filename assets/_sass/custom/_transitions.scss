@@ -1,0 +1,113 @@
+///
+/// Transitions - souldanger.industries
+///
+
+/* page fade-in */
+
+	#fade-in, .fade-in {
+		animation: fadeIn #{_duration(fade-in)};
+		-webkit-animation: fadeIn #{_duration(fade-in)}; /* Safari and Chrome */
+	}
+	@include keyframes(fadeIn) {
+		  0% { opacity:0; }
+		100% { opacity:1; }
+	}
+	@mixin keyframes($name) {
+		@-webkit-keyframes #{$name} {
+			@content;
+		}
+		@keyframes #{$name} {
+			@content;
+		}
+	}
+
+
+/// On scroll.
+
+/* fade-in + scale */
+
+	.fade-in-scale {
+		@include vendor('transition', (
+			'transform #{_duration(feature-icon)} ease',
+			'opacity #{_duration(feature-icon)} ease'
+		));
+
+		&.inactive {
+			@include vendor('transform', 'scale(0.985)');
+			opacity: 0;
+		}
+	}
+
+
+/* slide-in + scale */
+
+	.slide-in-scale {
+		@include vendor('transition', ( 
+			'transform #{_duration(feature-icon)} ease',
+			'opacity #{_duration(feature-icon)} ease'
+		));
+
+		&.inactive {
+			@include vendor('transform', 'scale(0.925) translate(0, -2.5%)');
+			opacity: 0;
+		}
+	}
+	
+	
+/* downloads - fade-in + rotate + scale */
+
+	.os-transition, .icon-rotate-in {
+		.icon-rotator {
+			@include vendor('transition', (
+				'transform #{_duration(feature-icon)} ease',
+				'opacity #{_duration(feature-icon)} ease'
+			));
+		}
+		.label-fader {
+			@include vendor('transition', (
+				'transform #{_duration(feature-icon)} ease',
+				'opacity #{_duration(feature-icon)} ease'
+			));
+		}
+		@for $i from 2 through _misc(max-feature-icon) {
+			&:nth-child(#{$i}) {
+				.icon-rotator {
+					@include vendor('transition-delay', '#{(_duration(feature-icon) * 0.25 * $i)}');
+				}
+				.label-fader {
+					@include vendor('transition-delay', '#{(_duration(feature-icon) * 0.25 * $i)}');
+				}
+			}
+		}
+		&.inactive {
+			@include vendor('transform', 'scale(0.9) rotate(#{_misc(feature-icon-deg)})');
+			opacity: 0;
+
+			.icon-rotator {
+				@include vendor('transform', 'scale(0.9) rotate(#{_misc(feature-icon-deg)})');
+				opacity: 0;
+			}
+			.label-fader {
+				@include vendor('transform', 'scale(0.9))');
+				opacity: 0;
+			}
+		}
+	}
+	
+/* about - fade + slide + scale */
+
+	.about-transition {
+		@include vendor('transition', (
+			'transform #{_duration(feature)} ease',
+			'opacity #{_duration(feature)} ease'
+		));
+
+		&.inactive {
+			@include vendor('transform', 'scale(0.925) translate3d(2.5%, 2.5%, 0)');
+			opacity: 0;
+			
+			&:nth-child(odd) { 
+				@include vendor('transform', 'scale(0.925) translate3d(-2.5%, 2.5%, 0)');
+			}
+		}
+	}

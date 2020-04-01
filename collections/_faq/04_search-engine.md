@@ -1,5 +1,4 @@
 ---
-layout: faq
 title: "Why is Qwant the default search engine?"
 date: 2017-11-04 14:00:00 +0100
 ---

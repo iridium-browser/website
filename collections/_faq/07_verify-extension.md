@@ -1,5 +1,4 @@
 ---
-layout: faq
 title: "Why can't the extension verify Iridium Browser?"
 date: 2018-05-16 19:00:00 +0100
 ---

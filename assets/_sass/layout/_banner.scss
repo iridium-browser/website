@@ -1,0 +1,211 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Banner */
+
+	#banner {
+		$padding: _size(padding, default);
+		position: relative;
+		cursor: default;
+
+		&:after {
+			@include vendor('transition', 'opacity #{_duration(transition-banner)} ease-in-out');
+			@include vendor('transition-delay', '#{_duration(transition-delay)}');
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: _palette(fg-wht);
+			opacity: 0.85;
+		}
+
+		video {
+			@include vendor('object-fit', 'cover');
+			@include vendor('object-position', 'center');
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			overflow: hidden;
+			z-index: -1;
+		}
+
+		header {
+			p {
+				margin-bottom: _size(element-margin);
+			}
+		}
+
+		.content {
+			@include padding($padding * 1.25, 0, (_size(header, default) + 0.25, 0, 0, 0));
+			text-align: center;
+			position: relative;
+			z-index: 1;
+
+			&.primary {
+				@include vendor('transition', (
+					'transform #{_duration(transform)} ease-out',
+					'opacity #{_duration(transform-opacity)} ease'
+				));
+				
+				h3 {
+					text-transform: uppercase;
+					.element {
+						color: _palette(accent1,bg);
+					}
+				}
+			}
+
+			&.secondary {
+				@include padding($padding * 0.75, 0);
+				background-color: transparentize(_palette(fg-wht), 0.575);
+
+				.inner {
+					.banner-features {
+						@include vendor('transition', (
+							'transform #{_duration(transform)} ease-out',
+							'opacity #{_duration(transform-opacity)} ease'
+						));
+					}
+				}
+			}
+		}
+
+		.banner-features {
+			@include vendor('display', 'flex');
+
+			> section {
+				padding: 0 2rem;
+
+				&.icon {
+					@include vendor('justify-content', 'center');
+					@include vendor('perspective', '500px');
+
+					&:before {
+						color: transparentize(_palette(accent3, bg), 0.725);
+						font-size: 8em;
+						height: 1em;
+						left: 50%;
+						line-height: 1em;
+						margin: -0.5em 0 0 -0.5em;
+						position: absolute;
+						text-align: center;
+						top: 50%;
+						width: 1em;
+						z-index: -1;
+					}
+				}
+			}
+					
+			&:after {
+				opacity: 1;
+			}
+		}
+
+		#header + & {
+			margin-top: (_size(header, default) * -1);
+		}
+
+		body.is-preload & {
+			&:after {
+				opacity: 1;
+			}
+
+			.content {
+				&.primary {
+					@include vendor('transform', 'translateY(8rem)');
+					opacity: 0;
+				}
+				&.secondary {
+					.inner {
+						.banner-features {
+							@include vendor('transform', 'translateY(4rem)');
+							opacity: 0;
+						}
+					}
+				}
+			}
+		}
+
+		@include breakpoint('<=large') {
+			$padding: _size(padding, large);
+
+			.content {
+				@include padding($padding * 1.25, 0, (_size(header, default) + 0.25, 0, 0, 0));
+
+				&.secondary {
+					@include padding($padding * 0.75, 0);
+				}
+			}
+		}
+
+		@include breakpoint('<=medium') {
+			$padding: _size(padding, medium);
+
+			.content {
+				@include padding($padding * 2, 0, (_size(header, default) + 0.25, 0, 0, 0));
+
+				&.secondary {
+					@include padding($padding * 0.75, 0);
+				}
+			}
+
+			.banner-features {
+				> section {
+					padding: 0 1rem;
+				}
+			}
+		}
+
+		@include breakpoint('<=small') {
+			$padding: _size(padding, small);
+
+			.content {
+				@include padding($padding, $padding * 0.5, (_size(header, default) + 0.25, 0, 0, 0));
+
+				&.secondary {
+					@include padding($padding * 0.75, 0);
+				}
+			}
+
+			.banner-features {
+				> section {
+					padding: 0 0.5rem;
+				}
+			}
+		}
+
+		@include breakpoint('<=xsmall') {
+			$padding: _size(padding, small);
+
+			.content {
+				@include padding($padding * 2, $padding * 0.5, (_size(header, default) + 0.25, 0, 0, 0));
+
+				&.secondary {
+					@include padding($padding, 0);
+				}
+			}
+
+			.banner-features {
+				display: block;
+
+				> section {
+					border-top: solid 1px _palette(border);
+					margin: _size(element-margin) 0 0 0;
+					padding: _size(element-margin) 1rem 0 1rem;
+
+					&:first-child {
+						border-top: 0;
+						margin-top: 0;
+						padding-top: 0;
+					}
+				}
+			}
+		}
+	}

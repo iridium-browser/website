@@ -1,0 +1,122 @@
+---
+layout: layout_start
+---
+		<!-- Banner -->
+			<section id="banner">
+				<div class="content primary">
+					<header>
+						<span class="logo-large"></span>
+						 <h3>{{ page.slogan }} 
+							<span class="element" data-elements="{{ page.slogan-typed }}"></span>
+						</h3>
+					</header>{% 
+				for badge in site.badge %}{% if badge.show == "yes" %}
+				<!-- Badge -->
+					<div class="container-badge">
+						<div class="text-badge">
+						<a href="#downloads" class="scrolly" title="download Iridium Browser">
+							<div class="small">{{ badge.top-txt }}</div>
+							<div class="bold">{{ badge.middle-txt }}</div>
+							<div class="small">{{ badge.bottom-txt }}</div>
+						<a/>
+						</div>
+						<div class="bg-badge"></div>
+					</div>{% 
+				endif %}{% endfor %}
+				</div>
+				<div class="content secondary">
+					<div class="inner">
+						<div class="banner-features">{% 
+						for banner in site.banner %}
+							<section class="icon {{ banner.icon-class }}">
+								<h3>{{ banner.title }}</h3>
+								{{ banner.content | strip_newlines }}
+							</section>{% 
+						endfor %}
+						</div>
+					</div>
+				</div>
+				<video src="{{ page.video | prepend: 'assets/images/' | relative_url }}" muted autoplay loop playsinline></video>
+			</section>
+		<!-- Downloads -->
+			<section id="downloads" class="main style1">
+				<header>{% 
+				for downloads in site.downloads limit:1 %}
+					<h2>{{ downloads.title }}</h2>
+					<p>{{ downloads.subtitle }}</p>{%
+				endfor %}
+				</header>
+				<div class="inner align-center">
+					<div class="row gtr-uniform">{% 
+					for downloads in site.downloads offset:1 limit:6 %}
+						<div class="col-2 col-4-medium os-transition">
+							<a href="{{ downloads.link | relative_url  }}" title="download Iridium Browser for {{ downloads.label }}">
+								<div class="icon-rotator icon-os os {{ downloads.icon-class }}"></div>
+								<div class="icon-os os label label-fader">{{ downloads.label }}</div>
+							</a>
+						</div>{% 
+					endfor %}
+					</div>
+				</div>
+				<div class="inner align-center">{% 
+				for downloads in site.downloads limit:1 %}
+					{{ downloads.content | strip_newlines }}{% 
+				endfor %}
+				</div>
+			</section>
+		<!-- News -->
+			<section id="news" class="main style2">
+				<header>
+					<h2>News</h2>
+				</header>
+				<div class="inner w-75">
+					<div class="post">
+							<article class="slide-in-scale">
+								<div class="content">{% 
+								for post in site.posts limit:1 %}
+									<p class="icon fa-calendar small ">{{ post.date | date_to_long_string }}</p>
+									<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+									{{ post.content | strip_newlines }}{% 
+								endfor %}
+								</div>
+							</article>
+					</div>
+					<p class="align-center"><a href="{{ '/news/' | relative_url }}" class="button wht icon fa-book" title="read the latest News">News</a></p>
+				</div>
+			</section>
+		<!-- About -->
+			<section id="about" class="main style4">
+				<header>{% 
+				for about in site.about limit:1 %}
+					<h2>{{ about.title }}</h2>{% 
+					if about.subtitle %}
+					<p>{{ about.subtitle }}</p>{% else %}{% 
+					endif %}{% 
+				endfor %}
+				</header>
+				<div class="inner">{% 
+				for about in site.about limit:1 %}
+					{{ about.content | strip_newlines }}{% 
+				endfor %}{% 
+				for about in site.about offset:1 %}
+					<section class="feature {{ about.position }} about-transition">
+						<span class="image icon {{ about.icon-class }}"><img src="{{ about.img-src | prepend: '/assets/images/about/' | relative_url }}" alt="" /></span>
+						<div class="content">
+							<h3>{{ about.title }}</h3>
+							{{ about.content | strip_newlines }}
+						</div>
+					</section>{% 
+				endfor %}
+				</div>
+			</section>
+		<!-- Link-boxes -->
+			<div class="link-boxes row inner alt">{% 
+			for link-boxes in site.link-boxes %}
+				<a href="{{ link-boxes.link | relative_url }}" class="{{ link-boxes.accent }} col-12">
+					<div class="content">
+						<h2>{{ link-boxes.title }}</h2>
+						{{ link-boxes.content | strip_newlines }}
+					</div>
+				</a>{% 
+			endfor %}
+			</div>

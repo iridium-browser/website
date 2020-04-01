@@ -1,0 +1,48 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Post */
+
+	.post {
+		$padding: _size(padding, default);
+		margin: 0 0 _size(element-margin) 0;
+
+		article {
+			background-color: transparentize(_palette(bg), 0.125);
+			margin: 0 0 ($padding * 0.5) 0;
+
+			.content {
+				@include padding(2rem, 2rem);
+			}
+		}
+
+		@include breakpoint('<=large') {
+			$padding: _size(padding, large);
+
+			article {
+				margin: 0 0 ($padding * 0.5) 0;
+			}
+		}
+
+		@include breakpoint('<=medium') {
+			$padding: _size(padding, medium);
+			text-align: center;
+
+			article {
+				margin: 0 auto ($padding * 0.5) auto;
+				max-width: 30rem;
+			}
+		}
+
+		@include breakpoint('<=small') {
+			$padding: _size(padding, small);
+
+			article {
+				margin: 0 auto ($padding * 0.5) auto;
+				max-width: 22rem;
+			}
+		}
+	}

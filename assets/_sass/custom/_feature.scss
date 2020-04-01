@@ -1,0 +1,148 @@
+/// Feature - Left / Right.
+
+
+/* Feature */
+
+	.feature {
+		position: relative;
+		height: 20rem;
+
+		&:after {
+			clear: both;
+			content:'';
+			display: block;
+		}
+
+		h3, h4, h5, h6 {
+			text-align: inherit;
+		}
+
+		.image {
+			display: inline-block;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+			width: 50%;
+
+			img {
+				display: block;
+				min-height: 100%;
+				min-width: 100%;
+				position: absolute;
+			}
+		}
+
+		&:before {
+			background: blue;
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+		}
+
+		.content {
+			display: inline-block;
+			padding: 3rem;
+			vertical-align: middle;
+			width: 48%;
+
+			h3 {
+				margin-bottom: 0.5rem;
+			}
+
+			:last-child {
+				margin: 0;
+			}
+		}
+
+		&.left {
+			text-align: left;
+
+			.image {
+				float: left;
+
+				img {
+					right: 0;
+					top: 0;
+				}
+			}
+
+			.content {
+				padding-right: 0;
+			}
+		}
+
+		&.right {
+			text-align: right;
+
+			.image {
+				float: right;
+
+				img {
+					left: 0;
+					top: 0;
+				}
+			}
+
+			.content {
+				padding-left: 0;
+			}
+		}
+
+		&.long {
+			.content {
+				padding-top: 0;
+			}
+		}
+
+
+
+		@include breakpoint('<=large') {
+
+				height: 22rem;
+
+				.content {
+					padding: 2rem;
+				}
+		}
+
+		@include breakpoint('<=medium') {
+				background: transparentize(darken(_palette(accent2, bg), 15), .625);
+				border-radius: _size(border-radius);
+				display: block;
+				height: auto;
+				margin-bottom: 2rem;
+				overflow: hidden;
+
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+				&:before,
+				&:after {
+					display: none;
+				}
+
+				.image {
+					float: none;
+					height: 15rem;
+					width: 100%;
+				}
+
+				.content {
+					padding: 1.75rem !important;
+					text-align: center;
+					width: 100%;
+				}
+		}
+
+		@include breakpoint('<=small') {
+
+				margin-bottom: 1rem;
+
+				.content {
+					padding: 1.75rem 1rem !important;
+				}
+		}
+	}

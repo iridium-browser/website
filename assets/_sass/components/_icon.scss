@@ -1,0 +1,196 @@
+///
+/// Hypothesis by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+		
+		&.nav {
+			&:before {
+				font-size: 1rem;
+				margin-right: 0.75rem;
+			}
+		}
+
+		&.fixed {
+			&:before {
+				margin-right: 0.75rem;
+			}
+		}
+
+		&.major {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 0.625) 0;
+
+			&:before {
+				display: inline-block;
+				width: 4.5rem;
+				height: 4.5rem;
+				line-height: 4.5rem;
+				border-radius: 4.5rem;
+				font-size: 1.75rem;
+				text-align: center;
+			}
+		}
+		&.os {
+				font-size: 4.5rem;
+		}
+		
+		&.contribute {
+			display: block;
+			padding: 0;
+			margin: 0;
+			
+			&:before {
+				display: inline-block;
+				font-size: 2.75rem;
+				line-height: 1;
+				padding: 0;
+				margin: 0;
+			}
+		}
+
+		&.social {
+			&:before {
+				font-size: 1.625rem;
+			}
+		}
+	}
+	
+	@mixin color-icon($p: null) {
+		.icon {
+
+			&.major {
+				@if ($p != null) {
+					&:before {
+						box-shadow: inset 0 0 0 3px _palette($p, fg-bold);
+						color: _palette($p, fg-bold);
+					}
+				}
+				@else {
+					&:before {
+						box-shadow: inset 0 0 0 3px _palette(accent1,bg);
+						color: _palette(accent1,bg);
+					}
+				}
+			}
+		}
+	}
+	@include color-icon;
+
+
+/* Icon OS */
+	.icon-os {
+		@include icon-os;
+		border-bottom: none;
+		color: _palette(fg-wht);
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+		
+		&.nav {
+			&:before {
+				font-size: 1rem;
+				margin-right: 0.75rem;
+			}
+		}
+
+		&.fixed {
+			&:before {
+				margin-right: 0.75rem;
+			}
+		}
+
+		&.os {
+			margin-bottom: 1rem;
+
+			&:before {
+				@include vendor('transform', 'scale(0.9)');
+				@include vendor('transition', (
+					'transform #{_duration(transition-slow)} ease-in-out',
+					'background-color #{_duration(transition-slow)} ease-in-out',
+					'color #{_duration(transition-slow)} ease-in-out',
+				));
+				display: block;
+				font-size: 4.5rem;
+			}
+
+			> .label {
+				@include vendor('transform', 'scale(0.9)');
+				@include vendor('transition', (
+					'transform #{_duration(transition-slow)} ease-in-out',
+					'background-color #{_duration(transition-slow)} ease-in-out',
+					'color #{_duration(transition-slow)} ease-in-out',
+				));
+			}
+			
+			&:hover {
+				&:before {
+					@include vendor('transform', 'scale(1.0)');
+					color: _palette(fg-wht);
+				}
+				> .label {
+					@include vendor('transform', 'scale(1.0)');
+				}
+			}
+		}
+	}
+
+
+/* Feature Icon */
+
+	.feature-icon {
+		display: inline-block;
+		position: relative;
+		padding-bottom: 3rem;
+		margin-bottom: 1.75rem;
+		cursor: default;
+
+		.icon {
+			display: inline-block;
+			width: 5rem;
+			height: 5rem;
+			line-height: 4.9rem;
+			font-size: 2.5rem;
+			border-radius: 100%;
+			background: _palette(bg-shadow-wht);
+			box-shadow: inset 0 0 0 2px _palette(fg-wht);
+			color: _palette(fg-wht);
+		}
+
+		&:before {
+			content: '';
+			background: _palette(fg-wht);
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			margin-left: -0.325rem;
+			width: 0.65rem;
+			height: 0.65rem;
+			display: block;
+			border-radius: 100%;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 0.65rem;
+			width: 2px;
+			height: 2.35rem;
+			background: _palette(fg-wht);
+			margin-left: -1px;
+		}
+	}

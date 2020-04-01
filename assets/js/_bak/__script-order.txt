@@ -1,16 +1,21 @@
 JS Script Order - https://jscompress.com/
 
-plugins-v1.1.min.js
+plugins-v0.01.min.js
 - jquery-3.4.1.min.js
 - jquery.dropotron.min.js
-- jquery.poptrox.min.js
+- jquery.selectorr.min.js
+- jquery.scrollex.min.js
+- jquery.scrolly.min.js
 - browser.min.js
 - breakpoints.min.js
+- clipboard-button.js
+- clipboard.min.js
+- typed.min.js
 - ua-parser.min.js
 - util.js
 
-app-v1.11.min.js
+app-v0.01.min.js
 - ua-parser-forward.js
 - main.js
-- pwa-plugin.js
+- pwa-plugin-build.js		!!! replace 'XXX'
 - ua-parser-button.js

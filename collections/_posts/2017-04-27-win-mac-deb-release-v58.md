@@ -5,13 +5,12 @@ description: Up-to-date v58.0 builds for Windows, macOS, Ubuntu/Debian, openSUSE
 date:   2017-04-27 11:58:00 +0200
 author:	admin
 categories: news
-hotpic-fb: "/images/hotpics/Iridium-fb_hotpic-news.png"
-hotpic-tw: "/images/hotpics/Iridium-tw_hotpic-news.png"
+hotpic: "/assets/images/hotpics/Iridium-hotpic-news.png"
 menu: no
-style: style1
+structured-data: "news"
 ---
 
-Up-to-date **version 58.0** builds for **Windows, macOS, Ubuntu/Debian, openSUSE, Fedora & Red Hat Enterprise Linux** now available!     
+Up-to-date **version 58.0** builds for **Windows, macOS, Debian-based systems, openSUSE, Fedora** and **Red Hat Enterprise Linux & CentOS** now available!     
 This release is based on chromuim version 58.0.3029.81 and is in line with latest Chrome release.     
 
-<a id="download-parser2" class="button download" title="download Iridium Browser"></a>
+<a id="download-parser2" class="button download" title="download Iridium Browser">Download</a>

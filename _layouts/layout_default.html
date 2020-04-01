@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 	{% include head.html %}
-	<body class="fade-in">
+	<body class="is-preload fade-in">
+		<div id="wrapper">
 {% include header.html %}
 {{ content }}
 {% include footer.html %}
+		</div>
 {% include js-scripts.html %}{% 
-if page.structured-data == "yes" or "faq" %}{% unless page.structured-data == "no" %}
+if page.structured-data == "yes" or "news" or "faq" %}{% unless page.structured-data == "no" %}
 	<script type="application/ld+json">
 {% include struct-data-default.json %}
 	</script>{% 

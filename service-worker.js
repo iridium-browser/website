@@ -1,7 +1,7 @@
 // set names for both precache & runtime cache
 workbox.core.setCacheNameDetails({
     prefix: 'iridium',
-    suffix: 'v0.05',
+    suffix: 'v0.07',
     precache: 'precache',
     runtime: 'runtime-cache'
 });
@@ -23,6 +23,12 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
     /\.(?:js|json|css)$/,
     new workbox.strategies.NetworkFirst()
+);
+
+// use `cacheFirst` strategy for videos
+workbox.routing.registerRoute(
+    /\.mp4$/,
+    new workbox.strategies.CacheFirst()
 );
 
 // use `cacheFirst` strategy for images

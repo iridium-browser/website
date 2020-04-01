@@ -1,0 +1,155 @@
+///
+/// Apex by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Link Boxes */
+
+	.link-boxes {
+		@include vendor('align-self', 'center');
+		> a {
+			@include vendor('transition', (
+				'background-color #{_duration(button)} ease-in-out',
+				'color #{_duration(button)} ease-in-out',
+			));
+			@include vendor('display', 'flex');
+			@include vendor('flex-wrap', 'wrap');
+			max-width: 100%;
+			padding: _size(element-margin) * 1.15;
+			position: relative;
+			display: block;
+			text-decoration: none;
+			border: 0;
+			
+
+			.content {
+				@include vendor('transform', 'scale(0.95)');
+				@include vendor('transition', 'transform #{_duration(button)} ease-in-out');
+				
+				&:after {
+					@include vendor('flex-grow', '0');
+					@include vendor('flex-shrink', '0');
+					@include vendor('align-self', 'center');
+					content: '\f138';
+					font-family: FontAwesome;
+					font-size: 3.5rem;
+					line-height: 5rem;
+					margin: -5.5rem 0 0 1.5rem;
+					text-align: right;
+					float: right;
+					width: 3.5rem;
+					position: relative;
+
+					@include breakpoint('<=small') {
+						font-size: 3rem;
+					}
+				}
+				
+				h2 {
+					@include vendor('flex-grow', '0');
+					@include vendor('flex-shrink', '0');
+					width: 100%;
+
+					@include breakpoint('<=small') {
+						margin-bottom: 0.75rem;
+					}
+				}
+
+				p {
+					@include vendor('flex-grow', '1');
+					@include vendor('flex-shrink', '1');
+					@include vendor('align-self', 'center');
+					width: calc(100% - 5rem);
+
+					&:last-child {
+						margin: 0;
+					}
+				}
+			}
+			
+			.content:after, h2, p {
+				@include vendor('transition', (
+					'color #{_duration(transition)} ease-in-out',
+				));
+			}
+
+			&:hover {
+				.content, &:after {
+					@include vendor('transform', 'scale(1)');
+				}
+			}
+
+			&.accent1 {
+				background: _palette(accent1,bg);
+				
+				.content:after, h2, p {
+					color: transparentize(_palette(bg), 0.175);
+				}
+
+				&:hover {
+					background: darken(_palette(accent1,bg), 7.5);
+					
+					.content:after, h2, p {
+						color: _palette(fg-wht);
+					}
+				}
+			}
+
+			&.accent2 {
+				background: _palette(accent2, bg);
+
+				.content:after, h2, p {
+					color: transparentize(_palette(bg), 0.175);
+				}
+
+				&:hover {
+					background: darken(_palette(accent2,bg), 7.5);
+					
+					.content:after, h2, p {
+						color: _palette(fg-wht);
+					}
+				}
+			}
+
+			&.accent3 {
+				background: _palette(accent3,bg);
+
+				.content:after, h2, p {
+					color: transparentize(_palette(bg), 0.175);
+				}
+
+				&:hover {
+					background: darken(_palette(accent3,bg), 5);
+					
+					.content:after, h2, p {
+						color: _palette(bg);
+					}
+				}
+			}
+
+			&.alt {
+				background: _palette(bg-alt);
+				
+				&:after {
+					color: _palette(fg);
+				}
+
+				h2, p {
+					color: _palette(fg);
+				}
+				&:hover {
+					background: darken(_palette(bg-alt), 5);
+					color: transparentize(_palette(fg), 0.175);
+					
+					&:after {
+						color: transparentize(_palette(fg), 0.175);
+					}
+				}
+			}
+
+			@include breakpoint('<=small') {
+				padding: 2rem;
+			}
+		}
+	}

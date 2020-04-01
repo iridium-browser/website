@@ -6,18 +6,48 @@
 		"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
 		"description": "{{ page.description }}"
 		},{% 
+	if page.structured-data == "news" %}
+		{
+		"@context": "https://schema.org",
+		"@type": "NewsArticle",
+		"mainEntityOfPage": { {% 
+		for post in site.posts limit: 1 %}
+			"@type": "WebPage",
+			"@id": "{{ post.url | absolute_url }}"
+		},
+		"headline": "{{ post.title }}",
+		"image": "{{ post.hotpic | absolute_url }}",
+		"datePublished": "{{ post.date | date_to_xmlschema }}",
+		"dateModified": "{{ post.date | date_to_xmlschema }}",
+		"author": {
+			"@type": "Person",
+			"name": "{{ post.author }}"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "{{ site.title }}",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "{{ site.hotlogo }}"
+			}
+		},
+		"description": "{{ post.description }}" {% 
+		endfor %}
+		},{% 
+	endif %}{% 
 	if page.structured-data == "faq" %}
 		{
 		"@context": "http://schema.org",
-		"@graph": [{% 
-		for faq in site.faq limit: 9 %}
+		"@type": "FAQPage",
+		"mainEntity": [{% 
+		for faq in site.faq offset:1 limit: 9 %}
 			{
 			"@type": "Question",
-			"text": "{{ faq.title }}",
+			"name": "{{ faq.title }}",
 			"dateCreated": "{{ faq.date }}",
 			"acceptedAnswer": {
 				"@type": "Answer",
-				"text": "{{ faq.content | strip_html | strip_newlines }}",
+				"text": "{{ faq.content | strip_html | strip_newlines | replace:'The settings can be found in Windows at C:\Users\%user%\AppData\Local\Iridium\User Data\Default\Local Extension Settings.','' }}",
 				"dateCreated": "{{ faq.date }}"
 				}
 			},{% 
@@ -25,7 +55,7 @@
 		for faq in site.faq limit:1 offset:9 %}
 			{
 			"@type": "Question",
-			"text": "{{ faq.title }}",
+			"name": "{{ faq.title }}",
 			"dateCreated": "{{ faq.date }}",
 			"acceptedAnswer": {
 				"@type": "Answer",
@@ -49,6 +79,7 @@
 				"name": "home"
 				}
 			},
+		{% unless page.structured-data == "news" %}
 			{
 			"@type": "ListItem",
 			"position": 2,
@@ -57,6 +88,24 @@
 				"name": "{{ page.title }}"
 				}
 			}
+		{% else %}
+			{
+			"@type": "ListItem",
+			"position": 2,
+			"item": {
+				"@id": "{{ '/news/' | absolute_url }}",
+				"name": "news"
+				}
+			},
+			{
+			"@type": "ListItem",
+			"position": 3,
+			"item": {
+				"@id": "{{ page.url | absolute_url }}",
+				"name": "{{ page.title }}"
+				}
+			}
+		{% endunless %}
 			]
 		}
 	]
