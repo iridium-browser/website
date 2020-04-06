@@ -14,6 +14,7 @@ layout:				layout_default
 					<div class="row gtr-200 align-center">
 						<div class="col-12">
 							{{ enterprise.content | strip_newlines }}
+							<br/><br/>
 						</div>{% 
 				endfor %}{% 
 					for enterprise in site.enterprise offset:1 limit:3 %}
@@ -22,17 +23,16 @@ layout:				layout_default
 							<h3>{{ enterprise.title }}</h3>
 							{{ enterprise.content | strip_newlines }}
 						</div>{% 
-					endfor %}
-					<br/>{% 
+					endfor %}{% 
 					for enterprise in site.enterprise offset:4 limit:1 %}
 						<div class="col-8 col-10-medium col-12-small" style="margin:0 auto;">
+							<br/><br/>
 							<h3>{{ enterprise.title }}</h3>
 							<div class="align-left">
 								{{ enterprise.content }}
 							</div>
 						</div>{% 
-					endfor %}
-					<br/>{% 
+					endfor %}{% 
 					for enterprise in site.enterprise offset:5 %}
 						<div class="col-12">
 							<h3>{{ enterprise.title }}</h3>
