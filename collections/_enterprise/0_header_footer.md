@@ -1,8 +1,8 @@
 ---
 layout:			layout_start
 title:			Enterprise
-subtitle:		Power your teams with business capabilities
+subtitle:		Power your team with business capabilities
 ---
-I am an introduction introducing you to all of this and will let you know all the details that you need to know. 
-I am an introduction introducing you to all of this and will let you know all the details that you need to know. 
-I am an introduction introducing you to all of this and will let you know all the details that you need to know.
+Iridium Browser Enterprise provides IT with business capabilities for distribution and expansion via a GPO policy, 
+a large variety of user and device policies through ADM / ADMX. Get a customized build with branding as well as admin support.    
+Take control of all your workforce data protection.
