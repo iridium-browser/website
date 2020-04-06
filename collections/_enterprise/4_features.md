@@ -13,3 +13,5 @@ title:		Features
 - Unlimited number of clients.
 - 2hr troubleshooting assistance and admin support per month.
 - 12 month subscription with an annual extension - cancellation up to one month before end of contract.
+
+<br/>
