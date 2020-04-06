@@ -11,7 +11,7 @@ layout:				layout_default
 					endif %}
 				</header>
 				<div class="inner">
-					<div class="row gtr-150 align-center">
+					<div class="row gtr-200 align-center">
 						<div class="col-12">
 							{{ enterprise.content | strip_newlines }}
 						</div>{% 
@@ -24,10 +24,17 @@ layout:				layout_default
 						</div>{% 
 					endfor %}{% 
 					for enterprise in site.enterprise offset:4 limit:1 %}
-						<div class="col-12">
-							<span class="feature-icon"><span class="icon {{ enterprise.icon-class }}"></span></span>
+						<div class="col-8 col-10-large col-12-small" style="margin:0 auto;">
 							<h3>{{ enterprise.title }}</h3>
-							{{ enterprise.content | strip_newlines }}
+							<div class="align-left">
+								{{ enterprise.content }}
+							</div>
+						</div>{% 
+					endfor %}{% 
+					for enterprise in site.enterprise offset:5 %}
+						<div class="col-12">
+							<h3>{{ enterprise.title }}</h3>
+							{{ enterprise.content }}
 						</div>{% 
 					endfor %}
 					</div>
