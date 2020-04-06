@@ -1,6 +1,6 @@
 ---
 layout:		layout_start
-title:		Simple Distribution
-icon-class: fa-shield
+title:		Distribution & Expansion
+icon-class: fa-arrows-alt
 ---
-Iridium Browser Enterprise features a basic GPO policy for expansion and distribution via MSI installer.
+Iridium Browser Enterprise features a basic GPO policy for expansion and distribution via MSI / PKG installer.
