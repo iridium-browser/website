@@ -5,7 +5,7 @@ layout:				layout_default
 			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
 				for enterprise in site.enterprise limit:1 %}
 				<header>
-					<h2>{{ site.title }} {{ enterprise.title }}</h2>{% 
+					<h2>{{ site.title }} for {{ enterprise.title }}</h2>{% 
 					if enterprise.subtitle %}
 					<p>{{ enterprise.subtitle }}</p>{% else %}{% 
 					endif %}
