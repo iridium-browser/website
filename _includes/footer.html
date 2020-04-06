@@ -9,13 +9,11 @@
 							<li class="alt">{{ step-in.text }} <strong><a href="{% if step-in.link contains 'http' %}{{ step-in.link }}{% else %}{{ step-in.link | relative_url }}{% endif %}" title="{{ step-in.title }}">{{ step-in.name }}</a></strong>.</li>{% 
 						endfor %}
 						</ul>
-						<br/>
 						<ul class="icons">{% 
 						for soc-media in footer.soc-media %}
 							<li><a href="{{ soc-media.link }}" class="icon social {{ soc-media.icon }}" title="{{ soc-media.title }}"><span class="label">{{ soc-media.title }}</span></a></li>{% 
 						endfor %}
 						</ul>
-						<br/>
 						<ul class="horizontal">{% 
 						for legal in footer.legal %}
 							<li><a href="{{ legal.link | relative_url }}" title="{{ legal.title }}">{{ legal.name }}</a></li>{% 
