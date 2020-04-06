@@ -22,7 +22,8 @@ layout:				layout_default
 							<h3>{{ enterprise.title }}</h3>
 							{{ enterprise.content | strip_newlines }}
 						</div>{% 
-					endfor %}{% 
+					endfor %}
+					<br/>{% 
 					for enterprise in site.enterprise offset:4 limit:1 %}
 						<div class="col-8 col-10-medium col-12-small" style="margin:0 auto;">
 							<h3>{{ enterprise.title }}</h3>
@@ -30,7 +31,8 @@ layout:				layout_default
 								{{ enterprise.content }}
 							</div>
 						</div>{% 
-					endfor %}{% 
+					endfor %}
+					<br/>{% 
 					for enterprise in site.enterprise offset:5 %}
 						<div class="col-12">
 							<h3>{{ enterprise.title }}</h3>
