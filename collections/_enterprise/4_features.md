@@ -11,5 +11,5 @@ title:		Features
 - Custom branding of the installer with a logo of your choice.
 - Integration of a custom configuration in the installer (using a preferences file).
 - Unlimited number of clients.
-- 2hr support for the Iridium Browser Enterprise per month.
+- 2hr troubleshooting assistance and admin support per month.
 - 12 month subscription with an annual extension - cancellation up to one month before end of contract.
