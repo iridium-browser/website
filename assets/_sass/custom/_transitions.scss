@@ -43,8 +43,8 @@
 
 	.slide-in-scale {
 		@include vendor('transition', ( 
-			'transform #{_duration(feature-icon)} ease',
-			'opacity #{_duration(feature-icon)} ease'
+			'transform #{_duration(feature-icon)} ease-in-out',
+			'opacity #{_duration(feature-icon)} ease-in-out'
 		));
 
 		&.inactive {
@@ -59,14 +59,14 @@
 	.os-transition, .icon-rotate-in {
 		.icon-rotator {
 			@include vendor('transition', (
-				'transform #{_duration(feature-icon)} ease',
-				'opacity #{_duration(feature-icon)} ease'
+				'transform #{_duration(feature-icon)} ease-in-out',
+				'opacity #{_duration(feature-icon)} ease-in-out'
 			));
 		}
 		.label-fader {
 			@include vendor('transition', (
-				'transform #{_duration(feature-icon)} ease',
-				'opacity #{_duration(feature-icon)} ease'
+				'transform #{_duration(feature-icon)} ease-in-out',
+				'opacity #{_duration(feature-icon)} ease-in-out'
 			));
 		}
 		@for $i from 2 through _misc(max-feature-icon) {
@@ -98,8 +98,8 @@
 
 	.about-transition {
 		@include vendor('transition', (
-			'transform #{_duration(feature)} ease',
-			'opacity #{_duration(feature)} ease'
+			'transform #{_duration(feature)} ease-in-out',
+			'opacity #{_duration(feature)} ease-in-out'
 		));
 
 		&.inactive {

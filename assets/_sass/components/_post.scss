@@ -29,7 +29,6 @@
 
 		@include breakpoint('<=medium') {
 			$padding: _size(padding, medium);
-			text-align: center;
 
 			article {
 				margin: 0 auto ($padding * 0.5) auto;

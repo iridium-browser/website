@@ -285,7 +285,7 @@
 			box-shadow: 0 0 0 0 transparent;
 			color: _palette(fg-wht) !important;
 			font-weight: _font(weight-bold);
-			font-size: 1.35rem;
+			font-size: 1.25rem;
 			padding: 0 .1rem;
 			margin-right: .65em;
 			
@@ -303,7 +303,7 @@
 			}
 			&.current {
 				color: lighten(_palette(accent1,bg), 25) !important;
-				font-size: 1.5rem;
+				font-size: 1.4rem;
 			}
 		}
 	}
