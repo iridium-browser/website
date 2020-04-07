@@ -1,6 +1,6 @@
 ---
 title: "Why does a yellow warning bubble appear below the address bar?"
-date: 2017-11-03 13:00:00 +0100
+date: 2017-11-03 13:00
 ---
 
 This helps the development team to find issues with potential privacy problems. 

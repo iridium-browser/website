@@ -1,6 +1,6 @@
 ---
 title: "How to update Iridium Browser?"
-date: 2018-05-16 12:00:00 +0100
+date: 2018-05-16 12:00
 ---
 
 Iridium Browser does not download and install updates automatically. Updates can only be applied manually by downloading and installing the latest build. This will not affect saved bookmarks.   
