@@ -11,6 +11,7 @@
 		border: solid 1px;
 		margin-bottom: _size(element-margin);
 		padding: 1.5rem;
+		overflow: scroll;
 
 		> :last-child,
 		> :last-child > :last-child,
