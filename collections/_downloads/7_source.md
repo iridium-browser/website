@@ -30,11 +30,12 @@ sitemap:
 Clone the source code with Git
 </header>
 
-	git clone https://github.com/iridium-browser/iridium-browser
+<tt>git clone <a href="https://github.com/iridium-browser/iridium-browser">https://github.com/iridium-browser/iridium-browser</a></tt>
 	
-	<i>(or)</i>
-	
-	git clone git://git.iridiumbrowser.de/iridium-browser
+<i>(or)</i>
+
+<tt>git clone <a href="git://git.iridiumbrowser.de/iridium-browser">git://git.iridiumbrowser.de/iridium-browser</a></tt> <span style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" unselectable="on"">&#x1f1e9;&#x1f1ea;</span>
+
 {:#data2}
 
 Browse the source code:<br/>
