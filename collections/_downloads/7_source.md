@@ -24,30 +24,27 @@ sitemap:
 ---
 
 {::options parse_block_html="true" /}
-<div class="icon os fa-git-square"></div>
+<div class="icon os fa-code-fork"></div>
 <header>
-### Git Repository (Germany) #
-Clone the source code with Git
-</header>
-
-	git clone git://git.iridiumbrowser.de/iridium-browser
-{:#data}
-
-<div class="icon os fa-github"></div>
-<header>
-### GitHub Repository (USA) #
+### Git Repository #
 Clone the source code with Git
 </header>
 
 	git clone https://github.com/iridium-browser/iridium-browser
+{:#data}
+
+*(or from a server located in Germany)*
+
+	git clone git://git.iridiumbrowser.de/iridium-browser
 {:#data2}
 
 Browse the source code:<br/>
 Git web view  [https://github.com/iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser "Git web view")
 
-<div class="icon os fa-code"></div>
+<div class="icon os fa-file-code-o"></div>
 <header>
-### Source Code Archives (Germany) #
+### Source Code Archives #
+*(server located in Germany)*    
 Download the source code as tar archives
 </header>
 <form action="https://downloads.iridiumbrowser.de/source">
