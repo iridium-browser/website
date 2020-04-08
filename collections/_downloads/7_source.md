@@ -18,13 +18,13 @@ structured-data:
   value:		5
   count:		2761
 sitemap:
-  lastmod:		2020-02-26 10:00:00 +0100
+  lastmod:		2020-02-26 10:00
   priority:		0.8
   changefreq:	'daily'
 ---
 
 {::options parse_block_html="true" /}
-<div class="icon os fa-git"></div>
+<div class="icon os fa-git-square"></div>
 <header>
 ### Git Repository (Germany) #
 Clone the source code with Git
