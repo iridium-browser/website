@@ -33,7 +33,7 @@ Clone the source code with Git
 	git clone git://git.iridiumbrowser.de/iridium-browser
 {:#data}
 
-<div class="icon os fa-github"></div>
+<div class="icon os fa-github-square"></div>
 <header>
 ### GitHub Repository (USA) #
 Clone the source code with Git
