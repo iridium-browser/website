@@ -47,6 +47,5 @@ Git web view  [https://github.com/iridium-browser/iridium-browser](https://githu
 Download the source code as tar archives
 </header>
 <form action="https://downloads.iridiumbrowser.de/source">
-<button type="submit" title="Download source code" class="button download">Download source code
-&#x1f1e9;&#x1f1ea;</button>
+<button type="submit" title="Download source code" class="button download">Download source code &#x1f1e9;&#x1f1ea;</button>
 </form>
