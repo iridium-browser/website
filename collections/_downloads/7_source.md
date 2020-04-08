@@ -30,13 +30,11 @@ sitemap:
 Clone the source code with Git
 </header>
 
-	git clone https://github.com/iridium-browser/iridium-browser
-{:#data}
+git clone [https://github.com/iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser "git clone")
 
 *(or from a server located in Germany)*
 
-	git clone git://git.iridiumbrowser.de/iridium-browser
-{:#data2}
+git clone [git://git.iridiumbrowser.de/iridium-browser](git://git.iridiumbrowser.de/iridium-browser "git clone")
 
 Browse the source code:<br/>
 Git web view  [https://github.com/iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser "Git web view")
@@ -47,6 +45,4 @@ Git web view  [https://github.com/iridium-browser/iridium-browser](https://githu
 *(server located in Germany)*    
 Download the source code as tar archives
 </header>
-<form action="https://downloads.iridiumbrowser.de/source">
-<button type="submit" title="Download source code" class="button download">Download source code</button>
-</form>
+<a href="https://downloads.iridiumbrowser.de/source" title="Download source code" class="button download" target="_blank">Download source code</a>
