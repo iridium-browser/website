@@ -43,6 +43,6 @@ Git web view  [https://github.com/iridium-browser/iridium-browser](https://githu
 <header>
 ### Source Code Archives #
 *(server located in Germany)*    
-Download the source code as tar archives
+Download the source code as tar archives &#x1F1E9;&#x1F1EA;
 </header>
 <a href="https://downloads.iridiumbrowser.de/source" title="Download source code" class="button download" target="_blank">Download source code</a>
