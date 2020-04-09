@@ -110,16 +110,8 @@
 		"sameAs": [
 			"https://github.com/iridium-browser",
 			"https://www.facebook.com/iridiumbrowser/",
-			"https://twitter.com/iridiumbrowser",
-			"https://plus.google.com/+IridiumBrowser"
+			"https://twitter.com/iridiumbrowser"
 			] 
-		},
-		{
-		"@context": "http://schema.org",
-		"@type": "WebPage",
-		"name": "{{ site.title }}",
-		"url": "{{ site.url | append: site.baseurl }}",
-		"description": "{{ site.description | strip_newlines }}"
 		},
 		{
 		"@context": "http://schema.org",

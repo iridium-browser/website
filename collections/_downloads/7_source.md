@@ -29,11 +29,13 @@ sitemap:
 Clone the source code with Git
 </header>
 
-git clone [https://github.com/iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser "git clone")
+	git clone https://github.com/iridium-browser/iridium-browser
+{:#data}
 
 *(or from a server located in Germany)*
 
-git clone [git://git.iridiumbrowser.de/iridium-browser](git://git.iridiumbrowser.de/iridium-browser "git clone")
+	git clone git://git.iridiumbrowser.de/iridium-browser
+{:#data2}
 
 Browse the source code:<br/>
 Git web view  [https://github.com/iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser "Git web view")
