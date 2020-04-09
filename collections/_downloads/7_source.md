@@ -11,7 +11,6 @@ style:				style1
 width:				w-50
 icon-class:			fa-code
 
-
 structured-data:
   os0:			source code
   os1:			source code
