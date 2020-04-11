@@ -25,6 +25,7 @@
 		}
 		&.faq {
 			background-color: _palette(border);
+			margin-bottom: 0;
 
 			@include breakpoint('<=small') {
 				overflow-x: scroll;

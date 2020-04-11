@@ -62,6 +62,16 @@
 
 /* Sections */
 
+	#faq {
+		.id {
+			margin-bottom: 4.5rem;
+			
+			&:first-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
 	#downloads {
 
 		.row {
