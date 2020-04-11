@@ -10,7 +10,6 @@ layout: layout_downloads
 					<p>current version {{ page.version }}<br/>
 					<small>(based on Chromium {{ page.chromium }})</small></p>
 				</header>
-
 				<ul class="tabs">
 					<li>
 						<h3>Standard <span class="extra">version</span></h3>
@@ -42,7 +41,6 @@ layout: layout_downloads
 									<form action="{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end-32port }}">
 										<button type="submit" title="download portable 32-bit version" class="button download">32-bit download</button>
 									</form>
-									
 								</li>
 							</ul>
 							<h4 class="align-center">portable *</h4>
@@ -51,14 +49,12 @@ layout: layout_downloads
 									<form action="{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end-64port }}">
 										<button type="submit" title="download portable 64-bit version" class="button download">64-bit download</button>
 									</form>
-									
 								</li>
 							</ul>
 						</div>
 						<div class="inner {{ page.width }} box align-center">
 							{{ content }}
 						</div>
-
 					</li>
 				</ul>
 
