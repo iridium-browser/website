@@ -11,7 +11,7 @@ layout:				layout_default
 				<div class="inner">{%
 				endfor %}{% 
 					for faq in site.faq offset:1 %}
-					<div class="box faq">
+					<div class="box faq" id="{{ faq.faq-id}}">
 						{% unless faq.title == "none" %}<h3>{{ faq.title }}</h3>{% endunless %}
 						{{ faq.content | strip_newlines }}
 					</div>{% 

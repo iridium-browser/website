@@ -1,6 +1,7 @@
 ---
-title: "Why syncing and signing in to Iridium or Google does not work?"
-date: 2017-11-02 12:00
+title:	"Why syncing and signing in to Iridium or Google does not work?"
+date:	2017-11-02 12:00
+faq-id:	syncing
 ---
 
 While not directly intentional, it kind of defeats the purpose of Iridium if you are signed into Google and report everything to them. From a technical point of view, signing in to Google requires a Google API key, client ID and client secret. Iridium does not ship with one — therefore it does not work. 
