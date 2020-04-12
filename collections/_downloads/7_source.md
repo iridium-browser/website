@@ -43,15 +43,14 @@ Browse the source code
 <form action="https://github.com/iridium-browser/iridium-browser">
 <button type="submit" title="Git web view" class="button wht icon fa-code-fork">Git web view</button>
 </form>
-
 <br/>
-
 <div class="icon os fa-file-code-o"></div>
 <header>
 ### Source Code Archives #
 Download the source code as tar archives   
 *DE*
 </header>
-<form action="https://downloads.iridiumbrowser.de/source">
+<form action="https://downloads.iridiumbrowser.de/source/" target="_blank">
 <button type="submit" title="Download source code" class="button download">Download source code</button>
 </form>
+<br/>
