@@ -103,6 +103,7 @@
 				color: lighten(_palette(accent3,bg), 22);
 			}
 			&.button {
+				color: _palette(fg-wht) !important;
 				margin-top: _size(element-margin) * -0.75;
 				margin-bottom: _size(element-margin) * 0.5;
 
