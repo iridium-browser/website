@@ -8,6 +8,8 @@ link:				/downloads/source
 permalink:			/downloads/source
 page-id:			source-code
 style:				style1
+width:				w-75
+
 icon-class:			fa-code-fork
 OS: 				Git Repository
 subtitle:			Clone the source code with Git
@@ -25,18 +27,18 @@ sitemap:
 {::options parse_block_html="true" /}
 <div class="row gtr-200">
 <div class="col-6 col-12-small">
-Server located outside Europe
+*Global*
 
 	git clone https://github.com/iridium-browser/iridium-browser
 {:#data}
 </div>
 <div class="col-6 col-12-small">
-Server located in Europe
+*DE*
 
 	git clone git://git.iridiumbrowser.de/iridium-browser
 {:#data2}
 </div></div>
-
+<br/>
 Browse the source code
 <form action="https://github.com/iridium-browser/iridium-browser">
 <button type="submit" title="Git web view" class="button wht icon fa-code-fork">Git web view</button>
@@ -47,8 +49,8 @@ Browse the source code
 <div class="icon os fa-file-code-o"></div>
 <header>
 ### Source Code Archives #
-*(server located in Europe)*    
-Download the source code as tar archives
+Download the source code as tar archives   
+*DE*
 </header>
 <form action="https://downloads.iridiumbrowser.de/source">
 <button type="submit" title="Download source code" class="button download">Download source code</button>
