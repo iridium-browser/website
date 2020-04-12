@@ -1,7 +1,7 @@
 ---
 layout:				enterprise
 title:				Enterprise
-subtitle:			Unlock business capabilities to secure, orchestrate and power your workforce
+subtitle:			Power your team with business capabilities
 description:		""
 hotpic:				""
 menu:				5

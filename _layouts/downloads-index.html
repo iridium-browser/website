@@ -11,7 +11,7 @@ layout: layout_downloads
 				endfor %}
 				<div class="inner align-center">
 					<div class="row gtr-uniform">{% 
-					for downloads in site.downloads  offset:1 limit:6 %}
+					for downloads in site.downloads offset:1 limit:6 %}
 						<div class="col-2 col-4-medium inactive icon-rotate-in">
 							<a href="{{ downloads.link | relative_url }}" title="download Iridium Browser for {{ downloads.label }}">
 								<div class="icon-os os {{ downloads.icon-class }} icon-rotator"></div>

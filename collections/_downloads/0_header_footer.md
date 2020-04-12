@@ -54,4 +54,8 @@ sitemap:
   priority:		0.5
   changefreq:	'daily'
 ---
+[Enterprise Edition]({{ '/enterprise' | relative_url }} "Iridium Browser Enterprise"){:.button .wht .icon-right .large}
+   
+   
+   
 Iridium Browser is <u>not</u> available for Android, iOS or any other mobile platform.
