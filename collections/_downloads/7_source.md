@@ -27,13 +27,15 @@ sitemap:
 {::options parse_block_html="true" /}
 <div class="row gtr-200">
 <div class="col-6 col-12-small">
-*Global*
+#### *Global* #
+{:.dl}
 
 	git clone https://github.com/iridium-browser/iridium-browser
 {:#data}
 </div>
 <div class="col-6 col-12-small">
-*DE*
+#### *DE* #
+{:.dl}
 
 	git clone git://git.iridiumbrowser.de/iridium-browser
 {:#data2}
@@ -48,7 +50,7 @@ Browse the source code
 <header>
 ### Source Code Archives #
 Download the source code as tar archives   
-*DE*
+#### *DE* #
 </header>
 <form action="https://downloads.iridiumbrowser.de/source/" target="_blank">
 <button type="submit" title="Download source code" class="button download">Download source code</button>
