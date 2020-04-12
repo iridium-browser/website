@@ -3,9 +3,11 @@ layout: layout_downloads
 ---
 		<!-- Downloads source -->
 			<section id="{{ page.page-id }}" class="main {{ page.style }}">
-				<header>
+				<header class="accent4">
 					<h2>{{ page.title }}</h2>
-					{% if page.OS %}<h3>{{ page.OS }}</h3>{% endif %}
+					<span class="icon os {{ page.icon-class }} align-center"></span>
+					<h3>{{ page.OS }}</h3>
+					<p>{{ page.subtitle }}</p>
 				</header>
 				<div class="inner {{ page.width }} align-center">
 {{ content | strip_newlines }}

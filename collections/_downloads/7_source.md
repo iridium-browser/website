@@ -9,6 +9,8 @@ permalink:			/downloads/source
 page-id:			source-code
 style:				style1
 icon-class:			fa-code-fork
+OS: 				Git Repository
+subtitle:			Clone the source code with Git
 
 structured-data:
   os0:			source code
@@ -20,13 +22,7 @@ sitemap:
   priority:		0.8
   changefreq:	'daily'
 ---
-
 {::options parse_block_html="true" /}
-<div class="icon os fa-code-fork"></div>
-<header>
-### Git Repository #
-Clone the source code with Git
-</header>
 <div class="row gtr-200">
 <div class="col-6 col-12-small">
 Server located outside Europe
