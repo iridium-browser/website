@@ -142,7 +142,7 @@
 
 		&.download {
 			background-color: _palette(accent1, bg);
-			box-shadow: none;
+			box-shadow: inset 0 0 0 3px _palette(accent1, bg);
 			color: _palette(fg-wht) !important;
 			height: _size(element-height) * 0.85 !important;
 			line-height: _size(element-height) * 0.85 !important;
