@@ -41,8 +41,12 @@ Server located in Europe
 {:#data2}
 </div></div>
 
-Browse the source code:<br/>
-Git web view  [https://github.com/iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser "Git web view")
+Browse the source code
+<form action="https://github.com/iridium-browser/iridium-browser">
+<button type="submit" title="Git web view" class="button wht icon fa-code-fork">Git web view</button>
+</form>
+
+<br/>
 
 <div class="icon os fa-file-code-o"></div>
 <header>
@@ -50,4 +54,6 @@ Git web view  [https://github.com/iridium-browser/iridium-browser](https://githu
 *(server located in Europe)*    
 Download the source code as tar archives
 </header>
-<a href="https://downloads.iridiumbrowser.de/source" title="Download source code" class="button download" target="_blank">Download source code</a>
+<form action="https://downloads.iridiumbrowser.de/source">
+<button type="submit" title="Download source code" class="button download">Download source code</button>
+</form>
