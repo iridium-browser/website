@@ -18,9 +18,9 @@ layout:				layout_default
 						</div>{% 
 				endfor %}{% 
 					for enterprise in site.enterprise offset:1 limit:3 %}
-						<div class="col-4 col-12-small inactive slide-in-up">
+						<div class="col-4 col-12-small inactive slide-up">
 							<span class="feature-icon icon-slide-up"><span class="icon {{ enterprise.icon-class }}"></span></span>
-							<h3 class="label-slide-up">{{ enterprise.title }}</h3>
+							<h3 class="text-slide-up">{{ enterprise.title }}</h3>
 							{{ enterprise.content | strip_newlines }}
 						</div>{% 
 					endfor %}{% 

@@ -1,6 +1,8 @@
 // Misc.
 	$misc: (
 		z-index-base:		10000,
+		max-dl-icon:		6,
+		max-ent-icon:		3,
 		max-feature-icon:	6,
 		feature-icon-deg:	22.5deg
 	);
@@ -10,8 +12,11 @@
 		menu:				0.5s,
 		button:				0.7s,
 		fade-in:			1.0s,
-		feature:			0.75s,
-		feature-icon:		0.875s,
+		dl-icon:			0.75s,
+		dl-icon-delay:		0.25s,
+		dl-icon-opacity:	0.75s,
+		feature:			1.0s,
+		feature-icon:		1.25s,
 		transition:			0.3s,
 		transition-banner:	2.0s,
 		transition-delay:	0.35s,

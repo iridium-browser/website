@@ -57,24 +57,57 @@
 /* downloads - slide-in + up */
 
 	.os-transition, .slide-in-up {
-		.icon-slide-up {
+		.icon-slide-in-up {
 			@include vendor('transition', ( 
-				'transform #{_duration(transform)} ease-out'
+				'transform #{_duration(dl-icon)} ease'
 			));
 		}
-		.label-slide-up {
+		.label-slide-in-up {
 			@include vendor('transition', ( 
-				'transform #{_duration(transform)} ease-out',
-				'opacity #{_duration(transform-opacity)} ease'
+				'transform #{_duration(dl-icon)} ease',
+				'opacity #{_duration(dl-icon-opacity)} ease'
+			));
+		}
+		@for $i from 2 through _misc(max-dl-icon) {
+			&:nth-child(#{$i}) {
+				.icon-slide-in-up  {
+					@include vendor('transition-delay', '#{(_duration(dl-icon-delay) * 0.25 * $i)}');
+				}
+				.label-slide-in-up  {
+					@include vendor('transition-delay', '#{(_duration(dl-icon-delay) * 0.25 * $i)}');
+				}
+			}
+		}
+		&.inactive {
+			.icon-slide-in-up {
+				@include vendor('transform', 'translate3d(0, 2rem, 0)');
+			}
+			.label-slide-in-up {
+				@include vendor('transform', 'translate3d(0, 4rem, 0)');
+				opacity: 0;
+			}
+		}
+	}
+
+/* enterprise - slide up */
+
+	.slide-up {
+		.icon-slide-up {
+			@include vendor('transition', ( 
+				'transform #{_duration(feature-icon)} ease'
+			));
+		}
+		.text-slide-up {
+			@include vendor('transition', ( 
+				'transform #{_duration(feature-icon)} ease',
 			));
 		}
 		&.inactive {
 			.icon-slide-up {
-				@include vendor('transform', 'translate3d(0, 3rem, 0)');
+				@include vendor('transform', 'translate3d(0, 2rem, 0)');
 			}
-			.label-slide-up {
-				@include vendor('transform', 'translate3d(0, 6rem, 0)');
-				opacity: 0;
+			.text-slide-up {
+				@include vendor('transform', 'translate3d(0, 4rem, 0)');
 			}
 		}
 	}
@@ -89,11 +122,11 @@
 		));
 
 		&.inactive {
-			@include vendor('transform', 'scale(0.925) translate3d(2.5%, 2.5%, 0)');
+			@include vendor('transform', 'scale(0.95) translate3d(0.35rem, 0.35rem, 0)');
 			opacity: 0;
 			
 			&:nth-child(odd) { 
-				@include vendor('transform', 'scale(0.925) translate3d(-2.5%, 2.5%, 0)');
+				@include vendor('transform', 'scale(0.95) translate3d(-0.35rem, 0.35rem, 0)');
 			}
 		}
 	}

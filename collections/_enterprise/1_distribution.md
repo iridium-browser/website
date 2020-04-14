@@ -4,4 +4,4 @@ title:		Distribution & Expansion
 icon-class: fa-arrows-alt
 ---
 Iridium Browser for Enterprise features a basic GPO policy for expansion and distribution via MSI / PKG installer.
-{:.label-slide-up}
+{:.text-slide-up}

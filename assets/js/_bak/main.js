@@ -11,6 +11,7 @@
         $header = $('#header'),
         $iconrotate = $('.icon-rotate-in'),
 		$slideinup = $('.slide-in-up'),
+		$slideup = $('.slide-up'),
         $banner = $('#banner');
 		
 
@@ -30,11 +31,12 @@
                 $body.removeClass('is-preload');
 				$iconrotate.removeClass('inactive');
 				$slideinup.removeClass('inactive');
+				$slideup.removeClass('inactive');
             }, 100);
         });
 
 	// Transitions.
-		var $features = $('.os-transition, .about-transition, .fade-in-scale, .slide-in-scale, .fade-rotate-scale');
+		var $features = $('.os-transition, .fade-in-scale, .slide-in-scale, .fade-rotate-scale');
 
 		if ($features.length > 0
 		&&	browser.canUse('transition'))
@@ -44,8 +46,25 @@
 
 				$this.scrollex({
 					mode: 'middle',
-					top: '-25vh',
-					bottom: '-25vh',
+					top: '-30vh',
+					bottom: '-30vh',
+					initialize: function() { $this.addClass('inactive'); },
+					enter: function() { $this.removeClass('inactive'); }
+				});
+			});
+
+		var $features = $('.about-transition');
+
+		if ($features.length > 0
+		&&	browser.canUse('transition'))
+			$features.each(function() {
+
+				var $this = $(this);
+
+				$this.scrollex({
+					mode: 'middle',
+					top: '-40vh',
+					bottom: '-40vh',
 					initialize: function() { $this.addClass('inactive'); },
 					enter: function() { $this.removeClass('inactive'); }
 				});

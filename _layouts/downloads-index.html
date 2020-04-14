@@ -14,8 +14,8 @@ layout: layout_downloads
 					for downloads in site.downloads offset:1 limit:6 %}
 						<div class="col-2 col-4-medium inactive slide-in-up">
 							<a href="{{ downloads.link | relative_url }}" title="download Iridium Browser for {{ downloads.label }}">
-								<div class="icon-os os {{ downloads.icon-class }} icon-slide-up"></div>
-								<div class="icon-os os label label-slide-up">{{ downloads.label }}</div>
+								<div class="icon-os os {{ downloads.icon-class }} icon-slide-in-up"></div>
+								<div class="icon-os os label label-slide-in-up">{{ downloads.label }}</div>
 							</a>
 						</div>{% 
 					endfor %}
