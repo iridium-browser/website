@@ -10,6 +10,8 @@
         $body = $('body'),
         $header = $('#header'),
         $iconrotate = $('.icon-rotate-in'),
+		$fadeslidescale = $('.fade-slide-scale'),
+		$slideinscale = $('.slide-in-scale'),
 		$slideinup = $('.slide-in-up'),
 		$slideup = $('.slide-up'),
         $banner = $('#banner');
@@ -30,13 +32,15 @@
             window.setTimeout(function() {
                 $body.removeClass('is-preload');
 				$iconrotate.removeClass('inactive');
+				$fadeslidescale.removeClass('inactive');
+				$slideinscale.removeClass('inactive');
 				$slideinup.removeClass('inactive');
 				$slideup.removeClass('inactive');
             }, 100);
         });
 
 	// Transitions.
-		var $features = $('.os-transition, .fade-in-scale, .slide-in-scale, .fade-rotate-scale');
+		var $features = $('.os-transition, .news-transition, .fade-in-scale, .fade-rotate-scale');
 
 		if ($features.length > 0
 		&&	browser.canUse('transition'))

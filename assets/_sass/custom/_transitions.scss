@@ -85,7 +85,7 @@
 
 /* about - fade + slide + scale */
 
-	.about-transition {
+	.about-transition, .fade-slide-scale {
 		@include vendor('transition', (
 			'transform #{_duration(feature)} ease-in-out',
 			'opacity #{_duration(feature)} ease-in-out'
@@ -101,6 +101,20 @@
 		}
 	}
 
+/* news - slide-in + scale */
+
+	.news-transition, .slide-in-scale {
+		@include vendor('transition', ( 
+			'transform #{_duration(feature)} ease',
+			'opacity #{_duration(feature)} ease'
+		));
+
+		&.inactive {
+			@include vendor('transform', 'scale(0.925) translate(0, -2.5%)');
+			opacity: 0;
+		}
+	}
+
 
 /* fade-in + scale */
 
@@ -112,20 +126,6 @@
 
 		&.inactive {
 			@include vendor('transform', 'scale(0.985)');
-			opacity: 0;
-		}
-	}
-
-/* slide-in + scale */
-
-	.slide-in-scale {
-		@include vendor('transition', ( 
-			'transform #{_duration(feature-icon)} ease-in-out',
-			'opacity #{_duration(feature-icon)} ease-in-out'
-		));
-
-		&.inactive {
-			@include vendor('transform', 'scale(0.925) translate(0, -2.5%)');
 			opacity: 0;
 		}
 	}
