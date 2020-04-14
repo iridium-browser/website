@@ -14,7 +14,7 @@ plugins-v0.01.min.js
 - ua-parser.min.js
 - util.js
 
-app-v0.01.min.js
+app-v0.02.min.js
 - ua-parser-forward.js
 - main.js
 - pwa-plugin-build.js		!!! replace 'XXX'

@@ -10,6 +10,7 @@
         $body = $('body'),
         $header = $('#header'),
         $iconrotate = $('.icon-rotate-in'),
+		$slideinup = $('.slide-in-up'),
         $banner = $('#banner');
 		
 
@@ -28,11 +29,12 @@
             window.setTimeout(function() {
                 $body.removeClass('is-preload');
 				$iconrotate.removeClass('inactive');
+				$slideinup.removeClass('inactive');
             }, 100);
         });
 
 	// Transitions.
-		var $features = $('.os-transition, .about-transition, .fade-in-scale, .slide-in-scale');
+		var $features = $('.os-transition, .about-transition, .fade-in-scale, .slide-in-scale, .fade-rotate-scale');
 
 		if ($features.length > 0
 		&&	browser.canUse('transition'))
