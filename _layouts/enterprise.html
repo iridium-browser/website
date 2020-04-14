@@ -14,12 +14,13 @@ layout:				layout_default
 					<div class="row gtr-200 align-center">
 						<div class="col-12">
 							{{ enterprise.content | strip_newlines }}
+							<br/>
 						</div>{% 
 				endfor %}{% 
 					for enterprise in site.enterprise offset:1 limit:3 %}
-						<div class="col-4 col-12-small">
-							<span class="feature-icon"><span class="icon {{ enterprise.icon-class }}"></span></span>
-							<h3>{{ enterprise.title }}</h3>
+						<div class="col-4 col-12-small inactive slide-in-up">
+							<span class="feature-icon icon-slide-up"><span class="icon {{ enterprise.icon-class }}"></span></span>
+							<h3 class="label-slide-up">{{ enterprise.title }}</h3>
 							{{ enterprise.content | strip_newlines }}
 						</div>{% 
 					endfor %}{% 
@@ -30,6 +31,7 @@ layout:				layout_default
 							<div class="align-left">
 								{{ enterprise.content }}
 							</div>
+							<br/><br/>
 						</div>{% 
 					endfor %}{% 
 					for enterprise in site.enterprise offset:5 %}
