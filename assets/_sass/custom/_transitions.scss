@@ -9,7 +9,7 @@
 		-webkit-animation: fadeIn #{_duration(fade-in)}; /* Safari and Chrome */
 	}
 	@include keyframes(fadeIn) {
-		  0% { opacity:0; }
+		  0% { opacity:0.5; }
 		100% { opacity:1; }
 	}
 	@mixin keyframes($name) {
@@ -70,10 +70,10 @@
 		}
 		&.inactive {
 			.icon-slide-up {
-				@include vendor('transform', 'translate3d(0, 100%, 0)');
+				@include vendor('transform', 'translate3d(0, 3rem, 0)');
 			}
 			.label-slide-up {
-				@include vendor('transform', 'translate3d(0, 200%, 0)');
+				@include vendor('transform', 'translate3d(0, 6rem, 0)');
 				opacity: 0;
 			}
 		}

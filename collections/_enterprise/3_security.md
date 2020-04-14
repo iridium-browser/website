@@ -4,4 +4,4 @@ title: 		Your data your business
 icon-class: fa-shield
 ---
 Iridium Browser is open source and has a strong commitment to privacy and data protection.
-{:.icon-slide-up}
+{:.label-slide-up}
