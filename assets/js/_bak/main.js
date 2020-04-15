@@ -9,11 +9,11 @@
     var $window = $(window),
         $body = $('body'),
         $header = $('#header'),
-        $iconrotate = $('.icon-rotate-in'),
-		$fadeslidescale = $('.fade-slide-scale'),
-		$slideinscale = $('.slide-in-scale'),
-		$slideinup = $('.slide-in-up'),
+		$slidelrscale = $('.slide-lr-scale'),
 		$slideup = $('.slide-up'),
+		$slideupfade = $('.slide-up-fade'),
+		$slideupscale = $('.slide-up-scale'),
+		$enterprise = $('.ent-transition'),
         $banner = $('#banner');
 		
 
@@ -31,16 +31,16 @@
         $window.on('load', function() {
             window.setTimeout(function() {
                 $body.removeClass('is-preload');
-				$iconrotate.removeClass('inactive');
-				$fadeslidescale.removeClass('inactive');
-				$slideinscale.removeClass('inactive');
-				$slideinup.removeClass('inactive');
+				$slidelrscale.removeClass('inactive');
 				$slideup.removeClass('inactive');
+				$slideupfade.removeClass('inactive');
+				$slideupscale.removeClass('inactive');
+				$enterprise.removeClass('inactive');
             }, 100);
         });
 
 	// Transitions.
-		var $features = $('.os-transition, .news-transition, .fade-in-scale, .fade-rotate-scale');
+		var $features = $('.dl-transition, .news-transition');
 
 		if ($features.length > 0
 		&&	browser.canUse('transition'))
@@ -57,7 +57,7 @@
 				});
 			});
 
-		var $features = $('.about-transition');
+		var $features = $('.about-transition, .faq-transition');
 
 		if ($features.length > 0
 		&&	browser.canUse('transition'))

@@ -1,5 +1,5 @@
 ---
-layout:				layout_default
+layout: layout_default
 ---
 		<!-- FAQ -->
 			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
@@ -10,9 +10,16 @@ layout:				layout_default
 				</header>
 				<div class="inner">{%
 				endfor %}{% 
-					for faq in site.faq offset:1 %}
+					for faq in site.faq offset:1 limit:3 %}
 					<div class="id" id="{{ faq.faq-id}}"></div>
-					<div class="box faq">
+					<div class="box faq inactive slide-up">
+						{% unless faq.title == "none" %}<h3>{{ faq.title }}</h3>{% endunless %}
+						{{ faq.content | strip_newlines }}
+					</div>{% 
+					endfor %}{% 
+					for faq in site.faq offset:4 %}
+					<div class="id" id="{{ faq.faq-id}}"></div>
+					<div class="box faq faq-transition">
 						{% unless faq.title == "none" %}<h3>{{ faq.title }}</h3>{% endunless %}
 						{{ faq.content | strip_newlines }}
 					</div>{% 

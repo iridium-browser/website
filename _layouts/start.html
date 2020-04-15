@@ -49,10 +49,10 @@ layout: layout_start
 				<div class="inner align-center">
 					<div class="row gtr-uniform">{% 
 					for downloads in site.downloads offset:1 limit:6 %}
-						<div class="col-2 col-4-medium os-transition">
+						<div class="col-2 col-4-medium dl-transition">
 							<a href="{{ downloads.link | relative_url  }}" title="download Iridium Browser for {{ downloads.label }}">
-								<div class="icon-slide-in-up icon-os os {{ downloads.icon-class }}"></div>
-								<div class="label-slide-in-up icon-os os label">{{ downloads.label }}</div>
+								<div class="icon-slide-up-fade icon-os os {{ downloads.icon-class }}"></div>
+								<div class="label-slide-up-fade icon-os os label">{{ downloads.label }}</div>
 							</a>
 						</div>{% 
 					endfor %}
