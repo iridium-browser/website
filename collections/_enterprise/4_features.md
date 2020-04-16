@@ -1,5 +1,5 @@
 ---
-layout:		layout_start
+layout:		enterprise
 title:		Features
 ---
 - Provision of a basic GPO policy for expansion and distribution using common group policy distribution techniques.

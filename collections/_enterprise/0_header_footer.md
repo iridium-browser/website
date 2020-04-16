@@ -1,5 +1,5 @@
 ---
-layout:			layout_start
+layout:			enterprise
 title:			Enterprise
 subtitle:		Power your team with business capabilities
 

@@ -1,5 +1,5 @@
 ---
-layout:		layout_start
+layout:		enterprise
 title:		How to obtain Iridium Browser for Enterprise?
 ---
 Please contact us for further details on pricing and methods of payment.    

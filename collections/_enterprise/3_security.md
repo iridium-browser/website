@@ -1,5 +1,5 @@
 ---
-layout:		layout_start
+layout:		enterprise
 title: 		Your data your business
 icon-class: fa-shield
 ---

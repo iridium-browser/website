@@ -1,5 +1,5 @@
 ---
-layout:		layout_start
+layout:		enterprise
 title:		User & Device Policies
 icon-class: fa-cogs
 ---

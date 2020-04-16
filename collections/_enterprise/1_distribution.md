@@ -1,5 +1,5 @@
 ---
-layout:		layout_start
+layout:		enterprise
 title:		Distribution & Expansion
 icon-class: fa-arrows-alt
 ---
