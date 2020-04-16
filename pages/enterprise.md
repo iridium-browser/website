@@ -2,8 +2,9 @@
 layout:				enterprise
 title:				Enterprise
 subtitle:			Power your team with business capabilities
-description:		""
+description:		"Power your team with business capabilities for distribution, a large variety of user and device policies and much more."
 hotpic:				""
+published:			false
 menu:				5
 link:				/enterprise
 permalink:			/enterprise.html

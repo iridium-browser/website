@@ -59,6 +59,12 @@ layout: layout_start
 					</div>
 				</div>
 				<div class="inner align-center">{% 
+				for enterprise in site.enterprise limit:1 %}{% if enterprise.button == "yes" %}
+					<a href="{{ '/enterprise' | relative_url }}" class="button large wht icon-right" title="Iridium Browser Enterprise">Enterprise Edition</a>{% 
+				endif %}{% endfor %}
+				
+				
+				{% 
 				for downloads in site.downloads limit:1 %}
 					{{ downloads.content | strip_newlines }}{% 
 				endfor %}
