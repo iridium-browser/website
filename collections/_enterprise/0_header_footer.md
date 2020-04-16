@@ -1,9 +1,11 @@
 ---
-layout:			layout_start
+layout:			enterprise
 title:			Enterprise
-subtitle:		Unlock business capabilities to secure, orchestrate and power your workforce
+subtitle:		Power your team with business capabilities
+
+button:			"no"
 ---
-Iridium Browser is based on the Chromium code base. 
-All modifications enhance the privacy of the user and make sure that the latest and best secure technologies are used. 
-Automatic transmission of partial queries, keywords and metrics to central services is prevented and only occurs with the approval of the user. 
-In addition, all our builds are reproducible and modifications are auditable, setting the project ahead of other secure browser providers.
+Iridium Browser for Enterprise provides IT with business capabilities for distribution and expansion via a GPO policy, 
+a large variety of user and device policies through ADM / ADMX, a customized build with branding as well as limited 
+toubleshooting assistance and admin support.    
+Take control of data protection for your business.

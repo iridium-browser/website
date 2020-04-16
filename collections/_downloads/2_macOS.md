@@ -10,7 +10,7 @@ link:				/downloads/macos
 permalink:			/downloads/macos
 page-id:			macos
 style:				style1
-width:				w-75
+width:				w-50
 
 icon-class:			fo-apple
 OS: 				macOS
@@ -33,3 +33,7 @@ sitemap:
   priority:		0.8
   changefreq:	'daily'
 ---
+
+__Please note__    
+Iridium Browser is currently signed but not notarized by Apple. 
+Please refer to our [FAQ]({{ '/faq#macOS-install' | relative_url }} "Frequently Asked Questions") for installation instructions.

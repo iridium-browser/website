@@ -210,14 +210,14 @@
 					}
 				}
 				h2, h3, h4, p {
-					color: _palette(fg-alt);
+					color: _palette(accent1, fg-bold);
 				}
 			}
 
 			&.style-light {
 				
 				h2,h3, p {
-					color: _palette(bg-alt);
+					color: _palette(accent1, fg-light);
 				}
 			}
 

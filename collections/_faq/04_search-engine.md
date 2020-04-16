@@ -1,6 +1,7 @@
 ---
-title: "Why is Qwant the default search engine?"
-date: 2017-11-04 14:00:00 +0100
+title:	"Why is Qwant the default search engine?"
+date:	2017-11-04 14:00
+faq-id:	search-engine
 ---
 
 Iridium is an independent project, not connected to, supported or financed by any search engine.    

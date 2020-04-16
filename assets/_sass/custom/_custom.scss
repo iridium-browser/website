@@ -11,7 +11,6 @@
 		}
 	}
 
-
 	/* Copy Button -> repo */
 	
 	.copy-btn {
@@ -63,19 +62,29 @@
 
 /* Sections */
 
+	#faq {
+		.id {
+			margin-bottom: 4.5rem;
+			
+			&:first-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
 	#downloads {
 
 		.row {
 			margin-top: _size(element-margin) * -0.75;
-			margin-bottom: _size(element-margin) * 0.75;
+			margin-bottom: _size(element-margin) * 0.5;
 
 			@include breakpoint('<=large') {
 				margin-top: _size(element-margin) * 0.45;
-				margin-bottom: _size(element-margin) * 2.75;
+				margin-bottom: _size(element-margin) * 1.75;
 			}
 			@include breakpoint('<=small') {
 				margin-top: _size(element-margin) * -0.575;
-				margin-bottom: _size(element-margin) * 0.95;
+				margin-bottom: _size(element-margin) * 0.75;
 			}
 		}
 	
@@ -93,7 +102,21 @@
 				line-height: 7.5rem;
 				color: lighten(_palette(accent3,bg), 22);
 			}
+			&.button {
+				color: _palette(fg-wht) !important;
+				margin-top: _size(element-margin) * -0.75;
+				margin-bottom: _size(element-margin) * 0.5;
 
+				@include breakpoint('<=large') {
+					margin-top: _size(element-margin) * 0.45;
+					margin-bottom: _size(element-margin) * 1.75;
+				}
+				@include breakpoint('<=small') {
+					margin-top: _size(element-margin) * -0.575;
+					margin-bottom: _size(element-margin) * 0.75;
+				}
+			}
+			
 			&:hover {
 				color: lighten(_palette(accent3,bg), 35);
 
@@ -104,6 +127,13 @@
 					color: lighten(_palette(accent3,bg), 35);
 				}
 			}
+		}
+	}
+
+	#source-code {
+	
+		.row {
+			margin-top: -7.5rem;
 		}
 	}
 

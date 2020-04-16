@@ -10,7 +10,6 @@ layout: layout_downloads
 					<p>current version {{ page.version }}<br/>
 					<small>(based on Chromium {{ page.chromium }})</small></p>
 				</header>
-
 				<ul class="tabs">
 					<li>
 						<h3>Standard <span class="extra">version</span></h3>
@@ -42,7 +41,6 @@ layout: layout_downloads
 									<form action="{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end-32port }}">
 										<button type="submit" title="download portable 32-bit version" class="button download">32-bit download</button>
 									</form>
-									
 								</li>
 							</ul>
 							<h4 class="align-center">portable *</h4>
@@ -51,17 +49,14 @@ layout: layout_downloads
 									<form action="{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end-64port }}">
 										<button type="submit" title="download portable 64-bit version" class="button download">64-bit download</button>
 									</form>
-									
 								</li>
 							</ul>
 						</div>
-						<div class="inner {{ page.width }} box align-center">
+						<div class="box note {{ page.width }}">
 							{{ content }}
 						</div>
-
 					</li>
 				</ul>
-
 				<div class="inner align-center">
 					<p>If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/windows/" title="go to build archive">build archive</a></p>
 					<p>System requirements:<br/>{% 
@@ -70,5 +65,4 @@ layout: layout_downloads
 					endfor %}</p>
 					<p>The Windows Installer is produced by <a href="http://www.advancedinstaller.com/" title="Advanced Installer">Advanced Installer</a></p>
 				</div>
-				
 			</section>

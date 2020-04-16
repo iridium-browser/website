@@ -11,17 +11,20 @@ layout: layout_downloads
 				endfor %}
 				<div class="inner align-center">
 					<div class="row gtr-uniform">{% 
-					for downloads in site.downloads  offset:1 limit:6 %}
-						<div class="col-2 col-4-medium inactive icon-rotate-in">
+					for downloads in site.downloads offset:1 limit:6 %}
+						<div class="col-2 col-4-medium inactive slide-up-fade">
 							<a href="{{ downloads.link | relative_url }}" title="download Iridium Browser for {{ downloads.label }}">
-								<div class="icon-os os {{ downloads.icon-class }} icon-rotator"></div>
-								<div class="icon-os os label label-fader">{{ downloads.label }}</div>
+								<div class="icon-slide-up-fade icon-os os {{ downloads.icon-class }}"></div>
+								<div class="label-slide-up-fade icon-os os label">{{ downloads.label }}</div>
 							</a>
 						</div>{% 
 					endfor %}
 					</div>
 				</div>
 				<div class="inner align-center">{% 
+				for enterprise in site.enterprise limit:1 %}{% if enterprise.button == "yes" %}
+					<a href="{{ '/enterprise' | relative_url }}" class="button large wht icon-right" title="Iridium Browser Enterprise">Enterprise Edition</a>{% 
+				endif %}{% endfor %}{% 
 				for downloads in site.downloads limit:1 %}
 					{{ downloads.content | strip_newlines }}{% 
 				endfor %}

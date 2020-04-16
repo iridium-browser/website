@@ -1,33 +1,43 @@
 ---
-layout:				layout_default
+layout: layout_default
 ---
 		<!-- enterprise -->
 			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
 				for enterprise in site.enterprise limit:1 %}
 				<header>
-					<h2>{{ enterprise.title }}</h2>{% 
+					<h2>{{ site.title }} for {{ enterprise.title }}</h2>{% 
 					if enterprise.subtitle %}
 					<p>{{ enterprise.subtitle }}</p>{% else %}{% 
 					endif %}
 				</header>
 				<div class="inner">
-					<div class="row gtr-150 align-center">
+					<div class="row gtr-200 align-center">
 						<div class="col-12">
 							{{ enterprise.content | strip_newlines }}
+							<br/>
 						</div>{% 
 				endfor %}{% 
 					for enterprise in site.enterprise offset:1 limit:3 %}
-						<div class="col-4 col-12-small">
-							<span class="feature-icon"><span class="icon {{ enterprise.icon-class }}"></span></span>
-							<h3>{{ enterprise.title }}</h3>
+						<div class="col-4 col-12-small inactive ent-transition">
+							<span class="feature-icon icon-ent-trans"><span class="icon {{ enterprise.icon-class }}"></span></span>
+							<h3 class="text-ent-trans">{{ enterprise.title }}</h3>
 							{{ enterprise.content | strip_newlines }}
 						</div>{% 
 					endfor %}{% 
 					for enterprise in site.enterprise offset:4 limit:1 %}
-						<div class="col-12">
-							<span class="feature-icon"><span class="icon {{ enterprise.icon-class }}"></span></span>
+						<div class="col-8 col-10-medium col-12-small" style="margin:0 auto;">
+							<br/><br/>
 							<h3>{{ enterprise.title }}</h3>
-							{{ enterprise.content | strip_newlines }}
+							<div class="align-left">
+								{{ enterprise.content }}
+							</div>
+							<br/><br/>
+						</div>{% 
+					endfor %}{% 
+					for enterprise in site.enterprise offset:5 %}
+						<div class="col-12">
+							<h3>{{ enterprise.title }}</h3>
+							{{ enterprise.content }}
 						</div>{% 
 					endfor %}
 					</div>

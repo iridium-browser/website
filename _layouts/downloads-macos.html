@@ -14,7 +14,9 @@ layout: layout_downloads
 					<form action="{{ page.dl-url }}{% if page.dl-folder == null %}{{ page.version }}{% else %}{{ page.dl-folder }}{% endif %}{{ page.dl-file }}{{ page.version }}{{ page.dl-end }}">
 						<button type="submit" title="download for macOS" class="button download">macOS download</button>
 					</form>
-						
+					<div class="box note {{ page.width }}">
+						{{ content }}
+					</div>
 					<div class="container bottom-note">
 						<p>If you are looking for previous versions, please check out the <a href="https://downloads.iridiumbrowser.de/macos/" title="go to build archive">build archive</a></p>
 						<p>System requirements:<br/>{% 

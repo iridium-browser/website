@@ -49,7 +49,8 @@
 			&:after {
 				content: "\f054";
 				font-family: FontAwesome;
-				padding-left: 1rem;
+				padding-left: 1.25rem;
+				margin-right: -0.45rem;
 			}
 		}
 
@@ -144,10 +145,10 @@
 			background-color: _palette(accent1, bg);
 			box-shadow: none;
 			color: _palette(fg-wht) !important;
-			height: _size(element-height) * 0.85 !important;
+			height: _size(element-height);
 			line-height: _size(element-height) * 0.85 !important;
 			border-radius: _size(element-height) * 0.85;
-			padding: 0 1.65rem;
+			padding: 0.175rem 1.65rem;
 			margin: 0;
 			position: relative;
 
@@ -285,7 +286,7 @@
 			box-shadow: 0 0 0 0 transparent;
 			color: _palette(fg-wht) !important;
 			font-weight: _font(weight-bold);
-			font-size: 1.35rem;
+			font-size: 1.25rem;
 			padding: 0 .1rem;
 			margin-right: .65em;
 			
@@ -303,7 +304,7 @@
 			}
 			&.current {
 				color: lighten(_palette(accent1,bg), 25) !important;
-				font-size: 1.5rem;
+				font-size: 1.4rem;
 			}
 		}
 	}

@@ -4,8 +4,8 @@ subtitle:	"Stay up to date and follow us"
 step-in:
  - text:	Please report any issues and address any questions to our
    link:	https://github.com/iridium-browser/tracker/issues
-   name:	bug tracker at GitHub
-   title:	report issues to our bug tracker at GitHub
+   name:	bug tracker on GitHub
+   title:	report issues to our bug tracker on GitHub
  - text:	Download the
    link:	/downloads/source
    name:	source code

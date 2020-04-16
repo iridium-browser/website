@@ -49,16 +49,19 @@ layout: layout_start
 				<div class="inner align-center">
 					<div class="row gtr-uniform">{% 
 					for downloads in site.downloads offset:1 limit:6 %}
-						<div class="col-2 col-4-medium os-transition">
+						<div class="col-2 col-4-medium dl-transition">
 							<a href="{{ downloads.link | relative_url  }}" title="download Iridium Browser for {{ downloads.label }}">
-								<div class="icon-rotator icon-os os {{ downloads.icon-class }}"></div>
-								<div class="icon-os os label label-fader">{{ downloads.label }}</div>
+								<div class="icon-slide-up-fade icon-os os {{ downloads.icon-class }}"></div>
+								<div class="label-slide-up-fade icon-os os label">{{ downloads.label }}</div>
 							</a>
 						</div>{% 
 					endfor %}
 					</div>
 				</div>
 				<div class="inner align-center">{% 
+				for enterprise in site.enterprise limit:1 %}{% if enterprise.button == "yes" %}
+					<a href="{{ '/enterprise' | relative_url }}" class="button large wht icon-right" title="Iridium Browser Enterprise">Enterprise Edition</a>{% 
+				endif %}{% endfor %}{% 
 				for downloads in site.downloads limit:1 %}
 					{{ downloads.content | strip_newlines }}{% 
 				endfor %}
@@ -71,7 +74,7 @@ layout: layout_start
 				</header>
 				<div class="inner w-75">
 					<div class="post">
-							<article class="slide-in-scale">
+							<article class="news-transition">
 								<div class="content">{% 
 								for post in site.posts limit:1 %}
 									<p class="icon fa-calendar small ">{{ post.date | date_to_long_string }}</p>
@@ -112,7 +115,7 @@ layout: layout_start
 		<!-- Link-boxes -->
 			<div class="link-boxes row inner alt">{% 
 			for link-boxes in site.link-boxes %}
-				<a href="{{ link-boxes.link | relative_url }}" class="{{ link-boxes.accent }} col-12">
+				<a href="{{ link-boxes.link | relative_url }}" class="{{ link-boxes.accent }} col-6 col-12-small">
 					<div class="content">
 						<h2>{{ link-boxes.title }}</h2>
 						{{ link-boxes.content | strip_newlines }}

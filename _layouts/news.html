@@ -9,8 +9,17 @@ layout:		layout_default
 				</header>
 				<div class="inner w-75">
 					<div class="post">{% 
-						for post in site.posts limit:3 %}
-							<article>
+						for post in site.posts limit:2 %}
+							<article class="inactive slide-up-scale">
+								<div class="content">
+									<p class="icon fa-calendar small ">{{ post.date | date_to_long_string }}</p>
+									<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+									{{ post.content | strip_newlines }}
+								</div>
+							</article>{% 
+						endfor %}{% 
+						for post in site.posts offset:2 limit:1 %}
+							<article class="news-transition">
 								<div class="content">
 									<p class="icon fa-calendar small ">{{ post.date | date_to_long_string }}</p>
 									<h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>

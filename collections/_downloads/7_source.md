@@ -8,9 +8,11 @@ link:				/downloads/source
 permalink:			/downloads/source
 page-id:			source-code
 style:				style1
-width:				w-50
-icon-class:			fa-code
+width:				w-75
 
+icon-class:			fa-code-fork
+OS: 				Git Repository
+subtitle:			Clone the source code with Git
 
 structured-data:
   os0:			source code
@@ -18,29 +20,40 @@ structured-data:
   value:		5
   count:		2761
 sitemap:
-  lastmod:		2020-02-26 10:00:00 +0100
+  lastmod:		2020-02-26 10:00
   priority:		0.8
   changefreq:	'daily'
 ---
-
 {::options parse_block_html="true" /}
-<div class="icon os fa-github"></div>
-<header>
-### Git Repository #
-Clone the source code with Git
-</header>
+<div class="row gtr-200">
+<div class="col-6 col-12-small">
+##### *Global* #
+{:.dl}
 
 	git clone https://github.com/iridium-browser/iridium-browser
 {:#data}
+</div>
+<div class="col-6 col-12-small">
+##### *DE* #
+{:.dl}
 
-Browse the source code:<br/>
-Git web view  [https://github.com/iridium-browser/iridium-browser](https://github.com/iridium-browser/iridium-browser "Git web view")
+	git clone git://git.iridiumbrowser.de/iridium-browser
+{:#data2}
+</div></div>
 
-<div class="icon os fa-code"></div>
+##### Browse the source code #
+{:.dl}
+<form action="https://github.com/iridium-browser/iridium-browser">
+<button type="submit" title="Git web view" class="button wht icon fa-code">Git web view</button>
+</form>
+<br/>
+<div class="icon os fa-file-code-o"></div>
 <header>
-### Source Code #
-Download the source code
+### Source Code Archives #
+Download the source code as tar archives   
+##### *DE* #
 </header>
-<form action="https://downloads.iridiumbrowser.de/source/">
+<form action="https://downloads.iridiumbrowser.de/source/" target="_blank">
 <button type="submit" title="Download source code" class="button download">Download source code</button>
 </form>
+<br/>
