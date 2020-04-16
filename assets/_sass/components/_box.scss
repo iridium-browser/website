@@ -58,7 +58,7 @@
 		}
 
 			@include breakpoint('<=small') {
-				overflow-x: scroll;
+				overflow-x: hidden;
 			}
 		}
 	}

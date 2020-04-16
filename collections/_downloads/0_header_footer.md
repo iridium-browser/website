@@ -54,7 +54,7 @@ sitemap:
   priority:		0.5
   changefreq:	'daily'
 ---
-[Enterprise Edition]({{ '/enterprise' | relative_url }} "Iridium Browser Enterprise"){:.button .wht .icon-right .large}
+[Enterprise Edition]({{ '/enterprise' | relative_url }} "Iridium Browser Enterprise"){:.button .large .wht .icon-right}
    
    
    

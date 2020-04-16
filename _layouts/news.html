@@ -18,7 +18,7 @@ layout:		layout_default
 								</div>
 							</article>{% 
 						endfor %}{% 
-						for post in site.posts offset:1 limit:1 %}
+						for post in site.posts offset:2 limit:1 %}
 							<article class="news-transition">
 								<div class="content">
 									<p class="icon fa-calendar small ">{{ post.date | date_to_long_string }}</p>
