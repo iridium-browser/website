@@ -9,7 +9,7 @@ hotpic:				"/assets/images/hotpics/Iridium-hotpic-linux-release-2020.03.png"
 menu: 				no
 structured-data:	"news"
 ---
-New builds versions **2020.03** based on Chromium 80.0.3987.116 are available for **Fedora** and **RHEL/CentOS**. 
+New build version **2020.03** based on Chromium 80.0.3987.116 are available for **Fedora** and **RHEL/CentOS**. 
 Also available is version **2020.04** based on Chromium 81.0.4044.92 for all **openSUSE** platforms.   
 
 <a id="download-parser2" class="button download" title="download Iridium Browser">Download</a>
