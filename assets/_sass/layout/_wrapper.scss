@@ -131,8 +131,8 @@
 			&.style4 {
 				background: radial-gradient(
 					circle, 
-					darken(_palette(accent1,bg), 5),
-					darken(_palette(accent1,bg), 20)
+					darken(_palette(accent1,bg), 2.5),
+					darken(_palette(accent1,bg), 15)
 				);
 				
 				h2, h3, p {
