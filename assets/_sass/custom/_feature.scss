@@ -25,10 +25,15 @@
 			width: 50%;
 
 			img {
+				@include vendor('transition', ('transform #{_duration(transition)} ease-in-out'));
 				display: block;
 				min-height: 100%;
 				min-width: 100%;
 				position: absolute;
+
+				&:hover {
+					@include vendor('transform', 'scale(1.05)');
+				}
 			}
 		}
 
@@ -107,7 +112,7 @@
 		}
 
 		@include breakpoint('<=medium') {
-				background: transparentize(darken(_palette(accent2, bg), 15), .625);
+				background: transparentize(darken(_palette(accent2, bg), 10), .625);
 				border-radius: _size(border-radius);
 				display: block;
 				height: auto;
