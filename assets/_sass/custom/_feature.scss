@@ -25,7 +25,7 @@
 			width: 50%;
 
 			img {
-				@include vendor('transition', ('transform #{_duration(transition)} ease-in-out'));
+				@include vendor('transition', ('transform #{_duration(button)} ease-in-out'));
 				display: block;
 				min-height: 100%;
 				min-width: 100%;
