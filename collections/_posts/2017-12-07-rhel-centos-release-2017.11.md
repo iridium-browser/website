@@ -5,7 +5,7 @@ description: "The developers just released Version 2017.11 for Red Hat Enterpris
 date:   2017-12-07 18:00:00 +0100
 author:	admin
 categories: news
-hotpic:	 "/assets/images/hotpics/Iridium-hotpic-rhel-2017.11.png"
+hotpic:	 "/assets/images/hotpics/Iridium-hotpic-release-2017.11-rhel.png"
 menu: no
 structured-data: "news"
 ---

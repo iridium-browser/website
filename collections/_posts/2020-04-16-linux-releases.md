@@ -5,7 +5,7 @@ description: 		"New Linux releases now available for Fedora and RHEL/CentOS as w
 date:	 			2020-04-16 20:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-linux-release-2020.03.png"
+hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-2020.03-linux.png"
 menu: 				no
 structured-data:	"news"
 ---
