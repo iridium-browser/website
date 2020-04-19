@@ -63,7 +63,6 @@ collections:
     output: false
   faq:
     output: false
-    sort_by: position
   footer:
     output: false
   link-boxes:
