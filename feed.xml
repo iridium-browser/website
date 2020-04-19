@@ -6,8 +6,6 @@ sitemap:
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<icon>{{ '/assets/images/logos/iridium-icon.svg/' | absolute_url }}</icon>
-<logo>{{ '/assets/images/logos/iridium-logo_small.svg/' | absolute_url }}</logo>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
