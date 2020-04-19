@@ -76,7 +76,7 @@
 			@include vendor('perspective', '500px');
 
 			&:before {
-				@include vendor('transition', ('transform #{_duration(transition)} ease-in-out', 'font-size #{_duration(transition)} ease-in-out'));
+				@include vendor('transition', ('transform #{_duration(button)} ease-in-out', 'font-size #{_duration(transition)} ease-in-out'));
 				color: #fff;
 				font-size: 6em;
 				height: 1em;
@@ -102,7 +102,7 @@
 		overflow: hidden;
 
 		img {
-			@include vendor('transition', 'transform #{_duration(transition)} ease-in-out');
+			@include vendor('transition', 'transform #{_duration(button)} ease-in-out');
 			width: 100%;
 		}
 

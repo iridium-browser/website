@@ -120,7 +120,7 @@
 		}
 
 		@include breakpoint('<=medium') {
-				background: transparentize(darken(_palette(accent2, bg), 10), .625);
+				background: transparentize(darken(_palette(accent2, bg), 7.5), .625);
 				border-radius: _size(border-radius);
 				display: block;
 				height: auto;
