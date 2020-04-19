@@ -50,7 +50,7 @@ structured-data:
   value:		4.9
   count:		5669
 sitemap:
-  lastmod:		2020-02-26 10:00:00 +0100
+  lastmod:		2020-04-20 10:00
   priority:		0.5
   changefreq:	'daily'
 ---
