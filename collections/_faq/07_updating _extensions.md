@@ -1,7 +1,7 @@
 ---
-title:	"Why do extensions not update automatically and why does the extension panel not fully work?"
-date:	2018-05-16 18:00
-faq-id:	updating-extensions
+title:		"Why do extensions not update automatically and why does the extension panel not fully work?"
+faq-id:		updating-extensions
+position:	7
 ---
 
 Updating the extensions automatically does not work, as it would require a connection to the Chrome Web Store. 
