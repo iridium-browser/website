@@ -13,6 +13,10 @@
 			display: block;
 		}
 
+		&:last-child {
+			margin-bottom: _size(element-height);
+		}
+
 		h3, h4, h5, h6 {
 			text-align: inherit;
 		}
@@ -108,6 +112,10 @@
 
 				.content {
 					padding: 2rem;
+				}
+
+				&:last-child {
+					margin-bottom: 2.75rem;
 				}
 		}
 
