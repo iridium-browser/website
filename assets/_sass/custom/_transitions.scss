@@ -59,8 +59,8 @@
 
 	.news-transition, .slide-up-scale {
 		@include vendor('transition', ( 
-			'transform #{_duration(feature)} ease',
-			'opacity #{_duration(feature)} ease'
+			'transform #{_duration(feature-icon)} ease',
+			'opacity #{_duration(feature-opacity)} ease'
 		));
 
 		&.inactive {

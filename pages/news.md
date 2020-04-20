@@ -16,7 +16,7 @@ submenu-details:
     link:			"/news/archive/"
 structured-data:	"yes"
 sitemap:
-  lastmod:			2020-03-30 12:00
+  lastmod:			2020-04-20 10:00
   priority:			0.7
   changefreq:		'daily'
 ---

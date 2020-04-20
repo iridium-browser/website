@@ -112,7 +112,8 @@ layout: layout_start
 				endfor %}
 				</div>
 			</section>
-		<!-- Link-boxes -->
+		<!-- Link-boxes -->{% 
+		for enterprise in site.enterprise limit:1 %}{% if enterprise.button == "yes" %}
 			<div class="link-boxes row inner alt">{% 
 			for link-boxes in site.link-boxes %}
 				<a href="{{ link-boxes.link | relative_url }}" class="{{ link-boxes.accent }} col-6 col-12-small">
@@ -122,4 +123,17 @@ layout: layout_start
 					</div>
 				</a>{% 
 			endfor %}
-			</div>
+			</div>{% 
+		else %}
+			<div class="link-boxes row inner alt">{% 
+			for link-boxes in site.link-boxes limit:1 %}
+				<a href="{{ link-boxes.link | relative_url }}" class="{{ link-boxes.accent }} col-12">
+					<div class="content">
+						<h2>{{ link-boxes.title }}</h2>
+						{{ link-boxes.content | strip_newlines }}
+					</div>
+				</a>{% 
+			endfor %}
+			</div>{% 
+			endif %}{% 
+		endfor %}

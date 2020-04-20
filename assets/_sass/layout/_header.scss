@@ -159,15 +159,15 @@
 							'color #{_duration(transition)} ease-in-out',
 							'transform #{_duration(transition)} ease-in-out',
 						));
-						@include vendor('transform', 'scale(0.95)');
-						color: _palette(fg-wht);
+						@include vendor('transform', 'scale(0.995)');
+						color: _palette(bg-alt);
 						padding: 0.5rem 1rem;
-						text-decoration: none !important;
+						text-decoration: none;
 						border: 0;
 
 						&:active, &:hover, &:focus {
-							@include vendor('transform', 'scale(1.0)');
-							color: _palette(accent1,fg) !important;
+							@include vendor('transform', 'scale(1.05)');
+							color: _palette(fg-wht) !important;
 						}
 					}
 				}

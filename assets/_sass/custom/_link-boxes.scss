@@ -24,7 +24,7 @@
 			
 
 			.content {
-				@include vendor('transform', 'scale(0.95)');
+				@include vendor('transform', 'scale(0.975)');
 				@include vendor('transition', 'transform #{_duration(button)} ease-in-out');
 				
 				&:after {
@@ -70,7 +70,7 @@
 			
 			.content:after, h2, p {
 				@include vendor('transition', (
-					'color #{_duration(transition)} ease-in-out',
+					'color #{_duration(button)} ease-in-out',
 				));
 			}
 

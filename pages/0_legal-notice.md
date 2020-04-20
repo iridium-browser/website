@@ -11,9 +11,7 @@ style:				legal
 permalink:			/legal-notice
 structured-data:	"yes"
 sitemap:
-  lastmod:			2019-12-13 14:00:00 +0100
-  priority:			0.1
-  changefreq:		'weekly'
+  exclude: 			"yes"
 ---
 
 ## Impressum #

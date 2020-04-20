@@ -1,9 +1,8 @@
 ---
-title:	"Why does a yellow warning bubble appear below the address bar?"
-date:	2017-11-03 13:00
-faq-id:	warning-bubble
+title:		"Why does a yellow warning bubble appear below the address bar?"
+faq-id:		warning-bubble
+position:	3
 ---
-
 This helps the development team to find issues with potential privacy problems. 
 The development marks all external URLs they find in the Chromium source code with a “trk:” prefix. Additionally, all “trk:” URLs receive a number which makes tracing the code easier, i.e. ```git grep trk:173```.      
 When a marked URL is used while browsing, a warning “loading traced URL” in form of a yellow bubble below the address will be displayed, but the request will be executed.

@@ -43,7 +43,7 @@
 			}
 		}
 		&.os {
-				font-size: 4.5rem;
+			font-size: 4.5rem;
 		}
 		
 		&.contribute {
@@ -93,7 +93,6 @@
 	.icon-os {
 		@include icon-os;
 		border-bottom: none;
-		color: _palette(fg-wht);
 		position: relative;
 
 		> .label {

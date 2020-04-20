@@ -1,16 +1,16 @@
 ---
 layout: 			post
-title:  			"New Linux releases now available for Fedora, RHEL/CentOS and openSUSE"
-description: 		"New Linux releases now available for Fedora and RHEL/CentOS as well as openSUSE."
+title:  			"New Linux releases now available for Fedora, RHEL / CentOS and openSUSE"
+description: 		"New Linux releases now available for Fedora and Red Hat Enterprise Linux / CentOS as well as openSUSE."
 date:	 			2020-04-16 20:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-linux-release-2020.03.png"
+hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-2020.03-linux.png"
 menu: 				no
 structured-data:	"news"
 ---
-New builds versions **2020.03** based on Chromium 80.0.3987.116 are available for **Fedora** and **RHEL/CentOS**. 
-Also available is version **2020.04** based on Chromium 81.0.4044.92 for all **openSUSE** platforms.   
+Build version **2020.03** based on Chromium 80.0.3987.116 is available for **Fedora** and **Red Hat Enterprise Linux** / **CentOS 7 & 8**.   
+Also available is the brand new version **2020.04** based on Chromium 81.0.4044.92 for **openSUSE Leap 15.1 & Tumbleweed**.   
 
 <a id="download-parser2" class="button download" title="download Iridium Browser">Download</a>
 

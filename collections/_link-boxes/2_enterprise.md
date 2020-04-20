@@ -4,4 +4,4 @@ title:		Enterprise
 accent:		accent2
 link:		"/enterprise"
 ---
-Unlock business capabilities to secure, orchestrate and power your workforce.
+Power your team with business capabilities.

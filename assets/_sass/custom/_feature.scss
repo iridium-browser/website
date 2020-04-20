@@ -13,6 +13,10 @@
 			display: block;
 		}
 
+		&:last-child {
+			margin-bottom: _size(element-height);
+		}
+
 		h3, h4, h5, h6 {
 			text-align: inherit;
 		}
@@ -25,10 +29,15 @@
 			width: 50%;
 
 			img {
+				@include vendor('transition', ('transform #{_duration(button)} ease-in-out'));
 				display: block;
 				min-height: 100%;
 				min-width: 100%;
 				position: absolute;
+
+				&:hover {
+					@include vendor('transform', 'scale(1.05)');
+				}
 			}
 		}
 
@@ -104,10 +113,14 @@
 				.content {
 					padding: 2rem;
 				}
+
+				&:last-child {
+					margin-bottom: 2.75rem;
+				}
 		}
 
 		@include breakpoint('<=medium') {
-				background: transparentize(darken(_palette(accent2, bg), 15), .625);
+				background: transparentize(darken(_palette(accent2, bg), 7.5), .625);
 				border-radius: _size(border-radius);
 				display: block;
 				height: auto;
