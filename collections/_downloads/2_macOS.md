@@ -3,8 +3,7 @@ layout:				downloads-macos
 title:				Download for macOS
 label:				macOS
 description:		Download Iridium Browser for macOS Mavericks 10.9 or higher. Iridium Browser is currently not available for iOS or any other mobile OS.
-hotpic-fb:			"/images/hotpics/Iridium-fb_hotpic-dl-macOS.png"
-hotpic-tw:			"/images/hotpics/Iridium-tw_hotpic-dl-macOS.png"
+hotpic:				"/assets/images/hotpics/Iridium-hotpic-dl-macOS.png"
 menu:				no
 link:				/downloads/macos
 permalink:			/downloads/macos

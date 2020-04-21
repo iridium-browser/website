@@ -3,6 +3,7 @@ layout:				downloads-source
 title:				Download Source Code
 label:				Source Code
 description:		Download the Iridium Browser source code from our git repository using the command line or simply download the tar.gz file.
+hotpic: 			"/assets/images/hotpics/Iridium-hotpic-news.png"
 menu:				no
 link:				/downloads/source
 permalink:			/downloads/source
