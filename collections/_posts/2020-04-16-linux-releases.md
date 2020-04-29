@@ -9,13 +9,13 @@ hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-2020.03-linux.png"
 menu: 				no
 structured-data:	"news"
 ---
-Build version **2020.03** based on Chromium 80.0.3987.116 is available for **Fedora** and **Red Hat Enterprise Linux** / **CentOS 7 & 8**.   
-Also available is the brand new version **2020.04** based on Chromium 81.0.4044.92 for **openSUSE Leap 15.1 & Tumbleweed**.   
+**Build version 2020.03** based on Chromium 80.0.3987.116 is available for **Fedora** and **Red Hat Enterprise Linux** / **CentOS 7 & 8**.   
+Also available is the brand new **version 2020.04** based on Chromium 81.0.4044.92 for **openSUSE Leap 15.1 & Tumbleweed**.   
 
 <a id="download-parser2" class="button download" title="download Iridium Browser">Download</a>
 
 Latest source code can be found [here](https://iridiumbrowser.de/downloads/source "check out latest Source Code").
 
-Up to date build **2020.04** will also be available for **Windows**, **macOS** and possibly **Debian-based** systems at some point next week.
+Up to date **build 2020.04** will also be available for **Windows**, **macOS** and possibly **Debian-based** systems at some point next week.
 
 Stay home and healthy!
