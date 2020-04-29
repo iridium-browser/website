@@ -13,10 +13,10 @@ width:				w-75
 
 icon-class:			fo-win10
 OS: 				Windows
-version:			2020.01.79
-chromium:			79.0.3945.130
+version:			2020.04.81
+chromium:			81.0.4044.92
 dl-url:				https://downloads.iridiumbrowser.de/windows/
-dl-folder:			2020.01.79
+dl-folder:			2020.04.81
 dl-file:			/iridiumbrowser-
 dl-end-32:			.0-x86.msi
 dl-end-64:			.0-x64.msi
