@@ -1,4 +1,5 @@
-	[
+	[{% 
+	unless page.structured-data == "news" %}
 		{
 		"@context": "http://schema.org",
 		"@type": "WebPage",
@@ -6,6 +7,7 @@
 		"url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
 		"description": "{{ page.description }}"
 		},{% 
+	endunless %}{% 
 	if page.structured-data == "news" %}
 		{
 		"@context": "https://schema.org",
