@@ -2,7 +2,7 @@
 layout:				news
 title: 				News
 description: 		All Iridium Browser news about the latest builds, releases, bug fixes and much more.
-hotpic: 			"/images/hotpics/Iridium-hotpic-news.png"
+hotpic: 			"/assets/images/hotpics/Iridium-hotpic-news.png"
 menu:				1
 link:				/news/
 permalink:			/news/

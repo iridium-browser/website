@@ -3,8 +3,7 @@ layout:				downloads-repo
 title:				Download for Fedora
 label:				Fedora
 description:		Download Iridium Browser for Fedora 31 and 32. Install package from repository using the command line.
-hotpic-fb:			"/images/hotpics/Iridium-fb_hotpic-dl-fedora.png"
-hotpic-tw:			"/images/hotpics/Iridium-tw_hotpic-dl-fedora.png"
+hotpic:				"/assets/images/hotpics/Iridium-hotpic-dl-fedora.png"
 menu:				no
 link:				/downloads/fedora
 permalink:			/downloads/fedora

@@ -38,75 +38,13 @@
 				"price": "0.00"		
 			}
 		},
-		{ 
-		"@context": "http://schema.org",
-		"@type": "Product",
-		"name": "{{ site.title }}",
-			"image": {
-				"@type": "ImageObject",
-				"height": "200",
-				"width": "200",
-				"contentUrl": "{{ site.hotlogo | absolute_url }}",
-				"url": "{{ site.url | append: site.baseurl }}"
-			},
-			"url": "{{ site.url | append: site.baseurl }}",
-			"description": "{{ site.description | strip_newlines }}",
-			"sku": "IB6677",
-			"brand": {
-				"@type": "Thing",
-				"name": "{{ site.title }}"
-			},
-			"aggregateRating": {
-				"@type": "AggregateRating",
-				"ratingValue": "{{ page.structured-data.value }}",
-				"bestRating" : "5",
-				"worstRating": "1",
-				"ratingCount": "{{ page.structured-data.count }}"
-			},
-			"offers": {
-				"@type": "Offer",
-				"priceCurrency": "EUR",
-				"price": "0.00",
-				"priceValidUntil": "2025-12-31",
-				"url": "{{ site.url | append: site.baseurl }}",
-				"itemCondition": "http://schema.org/NewCondition",
-				"availability": "http://schema.org/InStock",
-				"seller": {
-					"@type": "Organization",
-					"name": "{{ site.title }}"
-				}
-			},
-			"review": [{
-				"@type": "Review",
-				"name": "Experiencing Iridium Browser",
-				"reviewBody": "Overall, I had a good experience with Iridium. I was able to install all four of the extensions that I use. I did not have any trouble visiting the page that I wanted to look at. A yellow notification flashed up a few times while I was in the Chrome Web Store to show me where I was being redirected to. Since I was in the Chrome Web Store it was not a problem. One cosmetic issue that I noticed was that the branding was inconsistent. Some places said Iridium while others said Chromium. Whenever I see this on a forked project, I think to myself “I wonder if the devs ever heard of find & replace”. I was also surprised by the fact that there was an option to sign into your Google account. So I tried to take advantage of backing up my passwords and bookmarks from Chrome.",
-				"reviewRating": {
-				  "@type": "Rating",
-				  "ratingValue": "4.9"
-				},
-				"datePublished": "2019-05-08",
-				"author": {"@type": "Person", "name": "John Paul"},
-				"publisher": {"@type": "Organization", "name": "It's FOSS"}
-				},{
-				"@type": "Review",
-				"name": "Iridium Browser: die datensparsame Chrome-Alternative",
-				"reviewBody": "Der Iridium Browser kann ganz genauso wie Chrome benutzt werden. Doch im Gegensatz dazu werden keine Daten an Google übertragen. Außerdem wurden diverse Vorkehrungen zum maximalen Schutz der Privatsphäre aller Nutzer getroffen. Wer schon länger mit Google Chrome arbeitet und dessen Geschwindigkeit genießt, wird sich beim Iridium-Browser auch direkt zurechtfinden. Das ist kein Zufall, denn dieses Projekt der Stuttgarter Open Source Business Alliance beinhaltet in großen Teilen den Quellcode vom Chromium-Projekt. Doch im Gegensatz zu Chrome „funkt“ dieser Browser keine Informationen an Dritte. Ziel des Projekts war es, einen WebRTC-Browser zu entwickeln, der allen Anwendern gleichzeitig ein Maximum an Sicherheit und Privatsphäre bietet. Das geht schon damit los, dass als voreingestellte Suchmaschine Qwant genutzt wird, statt der Datenkrake Google. Auch wurden Plugins wie Java, Flash etc. bei der Installation standardmäßig deaktiviert. Alle 3rd party cookies werden per default blockiert. Alle Bestandteile von Chrome, die dazu dienen, Informationen über das Nutzerverhalten zu übertragen, wurden ebenfalls entfernt. Zudem werden unabhängig davon, ob es jetzt etwas bringt oder nicht, “DO-Not-Track” Header an alle besuchte Webseiten gesendet. Außerdem werden nach Verlassen einer Webseite alle Cookies und weitere Daten gelöscht. Da es sich um eine zu 100% kompatible Weiterentwicklung von Chrome handelt, sind alle Erweiterungen aus dem Chrome Web Store nutzbar und funktionieren auch im Zusammenspiel mit dem Iridium Browser. Der Download des Iridium Browser ist für Windows, Mac OS X und die Linux-Distributionen Debian, Fedora, openSuse, Rhel und Ubuntu verfügbar. Sogar der Quellcode des Browsers ist öffentlich einsehbar. Wer sich für die Details interessiert, bei den Kollegen von Botfrei.de werden alle eingebauten Sicherheitsfeatures im Detail aufgeführt. Fazit: Probieren geht in diesem Fall über studieren. Chrome-Anwender müssen sich nicht umstellen. Alle anderen Nutzer werden die hohe Geschwindigkeit schätzen und gar nicht weiter bemerken, was zum Wohl ihrer Privatsphäre so alles unter der Haube geschieht.",
-				"reviewRating": {
-				  "@type": "Rating",
-				  "ratingValue": "4.9"
-				},
-				"datePublished": "2018-02-26",
-				"author": {"@type": "Person", "name": "Lars 'Ghandy' Sobiraj"},
-				"publisher": {"@type": "Organization", "name": "tarnkappe.info"}
-			}]
-		},
 		{
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "{{ site.title }}",
 		"url": "{{ site.url | append: site.baseurl }}",
 		"logo": "{{ site.hotlogo | absolute_url }}",
-		"alternateName": "IB",
+		"alternateName": "Iridium",
 		"sameAs": [
 			"https://github.com/iridium-browser",
 			"https://www.facebook.com/iridiumbrowser/",

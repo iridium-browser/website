@@ -3,7 +3,7 @@ layout:				faq
 title:				FAQ
 subtitle:			Frequently Asked Questions
 description:		"Frequently Asked Questions: Learn more about Iridium Browser and its features such as updating the browser, synching bookmarks, default search engine, audio/video player, extensions and add ons, etc."
-hotpic:				"/images/hotpics/Iridium-hotpic-faq.png"
+hotpic:				"/assets/images/hotpics/Iridium-hotpic-faq.png"
 menu:				4
 link:				/faq
 permalink:			/faq.html

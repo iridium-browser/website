@@ -1,12 +1,5 @@
 	[
 		{
-		"@context": "http://schema.org",
-		"@type": "WebPage",
-		"name": "{{ page.title }}",
-		"url": "{{ page.url | prepend: site.baseurl | prepend: site.eurl }}",
-		"description": "{{ page.description }}"
-		},
-		{
 		"@context": "http://schema.org/",
 		"@type": "SoftwareApplication",
 		"name": "{{ site.title }}",
@@ -96,6 +89,13 @@
 				"author": {"@type": "Person", "name": "Lars 'Ghandy' Sobiraj"},
 				"publisher": {"@type": "Organization", "name": "tarnkappe.info"}
 			}]
+		},
+		{
+		"@context": "http://schema.org",
+		"@type": "WebPage",
+		"name": "{{ page.title }}",
+		"url": "{{ page.url | prepend: site.baseurl | prepend: site.eurl }}",
+		"description": "{{ page.description }}"
 		},
 		{
 		"@context": "http://schema.org",
