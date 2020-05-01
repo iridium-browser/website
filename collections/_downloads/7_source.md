@@ -22,7 +22,7 @@ structured-data:
   count:		2761
 sitemap:
   lastmod:		2020-04-16 10:00
-  priority:		0.8
+  priority:		0.6
   changefreq:	'daily'
 ---
 {::options parse_block_html="true" /}

@@ -12,7 +12,7 @@ submenu:			"no"
 structured-data:	"yes"
 sitemap:
   lastmod:			2020-04-16 12:00
-  priority:			0.6
+  priority:			0.7
   changefreq:		'daily'
 
 ATTENTION: Content is in a collection see 'collections/_about'

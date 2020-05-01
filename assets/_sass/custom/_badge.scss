@@ -10,7 +10,7 @@
 	$badge-background:			_palette(accent1,bg);
 	$badge-color:				_palette(bg);
 	$badge-color-hover:			_palette(fg-wht) !important;
-	$badge-font-size:			1.25rem;
+	$badge-font-size:			1.15rem;
 	$badge-font-size-sml:		0.95rem;
 	$badge-size:				5.25rem;
 	$badge-rotate:				30;
@@ -19,8 +19,8 @@
 	$badge-position-left:		5rem;
 	$badge-position-top-sml:	3rem;
 	$badge-position-left-sml:	2.25rem;
-	$badge-txt-padding: 		0 .125rem;
-	$badge-txt-padding-sml:		0 .075rem;
+	$badge-txt-padding: 		.15rem .175rem;
+	$badge-txt-padding-sml:		.15rem .05rem;
 	$badge-txt-margin: 			0 auto;
 
 
@@ -41,7 +41,7 @@
 			height: $badge-size;
 			width: $badge-size;
 			font-size: $badge-font-size;
-			line-height: 1.75;
+			line-height: 1.6;
 			display: inline-block;
 			position: absolute;
 			top: 0;
@@ -72,7 +72,7 @@
 			}
 			.small {
 				letter-spacing: _font(letter-spacing);
-				font-size: .9rem;
+				font-size: ($badge-font-size * 0.8);
 			}
 		}
 		.bg-badge {
@@ -108,7 +108,7 @@
 				padding: $badge-txt-padding-sml;
 
 				.small {
-					font-size: .75rem;
+					font-size: ($badge-font-size-sml * 0.875);
 				}
 			}
 			.bg-badge {

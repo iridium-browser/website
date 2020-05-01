@@ -12,7 +12,7 @@ style:				style5
 structured-data:	"faq"
 sitemap:
   lastmod:			2020-04-16 12:00
-  priority:			0.5
+  priority:			0.7
   changefreq:		'weekly'
 
 ATTENTION: Content is in a collection see 'collections/_faq'
