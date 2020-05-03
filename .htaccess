@@ -64,7 +64,7 @@ AddType video/webm .webm
   Header set X-Download-Options "noopen"
   Header set X-Permitted-Cross-Domain-Policies "none"
   Header set Referrer-Policy "no-referrer"
-  Header always set Feature-Policy "microphone 'none'; payment 'none'; sync-xhr 'self' {{ '/' | absolute_url }}"
+  Header always set Feature-Policy "microphone 'none'; payment 'none'; sync-xhr 'self' {{ site.url }}"
   Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains; env=HTTPS"
   Header set Connection keep-alive
   SetEnv modHeadersAvailable true
