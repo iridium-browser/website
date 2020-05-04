@@ -105,14 +105,14 @@
 		});
 
 	// Menu.
-		$('<a href="#navPanel" class="navPanelToggle"><span class="not-small">Menu</span></a>')
+		$('<a href="#navPanel" class="navPanelToggle" title="Menu"><span class="not-small">Menu</span></a>')
 			.appendTo($header);
 
 		$(	'<div id="navPanel">' +
 				'<nav>' +
 					$('#nav') .navList() +
 				'</nav>' +
-				'<a href="#navPanel" class="close"></a>' +
+				'<a href="#navPanel" class="close" title="close"></a>' +
 			'</div>')
 				.appendTo($body)
 				.panel({
