@@ -57,7 +57,7 @@ AddType video/ogg .ogv
 AddType video/webm .webm
 
 <IfModule mod_headers.c>
-  Header set Content-Security-Policy "default-src 'none'; font-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; media-src 'self'; object-src 'none'; script-src 'self'; style-src 'self'; worker-src 'self'; base-uri 'self';"
+  Header set Content-Security-Policy "default-src 'self'; base-uri 'self'; script-src 'self'; worker-src 'self'; img-src data: 'self'; style-src 'unsafe-inline' 'self'; connect-src 'self'; object-src 'none';"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set X-XSS-Protection "1; mode=block"
   Header set X-Content-Type-Options "nosniff"
