@@ -1,0 +1,34 @@
+---
+layout: layout_default
+---
+		<!-- FAQ -->
+			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
+				for faq in site.faq limit:1 %}
+				<header>
+					<h2>{{ faq.title }}</h2>
+					<p>{{ faq.subtitle }}</p>
+				</header>
+				<div class="inner">{%
+				endfor %}{% 
+					for faq in site.faq offset:1 limit:3 %}
+					<div class="id" id="{{ faq.faq-id}}"></div>
+					<div class="box faq inactive slide-up">
+						{% unless faq.title == "none" %}<h3>{{ faq.title }}</h3>{% endunless %}
+						{{ faq.content | strip_newlines }}
+					</div>{% 
+					endfor %}{% 
+					for faq in site.faq offset:4 %}
+					<div class="id" id="{{ faq.faq-id}}"></div>
+					<div class="box faq faq-transition">
+						{% unless faq.title == "none" %}<h3>{{ faq.title }}</h3>{% endunless %}
+						{{ faq.content | strip_newlines }}
+					</div>{% 
+					endfor %}{% 
+					for faq in site.faq limit:1 %}
+					<div class="id" id="{{ faq.faq-id}}"></div>
+					<div class="box faq faq-transition">
+						{{ faq.content | strip_newlines }}
+					</div>{% 
+					endfor %}
+				</div>
+			</section>

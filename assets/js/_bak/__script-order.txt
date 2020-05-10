@@ -16,6 +16,7 @@ plugins-v0.01.min.js
 
 app-v0.024.min.js
 - ua-parser-forward.js
+- jquery.accordion.js
 - main.js
 - pwa-plugin-build.js		!!! replace 'XXX'
 - ua-parser-button.js

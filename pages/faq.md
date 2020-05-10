@@ -17,4 +17,6 @@ sitemap:
 
 ATTENTION: Content is in a collection see 'collections/_faq'
 ---
-## FAQ #
+
+For all general questions about the browser, please visit [Chrome help pages](https://support.google.com/chrome/?p=help "go to Chrome help pages")
+{:.align-center .faq-transition}

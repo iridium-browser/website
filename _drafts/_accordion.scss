@@ -1,0 +1,91 @@
+///
+/// Accordion - Iridium Browser
+///
+
+/* Accordion */	
+
+	article {
+		border-bottom: .125rem dotted _palette(bg-shadow);
+		padding-bottom: .5rem;
+		
+		&:last-child {
+			border-bottom: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	[data-accordion] [data-content] {
+		overflow: hidden;
+		max-height: 0;
+	}
+	[data-control],
+	[data-content] > * {
+		padding: 0;
+	}
+	[data-control] {
+		@include vendor('appearance', 'none');
+		@include vendor('transition', (
+			'background-color #{_duration(transitions)} ease-in-out', 
+			'color #{_duration(transitions)} ease-in-out'
+		));
+		width: 100%;
+		height: auto;
+		color: _palette(fg);
+		cursor: pointer;
+		display: block;
+		letter-spacing: _size(letter-spacing-alt);
+		text-decoration: none;
+		margin: .5rem 0 0 0;
+		padding: .75rem .8rem .55rem .8rem;
+		
+		h4 {
+			width: calc(100% - 3rem);
+			margin: auto 0;
+			padding: 0;
+		}
+		&:hover  {
+			background-color: darken(_palette(border), 2.5);
+		}
+	}
+	[data-content] > * {
+		@include vendor('transition', 'transform #{_duration(feature-icon)} ease-in-out');
+		background-color: darken(_palette(border), 2.5);
+		border-right: .2rem ridge _palette(border-bg);
+		border-left: .2rem ridge _palette(border-bg);
+		border-bottom: .2rem ridge _palette(border-bg);
+		border-radius: 0 0  _size(border-radius) _size(border-radius);
+		margin: 0 0 .5rem 0;
+		padding: .55rem .5rem;
+	}
+	[data-content] [data-accordion] {
+		border: 0;
+		padding: 0;
+	}
+	[data-accordion] [data-control] {
+		position: relative;
+		padding-right: 0;
+	}
+	[data-accordion].open > [data-control] {
+		@include vendor('transition', 'transform #{_duration(feature-icon)} ease-in-out');
+		background-color: darken(_palette(border), 2.5);
+		border-top: .2rem ridge _palette(border-bg);
+		border-right: .2rem ridge _palette(border-bg);
+		border-left: .2rem ridge _palette(border-bg);
+		border-radius: _size(border-radius) _size(border-radius) 0 0;
+		padding: .55rem .6rem;
+	}
+	[data-accordion] > [data-control]:after {
+		@include vendor('transition', 'transform #{_duration(feature-icon)} ease-in-out');
+		content: "";
+		position: absolute;
+		top: 1rem;
+		right: .8rem;
+		height: 1rem;
+		width: 1rem;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+DQo8ZGVmcz4NCgk8c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojM2IzYjNiO3N0cm9rZS13aWR0aDoycHg7fTwvc3R5bGU+DQo8L2RlZnM+DQoJPGxpbmUgY2xhc3M9ImEiIHgxPSI4IiB4Mj0iOCIgeTI9IjE2Ii8+DQoJPGxpbmUgY2xhc3M9ImEiIHgxPSIxNiIgeTE9IjgiIHkyPSI4Ii8+DQo8L3N2Zz4=");
+	}
+	[data-accordion].open > [data-control]:after {
+		@include vendor('transform', 'rotate(-135deg)');
+		top: .8rem;
+		right: .6rem;
+	}

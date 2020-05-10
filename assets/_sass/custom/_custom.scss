@@ -64,11 +64,7 @@
 
 	#faq {
 		.id {
-			margin-bottom: 4.5rem;
-			
-			&:first-child {
-				margin-bottom: 0;
-			}
+			margin-bottom: _size(element-margin) * 2;
 		}
 	}
 

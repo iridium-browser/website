@@ -60,7 +60,13 @@ collections:
     output: false
   enterprise:
     output: false
-  faq:
+  faq-browser:
+    output: false
+    sort_by: position
+  faq-extensions:
+    output: false
+    sort_by: position
+  faq-general:
     output: false
     sort_by: position
   footer:
