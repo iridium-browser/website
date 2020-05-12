@@ -1,8 +1,13 @@
 ---
 title:		"How to install on macOS?"
 faq-id:		install-macOS
+date:		2020-04-16 12:00
 position:	2
 ---
+1.) Download the installer file from [iridiumbrowser.de](https://test.iridiumbrowser.de/downloads/macos "download Iridium Browser for macOS").   
+2.) Save the .dmg file to your computer and open it.   
+
+Please note:   
 Iridium Browser is currently signed but not notarized by Apple. Therefore you will need to update your 
 security settings to allow installing Iridium Browser.   
 In "System Preferences", click "Security & Privacy", then click "General".   

@@ -1,6 +1,7 @@
 ---
 title:		"Why does a yellow warning bubble appear below the address bar?"
 faq-id:		warning-bubble
+date:		2020-04-16 12:00
 position:	8
 ---
 This helps the development team to find issues with potential privacy problems. 

@@ -42,7 +42,7 @@
 		"@context": "http://schema.org",
 		"@type": "FAQPage",
 		"mainEntity": [{% 
-		for faq in site.faq offset:1 limit: 9 %}
+		for faq in site.faq offset:1 limit:14 %}
 			{
 			"@type": "Question",
 			"name": "{{ faq.title }}",
@@ -54,7 +54,7 @@
 				}
 			},{% 
 		endfor %}{% 
-		for faq in site.faq limit:1 offset:9 %}
+		for faq in site.faq offset:15 limit:1 %}
 			{
 			"@type": "Question",
 			"name": "{{ faq.title }}",
@@ -80,8 +80,8 @@
 				"@id": "{{ site.url | append: site.baseurl }}",
 				"name": "home"
 				}
-			},
-		{% unless page.structured-data == "news" %}
+			},{% 
+		unless page.structured-data == "news" %}
 			{
 			"@type": "ListItem",
 			"position": 2,
@@ -89,8 +89,8 @@
 				"@id": "{{ page.url | absolute_url }}",
 				"name": "{{ page.title }}"
 				}
-			}
-		{% else %}
+			}{% 
+		else %}
 			{
 			"@type": "ListItem",
 			"position": 2,
@@ -106,8 +106,8 @@
 				"@id": "{{ page.url | absolute_url }}",
 				"name": "{{ page.title }}"
 				}
-			}
-		{% endunless %}
+			}{% 
+		endunless %}
 			]
 		}
 	]

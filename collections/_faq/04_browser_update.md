@@ -1,6 +1,7 @@
 ---
 title:		"How to update Iridium Browser?"
 faq-id:		updating
+date:		2020-04-16 12:00
 position:	4
 ---
 Iridium Browser does not download and install updates automatically as it would need to call home which is blocked 

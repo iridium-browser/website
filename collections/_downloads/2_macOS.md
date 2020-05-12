@@ -35,4 +35,4 @@ sitemap:
 
 __Please note__    
 Iridium Browser is currently signed but not notarized by Apple. 
-Please refer to our [FAQ]({{ '/faq#macOS-install' | relative_url }} "Frequently Asked Questions - How to install on macOS?") for installation instructions.
+Please refer to our [FAQ]({{ '/faq' | relative_url }} "Frequently Asked Questions - How to install on macOS?") for installation instructions.

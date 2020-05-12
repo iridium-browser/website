@@ -1,7 +1,8 @@
 ---
 title:		"Why do extensions not update automatically and why does the extension panel not fully work?"
 faq-id:		updating-extensions
-position:	1
+date:		2020-04-16 12:00
+position:	71
 ---
 Updating the extensions automatically does not work, as it would require a connection to the Chrome Web Store. 
 This is also the reason why the extensions panel at ```chrome://extensions``` does not fully work — disabling/enabling (check box) and removing (trash can) will not work. 

@@ -1,6 +1,7 @@
 ---
 title:		"Why is Google Safe Browsing enabled by default?"
 faq-id:		safe-browsing
+date:		2020-04-16 12:00
 position:	7
 ---
 Iridium Browser has [Google Safe Browsing](http://blog.chromium.org/2012/01/all-about-safe-browsing.html) enabled by 

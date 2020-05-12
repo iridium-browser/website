@@ -13,26 +13,26 @@ layout: layout_default
 						<section id="single" data-accordion-group>
 							<div class="row gtr-200">
 								<div class="col-12">{% 
-								for faq-browser in site.faq-browser limit:1 %}
-								<h3>{{ faq-browser.title }}</h3>{% 
+								for faq in site.faq limit:1 %}
+								<h3>{{ faq.title }}</h3>{% 
 								endfor %}
 								</div>
 								<div class="col-6 col-12-medium">{% 
-								for faq-browser in site.faq-browser offset:1 limit:4 %}
+								for faq in site.faq offset:1 limit:6 %}
 									<article class="inactive slide-up" data-accordion>
-										<div title="{{ faq-browser.title }}" data-control><h4>{{ faq-browser.title }}</h4></div>
+										<div title="{{ faq.title }}" data-control><h4>{{ faq.title }}</h4></div>
 										<div data-content>
-											{{ faq-browser.content | strip_newlines }}
+											{{ faq.content | strip_newlines }}
 										</div>
 									</article>{% 
 								endfor %}
 								</div>
 								<div class="col-6 col-12-medium">{% 
-								for faq-browser in site.faq-browser offset:5 %}
+								for faq in site.faq offset:7 limit:6 %}
 									<article class="inactive slide-up" data-accordion>
-										<div title="{{ faq-browser.title }}" data-control><h4>{{ faq-browser.title }}</h4></div>
+										<div title="{{ faq.title }}" data-control><h4>{{ faq.title }}</h4></div>
 										<div data-content>
-											{{ faq-browser.content | strip_newlines }}
+											{{ faq.content | strip_newlines }}
 										</div>
 									</article>{% 
 								endfor %}
@@ -42,61 +42,29 @@ layout: layout_default
 					</div>
 			
 					<div class="box faq faq-transition">
-						<section id="only-one" data-accordion-group>
+						<section id="single" data-accordion-group>
 							<div class="row gtr-200">
 								<div class="col-12">{% 
-								for faq-extensions in site.faq-extensions limit:1 %}
-								<h3>{{ faq-extensions.title }}</h3>{% 
+								for faq in site.faq limit:1 %}
+								<h3>{{ faq.title2 }}</h3>{% 
 								endfor %}
 								</div>
 								<div class="col-6 col-12-medium">{% 
-								for faq-extensions in site.faq-extensions offset:1 limit:2 %}
+								for faq in site.faq offset:13 limit:2 %}
 									<article class="faq-transition" data-accordion>
-										<div title="{{ faq-extensions.title }}" data-control><h4>{{ faq-extensions.title }}</h4></div>
+										<div title="{{ faq.title }}" data-control><h4>{{ faq.title }}</h4></div>
 										<div data-content>
-											{{ faq-extensions.content | strip_newlines }}
+											{{ faq.content | strip_newlines }}
 										</div>
 									</article>{% 
 								endfor %}
 								</div>
 								<div class="col-6 col-12-medium">{% 
-								for faq-extensions in site.faq-extensions offset:3 %}
+								for faq in site.faq offset:15 %}
 									<article class="faq-transition" data-accordion>
-										<div title="{{ faq-extensions.title }}" data-control><h4>{{ faq-extensions.title }}</h4></div>
+										<div title="{{ faq.title }}" data-control><h4>{{ faq.title }}</h4></div>
 										<div data-content>
-											{{ faq-extensions.content | strip_newlines }}
-										</div>
-									</article>{% 
-								endfor %}
-								</div>
-							</div>
-						</section>
-					</div>
-
-					<div class="box faq faq-transition">
-						<section id="multiple" data-accordion-group>
-							<div class="row gtr-200">
-								<div class="col-12">{% 
-								for faq-general in site.faq-general limit:1 %}
-								<h3>{{ faq-general.title }}</h3>{% 
-								endfor %}
-								</div>
-								<div class="col-6 col-12-medium">{% 
-								for faq-general in site.faq-general offset:1 limit:2 %}
-									<article class="faq-transition" data-accordion>
-										<div title="{{ faq-general.title }}" data-control><h4>{{ faq-general.title }}</h4></div>
-										<div data-content>
-											{{ faq-general.content | strip_newlines }}
-										</div>
-									</article>{% 
-								endfor %}
-								</div>
-								<div class="col-6 col-12-medium">{% 
-								for faq-general in site.faq-general offset:3 %}
-									<article class="faq-transition" data-accordion>
-										<div title="{{ faq-general.title }}" data-control><h4>{{ faq-general.title }}</h4></div>
-										<div data-content>
-											{{ faq-general.content | strip_newlines }}
+											{{ faq.content | strip_newlines }}
 										</div>
 									</article>{% 
 								endfor %}

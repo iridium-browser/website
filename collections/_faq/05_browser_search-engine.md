@@ -1,6 +1,7 @@
 ---
 title:		"Why is Qwant the default search engine?"
 faq-id:		search-engine
+date:		2020-04-16 12:00
 position:	5
 ---
 Iridium Browser is an independent project, not connected to, supported or financed by any search engine.   

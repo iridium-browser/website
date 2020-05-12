@@ -1,7 +1,8 @@
 ---
 title:		"Why do some audio / video players not work in Iridium Browser?"
 faq-id:		av-players
-position:	3
+date:		2020-04-16 12:00
+position:	73
 ---
 Iridium Browser does not include all audio and video codecs or extensions such as Chrome.    
 This has many reasons, for instance, some codecs or extensions are proprietary and do not disclose their source code, and sometimes, there are legal issues as well. If you have any issues with audio or video, please try to install the codec or extension manually or from ```chrome://extensions```.    
