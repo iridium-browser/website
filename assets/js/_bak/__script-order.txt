@@ -1,7 +1,8 @@
 JS Script Order - https://jscompress.com/
 
-plugins-v0.01.min.js
-- jquery-3.4.1.min.js
+plugins-v0.02.min.js
+- jquery-3.5.1.min.js
+- jquery.event-listener.js
 - jquery.dropotron.min.js
 - jquery.selectorr.min.js
 - jquery.scrollex.min.js
