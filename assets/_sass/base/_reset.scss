@@ -54,10 +54,6 @@
 		border-spacing: 0;
 	}
 
-	body {
-		-webkit-text-size-adjust: none;
-	}
-
 	mark {
 		background-color: transparent;
 		color: inherit;
@@ -69,8 +65,6 @@
 	}
 
 	input, select, textarea {
-		-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearance: none;
 		appearance: none;
 	}
