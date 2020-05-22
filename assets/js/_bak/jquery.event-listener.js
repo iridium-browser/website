@@ -1,14 +1,40 @@
-jQuery.event.special.touchstart = 
-{
-	setup: function( _, ns, handle )
-	{
-		if ( ns.includes("noPreventDefault") ) 
-		{
-			this.addEventListener("touchstart", handle, { passive: false });
-		} 
-		else 
-		{
-			this.addEventListener("touchstart", handle, { passive: true });
-		}
-	}
-};
+(function() {
+  var supportsPassive = eventListenerOptionsSupported();  
+
+  if (supportsPassive) {
+    var addEvent = EventTarget.prototype.addEventListener;
+    overwriteAddEvent(addEvent);
+  }
+
+  function overwriteAddEvent(superMethod) {
+    var defaultOptions = {
+      passive: true,
+      capture: false
+    };
+
+    EventTarget.prototype.addEventListener = function(type, listener, options) {
+      var usesListenerOptions = typeof options === 'object';
+      var useCapture = usesListenerOptions ? options.capture : options;
+
+      options = usesListenerOptions ? options : {};
+      options.passive = options.passive !== undefined ? options.passive : defaultOptions.passive;
+      options.capture = useCapture !== undefined ? useCapture : defaultOptions.capture;
+
+      superMethod.call(this, type, listener, options);
+    };
+  }
+
+  function eventListenerOptionsSupported() {
+    var supported = false;
+    try {
+      var opts = Object.defineProperty({}, 'passive', {
+        get: function() {
+          supported = true;
+        }
+      });
+      window.addEventListener("test", null, opts);
+    } catch (e) {}
+
+    return supported;
+  }
+})();
