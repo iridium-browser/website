@@ -63,6 +63,17 @@
 /* Sections */
 
 	#faq {
+		.inner {
+			width: 80%;
+
+			@include breakpoint('<=medium') {
+				width: 90%;
+			}
+			@include breakpoint('<=small') {
+				width: 100%;
+			}
+		}
+	
 		.id {
 			margin-bottom: _size(element-margin) * 2;
 		}
