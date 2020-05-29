@@ -14,7 +14,7 @@ layout: layout_default
 							for faq in site.faq limit:1 %}
 							<h3>{{ faq.title }}</h3>{% 
 							endfor %}{% 
-							for faq in site.faq offset:1 limit:12 %}
+							for faq in site.faq offset:1 limit:11 %}
 							<article class="inactive slide-up" data-accordion>
 								<div title="{{ faq.title }}" data-control><h4>{{ faq.title }}</h4></div>
 								<div data-content>
@@ -30,7 +30,7 @@ layout: layout_default
 							for faq in site.faq limit:1 %}
 							<h3>{{ faq.title2 }}</h3>{% 
 							endfor %}{% 
-							for faq in site.faq offset:13 limit:15 %}
+							for faq in site.faq offset:12 %}
 							<article class="faq-transition" data-accordion>
 								<div title="{{ faq.title }}" data-control><h4>{{ faq.title }}</h4></div>
 								<div data-content>

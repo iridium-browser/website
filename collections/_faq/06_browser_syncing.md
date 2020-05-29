@@ -1,7 +1,7 @@
 ---
 title:		"Why syncing and signing in to Google does not work?"
 faq-id:		signin_syncing
-date:		2020-04-16 12:00
+date:		2020-05-29 12:00
 position:	6
 ---
 While not directly intentional, it kind of defeats the purpose of Iridium Browser if you are signed into Google and 

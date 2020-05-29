@@ -44,7 +44,7 @@ sitemap:
 
 ##### Browse the source code #
 {:.dl}
-<form action="https://github.com/iridium-browser/iridium-browser">
+<form action="https://github.com/iridium-browser/iridium-browser" target="_blank">
 <button type="submit" title="Git web view" class="button wht icon fa-code">Git web view</button>
 </form>
 <br/>
