@@ -144,8 +144,8 @@
 			&.style5 {
 				background: radial-gradient(
 					darken(_palette(accent1,bg), 20) 0%,
-					lighten(_palette(accent1, bg), 10) 55%, 
-					darken(_palette(accent1,bg), 15) 65%
+					lighten(_palette(accent1, bg), 10) 25%, 
+					darken(_palette(accent1,bg), 15) 45%
 				);
 
 				header {
@@ -155,10 +155,16 @@
 				}
 
 				.inner {
+					h3 {
+						color: _palette(fg);
+						text-align: center;
+						border-bottom: .125rem dotted _palette(bg-shadow);
+						padding-bottom: 1rem;
+					}
+
 					&.content {
-						h2, h3, h4, p {
-							color: _palette(fg);
-						}
+						color: _palette(fg);
+
 						code, pre {
 							border-color: _palette(fg) !important;
 						}

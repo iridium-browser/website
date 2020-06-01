@@ -130,18 +130,6 @@
 		opacity: 1.0;
 	}
 
-	:-moz-placeholder {
-		opacity: 1.0;
-	}
-
-	::-moz-placeholder {
-		opacity: 1.0;
-	}
-
-	:-ms-input-placeholder {
-		opacity: 1.0;
-	}
-
 	@mixin color-form($p: null) {
 		label {
 			color: _palette($p, fg-bold);
@@ -215,18 +203,6 @@
 		}
 
 		::-webkit-input-placeholder {
-			color: _palette($p, fg-light) !important;
-		}
-
-		:-moz-placeholder {
-			color: _palette($p, fg-light) !important;
-		}
-
-		::-moz-placeholder {
-			color: _palette($p, fg-light) !important;
-		}
-
-		:-ms-input-placeholder {
 			color: _palette($p, fg-light) !important;
 		}
 

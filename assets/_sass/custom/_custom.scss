@@ -63,12 +63,19 @@
 /* Sections */
 
 	#faq {
-		.id {
-			margin-bottom: 4.5rem;
-			
-			&:first-child {
-				margin-bottom: 0;
+		.inner {
+			width: 80%;
+
+			@include breakpoint('<=medium') {
+				width: 90%;
 			}
+			@include breakpoint('<=small') {
+				width: 100%;
+			}
+		}
+	
+		.id {
+			margin-bottom: _size(element-margin) * 2;
 		}
 	}
 
@@ -131,7 +138,6 @@
 	}
 
 	#source-code {
-	
 		.row {
 			margin-top: -7.5rem;
 		}

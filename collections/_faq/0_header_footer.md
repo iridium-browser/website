@@ -1,5 +1,5 @@
 ---
-title:		FAQ
-subtitle:	Frequently Asked Questions
+title:		Browser
+title2:		Extensions
 position:	0
 ---

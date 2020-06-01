@@ -50,7 +50,7 @@ structured-data:
   count:		5669
 sitemap:
   lastmod:		2020-04-20 10:00
-  priority:		0.5
+  priority:		0.7
   changefreq:	'daily'
 ---
 Iridium Browser is <u>not</u> available for Android, iOS or any other mobile platform, but is planned for the later half of 2020.

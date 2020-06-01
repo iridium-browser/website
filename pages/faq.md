@@ -11,10 +11,12 @@ id:					faq
 style:				style5
 structured-data:	"faq"
 sitemap:
-  lastmod:			2020-04-16 12:00
-  priority:			0.5
+  lastmod:			2020-06-01 12:00
+  priority:			0.7
   changefreq:		'weekly'
 
 ATTENTION: Content is in a collection see 'collections/_faq'
 ---
-## FAQ #
+
+For all general questions about the browser, please visit [Chrome help pages](https://support.google.com/chrome/?p=help "go to Chrome help pages")
+{:.align-center .faq-transition}

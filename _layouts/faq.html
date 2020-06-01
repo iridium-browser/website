@@ -2,27 +2,49 @@
 layout: layout_default
 ---
 		<!-- FAQ -->
-			<section id="{{ page.id }}" class="main {{ page.style }}">{% 
-				for faq in site.faq limit:1 %}
+			<section id="{{ page.id }}" class="main {{ page.style }}">
 				<header>
-					<h2>{{ faq.title }}</h2>
-					<p>{{ faq.subtitle }}</p>
+					<h2>{{ page.title }}</h2>
+					<p>{{ page.subtitle }}</p>
 				</header>
-				<div class="inner">{%
-				endfor %}{% 
-					for faq in site.faq offset:1 limit:3 %}
-					<div class="id" id="{{ faq.faq-id}}"></div>
-					<div class="box faq inactive slide-up">
-						{% unless faq.title == "none" %}<h3>{{ faq.title }}</h3>{% endunless %}
-						{{ faq.content | strip_newlines }}
-					</div>{% 
-					endfor %}{% 
-					for faq in site.faq offset:4 %}
-					<div class="id" id="{{ faq.faq-id}}"></div>
+				<div class="inner">
+
+					<div class="box faq inactive slide-up w-80">
+						<section id="single" data-accordion-group>{% 
+							for faq in site.faq limit:1 %}
+							<h3>{{ faq.title }}</h3>{% 
+							endfor %}{% 
+							for faq in site.faq offset:1 limit:11 %}
+							<article class="inactive slide-up" data-accordion>
+								<div title="{{ faq.title }}" data-control><h4>{{ faq.title }}</h4></div>
+								<div data-content>
+									{{ faq.content | strip_newlines }}
+								</div>
+							</article>{% 
+							endfor %}
+						</section>
+					</div>
+			
 					<div class="box faq faq-transition">
-						{% unless faq.title == "none" %}<h3>{{ faq.title }}</h3>{% endunless %}
-						{{ faq.content | strip_newlines }}
-					</div>{% 
-					endfor %}
+						<section id="single" data-accordion-group>{% 
+							for faq in site.faq limit:1 %}
+							<h3>{{ faq.title2 }}</h3>{% 
+							endfor %}{% 
+							for faq in site.faq offset:12 %}
+							<article class="faq-transition" data-accordion>
+								<div title="{{ faq.title }}" data-control><h4>{{ faq.title }}</h4></div>
+								<div data-content>
+									{{ faq.content | strip_newlines }}
+								</div>
+							</article>{% 
+							endfor %}
+						</section>
+					</div>
+
+					<div class="box faq faq-transition">
+						{{ content | strip_newlines }}
+					</div>
+
+<div class="id" id="{{ faq.faq-id}}"></div>
 				</div>
 			</section>

@@ -105,14 +105,14 @@
 		});
 
 	// Menu.
-		$('<a href="#navPanel" class="navPanelToggle"><span class="not-small">Menu</span></a>')
+		$('<a href="#navPanel" class="navPanelToggle" title="Menu"><span class="not-small">Menu</span></a>')
 			.appendTo($header);
 
 		$(	'<div id="navPanel">' +
 				'<nav>' +
 					$('#nav') .navList() +
 				'</nav>' +
-				'<a href="#navPanel" class="close"></a>' +
+				'<a href="#navPanel" class="close" title="close"></a>' +
 			'</div>')
 				.appendTo($body)
 				.panel({
@@ -216,6 +216,22 @@
 			titleSelector: 'h3',
 			delay: 250
 		});
+
+
+	// Accordion.
+		$(document).ready(function() {
+			$('#only-one [data-accordion]').accordion();
+			$('#multiple [data-accordion]').accordion({
+				singleOpen: false,
+				transitionEasing: 'cubic-bezier(0.455, 0.030, 0.515, 0.955)',
+				transitionSpeed: 800
+			});
+			$('#single [data-accordion]').accordion({
+				transitionEasing: 'cubic-bezier(0.455, 0.030, 0.515, 0.955)',
+				transitionSpeed: 800
+			});
+		});
+
 
 	// Back to Top.
 		$(window).on('scroll',function () {

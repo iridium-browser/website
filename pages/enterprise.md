@@ -13,7 +13,7 @@ style:				style3
 structured-data:	"enterprise"
 sitemap:
   lastmod:			2020-03-30 12:00
-  priority:			0.5
+  priority:			0.7
   changefreq:		'weekly'
 
 ATTENTION: Content is in a collection see 'collections/_enterprise'

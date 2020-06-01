@@ -51,14 +51,18 @@
 		}
 		&.faq {
 			background-color: _palette(border);
-			margin-bottom: 0;
+			margin-bottom: _size(element-margin);
+			padding: 1.5rem;
 
 			&:last-child {
-			margin-bottom: (_size(element-margin) * 1.375);
-		}
+				margin-bottom: (_size(element-margin) * 1.375);
+			}
 
 			@include breakpoint('<=small') {
 				overflow-x: hidden;
+				padding: .5rem;
+				padding-bottom: 1rem;
+				
 			}
 		}
 	}

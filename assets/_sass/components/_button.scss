@@ -16,7 +16,7 @@
 			'background-color #{_duration(button)} ease-in-out, 
 			color #{_duration(button)} ease-in-out'
 		));
-		border-radius: _size(border-radius);
+		border-radius: _size(element-height);
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
@@ -24,7 +24,6 @@
 		letter-spacing: _font(letter-spacing);
 		height: _size(element-height);
 		line-height: _size(element-height);
-		border-radius: _size(element-height);
 		padding: 0 1.625rem;
 		text-align: center;
 		text-decoration: none;
@@ -103,7 +102,6 @@
 			color: _palette(fg-wht) !important;
 			height: _size(element-height) * 0.85 !important;
 			line-height: _size(element-height) * 0.85 !important;
-			border-radius: _size(element-height) * 0.85;
 			padding: 0 1.65rem;
 			margin: 0;
 			top: -0.65rem;
@@ -147,7 +145,6 @@
 			color: _palette(fg-wht) !important;
 			height: _size(element-height);
 			line-height: _size(element-height) * 0.85 !important;
-			border-radius: _size(element-height) * 0.85;
 			padding: 0.175rem 1.65rem;
 			margin: 0;
 			position: relative;
@@ -196,7 +193,6 @@
 			color: _palette(accent1, bg) !important;
 			height: _size(element-height) * 0.85 !important;
 			line-height: _size(element-height) * 0.85 !important;
-			border-radius: _size(element-height) * 0.85;
 			padding: 0 1.65rem;
 			margin: 0;
 			position: relative;
@@ -249,7 +245,6 @@
 			width: _size(element-height);
 			height: _size(element-height);
 			line-height: _size(element-height);
-			border-radius: _size(element-height);
 			display: block;
 
 			&:before {

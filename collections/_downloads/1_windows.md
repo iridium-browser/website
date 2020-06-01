@@ -33,11 +33,11 @@ structured-data:
   count: 		5811
 sitemap:
   lastmod:		2020-02-26 10:00:00 +0100
-  priority:		0.8
+  priority:		0.6
   changefreq:	'daily'
 ---
 
 __* = Please note__    
 Running the Iridium portable version works out of the box. We recommend to create a shortcut using the    
 ```--user-data-dir=/IridiumUserData```    
-configuration option to store the user data to a preferred location (like a USB stick, etc.)    
+configuration option to store the user data to a preferred location (like a USB stick, etc.)

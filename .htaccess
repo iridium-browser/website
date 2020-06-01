@@ -57,14 +57,14 @@ AddType video/ogg .ogv
 AddType video/webm .webm
 
 <IfModule mod_headers.c>
-  Header set Content-Security-Policy "default-src 'self'; base-uri 'self'; script-src 'self'; worker-src 'self'; img-src data: 'self'; style-src 'unsafe-inline' 'self'; connect-src 'self'; object-src 'none';
+  Header set Content-Security-Policy "base-uri 'self'; connect-src 'self' {{site.url}}; default-src 'none'; font-src 'self'; img-src 'self' data:; manifest-src 'self'; media-src 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; worker-src 'self';"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set X-XSS-Protection "1; mode=block"
   Header set X-Content-Type-Options "nosniff"
   Header set X-Download-Options "noopen"
   Header set X-Permitted-Cross-Domain-Policies "none"
   Header set Referrer-Policy "no-referrer"
-  Header always set Feature-Policy "microphone 'none'; payment 'none'; sync-xhr 'self' {{ '/' | absolute_url }}"
+  Header always set Feature-Policy "microphone 'none'; payment 'none'; sync-xhr 'self' {{ site.url }}"
   Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains; env=HTTPS"
   Header set Connection keep-alive
   SetEnv modHeadersAvailable true
