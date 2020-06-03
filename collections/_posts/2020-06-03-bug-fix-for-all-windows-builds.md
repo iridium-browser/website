@@ -9,10 +9,11 @@ hotpic:				"/assets/images/hotpics/Iridium-hotpic-bug-fix.png"
 menu: 				no
 structured-data:	"news"
 ---
-A bug has been discovered in the latest builds for Windows. The bug did block downloading extensions as well as language packs as well as other features.   
-Privacy and security has not been breached at any time!
+A bug has been discovered in the latest Windows builds.   
+The bug prevents downloading extensions, language packs as well as other features that require a third-party connection.   
+Privacy and security was never breached at any time!
 
-This has now been fixed and a new version 2020.04 is available for download.
+This has been fixed and a new version 2020.04 is available for download.
 
 <a id="download-parser2" class="button download" title="download Iridium Browser">Download</a>
 
