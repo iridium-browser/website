@@ -18,10 +18,10 @@ chromium:			81.0.4044.92
 dl-url:				https://downloads.iridiumbrowser.de/windows/
 dl-folder:			2020.04.81
 dl-file:			/iridiumbrowser-
-dl-end-32:			.0-x86.msi
-dl-end-64:			.0-x64.msi
-dl-end-32port:		.0-x86.zip
-dl-end-64port:		.0-x64.zip
+dl-end-32:			.1-x86.msi
+dl-end-64:			.1-x64.msi
+dl-end-32port:		.1-x86.zip
+dl-end-64port:		.1-x64.zip
 sys-reqs:
 - Windows 7+
 - A processor capable of SSE2
@@ -30,9 +30,9 @@ structured-data:
   os0: 			Windows
   os1: 			Windows
   value: 		4.9
-  count: 		5811
+  count: 		6402
 sitemap:
-  lastmod:		2020-02-26 10:00:00 +0100
+  lastmod:		2020-06-03 18:00
   priority:		0.6
   changefreq:	'daily'
 ---
