@@ -42,7 +42,7 @@
 		"@context": "http://schema.org",
 		"@type": "FAQPage",
 		"mainEntity": [{% 
-		for faq in site.faq offset:1 limit:14 %}
+		for faq in site.faq offset:1 limit:13 %}
 			{
 			"@type": "Question",
 			"name": "{{ faq.title }}",
@@ -54,7 +54,7 @@
 				}
 			},{% 
 		endfor %}{% 
-		for faq in site.faq offset:15 limit:1 %}
+		for faq in site.faq offset:14 limit:1 %}
 			{
 			"@type": "Question",
 			"name": "{{ faq.title }}",
