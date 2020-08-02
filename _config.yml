@@ -70,7 +70,7 @@ collections:
   posts:
     output: true
 
-plugins: [jekyll-email-protect, jekyll-paginate, jekyll-pwa-workbox, jekyll-target-blank, jekyll-loading-lazy]
+plugins: [jekyll-email-protect, jekyll-paginate, jekyll-pwa-workbox, jekyll-target-blank]
 
 sass:
   sass_dir: /assets/_sass
