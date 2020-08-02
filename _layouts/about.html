@@ -6,7 +6,7 @@ layout:				layout_default
 			<header>{% 
 				for about in site.about limit:1 %}
 					<h2>{{ about.title }}</h2>{% 
-				if about.subtitle %}
+					if about.subtitle %}
 					<p>{{ about.subtitle }}</p>{% else %}{% endif %}{% 
 				endfor %}
 				</header>
@@ -16,7 +16,7 @@ layout:				layout_default
 				endfor %}{% 
 				for about in site.about offset:1 limit:2 %}
 					<section class="feature {{ about.position }} inactive slide-lr-scale">
-						<span class="image icon {{ about.icon-class }}"><img src="{{ about.img-src | prepend: 'assets/images/about/' | relative_url }}" alt="{{ site.title }} - {{ about.title }}" /></span>
+						<span class="image icon {{ about.icon-class }}"><img src="{{ about.img-src }}" alt="{{ site.title }} - {{ about.title }}" /></span>
 						<div class="content">
 							<h3>{{ about.title }}</h3>
 							{{ about.content | strip_newlines }}
@@ -25,7 +25,7 @@ layout:				layout_default
 				endfor %}{% 
 				for about in site.about offset:3 %}
 					<section class="feature {{ about.position }} about-transition">
-						<span class="image icon {{ about.icon-class }}"><img src="{{ about.img-src | prepend: 'assets/images/about/' | relative_url }}" alt="{{ site.title }} - {{ about.title }}" /></span>
+						<span class="image icon {{ about.icon-class }}"><img src="{{ about.img-src }}" alt="{{ site.title }} - {{ about.title }}" /></span>
 						<div class="content">
 							<h3>{{ about.title }}</h3>
 							{{ about.content | strip_newlines }}
