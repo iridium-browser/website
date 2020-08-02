@@ -30,22 +30,6 @@ sitemap:
 		"src": "assets/images/app-icons/ios_180x180.png",
 		"sizes": "180x180",
 		"type": "image/png"
-		}, {
-		"src": "assets/images/app-icons/win-small_70x70.png",
-		"sizes": "70x70",
-		"type": "image/png"
-		}, {
-		"src": "assets/images/app-icons/win-medium_150x150.png",
-		"sizes": "150x150",
-		"type": "image/png"
-		}, {
-		"src": "assets/images/app-icons/win-large_310x310.png",
-		"sizes": "310x310",
-		"type": "image/png"
-		}, {
-		"src": "assets/images/app-icons/win-wide_310x150.png",
-		"sizes": "310x150",
-		"type": "image/png"
 		}
 	]
 }
