@@ -7,6 +7,14 @@
 		position: relative;
 		height: 20rem;
 
+		&:before {
+			background: blue;
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+		}
+
 		&:after {
 			clear: both;
 			content:'';
@@ -39,14 +47,14 @@
 					@include vendor('transform', 'scale(1.05)');
 				}
 			}
-		}
-
-		&:before {
-			background: blue;
-			content: '';
-			display: inline-block;
-			height: 100%;
-			vertical-align: middle;
+			
+			&.icon {
+				&:hover {
+					&:before {
+						@include vendor('transform', 'scale(1)');
+					}
+				}
+			}
 		}
 
 		.content {
