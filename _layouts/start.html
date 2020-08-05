@@ -103,7 +103,9 @@ layout: layout_start
 				endfor %}{% 
 				for about in site.about offset:1 %}
 					<section class="feature {{ about.position }} about-transition">
-						<span class="image icon {{ about.icon-class }}"><img src="{{ about.img-src }}" alt="{{ site.title }} - {{ about.title }}" /></span>
+						<div class="image icon {{ about.icon-class }}">
+							<img src="{{ about.img-src | prepend: '/assets/images/about/' | absolute_url }}" alt="{{ site.title }} - {{ about.title }}" />
+						</div>
 						<div class="content">
 							<h3>{{ about.title }}</h3>
 							{{ about.content | strip_newlines }}
