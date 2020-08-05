@@ -64,9 +64,9 @@ AddType video/webm .webm
   Header set X-Download-Options "noopen"
   Header set X-Permitted-Cross-Domain-Policies "none"
   Header set Referrer-Policy "no-referrer"
+  Header set Connection keep-alive
   Header always set Feature-Policy "microphone 'none'; payment 'none'; sync-xhr 'self' {{ site.url }}"
   Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains; env=HTTPS"
-  Header set Connection keep-alive
   SetEnv modHeadersAvailable true
   <FilesMatch "\.(js|css|xml|gz|html)$">
     Header append Vary: Accept-Encoding
@@ -128,7 +128,6 @@ AddType video/webm .webm
   AddOutputFilterByType DEFLATE application/json
   AddOutputFilterByType DEFLATE application/ld+json
   AddOutputFilterByType DEFLATE application/manifest+json
-  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
   AddOutputFilterByType DEFLATE application/xml
   AddOutputFilterByType DEFLATE application/xhtml+xml
   AddOutputFilterByType DEFLATE application/rss+xml
