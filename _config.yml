@@ -42,9 +42,10 @@ pwa:
     - "/**/*.html"
   precache_glob_ignores: # Optional
     - sw-register.js
-    - "fonts/**/*"
-    - "/assets/images/app-icons/**/*"
-    - "/assets/images/hotpics/**/*"
+    - "/**/assets/fonts/**/*"
+    - "/**/assets/images/app-icons/**/*"
+    - "/**/assets/images/hotpics/**/*"
+    - "/**/assets/js/workbox-v5.1.3/**/*"
     - "/**/*.xml"
 
 # build settings
