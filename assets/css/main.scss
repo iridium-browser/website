@@ -37,7 +37,7 @@ sitemap:
 		@include color-typography($p);
 		@include color-box($p);
 		@include color-button($p);
-		@include color-form($p);
+		// @include color-form($p);
 		@include color-icon($p);
 		@include color-list($p);
 		@include color-section($p);
@@ -55,7 +55,7 @@ sitemap:
 	@import 'components/row';
 	@import 'components/box';
 	@import 'components/button';
-	@import 'components/form';
+	// @import 'components/form';
 	@import 'components/icon';
 	@import 'components/image';
 	@import 'components/list';

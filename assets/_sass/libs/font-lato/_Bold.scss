@@ -4,5 +4,6 @@
   @include fontdef($LatoPath, $LatoVersion, "bold");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 /* END Bold */

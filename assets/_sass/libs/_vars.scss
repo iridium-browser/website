@@ -8,7 +8,7 @@
 // Duration.
 	$duration: (
 		menu:				0.5s,
-		button:				0.7s,
+		button:				0.625s,
 		feature:			1.25s,
 		feature-icon:		1.0s,
 		feature-opacity:	0.75s,
@@ -43,12 +43,12 @@
 	$font: (
 		family:				('Lato', Arial, Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
-		letter-spacing:		0.0525em,
+		letter-spacing:		0.0575em,
 		letter-spacing-alt:	0.025em,
 		letter-spacing-hdr:	0.0675em,
+		letter-button:		0.125em,
 		weight:				400,
-		weight-bold:		700,
-		weight-extrabold:	900
+		weight-bold:		700
 	);
 
 // Palette.

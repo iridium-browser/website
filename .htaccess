@@ -64,9 +64,9 @@ AddType video/webm .webm
   Header set X-Download-Options "noopen"
   Header set X-Permitted-Cross-Domain-Policies "none"
   Header set Referrer-Policy "no-referrer"
+  Header set Connection keep-alive
   Header always set Feature-Policy "microphone 'none'; payment 'none'; sync-xhr 'self' {{ site.url }}"
   Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains; env=HTTPS"
-  Header set Connection keep-alive
   SetEnv modHeadersAvailable true
   <FilesMatch "\.(js|css|xml|gz|html)$">
     Header append Vary: Accept-Encoding
@@ -78,20 +78,6 @@ AddType video/webm .webm
 
 <IfModule mod_expires.c>
   ExpiresActive On
-  ExpiresDefault "access plus 600 seconds"
-
-  ExpiresByType image/icon						"access plus 2 month"
-  ExpiresByType image/jpg						"access plus 2 month"
-  ExpiresByType image/jpeg						"access plus 2 month"
-  ExpiresByType image/png						"access plus 2 month"
-  ExpiresByType image/svg+xml					"access plus 2 month"
-  ExpiresByType image/x-icon					"access plus 2 month"
-  ExpiresByType font/eot						"access plus 1 year"
-  ExpiresByType font/opentype					"access plus 1 year"
-  ExpiresByType font/otf						"access plus 1 year"
-  ExpiresByType font/truetype					"access plus 1 year"
-  ExpiresByType font/woff						"access plus 1 year"
-  ExpiresByType font/woff2						"access plus 1 year"
   ExpiresByType application/font-woff			"access plus 1 year"
   ExpiresByType application/font-woff2			"access plus 1 year"
   ExpiresByType application/ico					"access plus 1 year"
@@ -101,10 +87,24 @@ AddType video/webm .webm
   ExpiresByType application/x-font-woff2		"access plus 1 year"
   ExpiresByType application/x-ico				"access plus 1 year"
   ExpiresByType application/x-javascript 		"access plus 2 month"
+  ExpiresByType font/eot						"access plus 1 year"
+  ExpiresByType font/opentype					"access plus 1 year"
+  ExpiresByType font/otf						"access plus 1 year"
+  ExpiresByType font/truetype					"access plus 1 year"
+  ExpiresByType font/woff						"access plus 1 year"
+  ExpiresByType font/woff2						"access plus 1 year"
+  ExpiresByType image/icon						"access plus 1 year"
+  ExpiresByType image/jpg						"access plus 1 year"
+  ExpiresByType image/jpeg						"access plus 1 year"
+  ExpiresByType image/png						"access plus 1 year"
+  ExpiresByType image/svg+xml					"access plus 1 year"
+  ExpiresByType image/x-icon					"access plus 1 year"
+  ExpiresByType text/css						"access plus 2 month"
   ExpiresByType text/javascript					"access plus 2 month"
-  ExpiresByType video/mp4 						"access plus 2 month"
-  ExpiresByType video/ogg 						"access plus 2 month"
-  ExpiresByType video/webm 						"access plus 2 month"
+  ExpiresByType video/mp4 						"access plus 1 year"
+  ExpiresByType video/ogg 						"access plus 1 year"
+  ExpiresByType video/webm 						"access plus 1 year"
+  ExpiresDefault								"access plus 600 seconds"
 </IfModule>
 <FilesMatch "\.(css|htm|html|json)$">
 	<IfModule mod_expires.c>
@@ -128,6 +128,9 @@ AddType video/webm .webm
   AddOutputFilterByType DEFLATE application/json
   AddOutputFilterByType DEFLATE application/ld+json
   AddOutputFilterByType DEFLATE application/manifest+json
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/rss+xml
   AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
   AddOutputFilterByType DEFLATE application/x-font
   AddOutputFilterByType DEFLATE application/x-font-opentype

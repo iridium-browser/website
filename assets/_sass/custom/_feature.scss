@@ -7,6 +7,14 @@
 		position: relative;
 		height: 20rem;
 
+		&:before {
+			background: blue;
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+		}
+
 		&:after {
 			clear: both;
 			content:'';
@@ -29,24 +37,11 @@
 			width: 50%;
 
 			img {
-				@include vendor('transition', ('transform #{_duration(button)} ease-in-out'));
 				display: block;
 				min-height: 100%;
 				min-width: 100%;
 				position: absolute;
-
-				&:hover {
-					@include vendor('transform', 'scale(1.05)');
-				}
 			}
-		}
-
-		&:before {
-			background: blue;
-			content: '';
-			display: inline-block;
-			height: 100%;
-			vertical-align: middle;
 		}
 
 		.content {

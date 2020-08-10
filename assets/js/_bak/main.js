@@ -233,6 +233,27 @@
 		});
 
 
+	// Img to Background.
+		$(window).bind("load", function() {
+			var getImageSrc = $('#transparency img').attr('src');
+			$('#transparency').css({
+				'background-image' : 'url(' + getImageSrc + ')'
+			});
+			var getImageSrc = $('#privacy img').attr('src');
+			$('#privacy').css({
+				'background-image' : 'url(' + getImageSrc + ')'
+			});
+			var getImageSrc = $('#deployability img').attr('src');
+			$('#deployability').css({
+				'background-image' : 'url(' + getImageSrc + ')'
+			});
+			var getImageSrc = $('#motivation img').attr('src');
+			$('#motivation').css({
+				'background-image' : 'url(' + getImageSrc + ')'
+			});
+		});
+
+
 	// Back to Top.
 		$(window).on('scroll',function () {
 			if ($(this).scrollTop() > 100) {

@@ -3,7 +3,7 @@
 			for footer in site.footer %}
 				<div class="inner">
 					<section>
-						<h4>{{ footer.title }}</h4>
+						<div class="h4">{{ footer.title }}</div>
 						<ul class="links alt">{% 
 						for step-in in footer.step-in %}
 							<li class="alt">{{ step-in.text }} <strong><a href="{% if step-in.link contains 'http' %}{{ step-in.link }}{% else %}{{ step-in.link | relative_url }}{% endif %}" title="{{ step-in.title }}">{{ step-in.name }}</a></strong>.</li>{% 
@@ -21,7 +21,7 @@
 						</ul>
 					</section>
 					<section class="narrow">
-						<h4>Sitemap</h4>
+						<div class="h4">Sitemap</div>
 						<ul class="links">
 							<li><a href="{{ '/' | relative_url }}" title="Home">Home</a></li>{%
 							for menu in (1..10) %}{% for my_page in site.pages %}{% if my_page.menu == menu %}{% unless my_page.id contains "downloads" %}
@@ -37,7 +37,7 @@
 						</ul>
 					</section>
 					<section class="narrow">
-						<h4>Downloads</h4>
+						<div class="h4">Downloads</div>
 						<ul class="links">{% 
 						for downloads in site.downloads offset:1 %}{% unless downloads.page-id contains "source" %}
 							<li><a href="{{ downloads.link | relative_url }}" title="{{ downloads.label }}">{{ downloads.label }}</a></li>{% 

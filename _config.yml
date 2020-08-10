@@ -33,7 +33,7 @@ pwa:
   sw_src_filepath: service-worker.js # Optional
   sw_dest_filename: service-worker.js # Optional
   dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 100 # Optional
+  precache_recent_posts_num: 5 # Optional
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
     - "/**/*.{css,js,json,xml}"
@@ -42,9 +42,13 @@ pwa:
     - "/**/*.html"
   precache_glob_ignores: # Optional
     - sw-register.js
-    - "fonts/**/*"
-    - "/assets/images/app-icons/**/*"
-    - "/assets/images/hotpics/**/*"
+    - "{401,403,404,500,legal-notice,privacy-policy}.html"
+    - "/**/downloads/*.html"
+    - "/**/news/**/**/**/*.html"
+    - "/**/assets/fonts/**/**/**/*.{ttf,woff,woff2}"
+    - "/**/assets/images/app-icons/**/*"
+    - "/**/assets/images/hotpics/**/*"
+    - "/**/assets/js/workbox-v5.1.3/**/*"
     - "/**/*.xml"
 
 # build settings

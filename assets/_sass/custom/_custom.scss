@@ -62,6 +62,20 @@
 
 /* Sections */
 
+	#about {
+		#transparency, #privacy, #deployability, #motivation {
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			overflow: hidden;
+			position: relative;
+
+			img {
+				display: none;
+			}
+		}
+	}
+
 	#faq {
 		.inner {
 			width: 80%;
@@ -204,5 +218,4 @@
 			text-overflow: ellipsis;
 			margin-bottom: 1.5rem;
 		}
-
 	}

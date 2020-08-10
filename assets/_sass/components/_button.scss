@@ -140,6 +140,7 @@
 		}
 
 		&.download {
+			@include icon;
 			background-color: _palette(accent1, bg);
 			box-shadow: none;
 			color: _palette(fg-wht) !important;
@@ -151,7 +152,6 @@
 
 			&:before {
 				content: "\f019";
-				font-family: FontAwesome;
 				margin-right: .5rem;
 			}
 
@@ -213,10 +213,18 @@
 			}
 
 			&:after {
-				content: "\f105";
+				@include vendor('transition', ( 
+					'transform #{_duration(button)} ease-in-out',
+					'margin-left #{_duration(feature-opacity)} ease-in-out',
+					'padding-left #{_duration(feature-opacity)} ease-in-out',
+					'opacity #{_duration(button)} ease-in-out'
+				));
 				font-family: FontAwesome;
 				font-size: 1.05rem;
+				content: "\f105";
+				margin-left: -1rem;
 				padding-left: .5rem;
+				opacity: 0;
 			}
 
 			&:hover {
@@ -232,6 +240,11 @@
 					left: 0;
 					right: 0;
 					bottom: 0;
+					opacity: 1;
+				}
+				&:after {
+					margin-left: 0.25rem;
+					padding-left: .75rem;
 					opacity: 1;
 				}
 			}
