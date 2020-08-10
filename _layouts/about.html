@@ -16,7 +16,7 @@ layout:				layout_default
 				endfor %}{% 
 				for about in site.about offset:1 limit:2 %}
 					<section class="feature {{ about.position }} inactive slide-lr-scale">
-						<div class="image icon {{ about.icon-class }}">
+						<div id="{{ about.title | downcase }}" class="image icon {{ about.icon-class }}">
 							<img src="{{ about.img-src | prepend: '/assets/images/about/' | absolute_url }}" alt="{{ site.title }} - {{ about.title }}" />
 						</div>
 						<div class="content">
@@ -27,7 +27,7 @@ layout:				layout_default
 				endfor %}{% 
 				for about in site.about offset:3 %}
 					<section class="feature {{ about.position }} about-transition">
-						<div class="image icon {{ about.icon-class }}">
+						<div id="{{ about.title | downcase }}" class="image icon {{ about.icon-class }}">
 							<img src="{{ about.img-src | prepend: '/assets/images/about/' | absolute_url }}" alt="{{ site.title }} - {{ about.title }}" />
 						</div>
 						<div class="content">

@@ -37,23 +37,10 @@
 			width: 50%;
 
 			img {
-				@include vendor('transition', ('transform #{_duration(button)} ease-in-out'));
 				display: block;
 				min-height: 100%;
 				min-width: 100%;
 				position: absolute;
-
-				&:hover {
-					@include vendor('transform', 'scale(1.05)');
-				}
-			}
-			
-			&.icon {
-				&:hover {
-					&:before {
-						@include vendor('transform', 'scale(1)');
-					}
-				}
 			}
 		}
 

@@ -102,8 +102,8 @@ layout: layout_start
 					{{ about.content | strip_newlines }}{% 
 				endfor %}{% 
 				for about in site.about offset:1 %}
-					<section class="feature {{ about.position }} about-transition">
-						<div class="image icon {{ about.icon-class }}">
+					<section class="feature {{ about.position }} inactive slide-lr-scale">
+						<div id="{{ about.title | downcase }}" class="image icon {{ about.icon-class }}">
 							<img src="{{ about.img-src | prepend: '/assets/images/about/' | absolute_url }}" alt="{{ site.title }} - {{ about.title }}" />
 						</div>
 						<div class="content">
