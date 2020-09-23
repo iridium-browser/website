@@ -23,7 +23,7 @@ User-agent: CopyRightCheck
 User-agent: EmailCollector
 User-agent: EmailSiphon
 User-agent: EmailWolf
-User-agent: HTTrack	
+User-agent: HTTrack
 User-agent: Microsoft.URL.Control
 User-agent: NetAnts
 User-agent: Offline Explorer
