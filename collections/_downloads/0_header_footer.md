@@ -53,4 +53,3 @@ sitemap:
   priority:		0.7
   changefreq:	'daily'
 ---
-Iridium Browser is <u>not</u> available for Android, iOS or any other mobile platform, but is planned for the later half of 2020.
