@@ -4,6 +4,6 @@ title:			Badge
 show:			"yes"
  
 top-txt:		current
-middle-txt:		2020.11
+middle-txt:		2020.04
 bottom-txt:		version
 ---
