@@ -14,7 +14,7 @@ width:				w-75
 icon-class:			fo-opensuse
 OS: 				Repositories for openSUSE
 version:			2020.11.85
-chromium:			85.x
+chromium:			85.0.4183.83
 sys-reqs:
 - openSUSE Leap 15.2 or openSUSE Tumbleweed
 
@@ -22,7 +22,7 @@ structured-data:
   os0:			openSUSE
   os1:			openSUSE
   value:		5
-  count:		235
+  count:		289
 sitemap:
   lastmod:		2020-11-05 10:09
   priority:		0.6
@@ -34,11 +34,11 @@ sitemap:
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Tumbleweed/ iridium
 	zypper in iridium-browser
-{:#data2}
+{:#data}
 
 #### Leap 15.2 #
 {:.dl}
 	
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_15.2/ iridium
 	zypper in iridium-browser
-{:#data}
+{:#data2}
