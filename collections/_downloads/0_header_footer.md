@@ -53,4 +53,4 @@ sitemap:
   priority:		0.7
   changefreq:	'daily'
 ---
-Iridium Browser is <u>not</u> available for Android, iOS or any other mobile platform.
+Iridium Browser is <u>not</u> available for Android, iOS or other mobile platforms.
