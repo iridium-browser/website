@@ -19,10 +19,6 @@ submenu-details:
     title:			"Download for macos"
     icon-class:		icon-os nav fo-apple
     link:			"/downloads/macos"
-  - name:			"Debian-based"
-    title:			"Download for Debian-based systems"
-    icon-class:		icon-os nav fo-debian
-    link:			"/downloads/debian"
   - name:			"openSUSE"
     title:			"Download for openSUSE"
     icon-class:		icon-os nav fo-opensuse
@@ -35,6 +31,10 @@ submenu-details:
     title:			"Download for RHEL / CentOS"
     icon-class:		icon-os nav fo-redhat
     link:			"/downloads/rhel"
+  - name:			"Debian-based"
+    title:			"Download for Debian-based systems"
+    icon-class:		icon-os nav fo-debian
+    link:			"/downloads/debian"
 structured-data:
   os1:			Windows
   os2:			macOS
@@ -47,9 +47,9 @@ structured-data:
   os9:			CentOS
   os10:			source code
   value:		4.9
-  count:		5669
+  count:		25914
 sitemap:
-  lastmod:		2020-04-20 10:00
+  lastmod:		2020-12-02 14:00
   priority:		0.7
   changefreq:	'daily'
 ---
