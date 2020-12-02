@@ -32,7 +32,7 @@ sitemap:
   changefreq:	'daily'
 ---
 __Please note__    
-Unfortunately, there are no current builds for any Debian based platform available.
+Unfortunately, there are no current releases available for any Debian based platform.
 
 	wget -qO - https://downloads.iridiumbrowser.de/ubuntu/iridium-release-sign-01.pub|sudo apt-key add -
 	cat <<EOF | sudo tee /etc/apt/sources.list.d/iridium-browser.list
