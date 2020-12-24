@@ -6,6 +6,10 @@
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
 		<link rel="alternate" hreflang="en-de" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
 		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}" />
+		<link rel="preload" href="{{ '/assets/fonts/font-lato/regular/lato-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/assets/fonts/font-lato/bold/lato-bold.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/assets/fonts/font-awesome/fontawesome-webfont.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ '/assets/fonts/font-os/font-os.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 		<meta name="robots" content="index,follow,noodp">
 		<meta name="rating"	content="General">
 		<meta name="copyright" content="{{ site.company }}">
