@@ -1,9 +1,9 @@
 ---
 layout:			layout_start
 title:			Badge
-show:			"yes"
+show:			"no"
  
 top-txt:		current
-middle-txt:		2020.11
+middle-txt:		2021.03
 bottom-txt:		version
 ---
