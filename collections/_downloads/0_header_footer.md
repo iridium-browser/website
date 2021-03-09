@@ -47,9 +47,9 @@ structured-data:
   os9:			CentOS
   os10:			source code
   value:		4.9
-  count:		25914
+  count:		32255
 sitemap:
-  lastmod:		2020-12-02 14:00
+  lastmod:		2021-03-09 16:00
   priority:		0.7
   changefreq:	'daily'
 ---
