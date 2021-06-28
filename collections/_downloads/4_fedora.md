@@ -22,9 +22,9 @@ structured-data:
   os0:			Fedora
   os1:			Fedora
   value:		4.9
-  count:		531
+  count:		552
 sitemap:
-  lastmod:		2020-12-02 14:00
+  lastmod:		2021-12-02 14:00
   priority:		0.6
   changefreq:	'daily'
 ---

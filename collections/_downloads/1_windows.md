@@ -30,9 +30,9 @@ structured-data:
   os0: 			Windows
   os1: 			Windows
   value: 		4.9
-  count: 		6402
+  count: 		7209
 sitemap:
-  lastmod:		2021-06-28 12:00
+  lastmod:		2021-06-29 12:00
   priority:		0.6
   changefreq:	'daily'
 ---

@@ -31,25 +31,18 @@ submenu-details:
     title:			"Download for RHEL / CentOS"
     icon-class:		icon-os nav fo-redhat
     link:			"/downloads/rhel"
-  - name:			"Debian-based"
-    title:			"Download for Debian-based systems"
-    icon-class:		icon-os nav fo-debian
-    link:			"/downloads/debian"
 structured-data:
   os1:			Windows
   os2:			macOS
-  os3:			Ubuntu
-  os4:			Debian
-  os5:			Mint
-  os6:			openSUSE
-  os7:			Fedora
-  os8:			Red Hat Enterprise Linux
-  os9:			CentOS
-  os10:			source code
+  os3:			openSUSE
+  os4:			Fedora
+  os5:			Red Hat Enterprise Linux
+  os6:			CentOS
+  os7:			source code
   value:		4.9
-  count:		32255
+  count:		34523
 sitemap:
-  lastmod:		2021-06-28 16:00
+  lastmod:		2021-06-29 12:00
   priority:		0.7
   changefreq:	'daily'
 ---
