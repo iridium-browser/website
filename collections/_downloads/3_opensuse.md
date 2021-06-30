@@ -24,7 +24,7 @@ structured-data:
   value:		5
   count:		367
 sitemap:
-  lastmod:		2021-06-29 12:00
+  lastmod:		2021-06-30 14:00
   priority:		0.6
   changefreq:	'daily'
 ---
@@ -42,3 +42,10 @@ sitemap:
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_15.2/ iridium
 	zypper in iridium-browser
 {:#data2}
+
+#### Leap 15.3 #
+{:.dl}
+	
+	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_15.3/ iridium
+	zypper in iridium-browser
+{:#data3}

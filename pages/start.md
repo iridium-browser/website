@@ -16,11 +16,11 @@ structured-data:
   os5:			Red Hat Enterprise Linux
   os6:			CentOS
   os7:			source code
-  value: 4.9
-  count: 12091
+  value:		4.9
+  count:		12091
 sitemap:
-  lastmod: 2021-06-29 12:00
-  priority: 1.0
-  changefreq: 'daily'
+  lastmod: 		2021-06-30 14:00
+  priority:		1.0
+  changefreq:	'daily'
 ---
 ## INDEX / START #
