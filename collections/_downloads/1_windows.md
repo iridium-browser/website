@@ -14,7 +14,7 @@ width:				w-75
 icon-class:			fo-win10
 OS: 				Windows
 version:			2021.06.91
-chromium:			91.0.4472.106
+chromium:			91.0.4472.114
 dl-url:				https://dl.iridiumbrowser.de/windows/
 dl-folder:			2021.06.91
 dl-file:			/iridiumbrowser-
@@ -32,7 +32,7 @@ structured-data:
   value: 		4.9
   count: 		7209
 sitemap:
-  lastmod:		2021-06-30 14:00
+  lastmod:		2021-06-30 15:00
   priority:		0.6
   changefreq:	'daily'
 ---

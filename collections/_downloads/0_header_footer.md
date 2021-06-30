@@ -2,7 +2,7 @@
 layout:				downloads-index
 title:				Downloads
 subtitle:			Iridium Browser is currently available for the following platforms
-description:		Download Iridium Browser for Windows, macOS, Debian-based systems, openSUSE Leap and Tumbleweed, Fedora, Red Hat Enterprise Linux / CentOS.
+description:		Download Iridium Browser for Windows, macOS, openSUSE Leap and Tumbleweed, Fedora, Red Hat Enterprise Linux / CentOS.
 hotpic:				"/assets/images/hotpics/Iridium-hotpic-download.png"
 menu:				6
 link:				/downloads/
@@ -42,7 +42,7 @@ structured-data:
   value:		4.9
   count:		34523
 sitemap:
-  lastmod:		2021-06-30 14:00
+  lastmod:		2021-06-30 15:00
   priority:		0.7
   changefreq:	'daily'
 ---
