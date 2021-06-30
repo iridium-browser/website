@@ -18,10 +18,10 @@ chromium:			91.0.4472.106
 dl-url:				https://dl.iridiumbrowser.de/windows/
 dl-folder:			2021.06.91
 dl-file:			/iridiumbrowser-
-dl-end-32:			.0-x86.msi
-dl-end-64:			.0-x64.msi
-dl-end-32port:		.0-x86.zip
-dl-end-64port:		.0-x64.zip
+dl-end-32:			.2-x86.msi
+dl-end-64:			.2-x64.msi
+dl-end-32port:		.2-x86.zip
+dl-end-64port:		.2-x64.zip
 sys-reqs:
 - Windows 7+
 - A processor capable of SSE2

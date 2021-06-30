@@ -18,7 +18,7 @@ chromium:			91.0.4472.106
 dl-url:				https://downloads.iridiumbrowser.de/macos/
 dl-folder:			2021.06-0
 dl-file:			/iridium-browser_
-dl-end:				_macos.dmg
+dl-end:				.2_macos.dmg
 sys-reqs:
 - macOS X Yosemite 10.10+
 
