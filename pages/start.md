@@ -9,21 +9,18 @@ menu:				no
 link:				"yes"
 permalink:			/index.html
 structured-data:
-  os1: Windows
-  os2: macOS
-  os3: Ubuntu
-  os4: Debian
-  os5: Mint
-  os6: openSUSE
-  os7: Fedora
-  os8: Red Hat Enterprise Linux
-  os9: CentOS
-  os10: source code
-  value: 4.9
-  count: 10012
+  os1:			Windows
+  os2:			macOS
+  os3:			openSUSE
+  os4:			Fedora
+  os5:			Red Hat Enterprise Linux
+  os6:			CentOS
+  os7:			source code
+  value:		4.9
+  count:		12091
 sitemap:
-  lastmod: 2021-03-09 16:00
-  priority: 1.0
-  changefreq: 'daily'
+  lastmod: 		2021-06-30 14:00
+  priority:		1.0
+  changefreq:	'daily'
 ---
 ## INDEX / START #

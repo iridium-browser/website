@@ -45,7 +45,12 @@
 		&.os {
 			font-size: 4.5rem;
 		}
-		
+		&.os-dl {
+			font-size: 4.5rem;
+			display: block;
+			margin-top: -2rem;
+		}
+
 		&.contribute {
 			display: block;
 			padding: 0;

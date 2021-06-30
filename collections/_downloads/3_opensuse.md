@@ -13,8 +13,8 @@ width:				w-75
 
 icon-class:			fo-opensuse
 OS: 				Repositories for openSUSE
-version:			2021.03.88
-chromium:			88.0.4324.182
+version:			2021.06.91
+chromium:			91.0.4472.106
 sys-reqs:
 - openSUSE Leap 15.2 or openSUSE Tumbleweed
 
@@ -22,9 +22,9 @@ structured-data:
   os0:			openSUSE
   os1:			openSUSE
   value:		5
-  count:		362
+  count:		367
 sitemap:
-  lastmod:		2021-03-09 16:00
+  lastmod:		2021-06-30 14:00
   priority:		0.6
   changefreq:	'daily'
 ---
@@ -42,3 +42,10 @@ sitemap:
 	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_15.2/ iridium
 	zypper in iridium-browser
 {:#data2}
+
+#### Leap 15.3 #
+{:.dl}
+	
+	zypper ar https://downloads.iridiumbrowser.de/openSUSE_Leap_15.3/ iridium
+	zypper in iridium-browser
+{:#data3}

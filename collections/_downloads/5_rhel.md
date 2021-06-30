@@ -23,9 +23,9 @@ structured-data:
   os1:			Red Hat Enterprise Linux
   os2:			CentOS
   value:		4.9
-  count:		412
+  count:		429
 sitemap:
-  lastmod:		2020-12-02 14:00
+  lastmod:		2021-12-02 14:00
   priority:		0.6
   changefreq:	'daily'
 ---
