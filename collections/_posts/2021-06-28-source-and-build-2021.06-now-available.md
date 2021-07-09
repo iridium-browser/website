@@ -10,7 +10,7 @@ menu: 				no
 structured-data:	"news"
 ---
 New source code for **version 2021.06** based on Chromium 91.0.4472.114 has been made available.   
-Latest builds for **Windows**, **macOS** **openSUSE Tumbleweed**, **Leap 15.2** and **Leap 15.3** have also been released.
+Latest builds for **Windows**, **macOS**, **openSUSE Tumbleweed**, **Leap 15.2** and **Leap 15.3** have also been released.
 
 Builds for **Fedora** and **Red Hat Enterprise Linux** as well as **CentOS** to follow early next week.
 
