@@ -2,7 +2,7 @@
 layout: 			post
 title:  			"Build for Red Hat Enterprise Linux 7 and CentOS 7 available"
 description: 		"Latest build for Red Hat Enterprise Linux 7 and CentOS 7 has been made available as well as Windows, macOS, Fedora, openSUSE Tumbleweed, Leap 15.2 and 15.3."
-date:	 			2021-07-12 12:00
+date:	 			2021-07-11 17:00
 author:				TeamIridium
 categories:			news
 hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-rhel7_2021-06.png"

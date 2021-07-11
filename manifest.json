@@ -17,7 +17,7 @@ sitemap:
 		{
 		"src": "assets/images/app-icons/android_192x192.png",
 		"sizes": "192x192",
-		"type": "image/png"
+		"type": "image/png",
 		"purpose": "any maskable"
 		}, {
 		"src": "assets/images/app-icons/android_512x512.png",
