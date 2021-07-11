@@ -81,14 +81,14 @@
 			}
 
 			&.accent1 {
-				background: _palette(accent1,bg);
+				background: darken(_palette(accent1,bg), 20);
 				
 				.content:after, h2, p {
-					color: transparentize(_palette(bg), 0.175);
+					color: _palette(fg-wht);
 				}
 
 				&:hover {
-					background: darken(_palette(accent1,bg), 7.5);
+					background: darken(_palette(accent1,bg), 2.5);
 					
 					.content:after, h2, p {
 						color: _palette(fg-wht);
@@ -100,7 +100,7 @@
 				background: _palette(accent2, bg);
 
 				.content:after, h2, p {
-					color: transparentize(_palette(bg), 0.175);
+					color: _palette(fg-wht);
 				}
 
 				&:hover {
