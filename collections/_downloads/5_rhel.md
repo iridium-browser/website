@@ -25,13 +25,19 @@ structured-data:
   value:		4.9
   count:		482
 sitemap:
-  lastmod:		2021-07-09 20:00
+  lastmod:		2021-07-12 12:00
   priority:		0.6
   changefreq:	'daily'
 ---
+
+#### Red Hat Enterprise Linux / CentOS 7 #
+
+	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel7/iridium-browser.repo
+	yum install iridium-browser
+{:#data}
 
 #### Red Hat Enterprise Linux / CentOS 8 #
 
 	wget -O /etc/yum.repos.d/iridium-browser.repo https://dl.iridiumbrowser.de/epel8/iridium-browser.repo
 	yum install iridium-browser
-{:#data}
+{:#data1}
