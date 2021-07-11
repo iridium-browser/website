@@ -5,7 +5,7 @@ description: 		"Latest build for Red Hat Enterprise Linux 7 and CentOS 7 has bee
 date:	 			2021-07-12 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-fedora-rhel_2021-06.png"
+hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-rhel7_2021-06.png"
 menu: 				no
 structured-data:	"news"
 ---
