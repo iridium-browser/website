@@ -17,7 +17,7 @@ Releases for **Windows**, **macOS**, **openSUSE Tumbleweed**, **Leap 15.2** & **
 
 All current releases are based on Chromium 91.0.4472.114.   
 
-This is the last build for version 2021.06.   
+This is the last build for version 2021.06.91.   
 As for clarity, there will be no builds for Debian-based or mobile OS at this stage.
 
 <a id="download-parser2" class="button download" title="download Iridium Browser">Download</a>
