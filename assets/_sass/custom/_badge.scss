@@ -19,9 +19,9 @@
 	$badge-position-left:		5rem;
 	$badge-position-top-sml:	3rem;
 	$badge-position-left-sml:	2.25rem;
-	$badge-txt-padding: 		.15rem .175rem;
-	$badge-txt-padding-sml:		.15rem .05rem;
-	$badge-txt-margin: 			0 auto;
+	$badge-txt-padding: 		.15rem .225rem .15rem 0;
+	$badge-txt-padding-sml:		.15rem .1rem .15rem 0;
+	$badge-txt-margin: 			-0.425rem auto 0 auto;
 
 
 	.container-badge {
@@ -40,9 +40,10 @@
 			@include vendor('transform', 'rotate(-#{($badge-rotate) * 0.5}deg)');
 			height: $badge-size;
 			width: $badge-size;
+			color: $badge-color;
 			font-size: $badge-font-size;
 			line-height: 1.6;
-			display: inline-block;
+			display: inline-grid;
 			position: absolute;
 			top: 0;
 			left: 0;
