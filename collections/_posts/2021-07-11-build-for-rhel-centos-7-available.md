@@ -12,7 +12,7 @@ structured-data:	"news"
 
 Build version **2021.06** has been made available for **Red Hat Enterprise Linux 7** and **CentOS 7**.
 
-Releases for **Windows**, **macOS**, **openSUSE Tumbleweed**, **Leap 15.2** & **Leap 15.3**, **Fedora 34**, 
+Releases for **Windows**, **macOS**, **openSUSE Tumbleweed**, **Leap 15.2** & **Leap 15.3**, **Fedora 33** & **34**, 
 **Red Hat Enterprise Linux 8** and **CentOS 8** are also available.
 
 All current releases are based on Chromium 91.0.4472.114.   
