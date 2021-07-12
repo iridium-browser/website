@@ -16,7 +16,7 @@ OS: 				Repositories for Fedora
 version:			2021.06.91
 chromium:			91.0.4472.114
 sys-reqs:
-- Fedora 34+
+- Fedora 33+
 
 structured-data:
   os0:			Fedora
