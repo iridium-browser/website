@@ -6,7 +6,7 @@ position:	1
 ---
 _**standard version**_   
 1.) Download the installer file from [iridiumbrowser.de](https://test.iridiumbrowser.de/downloads/windows "download Iridium Browser for Windows").   
-2.) Save the .exe file to your computer and open it.
+2.) Save the .msi file to your computer and open it.
 
 _**portable version**_   
 1.) Download the zip-file and save to your desired location.   
