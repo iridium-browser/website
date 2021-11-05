@@ -22,9 +22,9 @@ structured-data:
   os0:			openSUSE
   os1:			openSUSE
   value:		5
-  count:		412
+  count:		422
 sitemap:
-  lastmod:		2021-11-01 12:00
+  lastmod:		2021-11-05 12:00
   priority:		0.6
   changefreq:	'daily'
 ---
