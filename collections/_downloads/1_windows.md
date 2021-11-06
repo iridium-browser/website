@@ -13,15 +13,15 @@ width:				w-75
 
 icon-class:			fo-win10
 OS: 				Windows
-version:			2021.06.91
-chromium:			91.0.4472.114
+version:			2021.10.95
+chromium:			95.0.4638.69
 dl-url:				https://dl.iridiumbrowser.de/windows/
-dl-folder:			2021.06.91
+dl-folder:			2021.10.95
 dl-file:			/iridiumbrowser-
-dl-end-32:			.2-x86.msi
-dl-end-64:			.2-x64.msi
-dl-end-32port:		.2-x86.zip
-dl-end-64port:		.2-x64.zip
+dl-end-32:			.0-x86.msi
+dl-end-64:			.0-x64.msi
+dl-end-32port:		.0-x86.zip
+dl-end-64port:		.0-x64.zip
 sys-reqs:
 - Windows 7+
 - A processor capable of SSE2
@@ -30,9 +30,9 @@ structured-data:
   os0: 			Windows
   os1: 			Windows
   value: 		4.9
-  count: 		102619
+  count: 		10619
 sitemap:
-  lastmod:		2021-06-30 15:00
+  lastmod:		2021-11-06 12:00
   priority:		0.6
   changefreq:	'daily'
 ---

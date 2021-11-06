@@ -13,14 +13,14 @@ width:				w-50
 
 icon-class:			fo-apple
 OS: 				macOS
-version:			2021.06.91
-chromium:			91.0.4472.114
+version:			2021.10.95
+chromium:			95.0.4638.69
 dl-url:				https://downloads.iridiumbrowser.de/macos/
-dl-folder:			2021.06-0
+dl-folder:			2021.10.95
 dl-file:			/iridium-browser_
-dl-end:				.2_macos.dmg
+dl-end:				_macos.dmg
 sys-reqs:
-- macOS X Yosemite 10.10+
+- macOS X El Capitan 10.11+
 
 structured-data:
   os0:			macOS
@@ -28,7 +28,7 @@ structured-data:
   value:		4.9
   count:		6713
 sitemap:
-  lastmod:		2021-06-30 15:00
+  lastmod:		2021-11-06 12:00
   priority:		0.6
   changefreq:	'daily'
 ---
