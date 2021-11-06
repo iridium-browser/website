@@ -14,8 +14,9 @@ Both versions support 32-bit, 64-bit systems and Windows 11.
 
 A new build for **macOS** with support for macOS Monterey and Apple M1 is also available.
 
-Current releases can also be downloaded for the following platforms **openSUSE Tumbleweed**, **openSUSE Leap 15.2**/**15.3**, **Fedora 34**/**35** as well as 
+Current releases includes builds for the following platforms **openSUSE Tumbleweed**, **openSUSE Leap 15.2**/**15.3**, **Fedora 34**/**35** as well as 
 **Red Hat Enterprise Linux 8** and **CentOS 8**.   
+
 All releases are based on Chromium 95.0.4638.69.   
 
 <a href="/downloads/" class="button download" title="download Iridium Browser">Download</a>
