@@ -21,18 +21,19 @@ sitemap:
 {:.align-center}
       
 ### 1. Datenschutz auf einen Blick #
+
 #### Allgemeine Hinweise #
 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle 
 Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
 #### Datenerfassung auf dieser Website #
 **Wer ist verantwortlich für die Datenerfassung auf dieser Website?**   
-Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.
+Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.   
 
 **Wie erfassen wir Ihre Daten?**   
-Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben. Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
+Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben. Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.   
 
 **Wofür nutzen wir Ihre Daten?**   
-Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.
+Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.   
 
 **Welche Rechte haben Sie bezüglich Ihrer Daten?**   
 Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.    
@@ -42,6 +43,7 @@ Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werde
 Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung.
 
 ### 2. Allgemeine Hinweise und Pflichtinformationen #
+
 #### Datenschutz #
 Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.   
 Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben.   
@@ -56,8 +58,6 @@ Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
 #### Speicherdauer #
 Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keinen anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z.B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.
-#### Hinweis zur Datenweitergabe in die USA #
-Auf unserer Website sind unter anderem Tools von Unternehmen mit Sitz in den USA eingebunden. Wenn diese Tools aktiv sind, können Ihre personenbezogenen Daten an die US-Server der jeweiligen Unternehmen weitergegeben werden. Wir weisen darauf hin, dass die USA kein sicherer Drittstaat im Sinne des EU-Datenschutzrechts sind. US-Unternehmen sind dazu verpflichtet, personenbezogene Daten an Sicherheitsbehörden herauszugeben, ohne dass Sie als Betroffener hiergegen gerichtlich vorgehen könnten. Es kann daher nicht ausgeschlossen werden, dass US-Behörden (z.B. Geheimdienste) Ihre auf US-Servern befindlichen Daten zu Überwachungszwecken verarbeiten, auswerten und dauerhaft speichern. Wir haben auf diese Verarbeitungstätigkeiten keinen Einfluss.
 #### Widerruf Ihrer Einwilligung zur Datenverarbeitung #
 Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
 #### Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO) #
@@ -67,7 +67,7 @@ WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN,�
 Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
 #### Recht auf Datenübertragbarkeit #
 Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
-#### SSL- bzw. TLS-Verschlüsselung</h4>
+#### SSL- bzw. TLS-Verschlüsselung #
 Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
 Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
 #### Auskunft, Löschung und Berichtigung #
@@ -82,6 +82,7 @@ Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen
 Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
 
 ### 3. Datenerfassung auf dieser Website #
+
 #### Cookies #
 Auf dieser Website kommen keine Cookies zum Einsatz.
 #### Server-Log-Dateien #
@@ -107,18 +108,19 @@ Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, 
 ## Privacy Policy #
 {:.align-center}
 
-### 1. Data protection at a glance #
+### 1. Data protection #
+
 #### General information #
 The following notices provide a simple overview of what happens to your personal data when you visit this website. Personal data is any data by which you can be personally identified. For detailed information on data protection, please refer to our privacy policy listed below this text.
 #### Data collection on this website #
 **Who is responsible for data collection on this website?**   
-Data processing on this website is carried out by the website operator. You can find his contact details in the legal notice of this website.
+Data processing on this website is carried out by the website operator. You can find his contact details in the legal notice of this website.   
 
 **How do we collect your data?**   
-Your data is collected on the one hand by you providing it to us. This can be, for example, data that you enter in a contact form. Other data is collected automatically or after your consent when you visit the website by our IT systems. This is mainly technical data (e.g. Internet browser, operating system or time of page view). The collection of this data takes place automatically as soon as you enter this website.
+Your data is collected on the one hand by you providing it to us. This can be, for example, data that you enter in a contact form. Other data is collected automatically or after your consent when you visit the website by our IT systems. This is mainly technical data (e.g. Internet browser, operating system or time of page view). The collection of this data takes place automatically as soon as you enter this website.   
 
 **What rights do you have regarding your data?**
-Some of the data is collected to ensure error-free provision of the website. Other data may be used to analyze your user behavior.
+Some of the data is collected to ensure error-free provision of the website. Other data may be used to analyze your user behavior.   
 
 **What rights do you have regarding your data?**   
 You have the right at any time to receive information free of charge about the origin, recipient and purpose of your stored personal data. You also have a right to request the correction or deletion of this data. If you have given your consent to data processing, you can revoke this consent at any time for the future. You also have the right to request the restriction of the processing of your personal data under certain circumstances. Furthermore, you have the right to lodge a complaint with the competent supervisory authority.   
@@ -128,14 +130,14 @@ When visiting this website, your surfing behavior may be statistically analyzed.
 Detailed information on these analysis programs can be found in the following data protection statement.
 
 ### 2. General notes and mandatory information #
+
 #### Privacy Policy #
 The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy.    
 When you use this website, various personal data are collected.    
 Personal data is data by which you can be personally identified. This Privacy Policy explains what data we collect and what we use it for. It also explains how and for what purpose this is done.    
 We point out that data transmission on the Internet (for example, when communicating by email) can have security gaps. A complete protection of data against access by third parties is not possible.
 #### Note on the responsible body #
-The responsible party for data processing on this website is:
-
+The responsible party for data processing on this website is:   
 **{{ site.company }}**    
 {{ site.street }}   
 {{ site.zip }} {{ site.location }}   
@@ -144,8 +146,6 @@ The responsible party for data processing on this website is:
 Controller is the natural or legal person who alone or jointly with others determines the purposes and means of the processing of personal data (e.g. names, email addresses, or similar).
 #### Storage period #
 Unless a more specific storage period has been mentioned within this privacy policy, your personal data will remain with us until the purpose for processing the data no longer applies. If you assert a legitimate request for deletion or revoke consent for data processing, your data will be deleted unless we have other legally permissible reasons for storing your personal data (e.g. retention periods under tax or commercial law); in the latter case, deletion will take place after these reasons cease to apply.
-#### Note on data transfer to the USA #
-Our website includes tools from companies based in the USA. If these tools are active, your personal data may be transferred to the US servers of the respective companies. We would like to point out that the USA is not a safe third country in the sense of EU data protection law. US companies are obliged to hand over personal data to security authorities without you as a data subject being able to take legal action against this. It can therefore not be ruled out that US authorities (e.g. intelligence services) process, evaluate and permanently store your data located on US servers for monitoring purposes. We have no influence on these processing activities.
 #### Revoking your consent to data processing #
 Many data processing operations are only possible with your express consent. You can revoke consent you have already given at any time. The legality of the data processing carried out until the revocation remains unaffected by the revocation.
 #### Right of objection to data collection in special cases and to direct marketing (Art. 21 GDPR) #
@@ -170,6 +170,7 @@ You have the right to request the restriction of the processing of your personal
 If you have restricted the processing of your personal data, this data may - apart from being stored - only be processed with your consent or for the assertion, exercise or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of an important public interest of the European Union or a Member State.
 
 ### 3. Data collection on this website #
+
 #### Cookies #
 No cookies are used on this website.
 #### Server log files #
