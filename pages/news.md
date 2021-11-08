@@ -1,7 +1,7 @@
 ---	
 layout:				news
 title: 				News
-description: 		All Iridium Browser news about the latest builds, releases, bug fixes and much more.
+description: 		"All the latest news from Iridium Browser about the latest builds and downloads for various OS, development, source code releases, bug fixes and more."
 hotpic: 			"/assets/images/hotpics/Iridium-hotpic-news.png"
 menu:				1
 link:				/news/
@@ -16,7 +16,7 @@ submenu-details:
     link:			"/news/archive/"
 structured-data:	"yes"
 sitemap:
-  lastmod:			2021-11-05 12:00
+  lastmod:			2021-11-08 12:00
   priority:			0.7
   changefreq:		'daily'
 ---

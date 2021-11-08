@@ -79,7 +79,7 @@
 
 		&.inactive {
 			@include vendor('transform', 'translate3d(-1.5rem, 1.5rem, 1.5rem)');
-			opacity: 0.25;
+			opacity: 0.1;
 			
 			&:nth-child(odd) { 
 				@include vendor('transform', 'translate3d(1.5rem, 1.5rem, 1.5rem)');

@@ -17,15 +17,15 @@ structured-data:
   os6:			CentOS
   os7:			source code
   value:		4.9
-  count:		121744
+  count:		29746
 sitemap:
-  lastmod: 		2021-11-05 12:00
+  lastmod: 		2021-11-08 12:00
   priority:		1.0
   changefreq:	'daily'
 ---
 ## INDEX / START #
 
-windows	102619
+windows	10619
 macOS	6713
 suse	422
 fedora	651

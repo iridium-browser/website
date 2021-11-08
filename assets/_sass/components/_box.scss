@@ -53,6 +53,8 @@
 			background-color: _palette(border);
 			margin-bottom: _size(element-margin);
 			padding: 1.5rem;
+			border: 0;
+			border-radius: 0;
 
 			&:last-child {
 				margin-bottom: (_size(element-margin) * 1.375);
