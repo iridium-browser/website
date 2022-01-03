@@ -13,8 +13,8 @@ width:				w-75
 
 icon-class:			fo-opensuse
 OS: 				Repositories for openSUSE
-version:			2021.10.95
-chromium:			95.0.4638.69
+version:			2021.12.96
+chromium:			96.0.4664.110
 sys-reqs:
 - openSUSE Leap 15.2 or openSUSE Tumbleweed
 
@@ -24,7 +24,7 @@ structured-data:
   value:		5
   count:		422
 sitemap:
-  lastmod:		2021-12-30 12:00
+  lastmod:		2022-01-04 10:00
   priority:		0.6
   changefreq:	'daily'
 ---
