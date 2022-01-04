@@ -54,8 +54,8 @@
 			a {
 				@include vendor('transform', 'scale(0.9)');
 				@include vendor('transition', (
-					'transform #{_duration(transition-slow)} ease-in-out',
-					'color #{_duration(transition-slow)} ease-in-out',
+					'transform #{_duration(transition)} ease-in-out',
+					'color #{_duration(transition)} ease-in-out',
 				));
 				color: $badge-color;
 				display: block;
