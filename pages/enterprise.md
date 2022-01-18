@@ -12,7 +12,7 @@ id:					enterprise
 style:				style3
 structured-data:	"enterprise"
 sitemap:
-  lastmod:			2020-03-30 12:00
+  lastmod:			2022-01-18 10:00
   priority:			0.7
   changefreq:		'weekly'
 

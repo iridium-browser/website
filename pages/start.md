@@ -17,9 +17,9 @@ structured-data:
   os6:			CentOS
   os7:			source code
   value:		4.9
-  count:		29746
+  count:		10830
 sitemap:
-  lastmod: 		2021-11-08 12:00
+  lastmod: 		2022-01-18 10:00
   priority:		1.0
   changefreq:	'daily'
 ---
