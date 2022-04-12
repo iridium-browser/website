@@ -50,15 +50,11 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.8.0)
-    nokogiri (1.13.3)
-      mini_portile2 (~> 2.8.0)
-      racc (~> 1.4)
-    nokogiri (1.13.3-x86_64-linux)
+    nokogiri (1.13.4-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (4.0.6)
+    public_suffix (4.0.7)
     racc (1.6.0)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
@@ -78,7 +74,6 @@ GEM
     unicode-display_width (1.8.0)
 
 PLATFORMS
-  ruby
   x86_64-linux
 
 DEPENDENCIES
