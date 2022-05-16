@@ -13,8 +13,8 @@ width:				w-75
 
 icon-class:			fo-redhat
 OS: 				Repository for RHEL & CentOS
-version:			2021.12.96
-chromium:			96.0.4664.110
+version:			2022.04.100
+chromium:			100.0.4896.60
 sys-reqs:
 - Red Hat Enterprise Linux 8+, CentOS 8+
 
@@ -23,9 +23,9 @@ structured-data:
   os1:			Red Hat Enterprise Linux
   os2:			CentOS
   value:		4.9
-  count:		521
+  count:		548
 sitemap:
-  lastmod:		2022-01-18 10:00
+  lastmod:		2022-04-18 10:00
   priority:		0.6
   changefreq:	'daily'
 ---

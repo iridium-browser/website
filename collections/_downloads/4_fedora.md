@@ -13,8 +13,8 @@ width:				w-75
 
 icon-class:			fo-fedora
 OS: 				Repositories for Fedora
-version:			2021.12.96
-chromium:			96.0.4664.110
+version:			2022.04.100
+chromium:			100.0.4896.60
 sys-reqs:
 - Fedora 34+
 
@@ -22,9 +22,9 @@ structured-data:
   os0:			Fedora
   os1:			Fedora
   value:		4.9
-  count:		667
+  count:		678
 sitemap:
-  lastmod:		2022-01-18 10:00
+  lastmod:		2022-04-18 10:00
   priority:		0.6
   changefreq:	'daily'
 ---
