@@ -5,7 +5,7 @@ description: 		"New releases for Windows, macOS and Fedora 34 / 35 as well as ne
 date:	 			2022-05-16 10:20
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2021-12-fedora-rhel.png"
+hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2022-04-win-mac-fedora-rhel.png"
 menu: 				no
 structured-data:	"news"
 ---
