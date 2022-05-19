@@ -24,7 +24,7 @@ structured-data:
   value:		4.9
   count:		678
 sitemap:
-  lastmod:		2022-04-18 10:00
+  lastmod:		2022-05-19 10:00
   priority:		0.6
   changefreq:	'daily'
 ---
@@ -42,3 +42,11 @@ sitemap:
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_35/iridium-browser.repo
 	dnf install iridium-browser
 {:#data1}
+
+
+#### Fedora 36 #
+{:.dl}
+
+	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_36/iridium-browser.repo
+	dnf install iridium-browser
+{:#data2}
