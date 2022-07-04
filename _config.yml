@@ -1,4 +1,4 @@
-# Iridium Browser 2021
+# Iridium Browser 2022
 
 title: Iridium Browser
 
@@ -52,6 +52,10 @@ pwa:
     - "/**/*.xml"
 
 # build settings
+js-scripts:
+  - "plugins-v0.05.min.js"
+  - "app-v0.032.min.js"
+
 collections_dir: collections
 collections:
   downloads:

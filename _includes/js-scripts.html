@@ -1,4 +1,5 @@
-<!-- Scripts -->
-	<script src="{{ '/assets/js/plugins-v0.04.min.js' | relative_url }}"></script>
-	<script src="{{ '/assets/js/app-v0.032.min.js' | relative_url }}"></script>
+<!-- Scripts -->{% 
+	for js-scripts in site.js-scripts %}
+		<script defer src="{{ js-scripts | prepend: 'assets/js/' | relative_url }}"></script>{% 
+	endfor %}
 	<noscript>Your browser does not support JavaScript!</noscript>
