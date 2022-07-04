@@ -10,6 +10,7 @@ plugins-v0.04.min.js
 - breakpoints.min.js
 - clipboard-button.js
 - clipboard.min.js
+- lazysizes-v5.3.2.min.js
 - typed.min.js
 - ua-parser.min.js
 - util.js
