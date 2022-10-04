@@ -70,6 +70,7 @@ GEM
     tzinfo-data (1.2022.3)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
   x86_64-linux
@@ -82,6 +83,7 @@ DEPENDENCIES
   jekyll-target-blank
   tzinfo (~> 1.2)
   tzinfo-data
+  webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.20
+   2.3.21
