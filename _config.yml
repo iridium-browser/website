@@ -1,4 +1,4 @@
-# Iridium Browser 2021
+# Iridium Browser 2022
 
 title: Iridium Browser
 
@@ -48,10 +48,14 @@ pwa:
     - "/**/assets/fonts/**/**/**/*.{ttf,woff,woff2}"
     - "/**/assets/images/app-icons/**/*"
     - "/**/assets/images/hotpics/**/*"
-    - "/**/assets/js/workbox-v5.1.3/**/*"
+    - "/**/assets/js/workbox-v5.1.4/**/*"
     - "/**/*.xml"
 
 # build settings
+js-scripts:
+  - "plugins-v0.05.min.js"
+  - "app-v0.032.min.js"
+
 collections_dir: collections
 collections:
   downloads:

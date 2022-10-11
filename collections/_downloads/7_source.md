@@ -21,7 +21,7 @@ structured-data:
   value:		5
   count:		10830
 sitemap:
-  lastmod:		2021-12-30 12:00
+  lastmod:		2022-10-10 12:00
   priority:		0.6
   changefreq:	'daily'
 ---

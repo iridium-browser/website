@@ -112,7 +112,7 @@ layout: layout_start
 				for about in site.about offset:1 %}
 					<section class="feature {{ about.position }} about-transition">
 						<div id="{{ about.title | downcase }}" class="image icon {{ about.icon-class }}">
-							<img src="{{ about.img-src | prepend: '/assets/images/about/' | absolute_url }}" alt="{{ site.title }} - {{ about.title }}" />
+							<img src="{{ about.img-src | prepend: '/assets/images/about/' | absolute_url }}" alt="{{ site.title }} - {{ about.title }}" class="lazyload" />
 						</div>
 						<div class="content">
 							<h3>{{ about.title }}</h3>
