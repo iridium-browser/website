@@ -7,7 +7,8 @@ layout: layout_downloads
 					<h2>{{ page.title }}</h2>
 					<span class="icon os {{ page.icon-class }} align-center"></span>
 					<h3>{{ page.OS }}</h3>
-					<p>{{ page.subtitle }}</p>
+					<p><small>(based on Chromium {{ page.chromium }})</small><br/>
+					{{ page.subtitle }}</p>
 				</header>
 				<div class="inner {{ page.width }} align-center">
 {{ content | strip_newlines }}
