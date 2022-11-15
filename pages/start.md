@@ -19,7 +19,7 @@ structured-data:
   value:		4.9
   count:		10830
 sitemap:
-  lastmod: 		2022-10-18 10:00
+  lastmod: 		2022-11-15 10:00
   priority:		1.0
   changefreq:	'daily'
 ---
