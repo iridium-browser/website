@@ -5,11 +5,11 @@ description: 		"Download version 2022.11 now available for Fedora 35/36/37 and R
 date:	 			2022-11-21 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2022-11-source-code.png"
+hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2022-11-fedora-rhel.png"
 menu: 				no
 structured-data:	"news"
 ---
-New builds of **version 2022.11** for Fedora 35 / 36 / 37, Red Hat Enterprise Linux and CentOS 7 / 8 / 9 have just been released.    
+New builds of version 2022.11 for **Fedora 35 / 36 / 37**, **Red Hat Enterprise Linux** and **CentOS 7 / 8 / 9** have just been released.    
 All based on Chromium 107.0.5304.110.    
 
 Further releases to follow in due course.
