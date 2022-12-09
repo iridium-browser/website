@@ -14,4 +14,4 @@ All based on Chromium 107.0.5304.110.
 
 Further releases to follow in due course.
 
-<a style="margin-right:1.5em;" href="/downloads/fedora" class="button download" title="download Iridium Browser">Download for Fedora</a> <a href="/downloads/rhel" class="button download" title="download Iridium Browser">Download for RHEL</a>
+<a style="margin-right:1.5em;" href="/downloads/fedora" class="button download" title="download Iridium Browser">Download Fedora</a> <a href="/downloads/rhel" class="button download" title="download Iridium Browser">Download RHEL</a>

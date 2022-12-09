@@ -11,7 +11,7 @@ id:					faq
 style:				style5
 structured-data:	"faq"
 sitemap:
-  lastmod:			2022-12-06 12:00
+  lastmod:			2022-12-09 12:00
   priority:			0.7
   changefreq:		'weekly'
 
