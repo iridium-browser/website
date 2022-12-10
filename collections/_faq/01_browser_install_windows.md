@@ -1,7 +1,7 @@
 ---
 title:		"How to install on Windows?"
 faq-id:		install-windows
-date:		2020-05-29 12:00
+date:		2022-12-10 12:00
 position:	1
 ---
 _**standard version**_   
