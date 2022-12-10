@@ -1,7 +1,7 @@
 ---
 title:		"Why do certain extensions do not work in Iridium Browser?"
 faq-id:		verify-extension
-date:		2020-05-29 12:00
+date:		2022-12-10 12:00
 position:	73
 ---
 Certain extensions do not work due to Iridium Browser's privacy and security settings. Furthermore, some extensions 

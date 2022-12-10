@@ -1,7 +1,7 @@
 ---
 title:		"How to install on macOS?"
 faq-id:		install-macOS
-date:		2020-05-29 12:00
+date:		2022-12-10 12:00
 position:	2
 ---
 1.) Download the installer file from [iridiumbrowser.de](https://test.iridiumbrowser.de/downloads/macos "download Iridium Browser for macOS").   
