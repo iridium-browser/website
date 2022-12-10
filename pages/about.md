@@ -11,7 +11,7 @@ style:				style4
 submenu:			"no"
 structured-data:	"yes"
 sitemap:
-  lastmod:			2022-12-09 12:00
+  lastmod:			2022-12-10 12:00
   priority:			0.7
   changefreq:		'daily'
 
