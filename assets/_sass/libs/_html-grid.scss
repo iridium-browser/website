@@ -109,7 +109,7 @@
 							}
 
 							> .off-#{$i}#{$suffix} {
-								margin-left: $unit * $i;
+								margin-left: calc($unit * $i);
 							}
 						}
 
