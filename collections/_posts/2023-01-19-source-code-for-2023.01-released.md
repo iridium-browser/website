@@ -1,15 +1,15 @@
 ---
 layout: 			post
-title:  			"Source code for version 2022.12 released"
-description: 		"Source code for version 2022.12 released and is available for download as of now."
-date:	 			2022-12-05 12:00
+title:  			"Source code for version 2023.01 released"
+description: 		"Source code for version 2023.01 released and is available for download as of now."
+date:	 			2023-01-19 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2022-12-source-code.png"
+hotpic:				"/assets/images/hotpics/23-01-19_new-source-2023-01.png"
 menu: 				no
 structured-data:	"news"
 ---
-Source code for **version 2022.12** has just been released and is based on Chromium 108.0.5359.94.   
+Source code for **version 2023.01** has just been released and is based on Chromium 109.0.5414.74.   
 
 New builds to follow.
 
