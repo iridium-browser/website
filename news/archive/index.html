@@ -34,13 +34,13 @@ sitemap:
 					</div>		
 				{% if paginator.total_pages > 1 %}
 					<div class="row">
-						<div class="col-5 col-4-medium col-3-small">{% 
+						<div class="col-4 col-4-medium col-2-small">{% 
 						if paginator.previous_page %}
 							<a class="button prev" title="previous page" href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}"></a>{% 
 						endif %}
 						</div>
 
-						<div class="col-2 col-4-medium col-6-small align-center">{% 
+						<div class="col-4 col-4-medium col-8-small align-center">{% 
 						for page in (1..paginator.total_pages) %}{% if page == paginator.page %}
 							<span class="button numbers current">{{ page }}</span>{%
 							elsif page == 1 %}
@@ -51,7 +51,7 @@ sitemap:
 						endfor %}
 						</div>
 
-						<div class="col-5 col-4-medium col-3-small">{% 
+						<div class="col-4 col-4-medium col-2-small">{% 
 						if paginator.next_page %}
 							<a class="button next" title="next page" href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}"></a>{% 
 						endif %}
