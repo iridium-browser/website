@@ -18,5 +18,5 @@ sitemap:
 ATTENTION: Content is in a collection see 'collections/_faq'
 ---
 
-For all general questions about the browser, please visit [Chrome help pages](https://support.google.com/chrome/?p=help "go to Chrome help pages")
-{:.align-center .faq-transition}
+For all general questions about the browser, please visit <a class="ext-link" href="https://support.google.com/chrome/?p=help" title="go to Chrome help pages">Chrome help pages</a>
+{:.ext-link .align-center .faq-transition .ext-link}

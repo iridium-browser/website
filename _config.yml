@@ -84,6 +84,9 @@ sass:
   sass_dir: /assets/_sass
   style: compressed
 
+target-blank:
+    css_class: ext-link
+
 markdown: kramdown
 kramdown:
   auto_ids: false

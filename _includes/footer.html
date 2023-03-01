@@ -6,12 +6,12 @@
 						<div class="h4">{{ footer.title }}</div>
 						<ul class="links alt">{% 
 						for step-in in footer.step-in %}
-							<li class="alt">{{ step-in.text }} <strong><a href="{% if step-in.link contains 'http' %}{{ step-in.link }}{% else %}{{ step-in.link | relative_url }}{% endif %}" title="{{ step-in.title }}">{{ step-in.name }}</a></strong>.</li>{% 
+							<li class="alt">{{ step-in.text }} <strong><a href="{% if step-in.link contains 'http' %}{{ step-in.link }}{% else %}{{ step-in.link | relative_url }}{% endif %}" class="ext-link" title="{{ step-in.title }}">{{ step-in.name }}</a></strong>.</li>{% 
 						endfor %}
 						</ul>
 						<ul class="icons">{% 
 						for soc-media in footer.soc-media %}
-							<li><a href="{{ soc-media.link }}" class="icon social {{ soc-media.icon }}" title="{{ soc-media.title }}"><span class="label">{{ soc-media.title }}</span></a></li>{% 
+							<li><a href="{{ soc-media.link }}" class="ext-link icon social {{ soc-media.icon }}" title="{{ soc-media.title }}"><span class="label">{{ soc-media.title }}</span></a></li>{% 
 						endfor %}
 						</ul>
 						<ul class="horizontal">{% 
@@ -46,9 +46,9 @@
 					</section>
 				</div>
 				<div class="copyright">
-					<p>Iridium Browser is a software project of <a href="{{ footer.organization.link }}" title="visit {{ footer.organization.name }}" target="_blank">{{ footer.organization.name }}</a> &copy; {{ site.time | date: '%Y' }}.<br/>
+					<p>Iridium Browser is a software project of <a href="{{ footer.organization.link }}" title="visit {{ footer.organization.name }}" class="ext-link">{{ footer.organization.name }}</a> &copy; {{ site.time | date: '%Y' }}.<br/>
 					All rights reserved.</p>
-					<a rel="me" href="https://fosstodon.org/@IridiumBrowser"></a>
+					<a style="display:none;" rel="me" href="https://fosstodon.org/@IridiumBrowser"> </a>
 				</div>{% 
 			endfor %}
 			</footer>
