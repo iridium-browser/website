@@ -14,6 +14,9 @@ soc-media:
  - link:	https://github.com/iridium-browser
    title:	Iridium Browser on GitHub
    icon:	fa-github
+ - link:	https://fosstodon.org/@IridiumBrowser
+   title:	Iridium Browser on Mastodon
+   icon:	mastodon-icon
  - link:	https://www.facebook.com/iridiumbrowser
    title:	Iridium Browser on Facebook
    icon:	fa-facebook
