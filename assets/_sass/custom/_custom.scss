@@ -2,6 +2,25 @@
 /// Iridium Browser - custom
 ///
 
+/* Mastodon */
+
+	.mastodon-icon {
+		width: 26px;
+		height: 28.4375px;
+		background-size: contain; 
+		background-image: url(../../assets/images/mastodon-icon.svg);
+		background-position: center center;	
+		background-repeat: no-repeat;
+		display: block;
+		margin: 0 0 -0.15em 0;
+		outline: none;
+
+		&:hover {
+			color: _palette(accent1,fg) !important;
+			fill: _palette(accent1,fg) !important;
+		}
+	}
+
 /* General */
 
 	// hiding 'menu' */
