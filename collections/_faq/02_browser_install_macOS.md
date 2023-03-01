@@ -13,4 +13,4 @@ security settings to allow installing Iridium Browser.
 In "System Preferences", click "Security & Privacy", then click "General".   
 Click the "lock" and enter your password to make changes.   
 Select "App Store and identified developers" under the header “Allow apps downloaded from”.   
-Further details can be found at [Apple support](https://support.apple.com/en-us/HT202491 "Apple support").
+Further details can be found at [Apple support](https://support.apple.com/en-us/HT202491 "Apple support"){:.ext-link}.
