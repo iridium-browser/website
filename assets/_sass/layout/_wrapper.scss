@@ -209,10 +209,32 @@
 		/* error */
 			&.error {
 				background: radial-gradient(circle, darken(_palette(accent1,bg), 5), darken(_palette(accent1,bg), 20));
-				
+
+				header {
+
+					h2 + p {
+						font-size: 1.25rem;
+						text-align: center;
+						margin-bottom: 0!important;
+						padding-bottom: 0
+					}
+
+					@include breakpoint('<=small') {
+						h1 + p {
+							font-size: 1.25rem;
+						}
+
+						h2 + p {
+							font-size: 1rem;
+						}
+					}
+				}
+
 				.inner {
 					.content {
 						background-color: transparent;
+						padding-top:0;
+						margin-top:0;
 					}
 				}
 				h2, h3, h4, p {
