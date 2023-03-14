@@ -10,8 +10,8 @@ hotpic:				"/assets/images/hotpics/23-03-14_suse-2023-03.png"
 menu: 				no
 structured-data:	"news"
 ---
-Latest releases of **version 2023.03.111** for **openSUSE Leap 15.4**, **Leap 15.5** and **Tumbleweed** have been released.    
-Builds for **Fedora 36**, **37**, **38** and **Red Hat Enterprise Linux** / **CentOS 7**, **8**, **9** are also available.    
+Latest releases of **version 2023.03.111** for **openSUSE Leap 15.4**, **Leap 15.5** and **Tumbleweed** are now available.    
+Builds for **Fedora 36**, **37**, **38** and **Red Hat Enterprise Linux** / **CentOS 7**, **8**, **9** have also been released.    
 
 All releases are based on Chromium 111.0.5563.64.   
 
