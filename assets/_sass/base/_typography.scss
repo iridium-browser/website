@@ -209,7 +209,7 @@
 		border-left: solid 4px;
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
-		padding: calc(_size(element-margin) / 4) 0 calc(_size(element-margin) / 4) _size(element-margin);
+		padding: 0.125rem 2rem;
 	}
 
 	code {
