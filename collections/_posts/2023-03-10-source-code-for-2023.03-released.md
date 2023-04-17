@@ -1,7 +1,7 @@
 ---
 layout: 			post
 title:  			"Source code for version 2023.03 released"
-description: 		"Source code for version 2023.02 has just been made available and can be downloaded as of now."
+description: 		"Source code for version 2023.03 has just been made available and can be downloaded as of now."
 date:	 			2023-03-10 12:00
 author:				TeamIridium
 categories:			news
