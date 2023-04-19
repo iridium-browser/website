@@ -14,4 +14,4 @@ All builds are based on Chromium 109.0.5414.74
 
 Also available are current builds for **openSUSE Tumbleweed** and **Leap 15.4**.   
 
-<a style="margin-right:1.5em;margin-bottom:1.5em;" href="/downloads/fedora" class="button download" title="download Iridium Browser for Fedora">Fedora Downloads</a> <a style="margin-right:1.5em;margin-bottom:1.5em;" href="/downloads/rhel" class="button download" title="download Iridium Browser for Red Hat Enterprise Linux / CentOS">RHEL Downloads</a><a href="/downloads/suse" class="button download" title="download Iridium Browser for openSUSE">openSUSE Downloads</a>
+<a style="margin-right:1.5em;margin-bottom:1.5em;" href="/downloads/fedora" class="button download" title="download Iridium Browser for Fedora">Fedora Downloads</a> <a style="margin-right:1.5em;margin-bottom:1.5em;" href="/downloads/rhel" class="button download" title="download Iridium Browser for Red Hat Enterprise Linux / CentOS">RHEL Downloads</a><a href="/downloads/opensuse" class="button download" title="download Iridium Browser for openSUSE">openSUSE Downloads</a>
