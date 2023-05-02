@@ -5,7 +5,7 @@ description: 		"Version 2020.11 now available for Fedora 32 & 33 as well as Red 
 date:	 			2020-12-02 13:33
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-fedora-rhel_2020.11.png"
+hotpic:				"/assets/images/hotpics/2020-12-02_release-fedora-rhel_2020.11.png"
 menu: 				no
 structured-data:	"news"
 ---
