@@ -5,7 +5,7 @@ description: 		"New builds have been made available for openSUSE Tumbleweed, Lea
 date:	 			2022-01-04 08:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2021-12-suse-win-mac.png"
+hotpic:				"/assets/images/hotpics/2022-01-04_version-2021-12-suse-win-mac.png"
 menu: 				no
 structured-data:	"news"
 ---

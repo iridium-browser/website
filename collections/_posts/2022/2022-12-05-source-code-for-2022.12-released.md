@@ -5,7 +5,7 @@ description: 		"Source code for version 2022.12 released and is available for do
 date:	 			2022-12-05 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2022-12-source-code.png"
+hotpic:				"/assets/images/hotpics/2022-12-05_version-2022-12-source-code.png"
 menu: 				no
 structured-data:	"news"
 ---
