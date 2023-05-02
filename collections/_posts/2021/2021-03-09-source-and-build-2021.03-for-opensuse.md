@@ -5,7 +5,7 @@ description: 		"Source and build version 2021.03 for openSUSE Tumbleweed & Leap 
 date:	 			2021-03-09 16:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-source-opensuse_2021-03.png"
+hotpic:				"/assets/images/hotpics/2021-03-09_release-source-opensuse_2021-03.png"
 menu: 				no
 structured-data:	"news"
 ---

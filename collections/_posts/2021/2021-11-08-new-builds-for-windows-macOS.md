@@ -5,7 +5,7 @@ description: 		"Build version 2021.10.95 has been made available for Windows 32-
 date:	 			2021-11-08 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-win-mac_2021-10.png"
+hotpic:				"/assets/images/hotpics/2021-11-08_release-win-mac_2021-10.png"
 menu: 				no
 structured-data:	"news"
 ---
