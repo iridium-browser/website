@@ -5,7 +5,7 @@ description: 		"Updated builds for Fedora and RHEL for 2022.10 with various impr
 date:	 			2022-10-18 10:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2022-10-update-fedora-rhel.png"
+hotpic:				"/assets/images/hotpics/2022-10-18_version-2022-10-update-fedora-rhel.png"
 menu: 				no
 structured-data:	"news"
 ---

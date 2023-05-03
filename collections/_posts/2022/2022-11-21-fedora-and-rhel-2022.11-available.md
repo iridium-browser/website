@@ -5,7 +5,7 @@ description: 		"Download version 2022.11 now available for Fedora 35/36/37 and R
 date:	 			2022-11-21 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2022-11-fedora-rhel.png"
+hotpic:				"/assets/images/hotpics/2022-11-21_version-2022-11-fedora-rhel.png"
 menu: 				no
 structured-data:	"news"
 ---

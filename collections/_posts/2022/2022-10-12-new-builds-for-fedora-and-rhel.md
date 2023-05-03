@@ -5,7 +5,7 @@ description: 		"New builds for Fedora 35 / 36 / 37 and Red Hat Enterprise Linux 
 date:	 			2022-10-12 10:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2022-10-fedora-rhel.png"
+hotpic:				"/assets/images/hotpics/2022-10-12_version-2022-10-fedora-rhel.png"
 menu: 				no
 structured-data:	"news"
 ---

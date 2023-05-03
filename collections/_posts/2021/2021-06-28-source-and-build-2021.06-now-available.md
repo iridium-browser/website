@@ -5,7 +5,7 @@ description: 		"Source version 2021.06 as well as latest builds for Windows, mac
 date:	 			2021-06-30 15:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-release-source-win-mac-suse_2021-06.png"
+hotpic:				"/assets/images/hotpics/2021-06-30_release-source-win-mac-suse_2021-06.png"
 menu: 				no
 structured-data:	"news"
 ---

@@ -5,7 +5,7 @@ description: 		"New releases for Fedora 34 / 35 and Red Hat Enterprise Linux 8 /
 date:	 			2022-01-18 10:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/Iridium-hotpic-version-2021-12-fedora-rhel.png"
+hotpic:				"/assets/images/hotpics/2022-01-18_version-2021-12-fedora-rhel.png"
 menu: 				no
 structured-data:	"news"
 ---
