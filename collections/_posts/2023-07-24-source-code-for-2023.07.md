@@ -11,6 +11,6 @@ structured-data:	"news"
 ---
 Source code for **version 2023.07.115** has been made available and is based on Chromium 115.0.5790.102.   
 
-New builds to follow.
+New builds to follow. 
 
 <a href="/downloads/source" class="button download" title="download Iridium Browser">Download</a>
