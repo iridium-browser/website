@@ -13,39 +13,32 @@ width:				w-75
 
 icon-class:			fo-fedora
 OS: 				Repositories for Fedora
-version:			2023.04.112
-chromium:			112.0.5615.121
+version:			2023.07.115.1
+chromium:			115.0.5790.102
 sys-reqs:
-- Fedora 34 or higher
+- Fedora 37 or higher
 
 structured-data:
   os0:			Fedora
   os1:			Fedora
   value:		4.9
-  count:		678
+  count:		697
 sitemap:
-  lastmod:		2023-04-19 12:00
+  lastmod:		2023-07-25 12:00
   priority:		0.6
   changefreq:	'daily'
 ---
-
-#### Fedora 36 #
-{:.dl}
-
-	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_36/iridium-browser.repo
-	dnf install iridium-browser
-{:#data}
 
 #### Fedora 37 #
 {:.dl}
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_37/iridium-browser.repo
 	dnf install iridium-browser
-{:#data1}
+{:#data}
 
 #### Fedora 38 #
 {:.dl}
 
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_38/iridium-browser.repo
 	dnf install iridium-browser
-{:#data2}
+{:#data1}

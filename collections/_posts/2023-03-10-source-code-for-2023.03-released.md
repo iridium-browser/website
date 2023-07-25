@@ -5,7 +5,7 @@ description: 		"Source code for version 2023.03 has just been made available and
 date:	 			2023-03-10 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/23-03-10_new-source-2023-03.png"
+hotpic:				"/assets/images/hotpics/2023-03-10_new-source-2023-03.png"
 menu: 				no
 structured-data:	"news"
 ---

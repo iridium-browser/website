@@ -5,7 +5,7 @@ description: 		"We can now also be found on Fosstodon, which is part of the dece
 date:	 			2023-03-17 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/23-03-17_fosstodon.jpg"
+hotpic:				"/assets/images/hotpics/2023-03-17_fosstodon.jpg"
 
 menu: 				no
 structured-data:	"news"

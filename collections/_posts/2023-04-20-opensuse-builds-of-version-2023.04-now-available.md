@@ -5,7 +5,7 @@ description: 		"openSUSE builds of version 2023.04 for Tumbleweed, Leap 15.4 and
 date:	 			2023-04-20 10:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/23-04-20_suse-fedora-rhel-2023-04.jpg"
+hotpic:				"/assets/images/hotpics/2023-04-20_suse-fedora-rhel-2023-04.jpg"
 
 menu: 				no
 structured-data:	"news"
