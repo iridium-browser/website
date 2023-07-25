@@ -5,7 +5,7 @@ description: 		"Latest builds of version 2023.03 for openSUSE Leap 15.4, Leap 15
 date:	 			2023-03-14 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/23-03-14_suse-2023-03.png"
+hotpic:				"/assets/images/hotpics/2023-03-14_suse-2023-03.png"
 
 menu: 				no
 structured-data:	"news"

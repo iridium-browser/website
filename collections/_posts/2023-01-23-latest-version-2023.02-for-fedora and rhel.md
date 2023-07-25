@@ -5,7 +5,7 @@ description: 		"Latest builds have been made available for Fedora 36 and 37, as 
 date:	 			2023-01-23 12:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/23-01-23_fedora-rhel-2023-01.png"
+hotpic:				"/assets/images/hotpics/2023-01-23_fedora-rhel-2023-01.png"
 menu: 				no
 structured-data:	"news"
 ---

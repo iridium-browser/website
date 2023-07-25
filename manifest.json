@@ -6,6 +6,7 @@ sitemap:
 	"manifest_version": 2,
 	"name": "{{ site.title }}",
 	"short_name": "{{ site.title }}",
+	"id": "{{ '/' | relative_url }}",
 	"start_url": "{{ '/' | relative_url }}",
 	"theme_color": "#{{ site.app-color }}",
 	"background_color": "#{{ site.app-color }}",
