@@ -53,7 +53,7 @@ pwa:
 
 # build settings
 js-scripts:
-  - "plugins-v0.07.min.js"
+  - "plugins-v0.08.min.js"
   - "app-v0.032.min.js"
 
 collections_dir: collections
