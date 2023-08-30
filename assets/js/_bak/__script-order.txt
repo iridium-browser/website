@@ -1,4 +1,4 @@
-JS Script Order - https://jscompress.com/
+JS Script Order - minify w/ https://jscompress.com/
 
 plugins-v0.08.min.js
 - jquery-3.7.0.min.js
