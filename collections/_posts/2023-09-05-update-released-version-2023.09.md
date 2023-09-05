@@ -5,7 +5,7 @@ description: 		"Updates have just been released for the source code and openSUSE
 date:	 			2023-09-05 10:00
 author:				TeamIridium
 categories:			news
-hotpic:				"/assets/images/hotpics/2023-08-30_suse-2023-08.jpg"
+hotpic:				"/assets/images/hotpics/2023-09-05_source_suse-2023-09.jpg"
 menu: 				no
 structured-data:	"news"
 ---
