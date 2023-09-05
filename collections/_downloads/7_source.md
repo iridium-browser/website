@@ -14,7 +14,7 @@ width:				w-75
 icon-class:			fa-code-fork
 OS: 				Git Repository
 subtitle:			Clone the source code with Git
-chromium:			116.0.5845.110
+chromium:			116.0.5845.140
 
 structured-data:
   os0:			source code
@@ -22,7 +22,7 @@ structured-data:
   value:		5
   count:		10830
 sitemap:
-  lastmod:		2023-08-27 12:00
+  lastmod:		2023-09-05 10:00
   priority:		0.6
   changefreq:	'daily'
 ---
