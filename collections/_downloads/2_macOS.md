@@ -2,7 +2,7 @@
 layout:				downloads-macos
 title:				Download for macOS
 label:				macOS
-description:		Download Iridium Browser for macOS Mavericks 10.9 or higher. Iridium Browser is currently not available for iOS or any other mobile OS.
+description:		Download Iridium Browser for macOS Catalina 10.15 or higher. Iridium Browser is currently not available for iOS or any other mobile OS.
 hotpic:				"/assets/images/hotpics/Iridium-hotpic-dl-macOS.png"
 menu:				no
 link:				/downloads/macos
@@ -13,14 +13,14 @@ width:				w-50
 
 icon-class:			fo-apple
 OS: 				macOS
-version:			2022.04.100
-chromium:			100.0.4896.60
+version:			2023.09.116
+chromium:			116.0.5845.140
 dl-url:				https://downloads.iridiumbrowser.de/macos/
-dl-folder:			2022.04.100
+dl-folder:			2023.09.116
 dl-file:			/iridium-browser_
 dl-end:				_macos.dmg
 sys-reqs:
-- macOS X El Capitan 10.11+
+- macOS Catalina 10.15+
 
 structured-data:
   os0:			macOS
@@ -28,7 +28,7 @@ structured-data:
   value:		4.9
   count:		6713
 sitemap:
-  lastmod:		2022-05-19 12:00
+  lastmod:		2023-09-06 10:00
   priority:		0.6
   changefreq:	'daily'
 ---
