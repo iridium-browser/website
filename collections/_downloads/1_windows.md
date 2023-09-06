@@ -2,7 +2,7 @@
 layout: 			downloads-windows
 title: 				Download for Windows
 label:				Windows 
-description:		Download Iridium Browser for Windows 7 or higher. This Windows build is available in 32-bit or 64-bit version, as well as portable.
+description:		Download Iridium Browser for Windows 10 or higher. This Windows build is available in 32-bit or 64-bit version, as well as portable.
 hotpic:				"/assets/images/hotpics/Iridium-hotpic-dl-win.png"
 menu:				no
 link:				/downloads/windows
@@ -13,17 +13,17 @@ width:				w-75
 
 icon-class:			fo-win10
 OS: 				Windows
-version:			2022.04.100
-chromium:			100.0.4896.60
+version:			2023.09.116
+chromium:			116.0.5845.140
 dl-url:				https://dl.iridiumbrowser.de/windows/
-dl-folder:			2022.04.100
+dl-folder:			2023.09.116
 dl-file:			/iridiumbrowser-
 dl-end-32:			.0-x86.msi
 dl-end-64:			.0-x64.msi
 dl-end-32port:		.0-x86.zip
 dl-end-64port:		.0-x64.zip
 sys-reqs:
-- Windows 7+
+- Windows 10+
 - A processor capable of SSE2
 
 structured-data:
@@ -32,7 +32,7 @@ structured-data:
   value: 		4.9
   count: 		10619
 sitemap:
-  lastmod:		2022-05-19 12:00
+  lastmod:		2023-09-06 12:00
   priority:		0.6
   changefreq:	'daily'
 ---
