@@ -18,7 +18,7 @@ chromium:			116.0.5845.140
 dl-url:				https://downloads.iridiumbrowser.de/macos/
 dl-folder:			2023.09.116
 dl-file:			/iridium-browser_
-dl-end:				_macos.dmg
+dl-end:				_macos_universal.dmg
 sys-reqs:
 - macOS Catalina 10.15+
 
@@ -28,11 +28,12 @@ structured-data:
   value:		4.9
   count:		6713
 sitemap:
-  lastmod:		2023-09-06 10:00
+  lastmod:		2023-09-08 18:00
   priority:		0.6
   changefreq:	'daily'
 ---
 
 __Please note__    
+Now also supports ARM and M1.    
 Iridium Browser is currently signed but not notarized by Apple. 
 Please refer to our [FAQ]({{ '/faq' | relative_url }} "Frequently Asked Questions - How to install on macOS?") for installation instructions.
