@@ -34,6 +34,5 @@ sitemap:
 ---
 
 __Please note__    
-Now also supports ARM and M1.    
 Iridium Browser is currently signed but not notarized by Apple. 
 Please refer to our [FAQ]({{ '/faq' | relative_url }} "Frequently Asked Questions - How to install on macOS?") for installation instructions.
