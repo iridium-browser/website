@@ -1,7 +1,6 @@
 JS Script Order - minify w/ https://jscompress.com/
 
-plugins-v0.08.min.js
-- jquery-3.7.0.min.js
+plugins-v0.09.min.js
 - jquery.dropotron.min.js
 - jquery.selectorr.min.js
 - jquery.scrollex.min.js
