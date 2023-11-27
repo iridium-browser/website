@@ -10,7 +10,7 @@ hotpic:				"/assets/images/hotpics/2023-04-20_suse-fedora-rhel-2023-04.jpg"
 menu: 				no
 structured-data:	"news"
 ---
-New builds of **version 2023.04.112** for **openSUSE Tumbleweed**, **Leap 15.4** and **Leap 15.5** have been made available.    
+New builds of version **2023.04.112** for **openSUSE Tumbleweed**, **Leap 15.4** and **Leap 15.5** have been made available.    
 
 Also available are latest releases for **Fedora 36**, **37**, **38** and **Red Hat Enterprise Linux** / **CentOS 7**, **8**, **9**.    
 
