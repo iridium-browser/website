@@ -16,6 +16,16 @@ sitemap:
 	"offline_enabled": true,
 	"icons": [
 		{
+		"src": "assets/images/app-icons/maskable_192x192.png",
+		"sizes": "192x192",
+		"type": "image/png",
+		"purpose": "maskable"
+		}, {
+		"src": "assets/images/app-icons/maskable_512x512.png",
+		"sizes": "512x512",
+		"type": "image/png",
+		"purpose": "maskable"
+		}, {
 		"src": "assets/images/app-icons/android_192x192.png",
 		"sizes": "192x192",
 		"type": "image/png"
