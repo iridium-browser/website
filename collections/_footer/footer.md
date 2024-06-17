@@ -17,7 +17,7 @@ soc-media:
  - link:	https://fosstodon.org/@IridiumBrowser
    title:	Iridium Browser on Mastodon
    icon:	mastodon-icon
- - link:	https://www.facebook.com/iridiumbrowser
+ - link:	https://www.facebook.com/iridiumbrowserprivacy
    title:	Iridium Browser on Facebook
    icon:	fa-facebook
  - link:	https://twitter.com/iridiumbrowser

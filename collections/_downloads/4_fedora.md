@@ -2,7 +2,7 @@
 layout:				downloads-repo
 title:				Download for Fedora
 label:				Fedora
-description:		Download Iridium Browser for Fedora 36 / 37 and 38. Install package from repository using the command line.
+description:		Download Iridium Browser for Fedora 37, 38 and 39. Install package from repository using the command line.
 hotpic:				"/assets/images/hotpics/Iridium-hotpic-dl-fedora.png"
 menu:				no
 link:				/downloads/fedora
@@ -13,8 +13,8 @@ width:				w-75
 
 icon-class:			fo-fedora
 OS: 				Repositories for Fedora
-version:			2023.07.115.1
-chromium:			115.0.5790.102
+version:			2023.11.119
+chromium:			119.0.6045.123
 sys-reqs:
 - Fedora 37 or higher
 
@@ -24,7 +24,7 @@ structured-data:
   value:		4.9
   count:		697
 sitemap:
-  lastmod:		2023-07-25 12:00
+  lastmod:		2024-01-02 10:00
   priority:		0.6
   changefreq:	'daily'
 ---
@@ -42,3 +42,10 @@ sitemap:
 	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_38/iridium-browser.repo
 	dnf install iridium-browser
 {:#data1}
+
+#### Fedora 39 #
+{:.dl}
+
+	dnf config-manager --add-repo https://dl.iridiumbrowser.de/fedora_39/iridium-browser.repo
+	dnf install iridium-browser
+{:#data2}

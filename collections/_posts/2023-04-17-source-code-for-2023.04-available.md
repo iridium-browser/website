@@ -9,7 +9,7 @@ hotpic:				"/assets/images/hotpics/2023-04-17_new-source-2023-04.jpg"
 menu: 				no
 structured-data:	"news"
 ---
-Source code for **version 2023.04.112** has been made available and is based on Chromium 112.0.5615.121.   
+Source code for version **2023.04.112** has been made available and is based on Chromium 112.0.5615.121.   
 
 New builds to follow.
 
